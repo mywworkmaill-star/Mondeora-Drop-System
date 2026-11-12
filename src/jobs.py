@@ -285,7 +285,8 @@ def job_link_verify():
     """Read-only AliExpress<->eBay link verification -> data/link_verification_latest.json."""
     import subprocess
     proc = subprocess.run([sys.executable, str(ROOT / 'verify_aliexpress_links_readonly.py')],
-                          capture_output=True, text=True, timeout=1500, cwd=str(ROOT))
+                          capture_output=True, text=True, timeout=1500, cwd=str(ROOT),
+                          stdin=subprocess.DEVNULL)
     report = {}
     try:
         report = json.loads((ROOT / 'data/link_verification_latest.json').read_text(encoding='utf-8'))
