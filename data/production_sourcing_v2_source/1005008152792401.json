@@ -1,0 +1,719 @@
+{
+  "observed_at": "2026-11-06T19:43:29.735932+00:00",
+  "source": "aliexpress.ds.product.get",
+  "result": {
+    "ae_item_sku_info_dtos": {
+      "ae_item_sku_info_d_t_o": [
+        {
+          "sku_attr": "14:193;200007763:201336106",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000059767927871",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "84.26",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 47,
+          "id": "14:193;200007763:201336106",
+          "sku_bulk_order": 2,
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "schwarz",
+                "sku_image": "https://ae01.alicdn.com/kf/Sf8529afc08474b178c9b88509034a9fbe.png",
+                "sku_property_name": "Farbe",
+                "property_value_id": 193,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "Vereinigte Staaten",
+                "sku_property_name": "Versand aus",
+                "property_value_id": 201336106,
+                "sku_property_id": 200007763
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:193;200007763:201336342",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000059767927870",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "84.26",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 47,
+          "id": "14:193;200007763:201336342",
+          "sku_bulk_order": 2,
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "schwarz",
+                "sku_image": "https://ae01.alicdn.com/kf/Sf8529afc08474b178c9b88509034a9fbe.png",
+                "sku_property_name": "Farbe",
+                "property_value_id": 193,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "Frankreich",
+                "sku_property_name": "Versand aus",
+                "property_value_id": 201336342,
+                "sku_property_id": 200007763
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:350853;200007763:201336106",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000059767927869",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "84.26",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 0,
+          "id": "14:350853;200007763:201336106",
+          "sku_bulk_order": 2,
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Silber",
+                "sku_image": "https://ae01.alicdn.com/kf/S69978aab3a24475d9f2e39f43ee166003.png",
+                "sku_property_name": "Farbe",
+                "property_value_id": 350853,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "Vereinigte Staaten",
+                "sku_property_name": "Versand aus",
+                "property_value_id": 201336106,
+                "sku_property_id": 200007763
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:350853;200007763:201336342",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000059767927868",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "84.26",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 0,
+          "id": "14:350853;200007763:201336342",
+          "sku_bulk_order": 2,
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Silber",
+                "sku_image": "https://ae01.alicdn.com/kf/S69978aab3a24475d9f2e39f43ee166003.png",
+                "sku_property_name": "Farbe",
+                "property_value_id": 350853,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "Frankreich",
+                "sku_property_name": "Versand aus",
+                "property_value_id": 201336342,
+                "sku_property_id": 200007763
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:350850#Laptop;200007763:201336106",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000059767927867",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "84.26",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 50,
+          "id": "14:350850#Laptop;200007763:201336106",
+          "sku_bulk_order": 2,
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Gold",
+                "sku_image": "https://ae01.alicdn.com/kf/S8a4a452356dc462fb9958ce859864e57n.png",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "Laptop",
+                "property_value_id": 350850,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "Vereinigte Staaten",
+                "sku_property_name": "Versand aus",
+                "property_value_id": 201336106,
+                "sku_property_id": 200007763
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:350850#Laptop;200007763:201336342",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000059767927866",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "84.26",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 50,
+          "id": "14:350850#Laptop;200007763:201336342",
+          "sku_bulk_order": 2,
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Gold",
+                "sku_image": "https://ae01.alicdn.com/kf/S8a4a452356dc462fb9958ce859864e57n.png",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "Laptop",
+                "property_value_id": 350850,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "Frankreich",
+                "sku_property_name": "Versand aus",
+                "property_value_id": 201336342,
+                "sku_property_id": 200007763
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:193;200007763:201336100",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000045555203099",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "84.26",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 47,
+          "id": "14:193;200007763:201336100",
+          "sku_bulk_order": 2,
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "schwarz",
+                "sku_image": "https://ae01.alicdn.com/kf/Sf8529afc08474b178c9b88509034a9fbe.png",
+                "sku_property_name": "Farbe",
+                "property_value_id": 193,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "China Mainland",
+                "sku_property_name": "Versand aus",
+                "property_value_id": 201336100,
+                "sku_property_id": 200007763
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:350853;200007763:201336103",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000045555203098",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "84.26",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 40,
+          "id": "14:350853;200007763:201336103",
+          "sku_bulk_order": 2,
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Silber",
+                "sku_image": "https://ae01.alicdn.com/kf/S69978aab3a24475d9f2e39f43ee166003.png",
+                "sku_property_name": "Farbe",
+                "property_value_id": 350853,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "Russische Föderation",
+                "sku_property_name": "Versand aus",
+                "property_value_id": 201336103,
+                "sku_property_id": 200007763
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:350850#Laptop;200007763:201336103",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000051673171172",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "84.26",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 150,
+          "id": "14:350850#Laptop;200007763:201336103",
+          "sku_bulk_order": 2,
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Gold",
+                "sku_image": "https://ae01.alicdn.com/kf/S8a4a452356dc462fb9958ce859864e57n.png",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "Laptop",
+                "property_value_id": 350850,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "Russische Föderation",
+                "sku_property_name": "Versand aus",
+                "property_value_id": 201336103,
+                "sku_property_id": 200007763
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:350853;200007763:201336100",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000045555203097",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "84.26",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 8,
+          "id": "14:350853;200007763:201336100",
+          "sku_bulk_order": 2,
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Silber",
+                "sku_image": "https://ae01.alicdn.com/kf/S69978aab3a24475d9f2e39f43ee166003.png",
+                "sku_property_name": "Farbe",
+                "property_value_id": 350853,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "China Mainland",
+                "sku_property_name": "Versand aus",
+                "property_value_id": 201336100,
+                "sku_property_id": 200007763
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:29#Magnetic;200007763:201336100",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000047147140028",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "84.26",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 1,
+          "id": "14:29#Magnetic;200007763:201336100",
+          "sku_bulk_order": 2,
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "WEISS",
+                "sku_image": "https://ae01.alicdn.com/kf/S2ffa42f3be4a42f3a644f95667b46d3di.png",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "Magnetic",
+                "property_value_id": 29,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "China Mainland",
+                "sku_property_name": "Versand aus",
+                "property_value_id": 201336100,
+                "sku_property_id": 200007763
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:29#Magnetic;200007763:201336103",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000047147140029",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "84.26",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 40,
+          "id": "14:29#Magnetic;200007763:201336103",
+          "sku_bulk_order": 2,
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "WEISS",
+                "sku_image": "https://ae01.alicdn.com/kf/S2ffa42f3be4a42f3a644f95667b46d3di.png",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "Magnetic",
+                "property_value_id": 29,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "Russische Föderation",
+                "sku_property_name": "Versand aus",
+                "property_value_id": 201336103,
+                "sku_property_id": 200007763
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:29#Magnetic;200007763:201336101",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000050316458306",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "84.26",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 33,
+          "id": "14:29#Magnetic;200007763:201336101",
+          "sku_bulk_order": 2,
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "WEISS",
+                "sku_image": "https://ae01.alicdn.com/kf/S2ffa42f3be4a42f3a644f95667b46d3di.png",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "Magnetic",
+                "property_value_id": 29,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "Deutschland",
+                "sku_property_name": "Versand aus",
+                "property_value_id": 201336101,
+                "sku_property_id": 200007763
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:193;200007763:201336101",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000050316458305",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "84.26",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 28,
+          "id": "14:193;200007763:201336101",
+          "sku_bulk_order": 2,
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "schwarz",
+                "sku_image": "https://ae01.alicdn.com/kf/Sf8529afc08474b178c9b88509034a9fbe.png",
+                "sku_property_name": "Farbe",
+                "property_value_id": 193,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "Deutschland",
+                "sku_property_name": "Versand aus",
+                "property_value_id": 201336101,
+                "sku_property_id": 200007763
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:350850#Laptop;200007763:201336101",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000051673171171",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "84.26",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 30,
+          "id": "14:350850#Laptop;200007763:201336101",
+          "sku_bulk_order": 2,
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Gold",
+                "sku_image": "https://ae01.alicdn.com/kf/S8a4a452356dc462fb9958ce859864e57n.png",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "Laptop",
+                "property_value_id": 350850,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "Deutschland",
+                "sku_property_name": "Versand aus",
+                "property_value_id": 201336101,
+                "sku_property_id": 200007763
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:29#Magnetic;200007763:201336106",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000059767927873",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "84.26",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 0,
+          "id": "14:29#Magnetic;200007763:201336106",
+          "sku_bulk_order": 2,
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "WEISS",
+                "sku_image": "https://ae01.alicdn.com/kf/S2ffa42f3be4a42f3a644f95667b46d3di.png",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "Magnetic",
+                "property_value_id": 29,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "Vereinigte Staaten",
+                "sku_property_name": "Versand aus",
+                "property_value_id": 201336106,
+                "sku_property_id": 200007763
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:193;200007763:201336103",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000045555203100",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "84.26",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 17,
+          "id": "14:193;200007763:201336103",
+          "sku_bulk_order": 2,
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "schwarz",
+                "sku_image": "https://ae01.alicdn.com/kf/Sf8529afc08474b178c9b88509034a9fbe.png",
+                "sku_property_name": "Farbe",
+                "property_value_id": 193,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "Russische Föderation",
+                "sku_property_name": "Versand aus",
+                "property_value_id": 201336103,
+                "sku_property_id": 200007763
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:350853;200007763:201336101",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000050316458304",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "84.26",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 38,
+          "id": "14:350853;200007763:201336101",
+          "sku_bulk_order": 2,
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Silber",
+                "sku_image": "https://ae01.alicdn.com/kf/S69978aab3a24475d9f2e39f43ee166003.png",
+                "sku_property_name": "Farbe",
+                "property_value_id": 350853,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "Deutschland",
+                "sku_property_name": "Versand aus",
+                "property_value_id": 201336101,
+                "sku_property_id": 200007763
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:350850#Laptop;200007763:201336100",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000051673171170",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "84.26",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 50,
+          "id": "14:350850#Laptop;200007763:201336100",
+          "sku_bulk_order": 2,
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Gold",
+                "sku_image": "https://ae01.alicdn.com/kf/S8a4a452356dc462fb9958ce859864e57n.png",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "Laptop",
+                "property_value_id": 350850,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "China Mainland",
+                "sku_property_name": "Versand aus",
+                "property_value_id": 201336100,
+                "sku_property_id": 200007763
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:29#Magnetic;200007763:201336342",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000059767927872",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "84.26",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 0,
+          "id": "14:29#Magnetic;200007763:201336342",
+          "sku_bulk_order": 2,
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "WEISS",
+                "sku_image": "https://ae01.alicdn.com/kf/S2ffa42f3be4a42f3a644f95667b46d3di.png",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "Magnetic",
+                "property_value_id": 29,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "Frankreich",
+                "sku_property_name": "Versand aus",
+                "property_value_id": 201336342,
+                "sku_property_id": 200007763
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "ae_multimedia_info_dto": {
+      "ae_video_dtos": {
+        "ae_video_d_t_o": [
+          {
+            "media_status": "approved",
+            "media_type": "video",
+            "poster_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sf96e090ec3714e23a337ab8b21b8bf13i.jpg",
+            "ali_member_id": 2679315578,
+            "media_id": 5000225832199,
+            "media_url": "https://video.aliexpress-media.com/play/5000225832199.mp4"
+          }
+        ]
+      },
+      "image_urls": "https://ae01.alicdn.com/kf/S69978aab3a24475d9f2e39f43ee166003.png;https://ae01.alicdn.com/kf/S106440829e04463f994e980ad66a227ap.jpg;https://ae01.alicdn.com/kf/S3d1fdc981c7f4e919b0bb9c876bd303fD.jpg;https://ae01.alicdn.com/kf/S67d8f163c34743078fb597c68f67e1ddJ.png;https://ae01.alicdn.com/kf/S2e847c7f06ba439d9fa1cb6a5a248c9bS.png;https://ae01.alicdn.com/kf/Sca27cffad303436fae71e98b9c9757f5h.png"
+    },
+    "package_info_dto": {
+      "package_width": 26,
+      "package_height": 6,
+      "package_length": 30,
+      "gross_weight": "1.000",
+      "package_type": false,
+      "product_unit": 100000015
+    },
+    "logistics_info_dto": {
+      "delivery_time": 7,
+      "ship_to_country": "DE"
+    },
+    "product_id_converter_result": {
+      "main_product_id": 1005008152792401,
+      "sub_product_id": "{\"US\":3256807966477649}"
+    },
+    "ae_item_base_info_dto": {
+      "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Se639a874a3ca43a3a7659b7caf574538M.jpg\",\"style\":{\"width\":1920,\"height\":1080}}},{\"type\":\"text\",\"data\":{\"content\":\"Spezifikationen:\",\"style\":{\"color\":\"#fd384f\"}}},{\"type\":\"text\",\"data\":{\"content\":\"【Einzigartige Schrauben】 – Wir haben das Problem der konventionellen Halterung aufgelöst, die eine separate Installation von Schrauben erfordern.Das Problem von Schrauben lösen und verlieren, unsere Schrauben sind mit der Halterung integriert und können leicht gepresst und gedreht werden, geeignet für 75*75mm M4 Schraubenlöcher.\\n\\n【Ausgezeichnete Tragfähigkeit】 – Dieser langlebige tragbare Monitorständer besteht aus hochwertigem Aluminiummetall und bietet Platz für 3 kg große Tablets und die meisten tragbaren Monitoren von 10 bis 17,3.\\n\\n【360 Grad drehbare Basis】 – Der Standarm kann horizontal und vertikal angepasst werden, müssen Sie einfach die gewünschte Höhe und die gewünschte Position einfach anzupassen.Die Basis- und Armgelenke können gedreht werden.\\n\\n【Ausgezeichnete Dämpfung】 – Das bewegliche Teil unserer Halterung verfügt über eine hervorragende Dämpfung, also keine Situation wird, wo sie nicht mit dem Monitor für eine lange Zeit zu transportieren unterstützt.\\n\\n【Ein Jahr Garantie】 – AliExpress bietet kostenlose Rückgabe. Es kommt mit einer einjährigen Garantie.\\n\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Schnittstelle:\",\"style\":{\"color\":\"#fd384f\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Geeignet für 75 * 75 mm VESA M4 Schraubenschnittstelle.\\n\\nDer hervorstehende Teil der Schraube kann 5 mm gepresst werden​.\\n\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Was in der Box:\",\"style\":{\"color\":\"#fd384f\"}}},{\"type\":\"text\",\"data\":{\"content\":\"\\n1* Ständer\\n\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"VSEA 75*75mm Ständer\",\"style\":{\"color\":\"#0266f4\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S67d8f163c34743078fb597c68f67e1ddJ.png\",\"style\":{\"width\":1000,\"height\":1400,\"paddingBottom\":10}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S7d1a31aaa0b64eb49e9dfd212190ca2ak.jpg\",\"style\":{\"width\":1000,\"height\":1600}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sdbed198ac2a1402d96f1aaedcb505abbp.jpg\",\"style\":{\"width\":1000,\"height\":1225}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sb273a3ce89c14a0d87f0a7be28d229ccY.jpg\",\"style\":{\"width\":1000,\"height\":1225}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sd71be4b4e38d4999acefa1512779a2ce5.jpg\",\"style\":{\"width\":1000,\"height\":1600}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S5f38e5ad338f45c2b94291273bc6722a0.jpg\",\"style\":{\"width\":1000,\"height\":1266}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sf8529afc08474b178c9b88509034a9fbe.png\",\"style\":{\"width\":1600,\"height\":1600,\"paddingBottom\":10}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S69978aab3a24475d9f2e39f43ee166003.png\",\"style\":{\"width\":1600,\"height\":1600,\"paddingBottom\":10}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S2c0483ba57fd4f17899fe417d9ea4187P.png\",\"style\":{\"width\":1600,\"height\":1600,\"paddingBottom\":10}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S0b3b63b0b8f74d8d9c96598b77c6f329T.png\",\"style\":{\"width\":1600,\"height\":1600,\"paddingBottom\":10}}},{\"type\":\"text\",\"data\":{\"content\":\"Magnetischer Ständer\",\"style\":{\"color\":\"#0266f4\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sd72ea9ea1f3443a0a038b4d587e765e7u.png\",\"style\":{\"width\":1000,\"height\":1161}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S7c37b7bcc787478d9edd0ed2af3433ffR.png\",\"style\":{\"width\":1000,\"height\":1391}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S4e9623f99cad4ec492936d62beceb194w.png\",\"style\":{\"width\":1000,\"height\":1431}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sec06b753a0bd4f449512e8381c807c70L.png\",\"style\":{\"width\":1000,\"height\":1347}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S5d5ba7ca49b54bffa138d6fec19a1742B.png\",\"style\":{\"width\":1000,\"height\":1347}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/See84d51cf3544a2f95c2c899a2b02b3ef.png\",\"style\":{\"width\":1000,\"height\":1347}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S219f747bb58848a79c5de151a5f45e2e0.png\",\"style\":{\"width\":1000,\"height\":1227}}},{\"type\":\"text\",\"data\":{\"content\":\"Laptopständer\",\"style\":{\"color\":\"#0266f4\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S74d6dd9fadcd44288b66a87a28eeb4bet.png\",\"style\":{\"width\":1000,\"height\":1479}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sd279bfb07dff4ae3b07758631a55e3b1G.png\",\"style\":{\"width\":1000,\"height\":1600}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S477d5d71cd40418d83eb305acd8e9a0bD.png\",\"style\":{\"width\":1000,\"height\":1614}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sb2b2ec6af79d4d418bbc84803390a005g.png\",\"style\":{\"width\":1000,\"height\":1614}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Se3bafb6cb2e440f9ac5ec622a9de0342j.png\",\"style\":{\"width\":1000,\"height\":1614}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S8e5ac3ae52744a978318e82cd08f3279E.png\",\"style\":{\"width\":1000,\"height\":1446}}}]}",
+      "subject": "Ständer aus Aluminiumlegierung für tragbare Monitortischhalterung, verstellbare 360-Grad-Drehung, M4-Schraubsockel, starke Tragfähigkeit, super stabil",
+      "evaluation_count": "90",
+      "sales_count": "172",
+      "product_status_type": "onSelling",
+      "avg_evaluation_rating": "5.0",
+      "separated_listing": false,
+      "currency_code": "CNY",
+      "sl_product": false,
+      "category_id": 200001108,
+      "product_id": 1005008152792401,
+      "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"> <div> \n <img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Se639a874a3ca43a3a7659b7caf574538M.jpg\" slate-data-type=\"image\" /> \n <br /> \n</div> <p style=\"text-align:left;margin:5pt 0pt;margin-bottom:5pt;margin-top:5pt;margin-left:0pt;margin-right:0pt\" class=\"MsoNormal\" align=\"left\"><span style=\"color:rgb(244, 78, 59);font-size:20pt;font-family:&quot;Segoe UI Semibold&quot;\" id=\"tl_1\">Spezifikationen:</span></p> <p style=\"text-align:left;margin:5pt 0pt;margin-bottom:5pt;margin-top:5pt;margin-left:0pt;margin-right:0pt\" class=\"MsoNormal\" align=\"left\"><span style=\"color:rgb(45, 84, 160);font-size:10.5pt;font-family:&quot;Segoe UI Semibold&quot;\" id=\"tl_2\">【Einzigartige Schrauben】</span><span style=\"color:rgb(91, 69, 65);font-size:10.5pt;font-family:&quot;Segoe UI Semibold&quot;\" id=\"tl_3\">- Wir haben das Problem der herk&ouml;mmlichen Halterung gel&ouml;st, die eine separate Montage von Schrauben erfordert.Wir haben das Problem gel&ouml;st, dass Schrauben herunterfallen und verloren gehen, sind unsere Schrauben in die Halterung integriert und k&ouml;nnen leicht gedr&uuml;ckt und gedreht werden, geeignet f&uuml;r 75 x 75 mm M4-Schraubenl&ouml;cher.</span></p> <div> \n <br /> \n</div> <p style=\"text-align:left;margin:5pt 0pt;margin-bottom:5pt;margin-top:5pt;margin-left:0pt;margin-right:0pt\" class=\"MsoNormal\" align=\"left\"><span style=\"color:rgb(45, 84, 160);font-size:10.5pt;font-family:&quot;Segoe UI Semibold&quot;\" id=\"tl_4\">【Hervorragende Tragf&auml;higkeit】</span><span style=\"color:rgb(91, 69, 65);font-size:10.5pt;font-family:&quot;Segoe UI Semibold&quot;\" id=\"tl_5\">„- Dieser langlebige tragbare Monitorst&auml;nder besteht aus hochwertigem Aluminiummetall und kann 3 kg gro&szlig;e Tablets und die meisten tragbaren Monitore von 10 bis 17,3 Zoll tragen.“</span></p> <div> \n <br /> \n</div> <p style=\"text-align:left;margin:5pt 0pt;margin-bottom:5pt;margin-top:5pt;margin-left:0pt;margin-right:0pt\" class=\"MsoNormal\" align=\"left\"><span style=\"color:rgb(45, 84, 160);font-size:10.5pt;font-family:&quot;Segoe UI Semibold&quot;\" id=\"tl_6\">【360 Grad drehbare Basis】</span><span style=\"color:rgb(91, 69, 65);font-size:10.5pt;font-family:&quot;Segoe UI Semibold&quot;\" id=\"tl_7\">- Der Standarm l&auml;sst sich horizontal und vertikal verstellen, sodass Sie die gew&uuml;nschte H&ouml;he und Position ganz einfach in jedem gew&uuml;nschten Winkel einstellen k&ouml;nnen.Die Basis- und Armgelenke k&ouml;nnen gedreht werden.</span></p> <div> \n <br /> \n</div> <p style=\"text-align:left;margin:5pt 0pt;margin-bottom:5pt;margin-top:5pt;margin-left:0pt;margin-right:0pt\" class=\"MsoNormal\" align=\"left\"><span style=\"color:rgb(45, 84, 160);font-size:10.5pt;font-family:&quot;Segoe UI Semibold&quot;\" id=\"tl_8\">【Hervorragende D&auml;mpfung】</span><span style=\"color:rgb(91, 69, 65);font-size:10.5pt;font-family:&quot;Segoe UI Semibold&quot;\" id=\"tl_9\">- Das bewegliche Teil unserer Halterung weist eine hervorragende D&auml;mpfung auf, sodass es aufgrund des langen Transports des Monitors keine Situation gibt, in der es nicht unterst&uuml;tzt werden kann.</span></p> <div> \n <br /> \n</div> <p style=\"text-align:left;margin:5pt 0pt;margin-bottom:5pt;margin-top:5pt;margin-left:0pt;margin-right:0pt\" class=\"MsoNormal\" align=\"left\"><span style=\"color:rgb(45, 84, 160);font-size:10.5pt;font-family:&quot;Segoe UI Semibold&quot;\" id=\"tl_10\">【Ein Jahr Garantie】</span><span style=\"color:rgb(91, 69, 65);font-size:10.5pt;font-family:&quot;Segoe UI Semibold&quot;\" id=\"tl_11\">- AliExpress bietet kostenlose R&uuml;cksendungen an. Es gilt eine einj&auml;hrige Garantie.</span></p> <div> \n <br /> \n</div> <p style=\"text-align:left;margin:5pt 0pt;margin-bottom:5pt;margin-top:5pt;margin-left:0pt;margin-right:0pt\" class=\"MsoNormal\" align=\"left\"><span style=\"color:rgb(244, 78, 59);font-size:20pt;font-family:&quot;Segoe UI Semibold&quot;\" id=\"tl_12\">Schnittstelle:</span></p> <p style=\"text-align:left;margin:5pt 0pt;margin-bottom:5pt;margin-top:5pt;margin-left:0pt;margin-right:0pt\" class=\"MsoNormal\" align=\"left\"><span style=\"color:rgb(91, 69, 65);font-size:10.5pt;font-family:&quot;Segoe UI Semibold&quot;\" id=\"tl_13\">Geeignet f&uuml;r 75 * 75 mm M4 VESA-Schraubschnittstelle.</span></p> <p style=\"text-align:left;margin:5pt 0pt;margin-bottom:5pt;margin-top:5pt;margin-left:0pt;margin-right:0pt\" class=\"MsoNormal\" align=\"left\"><span style=\"color:rgb(91, 69, 65);font-size:10.5pt;font-family:&quot;Segoe UI Semibold&quot;\" id=\"tl_14\">Der hervorstehende Teil der Schraube kann 5 mm gedr&uuml;ckt werden.</span></p> <div> \n <br /> \n</div> <p style=\"text-align:left;margin:5pt 0pt;margin-bottom:5pt;margin-top:5pt;margin-left:0pt;margin-right:0pt\" class=\"MsoNormal\" align=\"left\"><span style=\"color:rgb(244, 78, 59);font-size:20pt;font-family:&quot;Segoe UI Semibold&quot;\" id=\"tl_15\">Was ist in der Box:</span></p> <p style=\"text-align:left;margin:5pt 0pt;margin-bottom:5pt;margin-top:5pt;margin-left:0pt;margin-right:0pt\" class=\"MsoNormal\" align=\"left\"><span style=\"color:rgb(91, 69, 65);font-size:10.5pt;font-family:&quot;Segoe UI Semibold&quot;\" id=\"tl_16\">1 * St&auml;nder</span></p> <div> \n <img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S67d8f163c34743078fb597c68f67e1ddJ.png\" slate-data-type=\"image\" /> \n <br /> \n</div> <p><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sdbed198ac2a1402d96f1aaedcb505abbp.jpg?width=1000&amp;height=1225&amp;hash=2225\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sb273a3ce89c14a0d87f0a7be28d229ccY.jpg?width=1000&amp;height=1225&amp;hash=2225\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sd71be4b4e38d4999acefa1512779a2ce5.jpg?width=1000&amp;height=1600&amp;hash=2600\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S5f38e5ad338f45c2b94291273bc6722a0.jpg?width=1000&amp;height=1266&amp;hash=2266\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S7d1a31aaa0b64eb49e9dfd212190ca2ak.jpg?width=1000&amp;height=1600&amp;hash=2600\" slate-data-type=\"image\" /></p> <p><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S69978aab3a24475d9f2e39f43ee166003.png\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sf8529afc08474b178c9b88509034a9fbe.png\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S0b3b63b0b8f74d8d9c96598b77c6f329T.png\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S2c0483ba57fd4f17899fe417d9ea4187P.png\" slate-data-type=\"image\" /></p><p><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sd72ea9ea1f3443a0a038b4d587e765e7u.png\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S7c37b7bcc787478d9edd0ed2af3433ffR.png\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S4e9623f99cad4ec492936d62beceb194w.png\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sec06b753a0bd4f449512e8381c807c70L.png\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/See84d51cf3544a2f95c2c899a2b02b3ef.png\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S219f747bb58848a79c5de151a5f45e2e0.png\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S5d5ba7ca49b54bffa138d6fec19a1742B.png\" slate-data-type=\"image\" /><br /></p></div></div>\r\n"
+    },
+    "manufacturer_info": {
+      "address": "A609, Jieshun Technology Center, No. 5 Guansheng 2nd Road, Luhu Community, Guanhu Street, Longhua District, Shenzhen,Guangdong Province",
+      "phone": "13977592976",
+      "country_name": "China",
+      "email": "Unew@luckdisplay.com",
+      "phone_prefix": "86"
+    },
+    "has_whole_sale": true,
+    "ae_item_properties": {
+      "ae_item_property": [
+        {
+          "attr_name_id": 2,
+          "attr_value_id": 174414900,
+          "attr_name": "Markenname",
+          "attr_value": "UNEW"
+        },
+        {
+          "attr_name_id": 232970110,
+          "attr_value_id": 23399554847,
+          "attr_name": "Länge verstellbar",
+          "attr_value": "Nein"
+        },
+        {
+          "attr_name_id": 400092221,
+          "attr_value_id": 8390206,
+          "attr_name": "Bewegungsart",
+          "attr_value": "drehbar"
+        },
+        {
+          "attr_name_id": 219,
+          "attr_value_id": 9441741844,
+          "attr_name": "Ursprung",
+          "attr_value": "CN (Herkunft)"
+        },
+        {
+          "attr_name_id": 200000572,
+          "attr_value_id": 202876806,
+          "attr_name": "Anwendung Laptop-Größe",
+          "attr_value": "13\"-24\""
+        },
+        {
+          "attr_name_id": 400000603,
+          "attr_value_id": 23399591357,
+          "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+          "attr_value": "Keine"
+        },
+        {
+          "attr_name_id": 400041025,
+          "attr_value_id": -1,
+          "attr_name": "Tischplattenstärke",
+          "attr_value": "2cm"
+        },
+        {
+          "attr_name_id": 3,
+          "attr_value_id": -1,
+          "attr_name": "Modellnummer",
+          "attr_value": "CX360-Stand-Black-Magnetic"
+        },
+        {
+          "attr_name_id": 200000941,
+          "attr_value_id": 350216,
+          "attr_name": "Verpackung",
+          "attr_value": "Ja"
+        }
+      ]
+    },
+    "ae_store_info": {
+      "store_id": 1103200470,
+      "shipping_speed_rating": "4.9",
+      "communication_rating": "4.8",
+      "store_name": "Unew Monitor Store",
+      "store_country_code": "CN",
+      "item_as_described_rating": "4.7"
+    }
+  }
+}

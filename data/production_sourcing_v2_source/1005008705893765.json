@@ -1,0 +1,178 @@
+{
+  "observed_at": "2026-11-06T19:43:52.332286+00:00",
+  "source": "aliexpress.ds.product.get",
+  "result": {
+    "ae_item_sku_info_dtos": {
+      "ae_item_sku_info_d_t_o": [
+        {
+          "sku_attr": "14:200001951#bronze",
+          "offer_sale_price": "10.19",
+          "sku_id": "12000046327201730",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "10.19",
+          "offer_bulk_sale_price": "10.19",
+          "sku_available_stock": 89,
+          "id": "14:200001951#bronze",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Champagner",
+                "sku_image": "https://ae01.alicdn.com/kf/S8b4f4d1645df4fa6ac79f9e7d98f806bu.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "bronze",
+                "property_value_id": 200001951,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:193#black",
+          "offer_sale_price": "10.29",
+          "sku_id": "12000046327201728",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "10.29",
+          "offer_bulk_sale_price": "10.29",
+          "sku_available_stock": 4,
+          "id": "14:193#black",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "schwarz",
+                "sku_image": "https://ae01.alicdn.com/kf/Sb58caea56c79447dbd4de26228db2f3dL.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "black",
+                "property_value_id": 193,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:29#WHITE",
+          "offer_sale_price": "9.01",
+          "sku_id": "12000046327201729",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "9.01",
+          "offer_bulk_sale_price": "9.01",
+          "sku_available_stock": 84,
+          "id": "14:29#WHITE",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "WEISS",
+                "sku_image": "https://ae01.alicdn.com/kf/Sbad16743587942c29e36f494a0a2a8c1Y.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "WHITE",
+                "property_value_id": 29,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "ae_multimedia_info_dto": {
+      "image_urls": "https://ae01.alicdn.com/kf/Sbad16743587942c29e36f494a0a2a8c1Y.jpg;https://ae01.alicdn.com/kf/Sbd20afa26f4a45719ba4f79dda8306ffB.jpg;https://ae01.alicdn.com/kf/Scd2295d5657e4540ad4336c40a9357f03.jpg;https://ae01.alicdn.com/kf/Sb58caea56c79447dbd4de26228db2f3dL.jpg;https://ae01.alicdn.com/kf/Sc9c2b54a1599427aa254b793d5cef9c6m.jpg;https://ae01.alicdn.com/kf/Sd0bc9bcc565241f5bdaea1144c90d9a9z.jpg"
+    },
+    "package_info_dto": {
+      "package_width": 25,
+      "package_height": 13,
+      "package_length": 25,
+      "gross_weight": "0.290",
+      "package_type": false,
+      "product_unit": 100000015
+    },
+    "logistics_info_dto": {
+      "delivery_time": 7,
+      "ship_to_country": "DE"
+    },
+    "product_id_converter_result": {
+      "main_product_id": 1005008705893765,
+      "sub_product_id": "{\"US\":3256808519579013}"
+    },
+    "ae_item_base_info_dto": {
+      "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sbad16743587942c29e36f494a0a2a8c1Y.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sbd20afa26f4a45719ba4f79dda8306ffB.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Scd2295d5657e4540ad4336c40a9357f03.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sb58caea56c79447dbd4de26228db2f3dL.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sc9c2b54a1599427aa254b793d5cef9c6m.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sd0bc9bcc565241f5bdaea1144c90d9a9z.jpg\",\"style\":{\"width\":800,\"height\":800}}}]}",
+      "subject": "Hoher Pflanzenständer aus Metall, Blumentopfhalter, robuster Pflanzenständer aus Gusseisen, hoher Vintage-Blumentopfhalter für Innen- und Außenpflanzen",
+      "evaluation_count": "7",
+      "sales_count": "18",
+      "product_status_type": "onSelling",
+      "avg_evaluation_rating": "4.7",
+      "separated_listing": false,
+      "currency_code": "CNY",
+      "sl_product": false,
+      "category_id": 200287145,
+      "product_id": 1005008705893765,
+      "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_dynamic\"> \n <kse:widget data-widget-type=\"customText\" id=\"1005000024023613\" type=\"relation\"></kse:widget> \n</div><img src=\"https://ae01.alicdn.com/kf/Sbad16743587942c29e36f494a0a2a8c1Y.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/Sbd20afa26f4a45719ba4f79dda8306ffB.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/Scd2295d5657e4540ad4336c40a9357f03.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/Sb58caea56c79447dbd4de26228db2f3dL.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/Sc9c2b54a1599427aa254b793d5cef9c6m.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/Sd0bc9bcc565241f5bdaea1144c90d9a9z.jpg\" slate-data-type=\"image\" /><p><br /></p></div></div>\r\n"
+    },
+    "manufacturer_info": {
+      "address": "Room 4010, Area B, Floor 4, Building 6, 800 Jiahao Road, Nanxiang town, Jiading Distr\nict, Shanghai",
+      "phone": "17301899975",
+      "country_name": "China",
+      "email": "774361575@qq.com",
+      "phone_prefix": "86"
+    },
+    "has_whole_sale": false,
+    "ae_item_properties": {
+      "ae_item_property": [
+        {
+          "attr_name_id": 2,
+          "attr_value_id": 201512802,
+          "attr_name": "Markenname",
+          "attr_value": "NONE"
+        },
+        {
+          "attr_name_id": 906,
+          "attr_value_id": 352913,
+          "attr_name": "Rahmenmaterial",
+          "attr_value": "Metall"
+        },
+        {
+          "attr_name_id": 400000603,
+          "attr_value_id": 23399591357,
+          "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+          "attr_value": "Keine"
+        },
+        {
+          "attr_name_id": 219,
+          "attr_value_id": 9441741844,
+          "attr_name": "Ursprung",
+          "attr_value": "CN (Herkunft)"
+        },
+        {
+          "attr_name_id": 200007025,
+          "attr_value_id": 200844193,
+          "attr_name": "Installationsmethode",
+          "attr_value": "Freistehend"
+        },
+        {
+          "attr_name_id": 10,
+          "attr_value_id": 398,
+          "attr_name": "Material",
+          "attr_value": "Metall"
+        },
+        {
+          "attr_name_id": -1,
+          "attr_name": "Choice",
+          "attr_value": "yes"
+        },
+        {
+          "attr_name_id": -2,
+          "attr_name": "semi_Choice",
+          "attr_value": "yes"
+        }
+      ]
+    },
+    "ae_store_info": {
+      "store_id": 5797817,
+      "shipping_speed_rating": "4.5",
+      "communication_rating": "4.3",
+      "store_name": "Yearn Home Store",
+      "store_country_code": "CN",
+      "item_as_described_rating": "4.3"
+    }
+  }
+}

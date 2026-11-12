@@ -1,0 +1,24 @@
+{
+  "product_id": "1005007369511923",
+  "sku_id": "12000040462443149",
+  "reviewed_png_sha256": "996bfeac27262ddb7b7aab597d04e5a008b151200e43d847256105572349887a",
+  "reviewer": "agent_visual_review",
+  "observed_at": "2026-11-06T10:28:35.481248+00:00",
+  "asset": {
+    "file": "data/product_images/ebay_png_1600x1600/1005007369511923/005_5e5e0d6bef49.png",
+    "sha256": "996bfeac27262ddb7b7aab597d04e5a008b151200e43d847256105572349887a",
+    "product_id": "1005007369511923",
+    "sku_id": "12000040462443149",
+    "match_basis": "scoped_visual_review"
+  },
+  "source_sku_attr": "5:200000990#100PCS",
+  "source": "Current aliexpress.ds.product.get selected SKU plus visual inspection of the 16 source images",
+  "visible_findings": [
+    "One pale plant clip fastening a green plant stem; no visible package-count text or dimension annotation in selected image",
+    "Excluded main image 001 because it visibly states 500PCS while selected SKU states 100PCS"
+  ],
+  "limitations": [
+    "Photo shows product detail, not evidence that 100 pieces are physically in a shipment",
+    "No inference about verified dimensions, material, manufacturer, safety or image rights"
+  ]
+}

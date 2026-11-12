@@ -1,0 +1,168 @@
+{
+  "observed_at": "2026-11-06T19:43:39.389897+00:00",
+  "source": "aliexpress.ds.product.get",
+  "result": {
+    "ae_item_sku_info_dtos": {
+      "ae_item_sku_info_d_t_o": [
+        {
+          "sku_attr": "14:193#Black 7Pcs",
+          "offer_sale_price": "13.69",
+          "sku_id": "12000060010738282",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "29.13",
+          "offer_bulk_sale_price": "13.69",
+          "sku_available_stock": 10,
+          "id": "14:193#Black 7Pcs",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "schwarz",
+                "sku_image": "https://ae01.alicdn.com/kf/S20d9ca2c7c9b4c57b3faed02d3add4cfN.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "Black 7Pcs",
+                "property_value_id": 193,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:100018786#Clear 7Pcs",
+          "offer_sale_price": "13.29",
+          "sku_id": "12000060010738281",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "28.89",
+          "offer_bulk_sale_price": "13.29",
+          "sku_available_stock": 11,
+          "id": "14:100018786#Clear 7Pcs",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Transparent",
+                "sku_image": "https://ae01.alicdn.com/kf/Sc917b114d2f34bba9711f868d7068391e.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "Clear 7Pcs",
+                "property_value_id": 100018786,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "ae_multimedia_info_dto": {
+      "image_urls": "https://ae01.alicdn.com/kf/Sc6f166cf8fbd4d20b4ec5317d33e8d1cB.jpg;https://ae01.alicdn.com/kf/S4a9f1b5efc51407993b5265b1118a84d7.jpg;https://ae01.alicdn.com/kf/Sd1f1a6996a9245d89a7974e32786fa54X.jpg;https://ae01.alicdn.com/kf/Scdf6c9f3d1d844b1a78df47c77d5955cJ.jpg;https://ae01.alicdn.com/kf/S6592d761386a48b6a00b6274098cef8eI.jpg;https://ae01.alicdn.com/kf/Scc7060866ce7424e8b5398ee0e99bf81S.jpg"
+    },
+    "package_info_dto": {
+      "package_width": 17,
+      "package_height": 7,
+      "package_length": 24,
+      "gross_weight": "0.424",
+      "package_type": false,
+      "product_unit": 100000015
+    },
+    "logistics_info_dto": {
+      "delivery_time": 7,
+      "ship_to_country": "DE"
+    },
+    "product_id_converter_result": {
+      "main_product_id": 1005012992485812,
+      "sub_product_id": "{\"US\":3256812806171060}"
+    },
+    "ae_item_base_info_dto": {
+      "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"text\",\"data\":{\"content\":\"【4 verschiedene Größen】 7-teiliger Schubladen-Organizer aus durchsichtigem Kunststoff, ein Set Schubladen-Organizer für den Schminktisch enthält: 8,9″ x 5,9″ (1 Stück), 8,9″ x 3″ (2 Stück), 5,9″ x 2,9″ (2 Stück), 2,9″ x 2,9″ (2 Stück). Einfach kombinierbar und anpassbar an alle Schubladengrößen und -größen. \\r \\n 【Multifunktionale Organisationsbehälter】Passend für alle Arten von Schubladen, wie z.B. Schminktisch-, Badezimmer-, Küchen-, Büroschubladen und Bastelzimmerschubladen, ideal zum Ordnen von Kosmetika, Make-up-Utensilien, Haaraccessoires, Schmuck, Anstecknadeln, Büromaterialien, Bastelzubehör, Utensilien usw. \\r \\n 【Rutschfeste, durchsichtige Organisationsbehälter】mit Anti-Rutsch-Pads, die verhindern, dass sich das Fach beim Öffnen und Schließen der Schublade bewegt. Hergestellt aus strapazierfähigem und durchsichtigem Acryl, sodass Sie sehen können, was sich darin befindet, ohne alles durchwühlen zu müssen, was Ihnen zu einem aufgeräumteren Lebensstil hilft. \\r \\n 【Stapelbare Behälter und platzsparender Schubladen-Organizer】Die Schubladenbehälter können ineinander gestapelt werden, wenn sie nicht verwendet werden, was viel Platz spart und für eine gute Organisation sorgt. Sie helfen Ihnen, einen aufgeräumten Lebensstil zu führen und mehr Freude daran zu haben. \\r \\n 【Machen Sie alles organisiert】Geeignet als Schubladen-Organizer, Organizer für das Schlafzimmer, Schreibtisch-Aufbewahrungsorganizer, Organizer und Aufbewahrung für Studentenwohnheime, durchsichtige Behälter, Acryl-Schreibtisch-Organizer, Aufbewahrungsbehälter für das Badezimmer und wichtige Utensilien für Mädchen im Studentenwohnheim.\",\"style\":{\"fontSize\":13,\"fontWeight\":\"normal\",\"align\":\"left\",\"color\":\"#434649\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S3ba7a4fdcd4040e488a22b43644e75a0F.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Se97a9a3cac214d3b88f1685e3ccf94d6G.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sae9924bb72d34442bfbb5cd10fe31553P.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S53a5997706f54e89b8f73ae1c4950bff3.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S6592d761386a48b6a00b6274098cef8eI.jpg\",\"style\":{\"width\":1000,\"height\":1000}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Scc7060866ce7424e8b5398ee0e99bf81S.jpg\",\"style\":{\"width\":1000,\"height\":1000}}}]}",
+      "subject": "7-teiliges Set durchsichtiger, stapelbarer Schubladen-Organizer, Kunststoff-Trennwände für Kosmetik, Küche, Schreibtisch, Sortierung und Aufbewahrung von Kleinkram",
+      "evaluation_count": "3",
+      "sales_count": "72",
+      "product_status_type": "onSelling",
+      "avg_evaluation_rating": "5.0",
+      "separated_listing": false,
+      "currency_code": "CNY",
+      "sl_product": false,
+      "category_id": 200043145,
+      "product_id": 1005012992485812,
+      "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\">\n <div class=\"detail-desc-decorate-richtext\">\n  <p class=\"word-break white-space mt-10\" style=\"text-align:left;color:#434649;font-size:13px;font-weight:normal;\" id=\"tl_1\">【4 verschiedene Gr&ouml;&szlig;en】 7-teiliger Schubladen-Organizer aus durchsichtigem Kunststoff, ein Set Schubladen-Organizer f&uuml;r den Schminktisch enth&auml;lt: 8,9″ x 5,9″ (1 St&uuml;ck), 8,9″ x 3″ (2 St&uuml;ck), 5,9″ x 2,9″ (2 St&uuml;ck), 2,9″ x 2,9″ (2 St&uuml;ck).Einfach kombinierbar und anpassbar an alle Schubladengr&ouml;&szlig;en und -gr&ouml;&szlig;en. <br /> 【Multifunktionale Organisationsbeh&auml;lter】Passend f&uuml;r alle Arten von Schubladen, wie z.B. Schminktisch-, Badezimmer-, K&uuml;chen-, B&uuml;roschubladen und Bastelzimmerschubladen, ideal zum Ordnen von Kosmetika, Make-up-Utensilien, Haaraccessoires, Schmuck, Anstecknadeln, B&uuml;romaterialien, Bastelzubeh&ouml;r, Utensilien usw. <br /> 【Rutschfeste, durchsichtige Organisationsbeh&auml;lter】mit Anti-Rutsch-Pads, die verhindern, dass sich das Fach beim &Ouml;ffnen und Schlie&szlig;en der Schublade bewegt. Hergestellt aus strapazierf&auml;higem und durchsichtigem Acryl, sodass Sie sehen k&ouml;nnen, was sich darin befindet, ohne alles durchw&uuml;hlen zu m&uuml;ssen, was Ihnen zu einem aufger&auml;umteren Lebensstil hilft. <br /> 【Stapelbare Beh&auml;lter und platzsparender Schubladen-Organizer】Die Schubladenbeh&auml;lter k&ouml;nnen ineinander gestapelt werden, wenn sie nicht verwendet werden, was viel Platz spart und f&uuml;r eine gute Organisation sorgt. Sie helfen Ihnen, einen aufger&auml;umten Lebensstil zu f&uuml;hren und mehr Freude daran zu haben. <br /> 【Machen Sie alles organisiert】Geeignet als Schubladen-Organizer, Organizer f&uuml;r das Schlafzimmer, Schreibtisch-Aufbewahrungsorganizer, Organizer und Aufbewahrung f&uuml;r Studentenwohnheime, durchsichtige Beh&auml;lter, Acryl-Schreibtisch-Organizer, Aufbewahrungsbeh&auml;lter f&uuml;r das Badezimmer und wichtige Utensilien f&uuml;r M&auml;dchen im Studentenwohnheim.</p> \n  <img cke-id=\"img70\" height=\"800\" referrerpolicy=\"no-referrer\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S3ba7a4fdcd4040e488a22b43644e75a0F.jpg\" style=\"width: 100%; height: auto; vertical-align: middle;\" width=\"800\" />\n  <img cke-id=\"img71\" height=\"800\" referrerpolicy=\"no-referrer\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/Se97a9a3cac214d3b88f1685e3ccf94d6G.jpg\" style=\"width: 100%; height: auto; vertical-align: middle;\" width=\"800\" />\n  <img cke-id=\"img72\" height=\"800\" referrerpolicy=\"no-referrer\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sae9924bb72d34442bfbb5cd10fe31553P.jpg\" style=\"width: 100%; height: auto; vertical-align: middle;\" width=\"800\" />\n  <img cke-id=\"img73\" height=\"800\" referrerpolicy=\"no-referrer\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S53a5997706f54e89b8f73ae1c4950bff3.jpg\" style=\"width: 100%; height: auto; vertical-align: middle;\" width=\"800\" />\n  <img cke-id=\"img74\" height=\"1000\" referrerpolicy=\"no-referrer\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S6592d761386a48b6a00b6274098cef8eI.jpg\" style=\"width: 100%; height: auto; vertical-align: middle;\" width=\"1000\" />\n  <img cke-id=\"img75\" height=\"1000\" referrerpolicy=\"no-referrer\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/Scc7060866ce7424e8b5398ee0e99bf81S.jpg\" style=\"width: 100%; height: auto; vertical-align: middle;\" width=\"1000\" />\n </div>\n</div></div></div>\r\n"
+    },
+    "manufacturer_info": {
+      "address": "No. 57 xinhua west road, puyang street, pujiang county",
+      "phone": "18694115552",
+      "country_name": "China",
+      "email": "puzkzk2029@163.com",
+      "phone_prefix": "86"
+    },
+    "has_whole_sale": false,
+    "ae_item_properties": {
+      "ae_item_property": [
+        {
+          "attr_name_id": 2,
+          "attr_value_id": 201512802,
+          "attr_name": "Markenname",
+          "attr_value": "NONE"
+        },
+        {
+          "attr_name_id": 326,
+          "attr_value_id": 765,
+          "attr_name": "Art",
+          "attr_value": "Modern"
+        },
+        {
+          "attr_name_id": 219,
+          "attr_value_id": 9441741844,
+          "attr_name": "Ursprung",
+          "attr_value": "CN (Herkunft)"
+        },
+        {
+          "attr_name_id": 266081643,
+          "attr_value_id": 100015203,
+          "attr_name": "CN",
+          "attr_value": "Zhejiang"
+        },
+        {
+          "attr_name_id": 230125275,
+          "attr_value_id": 23399582356,
+          "attr_name": "Befestigungsart",
+          "attr_value": "andere"
+        },
+        {
+          "attr_name_id": 43,
+          "attr_value_id": 3138,
+          "attr_name": "Funktion",
+          "attr_value": "Wiederverwendbar"
+        },
+        {
+          "attr_name_id": 10,
+          "attr_value_id": 124,
+          "attr_name": "Material",
+          "attr_value": "Kunststoff"
+        },
+        {
+          "attr_name_id": 400000603,
+          "attr_value_id": 23399591357,
+          "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+          "attr_value": "Keine"
+        },
+        {
+          "attr_name_id": 217,
+          "attr_value_id": 1983458058,
+          "attr_name": "Merkmal",
+          "attr_value": "Mehrfachverwendungen"
+        },
+        {
+          "attr_name_id": -1,
+          "attr_name": "Choice",
+          "attr_value": "yes"
+        }
+      ]
+    },
+    "ae_store_info": {
+      "store_id": 1104001432,
+      "shipping_speed_rating": "4.7",
+      "communication_rating": "4.7",
+      "store_name": "Winful Store",
+      "store_country_code": "CN",
+      "item_as_described_rating": "4.6"
+    }
+  }
+}

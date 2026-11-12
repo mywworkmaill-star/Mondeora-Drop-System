@@ -1,0 +1,329 @@
+{
+  "policy": {
+    "checked_at": "2026-11-06T07:29:00.164390+00:00",
+    "currency": "EUR",
+    "tax_reserve_per_unit_eur": "2.00",
+    "reserve_is_tax_liability": false,
+    "tax_status": "unconfirmed",
+    "account_reported": "private",
+    "ship_from_country": "CN",
+    "ship_from_evidence": "operator_reported",
+    "verified_warehouse": false,
+    "supplier_agreement_status": "deferred_not_verified",
+    "business_registration_status": "not_confirmed",
+    "planning_fee_model": "commercial_new_goods_standard_service_no_shop",
+    "fee_vat_scenario_percent": "19",
+    "marketplace_collected_vat_scenario_percent": "19",
+    "fee_source": "https://www.ebay.de/help/selling/fees-credits-invoices/gebuhren-fur-gewerbliche-verkaufer?id=4809",
+    "unknown_import_cost_is_zero": false,
+    "tax_registration_is_not_retroactively_satisfied_by_this_ledger": true
+  },
+  "products": [
+    {
+      "product_id": "1005005504286671",
+      "sku_id": "12000033338068289",
+      "title": "Kleideraufbewahrungstasche mit großem Fassungsvermögen und verstärktem Griff, geeignet für Decken, Bettwäsche, faltbar, mit stabilem Reißverschluss",
+      "category_id": "43504",
+      "category_name": "Aufbewahrungsbeutel & -taschen",
+      "category_root": "11700",
+      "fee_category": "Möbel & Wohnen",
+      "fee_rate_percent": "14.00",
+      "category_is_planning_proposal": true,
+      "listing_approved": false,
+      "source_cost_eur": "3.69",
+      "shipping_estimate_eur": "1.99",
+      "minimum_buyer_gross": "49.30",
+      "quote": {
+        "net_fee": "7.35",
+        "fee_vat": "1.40",
+        "gross_fee": "8.75",
+        "fixed_fee": "0.45",
+        "rate": "0.14",
+        "fee_model": "commercial_forecast_not_actual_private_account_charge",
+        "fee_vat_is_scenario": true,
+        "source": "https://www.ebay.de/help/selling/fees-credits-invoices/gebuhren-fur-gewerbliche-verkaufer?id=4809",
+        "buyer_gross": "49.30",
+        "source_total": "3.69",
+        "shipping_total": "1.99",
+        "marketplace_vat": "7.87",
+        "tax_reserve": "2.00",
+        "known_surplus_after_reserve": "25.00",
+        "import_cost": null,
+        "net_after_reserve": null,
+        "costs_complete": false,
+        "tax_liability_calculated": false,
+        "actual_after_tax_profit_verified": false,
+        "note": "Scenario only; unknown import costs are not zero. 2 EUR/unit is a reserve, not assessed tax."
+      },
+      "taxonomy_evidence": {
+        "query": "Aufbewahrungstasche Bettwaesche",
+        "category": {
+          "categoryId": "43504",
+          "categoryName": "Aufbewahrungsbeutel & -taschen"
+        },
+        "ancestors": [
+          {
+            "categoryId": "43502",
+            "categoryName": "Klein- & Hängeaufbewahrung",
+            "categoryTreeNodeLevel": 2,
+            "categorySubtreeNodeHref": "https://api.ebay.com/commerce/taxonomy/v1/category_tree/77/get_category_subtree?category_id=43502"
+          },
+          {
+            "categoryId": "11700",
+            "categoryName": "Möbel & Wohnen",
+            "categoryTreeNodeLevel": 1,
+            "categorySubtreeNodeHref": "https://api.ebay.com/commerce/taxonomy/v1/category_tree/77/get_category_subtree?category_id=11700"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "1005007462620040",
+      "sku_id": "12000040855731893",
+      "title": "360 °   Rotierender Make-up-Organizer – 1 Stück Kunststoff-Kosmetikaufbewahrung mit 5 Fächern – multifunktionaler Halter für Pinsel",
+      "category_id": "36413",
+      "category_name": "Make-up Taschen & Koffer",
+      "category_root": "26395",
+      "fee_category": "Beauty & Gesundheit (non-electrical)",
+      "fee_rate_percent": "12.00",
+      "category_is_planning_proposal": true,
+      "listing_approved": false,
+      "source_cost_eur": "4.99",
+      "shipping_estimate_eur": "1.99",
+      "minimum_buyer_gross": "49.48",
+      "quote": {
+        "net_fee": "6.39",
+        "fee_vat": "1.21",
+        "gross_fee": "7.60",
+        "fixed_fee": "0.45",
+        "rate": "0.12",
+        "fee_model": "commercial_forecast_not_actual_private_account_charge",
+        "fee_vat_is_scenario": true,
+        "source": "https://www.ebay.de/help/selling/fees-credits-invoices/gebuhren-fur-gewerbliche-verkaufer?id=4809",
+        "buyer_gross": "49.48",
+        "source_total": "4.99",
+        "shipping_total": "1.99",
+        "marketplace_vat": "7.90",
+        "tax_reserve": "2.00",
+        "known_surplus_after_reserve": "25.00",
+        "import_cost": null,
+        "net_after_reserve": null,
+        "costs_complete": false,
+        "tax_liability_calculated": false,
+        "actual_after_tax_profit_verified": false,
+        "note": "Scenario only; unknown import costs are not zero. 2 EUR/unit is a reserve, not assessed tax."
+      },
+      "taxonomy_evidence": {
+        "query": "Make-up Organizer Kunststoff",
+        "category": {
+          "categoryId": "36413",
+          "categoryName": "Make-up Taschen & Koffer"
+        },
+        "ancestors": [
+          {
+            "categoryId": "31786",
+            "categoryName": "Make-up",
+            "categoryTreeNodeLevel": 2,
+            "categorySubtreeNodeHref": "https://api.ebay.com/commerce/taxonomy/v1/category_tree/77/get_category_subtree?category_id=31786"
+          },
+          {
+            "categoryId": "26395",
+            "categoryName": "Beauty & Gesundheit",
+            "categoryTreeNodeLevel": 1,
+            "categorySubtreeNodeHref": "https://api.ebay.com/commerce/taxonomy/v1/category_tree/77/get_category_subtree?category_id=26395"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "1005009905982018",
+      "sku_id": "12000050538451517",
+      "title": "4-Fach-Fernbedienungs-Organizer, kreatives Desktop-Aufbewahrungsregal, Kunststoffhalter, Mehrzweck-Schreibtisch-Organizer",
+      "category_id": "159897",
+      "category_name": "Boxen",
+      "category_root": "11700",
+      "fee_category": "Möbel & Wohnen",
+      "fee_rate_percent": "14.00",
+      "category_is_planning_proposal": true,
+      "listing_approved": false,
+      "source_cost_eur": "2.89",
+      "shipping_estimate_eur": "1.99",
+      "minimum_buyer_gross": "48.10",
+      "quote": {
+        "net_fee": "7.18",
+        "fee_vat": "1.36",
+        "gross_fee": "8.54",
+        "fixed_fee": "0.45",
+        "rate": "0.14",
+        "fee_model": "commercial_forecast_not_actual_private_account_charge",
+        "fee_vat_is_scenario": true,
+        "source": "https://www.ebay.de/help/selling/fees-credits-invoices/gebuhren-fur-gewerbliche-verkaufer?id=4809",
+        "buyer_gross": "48.10",
+        "source_total": "2.89",
+        "shipping_total": "1.99",
+        "marketplace_vat": "7.68",
+        "tax_reserve": "2.00",
+        "known_surplus_after_reserve": "25.00",
+        "import_cost": null,
+        "net_after_reserve": null,
+        "costs_complete": false,
+        "tax_liability_calculated": false,
+        "actual_after_tax_profit_verified": false,
+        "note": "Scenario only; unknown import costs are not zero. 2 EUR/unit is a reserve, not assessed tax."
+      },
+      "taxonomy_evidence": {
+        "query": "Fernbedienung Organizer",
+        "category": {
+          "categoryId": "159897",
+          "categoryName": "Boxen"
+        },
+        "ancestors": [
+          {
+            "categoryId": "43502",
+            "categoryName": "Klein- & Hängeaufbewahrung",
+            "categoryTreeNodeLevel": 2,
+            "categorySubtreeNodeHref": "https://api.ebay.com/commerce/taxonomy/v1/category_tree/77/get_category_subtree?category_id=43502"
+          },
+          {
+            "categoryId": "11700",
+            "categoryName": "Möbel & Wohnen",
+            "categoryTreeNodeLevel": 1,
+            "categorySubtreeNodeHref": "https://api.ebay.com/commerce/taxonomy/v1/category_tree/77/get_category_subtree?category_id=11700"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "1005012252787980",
+      "sku_id": "12000057899781591",
+      "title": "1/7-teiliges Werkzeugteile-Aufbewahrungsbox-Set, Werkzeug-Organizer mit mehreren Fächern, Sortierbox für Schrauben, Schraubenschlüssel, Hardware-Zubehör und Spielzeug",
+      "category_id": "130142",
+      "category_name": "Kleinteilemagazine & Stapelboxen",
+      "category_root": "3187",
+      "fee_category": "Heimwerker",
+      "fee_rate_percent": "13.00",
+      "category_is_planning_proposal": true,
+      "listing_approved": false,
+      "source_cost_eur": "3.99",
+      "shipping_estimate_eur": "1.99",
+      "minimum_buyer_gross": "48.87",
+      "quote": {
+        "net_fee": "6.80",
+        "fee_vat": "1.29",
+        "gross_fee": "8.09",
+        "fixed_fee": "0.45",
+        "rate": "0.13",
+        "fee_model": "commercial_forecast_not_actual_private_account_charge",
+        "fee_vat_is_scenario": true,
+        "source": "https://www.ebay.de/help/selling/fees-credits-invoices/gebuhren-fur-gewerbliche-verkaufer?id=4809",
+        "buyer_gross": "48.87",
+        "source_total": "3.99",
+        "shipping_total": "1.99",
+        "marketplace_vat": "7.80",
+        "tax_reserve": "2.00",
+        "known_surplus_after_reserve": "25.00",
+        "import_cost": null,
+        "net_after_reserve": null,
+        "costs_complete": false,
+        "tax_liability_calculated": false,
+        "actual_after_tax_profit_verified": false,
+        "note": "Scenario only; unknown import costs are not zero. 2 EUR/unit is a reserve, not assessed tax."
+      },
+      "taxonomy_evidence": {
+        "query": "Sortierbox Schrauben",
+        "category": {
+          "categoryId": "130142",
+          "categoryName": "Kleinteilemagazine & Stapelboxen"
+        },
+        "ancestors": [
+          {
+            "categoryId": "130140",
+            "categoryName": "Werkzeugkoffer & Lagersysteme",
+            "categoryTreeNodeLevel": 3,
+            "categorySubtreeNodeHref": "https://api.ebay.com/commerce/taxonomy/v1/category_tree/77/get_category_subtree?category_id=130140"
+          },
+          {
+            "categoryId": "42622",
+            "categoryName": "Werkstattausrüstung",
+            "categoryTreeNodeLevel": 2,
+            "categorySubtreeNodeHref": "https://api.ebay.com/commerce/taxonomy/v1/category_tree/77/get_category_subtree?category_id=42622"
+          },
+          {
+            "categoryId": "3187",
+            "categoryName": "Heimwerker",
+            "categoryTreeNodeLevel": 1,
+            "categorySubtreeNodeHref": "https://api.ebay.com/commerce/taxonomy/v1/category_tree/77/get_category_subtree?category_id=3187"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "1005008059797629",
+      "sku_id": "12000043492002142",
+      "title": "Wandmontiertes Aufbewahrungsregal für Zuhause, Badezimmer-Duschhalter, Spurloser Haken, Mopp-Organizer, Wasserdichter Besenhalter",
+      "category_id": "36024",
+      "category_name": "Wand-, Türgarderoben & Haken",
+      "category_root": "11700",
+      "fee_category": "Möbel & Wohnen",
+      "fee_rate_percent": "14.00",
+      "category_is_planning_proposal": true,
+      "listing_approved": false,
+      "source_cost_eur": "2.59",
+      "shipping_estimate_eur": "1.99",
+      "minimum_buyer_gross": "47.66",
+      "quote": {
+        "net_fee": "7.12",
+        "fee_vat": "1.35",
+        "gross_fee": "8.47",
+        "fixed_fee": "0.45",
+        "rate": "0.14",
+        "fee_model": "commercial_forecast_not_actual_private_account_charge",
+        "fee_vat_is_scenario": true,
+        "source": "https://www.ebay.de/help/selling/fees-credits-invoices/gebuhren-fur-gewerbliche-verkaufer?id=4809",
+        "buyer_gross": "47.66",
+        "source_total": "2.59",
+        "shipping_total": "1.99",
+        "marketplace_vat": "7.61",
+        "tax_reserve": "2.00",
+        "known_surplus_after_reserve": "25.00",
+        "import_cost": null,
+        "net_after_reserve": null,
+        "costs_complete": false,
+        "tax_liability_calculated": false,
+        "actual_after_tax_profit_verified": false,
+        "note": "Scenario only; unknown import costs are not zero. 2 EUR/unit is a reserve, not assessed tax."
+      },
+      "taxonomy_evidence": {
+        "query": "Besenhalter Wandhalter",
+        "category": {
+          "categoryId": "36024",
+          "categoryName": "Wand-, Türgarderoben & Haken"
+        },
+        "ancestors": [
+          {
+            "categoryId": "43502",
+            "categoryName": "Klein- & Hängeaufbewahrung",
+            "categoryTreeNodeLevel": 2,
+            "categorySubtreeNodeHref": "https://api.ebay.com/commerce/taxonomy/v1/category_tree/77/get_category_subtree?category_id=43502"
+          },
+          {
+            "categoryId": "11700",
+            "categoryName": "Möbel & Wohnen",
+            "categoryTreeNodeLevel": 1,
+            "categorySubtreeNodeHref": "https://api.ebay.com/commerce/taxonomy/v1/category_tree/77/get_category_subtree?category_id=11700"
+          }
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    "Ürünler gerçek araştırma adaylarıdır; satış veya onaylanmış ilan değildir.",
+    "Görünen komisyon ticari hesap için resmi tarifeden planlama tahminidir; privat hesabın fiili ücretini göstermez.",
+    "eBay ücret KDVsi yüzde 19 nakit maliyet senaryosudur; gerçek fatura ve indirilebilirlik ayrıca kontrol edilir.",
+    "Çin–Almanya düşük değerli ithalatta eBay/IOSS yüzde 19 senaryosu kullanılır; gerçek sipariş verisi esastır.",
+    "2 EUR/adet yalnız rezervdir; KDV, ithalat vergisi ve gelir vergisinin yerine geçmez.",
+    "İthalat gideri bilinmediğinde net kâr boş kalır; görünen ara sonuç yalnız bilinen maliyetler sonrasıdır.",
+    "Gelir vergisi kişisel toplam gelir ve statü bilinmeden kesin hesaplanamaz.",
+    "Bu ön kayıt aracı resmi vergi beyannamesi veya GoBD uygunluk garantisi değildir."
+  ]
+}

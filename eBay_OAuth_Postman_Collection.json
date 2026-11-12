@@ -1,0 +1,84 @@
+{
+  "info": {
+    "name": "eBay OAuth 2.0 Token",
+    "description": "eBay'dan OAuth 2.0 ile yeni access token almak",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get eBay Access Token",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.ebay.com/oauth2/token",
+          "protocol": "https",
+          "host": [
+            "api",
+            "ebay",
+            "com"
+          ],
+          "path": [
+            "oauth2",
+            "token"
+          ]
+        },
+        "auth": {
+          "type": "oauth2",
+          "oauth2": [
+            {
+              "key": "tokenName",
+              "value": "eBay Token",
+              "type": "string"
+            },
+            {
+              "key": "authUrl",
+              "value": "https://auth.ebay.com/oauth2/authorize",
+              "type": "string"
+            },
+            {
+              "key": "accessTokenUrl",
+              "value": "https://api.ebay.com/oauth2/token",
+              "type": "string"
+            },
+            {
+              "key": "clientId",
+              "value": "552270",
+              "type": "string"
+            },
+            {
+              "key": "clientSecret",
+              "value": "[ALI_KEY.TXT'DEN_SECRET_BURAYA]",
+              "type": "string"
+            },
+            {
+              "key": "scope",
+              "value": "https://api.ebay.com/oauth/api_scope https://api.ebay.com/oauth/api_scope/sell.inventory",
+              "type": "string"
+            },
+            {
+              "key": "grant_type",
+              "value": "authorization_code",
+              "type": "string"
+            },
+            {
+              "key": "addTokenTo",
+              "value": "header",
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

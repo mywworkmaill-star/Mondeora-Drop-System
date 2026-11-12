@@ -1,0 +1,65 @@
+{
+ "_comment": "Reviewed category decisions (made from real Taxonomy API candidates). Takes precedence over auto-resolve. level: high|medium|low. blocked=true means do NOT list/modify until a human resolves it.",
+ "1005009759780480": {
+  "blocked": true,
+  "note": "IDENTITY MISMATCH: DB/eBay title is a wireless charger, supplier product is an under-sink organizer. Resolve before any change."
+ },
+ "1005009030953454": {
+  "category_id": "180933",
+  "path": "Beauty & Gesundheit > Pflege- & Medizinischer Bedarf > Antistressbälle",
+  "level": "medium",
+  "note": "anti-stress squeeze toy, 14+; was wrongly in cat toys"
+ },
+ "1005011535580954": {
+  "category_id": "180933",
+  "path": "Beauty & Gesundheit > Pflege- & Medizinischer Bedarf > Antistressbälle",
+  "level": "medium",
+  "note": "soap-ball stress ball; auto picked Stückseife (wrong)"
+ },
+ "1005012150397874": {
+  "category_id": "180933",
+  "path": "Beauty & Gesundheit > Pflege- & Medizinischer Bedarf > Antistressbälle",
+  "level": "medium",
+  "note": "butter-stick fidget"
+ },
+ "1005006907344602": {
+  "category_id": "177791",
+  "path": "Haustierbedarf > Hunde > Spielzeug",
+  "level": "high",
+  "note": "dog ball; was in cat toys"
+ },
+ "1005008934128730": {
+  "category_id": "46305",
+  "path": "Haustierbedarf > Hunde > Körper- & Fellpflege > Bürsten, Kämme & Harken",
+  "level": "high",
+  "note": "pet-hair removal mitt; real eBay.de listings: 60x 46305 vs 4x Fusselrollen (market evidence)"
+ },
+ "1005010502345197": {
+  "category_id": "19187",
+  "path": "Spielzeug > Puzzles & Geduldspiele > Geduldspiele",
+  "level": "medium",
+  "note": "stainless steel cage puzzle"
+ },
+ "1005006848509888": {
+  "category_id": "69221",
+  "path": "Folienschweißgeräte",
+  "level": "medium",
+  "note": "mini handheld bag sealer; real category exists (8 live listings). Required aspect 'Modell' must be filled before publish"
+ },
+ "1005012671339401": {
+  "blocked": true,
+  "note": "NOT a cat toy: 3-colour LASER POINTER. Category 14954 Laserpointer needs aspect 'Laserklassen' (unknown) and laser pointers are legally restricted for consumers in DE/EU. Recommend withdrawing the listing."
+ },
+ "1005007756879885": {
+  "category_id": "116394",
+  "path": "Haustierbedarf > Hunde > Hygiene & Gesundheit > Mundhygiene",
+  "level": "high",
+  "note": "correct (60 real listings) but category does not allow Farbe variations; proposal: single listing, assorted colour"
+ },
+ "1005010397611220": {
+  "category_id": "19183",
+  "path": "Spielzeug > Puzzles & Geduldspiele > Puzzles",
+  "level": "reviewed",
+  "note": "Kids wooden puzzle toy (cat-shaped pieces, not a pet product). Real eBay taxonomy category where \"Farbe\" (Color) is a variation-enabled aspect (verified via get_item_aspects_for_category); the first candidate 9167 Holzspielzeug/Sonstige only allows Herstellernummer as variation aspect."
+ }
+}

@@ -1,0 +1,56 @@
+╔════════════════════════════════════════════════════════════════════════╗
+║                                                                        ║
+║           🔐 REFRESH TOKEN AL - DESKTOP ALİ KEY.TXT'DEN               ║
+║                                                                        ║
+║  Adım adım yönerge - Desktop'taki ali key.txt otomatik okunacak      ║
+║                                                                        ║
+╚════════════════════════════════════════════════════════════════════════╝
+
+
+📋 YAPACAKLAR:
+
+1️⃣  Terminal aç (Windows PowerShell veya Command Prompt)
+
+2️⃣  Şu klasöre git:
+    cd "C:\Users\Administrator\Desktop\Mondeora-Drop-System"
+
+3️⃣  Şu komutu çalıştır:
+    python auto_refresh_token.py
+
+4️⃣  Script'in çıktısını takip et:
+    • Desktop'taki ali key.txt'den App Key + Secret okuyacak
+    • Authorization URL oluşturacak
+    • Tarayıcıya kopyalamam gereken URL'i gösterecek
+
+5️⃣  Authorization URL'yi Tarayıcıya Kopyala:
+    • Adres çubuğuna yapıştır
+    • ENTER'a bas
+    • AliExpress'te giriş yap (hesabına)
+    • "Authorize" butonuna tıkla
+
+6️⃣  Redirect URL'deki Code'u Kopyala:
+    • Yönlendirilen sayfada URL: http://localhost:8080/callback?code=ABC123...
+    • "code=" sonrasındaki tüm kısmı kopyala
+    • Script'e yapıştır
+
+7️⃣  Tamam!
+    • Otomatik olarak .env güncellenecek
+    • Token kontrol edilecek
+    • Sistem hazır olacak
+
+═════════════════════════════════════════════════════════════════════════
+
+🚀 BAŞLAMAK İÇİN:
+
+cd "C:\Users\Administrator\Desktop\Mondeora-Drop-System"
+python auto_refresh_token.py
+
+═════════════════════════════════════════════════════════════════════════
+
+💡 SONRA:
+
+python test_real_product.py   → Sistem test et
+python main.py                → Sistemi başlat
+http://localhost:5000         → Dashboard aç
+
+═════════════════════════════════════════════════════════════════════════

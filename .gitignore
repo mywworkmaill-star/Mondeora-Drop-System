@@ -1,0 +1,121 @@
+# ==========================================
+# MONDEORA DROP SYSTEM - .gitignore
+# Hassas bilgileri GitHub'a yükleme!
+# ==========================================
+
+# API Keys & Credentials (CRITICAL!)
+.env
+.env.*
+*.env
+env
+tokens.json
+ali\ key.txt
+New\ Text\ Document.txt
+credentials/
+secrets/
+
+# Database Files (Contains real product data)
+*.db
+*.sqlite
+*.sqlite3
+data/dropshipping.db
+data/learning_database.db
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/backups/
+
+# Backup & Log Files
+*.log
+*.backup
+logs/
+data/*.log
+data/enterprise_audit.log
+*.bak
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+*.tmp
+temp/
+tmp/
+
+# Sensitive Data Files
+data/aliexpress_token_refresh_metadata.json
+data/ebay_token_refresh_metadata.json
+data/*.json
+!data/README.md
+
+# eBay/AliExpress Token Rehberleri (Token örnekleri içerir!)
+AUTHORIZATION_CODE_POSTMAN_HIZLI_REHBER.txt
+EBAY_TOKEN_CURL_HAZIR_KOMUT.txt
+POSTMAN_STEP_BY_STEP_SETUP.txt
+EBAY_TOKEN_NASIL_ALINIR.txt
+*POSTMAN*.txt
+*OAUTH*.txt
+*TOKEN*.txt
+bilgiler*.txt
+
+# Test Files (might contain real data)
+# test_*.py
+# *_test.py
+!test_and_refresh_all_tokens.py
+
+# Personal Notes
+notes/
+TODO.md
+PRIVATE*.md
+
+# Compiled Files
+*.pyc
+*.pyo
+credentials_backup/
+data/jobs/last_*.json
+data/supplier_capabilities.json
+
+# One-off diagnostic/audit scripts and data dumps from interactive sessions (scratch, not reusable tooling)
+data/audit/
+
+# Product image assets (large binaries, not source) — keep local only
+data/product_images/
+
+# Scratch parallel-work / loop-fix run data
+data/parallel_work/

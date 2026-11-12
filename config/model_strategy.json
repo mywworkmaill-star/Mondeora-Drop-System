@@ -1,0 +1,20 @@
+{
+  "_comment": "Model names are editable defaults; verify them against your provider accounts. Providers are tried in order; keys come from environment/.env (ANTHROPIC_API_KEY, OPENAI_API_KEY, OPENROUTER_API_KEY). Without any key the router returns None and callers use rule-based logic.",
+  "tiers": {
+    "fast":      {"use_for": ["classify", "summarize_log", "title_check", "tag"],
+                  "max_tokens": 400,  "chain": [["anthropic", "claude-haiku-4-5"], ["openai", "gpt-4o-mini"]]},
+    "reasoning": {"use_for": ["diagnose_incident", "pricing_review", "weekly_report", "supplier_risk"],
+                  "max_tokens": 1500, "chain": [["anthropic", "claude-sonnet-4-5"], ["openai", "gpt-4o"], ["openai", "gpt-4o-mini"]]},
+    "vision":    {"use_for": ["image_match", "image_quality"],
+                  "max_tokens": 600,  "chain": [["anthropic", "claude-sonnet-4-5"], ["openai", "gpt-4o"]]}
+  },
+  "task_to_tier": {
+    "classify": "fast", "summarize_log": "fast", "title_check": "fast", "tag": "fast",
+    "diagnose_incident": "reasoning", "pricing_review": "reasoning", "weekly_report": "reasoning", "supplier_risk": "reasoning",
+    "image_match": "vision", "image_quality": "vision"
+  },
+  "limits": {"daily_calls": 40, "timeout_seconds": 45},
+  "budget": {"total_eur": 17.0, "reserve_eur": 2.0, "daily_eur": 0.35,
+             "critical_only_below_eur": {"left": 6.0, "tasks_blocked": ["weekly_report", "pricing_review", "image_quality", "summarize_log", "tag"]}},
+  "never_send": ["tokens", "secrets", "buyer_email", "shipping_address"]
+}

@@ -1,0 +1,282 @@
+{
+  "observed_at": "2026-11-06T19:43:44.904949+00:00",
+  "source": "aliexpress.ds.product.get",
+  "result": {
+    "ae_item_sku_info_dtos": {
+      "ae_item_sku_info_d_t_o": [
+        {
+          "sku_attr": "14:350850#A  4layers",
+          "offer_sale_price": "37.19",
+          "sku_id": "12000055817685070",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "77.48",
+          "offer_bulk_sale_price": "37.19",
+          "sku_available_stock": 99,
+          "id": "14:350850#A  4layers",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Gold",
+                "sku_image": "https://ae01.alicdn.com/kf/S53de3db2a8d647dc86aeb3b1dd5b6b538.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "A  4layers",
+                "property_value_id": 350850,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:350852#B 4layers",
+          "offer_sale_price": "36.99",
+          "sku_id": "12000055817685071",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "77.06",
+          "offer_bulk_sale_price": "36.99",
+          "sku_available_stock": 98,
+          "id": "14:350852#B 4layers",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Orange",
+                "sku_image": "https://ae01.alicdn.com/kf/S1eae00384e5e4beaaee131ae5048484cr.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "B 4layers",
+                "property_value_id": 350852,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:29#E 5layers",
+          "offer_sale_price": "43.59",
+          "sku_id": "12000055817685074",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "90.81",
+          "offer_bulk_sale_price": "43.59",
+          "sku_available_stock": 97,
+          "id": "14:29#E 5layers",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "WEISS",
+                "sku_image": "https://ae01.alicdn.com/kf/S624fbbccce2446f39978d6aa14943fc3J.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "E 5layers",
+                "property_value_id": 29,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:173#F 5layers",
+          "offer_sale_price": "43.19",
+          "sku_id": "12000055817685075",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "89.98",
+          "offer_bulk_sale_price": "43.19",
+          "sku_available_stock": 87,
+          "id": "14:173#F 5layers",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Blau",
+                "sku_image": "https://ae01.alicdn.com/kf/S9b770f16c21d44549ae036ac66826139d.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "F 5layers",
+                "property_value_id": 173,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:350853#C 4layers",
+          "offer_sale_price": "36.99",
+          "sku_id": "12000055817685072",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "77.06",
+          "offer_bulk_sale_price": "36.99",
+          "sku_available_stock": 99,
+          "id": "14:350853#C 4layers",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Silber",
+                "sku_image": "https://ae01.alicdn.com/kf/Sbc82882ad80741d1b4167991a9e97511v.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "C 4layers",
+                "property_value_id": 350853,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:10#D 4layers",
+          "offer_sale_price": "36.99",
+          "sku_id": "12000055817685073",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "77.06",
+          "offer_bulk_sale_price": "36.99",
+          "sku_available_stock": 99,
+          "id": "14:10#D 4layers",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Rot",
+                "sku_image": "https://ae01.alicdn.com/kf/Sb0366ba671c147768617aea8154dde22L.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "D 4layers",
+                "property_value_id": 10,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:175#G5layers",
+          "offer_sale_price": "43.79",
+          "sku_id": "12000055817685076",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "91.23",
+          "offer_bulk_sale_price": "43.79",
+          "sku_available_stock": 95,
+          "id": "14:175#G5layers",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Grün",
+                "sku_image": "https://ae01.alicdn.com/kf/S59c261f4e7e34ac09096d1f7579991ccg.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "G5layers",
+                "property_value_id": 175,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:193#H 5layers",
+          "offer_sale_price": "43.19",
+          "sku_id": "12000055817685077",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "89.98",
+          "offer_bulk_sale_price": "43.19",
+          "sku_available_stock": 91,
+          "id": "14:193#H 5layers",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "schwarz",
+                "sku_image": "https://ae01.alicdn.com/kf/Scecdb28f8fce4db7b81987343f8d3f2dN.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "H 5layers",
+                "property_value_id": 193,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "ae_multimedia_info_dto": {
+      "image_urls": "https://ae01.alicdn.com/kf/Sfa711d1800d14858a6e4c99a839758e2I.jpg;https://ae01.alicdn.com/kf/S654359b1eb6940ad9578a6593fa91851p.jpg;https://ae01.alicdn.com/kf/Se0826423048642559abf88ac1c31fa96D.jpg;https://ae01.alicdn.com/kf/S6791661296ba4dbcba32a60ff6d48d49w.jpg;https://ae01.alicdn.com/kf/S53de3db2a8d647dc86aeb3b1dd5b6b538.jpg;https://ae01.alicdn.com/kf/S65b837e8308b4ded87e0d51bff0eb0a10.jpg"
+    },
+    "package_info_dto": {
+      "package_width": 34,
+      "package_height": 4,
+      "package_length": 52,
+      "gross_weight": "2.050",
+      "package_type": false,
+      "product_unit": 100000015
+    },
+    "logistics_info_dto": {
+      "delivery_time": 7,
+      "ship_to_country": "DE"
+    },
+    "product_id_converter_result": {
+      "main_product_id": 1005011525748179,
+      "sub_product_id": "{\"US\":3256811339433427}"
+    },
+    "ae_item_base_info_dto": {
+      "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S1177b93a13814728a84996717fe7a498f.jpg\",\"style\":{}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S11da889a86294dd99baf8887090180d4v.jpg\",\"style\":{}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S6822f4cb357f48438b442b4ab1121618e.jpg\",\"style\":{}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S55c510021eba4141b3e308fccc65bccdu.jpg\",\"style\":{}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S87bb2c0629fe4223a2930bc50036ee32X.jpg\",\"style\":{}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sd119841d216044f5a7daf00b5894d248R.jpg\",\"style\":{}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sc98f190a60e446519c196cd1c28730098.jpg\",\"style\":{}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S36ad3a0a86c84706b5b93be9e087aafb1.jpg\",\"style\":{}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sf85b6498e5094d5cac0d6628124466e4J.jpg\",\"style\":{}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sbb99b025a0a34183a0e7ed6cef21357b1.jpg\",\"style\":{}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S3ead995178b047a7a9e097d1562e0c66U.jpg\",\"style\":{}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S2601fa669ec74d7c8acbf7b5310557c4a.jpg\",\"style\":{}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S4613706cecbc4261a9aa9a918379c31fn.jpg\",\"style\":{}}}]}",
+      "subject": "Metall-Pflanzenständer für Innen und Außen Mehrstufiges Pflanzenregal Mehrstufiges Blumentopfregal Wohnzimmer Sukkulenten-Präsentationsständer",
+      "evaluation_count": "4",
+      "sales_count": "27",
+      "product_status_type": "onSelling",
+      "avg_evaluation_rating": "3.8",
+      "separated_listing": false,
+      "currency_code": "CNY",
+      "sl_product": false,
+      "category_id": 200287145,
+      "product_id": 1005011525748179,
+      "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div id=\"offer-template-0\">\n <img style=\"display:block;width:100%;height:auto\" width=\"100%\" height=\"auto\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S1177b93a13814728a84996717fe7a498f.jpg\" usemap=\"#_sdmap_5\" slate-data-type=\"image\" /> \n <img style=\"display:block;width:100%;height:auto\" width=\"100%\" height=\"auto\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S11da889a86294dd99baf8887090180d4v.jpg\" usemap=\"#_sdmap_8\" slate-data-type=\"image\" /> \n <img style=\"display:block;width:100%;height:auto\" width=\"100%\" height=\"auto\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S6822f4cb357f48438b442b4ab1121618e.jpg\" usemap=\"#_sdmap_9\" slate-data-type=\"image\" /> \n <img style=\"display:block;width:100%;height:auto\" width=\"100%\" height=\"auto\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S55c510021eba4141b3e308fccc65bccdu.jpg\" usemap=\"#_sdmap_10\" slate-data-type=\"image\" /> \n <img style=\"display:block;width:100%;height:auto\" width=\"100%\" height=\"auto\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S87bb2c0629fe4223a2930bc50036ee32X.jpg\" usemap=\"#_sdmap_11\" slate-data-type=\"image\" /> \n <img style=\"display:block;width:100%;height:auto\" width=\"100%\" height=\"auto\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sd119841d216044f5a7daf00b5894d248R.jpg\" usemap=\"#_sdmap_12\" slate-data-type=\"image\" /> \n <img style=\"display:block;width:100%;height:auto\" width=\"100%\" height=\"auto\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sc98f190a60e446519c196cd1c28730098.jpg\" usemap=\"#_sdmap_13\" slate-data-type=\"image\" /> \n <img style=\"display:block;width:100%;height:auto\" width=\"100%\" height=\"auto\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S36ad3a0a86c84706b5b93be9e087aafb1.jpg\" usemap=\"#_sdmap_14\" slate-data-type=\"image\" /> \n <img style=\"display:block;width:100%;height:auto\" width=\"100%\" height=\"auto\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sf85b6498e5094d5cac0d6628124466e4J.jpg\" usemap=\"#_sdmap_15\" slate-data-type=\"image\" /> \n <img style=\"display:block;width:100%;height:auto\" width=\"100%\" height=\"auto\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sbb99b025a0a34183a0e7ed6cef21357b1.jpg\" usemap=\"#_sdmap_16\" slate-data-type=\"image\" /> \n <img style=\"display:block;width:100%;height:auto\" width=\"100%\" height=\"auto\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S3ead995178b047a7a9e097d1562e0c66U.jpg\" usemap=\"#_sdmap_18\" slate-data-type=\"image\" /> \n <img style=\"display:block;width:100%;height:auto\" width=\"100%\" height=\"auto\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S2601fa669ec74d7c8acbf7b5310557c4a.jpg\" usemap=\"#_sdmap_19\" slate-data-type=\"image\" /> \n <img style=\"display:block;width:100%;height:auto\" width=\"100%\" height=\"auto\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S4613706cecbc4261a9aa9a918379c31fn.jpg\" usemap=\"#_sdmap_20\" slate-data-type=\"image\" />\n</div><br /></div></div>\r\n"
+    },
+    "manufacturer_info": {
+      "address": "Room 1-902, Building 1-1, No. 61, Binhe South Road, Luolong District",
+      "phone": "15838516360",
+      "country_name": "China",
+      "email": "aprilgao0603@163.com",
+      "phone_prefix": "86"
+    },
+    "has_whole_sale": false,
+    "ae_item_properties": {
+      "ae_item_property": [
+        {
+          "attr_name_id": 2,
+          "attr_value_id": 201512802,
+          "attr_name": "Markenname",
+          "attr_value": "NONE"
+        },
+        {
+          "attr_name_id": 906,
+          "attr_value_id": 124,
+          "attr_name": "Rahmenmaterial",
+          "attr_value": "Kunststoff"
+        },
+        {
+          "attr_name_id": 400000603,
+          "attr_value_id": 23399591357,
+          "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+          "attr_value": "Keine"
+        },
+        {
+          "attr_name_id": 219,
+          "attr_value_id": 9441741844,
+          "attr_name": "Ursprung",
+          "attr_value": "CN (Herkunft)"
+        },
+        {
+          "attr_name_id": 200007025,
+          "attr_value_id": 200844187,
+          "attr_name": "Installationsmethode",
+          "attr_value": "Montage"
+        },
+        {
+          "attr_name_id": -1,
+          "attr_name": "Choice",
+          "attr_value": "yes"
+        }
+      ]
+    },
+    "ae_store_info": {
+      "store_id": 1105220198,
+      "shipping_speed_rating": "4.0",
+      "communication_rating": "4.0",
+      "store_name": "Shop1105220198 Store",
+      "store_country_code": "CN",
+      "item_as_described_rating": "3.9"
+    }
+  }
+}

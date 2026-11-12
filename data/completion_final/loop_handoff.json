@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "scope": "Final bounded research-loop review only; not global software or live-commerce verification",
+  "sources_frozen": true,
+  "source_freeze_basis": "No further edits after RED/GREEN fixes; scoped source hashes identical before/after the final focused suite",
+  "modified_sources": ["src/research_rotation.py"],
+  "reviewed_unchanged_sources": ["src/automation/research.py", "src/automation/engine.py"],
+  "source_sha256": {
+    "src/research_rotation.py": "94e8cb0d383863adcd77564c6af1975b86f64ace4752d9ecb2203d8f89afeddf",
+    "src/automation/research.py": "296a2bb0e3cde8dc66811234274f2970141ec1acb6e710b5aae6a8e2d5027ba4",
+    "src/automation/engine.py": "699cc94fc69910b6cabcd94dbd807fec5018e61c28351c1971dcf6e3aeaa8748"
+  },
+  "backup_directory": "C:/Users/Administrator/AppData/Local/hermes/cache/scratch/mondeora_verification/backups/loop_final_20261107_131005",
+  "fixes": [
+    {
+      "defect": "Matching-policy history accepted string-valued entries/seen as collections; seen='123' became unrelated single-character product IDs and corrupted progress accounting",
+      "red": {"tests_run": 1, "failures": 2, "errors": 0, "note": "Two failing unittest subtests; malformed entries and seen reported loaded instead of reset"},
+      "minimal_fix": "Require list-valued history collections before slicing and loading",
+      "green": {"tests_run": 1, "failures": 0, "errors": 0}
+    },
+    {
+      "defect": "A corrupt integer observed_at=10**400 raised OverflowError when subtracted from the floating-point current timestamp, aborting history loading",
+      "red": {"tests_run": 2, "failures": 0, "errors": 1, "error_type": "OverflowError"},
+      "minimal_fix": "Compare timestamp against the TTL interval instead of subtracting the untrusted timestamp",
+      "green": {"tests_run": 2, "failures": 0, "errors": 0}
+    }
+  ],
+  "test_working_directory": "C:/Users/Administrator/Desktop/Mondeora-Drop-System",
+  "executed_test_commands": [
+    {
+      "command": "\"C:/Program Files/Python311/python.exe\" -m unittest discover -s C:/Users/Administrator/AppData/Local/hermes/cache/scratch/mondeora_verification -p 'test_research*.py' -v",
+      "runs": [{"phase": "pre-change focused baseline", "tests_run": 16, "failures": 0, "errors": 0, "skips": 0}]
+    },
+    {
+      "command": "\"C:/Program Files/Python311/python.exe\" -m unittest discover -s C:/Users/Administrator/AppData/Local/hermes/cache/scratch/mondeora_verification -p test_research_loop_final.py -v",
+      "runs": [
+        {"phase": "corrupt collections RED", "tests_run": 1, "failures": 2, "errors": 0, "skips": 0},
+        {"phase": "corrupt collections GREEN", "tests_run": 1, "failures": 0, "errors": 0, "skips": 0},
+        {"phase": "corrupt timestamp RED", "tests_run": 2, "failures": 0, "errors": 1, "skips": 0},
+        {"phase": "corrupt timestamp GREEN", "tests_run": 2, "failures": 0, "errors": 0, "skips": 0},
+        {"phase": "real engine caller integration", "tests_run": 5, "failures": 0, "errors": 0, "skips": 0}
+      ]
+    },
+    {
+      "command": "\"C:/Program Files/Python311/python.exe\" \"C:/Users/Administrator/AppData/Local/hermes/cache/scratch/mondeora_verification/run_loop_final_verification.py\"",
+      "runs": [{"phase": "final frozen-source focused suite", "tests_run": 46, "failures": 0, "errors": 0, "skips": 0}],
+      "shard_counts": {"test_research*.py": 23, "test_sourcing_completion_v2.py": 9, "test_product_preparation.py": 14},
+      "completed_at_utc": "2026-11-07T12:14:10.462763+00:00"
+    }
+  ],
+  "verification": {
+    "identical_cycles": "Actual AutamationEngine.research_products -> _run -> ProductResearcher.run -> run_actionable -> real _candidate -> persisted scratch report/history and isolated SQLite SyncLog; no researcher or engine entrypoint mocking",
+    "transport_scope": "Explicit fixture supplier/marketplace read transports; not live API capability evidence",
+    "hard_rejection_two_cycles": "Candidate counts 1 then 0; detail refreshed once; pages 1 then 2; second cycle skipped_rejections=1 and exactly one business read; both engine SyncLogs success, new eligible count zero",
+    "pending_external_evidence": "Revisited on both identical cycles; new eligible counts 1 then 0; hold_pending_external_evidence; not blacklisted or publish-ready",
+    "policy": "Profit and margin changes invalidate cooldown; unrelated candidate limit retains cooldown; other concepts remain reconsiderable",
+    "ttl": "24 hours; just before expiry retained; exact expiry and future observations not retained",
+    "finite_budget": "Engine requested limit 50 with 10 configured niches: capped to 12 candidates, 6 searches, 12 detail evaluations, 24 product.get attempts including fact enrichment; total read attempts <=102 in fixture; no unbounded loop",
+    "existing_regressions": "Five-page cursor wrap, 512-entry/524288-byte history, atomic save, corrupt JSON/oversize reset, snapshot scope, semantic relevance, niche allocation and preparation regressions passed",
+    "engine_source_change_required": false
+  },
+  "created_verification_files": [
+    "C:/Users/Administrator/AppData/Local/hermes/cache/scratch/mondeora_verification/test_research_loop_final.py",
+    "C:/Users/Administrator/AppData/Local/hermes/cache/scratch/mondeora_verification/run_loop_final_verification.py",
+    "C:/Users/Administrator/AppData/Local/hermes/cache/scratch/mondeora_verification/loop_final_focused.log",
+    "C:/Users/Administrator/AppData/Local/hermes/cache/scratch/mondeora_verification/loop_final_verification.json"
+  ],
+  "safety": {
+    "live_research_cycles_this_review": 0,
+    "remote_mutations_this_review": 0,
+    "production_env_or_database_writes_by_this_review": false,
+    "global_software_verification_written": false,
+    "new_optional_features": false
+  },
+  "remaining_work": {
+    "loop_owned_implementation": [],
+    "parent_final_integration": [
+      "Run the full external regression suite once after all disjoint source writers freeze; the earlier 371-test baseline does not certify this changed revision",
+      "Verify deployed/running worker source revision separately if claiming deployment completion"
+    ],
+    "external_evidence": [
+      "No new live supplier/marketplace capability or live two-cycle result claimed by this review; previous live artifacts belong to their recorded older revision",
+      "Cooldown correctness does not establish profitable candidates, recent sold demand, complete destination costs, supplier rights/compliance or publication readiness"
+    ],
+    "user_decision_required_for_this_scope": []
+  },
+  "issues_encountered": [
+    "Project directory inherits an unrelated home-directory Git repository with no commits; no project history was available. Scoped file backups and SHA-256 hashes were used instead."
+  ]
+}

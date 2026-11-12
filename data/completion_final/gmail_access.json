@@ -1,0 +1,39 @@
+{
+  "entrypoint": "src.gmail_ingestion.ingest_gmail",
+  "effective_opt_ins": {
+    "EMAIL_INGESTION_ENABLED": false,
+    "EMAIL_GMAIL_ENABLED": false,
+    "EMAIL_IMAP_ENABLED": false
+  },
+  "credentials": {
+    "configured": false,
+    "absolute_path": false,
+    "file_exists": false,
+    "symlink": false,
+    "schema_checked": false
+  },
+  "expected_account_configured": false,
+  "configured_provider_only": true,
+  "credential_discovery_performed": false,
+  "probe_limit": 1,
+  "local_staging": "in_memory_only",
+  "result": {
+    "status": "gmail_disabled",
+    "checked": 0,
+    "stored": 0,
+    "duplicates": 0,
+    "rejected": 0,
+    "held": 0,
+    "mailbox_verified": false
+  },
+  "consent_started": false,
+  "credential_persistence": false,
+  "sender_origin_verified": false,
+  "shipment_verified": false,
+  "remote_mail_mutations_attempted": 0,
+  "integration_source": [
+    "src/automation/engine.py:poll_order_statuses",
+    "src/automation/fulfillment.py:sync_fulfillment",
+    "src/gmail_ingestion.py:ingest_gmail"
+  ]
+}

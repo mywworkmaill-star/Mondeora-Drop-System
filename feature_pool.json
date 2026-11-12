@@ -1,0 +1,302 @@
+{
+  "feature_pool": {
+    "email_automation": {
+      "name": "Advanced Email Automation",
+      "category": "customer_engagement",
+      "description": "Otomatik müşteri emaili: sipariş onay, kargo takip, feedback request, upsell offers",
+      "impact": "high",
+      "difficulty": "medium",
+      "activation_trigger": {
+        "type": "conversion_rate",
+        "threshold": "< 2%",
+        "reason": "Düşük conversion → Email follow-up gerekli"
+      },
+      "dependencies": [],
+      "status": "ready",
+      "estimated_improvement": "+15% customer retention, +10% repeat sales"
+    },
+    "dynamic_pricing": {
+      "name": "AI Dynamic Pricing",
+      "category": "profit_optimization",
+      "description": "Otomatik fiyat optimizasyonu: rakip analizi, demand tracking, profit maximization",
+      "impact": "very_high",
+      "difficulty": "high",
+      "activation_trigger": {
+        "type": "profit_margin",
+        "threshold": "< 20%",
+        "reason": "Düşük kar marjı → Fiyat optimize et"
+      },
+      "dependencies": [],
+      "status": "ready",
+      "estimated_improvement": "+25% profit margin"
+    },
+    "competitor_spy": {
+      "name": "Competitor Intelligence",
+      "category": "market_analysis",
+      "description": "Rakip analizi: fiyat takibi, yeni ürün tespiti, strateji analizi, otomatik rapor",
+      "impact": "high",
+      "difficulty": "medium",
+      "activation_trigger": {
+        "type": "sales_decline",
+        "threshold": "< -10% week-over-week",
+        "reason": "Satış düşüyor → Rakipler kazanıyor olabilir"
+      },
+      "dependencies": [],
+      "status": "ready",
+      "estimated_improvement": "Market insight, competitive advantage"
+    },
+    "seo_optimizer": {
+      "name": "eBay SEO Auto-Optimizer",
+      "category": "traffic_generation",
+      "description": "Otomatik SEO: başlık optimize, keyword analiz, search ranking tracking, A/B test",
+      "impact": "very_high",
+      "difficulty": "low",
+      "activation_trigger": {
+        "type": "traffic",
+        "threshold": "< 100 views/day",
+        "reason": "Düşük trafik → SEO optimize et"
+      },
+      "dependencies": [],
+      "status": "ready",
+      "estimated_improvement": "+50% organic traffic"
+    },
+    "smart_bundling": {
+      "name": "Smart Product Bundling",
+      "category": "sales_optimization",
+      "description": "Akıllı ürün paketleme: frequently bought together, bundle discounts, cross-sell",
+      "impact": "high",
+      "difficulty": "medium",
+      "activation_trigger": {
+        "type": "average_order_value",
+        "threshold": "< €30",
+        "reason": "Düşük sipariş değeri → Bundle'la artır"
+      },
+      "dependencies": [],
+      "status": "ready",
+      "estimated_improvement": "+35% average order value"
+    },
+    "inventory_predictor": {
+      "name": "AI Inventory Predictor",
+      "category": "supply_chain",
+      "description": "Stok tahmini: demand forecasting, auto reorder, seasonality analysis",
+      "impact": "medium",
+      "difficulty": "high",
+      "activation_trigger": {
+        "type": "stockout_rate",
+        "threshold": "> 5%",
+        "reason": "Stok bitti → Talep tahmini kur"
+      },
+      "dependencies": [
+        "sales_history"
+      ],
+      "status": "ready",
+      "estimated_improvement": "-80% stockouts, better cash flow"
+    },
+    "viral_content_generator": {
+      "name": "Viral Social Content AI",
+      "category": "marketing",
+      "description": "Viral içerik üretici: trend analizi, engaging posts, optimal timing, hashtag research",
+      "impact": "very_high",
+      "difficulty": "medium",
+      "activation_trigger": {
+        "type": "social_reach",
+        "threshold": "< 1000 views/week",
+        "reason": "Düşük social reach → Viral content gerekli"
+      },
+      "dependencies": [],
+      "status": "ready",
+      "estimated_improvement": "+300% social engagement"
+    },
+    "return_preventer": {
+      "name": "Return Prevention System",
+      "category": "customer_satisfaction",
+      "description": "İade önleyici: better descriptions, size guides, quality checks, proactive support",
+      "impact": "high",
+      "difficulty": "medium",
+      "activation_trigger": {
+        "type": "return_rate",
+        "threshold": "> 3%",
+        "reason": "Yüksek iade oranı → Önlem al"
+      },
+      "dependencies": [],
+      "status": "ready",
+      "estimated_improvement": "-70% returns, higher profit"
+    },
+    "review_generator": {
+      "name": "Automated Review Generator",
+      "category": "trust_building",
+      "description": "Review toplayıcı: otomatik istek, incentive program, review management",
+      "impact": "high",
+      "difficulty": "low",
+      "activation_trigger": {
+        "type": "review_count",
+        "threshold": "< 10 reviews",
+        "reason": "Az review → Trust düşük"
+      },
+      "dependencies": [],
+      "status": "ready",
+      "estimated_improvement": "+40% conversion from reviews"
+    },
+    "smart_shipping": {
+      "name": "Smart Shipping Optimizer",
+      "category": "logistics",
+      "description": "Kargo optimizasyonu: cheapest carrier, fastest route, tracking automation",
+      "impact": "medium",
+      "difficulty": "medium",
+      "activation_trigger": {
+        "type": "shipping_cost",
+        "threshold": "> 15% of revenue",
+        "reason": "Yüksek kargo maliyeti → Optimize et"
+      },
+      "dependencies": [],
+      "status": "ready",
+      "estimated_improvement": "-30% shipping costs"
+    },
+    "fraud_detector": {
+      "name": "AI Fraud Detection",
+      "category": "risk_management",
+      "description": "Dolandırıcılık tespiti: suspicious orders, chargeback prevention, risk scoring",
+      "impact": "medium",
+      "difficulty": "high",
+      "activation_trigger": {
+        "type": "chargeback_rate",
+        "threshold": "> 1%",
+        "reason": "Chargebacks → Fraud detection gerekli"
+      },
+      "dependencies": [],
+      "status": "ready",
+      "estimated_improvement": "-90% fraud losses"
+    },
+    "supplier_optimizer": {
+      "name": "Supplier Performance Tracker",
+      "category": "supply_chain",
+      "description": "Tedarikçi analizi: quality tracking, delivery time, cost comparison, auto switch",
+      "impact": "high",
+      "difficulty": "medium",
+      "activation_trigger": {
+        "type": "supplier_issues",
+        "threshold": "> 2 complaints/week",
+        "reason": "Tedarikçi sorunları → Alternative ara"
+      },
+      "dependencies": [],
+      "status": "ready",
+      "estimated_improvement": "+20% supplier reliability"
+    },
+    "seasonal_strategy": {
+      "name": "Seasonal Strategy AI",
+      "category": "marketing",
+      "description": "Mevsimsel strateji: trend prediction, seasonal products, campaign timing",
+      "impact": "very_high",
+      "difficulty": "medium",
+      "activation_trigger": {
+        "type": "calendar",
+        "threshold": "approaching_holiday",
+        "reason": "Tatil yaklaşıyor → Seasonal plan"
+      },
+      "dependencies": [],
+      "status": "ready",
+      "estimated_improvement": "+150% holiday sales"
+    },
+    "chat_support_bot": {
+      "name": "AI Customer Support Bot",
+      "category": "customer_service",
+      "description": "Otomatik destek: FAQ, order status, problem çözme, 24/7 availability",
+      "impact": "high",
+      "difficulty": "high",
+      "activation_trigger": {
+        "type": "support_volume",
+        "threshold": "> 10 messages/day",
+        "reason": "Fazla destek mesajı → Bot gerekli"
+      },
+      "dependencies": [],
+      "status": "ready",
+      "estimated_improvement": "-80% support workload"
+    },
+    "international_expansion": {
+      "name": "Multi-Country Expansion",
+      "category": "growth",
+      "description": "Uluslararası açılım: currency conversion, shipping zones, local optimization",
+      "impact": "very_high",
+      "difficulty": "very_high",
+      "activation_trigger": {
+        "type": "domestic_saturation",
+        "threshold": "> 500 products",
+        "reason": "Yerel pazar doydu → Uluslararası aç"
+      },
+      "dependencies": [
+        "smart_shipping",
+        "currency_converter"
+      ],
+      "status": "ready",
+      "estimated_improvement": "+200% market size"
+    },
+    "blue_ocean_finder": {
+      "name": "Blue Ocean Product Finder",
+      "category": "product_sourcing",
+      "description": "Rakip az ama alıcısı çok ürünler bulur: eBay competition analizi, search volume tracking, low competition + high demand filtreleme",
+      "impact": "very_high",
+      "difficulty": "medium",
+      "activation_trigger": {
+        "type": "sales_decline",
+        "threshold": "< 5 sales/week",
+        "reason": "Satış düşük → Blue ocean ürünler bul (az rekabet, çok talep)"
+      },
+      "dependencies": [],
+      "status": "ready",
+      "estimated_improvement": "+200% profit per product (low competition = higher margins)"
+    }
+  },
+  "activation_history": [],
+  "pending_activations": [
+    {
+      "feature_key": "competitor_spy",
+      "feature_name": "Competitor Intelligence",
+      "category": "market_analysis",
+      "requested_at": "2026-11-09T17:06:58.476785",
+      "reason": "No sales in last 7 days - need traffic/marketing",
+      "priority": 95,
+      "status": "pending_development",
+      "estimated_improvement": "Market insight, competitive advantage"
+    },
+    {
+      "feature_key": "competitor_spy",
+      "feature_name": "Competitor Intelligence",
+      "category": "market_analysis",
+      "requested_at": "2026-11-09T17:10:50.564227",
+      "reason": "No sales in last 7 days - need traffic/marketing",
+      "priority": 95,
+      "status": "pending_development",
+      "estimated_improvement": "Market insight, competitive advantage"
+    },
+    {
+      "feature_key": "blue_ocean_finder",
+      "feature_name": "Blue Ocean Product Finder",
+      "category": "product_sourcing",
+      "requested_at": "2026-11-09T22:03:31.501150",
+      "reason": "No sales in last 7 days - need traffic/marketing",
+      "priority": 100,
+      "status": "pending_development",
+      "estimated_improvement": "+200% profit per product (low competition = higher margins)"
+    },
+    {
+      "feature_key": "blue_ocean_finder",
+      "feature_name": "Blue Ocean Product Finder",
+      "category": "product_sourcing",
+      "requested_at": "2026-11-09T22:35:43.104258",
+      "reason": "No sales in last 7 days - need traffic/marketing",
+      "priority": 100,
+      "status": "pending_development",
+      "estimated_improvement": "+200% profit per product (low competition = higher margins)"
+    }
+  ],
+  "next_feature_priority": {
+    "feature_key": "blue_ocean_finder",
+    "feature_name": "Blue Ocean Product Finder",
+    "category": "product_sourcing",
+    "requested_at": "2026-11-09T22:35:43.104258",
+    "reason": "No sales in last 7 days - need traffic/marketing",
+    "priority": 100,
+    "status": "pending_development",
+    "estimated_improvement": "+200% profit per product (low competition = higher margins)"
+  }
+}

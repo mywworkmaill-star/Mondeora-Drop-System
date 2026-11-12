@@ -1,0 +1,42 @@
+{
+  "environment": "PRODUCTION",
+  "system": {
+    "mode": "FULLY_AUTOMATED",
+    "dropshipping_type": "AliExpress_to_eBay",
+    "target_market": "Germany",
+    "min_margin_percent": 25
+  },
+  "apis": {
+    "aliexpress": {
+      "type": "REST_API",
+      "auto_token_refresh": true,
+      "refresh_interval": 3600,
+      "sync_interval": 3600
+    },
+    "ebay": {
+      "type": "XML_API",
+      "auto_listing": true,
+      "auto_inventory_sync": true,
+      "listing_interval": 7200,
+      "sync_interval": 1800
+    }
+  },
+  "automation": {
+    "product_sync": 3600,
+    "order_sync": 900,
+    "inventory_sync": 1800,
+    "price_optimization": 7200,
+    "token_refresh": 1800,
+    "ebay_auto_list": 7200,
+    "ebay_inventory_sync": 1800
+  },
+  "database": {
+    "type": "SQLite",
+    "file": "data/dropshipping.db"
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/system.log",
+    "console": true
+  }
+}

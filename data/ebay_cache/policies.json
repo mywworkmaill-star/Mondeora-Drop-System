@@ -1,0 +1,21 @@
+{
+  "fulfillment": {
+    "dispatch_time": 1,
+    "handling_time": 0,
+    "shipping_methods": [
+      "StandardShipping"
+    ]
+  },
+  "payment": {
+    "accepted_methods": [
+      "CreditCard",
+      "PayPal"
+    ],
+    "immediate_payment": true
+  },
+  "return": {
+    "policy": "ReturnsAccepted",
+    "days": 14,
+    "refund_method": "MoneyBack"
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "generated_at": "2026-11-07T12:11:48.388192+00:00",
+  "ready_for_live": false,
+  "ready_for_supervised_trial": false,
+  "supervised_trial_blockers": [
+    "supplier_agreement",
+    "live_write_permission",
+    "ebay_merchant_location_key",
+    "vetted_products",
+    "scoped_finance_evidence",
+    "ebay_locations",
+    "commercial_account_status",
+    "business_and_tax_setup",
+    "current_revision_software_tests"
+  ],
+  "stage_rule": "Supervised trial can establish real order evidence before unattended commerce; it does not waive other prerequisites",
+  "live_api_checks_performed": true,
+  "mode": "safe_monitoring",
+  "checks": [
+    {
+      "name": "python",
+      "passed": true,
+      "detail": "Python 3.11 required"
+    },
+    {
+      "name": "runtime_syntax",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "credentials_present",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "market",
+      "passed": true,
+      "detail": "DE / EUR only"
+    },
+    {
+      "name": "fee_configuration",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "software_implemented": true,
+        "model": "category_scoped_commercial_forecast",
+        "reserve_eur_per_unit": "2.00",
+        "actual_expenses_verified": false,
+        "checkout_evidence_required": true,
+        "legacy_global_percent_required": false
+      }
+    },
+    {
+      "name": "supplier_agreement",
+      "passed": false,
+      "detail": "Wholesale supplier agreement and eBay dropshipping-policy compliance require confirmation"
+    },
+    {
+      "name": "live_write_permission",
+      "passed": false,
+      "detail": "AUTOMATION_LIVE_WRITES and supplier confirmation must be true"
+    },
+    {
+      "name": "purchase_permission",
+      "passed": false,
+      "detail": "ALLOW_ORDER_PURCHASES requires explicit authorization"
+    },
+    {
+      "name": "ebay_payment_policy_id",
+      "passed": true,
+      "detail": "EBAY_PAYMENT_POLICY_ID must identify a real seller resource"
+    },
+    {
+      "name": "ebay_return_policy_id",
+      "passed": true,
+      "detail": "EBAY_RETURN_POLICY_ID must identify a real seller resource"
+    },
+    {
+      "name": "ebay_fulfillment_policy_id",
+      "passed": true,
+      "detail": "EBAY_FULFILLMENT_POLICY_ID must identify a real seller resource"
+    },
+    {
+      "name": "ebay_merchant_location_key",
+      "passed": false,
+      "detail": "EBAY_MERCHANT_LOCATION_KEY must identify a real seller resource"
+    },
+    {
+      "name": "vetted_products",
+      "passed": false,
+      "detail": {
+        "verified_with_required_mapping": 0,
+        "total_products": 3
+      }
+    },
+    {
+      "name": "purchase_reconciliation",
+      "passed": true,
+      "detail": {
+        "unresolved_lines": 0
+      }
+    },
+    {
+      "name": "scoped_finance_evidence",
+      "passed": false,
+      "detail": {
+        "passed": false,
+        "software_implemented": true,
+        "checkout_capture_adapter_implemented": true,
+        "live_checkout_layout_verified": false,
+        "evidence_validated_products": 0,
+        "blockers": [
+          "finance_evidence_file_not_configured"
+        ],
+        "technical_limitations": [],
+        "external_access_pending": [
+          "authenticated_checkout_browser_session_access_required"
+        ]
+      }
+    },
+    {
+      "name": "ebay_inventory",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "error_ids": [],
+        "response_schema_verified": true
+      }
+    },
+    {
+      "name": "ebay_fulfillment",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "error_ids": [],
+        "response_schema_verified": true
+      }
+    },
+    {
+      "name": "ebay_payment_policies",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "error_ids": [],
+        "available_resources": 2,
+        "configured_resource_found": true
+      }
+    },
+    {
+      "name": "ebay_return_policies",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "error_ids": [],
+        "available_resources": 6,
+        "configured_resource_found": true
+      }
+    },
+    {
+      "name": "ebay_fulfillment_policies",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "error_ids": [],
+        "available_resources": 16,
+        "configured_resource_found": true
+      }
+    },
+    {
+      "name": "ebay_locations",
+      "passed": false,
+      "detail": {
+        "http": 200,
+        "error_ids": [],
+        "available_resources": 2,
+        "configured_resource_found": false
+      }
+    },
+    {
+      "name": "aliexpress_product_api",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "capability": "product_details_selected_sku",
+        "product_id": "1005009759780480",
+        "sku_id": "12000060193514017",
+        "stock_known": true,
+        "source_cost_known": true,
+        "purchase_ready": false,
+        "shipping_final_verified": false,
+        "scope": "research_candidate_not_listing_approval"
+      }
+    },
+    {
+      "name": "controlled_end_to_end_acceptance",
+      "passed": false,
+      "detail": {
+        "passed": false,
+        "reason": "No controlled live order evidence exists"
+      }
+    },
+    {
+      "name": "commercial_account_status",
+      "passed": false,
+      "detail": "Operator currently reports a private account; planned resale requires correct account/commercial setup"
+    },
+    {
+      "name": "business_and_tax_setup",
+      "passed": false,
+      "detail": "Business registration and applicable tax treatment have not been established"
+    },
+    {
+      "name": "automatic_supplier_payment",
+      "passed": false,
+      "detail": {
+        "passed": false,
+        "software_implemented": true,
+        "reason": "No independently reconciled API-payment receipt",
+        "settlement_amount_verified": false
+      }
+    },
+    {
+      "name": "source_unit_cap_enforced",
+      "passed": true,
+      "detail": "Source unit cap excludes freight/tax; runtime enforcement and regression evidence are required"
+    },
+    {
+      "name": "current_revision_software_tests",
+      "passed": false,
+      "detail": "Only a successful test run tied to the current source revision counts"
+    }
+  ],
+  "blockers": [
+    "supplier_agreement",
+    "live_write_permission",
+    "purchase_permission",
+    "ebay_merchant_location_key",
+    "vetted_products",
+    "scoped_finance_evidence",
+    "ebay_locations",
+    "controlled_end_to_end_acceptance",
+    "commercial_account_status",
+    "business_and_tax_setup",
+    "automatic_supplier_payment",
+    "current_revision_software_tests"
+  ],
+  "remaining_work": {
+    "agent_work": [
+      {
+        "name": "live_write_permission",
+        "detail": "AUTOMATION_LIVE_WRITES and supplier confirmation must be true"
+      },
+      {
+        "name": "ebay_merchant_location_key",
+        "detail": "EBAY_MERCHANT_LOCATION_KEY must identify a real seller resource"
+      },
+      {
+        "name": "vetted_products",
+        "detail": {
+          "verified_with_required_mapping": 0,
+          "total_products": 3
+        }
+      },
+      {
+        "name": "ebay_locations",
+        "detail": {
+          "http": 200,
+          "error_ids": [],
+          "available_resources": 2,
+          "configured_resource_found": false
+        }
+      },
+      {
+        "name": "controlled_end_to_end_acceptance",
+        "detail": {
+          "passed": false,
+          "reason": "No controlled live order evidence exists"
+        }
+      },
+      {
+        "name": "current_revision_software_tests",
+        "detail": "Only a successful test run tied to the current source revision counts"
+      }
+    ],
+    "external_dependencies": [
+      {
+        "name": "supplier_agreement",
+        "detail": "Wholesale supplier agreement and eBay dropshipping-policy compliance require confirmation"
+      },
+      {
+        "name": "scoped_finance_evidence",
+        "detail": {
+          "passed": false,
+          "software_implemented": true,
+          "checkout_capture_adapter_implemented": true,
+          "live_checkout_layout_verified": false,
+          "evidence_validated_products": 0,
+          "blockers": [
+            "finance_evidence_file_not_configured"
+          ],
+          "technical_limitations": [],
+          "external_access_pending": [
+            "authenticated_checkout_browser_session_access_required"
+          ]
+        }
+      },
+      {
+        "name": "automatic_supplier_payment",
+        "detail": {
+          "passed": false,
+          "software_implemented": true,
+          "reason": "No independently reconciled API-payment receipt",
+          "settlement_amount_verified": false
+        }
+      }
+    ],
+    "user_actions": [
+      {
+        "name": "purchase_permission",
+        "detail": "ALLOW_ORDER_PURCHASES requires explicit authorization"
+      },
+      {
+        "name": "commercial_account_status",
+        "detail": "Operator currently reports a private account; planned resale requires correct account/commercial setup"
+      },
+      {
+        "name": "business_and_tax_setup",
+        "detail": "Business registration and applicable tax treatment have not been established"
+      }
+    ]
+  }
+}

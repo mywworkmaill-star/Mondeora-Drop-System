@@ -1,0 +1,328 @@
+{
+  "observed_at": "2026-11-06T19:43:49.531833+00:00",
+  "source": "aliexpress.ds.product.get",
+  "result": {
+    "ae_item_sku_info_dtos": {
+      "ae_item_sku_info_d_t_o": [
+        {
+          "sku_attr": "14:350850#Black 9-layer disc",
+          "offer_sale_price": "139.39",
+          "sku_id": "12000040205263038",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "240.33",
+          "offer_bulk_sale_price": "139.39",
+          "sku_available_stock": 50,
+          "id": "14:350850#Black 9-layer disc",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Gold",
+                "sku_image": "https://ae01.alicdn.com/kf/Sa80eceea13fd46ec889e25b7cf5267045.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "Black 9-layer disc",
+                "property_value_id": 350850,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:366#WHITE 7-layer disc",
+          "offer_sale_price": "43.39",
+          "sku_id": "12000040205263039",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "76.12",
+          "offer_bulk_sale_price": "43.39",
+          "sku_available_stock": 49,
+          "id": "14:366#WHITE 7-layer disc",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Gelb",
+                "sku_image": "https://ae01.alicdn.com/kf/Scdbad804fbef4f6bbca3ab04baab9c8eN.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "WHITE 7-layer disc",
+                "property_value_id": 366,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:29#WHITE 9-layer disc",
+          "offer_sale_price": "53.99",
+          "sku_id": "12000040205263037",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "96.41",
+          "offer_bulk_sale_price": "53.99",
+          "sku_available_stock": 36,
+          "id": "14:29#WHITE 9-layer disc",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "WEISS",
+                "sku_image": "https://ae01.alicdn.com/kf/S9d0453234bfa4101962ca6a15186344eU.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "WHITE 9-layer disc",
+                "property_value_id": 29,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:173#Black 6-layer disc",
+          "offer_sale_price": "39.19",
+          "sku_id": "12000040205263042",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "68.75",
+          "offer_bulk_sale_price": "39.19",
+          "sku_available_stock": 32,
+          "id": "14:173#Black 6-layer disc",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Blau",
+                "sku_image": "https://ae01.alicdn.com/kf/S81834cc4fbe040ee8002e2f26b627f8ed.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "Black 6-layer disc",
+                "property_value_id": 173,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:496#WHITE 6-layer disc-S",
+          "offer_sale_price": "35.39",
+          "sku_id": "12000040205263043",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "62.09",
+          "offer_bulk_sale_price": "35.39",
+          "sku_available_stock": 36,
+          "id": "14:496#WHITE 6-layer disc-S",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Lila",
+                "sku_image": "https://ae01.alicdn.com/kf/Sa329ac8e71de48359e889dc3fab411d2J.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "WHITE 6-layer disc-S",
+                "property_value_id": 496,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:1052#Black 7-layer disc",
+          "offer_sale_price": "121.39",
+          "sku_id": "12000040205263040",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "205.75",
+          "offer_bulk_sale_price": "121.39",
+          "sku_available_stock": 50,
+          "id": "14:1052#Black 7-layer disc",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Rosa",
+                "sku_image": "https://ae01.alicdn.com/kf/Scfd4a5569774491da47372b58120a5a5E.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "Black 7-layer disc",
+                "property_value_id": 1052,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:350852#WHITE 6-layer disc",
+          "offer_sale_price": "38.79",
+          "sku_id": "12000040205263041",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "68.05",
+          "offer_bulk_sale_price": "38.79",
+          "sku_available_stock": 43,
+          "id": "14:350852#WHITE 6-layer disc",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Orange",
+                "sku_image": "https://ae01.alicdn.com/kf/S56944e239bdd4ca79a3965a0a52ff906M.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "WHITE 6-layer disc",
+                "property_value_id": 350852,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:200001951#2 layers of Black",
+          "offer_sale_price": "27.79",
+          "sku_id": "12000040205263046",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "47.10",
+          "offer_bulk_sale_price": "27.79",
+          "sku_available_stock": 50,
+          "id": "14:200001951#2 layers of Black",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Champagner",
+                "sku_image": "https://ae01.alicdn.com/kf/S5d871ddc31944dde9b44ea212949ef18n.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "2 layers of Black",
+                "property_value_id": 200001951,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:365458#Black 6-layer disc-S",
+          "offer_sale_price": "34.79",
+          "sku_id": "12000040205263044",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "61.03",
+          "offer_bulk_sale_price": "34.79",
+          "sku_available_stock": 38,
+          "id": "14:365458#Black 6-layer disc-S",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Braun",
+                "sku_image": "https://ae01.alicdn.com/kf/S025f64b419ac40a9ba6113d2649e7dbcf.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "Black 6-layer disc-S",
+                "property_value_id": 365458,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:100018786#2 layers of white",
+          "offer_sale_price": "18.49",
+          "sku_id": "12000040205263045",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "31.88",
+          "offer_bulk_sale_price": "18.49",
+          "sku_available_stock": 43,
+          "id": "14:100018786#2 layers of white",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Transparent",
+                "sku_image": "https://ae01.alicdn.com/kf/Se0eb1ad421104d7386dc7cfc3486651dj.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "2 layers of white",
+                "property_value_id": 100018786,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "ae_multimedia_info_dto": {
+      "image_urls": "https://ae01.alicdn.com/kf/S1675b00a50ea4380bc126864e016f6f4N.jpg;https://ae01.alicdn.com/kf/S42b5ab3fa4fc4903b13514bb596aeceb9.jpg;https://ae01.alicdn.com/kf/S4dd4923b537041428932d32e1ed8041aD.jpg;https://ae01.alicdn.com/kf/S16a7ec7fd3ba4034af8703bf7f558323l.jpg;https://ae01.alicdn.com/kf/S7fe0c1b00a114cb880771a21af19055aE.jpg;https://ae01.alicdn.com/kf/S9a8ad5d3acb3422988f5af32aea3dc00y.jpg"
+    },
+    "package_info_dto": {
+      "package_width": 40,
+      "package_height": 30,
+      "package_length": 50,
+      "gross_weight": "15.0",
+      "package_type": false,
+      "product_unit": 100000015
+    },
+    "logistics_info_dto": {
+      "delivery_time": 7,
+      "ship_to_country": "DE"
+    },
+    "product_id_converter_result": {
+      "main_product_id": 1005007311654712,
+      "sub_product_id": "{\"US\":3256807125339960}"
+    },
+    "ae_item_base_info_dto": {
+      "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"text\",\"data\":{\"content\":\"Pflanzenständer Mehrschichtig: 6-lagiger Pflanzenständer aus Metall, Blumentopfständer, schwarzes Garten-Blumentopfregal zum Präsentieren von Heimbalkon, Terrasse, Pflanzendekoration\",\"style\":{\"fontSize\":13,\"fontWeight\":\"\",\"align\":\"left\",\"color\":\"#434649\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S42b5ab3fa4fc4903b13514bb596aeceb9.jpg\",\"style\":{\"width\":459,\"height\":459},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S1675b00a50ea4380bc126864e016f6f4N.jpg\",\"style\":{\"width\":459,\"height\":459},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S4dd4923b537041428932d32e1ed8041aD.jpg\",\"style\":{\"width\":459,\"height\":459},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S16a7ec7fd3ba4034af8703bf7f558323l.jpg\",\"style\":{\"width\":459,\"height\":459},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S9a8ad5d3acb3422988f5af32aea3dc00y.jpg\",\"style\":{\"width\":459,\"height\":459},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S51aa171f39f3438aa529a85d92724527c.jpg\",\"style\":{\"width\":459,\"height\":459},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S3d76aa5d5bc3462fb39875891ad833abx.jpg\",\"style\":{\"width\":459,\"height\":459},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S4e6d68211701484f909268e9eb3ea177X.jpg\",\"style\":{\"width\":459,\"height\":459},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S33389d8edf39400cb7f95f69d4fd2f1by.jpg\",\"style\":{\"width\":459,\"height\":459},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sd31f9b72557d431cbf9b3bfd5d091b3e2.jpg\",\"style\":{\"width\":459,\"height\":459},\"targetUrl\":\"\"}}]}",
+      "subject": "Pflanzenständer, 6-lagiges Pflanzenregal aus Metall, Blumentopfregal, schwarzer Garten-Blumentopfregal für die Präsentation von Zuhause, Balkon, Terrasse",
+      "evaluation_count": "4",
+      "sales_count": "25",
+      "product_status_type": "onSelling",
+      "avg_evaluation_rating": "4.5",
+      "separated_listing": false,
+      "currency_code": "CNY",
+      "sl_product": false,
+      "category_id": 200287145,
+      "product_id": 1005007311654712,
+      "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"> <br />Plant Stand Multi-layer: 6-layer Metal Plant Stand Flower Pot Rack Black Garden Flower Pot Rack for Displaying Home Balcony Terrace Plant Decoration <img src=\"https://ae01.alicdn.com/kf/S42b5ab3fa4fc4903b13514bb596aeceb9.jpg\" slate-data-type=\"image\" /> <br /> <img src=\"https://ae01.alicdn.com/kf/S1675b00a50ea4380bc126864e016f6f4N.jpg\" slate-data-type=\"image\" /> <br /> <img src=\"https://ae01.alicdn.com/kf/S4dd4923b537041428932d32e1ed8041aD.jpg\" slate-data-type=\"image\" /> <br /> <img src=\"https://ae01.alicdn.com/kf/S16a7ec7fd3ba4034af8703bf7f558323l.jpg\" slate-data-type=\"image\" /> <br /> <img src=\"https://ae01.alicdn.com/kf/S9a8ad5d3acb3422988f5af32aea3dc00y.jpg\" slate-data-type=\"image\" /> <br /> <img src=\"https://ae01.alicdn.com/kf/S51aa171f39f3438aa529a85d92724527c.jpg\" slate-data-type=\"image\" /> <br /> <img src=\"https://ae01.alicdn.com/kf/S3d76aa5d5bc3462fb39875891ad833abx.jpg\" slate-data-type=\"image\" /> <br /> <img src=\"https://ae01.alicdn.com/kf/S4e6d68211701484f909268e9eb3ea177X.jpg\" slate-data-type=\"image\" /> <br /> <img src=\"https://ae01.alicdn.com/kf/S33389d8edf39400cb7f95f69d4fd2f1by.jpg\" slate-data-type=\"image\" /> <br /> <img src=\"https://ae01.alicdn.com/kf/Sd31f9b72557d431cbf9b3bfd5d091b3e2.jpg\" slate-data-type=\"image\" /> <br /></div></div>\r\n"
+    },
+    "manufacturer_info": {
+      "address": "No. 10-2, Lane 4, Xi Xiang Street, Gushu Community, Xi Xiang Street, Baoan District, Shenzhen, China",
+      "phone": "16675334284",
+      "country_name": "China",
+      "email": "zhang16675334284@outlook.com",
+      "phone_prefix": "86"
+    },
+    "has_whole_sale": false,
+    "ae_item_properties": {
+      "ae_item_property": [
+        {
+          "attr_name_id": 2,
+          "attr_value_id": 201512802,
+          "attr_name": "Markenname",
+          "attr_value": "NONE"
+        },
+        {
+          "attr_name_id": 906,
+          "attr_value_id": 352913,
+          "attr_name": "Rahmenmaterial",
+          "attr_value": "Metall"
+        },
+        {
+          "attr_name_id": 400000603,
+          "attr_value_id": 23399591357,
+          "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+          "attr_value": "Keine"
+        },
+        {
+          "attr_name_id": 219,
+          "attr_value_id": 9441741844,
+          "attr_name": "Ursprung",
+          "attr_value": "CN (Herkunft)"
+        },
+        {
+          "attr_name_id": 200007025,
+          "attr_value_id": 200844187,
+          "attr_name": "Installationsmethode",
+          "attr_value": "Montage"
+        },
+        {
+          "attr_name_id": -1,
+          "attr_name": "Choice",
+          "attr_value": "yes"
+        }
+      ]
+    },
+    "ae_store_info": {
+      "store_id": 1103191670,
+      "shipping_speed_rating": "4.6",
+      "communication_rating": "4.6",
+      "store_name": "JiaBingFu Store",
+      "store_country_code": "CN",
+      "item_as_described_rating": "4.5"
+    }
+  }
+}

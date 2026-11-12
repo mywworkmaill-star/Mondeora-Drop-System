@@ -1,0 +1,167 @@
+{
+  "observed_at": "2026-11-06T19:43:32.948931+00:00",
+  "source": "aliexpress.ds.product.get",
+  "result": {
+    "ae_item_sku_info_dtos": {
+      "ae_item_sku_info_d_t_o": [
+        {
+          "sku_attr": "14:29#White",
+          "offer_sale_price": "22.79",
+          "sku_id": "12000052791494067",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "45.58",
+          "offer_bulk_sale_price": "22.79",
+          "sku_available_stock": 22,
+          "id": "14:29#White",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "WEISS",
+                "sku_image": "https://ae01.alicdn.com/kf/S5e23ca5e1bab43d0bce7c1df8b3a5db3q.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "White",
+                "property_value_id": 29,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:193#Black",
+          "offer_sale_price": "22.79",
+          "sku_id": "12000052791494068",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "45.58",
+          "offer_bulk_sale_price": "22.79",
+          "sku_available_stock": 12,
+          "id": "14:193#Black",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "schwarz",
+                "sku_image": "https://ae01.alicdn.com/kf/S9db3f340edbc4d2b8ffde2c095a4dea0Z.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "Black",
+                "property_value_id": 193,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:350852#burlywood",
+          "offer_sale_price": "24.39",
+          "sku_id": "12000052791494069",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "48.78",
+          "offer_bulk_sale_price": "24.39",
+          "sku_available_stock": 8,
+          "id": "14:350852#burlywood",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Orange",
+                "sku_image": "https://ae01.alicdn.com/kf/S96240a8591b14493ad646ff3d103534fI.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "burlywood",
+                "property_value_id": 350852,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "ae_multimedia_info_dto": {
+      "image_urls": "https://ae01.alicdn.com/kf/S0a0a99c597804c7d9669a4bb020e0ad4A.jpg;https://ae01.alicdn.com/kf/S9db3f340edbc4d2b8ffde2c095a4dea0Z.jpg;https://ae01.alicdn.com/kf/Sce2754c15a1f469ebc496000029111acy.jpg;https://ae01.alicdn.com/kf/S3f55b4d4625d4609a53df372d7050bcfm.jpg;https://ae01.alicdn.com/kf/S5e23ca5e1bab43d0bce7c1df8b3a5db3q.jpg;https://ae01.alicdn.com/kf/S96240a8591b14493ad646ff3d103534fI.jpg"
+    },
+    "package_info_dto": {
+      "package_width": 24,
+      "package_height": 5,
+      "package_length": 61,
+      "gross_weight": "1.111",
+      "package_type": false,
+      "product_unit": 100000015
+    },
+    "logistics_info_dto": {
+      "delivery_time": 7,
+      "ship_to_country": "DE"
+    },
+    "product_id_converter_result": {
+      "main_product_id": 1005010552384641,
+      "sub_product_id": "{\"US\":3256810366069889}"
+    },
+    "ae_item_base_info_dto": {
+      "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S82197241a9db4e7dabf31a17666f3015K.jpg?has_lang=1&ver=1\",\"style\":{\"width\":1000,\"height\":1000}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sbf072b536aaa4bed89460f3980bb8767x.jpg\",\"style\":{\"width\":1000,\"height\":1000}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sfe262ab025e547efaecde35ee412bf7eg.jpg?has_lang=1&ver=1\",\"style\":{\"width\":1000,\"height\":1000}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S3710db3b2c78409db52327c4d492c60fC.jpg?has_lang=1&ver=1\",\"style\":{\"width\":1000,\"height\":1000}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S09f06c37bfca4f42b3098fef9b4da75e7.jpg?has_lang=1&ver=1\",\"style\":{\"width\":1000,\"height\":1000}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S9fccaa20e847435c8bd884f1dd107fb4R.jpg?has_lang=1&ver=1\",\"style\":{\"width\":1000,\"height\":1000}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S22d876018b564e2792cdc307fc63d24f1.jpg\",\"style\":{\"width\":750,\"height\":1000}}}]}",
+      "subject": "Desktop-Computer-Riser-Ständer, ideal für Schlafsaal-Schreibtische – erhöht Ihren Monitor, um die Ergonomie zu verbessern und den Platz darunter frei",
+      "evaluation_count": "134",
+      "sales_count": "700+",
+      "product_status_type": "onSelling",
+      "avg_evaluation_rating": "4.6",
+      "separated_listing": false,
+      "currency_code": "CNY",
+      "sl_product": false,
+      "category_id": 200001108,
+      "product_id": 1005010552384641,
+      "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><br/><img width=\"750\" height=\"auto\" src=\"https://ae01.alicdn.com/kf/S82197241a9db4e7dabf31a17666f3015K.jpg\" slate-data-type=\"image\"/><img width=\"750\" height=\"auto\" src=\"https://ae01.alicdn.com/kf/Sbf072b536aaa4bed89460f3980bb8767x.jpg\" slate-data-type=\"image\"/><br/><img width=\"750\" height=\"auto\" src=\"https://ae01.alicdn.com/kf/Sfe262ab025e547efaecde35ee412bf7eg.jpg\" slate-data-type=\"image\"/><br/><img width=\"750\" height=\"auto\" src=\"https://ae01.alicdn.com/kf/S3710db3b2c78409db52327c4d492c60fC.jpg\" slate-data-type=\"image\"/><br/><img width=\"750\" height=\"auto\" src=\"https://ae01.alicdn.com/kf/S09f06c37bfca4f42b3098fef9b4da75e7.jpg\" slate-data-type=\"image\"/><br/><img width=\"750\" height=\"auto\" src=\"https://ae01.alicdn.com/kf/S9fccaa20e847435c8bd884f1dd107fb4R.jpg\" slate-data-type=\"image\"/><br/><img width=\"750\" height=\"auto\" src=\"https://ae01.alicdn.com/kf/S22d876018b564e2792cdc307fc63d24f1.jpg\" slate-data-type=\"image\"/><br/></div></div>\r\n"
+    },
+    "manufacturer_info": {
+      "address": "No. 633, Airport Road, Yiwu City, Jinhua City, Zhejiang Province",
+      "phone": "18066205761",
+      "country_name": "China",
+      "email": "meiguo2045@163.com",
+      "phone_prefix": "86"
+    },
+    "has_whole_sale": false,
+    "ae_item_properties": {
+      "ae_item_property": [
+        {
+          "attr_name_id": 2,
+          "attr_value_id": 201512802,
+          "attr_name": "Markenname",
+          "attr_value": "NONE"
+        },
+        {
+          "attr_name_id": 219,
+          "attr_value_id": 9441741844,
+          "attr_name": "Ursprung",
+          "attr_value": "CN (Herkunft)"
+        },
+        {
+          "attr_name_id": 200000572,
+          "attr_value_id": 200002847,
+          "attr_name": "Anwendung Laptop-Größe",
+          "attr_value": "10\"-20\""
+        },
+        {
+          "attr_name_id": 400000603,
+          "attr_value_id": 23399591357,
+          "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+          "attr_value": "Keine"
+        },
+        {
+          "attr_name_id": 200000941,
+          "attr_value_id": 350216,
+          "attr_name": "Verpackung",
+          "attr_value": "Ja"
+        },
+        {
+          "attr_name_id": -1,
+          "attr_name": "Choice",
+          "attr_value": "yes"
+        }
+      ]
+    },
+    "ae_store_info": {
+      "store_id": 1104105239,
+      "shipping_speed_rating": "4.7",
+      "communication_rating": "4.7",
+      "store_name": "Shop1104105239 Store",
+      "store_country_code": "CN",
+      "item_as_described_rating": "4.5"
+    }
+  }
+}

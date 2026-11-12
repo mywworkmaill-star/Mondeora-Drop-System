@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-11-06T07:29:00.164390+00:00",
+  "currency": "EUR",
+  "tax_reserve_per_unit_eur": "2.00",
+  "reserve_is_tax_liability": false,
+  "tax_status": "unconfirmed",
+  "account_reported": "private",
+  "ship_from_country": "CN",
+  "ship_from_evidence": "operator_reported",
+  "verified_warehouse": false,
+  "supplier_agreement_status": "deferred_not_verified",
+  "business_registration_status": "not_confirmed",
+  "planning_fee_model": "commercial_new_goods_standard_service_no_shop",
+  "fee_vat_scenario_percent": "19",
+  "marketplace_collected_vat_scenario_percent": "19",
+  "fee_source": "https://www.ebay.de/help/selling/fees-credits-invoices/gebuhren-fur-gewerbliche-verkaufer?id=4809",
+  "unknown_import_cost_is_zero": false,
+  "tax_registration_is_not_retroactively_satisfied_by_this_ledger": true
+}

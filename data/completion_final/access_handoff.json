@@ -1,0 +1,320 @@
+{
+  "generated_at": "2026-11-07T12:11:52.994979+00:00",
+  "probe_started_at": "2026-11-07T12:11:49.118513+00:00",
+  "scope": "single_finite_live_read_only_access_pass",
+  "readiness_execution": {
+    "started_at": "2026-11-07T12:11:44.784502+00:00",
+    "exit_code": 2,
+    "report_generated_at": "2026-11-07T12:11:48.388192+00:00",
+    "readiness_readback_equal": true,
+    "env_unchanged": true,
+    "stderr_present": false,
+    "command": [
+      "main.py",
+      "--read-only",
+      "--live-check"
+    ],
+    "source_fingerprint_before": "f1db407f43e4982aefb617e7401705797a22d5b982727323a22e58c47aaa7fcd",
+    "source_fingerprint_after": "f1db407f43e4982aefb617e7401705797a22d5b982727323a22e58c47aaa7fcd",
+    "updated_ebay_schema_validation_exercised": true,
+    "supersedes_initial_pre_parent_fix_probe": true,
+    "global_suite_evidence_not_interpreted": true
+  },
+  "readiness_report": "data/completion_final/live_readiness.json",
+  "readiness_generated_at": "2026-11-07T12:11:48.388192+00:00",
+  "ready_for_live": false,
+  "ready_for_supervised_trial": false,
+  "ebay": {
+    "ebay_inventory": {
+      "name": "ebay_inventory",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "error_ids": [],
+        "response_schema_verified": true
+      }
+    },
+    "ebay_fulfillment": {
+      "name": "ebay_fulfillment",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "error_ids": [],
+        "response_schema_verified": true
+      }
+    },
+    "ebay_payment_policies": {
+      "name": "ebay_payment_policies",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "error_ids": [],
+        "available_resources": 2,
+        "configured_resource_found": true
+      }
+    },
+    "ebay_return_policies": {
+      "name": "ebay_return_policies",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "error_ids": [],
+        "available_resources": 6,
+        "configured_resource_found": true
+      }
+    },
+    "ebay_fulfillment_policies": {
+      "name": "ebay_fulfillment_policies",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "error_ids": [],
+        "available_resources": 16,
+        "configured_resource_found": true
+      }
+    },
+    "ebay_locations": {
+      "name": "ebay_locations",
+      "passed": false,
+      "detail": {
+        "http": 200,
+        "error_ids": [],
+        "available_resources": 2,
+        "configured_resource_found": false
+      }
+    }
+  },
+  "aliexpress_selected_sku": {
+    "name": "aliexpress_product_api",
+    "passed": true,
+    "detail": {
+      "passed": true,
+      "capability": "product_details_selected_sku",
+      "product_id": "1005009759780480",
+      "sku_id": "12000060193514017",
+      "stock_known": true,
+      "source_cost_known": true,
+      "purchase_ready": false,
+      "shipping_final_verified": false,
+      "scope": "research_candidate_not_listing_approval"
+    }
+  },
+  "checkout": {
+    "status": "source_unavailable",
+    "blocker": "browser_session_access_unavailable",
+    "read_only": true,
+    "engine_evidence_written": false,
+    "software_implemented": true,
+    "exit_code": 2,
+    "stderr_present": false,
+    "entrypoint": "python -B -m src.checkout_evidence [effective loopback endpoint]",
+    "live_layout_verified": false,
+    "remote_mutations_attempted": 0
+  },
+  "gmail": {
+    "entrypoint": "src.gmail_ingestion.ingest_gmail",
+    "effective_opt_ins": {
+      "EMAIL_INGESTION_ENABLED": false,
+      "EMAIL_GMAIL_ENABLED": false,
+      "EMAIL_IMAP_ENABLED": false
+    },
+    "credentials": {
+      "configured": false,
+      "absolute_path": false,
+      "file_exists": false,
+      "symlink": false,
+      "schema_checked": false
+    },
+    "expected_account_configured": false,
+    "configured_provider_only": true,
+    "credential_discovery_performed": false,
+    "probe_limit": 1,
+    "local_staging": "in_memory_only",
+    "result": {
+      "status": "gmail_disabled",
+      "checked": 0,
+      "stored": 0,
+      "duplicates": 0,
+      "rejected": 0,
+      "held": 0,
+      "mailbox_verified": false
+    },
+    "consent_started": false,
+    "credential_persistence": false,
+    "sender_origin_verified": false,
+    "shipment_verified": false,
+    "remote_mail_mutations_attempted": 0,
+    "integration_source": [
+      "src/automation/engine.py:poll_order_statuses",
+      "src/automation/fulfillment.py:sync_fulfillment",
+      "src/gmail_ingestion.py:ingest_gmail"
+    ]
+  },
+  "classification": {
+    "software_gap": [
+      {
+        "name": "readiness_remaining_work_scope_classification",
+        "severity": "reporting_only",
+        "reproduced": true,
+        "source": "src/readiness.py:classify_remaining",
+        "input": {
+          "name": "live_write_permission",
+          "passed": false
+        },
+        "actual_bucket": "agent_work",
+        "expected_interpretation": "intentional_read_only_safety_guard_not_unfinished_software",
+        "detail_tr": "--read-only nedeniyle doğru şekilde kapanan canlı yazma izni genel sınıflayıcıda agent_work görünüyor. API/ödeme adaptörü arızası kanıtı değil; parenta raporlandı, kaynak değiştirilmedi."
+      }
+    ],
+    "external_access": [
+      {
+        "name": "authenticated_checkout_browser",
+        "status": "browser_session_access_unavailable",
+        "detail_tr": "Mevcut oturum/köprü salt-okunur denendi; giriş, sekme oluşturma veya checkout başlatma yapılmadı."
+      },
+      {
+        "name": "supplier_agreement",
+        "scope": "commerce_readiness_not_api_transport",
+        "status": "evidence_missing_not_claimed_verified",
+        "detail": "Wholesale supplier agreement and eBay dropshipping-policy compliance require confirmation"
+      },
+      {
+        "name": "vetted_products",
+        "scope": "commerce_readiness_not_api_transport",
+        "status": "evidence_missing_not_claimed_verified",
+        "detail": {
+          "verified_with_required_mapping": 0,
+          "total_products": 3
+        }
+      },
+      {
+        "name": "scoped_finance_evidence",
+        "scope": "commerce_readiness_not_api_transport",
+        "status": "evidence_missing_not_claimed_verified",
+        "detail": {
+          "passed": false,
+          "software_implemented": true,
+          "checkout_capture_adapter_implemented": true,
+          "live_checkout_layout_verified": false,
+          "evidence_validated_products": 0,
+          "blockers": [
+            "finance_evidence_file_not_configured"
+          ],
+          "technical_limitations": [],
+          "external_access_pending": [
+            "authenticated_checkout_browser_session_access_required"
+          ]
+        }
+      },
+      {
+        "name": "controlled_end_to_end_acceptance",
+        "scope": "commerce_readiness_not_api_transport",
+        "status": "evidence_missing_not_claimed_verified",
+        "detail": {
+          "passed": false,
+          "reason": "No controlled live order evidence exists"
+        }
+      },
+      {
+        "name": "automatic_supplier_payment",
+        "scope": "commerce_readiness_not_api_transport",
+        "status": "evidence_missing_not_claimed_verified",
+        "detail": {
+          "passed": false,
+          "software_implemented": true,
+          "reason": "No independently reconciled API-payment receipt",
+          "settlement_amount_verified": false
+        }
+      }
+    ],
+    "user_action": [
+      {
+        "name": "ebay_selected_dispatch_location",
+        "status": "configured_resource_missing",
+        "configured_key_present": false,
+        "available_resources": 2,
+        "selection_or_origin_assumed": false,
+        "detail_tr": "Gerçek sevk çıkışıyla uyumlu konum seçimi yok; mevcut iki kaynağın hiçbiri otomatik seçilmedi. Seçili konumun ENABLED olduğu kanıtlanmadı."
+      },
+      {
+        "name": "gmail_secure_activation",
+        "status": "gmail_disabled",
+        "missing_config_keys": [
+          "EMAIL_GMAIL_CREDENTIALS_FILE",
+          "EMAIL_GMAIL_EXPECTED_ACCOUNT"
+        ],
+        "disabled_opt_ins": [
+          "EMAIL_INGESTION_ENABLED",
+          "EMAIL_GMAIL_ENABLED"
+        ],
+        "detail_tr": "Mevcut entegrasyon bağlı; güvenli yerel yetkili OAuth yapılandırması/opt-in eksikse canlı posta erişimi doğrulanamaz. Bu tur consent başlatılmadı."
+      },
+      {
+        "name": "commercial_account_status",
+        "scope": "commerce_readiness_not_this_read_only_run",
+        "status": "not_verified",
+        "detail": "Operator currently reports a private account; planned resale requires correct account/commercial setup"
+      },
+      {
+        "name": "business_and_tax_setup",
+        "scope": "commerce_readiness_not_this_read_only_run",
+        "status": "not_verified",
+        "detail": "Business registration and applicable tax treatment have not been established"
+      },
+      {
+        "name": "purchase_permission",
+        "scope": "commerce_readiness_not_this_read_only_run",
+        "status": "not_verified",
+        "detail": "ALLOW_ORDER_PURCHASES requires explicit authorization"
+      }
+    ]
+  },
+  "classification_counts": {
+    "software_gap": 1,
+    "external_access": 6,
+    "user_action": 5
+  },
+  "readiness_blockers_verbatim": [
+    "supplier_agreement",
+    "live_write_permission",
+    "purchase_permission",
+    "ebay_merchant_location_key",
+    "vetted_products",
+    "scoped_finance_evidence",
+    "ebay_locations",
+    "controlled_end_to_end_acceptance",
+    "commercial_account_status",
+    "business_and_tax_setup",
+    "automatic_supplier_payment",
+    "current_revision_software_tests"
+  ],
+  "safety": {
+    "read_only_latch_enabled": true,
+    "env_unchanged_during_main": true,
+    "env_unchanged_during_supplement": true,
+    "source_unchanged_during_supplement": true,
+    "source_fingerprint_before": "f1db407f43e4982aefb617e7401705797a22d5b982727323a22e58c47aaa7fcd",
+    "source_fingerprint_after": "f1db407f43e4982aefb617e7401705797a22d5b982727323a22e58c47aaa7fcd",
+    "source_edits_by_this_worker": false,
+    "global_manifest_edits": false,
+    "secrets_emitted": false,
+    "credential_values_written_to_report": false,
+    "consent_started": false,
+    "remote_listing_purchase_payment_uploads_attempted": 0,
+    "supervised_or_third_party_approvals_inferred": false,
+    "note": "main.py invokes existing local DB initialization/logging/report code; no production mail staging, source/config edits or remote commerce writes were requested."
+  },
+  "completion": {
+    "requested_access_round_completed": true,
+    "further_rechecks_planned": false,
+    "software_tests": "Global suite/current revision evidence not interpreted; parent owns freeze and final regression verification",
+    "modified_or_created_artifacts": [
+      "data/readiness_report.json",
+      "data/completion_final/live_readiness.json",
+      "data/completion_final/live_check_execution.json",
+      "data/completion_final/checkout_access.json",
+      "data/completion_final/gmail_access.json",
+      "data/completion_final/access_handoff.json"
+    ]
+  }
+}

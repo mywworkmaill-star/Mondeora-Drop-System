@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-11-07T12:11:44.784502+00:00",
+  "exit_code": 2,
+  "report_generated_at": "2026-11-07T12:11:48.388192+00:00",
+  "readiness_readback_equal": true,
+  "env_unchanged": true,
+  "stderr_present": false,
+  "command": [
+    "main.py",
+    "--read-only",
+    "--live-check"
+  ],
+  "source_fingerprint_before": "f1db407f43e4982aefb617e7401705797a22d5b982727323a22e58c47aaa7fcd",
+  "source_fingerprint_after": "f1db407f43e4982aefb617e7401705797a22d5b982727323a22e58c47aaa7fcd",
+  "updated_ebay_schema_validation_exercised": true,
+  "supersedes_initial_pre_parent_fix_probe": true,
+  "global_suite_evidence_not_interpreted": true
+}

@@ -1,0 +1,12 @@
+{
+  "status": "source_unavailable",
+  "blocker": "browser_session_access_unavailable",
+  "read_only": true,
+  "engine_evidence_written": false,
+  "software_implemented": true,
+  "exit_code": 2,
+  "stderr_present": false,
+  "entrypoint": "python -B -m src.checkout_evidence [effective loopback endpoint]",
+  "live_layout_verified": false,
+  "remote_mutations_attempted": 0
+}

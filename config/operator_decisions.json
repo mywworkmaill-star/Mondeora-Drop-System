@@ -1,0 +1,91 @@
+{
+  "purpose": "Operator decisions only; this file does not enable marketplace writes or prove implemented spending enforcement.",
+  "product_sourcing": "autonomous_research",
+  "delivery_priorities": {
+    "defer_optional_work": false,
+    "full_automation_and_az_monitor_remain_in_scope": true,
+    "acceleration_method": "parallel_independent_work_with_single_final_integration",
+    "preserve_tests_and_payment_safety": true,
+    "does_not_change_live_authorizations": true
+  },
+  "sourcing_brief": {
+    "requested_niches": ["office_buero", "home_garden", "similar_low_risk_niches"],
+    "demand_preference": "high_sales_with_verifiable_evidence",
+    "exact_competitor_match_required": false,
+    "alternative_selection_requires": ["dropshipping_suitability", "verified_demand", "positive_complete_cost_profit"],
+    "source_price_and_shipping": "read_supplier_sku_and_checkout_data_without_purchase",
+    "final_checkout_cost_verification": "required_not_assumed_from_country_quote",
+    "agent_owned_work": ["product_research", "cost_calculation", "market_and_demand_review", "product_safety_document_review", "supplier_due_diligence_and_terms_coordination"],
+    "supplier_agreement_verified": false,
+    "product_compliance_verified": false,
+    "does_not_enable_live_mutations_or_payments": true
+  },
+  "supplier_transition_plan": {
+    "initial_requested_provider": "AliExpress",
+    "future_requested_provider": "BigBuy",
+    "transition_trigger": "regular_sales_reported_by_operator",
+    "bigbuy_integration_verified": false,
+    "does_not_override_marketplace_or_live_readiness_requirements": true
+  },
+  "ebay_account_type_reported": "private",
+  "ebay_shop_subscription_reported": "none",
+  "company_formation_reported": "not_formed",
+  "gewerbe_registration_status": "not_confirmed",
+  "vat_status": "not_confirmed",
+  "approved_source_unit_budget_eur": "40.00",
+  "unit_budget_includes_shipping_and_tax": false,
+  "daily_purchase_cap_mode": "unlimited_requested",
+  "daily_purchase_cap_eur": null,
+  "returns_handling": "manual_initially",
+  "listing_image_preference": {
+    "requested_set": "data/product_images/ebay_png_1600x1600",
+    "manifest": "data/product_images/ebay_png_1600x1600/manifest.json",
+    "format": "PNG",
+    "dimensions": [1600, 1600],
+    "image_count": 105,
+    "product_count": 6,
+    "operator_requested_for_live_listings": true,
+    "use_matching_product_and_selected_variant_only": true,
+    "image_use_rights_verified": false,
+    "remote_upload_performed": false,
+    "automatic_listing_asset_integration_verified": true,
+    "integration_verification_scope": "Isolated exact-SKU selection, upload/readback and inventory payload tests; no live upload",
+    "selection_manifest": "data/listing_asset_selection.json",
+    "selected_product_ids": ["1005009759780480", "1005005921446741", "1005008387790553", "1005010496570687", "1005011966943028", "1005007369511923"],
+    "does_not_enable_live_publication": true
+  },
+  "fulfillment_operator_requests": {
+    "initial_purchase_model_requested": "ordinary_aliexpress_retail_purchase_per_customer_order",
+    "supplier_consent_position": "operator_considers_purchase_sufficient_not_supplier_confirmation",
+    "listing_content": "custom_german_copy_and_visual_layout_using_licensed_or_original_assets_only",
+    "manufacturer_and_safety_data": "factual_provider_evidence_only_not_custom_fabricated",
+    "tracking_source_requested": "supplier_order_emails",
+    "tracking_mailbox_requested": "mywworkmaill@gmail.com",
+    "tracking_mailbox_provider": "gmail",
+    "tracking_mailbox_authorization_verified": false,
+    "email_tracking_integration_verified": false,
+    "tracking_reconciliation_required": "match_real_supplier_order_and_sales_line_before_upload",
+    "prepurchase_shipping_terms_required": true,
+    "return_address_is_dispatch_origin": false,
+    "supplier_reimbursement_verified": false,
+    "does_not_enable_live_writes_or_purchase": true
+  },
+  "confirmed_return_address": {
+    "address_line_1": "steilweg 12",
+    "postal_code": "51702",
+    "city": "bergneustadt",
+    "country": "DE",
+    "role": "returns_only_not_proof_of_dispatch_origin"
+  },
+  "first_supplier_order": {
+    "mode": "supervised_with_operator_when_technically_ready",
+    "operator_adds_payment_method_on_supplier_platform": true,
+    "future_automatic_payment": "requested_not_yet_verified_or_enabled"
+  },
+  "supplier_agreement": "not_available",
+  "sourcing_compliance_rule": "verified_wholesale_supplier_or_owned_stock_only",
+  "shipping_origin_rule": "actual_verified_dispatch_location",
+  "automation_access_method": "official_ebay_api_no_identity_disguise",
+  "spending_enforcement_verified": false,
+  "live_activation": "blocked_pending_technical_and_supplier_prerequisites"
+}

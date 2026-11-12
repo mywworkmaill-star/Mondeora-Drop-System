@@ -1,0 +1,169 @@
+{
+  "observed_at": "2026-11-06T19:43:37.746412+00:00",
+  "source": "aliexpress.ds.product.get",
+  "result": {
+    "ae_item_sku_info_dtos": {
+      "ae_item_sku_info_d_t_o": [
+        {
+          "sku_attr": "14:200006151#As picture",
+          "offer_sale_price": "34.19",
+          "sku_id": "12000040517942724",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "94.97",
+          "offer_bulk_sale_price": "34.19",
+          "sku_available_stock": 3,
+          "id": "14:200006151#As picture",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Hellgrau",
+                "sku_image": "https://ae01.alicdn.com/kf/S1ef41ebe638a407eb97891c2c65c051d9.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "As picture",
+                "property_value_id": 200006151,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "ae_multimedia_info_dto": {
+      "image_urls": "https://ae01.alicdn.com/kf/S4265b084a2c64db8bedeecdf56a72b69K.jpg;https://ae01.alicdn.com/kf/Sb84dc5c95917478699449eed0736ea4e9.jpg;https://ae01.alicdn.com/kf/S1daf7dfa6389436ba6327b888001c3d2o.jpg;https://ae01.alicdn.com/kf/Sb116f0d39fa9447091c8c51da155f3ccI.jpg;https://ae01.alicdn.com/kf/S8c2abde599aa4460accd224302fcac0eD.jpg;https://ae01.alicdn.com/kf/S52f57e93cb0b421ca4734b6566d33185T.jpg"
+    },
+    "package_info_dto": {
+      "package_width": 24,
+      "package_height": 16,
+      "package_length": 38,
+      "gross_weight": "1.529",
+      "package_type": false,
+      "product_unit": 100000015
+    },
+    "logistics_info_dto": {
+      "delivery_time": 7,
+      "ship_to_country": "DE"
+    },
+    "product_id_converter_result": {
+      "main_product_id": 1005007383179341,
+      "sub_product_id": "{\"US\":3256807196864589}"
+    },
+    "ae_item_base_info_dto": {
+      "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"text\",\"data\":{\"content\":\"Hölzerner Make-up-Organizer im Antik-Retro-Stil, Mehrstöckiger Holz-Aufbewahrungsschrank, Schminktisch-Kosmetikschublade, Schmuck-Aufbewahrungsbox\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sb2b980b5b66442d2a94c723440486f968.png\",\"style\":{\"width\":900,\"height\":900}}},{\"type\":\"text\",\"data\":{\"content\":\"Funktion: \\n 1. Material: Die Box besteht aus umweltfreundlichem Holz, das langlebig und leicht ist und nicht leicht reißbar ist. \\n 2. Große Kapazität: Die Aufbewahrungsbox verfügt über viele Aufbewahrungsmöglichkeiten, mit 2 Schubladen, 6 kleinen Fächern und 1 großem Fach. \\n 3. Retro-Stil: Der Kosmetik-Organizer hat einen rustikalen Look und bietet viel Platz für Dinge, was Ihren Schreibtisch ordentlicher macht. \\n 4. Vielseitig einsetzbar: Geeignet für viele Anlässe, wie z. B. als Schlafzimmerkommode, Schreibtisch, Couchtisch, Küchenarbeitsplatte, zur Aufbewahrung von Kosmetik, Schreibwaren, Bürobedarf und sogar Kaffeezubehör. \\n 5. Keine Installation erforderlich: Platzieren Sie den Organizer, wo Sie ihn benötigen, und Ihre Arbeitsplatte wird sauberer und es ist einfacher, nach dem gewünschten Gegenstand zu suchen. \\n Spezifikation: \\n Artikeltyp: Holz-Make-up-Organizer \\n Produktmaterial: Holz, Metall \\n Produktanwendung: Geeignet für Desktop-Veredelung, etc. \\n Produktgröße: ca. 34,5 x 19,5 x 14,5 cm / 13,6 x 7,7 x 5,7 Zoll \\n Paketliste: \\n 2 x Schublade \\n 1 x Aufbewahrungsregal\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sade4f75adb2644b19a19cab944ce7cc5u.png\",\"style\":{\"width\":900,\"height\":900}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S1ef41ebe638a407eb97891c2c65c051d9.jpg\",\"style\":{\"width\":900,\"height\":900}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S8c2abde599aa4460accd224302fcac0eD.jpg\",\"style\":{\"width\":900,\"height\":900}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S4265b084a2c64db8bedeecdf56a72b69K.jpg\",\"style\":{\"width\":900,\"height\":900}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sa2b652cda73b4415a5b91f774e87ebb5F.jpg\",\"style\":{\"width\":900,\"height\":900}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S1daf7dfa6389436ba6327b888001c3d2o.jpg\",\"style\":{\"width\":900,\"height\":900}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sb84dc5c95917478699449eed0736ea4e9.jpg\",\"style\":{\"width\":900,\"height\":900}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S885af0a6b02f4b3f86df2b7b1ef96950I.jpg\",\"style\":{\"width\":900,\"height\":900}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sb116f0d39fa9447091c8c51da155f3ccI.jpg\",\"style\":{\"width\":900,\"height\":900}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S3cb69f4146ac47f18bae51985c00cf82a.jpg\",\"style\":{\"width\":900,\"height\":900}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S1d8e178e1cc64717aeca8a9d13811519r.png\",\"style\":{\"width\":900,\"height\":900}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/See5bbe6bfb884dd6a4c2c6a01c12c62f4.png\",\"style\":{\"width\":900,\"height\":900}}}]}",
+      "subject": "Holz Schreibtisch Veranstalter antike Retro mehr schicht ige Holz Lagers chrank Desktop Kosmetik Make-up Schublade Schmuck Aufbewahrung sbox",
+      "evaluation_count": "33",
+      "sales_count": "77",
+      "product_status_type": "onSelling",
+      "avg_evaluation_rating": "4.4",
+      "separated_listing": false,
+      "currency_code": "CNY",
+      "sl_product": false,
+      "category_id": 200043145,
+      "product_id": 1005007383179341,
+      "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\">\n <div class=\"detail-desc-decorate-richtext\">\n  <div class=\"desc\">\n   <p id=\"tl_1\">H&ouml;lzerner Make-up-Organizer, antiker Retro-Mehrschichtiger Holz-Aufbewahrungsschrank, Schreibtisch-Kosmetikschublade, Schmuck-Aufbewahrungsbox <br /></p>\n   <p><img style=\"max-width:100%\" src=\"https://ae01.alicdn.com/kf/Sb2b980b5b66442d2a94c723440486f968.png\" slate-data-type=\"image\" /></p>\n   <div style=\"font-size:16px\">\n    <p><strong id=\"tl_2\">Eigenschaften:</strong></p>\n    <div id=\"tl_3\">\n     1. Material: Die Box ist aus umweltfreundlichem Holz gefertigt, das langlebig und leicht ist und nicht leicht bricht. \n     <br />2. Gro&szlig;es Fassungsverm&ouml;gen: Die Aufbewahrungsbox verf&uuml;gt &uuml;ber viele Arten von Stauraum, mit 2 Schubladen, 6 kleinen F&auml;chern und 1 gro&szlig;em Fach. \n     <br />3. Retro-Stil: Der Kosmetik-Organizer hat einen rustikalen Look und bietet viel Stauraum, wodurch Ihr Schreibtisch aufger&auml;umter wird. \n     <br />4. Vielseitig einsetzbar: Geeignet f&uuml;r viele Situationen, Schlafzimmerkommode, Schreibtisch, Couchtisch, K&uuml;chenarbeitsplatte, zur Aufbewahrung von Kosmetika, Schreibwaren, B&uuml;robedarf und sogar Kaffeezubeh&ouml;r. \n     <br />5. Keine Installation n&ouml;tig: Stellen Sie den Organizer dort auf, wo Sie ihn brauchen, Ihre Arbeitsplatte ist sauberer und es ist einfacher, das zu finden, was Sie suchen.\n    </div>\n    <p><br /></p>\n    <p><strong id=\"tl_4\">Spezifikation:</strong></p>\n    <div id=\"tl_5\">\n     Artikeltyp: Make-up-Organizer aus Holz \n     <br />Produktmaterial: Holz, Metall \n     <br />Produktverwendung: Geeignet f&uuml;r die Desktop-Fertigstellung usw. \n     <br />Produktgr&ouml;&szlig;e: ca. 34,5 x 19,5 x 14,5 cm \n     <br />\n    </div>\n    <p><br /></p>\n    <p><strong id=\"tl_6\">Paketliste:</strong></p>\n    <p id=\"tl_7\">2 x Schublade</p>\n    <p id=\"tl_8\">1 x Lagerregal</p>\n   </div>\n   <div>\n    <br />\n   </div>\n   <p><img style=\"max-width:100%\" src=\"https://ae01.alicdn.com/kf/Sade4f75adb2644b19a19cab944ce7cc5u.png\" slate-data-type=\"image\" /></p>\n   <p><img style=\"max-width:100%\" src=\"https://ae01.alicdn.com/kf/S1ef41ebe638a407eb97891c2c65c051d9.jpg\" slate-data-type=\"image\" /><img style=\"font-size:14px;max-width:100%\" src=\"https://ae01.alicdn.com/kf/S8c2abde599aa4460accd224302fcac0eD.jpg\" slate-data-type=\"image\" /><img style=\"font-size:14px;max-width:100%\" src=\"https://ae01.alicdn.com/kf/S4265b084a2c64db8bedeecdf56a72b69K.jpg\" slate-data-type=\"image\" /><img style=\"font-size:14px;max-width:100%\" src=\"https://ae01.alicdn.com/kf/Sa2b652cda73b4415a5b91f774e87ebb5F.jpg\" slate-data-type=\"image\" /><img style=\"font-size:14px;max-width:100%\" src=\"https://ae01.alicdn.com/kf/S1daf7dfa6389436ba6327b888001c3d2o.jpg\" slate-data-type=\"image\" /><img style=\"font-size:14px;max-width:100%\" src=\"https://ae01.alicdn.com/kf/Sb84dc5c95917478699449eed0736ea4e9.jpg\" slate-data-type=\"image\" /><img style=\"font-size:14px;max-width:100%\" src=\"https://ae01.alicdn.com/kf/S885af0a6b02f4b3f86df2b7b1ef96950I.jpg\" slate-data-type=\"image\" /><img style=\"font-size:14px;max-width:100%\" src=\"https://ae01.alicdn.com/kf/Sb116f0d39fa9447091c8c51da155f3ccI.jpg\" slate-data-type=\"image\" /><img style=\"font-size:14px;max-width:100%\" src=\"https://ae01.alicdn.com/kf/S3cb69f4146ac47f18bae51985c00cf82a.jpg\" slate-data-type=\"image\" /><br /></p>\n   <p><img style=\"max-width:100%\" src=\"https://ae01.alicdn.com/kf/S1d8e178e1cc64717aeca8a9d13811519r.png\" slate-data-type=\"image\" /></p>\n   <p><img style=\"max-width:100%\" src=\"https://ae01.alicdn.com/kf/See5bbe6bfb884dd6a4c2c6a01c12c62f4.png\" slate-data-type=\"image\" /></p>\n  </div>\n  <div>\n   <br />\n  </div>\n </div>\n</div>\n<br /></div></div>\r\n"
+    },
+    "manufacturer_info": {
+      "address": "Room 233, No. 2 Xiaomei Street, Liwan Road, Liwan District, Guangzhou, Guangdong, China",
+      "phone": "18620199688",
+      "country_name": "China",
+      "email": "35148@126.com",
+      "phone_prefix": "86"
+    },
+    "has_whole_sale": false,
+    "ae_item_properties": {
+      "ae_item_property": [
+        {
+          "attr_name_id": 2,
+          "attr_value_id": 202463879,
+          "attr_name": "Markenname",
+          "attr_value": "TOPINCN"
+        },
+        {
+          "attr_name_id": 326,
+          "attr_value_id": 200518535,
+          "attr_name": "Art",
+          "attr_value": "Minimalistisch"
+        },
+        {
+          "attr_name_id": 219,
+          "attr_value_id": 9441741844,
+          "attr_name": "Ursprung",
+          "attr_value": "CN (Herkunft)"
+        },
+        {
+          "attr_name_id": 266081643,
+          "attr_value_id": 100015190,
+          "attr_name": "CN",
+          "attr_value": "Guangdong"
+        },
+        {
+          "attr_name_id": 230125275,
+          "attr_value_id": 23399582356,
+          "attr_name": "Befestigungsart",
+          "attr_value": "andere"
+        },
+        {
+          "attr_name_id": 43,
+          "attr_value_id": 23399620951,
+          "attr_name": "Funktion",
+          "attr_value": "Andere"
+        },
+        {
+          "attr_name_id": 10,
+          "attr_value_id": 350383,
+          "attr_name": "Material",
+          "attr_value": "Holz"
+        },
+        {
+          "attr_name_id": 400000603,
+          "attr_value_id": 23399591357,
+          "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+          "attr_value": "Keine"
+        },
+        {
+          "attr_name_id": 217,
+          "attr_value_id": 1983458058,
+          "attr_name": "Merkmal",
+          "attr_value": "Mehrfachverwendungen"
+        },
+        {
+          "attr_name_id": -1,
+          "attr_value_id": -1,
+          "attr_name": "Product Material",
+          "attr_value": "Wood, Metal"
+        },
+        {
+          "attr_name_id": -1,
+          "attr_value_id": -1,
+          "attr_name": "Item Type",
+          "attr_value": "Wooden Makeup Organizer"
+        },
+        {
+          "attr_name_id": -1,
+          "attr_value_id": -1,
+          "attr_name": "Product Size",
+          "attr_value": "Approx.34.5 x 19.5 x 14.5cm / 13.6 x 7.7 x 5.7in"
+        },
+        {
+          "attr_name_id": -1,
+          "attr_value_id": -1,
+          "attr_name": "Feature",
+          "attr_value": "Multi Layer Wooden Storage Cabinet"
+        },
+        {
+          "attr_name_id": -1,
+          "attr_name": "Choice",
+          "attr_value": "yes"
+        }
+      ]
+    },
+    "ae_store_info": {
+      "store_id": 1103733046,
+      "shipping_speed_rating": "4.7",
+      "communication_rating": "4.7",
+      "store_name": "Shop1103733046 Store",
+      "store_country_code": "CN",
+      "item_as_described_rating": "4.6"
+    }
+  }
+}

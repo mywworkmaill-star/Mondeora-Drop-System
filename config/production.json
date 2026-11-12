@@ -1,0 +1,36 @@
+{
+  "environment": "PRODUCTION",
+  "ebay": {
+    "api_base": "https://api.ebay.com",
+    "oauth_endpoint": "https://api.ebay.com/identity/v1/oauth2/token",
+    "endpoints": {
+      "payment_policy": "https://api.ebay.com/sell/account/v1/payment_policy",
+      "fulfillment_policy": "https://api.ebay.com/sell/account/v1/fulfillment_policy",
+      "return_policy": "https://api.ebay.com/sell/account/v1/return_policy",
+      "inventory": "https://api.ebay.com/sell/inventory/v1/inventory",
+      "create_inventory": "https://api.ebay.com/sell/inventory/v1/create_or_replace_inventory_item"
+    },
+    "policy_ids": {
+      "payment": "263035304017",
+      "fulfillment": "263035403017",
+      "return": "263035310017"
+    }
+  },
+  "aliexpress": {
+    "api_base": "https://api-sg.aliexpress.com",
+    "oauth_endpoint": "https://api-sg.aliexpress.com/oauth/authorize",
+    "endpoints": {
+      "token_refresh": "https://api-sg.aliexpress.com/rest/auth/token/refresh",
+      "products_query": "https://api-sg.aliexpress.com/openapi/product/query"
+    }
+  },
+  "automation": {
+    "product_sync_interval": 3600,
+    "order_sync_interval": 900,
+    "inventory_sync_interval": 1800,
+    "price_optimization_interval": 7200,
+    "token_check_interval": 1800,
+    "token_renewal_threshold": 300
+  },
+  "created_at": "2026-11-02T07:58:29.901196"
+}

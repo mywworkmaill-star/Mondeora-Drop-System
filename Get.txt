@@ -1,0 +1,151 @@
+@'
+# Token Kontrol ve Yenileme Scripti
+# Mondeora-Drop-System için hazırlanmıştır
+# Python 3.11 ile birlikte çalışır
+
+param(
+    [string]$Platform = "ebay",
+    [string]$TokenFile = "tokens.json"
+)
+
+$ErrorActionPreference = "Stop"
+
+# 🎯 Dizin Yolü
+$ProjectPath = "C:\Users\Administrator\Desktop\Mondeora-Drop-System"
+$TokenPath = Join-Path $ProjectPath $TokenFile
+
+# 📖 Token Dosyası Okuma
+function Get-Token {
+    param([string]$Path)
+    
+    if (-not (Test-Path $Path)) {
+        Write-Host "❌ Token dosyası bulunamadı: $Path" -ForegroundColor Red
+        return $null
+    }
+    
+    $content = Get-Content $Path -Raw -Encoding UTF8
+    try {
+        return $content | ConvertFrom-Json
+    } catch {
+        Write-Host "❌ Token dosyası okunamadı: $Path" -ForegroundColor Red
+        return $null
+    }
+}
+
+# 🔄 OAuth2 Token Yenileme
+function Test-RefreshToken {
+    param(
+        [string]$RefreshToken,
+        [string]$Platform = "ebay"
+    )
+    
+    if ([string]::IsNullOrEmpty($RefreshToken)) {
+        Write-Host "❌ Refresh token bulunamadı!" -ForegroundColor Red
+        return
+    }
+    
+    $tokenUrl = "https://api.ebay.com/identity/v1/oauth2/token"
+    $headers = @{
+        "Content-Type" = "application/x-www-form-urlencoded"
+    }
+    $body = @{
+        "grant_type" = "refresh_token"
+        "refresh_token" = $RefreshToken
+        "client_id" = "REPLACE_WITH_YOUR_CLIENT_ID"
+        "client_secret" = "REPLACE_WITH_YOUR_CLIENT_SECRET"
+    }
+    
+    Write-Host "🔄 OAuth2 Token Test ediliyor..." -ForegroundColor Yellow
+    Write-Host "📡 Endpoint: $tokenUrl" -ForegroundColor Gray
+    
+    try {
+        $response = Invoke-RestMethod -Uri $tokenUrl -Method Post -Headers $headers -Body $body -Timeout 30
+        
+        Write-Host "✅ Token Test Başarılı!" -ForegroundColor Green
+        Write-Host "📦 Cevap:"
+        $response | ConvertTo-Json -Depth 3 | Format-Table -AutoSize | Out-Host
+        Write-Host "✅ Yeni Access Token alınmıştır."
+        
+        return $response
+    }
+    catch {
+        $errorMessage = $_.Exception.Message
+        Write-Host "❌ Token Testi Başarısız!" -ForegroundColor Red
+        Write-Host "📄 Hata: $errorMessage" -ForegroundColor Red
+        
+        if ($errorMessage -like "*401*") {
+            Write-Host "⚠️  401 - Token yetersiz veya eksik!" -ForegroundColor Yellow
+        }
+        elseif ($errorMessage -like "*429*") {
+            Write-Host "⚠️  429 - Rate limit aşımı!" -ForegroundColor Yellow
+        }
+        elseif ($errorMessage -like "*403*") {
+            Write-Host "⚠️  403 - İzin eksik!" -ForegroundColor Yellow
+        }
+        else {
+            Write-Host "⚠️  Başka bir hata!" -ForegroundColor Yellow
+        }
+        
+        return $null
+    }
+}
+
+# 🔍 Ana Fonksiyon
+function Show-MonodeoraTokenStatus {
+    param([string]$Platform = "ebay")
+    
+    Write-Host "╔══════════════════════════════════════════════╗" -ForegroundColor Cyan
+    Write-Host "║     Mondeora-Drop-System - Token Kontrol   ║" -ForegroundColor Cyan
+    Write-Host "╚══════════════════════════════════════════════╝" -ForegroundColor Cyan
+    Write-Host ""
+    
+    $tokenData = Get-Token -Path $TokenPath
+    if (-not $tokenData) {
+        return
+    }
+    
+    $refreshToken = $tokenData.RefreshToken
+    $accessToken = $tokenData.AccessToken
+    
+    Write-Host "📊 Mevcut Durum:" -ForegroundColor Cyan
+    Write-Host "   Refresh Token: $($refreshToken.Substring(0, [Math]::Min(20, $refreshToken.Length)))..." -ForegroundColor DarkGray
+    Write-Host "   Access Token:  $($accessToken.Substring(0, [Math]::Min(20, $accessToken.Length)))..." -ForegroundColor DarkGray
+    Write-Host ""
+    
+    if ($Platform -eq "ebay") {
+        Test-RefreshToken -RefreshToken $refreshToken -Platform "ebay"
+    }
+    elseif ($Platform -eq "aliexpress") {
+        Write-Host "ℹ️  AliExpress kontrolü için --platform aliexpress parametresi kullanılabilir." -ForegroundColor Yellow
+    }
+    else {
+        Write-Host "❌ Bilinmeyen platform!" -ForegroundColor Red
+    }
+    
+    Write-Host ""
+    Write-Host "─── Oransal Özet ───" -ForegroundColor Gray
+    Write-Host "| Platform    | Durum                     |" -ForegroundColor DarkGray
+    Write-Host "|-------------|---------------------------|" -ForegroundColor DarkGray
+    Write-Host "| eBay        | {" | ForegroundColor Yellow
+    Write-Host "| ├─ Refresh  | "$([string]::IsNullOrEmpty($refreshToken)? "YOK" : "VAR")  |" -ForegroundColor DarkGray
+    Write-Host "| ├─ Access   | "$([string]::IsNullOrEmpty($accessToken)? "YOK" : "VAR")  |" -ForegroundColor DarkGray
+    Write-Host "| └─ Active   | " + (Get-Date).ToString("HH:mm:ss") + " |" -ForegroundColor DarkGray
+}
+
+# 📖 Kullanım
+Write-Host "═══ Mondeora-Drop-System Token Kontrol ██" -ForegroundColor Magenta
+Write-Host "─── Platform: $Platform" -ForegroundColor Gray
+Write-Host "─── Dosya: $TokenPath" -ForegroundColor Gray
+Write-Host ""
+
+Show-MonodeoraTokenStatus -Platform $Platform
+
+# Hata kontrolleri
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "⚠️  Hata oluştu!" -ForegroundColor Yellow
+    exit $LASTEXITCODE
+}
+'@ | Out-File -FilePath "C:\Users\Administrator\Desktop\Mondeora-Drop-System\TokenCheck.ps1" -Encoding utf8
+
+Write-Host "✅ TokenCheck.ps1 oluşturuldu!"
+Write-Host "📁 Konum: C:\Users\Administrator\Desktop\Mondeora-Drop-System\TokenCheck.ps1"

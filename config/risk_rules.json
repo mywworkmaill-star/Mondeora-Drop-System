@@ -1,0 +1,193 @@
+{
+ "_comment": "STARTER lists, NOT exhaustive and NOT legal advice. block = never auto-list; review = listed only if pid is in config/risk_ack.json (user decision). Extend as new cases appear.",
+ "block": {
+  "brand_or_fake": [
+   "original",
+   "imitation",
+   "imitations",
+   "replica",
+   "replik",
+   "fake",
+   "kopie",
+   "markenqualität",
+   "brand new brand",
+   "inspired by",
+   "wie original"
+  ],
+  "brands": [
+   "apple",
+   "iphone",
+   "ipad",
+   "airpods",
+   "samsung",
+   "galaxy",
+   "nike",
+   "adidas",
+   "puma",
+   "sony",
+   "playstation",
+   "xbox",
+   "nintendo",
+   "disney",
+   "pokemon",
+   "pokémon",
+   "lego",
+   "gucci",
+   "louis vuitton",
+   "chanel",
+   "rolex",
+   "dyson",
+   "xiaomi",
+   "huawei",
+   "ray-ban",
+   "rayban",
+   "barbie",
+   "hello kitty",
+   "marvel",
+   "hermes",
+   "hermès",
+   "prada",
+   "cartier",
+   "supreme",
+   "jordan",
+   "yeezy",
+   "bose",
+   "jbl",
+   "garmin",
+   "gopro"
+  ],
+  "laser": [
+   "laser",
+   "laserpointer"
+  ],
+  "weapon_or_restricted": [
+   "messer",
+   "dolch",
+   "schlagring",
+   "pfefferspray",
+   "taser",
+   "elektroschocker",
+   "armbrust",
+   "luftgewehr",
+   "pistole",
+   "nunchaku",
+   "wurfstern",
+   "butterfly-messer"
+  ],
+  "medical_claims": [
+   "heilt",
+   "krebs",
+   "abnehmen",
+   "diabetes",
+   "schmerzen heilen",
+   "wunderheilung",
+   "potenz"
+  ],
+  "adult": [
+   "erotik",
+   "sexspielzeug",
+   "dildo",
+   "vibrator",
+   "fetisch",
+   "bdsm"
+  ]
+ },
+ "review": {
+  "electronics_battery": [
+   "ladegerät",
+   "ladepad",
+   "charger",
+   "wireless charging",
+   "netzteil",
+   "adapter",
+   "usb",
+   "akku",
+   "batterie",
+   "batterien",
+   "lithium",
+   "powerbank",
+   "led",
+   "elektrisch",
+   "automatisch",
+   "motor",
+   "bluetooth",
+   "kabellos",
+   "ladekabel"
+  ],
+  "childrens_product": [
+   "baby",
+   "kleinkind",
+   "säugling",
+   "kinderspielzeug",
+   "für kinder",
+   "kids",
+   "babyspielzeug"
+  ],
+  "cosmetics_food_supplement": [
+   "creme",
+   "serum",
+   "shampoo",
+   "parfüm",
+   "parfum",
+   "lotion",
+   "nahrungsergänzung",
+   "vitamin",
+   "snack",
+   "futter",
+   "leckerli",
+   "lebensmittel",
+   "tee ",
+   "kosmetik",
+   "nagellack"
+  ],
+  "heating_or_hot": [
+   "heizung",
+   "heizgerät",
+   "wärme",
+   "wärmetasche",
+   "heißsiegel",
+   "lötkolben",
+   "heizdecke",
+   "heizkissen"
+  ],
+  "magnets_small_parts": [
+   "magnet",
+   "kleinteile"
+  ]
+ },
+ "title": {
+  "max_len": 80,
+  "banned_chars": [
+   "!",
+   "*",
+   "#",
+   "~",
+   "<",
+   ">"
+  ],
+  "stop_endings": [
+   "für",
+   "und",
+   "mit",
+   "zum",
+   "zur",
+   "der",
+   "die",
+   "das",
+   "aus",
+   "in",
+   "von",
+   "bei",
+   "oder",
+   "zu",
+   "fur"
+  ],
+  "max_word_repeat": 2,
+  "max_caps_ratio": 0.4
+ },
+ "demand": {
+  "min_listings": 1,
+  "max_price_over_median": 2.0,
+  "note": "Browse API fixed-price listings for the same product type; our price is compared with the median."
+ }
+}

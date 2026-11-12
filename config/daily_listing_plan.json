@@ -1,0 +1,26 @@
+{
+  "daily_listing_plan": {
+    "start_date": "2026-11-08",
+    "initial_daily_listings": 2,
+    "daily_increment": 2,
+    "schedule": [
+      {"date": "2026-11-08", "listings": 2, "cumulative": 2},
+      {"date": "2026-11-09", "listings": 4, "cumulative": 6},
+      {"date": "2026-11-10", "listings": 6, "cumulative": 12},
+      {"date": "2026-11-11", "listings": 8, "cumulative": 20},
+      {"date": "2026-11-12", "listings": 10, "cumulative": 30},
+      {"date": "2026-11-13", "listings": 12, "cumulative": 42},
+      {"date": "2026-11-14", "listings": 14, "cumulative": 56}
+    ],
+    "notes": [
+      "Start with 2 products daily",
+      "Increase by +2 each day",
+      "Monitor performance and adjust as needed",
+      "Ensure each product meets quality standards",
+      "Product research automated via --research flag"
+    ],
+    "automation_command": "python main.py --research --research-limit <daily_target>",
+    "status": "CONFIGURED",
+    "created_at": "2026-11-08T07:00:00Z"
+  }
+}

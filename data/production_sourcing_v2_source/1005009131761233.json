@@ -1,0 +1,198 @@
+{
+  "observed_at": "2026-11-06T19:43:36.136443+00:00",
+  "source": "aliexpress.ds.product.get",
+  "result": {
+    "ae_item_sku_info_dtos": {
+      "ae_item_sku_info_d_t_o": [
+        {
+          "sku_attr": "14:193#S",
+          "offer_sale_price": "9.89",
+          "sku_id": "12000048024922262",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "20.60",
+          "offer_bulk_sale_price": "9.89",
+          "sku_available_stock": 4,
+          "id": "14:193#S",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "schwarz",
+                "sku_image": "https://ae01.alicdn.com/kf/S88ab8ec5a9ec44b191a60222777fc0b5l.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "S",
+                "property_value_id": 193,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        },
+        {
+          "sku_attr": "14:175#L",
+          "offer_sale_price": "12.69",
+          "sku_id": "12000048024922263",
+          "price_include_tax": true,
+          "currency_code": "EUR",
+          "sku_price": "26.44",
+          "offer_bulk_sale_price": "12.69",
+          "sku_available_stock": 22,
+          "id": "14:175#L",
+          "ae_sku_property_dtos": {
+            "ae_sku_property_d_t_o": [
+              {
+                "sku_property_value": "Grün",
+                "sku_image": "https://ae01.alicdn.com/kf/S9795c39e1445481ea600ed4ec121df641.jpg",
+                "sku_property_name": "Farbe",
+                "property_value_definition_name": "L",
+                "property_value_id": 175,
+                "sku_property_id": 14
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "ae_multimedia_info_dto": {
+      "image_urls": "https://ae01.alicdn.com/kf/Sf7dfde7c95454cd1abb27ec4d84976b5S.jpg;https://ae01.alicdn.com/kf/Se65408ec91b24d8ca5b6144ff3c88f3fc.jpg;https://ae01.alicdn.com/kf/Se2e2107e1e6a40bab162b2700baa47ccI.jpg;https://ae01.alicdn.com/kf/S8d5eebe8a87d4d89a951546685dec0f3p.jpg;https://ae01.alicdn.com/kf/S449205424311470daf465bb08e83cf135.jpg;https://ae01.alicdn.com/kf/S295194d39ece424692c07d4f765c886bw.jpg"
+    },
+    "package_info_dto": {
+      "package_width": 25,
+      "package_height": 5,
+      "package_length": 34,
+      "gross_weight": "0.500",
+      "package_type": false,
+      "product_unit": 100000015
+    },
+    "logistics_info_dto": {
+      "delivery_time": 7,
+      "ship_to_country": "DE"
+    },
+    "product_id_converter_result": {
+      "main_product_id": 1005009131761233,
+      "sub_product_id": "{\"US\":3256808945446481}"
+    },
+    "ae_item_base_info_dto": {
+      "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"text\",\"data\":{\"content\":\"\\n\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Beschreibung: 100 % brandneu und von hoher Qualität.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Material: PET/Kunststoff\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Farbe: Transparent\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Größe: Wie abgebildet in der Abbildung\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"(1 Zoll = 25,4 mm oder 1 mm = 0,0393 Zoll)\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Paketinhalt:\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"1 Stück Papieraufbewahrungsbox\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Hinweis:\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"1.Bitte beachten Sie, dass bei manueller Messung ein Fehler von 2-3 % möglich ist.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Bitte stellen Sie sicher, dass Sie dies nicht minderwertig finden, bevor Sie einen Auftrag aufgeben.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"2. Die Farben können sich je nach Bildschirmunterschied unterscheiden, bitte haben Sie Verständnis.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"\\n\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"\\n\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"\\n\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S9260ddee13eb408baaec6a515f96d9783.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S48fa73cbd5f34f87968cb2b50f8fac1eO.jpg\",\"style\":{\"width\":1000,\"height\":1000}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S7820db98a1424d6b8aa794f7590d29c1S.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sb79327f6dc5b461a928763e6df029512H.jpg\",\"style\":{\"width\":1000,\"height\":1000}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S4d91cde912d44151aa5851db38afa02bY.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S4a681c0c17be4ab1897ac39caa648ccaA.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sb16fb709a3bc4737bfc65fd1da52eeb2d.jpg\",\"style\":{\"width\":1000,\"height\":1000}}}]}",
+      "subject": "Acryl Transparent Desktop Papier Lagerung Box A4 Datei Dokument Prüfung Papier Organizer Haushalt Staub Proof Karte Halter Fall",
+      "evaluation_count": "509",
+      "sales_count": "1000+",
+      "product_status_type": "onSelling",
+      "avg_evaluation_rating": "4.6",
+      "separated_listing": false,
+      "currency_code": "CNY",
+      "sl_product": false,
+      "category_id": 154102,
+      "product_id": 1005009131761233,
+      "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\">\n <div class=\"detail-desc-decorate-richtext\">\n  <div>\n   <div>\n    <div>\n     <div>\n      &nbsp;\n     </div>\n     <div>\n      <p id=\"tl_1\">Beschreibung: 100 % nagelneu und von hoher Qualit&auml;t.</p>\n     </div>\n     <div>\n      <p id=\"tl_2\">Material: PET/Kunststoff</p>\n     </div>\n     <div>\n      <p id=\"tl_3\">Farbe: Transparent</p>\n     </div>\n     <div>\n      <p id=\"tl_4\">Gr&ouml;&szlig;e: Wie in der Abbildung gezeigt</p>\n     </div>\n     <div>\n      <p id=\"tl_5\">(1 Zoll = 25,4 mm oder 1 mm = 0,0393 Zoll)</p>\n     </div>\n     <div>\n      <p id=\"tl_6\">Paket beinhaltet:</p>\n     </div>\n     <div>\n      <p id=\"tl_7\">1 x Papier-Aufbewahrungsbox</p>\n     </div>\n     <div>\n      <p id=\"tl_8\">Hinweis:</p>\n     </div>\n     <div>\n      <p id=\"tl_9\">1.Bitte erlauben Sie 2-3 % Fehler aufgrund der manuellen Messung.</p>\n     </div>\n     <div>\n      <p id=\"tl_10\">Bitte stellen Sie sicher, dass es Ihnen nichts ausmacht, bevor Sie bieten.</p>\n     </div>\n     <div>\n      <p id=\"tl_11\">2. Die Farben k&ouml;nnen aufgrund der unterschiedlichen Anzeige unterschiedlich sein, bitte haben Sie Verst&auml;ndnis.</p>\n     </div>\n     <div>\n      &nbsp;\n     </div>\n     <div>\n      &nbsp;\n     </div>\n     <div>\n      &nbsp;\n     </div>\n     <br />\n    </div>\n   </div>\n  </div>\n  <p><img src=\"https://ae01.alicdn.com/kf/S9260ddee13eb408baaec6a515f96d9783.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/S48fa73cbd5f34f87968cb2b50f8fac1eO.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/S7820db98a1424d6b8aa794f7590d29c1S.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/Sb79327f6dc5b461a928763e6df029512H.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/S4d91cde912d44151aa5851db38afa02bY.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/S4a681c0c17be4ab1897ac39caa648ccaA.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/Sb16fb709a3bc4737bfc65fd1da52eeb2d.jpg\" slate-data-type=\"image\" /></p>\n </div>\n</div>\n<br /></div></div>\r\n"
+    },
+    "manufacturer_info": {
+      "address": "106 Fengze East Road, Nansha District, Guangzhou City (self compiled Building 1)",
+      "phone": "18487157893",
+      "country_name": "China",
+      "email": "shaye234@163.com",
+      "phone_prefix": "86"
+    },
+    "has_whole_sale": false,
+    "ae_item_properties": {
+      "ae_item_property": [
+        {
+          "attr_name_id": 2,
+          "attr_value_id": 201512802,
+          "attr_name": "Markenname",
+          "attr_value": "NONE"
+        },
+        {
+          "attr_name_id": 219,
+          "attr_value_id": 9441741844,
+          "attr_name": "Ursprung",
+          "attr_value": "CN (Herkunft)"
+        },
+        {
+          "attr_name_id": 266081643,
+          "attr_value_id": 100015190,
+          "attr_name": "CN",
+          "attr_value": "Guangdong"
+        },
+        {
+          "attr_name_id": 10,
+          "attr_value_id": 100006095,
+          "attr_name": "Material",
+          "attr_value": "Acryl"
+        },
+        {
+          "attr_name_id": 43,
+          "attr_value_id": 3138,
+          "attr_name": "Funktion",
+          "attr_value": "Wiederverwendbar"
+        },
+        {
+          "attr_name_id": 906,
+          "attr_value_id": 124,
+          "attr_name": "Rahmenmaterial",
+          "attr_value": "Kunststoff"
+        },
+        {
+          "attr_name_id": 400000603,
+          "attr_value_id": 23399591357,
+          "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+          "attr_value": "Keine"
+        },
+        {
+          "attr_name_id": 521,
+          "attr_value_id": 100007864,
+          "attr_name": "Verwendung",
+          "attr_value": "Kleinigkeiten"
+        },
+        {
+          "attr_name_id": 6,
+          "attr_value_id": 100014110,
+          "attr_name": "Typ",
+          "attr_value": "Speicherkasten und Behälter"
+        },
+        {
+          "attr_name_id": 324,
+          "attr_value_id": 1600,
+          "attr_name": "Form",
+          "attr_value": "Rechteck"
+        },
+        {
+          "attr_name_id": 20662,
+          "attr_value_id": 100007613,
+          "attr_name": "Merkmal",
+          "attr_value": "Umweltfreundlich"
+        },
+        {
+          "attr_name_id": 20662,
+          "attr_value_id": 350022,
+          "attr_name": "Merkmal",
+          "attr_value": "Zusammenklappbar"
+        },
+        {
+          "attr_name_id": 20662,
+          "attr_value_id": 100007610,
+          "attr_name": "Merkmal",
+          "attr_value": "Auf Lager"
+        },
+        {
+          "attr_name_id": 305,
+          "attr_value_id": 200660973,
+          "attr_name": "Produkt",
+          "attr_value": "Büro-Organizer"
+        },
+        {
+          "attr_name_id": -1,
+          "attr_name": "Choice",
+          "attr_value": "yes"
+        }
+      ]
+    },
+    "ae_store_info": {
+      "store_id": 1104232028,
+      "shipping_speed_rating": "4.6",
+      "communication_rating": "4.6",
+      "store_name": "ZHAO CAI MIQI Store",
+      "store_country_code": "CN",
+      "item_as_described_rating": "4.4"
+    }
+  }
+}
