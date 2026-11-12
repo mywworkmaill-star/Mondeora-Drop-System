@@ -56,3 +56,62 @@ def package(res):
     p = res.get('package_info_dto') or {}
     return {'l': p.get('package_length'), 'w': p.get('package_width'), 'h': p.get('package_height'),
             'kg': p.get('gross_weight')}
+
+
+_BULLET_RE = re.compile(r'(?:(?<=\s)|^)([1-9])\.(?=[A-ZÄÖÜ])')
+_PKG_MARKER_RE = re.compile(r'\b(Paketliste|Packing List)\s*:?\s*', re.I)
+# Matches the marker directly in the still-tagged HTML so the captured text stops at the next tag
+# boundary (<br>, <p>, <div>, ...) instead of running into whatever paragraph follows in flattened
+# plain text (tag-stripping turns '<br/>' into a single space, gluing unrelated sentences together).
+_PKG_HTML_RE = re.compile(r'(?:Paketliste|Packing List)\s*:?\s*(?:<br\s*/?>|</?p[^>]*>)*\s*([^<]{0,120})', re.I)
+
+
+def _package_line_from_html(html_text):
+    m = _PKG_HTML_RE.search(html_text)
+    if not m:
+        return None
+    line = _html.unescape(re.sub(r'\s+', ' ', m.group(1))).strip()
+    return line or None
+
+
+def detail_sections(res, text_limit=3000):
+    """Structured breakdown of the supplier's OWN 'detail' HTML — real content, nothing invented:
+    (bullets, package_line). The supplier's own numbered feature markers ('1.Xxx 2.Yyy ...') become
+    list items instead of one wall of text; the supplier's own 'Paketliste'/'Packing List' marker (if
+    present) is split off so it can be shown under a dedicated 'Paket beinhaltet' section."""
+    html_text = (res.get('ae_item_base_info_dto') or {}).get('detail') or ''
+    pkg_line = _package_line_from_html(html_text)
+    txt = detail_text(res, limit=text_limit)
+    if not txt:
+        return [], pkg_line
+    m = _PKG_MARKER_RE.search(txt)
+    if m:
+        txt = txt[:m.start()].strip()
+    txt = re.sub(r'^(Beschreibung|Produktbeschreibung)\s*[:\-]?\s*', '', txt, flags=re.I).strip()
+    idxs = [mm.start() for mm in _BULLET_RE.finditer(txt)]
+    if len(idxs) < 2:
+        return ([txt] if txt else []), pkg_line
+    bullets = []
+    pre = txt[:idxs[0]].strip()
+    if pre:
+        bullets.append(pre)
+    for i, start in enumerate(idxs):
+        end = idxs[i + 1] if i + 1 < len(idxs) else len(txt)
+        piece = txt[start + 2:end].strip()
+        if piece:
+            bullets.append(piece)
+    return bullets, pkg_line
+
+
+def detail_images(res, limit=3):
+    """Real supplier lifestyle/detail photos embedded in the 'detail' HTML (not the main gallery)."""
+    html_text = (res.get('ae_item_base_info_dto') or {}).get('detail') or ''
+    seen, out = set(), []
+    for mm in re.finditer(r'<img[^>]+src=["\']([^"\']+)["\']', html_text, re.I):
+        u = mm.group(1)
+        if u.startswith('https://') and u not in seen:
+            seen.add(u)
+            out.append(u)
+        if len(out) >= limit:
+            break
+    return out
