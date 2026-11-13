@@ -60,8 +60,18 @@ def run(ali, ebay, db_path='data/dropshipping.db', dry_run=False):
                 summary['changes'].append((r['sku'], r['price'], price, r['qty'], qty))
             if dry_run or not reqs:
                 continue
-            resp = api.call('POST', '/sell/inventory/v1/bulk_update_price_quantity', {'requests': [x[3] for x in reqs]})
-            ok_skus = {x.get('sku') for x in resp.get('responses', []) if x.get('statusCode') == 200}
+            try:
+                # Hata 36: this call was the one unguarded step in the whole run() - every other
+                # per-product/per-chunk step already has its own try/except (see fetch_raw/build above,
+                # the per-SKU offer lookup below). A single chunk's bulk_update_price_quantity failure
+                # (eBay 4xx/5xx, malformed response) must not abort every OTHER product still queued in
+                # this run, same per-item isolation rule as Hata 8/34.
+                resp = api.call('POST', '/sell/inventory/v1/bulk_update_price_quantity', {'requests': [x[3] for x in reqs]})
+                ok_skus = {x.get('sku') for x in resp.get('responses', []) if x.get('statusCode') == 200}
+            except Exception as ex:
+                for r, price, qty, _ in reqs:
+                    summary['errors'].append((r['sku'], str(ex)[:100]))
+                continue
             now = datetime.now().isoformat()
             for r, price, qty, _ in reqs:
                 if r['sku'] in ok_skus:

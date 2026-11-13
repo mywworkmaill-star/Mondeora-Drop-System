@@ -495,8 +495,16 @@ class AutamationEngine:
                     from src.listing_quality import pricing as _pricing
                     price, shipping = _pricing.price_for(_ali, _ship, legacy=_pricing.is_pinned(product.aliexpress_product_id))[0], _ship   # real fee from .env, min net profit
                 from src.listing_quality import gates as _gates
-                _block, _review = _gates.check_risk(product.title or '', [])
-                _ack = _gates.acknowledged(product.aliexpress_product_id)
+                try:
+                    # Hata 36: check_risk() reloads config/risk_rules.json on every call (unlike
+                    # acknowledged(), which already guards its own config read). One missing/locked/
+                    # corrupt config file must not abort this whole per-product loop the same way a
+                    # bad SKU/price does above (Hata 8/34) - isolate it the same way.
+                    _block, _review = _gates.check_risk(product.title or '', [])
+                    _ack = _gates.acknowledged(product.aliexpress_product_id)
+                except (OSError, ValueError) as _gate_ex:
+                    skipped.append({'id': product.id, 'reason': f'risk gate unavailable: {_gate_ex}'[:150]})
+                    continue
                 if _block or [g for g, _h in _review if g not in _ack]:
                     product.status = 'manual_review'   # risk gate: brand/laser/electronics etc. need the user's decision
                     session.commit()

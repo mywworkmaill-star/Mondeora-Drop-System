@@ -196,7 +196,11 @@ def sync_fulfillment(session, supplier, ebay, config):
         except Exception:
             if receipt.upload_state == 'pending':
                 receipt.upload_state = 'uncertain'
-            receipt.state = line.status = 'manualreview'
+            # Hata 36: canonical status everywhere else in the codebase (engine.py, readiness.py,
+            # publish.py, diagnostics.py) is 'manual_review' (with underscore). This typo meant
+            # readiness.py's unresolved_lines/purchase_reconciliation count never saw these lines,
+            # so a genuine unreconciled, held order line was invisible to the live-readiness gate.
+            receipt.state = line.status = 'manual_review'
             receipt.error_message = 'fulfillment_evidence_or_api_failure'
             stats['hold'] += 1
         session.commit()

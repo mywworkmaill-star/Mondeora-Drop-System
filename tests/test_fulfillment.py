@@ -57,13 +57,26 @@ def test_unpaid_order_waits(session):
 
 def test_identity_mismatch_goes_to_manual_review(session):
     sync_fulfillment(session, Supplier(shipped(order_id='OTHER')), Ebay(), CONFIG)
-    assert session.query(OrderLine).one().status == 'manualreview'
+    # Hata 36: must match the canonical spelling used everywhere else (engine.py, readiness.py,
+    # publish.py) - readiness.py's unresolved_lines query filters on 'manual_review', not 'manualreview'.
+    assert session.query(OrderLine).one().status == 'manual_review'
 
 
 def test_unknown_carrier_goes_to_manual_review(session):
     s = shipped(logistics_info_list={'ae_order_logistics_info': [{'logistics_no': 'T', 'logistics_service': 'UNKNOWN'}]})
     sync_fulfillment(session, Supplier(s), Ebay(), CONFIG)
-    assert session.query(OrderLine).one().status == 'manualreview'
+    assert session.query(OrderLine).one().status == 'manual_review'
+
+
+def test_manual_review_status_is_visible_to_readiness_unresolved_count(session):
+    # Hata 36 regression: a held/manual_review order line must count as "unresolved" for the
+    # live-readiness purchase_reconciliation gate - the old 'manualreview' (no underscore) typo
+    # made readiness.py's filter (which matches 'manual_review') silently miss these lines,
+    # so the gate could read "0 unresolved" while a real unreconciled order line was sitting there.
+    sync_fulfillment(session, Supplier(shipped(order_id='OTHER')), Ebay(), CONFIG)
+    unresolved = session.query(OrderLine).filter(OrderLine.status.in_(
+        ['pending', 'reserved', 'submitting', 'manual_review', 'upload_uncertain'])).count()
+    assert unresolved == 1
 
 
 def test_no_tracking_upload_without_enable_flag(session):

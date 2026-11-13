@@ -948,8 +948,18 @@ class AliExpressAPIClient:
                 # A single discovered item that is offline/unavailable (business rsp_code != 200,
                 # unsupported schema) must not abort the whole discovery page. Auth/signature/
                 # permission failures are not per-item and keep propagating.
+                # Hata 36: the original 3-substring match missed several per-item-only outcomes
+                # get_product_details() itself raises for THIS product's data shape alone
+                # (mismatched/malformed id/SKU - see aliexpress_client.py:get_product_details) and
+                # _check_errors()'s generic 'business success=false' business-logic message - so a
+                # single malformed product record still aborted the whole discovery page. Signature/
+                # auth/token codes (InvalidSignature, IllegalAccessToken, InvalidAppKey, ...) are
+                # intentionally NOT in this list - those are not per-item and must keep propagating.
                 text = str(exc)
-                if 'business error' in text or 'business-error' in text or 'unsupported product schema' in text:
+                per_item_safe = ('business error', 'business-error', 'business success=false',
+                                  'unsupported product schema', 'mismatched product ID',
+                                  'unsupported SKU schema', 'malformed SKU record')
+                if any(marker in text for marker in per_item_safe):
                     self._skipped_discovery = getattr(self, '_skipped_discovery', 0) + 1
                     continue
                 raise
