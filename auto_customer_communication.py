@@ -90,13 +90,20 @@ class AutoCustomerCommunication:
         
         for order in orders:
             order_id, buyer_username, title, price = order
-            
-            message = self._create_order_confirmation_message(title, price)
-            
-            if self._send_ebay_message(order_id, buyer_username, message, 'Order Confirmation'):
-                self._log_communication(order_id, 'ORDER_CONFIRMATION')
-                sent_count += 1
-                print(f"   ✅ Sent to {buyer_username}")
+            # Hata 31 (Hata 8 pattern, per-item isolation): price/title can be NULL (sale row created
+            # before product sync completes) -> f"{price:.2f}" / title[:50] raises TypeError,
+            # and _log_communication() opens its own sqlite3 connection with no try/except (a
+            # concurrent "database is locked" from another cron job is a real risk here too).
+            # Either failing for ONE order must not stop confirmations for the OTHER orders.
+            try:
+                message = self._create_order_confirmation_message(title, price)
+                if self._send_ebay_message(order_id, buyer_username, message, 'Order Confirmation'):
+                    self._log_communication(order_id, 'ORDER_CONFIRMATION')
+                    sent_count += 1
+                    print(f"   ✅ Sent to {buyer_username}")
+            except Exception as e:
+                print(f"   ⚠️  Order confirmation skipped for {order_id}: {e}")
+                continue
         
         return sent_count
     
@@ -126,13 +133,16 @@ class AutoCustomerCommunication:
         
         for shipment in shipments:
             order_id, buyer_username, title, tracking, carrier = shipment
-            
-            message = self._create_shipping_notification_message(title, tracking, carrier)
-            
-            if self._send_ebay_message(order_id, buyer_username, message, 'Your Order Has Shipped'):
-                self._log_communication(order_id, 'SHIPPING_NOTIFICATION')
-                sent_count += 1
-                print(f"   ✅ Sent to {buyer_username}")
+            # Hata 8 pattern (per-item isolation) - see _send_order_confirmations for rationale.
+            try:
+                message = self._create_shipping_notification_message(title, tracking, carrier)
+                if self._send_ebay_message(order_id, buyer_username, message, 'Your Order Has Shipped'):
+                    self._log_communication(order_id, 'SHIPPING_NOTIFICATION')
+                    sent_count += 1
+                    print(f"   ✅ Sent to {buyer_username}")
+            except Exception as e:
+                print(f"   ⚠️  Shipping notification skipped for {order_id}: {e}")
+                continue
         
         return sent_count
     
@@ -160,13 +170,16 @@ class AutoCustomerCommunication:
         
         for order in delivered:
             order_id, buyer_username, title = order
-            
-            message = self._create_feedback_request_message(title)
-            
-            if self._send_ebay_message(order_id, buyer_username, message, 'Feedback Request'):
-                self._log_communication(order_id, 'FEEDBACK_REQUEST')
-                sent_count += 1
-                print(f"   ✅ Sent to {buyer_username}")
+            # Hata 8 pattern (per-item isolation) - see _send_order_confirmations for rationale.
+            try:
+                message = self._create_feedback_request_message(title)
+                if self._send_ebay_message(order_id, buyer_username, message, 'Feedback Request'):
+                    self._log_communication(order_id, 'FEEDBACK_REQUEST')
+                    sent_count += 1
+                    print(f"   ✅ Sent to {buyer_username}")
+            except Exception as e:
+                print(f"   ⚠️  Feedback request skipped for {order_id}: {e}")
+                continue
         
         return sent_count
     
