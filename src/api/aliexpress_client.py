@@ -24,6 +24,30 @@ class AliExpressCapabilityError(AliExpressAPIError):
 
 
 class AliExpressAPIClient:
+    # TOP methods that are documented READ-ONLY (no side effects): safe to retry on
+    # transport errors/5xx because an identical request always yields an identical
+    # result. Allowlist-by-design (fail safe): any method NOT listed here is treated
+    # as potentially mutating and only retries on 429, never on 5xx. See Hata 13/22.
+    _IDEMPOTENT_METHODS = frozenset({
+        'aliexpress.ds.text.search',
+        'aliexpress.ds.product.get',
+        'aliexpress.ds.freight.query',
+        'aliexpress.ds.product.specialinfo.get',
+        'aliexpress.ds.product.wholesale.get',
+        'aliexpress.ds.member.benefit.get',
+        'aliexpress.ds.category.get',
+        'aliexpress.ds.category.tree.get',
+        'aliexpress.ds.image.searchV2',
+        'aliexpress.ds.feed.itemids.get',
+        'aliexpress.logistics.buyer.freight.calculate',
+        'aliexpress.product.eancode.info.query',
+        'aliexpress.affiliate.product.query',
+        'aliexpress.affiliate.productdetail.get',
+        'aliexpress.trade.ds.order.get',
+        'aliexpress.ds.order.tracking.get',
+        'aliexpress.photobank.redefining.listimagepagination',
+    })
+
     def __init__(self, config_path=None, session=None):
         self.config_path = Path(config_path or Path(__file__).resolve().parents[2] / '.env').resolve()
         self.metadata_path = self.config_path.parent / 'data' / 'aliexpress_oauth_metadata.json'
@@ -372,14 +396,36 @@ class AliExpressAPIClient:
         data.update({k: str(v) for k, v in (params or {}).items() if v is not None})
         data['sign'] = self._generate_sign(data, path=method if op else '')
         url = self.base_url + ('/rest' + method if op else '/sync')
-        try:
-            if files is None:
-                response = self.session.post(url, data=data, timeout=30)
-            else:
-                # TOP signs text fields; binary bytes travel as a multipart file.
-                response = self.session.post(url, data=data, files=files, timeout=30)
-        except requests.RequestException:
-            raise AliExpressAPIError(method + ': transport failure') from None
+        # All TOP calls are HTTP POST regardless of read/write semantics, so (unlike the
+        # eBay client) idempotency can't be inferred from the HTTP verb. Classify by TOP
+        # method name instead: only documented READ-ONLY methods (no side effects, same
+        # request -> same result) retry on transport errors/5xx. Anything else (order
+        # creation, afterpay, uploads, deletes, event reporting) is potentially mutating,
+        # so a 5xx is ambiguous (may have already executed server-side) and is never
+        # blind-retried -- only 429 (rate-limited BEFORE the server did anything) is safe
+        # for those, mirroring src/api/ebay_client.py:_request()'s GET/PUT vs POST/DELETE split.
+        idempotent = method in self._IDEMPOTENT_METHODS
+        retries = 0
+        MAX_RETRIES = 3
+        while True:
+            try:
+                if files is None:
+                    response = self.session.post(url, data=data, timeout=30)
+                else:
+                    # TOP signs text fields; binary bytes travel as a multipart file.
+                    response = self.session.post(url, data=data, files=files, timeout=30)
+            except requests.RequestException:
+                if idempotent and retries < MAX_RETRIES:
+                    retries += 1
+                    time.sleep(min(0.5 * 2 ** retries, 8.0))
+                    continue
+                raise AliExpressAPIError(method + ': transport failure') from None
+            retryable = response.status_code == 429 or (idempotent and 500 <= response.status_code < 600)
+            if retryable and retries < MAX_RETRIES:
+                retries += 1
+                time.sleep(min(0.5 * 2 ** retries, 8.0))
+                continue
+            break
         if not 200 <= response.status_code < 300:
             raise AliExpressAPIError(method + ': HTTP ' + str(response.status_code))
         try:
