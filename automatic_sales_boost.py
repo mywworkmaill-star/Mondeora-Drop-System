@@ -12,17 +12,27 @@ sys.path.insert(0, '.')
 from src.api.ebay_client import eBayRESTClient
 import sqlite3
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 
 class AutomaticSalesBooster:
     """
     Automatic sales optimization - no manual steps
+
+    Hata 26: bu script src.jobs hub'ini bypass eder (root-level, cron
+    dogrudan `from automatic_sales_boost import ...; .boost_all_listings()`
+    cagirir). Fiyati %15 dusurup ucretsiz kargo/best-offer/promoted-ad
+    acan GERCEK canli eBay yazmalari yapar -- yanlislikla calisirsa butun
+    envanterin fiyatini degistirir. Varsayilan GUVENLI: .env'de
+    SALES_BOOST_LIVE_CONFIRMED=true YOKSA dry-run (hic PUT/POST gondermez,
+    sadece ne yapacagini raporlar). Bu job su an PAUSED (mondeora-sales-boost
+    cron'u), ama kod tabaninda kalici oldugu icin guvenli varsayilan sart.
     """
     
     def __init__(self):
         self.ebay = eBayRESTClient()
         self.db_path = 'data/dropshipping.db'
         self.campaign_id = "168750173017"
+        self.dry_run = os.environ.get('SALES_BOOST_LIVE_CONFIRMED', '').strip().lower() != 'true'
         
     def get_all_listings(self):
         """Get all AUTO products from database"""
@@ -57,7 +67,11 @@ class AutomaticSalesBooster:
                 min_price = cost * 2
                 if sale_price < min_price:
                     sale_price = round(min_price, 2)
-            
+
+            if self.dry_run:
+                # Hata 26: dry-run gercekten hicbir PUT/POST gondermemeli.
+                return sale_price
+
             # Update offer price via eBay API
             response = self.ebay.call(
                 'PUT',
@@ -244,7 +258,7 @@ class AutomaticSalesBooster:
                                 
                                 return ad_id
                 
-                except:
+                except Exception:
                     pass
                 
                 return 'EXISTS'
@@ -255,18 +269,30 @@ class AutomaticSalesBooster:
     def boost_all_listings(self):
         """
         Main function - boost all listings automatically
+
+        Hata 8 deseni: her listing'in 4 islemi (fiyat/kargo/best-offer/reklam)
+        kendi try/except'i icinde zaten izoleydi, AMA bu dongunun govdesinin
+        KENDISI (sku/title/ebay_id okuma, €{price:.2f} formatlama) try/except
+        DISINDAYDI -- price/cost NULL olan (DB'de eksik ebay_price) TEK bir kayit
+        TypeError ile TUM batch'i (kalan saglikli kayitlarin boost'unu) durdururdu.
+        Artik her kaydin tum govdesi izole + price/cost None-guard'li.
         """
         print("=" * 70)
         print("🤖 AUTOMATIC SALES BOOST SYSTEM - STARTING...")
         print("=" * 70)
         print()
-        print("⚡ NO MANUAL WORK REQUIRED - FULL AUTOMATION!")
+        if self.dry_run:
+            print("🧪 DRY-RUN MODE: SALES_BOOST_LIVE_CONFIRMED=true degil -- hicbir")
+            print("   PUT/POST eBay'e gonderilmeyecek, sadece ne yapilacagi raporlanacak.")
+        else:
+            print("⚡ LIVE MODE: gercek eBay fiyat/kargo/best-offer/reklam degisiklikleri yapilacak.")
         print()
         
         listings = self.get_all_listings()
         
         if not listings:
             print("❌ No listings found in database")
+            self._write_status('ok', 0, {})
             return
         
         print(f"Found {len(listings)} listings to optimize\n")
@@ -278,57 +304,68 @@ class AutomaticSalesBooster:
             'best_offer': 0,
             'promoted_ads': 0
         }
+        skipped = []
         
         for i, (sku, title, ebay_id, price, cost) in enumerate(listings, 1):
-            print(f"📦 {i}/{len(listings)}: {title[:50]}...")
-            print(f"   SKU: {sku}")
-            print(f"   eBay ID: {ebay_id}")
-            print(f"   Current Price: €{price:.2f}")
-            print()
-            
-            # 1. Price Optimization (15% discount)
-            print("   💰 Optimizing price (15% flash sale)...")
-            new_price = self.optimize_price(sku, price, cost)
-            if new_price:
-                print(f"   ✅ Price updated: €{price:.2f} → €{new_price:.2f}")
-                stats['price_optimized'] += 1
-            else:
-                print(f"   ℹ️  Price kept at: €{price:.2f}")
-            print()
-            
-            # 2. Free Shipping
-            print("   📦 Enabling free shipping...")
-            if self.enable_free_shipping(sku):
-                print("   ✅ Free shipping enabled")
-                stats['free_shipping'] += 1
-            else:
-                print("   ℹ️  Free shipping status unchanged")
-            print()
-            
-            # 3. Best Offer
-            print("   💬 Enabling best offer negotiation...")
-            if self.enable_best_offer(sku):
-                print("   ✅ Best offer enabled")
-                stats['best_offer'] += 1
-            else:
-                print("   ℹ️  Best offer status unchanged")
-            print()
-            
-            # 4. Promoted Ads (15% rate)
-            print("   📢 Creating promoted listing ad (15% rate)...")
-            ad_id = self.create_promoted_ad(sku, ebay_id)
-            if ad_id:
-                if ad_id == 'EXISTS':
-                    print("   ✅ Promoted ad already active (updated to 15%)")
+            try:
+                price = float(price) if price is not None else 0.0
+                cost = float(cost) if cost is not None else 0.0
+                title = title or sku
+
+                print(f"📦 {i}/{len(listings)}: {title[:50]}...")
+                print(f"   SKU: {sku}")
+                print(f"   eBay ID: {ebay_id}")
+                print(f"   Current Price: €{price:.2f}")
+                print()
+
+                # 1. Price Optimization (15% discount)
+                print("   💰 Optimizing price (15% flash sale)...")
+                new_price = self.optimize_price(sku, price, cost)
+                if new_price:
+                    print(f"   ✅ Price updated: €{price:.2f} → €{new_price:.2f}")
+                    stats['price_optimized'] += 1
                 else:
-                    print(f"   ✅ Promoted ad created: {ad_id}")
-                stats['promoted_ads'] += 1
-            else:
-                print("   ⚠️  Promoted ad not created (may already exist)")
-            
-            print()
-            print("-" * 70)
-            print()
+                    print(f"   ℹ️  Price kept at: €{price:.2f}")
+                print()
+
+                # 2. Free Shipping
+                print("   📦 Enabling free shipping...")
+                if self.enable_free_shipping(sku):
+                    print("   ✅ Free shipping enabled")
+                    stats['free_shipping'] += 1
+                else:
+                    print("   ℹ️  Free shipping status unchanged")
+                print()
+
+                # 3. Best Offer
+                print("   💬 Enabling best offer negotiation...")
+                if self.enable_best_offer(sku):
+                    print("   ✅ Best offer enabled")
+                    stats['best_offer'] += 1
+                else:
+                    print("   ℹ️  Best offer status unchanged")
+                print()
+
+                # 4. Promoted Ads (15% rate)
+                print("   📢 Creating promoted listing ad (15% rate)...")
+                ad_id = self.create_promoted_ad(sku, ebay_id)
+                if ad_id:
+                    if ad_id == 'EXISTS':
+                        print("   ✅ Promoted ad already active (updated to 15%)")
+                    else:
+                        print(f"   ✅ Promoted ad created: {ad_id}")
+                    stats['promoted_ads'] += 1
+                else:
+                    print("   ⚠️  Promoted ad not created (may already exist)")
+
+                print()
+                print("-" * 70)
+                print()
+            except Exception as ex:
+                print(f"   ⚠️  SKIP (listing hatasi, diger kayitlar ETKILENMEDI): sku={sku} -> {ex}")
+                skipped.append({'sku': sku, 'error': str(ex)})
+                print()
+                continue
         
         # Final summary
         print("=" * 70)
@@ -341,21 +378,35 @@ class AutomaticSalesBooster:
         print(f"   Free Shipping:        {stats['free_shipping']}/{stats['total']}")
         print(f"   Best Offer:           {stats['best_offer']}/{stats['total']}")
         print(f"   Promoted Ads:         {stats['promoted_ads']}/{stats['total']}")
+        if skipped:
+            print(f"   Skipped (hatali):     {len(skipped)}/{stats['total']}")
         print()
-        print("🎯 EXPECTED IMPACT:")
-        print("   • Visibility:         +300-500%")
-        print("   • Conversion Rate:    +200-400%")
-        print("   • Views Today:        1,000+ expected")
-        print("   • Sales Probability:  85-95%")
+        if self.dry_run:
+            print("🧪 DRY-RUN tamamlandi -- canliya gecmek icin .env'e")
+            print("   SALES_BOOST_LIVE_CONFIRMED=true ekleyip tekrar calistir.")
+        else:
+            print("✅ LIVE degisiklikler eBay'e gonderildi.")
         print()
-        print("⏰ TIMELINE:")
-        print("   • 1-2 hours:   Ads go live, views increase")
-        print("   • 3-6 hours:   300-500 views, questions from buyers")
-        print("   • 6-12 hours:  800-1000+ views, high sale probability")
-        print("   • Tonight:     1-5 SALES EXPECTED! 🎉")
-        print()
-        print("✅ ALL OPTIMIZATIONS ACTIVE - NO MANUAL WORK NEEDED!")
-        print()
+        self._write_status('ok' if not skipped else 'partial', len(listings), stats, skipped)
+
+    def _write_status(self, status, total, stats, skipped=None):
+        """src.jobs hub disinda calisan bu script icin de gorunurluk birak
+        (Hata 24/26'daki 'sessiz ok' deseninin tekrarini onlemek icin)."""
+        try:
+            os.makedirs('data/jobs', exist_ok=True)
+            payload = {
+                'job': 'sales_boost',
+                'status': status,
+                'dry_run': self.dry_run,
+                'total': total,
+                'stats': stats,
+                'skipped': skipped or [],
+                'at': datetime.now(timezone.utc).isoformat(),
+            }
+            with open('data/jobs/last_sales_boost.json', 'w', encoding='utf-8') as f:
+                json.dump(payload, f, ensure_ascii=False, indent=1)
+        except Exception as ex:
+            print(f"   ⚠️  status yazilamadi: {ex}")
 
 if __name__ == "__main__":
     try:
