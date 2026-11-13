@@ -500,11 +500,19 @@ def job_blue_ocean():
     from src.database.models import Product, get_session
     from src.listing_quality import blue_ocean
     e = _engine()
-    scanned = blue_ocean.find_candidates(e.aliexpress_client, e.ebay_client)
+    # top_n_for_competition=10 (was 5): wider real pool per keyword so a realistic pass/fail rate
+    # at verify_and_seed (today: ~50-70% of discovery-filter passes clear the strict real gates)
+    # still reaches the user's target of ~10 real seeded products/day, without lowering any gate.
+    scanned = blue_ocean.find_candidates(e.aliexpress_client, e.ebay_client, top_n_for_competition=10)
     passing = [c for c in scanned if c.get('passes_blue_ocean_filter')]
     seeded, skipped = [], []
+    TARGET_SEEDED = 10
     with get_session(e.engine) as session:
-        for cand in passing[:10]:   # cap per run - same discipline as the existing niche seeding
+        for cand in passing:   # try every real discovery-filter pass, not just a fixed first-N,
+                                # so a real rejection (category confidence, risk, price-vs-market)
+                                # doesn't cost a slot - keep trying until TARGET_SEEDED or exhausted.
+            if len(seeded) >= TARGET_SEEDED:
+                break
             # Hata 8 pattern (per-item isolation): one candidate blowing up (bad API payload,
             # unexpected KeyError in a field, a transient DB error on commit, ...) must not stop
             # the other 9 candidates in this run from being evaluated/seeded.
@@ -525,7 +533,8 @@ def job_blue_ocean():
                 continue
             (seeded if result['seeded'] else skipped).append(result)
     out = {'generated_at': datetime.now(timezone.utc).isoformat(), 'keywords_scanned': len(blue_ocean.DEFAULT_KEYWORDS),
-           'rows_scanned': len(scanned), 'passing_filter': len(passing), 'seeded': seeded, 'skipped': skipped}
+           'rows_scanned': len(scanned), 'passing_filter': len(passing), 'target_seeded': TARGET_SEEDED,
+           'seeded': seeded, 'skipped': skipped}
     path = ROOT / 'data' / 'audit' / 'blue_ocean_report.json'
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(out, ensure_ascii=False, indent=1, default=str), encoding='utf-8')
