@@ -61,5 +61,23 @@
   "path": "Spielzeug > Puzzles & Geduldspiele > Puzzles",
   "level": "reviewed",
   "note": "Kids wooden puzzle toy (cat-shaped pieces, not a pet product). Real eBay taxonomy category where \"Farbe\" (Color) is a variation-enabled aspect (verified via get_item_aspects_for_category); the first candidate 9167 Holzspielzeug/Sonstige only allows Herstellernummer as variation aspect."
+ },
+ "1005010184187117": {
+  "category_id": "46283",
+  "path": "Möbel & Wohnen > Kochen & Genießen > Ordnung & Aufbewahrung > Halter/Ständer & Küchenleisten",
+  "level": "medium",
+  "note": "wall-mounted kitchen trash-bag holder/dispenser; auto-resolve picked this same category but only 0.25 confidence (low keyword agreement across taxonomy queries). Alternatives (Aufbewahrungsbeutel, Seifenschalen, Solarenergie-Zubehör) are clear semantic mismatches for a kitchen wall holder; this is the real best fit."
+ },
+ "1005007907908369": {
+  "category_id": "46283",
+  "path": "Möbel & Wohnen > Kochen & Genießen > Ordnung & Aufbewahrung > Halter/Ständer & Küchenleisten",
+  "level": "medium",
+  "note": "kitchen paper-towel/tissue holder (title explicitly says Küche/kitchen). Auto-resolve chose 25452 Kosmetiktücherboxen (bathroom facial-tissue box covers) at 0.25 confidence - wrong room/use. Same holder/stand category as the other wall-mount kitchen organizers in this niche batch is the correct real fit."
+ },
+ "1005012245151213": {
+  "category_id": "130142",
+  "path": "Heimwerker > Werkstattausrüstung > Werkzeugkoffer & Lagersysteme > Kleinteilemagazine & Stapelboxen",
+  "level": "high",
+  "note": "plastic screw/hardware organizer box; auto-resolve picked kitchen holders (46283, 0.25 conf, wrong). This was the real alternative #3 from the same taxonomy query (1 vote) and is an exact semantic match: 'Kleinteilemagazine' literally matches the title's own 'Kleinteile und Hardware'."
  }
 }

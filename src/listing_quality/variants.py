@@ -7,21 +7,32 @@ MAX_STOCK_PER_VARIANT = 5          # dropshipping exposure cap
 SPREAD_REVIEW = 3.0                # max/min cost ratio above this -> human review
 
 
-def parse_skus(res):
+def parse_skus(res, verified_aspects=None):
+    """verified_aspects: optional {sku_id: {aspect_name: real_value}}, for when a human has confirmed
+    the true value from evidence the auto-label heuristic can't use (e.g. checked the actual per-SKU
+    photo). Only overrides aspects for the exact sku_id given - every other SKU is unaffected, and an
+    unmatched sku_id in the override is silently ignored (never invents a SKU that doesn't exist)."""
+    verified_aspects = verified_aspects or {}
     raw = (res.get('ae_item_sku_info_dtos') or {})
     raw = raw.get('ae_item_sku_info_d_t_o', []) if isinstance(raw, dict) else raw
     out = []
     for s in raw:
+        sku_id = str(s.get('sku_id'))
+        override = verified_aspects.get(sku_id) or {}
         props = (s.get('ae_sku_property_dtos') or {}).get('ae_sku_property_d_t_o') or []
         asp, img, verified, color = {}, None, True, False
         for p in props:
             name = str(p.get('sku_property_name') or f"Option{p.get('sku_property_id')}").strip()[:65]
             if name.lower() in ('ships from', 'ship from', 'versand aus', 'warehouse'):
                 continue   # logistics metadata, not a buyer-selectable product variant; must not affect label verification
-            val, ok = labels.label(p.get('property_value_definition_name'), p.get('sku_property_value'))
-            asp[name] = val
-            verified = verified and ok
-            color = color or labels.has_color(p.get('property_value_definition_name'))
+            if name in override:
+                asp[name] = override[name]
+                verified = verified and True
+            else:
+                val, ok = labels.label(p.get('property_value_definition_name'), p.get('sku_property_value'))
+                asp[name] = val
+                verified = verified and ok
+            color = color or labels.has_color(p.get('property_value_definition_name')) or (name in override)
             img = img or p.get('sku_image')
         try:
             cost = float(s.get('offer_sale_price') or s.get('sku_price'))
@@ -34,9 +45,9 @@ def parse_skus(res):
     return out
 
 
-def build(pid, res, ship, cfg=None):
+def build(pid, res, ship, cfg=None, verified_aspects=None, legacy=False):
     cfg = cfg or settings()
-    skus, dropped, seen = parse_skus(res), [], set()
+    skus, dropped, seen = parse_skus(res, verified_aspects), [], set()
     keep = []
     for s in skus:
         if s['cost'] is None:
@@ -47,7 +58,7 @@ def build(pid, res, ship, cfg=None):
         if key in seen:
             dropped.append((s['sku_id'], 'duplicate option combination')); continue
         seen.add(key)
-        s['price'], s['net'] = price_for(s['cost'], ship, cfg)
+        s['price'], s['net'] = price_for(s['cost'], ship, cfg, legacy=legacy)
         s['sku'] = f"AE-{pid}-{s['sku_id']}"[:50]
         s['qty'] = min(s['stock'], MAX_STOCK_PER_VARIANT)
         keep.append(s)

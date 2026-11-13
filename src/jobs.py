@@ -440,11 +440,57 @@ def job_listing_health():
             'by_code': out['by_code'], 'report': str(path)}
 
 
+def job_rank_audit():
+    """Read-only weekly 'will this rank #1' scan of every LIVE listing: real score (0-100) from
+    rank_audit.audit_listing() (title, category confidence, required aspects, gallery images,
+    description quality, price vs real eBay.de market median, Promoted Listings status). Writes
+    data/audit/rank_audit_report.json. Never writes to eBay/AliExpress/DB - a diagnosis, not a fix."""
+    import json
+    from datetime import datetime, timezone
+    from src.database.models import Product, get_session
+    from src.listing_quality import rank_audit
+    e = _engine()
+    items, errors = [], []
+    traffic = rank_audit.real_traffic(e.ebay_client)
+    with get_session(e.engine) as session:
+        rows = session.query(Product).filter_by(is_listed=True).all()
+        for p in rows:
+            row = {'title': p.title, 'category_id': p.category_id, 'ebay_price': p.ebay_price,
+                   'aliexpress_price': p.aliexpress_price, 'shipping_cost': p.shipping_cost,
+                   'description': p.description, 'ebay_item_id': p.ebay_item_id}
+            try:
+                result = rank_audit.audit_listing(e.aliexpress_client, e.ebay_client, row, p.aliexpress_product_id, traffic=traffic)
+                items.append({'id': p.id, 'aliexpress_product_id': p.aliexpress_product_id,
+                              'title': p.title, **result})
+            except Exception as ex:
+                errors.append({'id': p.id, 'error': f'{type(ex).__name__}: {ex}'[:200]})
+    scored = [i for i in items if i.get('score') is not None]
+    out = {'generated_at': datetime.now(timezone.utc).isoformat(), 'scanned': len(items), 'errors': errors,
+           'average_score': round(sum(i['score'] for i in scored) / len(scored), 1) if scored else None,
+           'below_80': [{'id': i['id'], 'title': i['title'][:50], 'score': i['score'], 'gaps': i['gaps']}
+                        for i in scored if i['score'] < 80],
+           'items': items}
+    path = ROOT / 'data' / 'audit' / 'rank_audit_report.json'
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding='utf-8')
+    return {'status': 'ok', 'scanned': out['scanned'], 'average_score': out['average_score'],
+            'below_80_count': len(out['below_80']), 'errors': len(errors), 'report': str(path)}
+
+
 def job_variation_sync():
     """Per-variant eBay price + stock for variation listings (legacy inventory_sync/price_optimize skip them)."""
     e = _engine()
     from src.listing_quality import sync
     return sync.run(e.aliexpress_client, e.ebay_client)
+
+
+def job_ad_bid_optimize():
+    """Promoted Listings bid lifecycle: new listings get a BOOST_BID visibility window (set by
+    publish.add_ad at listing time), then this job steps them down to STEADY_BID once BOOST_DAYS
+    has passed. Idempotent - only acts on boosts this module itself recorded, never guesses a bid."""
+    e = _engine()
+    from src.listing_quality import ads
+    return ads.decay_due_boosts(e.ebay_client)
 
 
 def job_freight_sync():
@@ -524,6 +570,8 @@ JOBS = {
     'variation_sync':    (job_variation_sync, True),     # per-variant price+stock for variation listings
     'freight_sync':      (job_freight_sync, True),       # ds.freight.query -> products.shipping_cost
     'price_refresh':     (job_price_refresh, True),      # ds.product.get -> products.aliexpress_price (SKU fallback)
+    'ad_bid_optimize':   (job_ad_bid_optimize, True),     # Promoted Listings: decay BOOST_BID->STEADY_BID after BOOST_DAYS
+    'rank_audit':        (job_rank_audit, True),          # read-only weekly rank-readiness score per live listing
 }
 
 

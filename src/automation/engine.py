@@ -123,25 +123,29 @@ class AutamationEngine:
         from src.runtime import read_config
         return read_config()
 
-    def _pricing_parameters(self):
+    def _pricing_parameters(self, landed_cost=None):
         from decimal import Decimal
         config = self._settings()
         if not config.get('EBAY_FEE_PERCENT'):
             raise ValueError('EBAY_FEE_PERCENT must be explicitly configured')
         fees = self._decimal(config['EBAY_FEE_PERCENT']) / 100
         tax = self._decimal(config.get('TAX_RESERVE_PERCENT', '0')) / 100
-        margin = self._decimal(config.get('MIN_MARGIN_PERCENT', '25')) / 100
         fixed = self._decimal(config.get('EBAY_FIXED_FEE_EUR', '0'))
-        profit = self._decimal(config.get('MIN_PROFIT_EUR', '25'))
+        from src.listing_quality.pricing import tier_minimums
+        if landed_cost is None:
+            profit, margin = Decimal('25'), Decimal(str(self._decimal(config.get('MIN_MARGIN_PERCENT', '25')) / 100))
+        else:
+            tier_profit, tier_margin = tier_minimums(float(landed_cost))
+            profit, margin = Decimal(str(tier_profit)), Decimal(str(tier_margin))
         if fees + tax + margin >= Decimal(1):
             raise ValueError('Fees, tax reserve and margin must total less than 100%')
         return fees + tax, fixed, profit, margin
 
     def _calculate_ebay_price(self, aliexpress_price, shipping_cost=None):
-        """EUR estimate after configured fees/tax reserve; not a tax calculation."""
         from decimal import Decimal, ROUND_CEILING
-        rate, fixed, minimum, margin = self._pricing_parameters()
-        costs = self._decimal(aliexpress_price) + self._decimal(shipping_cost) + fixed
+        costs = self._decimal(aliexpress_price) + self._decimal(shipping_cost)
+        rate, fixed, minimum, margin = self._pricing_parameters(landed_cost=costs)
+        costs = costs + fixed
         return max((costs + minimum) / (1 - rate),
                    costs / (1 - rate - margin)).quantize(Decimal('.01'), rounding=ROUND_CEILING)
 
@@ -202,8 +206,13 @@ class AutamationEngine:
         import_cost = number(evidence['additional_import_cost']) if evidence.get('additional_import_cost') is not None else None
         from decimal import Decimal, ROUND_CEILING
         from src.finance import price_floor
-        minimum = max(Decimal('25'), number(config.get('MIN_PROFIT_EUR') or '25'))
-        margin = max(Decimal('.25'), number(config.get('MIN_MARGIN_PERCENT') or '25') / 100)
+        from src.listing_quality.pricing import tier_minimums, is_pinned, LEGACY_MIN_PROFIT, LEGACY_MIN_MARGIN
+        if is_pinned(product.aliexpress_product_id):
+            minimum, margin = Decimal(str(LEGACY_MIN_PROFIT)), Decimal(str(LEGACY_MIN_MARGIN))
+        else:
+            landed = float(number(data['sale_price']) + number(evidence['shipping_total']))
+            tier_profit, tier_margin = tier_minimums(landed)
+            minimum, margin = Decimal(str(tier_profit)), Decimal(str(tier_margin))
         if margin >= 1:
             raise ValueError('Invalid target margin')
 
@@ -318,8 +327,7 @@ class AutamationEngine:
         allocations = {key: allocate_money(value, weights) for key, value in
                        (('buyer_gross', gross), ('marketplace_vat', vat), ('gross_fee', fee))}
         fixed_allocations = allocate_money(fixed, weights) if fixed is not None else [None] * len(weights)
-        minimum = max(number('25'), number(self._settings().get('MIN_PROFIT_EUR') or '25'))
-        margin = max(number('.25'), number(self._settings().get('MIN_MARGIN_PERCENT') or '25') / 100)
+        from src.listing_quality.pricing import tier_minimums, is_pinned, LEGACY_MIN_PROFIT, LEGACY_MIN_MARGIN
         result = {}
         for index, (product, data, quantity) in enumerate(prepared):
             plan = self._finance_plan(product, data, quantity=quantity,
@@ -335,6 +343,16 @@ class AutamationEngine:
                      - plan['source_total'] - plan['shipping_total'] - plan['tax_reserve'])
             plan['known_surplus_after_reserve'] = known
             plan['net_after_reserve'] = known - plan['import_cost'] if plan['costs_complete'] else None
+            # Target must match the SAME rule this product's price was actually set with: tiered by
+            # landed cost for ordinary products, the pre-2026-11-12 flat EUR25/25% rule for products
+            # grandfathered in config/price_pinned_products.json. Otherwise a correctly tiered-priced
+            # cheap item's real ~EUR15 profit would be wrongly rejected against a stale EUR25 bar.
+            if is_pinned(product.aliexpress_product_id):
+                minimum, margin = number(str(LEGACY_MIN_PROFIT)), number(str(LEGACY_MIN_MARGIN))
+            else:
+                landed = number(str(float(plan.get('shipping_total') or 0))) + number(str(float(product.aliexpress_price or 0)))
+                tier_profit, tier_margin = tier_minimums(float(landed))
+                minimum, margin = number(str(tier_profit)), number(str(tier_margin))
             plan['meets_targets'] = (plan['costs_complete'] and plan['net_after_reserve'] >= minimum
                                      and plan['net_after_reserve'] >= plan['buyer_gross'] * margin)
             if not plan['meets_targets']:
@@ -466,7 +484,7 @@ class AutamationEngine:
                     _ali  = float(product.aliexpress_price or data.get('sale_price') or cost)
                     _ship = float(product.shipping_cost or data.get('shipping_cost') or 1.99)
                     from src.listing_quality import pricing as _pricing
-                    price, shipping = _pricing.price_for(_ali, _ship)[0], _ship   # real fee from .env, min net profit
+                    price, shipping = _pricing.price_for(_ali, _ship, legacy=_pricing.is_pinned(product.aliexpress_product_id))[0], _ship   # real fee from .env, min net profit
                 from src.listing_quality import gates as _gates
                 _block, _review = _gates.check_risk(product.title or '', [])
                 _ack = _gates.acknowledged(product.aliexpress_product_id)
@@ -884,7 +902,7 @@ class AutamationEngine:
                         _ali  = float(product.aliexpress_price or data.get('sale_price') or cost)
                         _ship = float(product.shipping_cost or data.get('shipping_cost') or 1.99)
                         from src.listing_quality import pricing as _pricing
-                        price, shipping = _pricing.price_for(_ali, _ship)[0], _ship   # real fee from .env, min net profit
+                        price, shipping = _pricing.price_for(_ali, _ship, legacy=_pricing.is_pinned(product.aliexpress_product_id))[0], _ship   # real fee from .env, min net profit
                         # _finance_plan failed, so finance['net_margin_percent'] below doesn't exist — compute the
                         # REAL margin from the price/cost/shipping we just derived, never from a stale/default number.
                         margin_percent = round(_pricing.net_profit(float(price), float(cost), float(shipping)) / float(price) * 100, 2)

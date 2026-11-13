@@ -15,11 +15,14 @@ def engine(**over):
                             db_engine=create_engine('sqlite://'), config={**CFG, **over})
 
 
-@pytest.mark.parametrize('cost,ship', [(0.6, 0), (1.29, 0), (5, 0), (25.79, 0), (39.99, 5)])
-def test_price_always_earns_minimum_profit(cost, ship):
+@pytest.mark.parametrize('cost,ship,expect_min_profit', [(0.6, 0, 15), (1.29, 0, 15), (5, 0, 15), (25.79, 0, 25), (39.99, 5, 25)])
+def test_price_always_earns_minimum_profit(cost, ship, expect_min_profit):
+    """Minimum profit is TIERED by landed cost (cost+ship), not a flat EUR25 - see pricing.TIERS.
+    Grounded in real 2026-11-12 market-median evidence: a flat EUR25 floor overpriced cheap items 46-74%
+    above real eBay.de competitor medians."""
     price = engine()._calculate_ebay_price(cost, ship)
     net = price * (1 - Decimal('0.135')) - Decimal(str(cost)) - Decimal(str(ship))
-    assert net >= Decimal('25') - Decimal('0.01')
+    assert net >= Decimal(str(expect_min_profit)) - Decimal('0.01')
 
 
 def test_price_rejects_bad_input():
@@ -33,7 +36,8 @@ def test_fee_must_be_configured_and_total_below_100():
     with pytest.raises(ValueError):
         engine(EBAY_FEE_PERCENT='')._calculate_ebay_price(5, 0)
     with pytest.raises(ValueError):
-        engine(EBAY_FEE_PERCENT='60', MIN_MARGIN_PERCENT='50')._calculate_ebay_price(5, 0)
+        # cost=5 -> tier-1 margin 0.35 (see pricing.TIERS); 70% fee + 35% margin >= 100%
+        engine(EBAY_FEE_PERCENT='70')._calculate_ebay_price(5, 0)
 
 
 def test_writes_fail_closed():

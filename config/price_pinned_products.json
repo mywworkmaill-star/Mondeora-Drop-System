@@ -1,0 +1,10 @@
+{
+ "_comment": "AliExpress product IDs GRANDFATHERED at the pre-2026-11-12 flat EUR25/25% pricing rule. User chose (2026-11-12) to apply the new tiered pricing (pricing.TIERS) only to NEW listings going forward, leaving these 18 already-live products at their existing price. Auto price_optimize/variation_sync jobs must skip repricing these - see pricing.is_pinned(). Remove an ID here only when a human decides to deliberately re-price that specific listing.",
+ "pinned": [
+  "1005009030953454", "1005009659236961", "1005006907344602", "1005011535580954",
+  "1005012150397874", "1005006722085506", "1005008934128730", "1005006807226688",
+  "1005010397611220", "1005009792791686", "1005010502345197", "1005006848509888",
+  "1005012245151213", "1005007412668346", "1005007462620040", "1005005872152512",
+  "1005010184187117", "1005012252787980"
+ ]
+}

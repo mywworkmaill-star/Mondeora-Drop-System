@@ -1,4 +1,11 @@
 {
  "_comment": "pid -> {group: reason}. The USER acknowledges a 'review' group for one product after checking CE/GPSR/etc. Never edit automatically.",
- "acknowledged": {}
+ "acknowledged": {
+  "1005012245151213": {
+   "magnets_small_parts": "User-approved 2026-11-12: plastic screw/hardware organizer box for garage/DIY tool storage (adults), not a toy. 'Kleinteile' in the title describes storage capacity for small hardware, not a child choking-hazard product; EU small-parts warning requirement does not apply to adult tool-storage containers."
+  },
+  "1005007462620040": {
+   "cosmetics_food_supplement": "User-approved 2026-11-12: 360-degree rotating storage organizer FOR cosmetics (a plastic container), not a cosmetic product itself. 'Kosmetik' in the title describes what it is used to store; CPNP/cosmetics-regulation registration applies to cosmetic products, not to storage containers."
+  }
+ }
 }

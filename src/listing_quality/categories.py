@@ -6,6 +6,12 @@ from collections import defaultdict
 TREE = '77'
 BAD_ROOTS_FOR_NON_APPAREL = ('Kleidung & Accessoires',)
 APPAREL_WORDS = ('kleid', 'hose', 'shirt', 'jacke', 'rock', 'pullover', 'socken')
+# Real bug found 2026-11-12: eBay's own get_category_suggestions falls back to "Bücher &
+# Zeitschriften" (Books) as a #1 suggestion for generic/stylistic query fragments with no real
+# product-category signal (observed triggers: "ohne Spuren", "Minimalistisch" alone both top-ranked
+# "Bücher" ahead of any real category). None of this project's AliExpress dropshipping products are
+# books, so this root is excluded unconditionally - same pattern as BAD_ROOTS_FOR_NON_APPAREL.
+BAD_ROOTS_NEVER = ('Bücher & Zeitschriften',)
 
 
 def clean(title):
@@ -63,6 +69,8 @@ def resolve(ebay, title, props=()):
             continue
         ok = []
         for cid, name, path in sugg:
+            if path.startswith(BAD_ROOTS_NEVER):
+                continue
             if not apparel and path.startswith(BAD_ROOTS_FOR_NON_APPAREL):
                 continue
             if pet and not path.startswith('Haustierbedarf'):

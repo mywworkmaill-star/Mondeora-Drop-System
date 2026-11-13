@@ -87,20 +87,26 @@ def find_old_offer(api, sku, listing_id):
     raise RuntimeError(f'old offer not found for listing {listing_id}')
 
 
-AD_CAMPAIGN = '167027798017'   # MONDEORA-BASIS-01, 2.0% bid (only charged on sale)
+AD_CAMPAIGN = '167027798017'   # MONDEORA-BASIS-01
 
 
 def add_ad(api, listing_id):
+    """New listings start at ads.BOOST_BID (visibility window) and auto-decay to ads.STEADY_BID
+    after ads.BOOST_DAYS via job_ad_bid_optimize - see src/listing_quality/ads.py."""
+    from src.listing_quality import ads
     try:
         r = api.call('POST', f'/sell/marketing/v1/ad_campaign/{AD_CAMPAIGN}/bulk_create_ads_by_listing_id',
-                     {'requests': [{'listingId': str(listing_id), 'bidPercentage': '2.0'}]})
+                     {'requests': [{'listingId': str(listing_id), 'bidPercentage': ads.BOOST_BID}]})
         resp = (r.get('responses') or [{}])[0]
-        return 'ok' if resp.get('adId') or resp.get('statusCode') in (200, 201) else f'check: {json.dumps(resp, ensure_ascii=False)[:200]}'
+        if resp.get('adId') or resp.get('statusCode') in (200, 201):
+            ads.record_boost(resp.get('adId'), listing_id, AD_CAMPAIGN)
+            return 'ok'
+        return f'check: {json.dumps(resp, ensure_ascii=False)[:200]}'
     except Exception as ex:
         return f'error: {str(ex)[:200]}'
 
 
-def plan_for(ali, ebay, pid, ship, db_title=None, extra_aspects=None, existing=False):
+def plan_for(ali, ebay, pid, ship, db_title=None, extra_aspects=None, existing=False, verified_aspects=None):
     res = source.fetch_raw(ali, pid)
     props = source.properties(res)
     subject = res['ae_item_base_info_dto']['subject']
@@ -125,7 +131,7 @@ def plan_for(ali, ebay, pid, ship, db_title=None, extra_aspects=None, existing=F
     # config/category_overrides.json entry for every product whose best category lacks the right aspects.
     candidates = [cat] + [{'category_id': c, 'path': p, 'confidence': cat.get('confidence', 0), 'source': 'alternative'}
                           for c, p, _hits in (cat.get('alternatives') or [])]
-    plan = variants.build(pid, res, ship)
+    plan = variants.build(pid, res, ship, verified_aspects=verified_aspects)
     if not plan['variants']:
         raise ValueError('no sellable variants')
     if plan['flags']:
@@ -172,8 +178,8 @@ def plan_for(ali, ebay, pid, ship, db_title=None, extra_aspects=None, existing=F
     return {'gates': {**g, 'demand': dinfo, 'demand_review': dreview, 'images_dropped': len(_dropped)}, 'res': res, 'title': title, 'cat': cat, 'shared': shared, 'plan': plan, 'desc': desc, 'imgs': shared_imgs}
 
 
-def apply(ali, ebay, pid, old_sku, ship, dry_run=True, db_title=None, old_listing_id=None, extra_aspects=None):
-    st = plan_for(ali, ebay, pid, ship, db_title, extra_aspects)
+def apply(ali, ebay, pid, old_sku, ship, dry_run=True, db_title=None, old_listing_id=None, extra_aspects=None, verified_aspects=None):
+    st = plan_for(ali, ebay, pid, ship, db_title, extra_aspects, verified_aspects=verified_aspects)
     plan, cat = st['plan'], st['cat']
     out = {'title': st['title'], 'category': cat['category_id'], 'variants': len(plan['variants']),
            'price_range': [plan['variants'][0]['price'], plan['variants'][-1]['price']],

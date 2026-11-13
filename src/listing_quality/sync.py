@@ -6,7 +6,7 @@ bulk_update_price_quantity. New AliExpress variants are only REPORTED (they need
 import sqlite3
 from datetime import datetime
 
-from src.listing_quality import publish, source, variants
+from src.listing_quality import publish, source, variants, pricing
 
 CHUNK = 25
 
@@ -16,13 +16,16 @@ def run(ali, ebay, db_path='data/dropshipping.db', dry_run=False):
     db.row_factory = sqlite3.Row
     api = None if dry_run else publish.Api(ebay)
     prods = db.execute('select * from products where is_listed=1 and id in (select product_id from product_variants) order by id').fetchall()
-    summary = {'products': len(prods), 'updated_variants': 0, 'errors': [], 'new_variants_pending': {}, 'dry_run': dry_run, 'changes': []}
+    summary = {'products': len(prods), 'updated_variants': 0, 'errors': [], 'new_variants_pending': {}, 'dry_run': dry_run, 'changes': [], 'pinned_skipped': 0}
     for p in prods:
         pid = p['aliexpress_product_id']
+        legacy = pricing.is_pinned(pid)
+        if legacy:
+            summary['pinned_skipped'] += 1
         try:
             res = source.fetch_raw(ali, pid)
             on_sale = (res.get('ae_item_base_info_dto') or {}).get('product_status_type') == 'onSelling'
-            plan = variants.build(pid, res, float(p['shipping_cost'] or 1.99))
+            plan = variants.build(pid, res, float(p['shipping_cost'] or 1.99), legacy=legacy)
         except Exception as ex:
             summary['errors'].append((p['id'], str(ex)[:120]))
             continue

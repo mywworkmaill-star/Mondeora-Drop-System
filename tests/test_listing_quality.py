@@ -1,12 +1,14 @@
 from src.listing_quality import pricing, variants, description
 
-CFG = {'fee_pct': 13.5, 'fixed_fee': 0.35, 'min_profit': 25.0, 'min_margin': 0.25}
+CFG = {'fee_pct': 13.5, 'fixed_fee': 0.35}
 
 
 def test_price_meets_min_profit_with_real_fee():
+    """Minimum profit/margin are tiered by landed cost (cost+ship) - see pricing.TIERS."""
     for cost, ship in [(1.19, 1.99), (6.49, 1.99), (77.69, 1.99), (0.5, 0.0)]:
+        min_profit, min_margin = pricing.tier_minimums(cost + ship)
         price, net = pricing.price_for(cost, ship, CFG)
-        assert net >= 25.0 and net / price >= 0.25
+        assert net >= min_profit and net / price >= min_margin
         assert round(price % 1, 2) == 0.99
 
 
@@ -30,7 +32,8 @@ def test_each_variant_gets_its_own_price_and_oos_is_dropped():
     assert plan['is_variation'] and len(plan['variants']) == 2
     assert {d[1] for d in plan['dropped']} == {'out of stock', 'duplicate option combination'}
     low, high = plan['variants']
-    assert high['price'] > low['price'] and all(v['net'] >= 25.0 for v in plan['variants'])
+    assert high['price'] > low['price']
+    assert all(v['net'] >= pricing.tier_minimums(v['cost'] + 1.99)[0] for v in plan['variants'])
     assert plan['flags']  # 14/2 = 7x spread -> review flag
 
 
