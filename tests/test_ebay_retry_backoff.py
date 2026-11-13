@@ -25,7 +25,13 @@ class _FakeSession:
 
 
 def _client(session):
-    return eBayAPIClient(session=session, config={'EBAY_ACCESS_TOKEN': 'tok'})
+    # Hata 32: the transport is fake (never touches the network), so injecting these flags only
+    # loosens the TEST fixture, not any real production gate. Without them, PUT/POST retry tests
+    # only passed "by accident" whenever production's real .env happened to have live writes
+    # enabled; a clean checkout/worktree with no .env fails every PUT/POST test with
+    # PermissionError before the retry logic under test ever runs.
+    return eBayAPIClient(session=session, config={'EBAY_ACCESS_TOKEN': 'tok',
+        'AUTOMATION_LIVE_WRITES': 'true', 'SUPPLIER_AGREEMENT_CONFIRMED': 'true'})
 
 
 @patch('time.sleep', lambda *_: None)
