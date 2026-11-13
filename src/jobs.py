@@ -91,7 +91,8 @@ def job_price_optimize():
 
 
 def job_product_sync():
-    return _checked(_engine().sync_top_products_from_aliexpress)
+    # Legacy product-sync also published; it must not bypass the prepared buffer.
+    return job_listing_prepare()
 
 
 def job_research():
@@ -143,38 +144,27 @@ def _plan_target():
 
 
 def job_listing_pipeline():
-    """Daily listing: publish only VETTED products (engine enforces vetting,
-    supplier stock/SKU identity, EUR cost ceiling, fee-aware price). Reports why nothing was listed.
-    NOTE: research_products() calls enable_read_only() internally which blocks all writes.
-    Research runs as a SEPARATE job (job_research at 02:00). Do NOT call it here."""
+    """Scheduled release consumes saved, fully gated plans only; never prepares during release."""
+    return job_publish_ready()
+
+
+def job_listing_prepare():
+    """Read-only remote preparation; maintain a local target of ten real ready products."""
+    from src.listing_quality import ready_workflow
     e = _engine()
-    target = _plan_target()
-    # Load last research result for reporting (read-only, no API call)
-    research_summary = {}
-    try:
-        import json as _json
-        _rp = ROOT / 'data' / 'product_research.json'
-        if _rp.exists():
-            _rd = _json.loads(_rp.read_text(encoding='utf-8'))
-            research_summary = {k: _rd.get(k) for k in ('status', 'candidate_count', 'new_eligible_count') if k in _rd}
-    except Exception:
-        pass
-    publish = _checked(e.sync_top_products_from_aliexpress)
-    from src.database.models import get_session, Product
-    with get_session(e.engine) as session:
-        total = session.query(Product).count()
-        listed = session.query(Product).filter(Product.is_listed.is_(True)).count()
-        unvetted = session.query(Product).filter(Product.fulfillment_verified.is_(False),
-                                                 Product.status.in_(['unverified', 'AUTO_SYNCED'])).count()
-    why = []
-    if publish.get('status') == 'blocked':
-        why.append('live_writes_or_readiness_gate')
-    if unvetted and not listed:
-        why.append(f'{unvetted}_products_not_vetted')
-    return {'status': publish.get('status', 'ok'), 'plan_target_today': target, 'db_total': total,
-            'listed_total': listed, 'unvetted': unvetted, 'why_not_listed': why,
-            'research': research_summary,
-            'publish': {k: publish.get(k) for k in ('status', 'reason', 'processed', 'total', 'published') if k in publish}}
+    return ready_workflow.prepare(e.aliexpress_client, e.ebay_client)
+
+
+def job_publish_ready():
+    """One launch action; shared lock, stock/price preflight, daily cap and buyer readback."""
+    from src.listing_quality import ready_workflow
+    e = _engine()
+    return ready_workflow.publish_ready(e.aliexpress_client, e.ebay_client)
+
+
+def job_listing_buffer_status():
+    from src.listing_quality import ready_workflow
+    return ready_workflow.buffer_status()
 
 
 def _live_only(name):
@@ -424,10 +414,8 @@ def job_price_refresh():
 
 
 def job_new_variation_listing():
-    """List NEW multi-variant products as ONE listing with all variants (max 3/day)."""
-    e = _engine()
-    from src.listing_quality import publish
-    return publish.list_new(e.aliexpress_client, e.ebay_client)
+    """Compatibility alias: only release already prepared single/variation listings."""
+    return job_publish_ready()
 
 
 def job_listing_health():
@@ -617,6 +605,9 @@ JOBS = {
     'diagnose':        (job_diagnose, True),
     'weekly_report':   (job_weekly_report, True),
     'listing_pipeline': (job_listing_pipeline, False),
+    'listing_prepare': (job_listing_prepare, True),
+    'publish_ready': (job_publish_ready, False),
+    'listing_buffer_status': (job_listing_buffer_status, True),
     'sales_check':     (job_sales_check, False),
     'db_sync':         (job_db_sync, True),
     'customer_comm':   (job_customer_comm, False),
@@ -706,9 +697,12 @@ def run(name, alert_only=False):
             bad = [i for i in result.get('issues', []) if i != 'sync_stale_over_6h' and fixed.get(i) not in acts] +                   [a for a in acts if a.endswith('=failed')]
             if bad:
                 problems.append('watchdog: ' + ', '.join(bad))
-        if name == 'listing_pipeline' and isinstance(result, dict):
-            problems.append(f"listing: hedef={result.get('plan_target_today')} listelenen_toplam={result.get('listed_total')} "
-                            f"neden_yok={result.get('why_not_listed')}")
+        if name in ('listing_pipeline', 'new_variation_listing', 'publish_ready') and isinstance(result, dict):
+            problems.append(f"listing: yayinlanan={result.get('published_count', 0)} hazir={result.get('ready_count', 0)}/10 "
+                            f"engeller={result.get('blockers', [])}")
+        if name in ('listing_prepare', 'product_sync') and isinstance(result, dict) and result.get('shortfall'):
+            problems.append(f"hazir_havuz: {result.get('ready_count', 0)}/10; eksik={result['shortfall']}; "
+                            f"rapor=data/audit/ready_listing_report.json")
         if name == 'listing_health' and isinstance(result, dict) and result.get('blocked'):
             problems.append(f"listing_health: {result['blocked']} \u00fcr\u00fcn blokl\u0131 ({result.get('by_code')}) "
                             f"-> {result.get('report')}")

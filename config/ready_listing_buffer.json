@@ -1,0 +1,10 @@
+{
+  "target": 10,
+  "daily_publish_limit": 10,
+  "ttl_hours": 24,
+  "max_prepare_per_run": 20,
+  "max_prepare_seconds": 140,
+  "publish_only_saved_plans": true,
+  "count_distinct_products_not_variants": true,
+  "never_waive_missing_evidence": true
+}
