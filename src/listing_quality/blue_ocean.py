@@ -170,7 +170,13 @@ def verify_and_seed(ali, ebay, candidate, session, Product, risk_ack_pids=()):
         return {'product_id': pid, 'seeded': False, 'reason': f'price_vs_market_review: {dem_review}',
                 'market_info': info}
     n_instock = len(instock)
-    status = 'needs_variation_listing' if n_instock > 1 else None
+    # Always 'needs_variation_listing' (not conditional on n_instock>1): publish.list_new()
+    # handles any instock-SKU count >=1 fine, and the single-SKU main engine.py loop requires
+    # full _vetted() (fulfillment_verified=True + sku_id + category_id set) which this function
+    # never populates - leaving status=None for single-SKU candidates stranded them in neither
+    # pipeline permanently (found live 2026-11-13: 5 real seeded products stuck with vetted=False
+    # and no status for list_new to pick up).
+    status = 'needs_variation_listing'
     session.add(Product(aliexpress_product_id=pid, title=title, image_url=detail.get('product_main_image_url'),
                          aliexpress_price=cost, currency='EUR', shipping_cost=round(ship_cost, 2),
                          status=status, is_listed=False, fulfillment_verified=False))
