@@ -31,6 +31,12 @@ class AutoOrderFulfillment:
         self.ali = AliExpressAPIClient()
         self.ebay = eBayAPIClient()
         self.fulfillment_log = "data/fulfillment_log.json"
+        # Hata 30: this used to be a hardcoded local Path() inside _place_aliexpress_order,
+        # not overridable by tests -> a pytest run with a real (non-mocked) success path wrote
+        # a fake "ALI-3" test order straight into the LIVE data/pending_aliexpress_orders.jsonl
+        # file that a human operator reads to place real manual AliExpress orders. Keep it as
+        # an instance attribute so tests can redirect it to tmp_path.
+        self.pending_orders_file = Path("data/pending_aliexpress_orders.jsonl")
         self._init_fulfillment_table()
         
     def _init_fulfillment_table(self):
@@ -83,7 +89,19 @@ class AutoOrderFulfillment:
         results = []
         
         for sale in unfulfilled:
-            result = self._fulfill_order(sale)
+            # Hata 29 (per-item isolation): defense-in-depth on top of the try/except already
+            # inside _fulfill_order - any future unexpected exception there must still not stop
+            # fulfillment for the OTHER buyers in this batch.
+            try:
+                result = self._fulfill_order(sale)
+            except Exception as e:
+                order_id = sale.get('order_id', '?')
+                print(f"❌ Order fulfillment crashed unexpectedly for {order_id}: {e}")
+                try:
+                    self._save_fulfillment_error(order_id, str(e))
+                except Exception:
+                    pass
+                result = {'success': False, 'order_id': order_id, 'error': str(e)}
             results.append(result)
             
             # Small delay between orders
@@ -128,12 +146,19 @@ class AutoOrderFulfillment:
     def _fulfill_order(self, sale):
         """Fulfill a single order"""
         order_id = sale['order_id']
-        
+
         print(f"📦 Processing order: {order_id}")
-        print(f"   Product: {sale['title'][:50]}...")
-        print()
-        
+
         try:
+            # Hata 29 (per-item isolation): sales.title has no NOT NULL constraint - a sale
+            # row can be written before product-title sync completes (same root cause as
+            # auto_customer_communication.py's Hata 8 fix). title[:50] on a None used to raise
+            # TypeError HERE, before this try block existed around it, which killed the whole
+            # process_pending_orders() batch for every other buyer. Keep it inside try so a
+            # missing title never blocks fulfillment, and never crashes the batch either way.
+            safe_title = (sale.get('title') or '(no title)')[:50]
+            print(f"   Product: {safe_title}...")
+            print()
             # Step 1: Get buyer address from eBay
             print("   🔍 Step 1: Getting buyer address...")
             buyer_address = self._get_buyer_address(order_id)
@@ -316,8 +341,8 @@ Phone: {address['phone']}
         }
         
         # Save to pending orders file
-        pending_file = Path('data/pending_aliexpress_orders.jsonl')
-        pending_file.parent.mkdir(exist_ok=True)
+        pending_file = self.pending_orders_file
+        pending_file.parent.mkdir(parents=True, exist_ok=True)
         with open(pending_file, 'a', encoding='utf-8') as f:
             f.write(json.dumps(notification, ensure_ascii=False) + '\n')
         
