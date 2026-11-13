@@ -222,43 +222,68 @@ def job_db_backup(keep=14):
     out = ROOT / 'data' / 'backups'
     out.mkdir(parents=True, exist_ok=True)
     stamp = time.strftime('%Y%m%d_%H%M%S')
-    done = []
+    done, errors = [], []
     for name in ('dropshipping.db', 'memory_vectors.db', 'learning_database.db'):
         src = ROOT / 'data' / name
         if not src.exists():
             continue
         dst = out / f'{name}.{stamp}'
-        with closing(sqlite3.connect(f'file:{src.as_posix()}?mode=ro', uri=True)) as a, closing(sqlite3.connect(dst)) as b:
-            a.backup(b)  # consistent online copy
-        done.append(dst.name)
-        for old in sorted(out.glob(f'{name}.*'))[:-keep]:
-            old.unlink(missing_ok=True)
-    return {'status': 'ok', 'backed_up': done, 'kept_per_db': keep}
+        try:
+            # Hata 35 pattern (per-item isolation): dropshipping.db is being written by most
+            # other cron jobs at the same time db_backup runs, so sqlite3.OperationalError
+            # ('database is locked') on ONE db's backup() is a real possibility - it must not
+            # stop memory_vectors.db/learning_database.db (later in this tuple) from being
+            # backed up this run.
+            with closing(sqlite3.connect(f'file:{src.as_posix()}?mode=ro', uri=True)) as a, closing(sqlite3.connect(dst)) as b:
+                a.backup(b)  # consistent online copy
+            done.append(dst.name)
+            for old in sorted(out.glob(f'{name}.*'))[:-keep]:
+                old.unlink(missing_ok=True)
+        except Exception as ex:
+            dst.unlink(missing_ok=True)   # drop any partial/zero-byte backup file
+            errors.append({'db': name, 'error': f'{type(ex).__name__}: {ex}'[:200]})
+            continue
+    return {'status': 'ok' if not errors else 'partial', 'backed_up': done, 'errors': errors, 'kept_per_db': keep}
 
 
 def job_log_cleanup(days=30):
     cutoff = time.time() - days * 86400
-    removed = 0
+    removed, errors = 0, []
     for pattern in ('logs/*.log.*', 'logs/*.json', 'data/jobs/*.lock'):
         for f in ROOT.glob(pattern):
             if f.is_file() and f.stat().st_mtime < cutoff:
-                f.unlink(missing_ok=True); removed += 1
+                try:
+                    # Hata 35 pattern (per-item isolation): missing_ok=True only swallows
+                    # FileNotFoundError - a file still open/locked by a concurrent cron job
+                    # (PermissionError on Windows) must not stop the rest of this sweep.
+                    f.unlink(missing_ok=True); removed += 1
+                except OSError as ex:
+                    errors.append({'file': str(f), 'error': f'{type(ex).__name__}: {ex}'[:150]})
+                    continue
     usage = ROOT / 'data/model_usage.jsonl'
     if usage.exists() and usage.stat().st_size > 5_000_000:
         lines = usage.read_text(encoding='utf-8').splitlines()[-5000:]
         usage.write_text('\n'.join(lines) + '\n', encoding='utf-8'); removed += 1
-    return {'status': 'ok', 'removed': removed}
+    return {'status': 'ok' if not errors else 'partial', 'removed': removed, 'errors': errors}
 
 
 def job_daily_report():
     """One digest of every job's last result so a silent day is still visible."""
-    rows, counts = [], {}
+    rows, counts, errors = [], {}, []
     for f in sorted(JOBS_DIR.glob('last_*.json')):
-        d = json.loads(f.read_text(encoding='utf-8'))
-        counts[d['status']] = counts.get(d['status'], 0) + 1
-        rows.append(f"{d['job']}:{d['status']}@{d['at'][5:16]}")
+        try:
+            # Hata 35 pattern (per-item isolation): one job's last_<job>.json truncated
+            # mid-write by a crash/kill during a concurrent run must not hide every OTHER
+            # job's status behind one corrupt/incomplete file.
+            d = json.loads(f.read_text(encoding='utf-8'))
+            counts[d['status']] = counts.get(d['status'], 0) + 1
+            rows.append(f"{d['job']}:{d['status']}@{d['at'][5:16]}")
+        except (OSError, ValueError, KeyError) as ex:
+            errors.append({'file': f.name, 'error': f'{type(ex).__name__}: {ex}'[:150]})
+            continue
     from core.job_tracking import recent_runs
-    return {'status': 'ok', 'counts': counts, 'jobs': rows, 'tracked_runs': recent_runs(30) or []}
+    return {'status': 'ok' if not errors else 'partial', 'counts': counts, 'jobs': rows,
+            'errors': errors, 'tracked_runs': recent_runs(30) or []}
 
 
 # ---------------------------------------------------------------------------
