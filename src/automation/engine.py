@@ -465,16 +465,25 @@ class AutamationEngine:
                         raise
             products = session.query(Product).filter_by(is_listed=False).all()
             processed = 0
+            skipped = []
             for product in products:
                 if not self._vetted(product) or product.ebay_item_id or product.status in ('publishing', 'manual_review'):
                     continue
                 if session.query(Product).filter_by(is_listed=True).count() >= cap:
                     break
-                data = self._details(product)
-                if data['warehouse_count'] == 0:
+                try:
+                    data = self._details(product)
+                    if data['warehouse_count'] == 0:
+                        continue
+                    from src.automation.spending import validate_source_unit
+                    cost = validate_source_unit(data.get('sale_price'), self._settings(), data.get('currency', 'EUR'))
+                except ValueError as ex:
+                    # Permanent per-product data problem (stale/placeholder SKU, bad supplier price,
+                    # currency/price-cap violation) must never block every OTHER correctly-mapped
+                    # product's publish attempt for the rest of this batch. Sibling of sync_inventory's
+                    # per-product isolation (see Hata 8 / Hata 34).
+                    skipped.append({'id': product.id, 'reason': str(ex)[:150]})
                     continue
-                from src.automation.spending import validate_source_unit
-                cost = validate_source_unit(data.get('sale_price'), self._settings(), data.get('currency', 'EUR'))
                 try:
                     finance = self._finance_plan(product, data)
                     shipping = finance['shipping_total']
@@ -504,7 +513,8 @@ class AutamationEngine:
                     'image_url': product.image_url, 'category_id': product.category_id,
                     'price': str(price), 'quantity': data['warehouse_count'], 'currency': 'EUR'}
                 if not all(payload[key] for key in ('title', 'description', 'image_url')):
-                    raise ValueError('Listing content requires verification')
+                    skipped.append({'id': product.id, 'reason': 'Listing content requires verification'})
+                    continue
                 if not self._allowed():
                     raise RuntimeError('Live writes disabled during job')
                 product.status = 'publishing'
@@ -527,14 +537,19 @@ class AutamationEngine:
                     product.last_synced = datetime.utcnow()
                     session.commit()
                     processed += 1
-                except Exception:
+                except Exception as ex:
+                    # A single product's publish failure (transient eBay error, unconfirmed
+                    # publish, etc.) is marked for manual review and must never abort the
+                    # rest of the batch — sibling of sync_inventory's / sync_ebay_orders'
+                    # per-item isolation (Hata 8 / Hata 34).
                     session.rollback()
                     product.status = 'manual_review'
                     if isinstance(result, dict) and result.get('offer_id'):
                         product.ebay_offer_id = str(result['offer_id'])
                     session.commit()
-                    raise
-            return {'status': 'success', 'processed': processed, 'discovered': discovered, 'total': len(products)}
+                    skipped.append({'id': product.id, 'reason': str(ex)[:150]})
+                    continue
+            return {'status': 'success', 'processed': processed, 'discovered': discovered, 'total': len(products), 'skipped': skipped}
         return self._run('products', action, write=True)
 
     @staticmethod
