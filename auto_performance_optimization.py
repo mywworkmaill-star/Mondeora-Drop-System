@@ -57,23 +57,33 @@ class AutoPerformanceOptimization:
             'analyzed': 0,
             'low_performers_removed': 0,
             'prices_optimized': 0,
-            'titles_improved': 0
+            'titles_improved': 0,
+            'stage_errors': [],
         }
         
         # Remove dead listings (0 views in 30 days)
         print("🗑️  Checking dead listings...")
-        removed = self._remove_dead_listings()
-        results['low_performers_removed'] = removed
+        try:
+            results['low_performers_removed'] = self._remove_dead_listings()
+        except Exception as ex:
+            results['stage_errors'].append(f'remove_dead_listings: {type(ex).__name__}: {ex}')
+            print(f"   ⚠️  Stage failed: {ex}")
         
         # Optimize prices for low-conversion listings
         print("💰 Optimizing prices...")
-        optimized = self._optimize_prices()
-        results['prices_optimized'] = optimized
+        try:
+            results['prices_optimized'] = self._optimize_prices()
+        except Exception as ex:
+            results['stage_errors'].append(f'optimize_prices: {type(ex).__name__}: {ex}')
+            print(f"   ⚠️  Stage failed: {ex}")
         
         # Improve titles for low-view listings
         print("📝 Improving titles...")
-        improved = self._improve_titles()
-        results['titles_improved'] = improved
+        try:
+            results['titles_improved'] = self._improve_titles()
+        except Exception as ex:
+            results['stage_errors'].append(f'improve_titles: {type(ex).__name__}: {ex}')
+            print(f"   ⚠️  Stage failed: {ex}")
         
         print()
         print("=" * 70)
@@ -111,11 +121,22 @@ class AutoPerformanceOptimization:
             
             print(f"   🗑️  Removing: {title[:50]}...")
             
-            # End eBay listing
-            if self._end_ebay_listing(ebay_item_id):
-                self._update_product_status(sku, 'REMOVED_LOW_PERFORMANCE')
-                removed_count += 1
-                print(f"      ✅ Removed")
+            # Hata 25 (per-item isolation, same pattern as listing-pipeline-fixes Hata 8):
+            # _end_ebay_listing() already self-isolates (internal try/except -> bool), but
+            # _update_product_status() opens its own sqlite3 connection with NO try/except.
+            # If eBay already ended the listing live and this DB write then throws (e.g. a
+            # concurrent cron job holding a sqlite lock), an unhandled exception here used to
+            # abort the WHOLE run_optimization() call - silently leaving every remaining dead
+            # listing in this batch unprocessed, on top of the DB/eBay drift on this one item
+            # (eBay says ended, DB still says 'active' - see Hata 20).
+            try:
+                if self._end_ebay_listing(ebay_item_id):
+                    self._update_product_status(sku, 'REMOVED_LOW_PERFORMANCE')
+                    removed_count += 1
+                    print(f"      ✅ Removed")
+            except Exception as ex:
+                print(f"      ⚠️  Skipped (db/update error): {type(ex).__name__}: {ex}")
+                continue
         
         return removed_count
     
@@ -148,18 +169,26 @@ class AutoPerformanceOptimization:
         for listing in overpriced:
             ebay_item_id, sku, title, ebay_price, ali_price = listing
             
-            # Reduce price by 15%
-            new_price = ebay_price * 0.85
-            
-            # Never go below the configured minimum profit after fees
-            if new_price >= _floor_price(ali_price):
-                print(f"   💰 Optimizing: {title[:50]}...")
-                print(f"      €{ebay_price:.2f} → €{new_price:.2f}")
+            # Hata 25 (per-item isolation): one bad row (e.g. _floor_price() raising on a
+            # malformed/missing ali_price, or the raw sqlite3 _update_product_ebay_price()
+            # write throwing after the live eBay price change already succeeded) must not
+            # stop every OTHER overpriced listing in this batch from being optimized.
+            try:
+                # Reduce price by 15%
+                new_price = ebay_price * 0.85
                 
-                if self._update_ebay_price(sku, new_price):
-                    self._update_product_ebay_price(sku, new_price)
-                    optimized_count += 1
-                    print(f"      ✅ Price updated")
+                # Never go below the configured minimum profit after fees
+                if new_price >= _floor_price(ali_price):
+                    print(f"   💰 Optimizing: {title[:50]}...")
+                    print(f"      €{ebay_price:.2f} → €{new_price:.2f}")
+                    
+                    if self._update_ebay_price(sku, new_price):
+                        self._update_product_ebay_price(sku, new_price)
+                        optimized_count += 1
+                        print(f"      ✅ Price updated")
+            except Exception as ex:
+                print(f"   ⚠️  Skipped {title[:40]!r} (error): {type(ex).__name__}: {ex}")
+                continue
         
         return optimized_count
     

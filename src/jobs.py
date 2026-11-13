@@ -188,9 +188,20 @@ def job_sales_check():
     from sales_tracker import SalesTracker
     t = SalesTracker()
     sales = t.run_check_cycle() or []
+    notify_errors = []
     for sale in sales:
-        t.send_notification(sale)
-    return {'status': 'ok', 'new_sales': len(sales)}
+        # Hata 8 pattern (per-item isolation): send_notification() indexes sale['order_id']/
+        # ['title']/['sale_price']/['profit']/['buyer_username']/['sale_date'] with no .get()
+        # fallback, and _mark_notified() opens its own sqlite3 connection with no try/except
+        # (a concurrent "database is locked" from another cron job is a real risk here). Either
+        # one failing for ONE sale must not stop notifications for the OTHER sales in this batch.
+        try:
+            t.send_notification(sale)
+        except Exception as ex:
+            notify_errors.append({'order_id': sale.get('order_id') if isinstance(sale, dict) else None,
+                                   'error': f'{type(ex).__name__}: {ex}'[:200]})
+            continue
+    return {'status': 'ok', 'new_sales': len(sales), 'notify_errors': notify_errors}
 
 
 def job_db_sync():
@@ -477,6 +488,51 @@ def job_rank_audit():
             'below_80_count': len(out['below_80']), 'errors': len(errors), 'report': str(path)}
 
 
+def job_blue_ocean():
+    """Daily real low-competition/high-demand product discovery. Scans DEFAULT_KEYWORDS niche
+    via real AliExpress sales-sorted search + real eBay Browse API competition counts, verifies
+    every passing candidate with the same real gates as the rest of the pipeline (stock, price,
+    shipping, risk, price-vs-market), and seeds verified candidates into the products table as
+    needs_variation_listing so mondeora-listing-pipeline/new-variation-listing publish them the
+    same morning. Writes data/audit/blue_ocean_report.json. Never publishes directly."""
+    import json
+    from datetime import datetime, timezone
+    from src.database.models import Product, get_session
+    from src.listing_quality import blue_ocean
+    e = _engine()
+    scanned = blue_ocean.find_candidates(e.aliexpress_client, e.ebay_client)
+    passing = [c for c in scanned if c.get('passes_blue_ocean_filter')]
+    seeded, skipped = [], []
+    with get_session(e.engine) as session:
+        for cand in passing[:10]:   # cap per run - same discipline as the existing niche seeding
+            # Hata 8 pattern (per-item isolation): one candidate blowing up (bad API payload,
+            # unexpected KeyError in a field, a transient DB error on commit, ...) must not stop
+            # the other 9 candidates in this run from being evaluated/seeded.
+            try:
+                result = blue_ocean.verify_and_seed(e.aliexpress_client, e.ebay_client, cand, session, Product)
+            except ValueError as ex:
+                session.rollback()
+                skipped.append({'product_id': cand.get('product_id'), 'seeded': False,
+                                 'reason': f'{type(ex).__name__}: {ex}'[:200]})
+                continue
+            except Exception as ex:
+                # Not a known data-validation error (ValueError) - still isolate per-candidate
+                # rather than losing the whole run, but keep the full exception type visible so
+                # a systemic issue (e.g. DB connectivity) is easy to tell apart from a one-off bad row.
+                session.rollback()
+                skipped.append({'product_id': cand.get('product_id'), 'seeded': False,
+                                 'reason': f'unexpected_{type(ex).__name__}: {ex}'[:200]})
+                continue
+            (seeded if result['seeded'] else skipped).append(result)
+    out = {'generated_at': datetime.now(timezone.utc).isoformat(), 'keywords_scanned': len(blue_ocean.DEFAULT_KEYWORDS),
+           'rows_scanned': len(scanned), 'passing_filter': len(passing), 'seeded': seeded, 'skipped': skipped}
+    path = ROOT / 'data' / 'audit' / 'blue_ocean_report.json'
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(out, ensure_ascii=False, indent=1, default=str), encoding='utf-8')
+    return {'status': 'ok', 'rows_scanned': len(scanned), 'passing_filter': len(passing),
+            'seeded_count': len(seeded), 'seeded_ids': [s['product_id'] for s in seeded], 'report': str(path)}
+
+
 def job_variation_sync():
     """Per-variant eBay price + stock for variation listings (legacy inventory_sync/price_optimize skip them)."""
     e = _engine()
@@ -572,6 +628,7 @@ JOBS = {
     'price_refresh':     (job_price_refresh, True),      # ds.product.get -> products.aliexpress_price (SKU fallback)
     'ad_bid_optimize':   (job_ad_bid_optimize, True),     # Promoted Listings: decay BOOST_BID->STEADY_BID after BOOST_DAYS
     'rank_audit':        (job_rank_audit, True),          # read-only weekly rank-readiness score per live listing
+    'blue_ocean':        (job_blue_ocean, True),           # daily low-competition/high-demand discovery -> seeds listing queue
 }
 
 
