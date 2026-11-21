@@ -1,0 +1,367 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:496#Transparent;380:200007659#20PCS",
+        "offer_sale_price": "2.15",
+        "sku_id": "12000044285029393",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "4.78",
+        "offer_bulk_sale_price": "2.15",
+        "sku_available_stock": 22,
+        "id": "14:496#Transparent;380:200007659#20PCS",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Lila",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Transparent",
+              "property_value_id": 496,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "50cm",
+              "sku_property_name": "Länge",
+              "property_value_definition_name": "20PCS",
+              "property_value_id": 200007659,
+              "sku_property_id": 380
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:496#Transparent;380:200747363#10PCS",
+        "offer_sale_price": "1.79",
+        "sku_id": "12000044285029392",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "3.98",
+        "offer_bulk_sale_price": "1.79",
+        "sku_available_stock": 21,
+        "id": "14:496#Transparent;380:200747363#10PCS",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Lila",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Transparent",
+              "property_value_id": 496,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "25 cm",
+              "sku_property_name": "Länge",
+              "property_value_definition_name": "10PCS",
+              "property_value_id": 200747363,
+              "sku_property_id": 380
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:496#Transparent;380:200006478#50PCS",
+        "offer_sale_price": "3.35",
+        "sku_id": "12000044285029394",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "7.44",
+        "offer_bulk_sale_price": "3.35",
+        "sku_available_stock": 97,
+        "id": "14:496#Transparent;380:200006478#50PCS",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Lila",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Transparent",
+              "property_value_id": 496,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "1m",
+              "sku_property_name": "Länge",
+              "property_value_definition_name": "50PCS",
+              "property_value_id": 200006478,
+              "sku_property_id": 380
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:366#White;380:200747363#10PCS",
+        "offer_sale_price": "1.79",
+        "sku_id": "12000044285029389",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "3.98",
+        "offer_bulk_sale_price": "1.79",
+        "sku_available_stock": 23,
+        "id": "14:366#White;380:200747363#10PCS",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Gelb",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "White",
+              "property_value_id": 366,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "25 cm",
+              "sku_property_name": "Länge",
+              "property_value_definition_name": "10PCS",
+              "property_value_id": 200747363,
+              "sku_property_id": 380
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:347#Black;380:200006478#50PCS",
+        "offer_sale_price": "2.99",
+        "sku_id": "12000044285029388",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "6.64",
+        "offer_bulk_sale_price": "2.99",
+        "sku_available_stock": 95,
+        "id": "14:347#Black;380:200006478#50PCS",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "SILVER",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Black",
+              "property_value_id": 347,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "1m",
+              "sku_property_name": "Länge",
+              "property_value_definition_name": "50PCS",
+              "property_value_id": 200006478,
+              "sku_property_id": 380
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:366#White;380:200006478#50PCS",
+        "offer_sale_price": "2.99",
+        "sku_id": "12000044285029391",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "6.64",
+        "offer_bulk_sale_price": "2.99",
+        "sku_available_stock": 86,
+        "id": "14:366#White;380:200006478#50PCS",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Gelb",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "White",
+              "property_value_id": 366,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "1m",
+              "sku_property_name": "Länge",
+              "property_value_definition_name": "50PCS",
+              "property_value_id": 200006478,
+              "sku_property_id": 380
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:366#White;380:200007659#20PCS",
+        "offer_sale_price": "2.09",
+        "sku_id": "12000044285029390",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "4.64",
+        "offer_bulk_sale_price": "2.09",
+        "sku_available_stock": 25,
+        "id": "14:366#White;380:200007659#20PCS",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Gelb",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "White",
+              "property_value_id": 366,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "50cm",
+              "sku_property_name": "Länge",
+              "property_value_definition_name": "20PCS",
+              "property_value_id": 200007659,
+              "sku_property_id": 380
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:347#Black;380:200007659#20PCS",
+        "offer_sale_price": "1.99",
+        "sku_id": "12000044285029387",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "4.42",
+        "offer_bulk_sale_price": "1.99",
+        "sku_available_stock": 37,
+        "id": "14:347#Black;380:200007659#20PCS",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "SILVER",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Black",
+              "property_value_id": 347,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "50cm",
+              "sku_property_name": "Länge",
+              "property_value_definition_name": "20PCS",
+              "property_value_id": 200007659,
+              "sku_property_id": 380
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:347#Black;380:200747363#10PCS",
+        "offer_sale_price": "1.75",
+        "sku_id": "12000044285029386",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "3.89",
+        "offer_bulk_sale_price": "1.75",
+        "sku_available_stock": 46,
+        "id": "14:347#Black;380:200747363#10PCS",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "SILVER",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Black",
+              "property_value_id": 347,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "25 cm",
+              "sku_property_name": "Länge",
+              "property_value_definition_name": "10PCS",
+              "property_value_id": 200747363,
+              "sku_property_id": 380
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "ae_video_dtos": {
+      "ae_video_d_t_o": [
+        {
+          "media_status": "approved",
+          "media_type": "video",
+          "poster_url": "https://ae-pic-a1.aliexpress-media.com/kf/S8bbbc21ddcac4bad965c848d84bf2308a.jpg",
+          "ali_member_id": 2675424009,
+          "media_id": 5000198540428,
+          "media_url": "https://video.aliexpress-media.com/play/5000198540428.mp4"
+        }
+      ]
+    },
+    "image_urls": "https://ae01.alicdn.com/kf/S5d6b30ff6d9b4ec2869eeab07895e0d3e.jpg;https://ae01.alicdn.com/kf/Scdeb7a73a3f649ebb2724e079c9ea96fP.jpg;https://ae01.alicdn.com/kf/Sfd43ddd185754e5a91d335d621db9682K.jpg;https://ae01.alicdn.com/kf/S91f23a7f3b0a42ea8dbb4ccdaccb42b4p.jpg;https://ae01.alicdn.com/kf/S6796d87e223a469697336db523a49eb2r.jpg;https://ae01.alicdn.com/kf/S988f9d9f2aa443bfa8e2684252886a33i.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 11,
+    "package_height": 1,
+    "package_length": 13,
+    "gross_weight": "0.021",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005008222543759,
+    "sub_product_id": "{\"US\":3256808036229007}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S11d4c9e369ad42fc8c3726666ce67f7eW.jpg\",\"style\":{},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sc7b561f546ff4b7a9a5c08fe581c2231u.jpg\",\"style\":{},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sebb6d89d5141453d88456235383eeef03.jpg\",\"style\":{},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sdf7d2277900a4073a95d7e7663563ddf4.jpg\",\"style\":{},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S2af18b6e2f63441cbe263c5c4546948ap.jpg\",\"style\":{},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S46cecd9131054a069e29a782a479bd5cs.jpg\",\"style\":{},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S72f940ede3154a35887116825135936c1.jpg\",\"style\":{},\"targetUrl\":\"\"}}]}",
+    "subject": "10/20/50PCS Kabel Organizer Clips Draht Wickler Halter Schutz USB Kabel Management Klebe Haken Schreibtisch Klemme für Home Office",
+    "evaluation_count": "4485",
+    "sales_count": "5000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.8",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 201206404,
+    "product_id": 1005008222543759,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S11d4c9e369ad42fc8c3726666ce67f7eW.jpg\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sc7b561f546ff4b7a9a5c08fe581c2231u.jpg\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sebb6d89d5141453d88456235383eeef03.jpg\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sdf7d2277900a4073a95d7e7663563ddf4.jpg\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S2af18b6e2f63441cbe263c5c4546948ap.jpg\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S46cecd9131054a069e29a782a479bd5cs.jpg\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S72f940ede3154a35887116825135936c1.jpg\" slate-data-type=\"image\" /></p><p><br /></p></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "Building B, Getailong Industrial Park, No. 227 Bulong Road, Ma'antang Community, Bantian Street, Longgang District, Shenzhen City, Guangdong Province, China 501-3 440307",
+    "phone": "13246616849",
+    "country_name": "China",
+    "email": "qtg82325@163.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 10,
+        "attr_value_id": 202622813,
+        "attr_name": "Material",
+        "attr_value": "Acryl"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 100002145,
+        "attr_value_id": 201307941,
+        "attr_name": "Eigenschaften",
+        "attr_value": "Kabelclip"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1103031161,
+    "shipping_speed_rating": "4.7",
+    "communication_rating": "4.6",
+    "store_name": "Mosizave 3C Accessories Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.5"
+  }
+}

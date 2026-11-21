@@ -1,0 +1,67 @@
+{
+  "dimensions": {
+    "found": true,
+    "length_cm": 8.5,
+    "width_cm": 8.5,
+    "height_cm": 12.8,
+    "depth_cm": null,
+    "diameter_cm": 8.5,
+    "text": "Bild 6 (S8bacfad730294bde8cf9401936bc1855i.jpg) zeigt ein bemaßtes Infografik-Diagramm: Gesamthöhe (inkl. Aufhänge-Haken) = 12.8cm (5.04in); Durchmesser/Breite des Korbs = 8.5cm (3.35in); Höhe des Korbkörpers allein (ohne Haken) = 5.5cm (2.17in).",
+    "confidence": 95
+  },
+  "weight": {
+    "found": false,
+    "product_weight_g": null,
+    "package_weight_g": null,
+    "text": "",
+    "confidence": 0
+  },
+  "material": {
+    "primary": "Kunststoff",
+    "composition": [],
+    "confidence": 70,
+    "source": "title fallback"
+  },
+  "color": {
+    "found": true,
+    "main": "Grün",
+    "options": [],
+    "confidence": 90,
+    "source": "vision"
+  },
+  "capacity": {
+    "found": false,
+    "volume_liter": null,
+    "item_count": null,
+    "load_capacity_kg": null,
+    "text": "",
+    "confidence": 0
+  },
+  "features": [
+    "One-Touch Öffnungsknopf (Press the Open Button)",
+    "Befestigung am Wasserhahn per Haken (Attach to Faucet Hook)",
+    "Feines Sieb/Filter (Fine Mesh Filter)",
+    "Hängender Spülbecken-Abfallkorb",
+    "Einfache Entleerung ohne Handkontakt mit Abfall"
+  ],
+  "brand": {
+    "name": "No-Name",
+    "confidence": 80
+  },
+  "model": {
+    "number": "",
+    "confidence": 0
+  },
+  "certifications": [],
+  "technical": {
+    "temperature_min_c": null,
+    "temperature_max_c": null,
+    "power_watt": null,
+    "voltage": null
+  },
+  "assembly": {
+    "required": "Unknown",
+    "tools_needed": "Unknown",
+    "time_minutes": null
+  }
+}

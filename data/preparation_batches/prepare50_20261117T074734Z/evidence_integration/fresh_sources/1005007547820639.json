@@ -1,0 +1,176 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:1052#pink",
+        "offer_sale_price": "3.19",
+        "sku_id": "12000041250090048",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "7.97",
+        "offer_bulk_sale_price": "3.19",
+        "sku_available_stock": 63,
+        "id": "14:1052#pink",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Rosa",
+              "sku_image": "https://ae01.alicdn.com/kf/S01c26d2ba930405399a6ac6863d0c19fB.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "pink",
+              "property_value_id": 1052,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:193#black",
+        "offer_sale_price": "3.09",
+        "sku_id": "12000041250090044",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "7.20",
+        "offer_bulk_sale_price": "3.09",
+        "sku_available_stock": 5,
+        "id": "14:193#black",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "schwarz",
+              "sku_image": "https://ae01.alicdn.com/kf/S7e8f81c0137b4c03abfa7c65ff36fbf4W.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "black",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "image_urls": "https://ae01.alicdn.com/kf/Sebdbbdb1b7324aadb996aeb05abe47cai.jpg;https://ae01.alicdn.com/kf/S64c90e4092294b1990921c0b6f4ae05dS.jpg;https://ae01.alicdn.com/kf/Sa13e10e15b95421c80ee7fde786f8357t.jpg;https://ae01.alicdn.com/kf/S2f11db153f53491b998ac25b41220476F.jpg;https://ae01.alicdn.com/kf/Sb947b48599a14f42a6db4fc13d5c311dd.png;https://ae01.alicdn.com/kf/S86a5ded281984de5afdf59ce88988eeea.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 10,
+    "package_height": 5,
+    "package_length": 16,
+    "gross_weight": "0.089",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005007547820639,
+    "sub_product_id": "{\"US\":3256807361505887}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"text\",\"data\":{\"content\":\"Beschreibung\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\"• Geräumige Reisetasche: Die modische Reisetasche eignet sich perfekt für lange Reisen, wie sie viel Platz bietet, um alle Ihre Essentials aufzubewahren.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"• Langlebiges Material: Hergestellt aus hochwertigem Nylon. Diese Reisetasche ist langlebig und kann getragen und reißenfest werden.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"• Leicht zu tragen: Mit bequemen Griffen und stabiler Basis. Diese Reisetasche ist leicht zu transportieren, ideal für Reisen.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"• Sicherer Verschluss: Der Reißverschluss sorgt dafür, dass Ihre Gegenstände sicher und sicher bleibt, während Sie unterwegs.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Spezifikationen:\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\"Produktlänge: 46 cm\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\"Produktbreite: 14,5 cm\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\"Produkthöhe: 32cm\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\"Farbe: Rosa, Blau, Dunkelblau und Rot\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\"Material: Nylon\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\"Hinweis:\",\"style\":{\"color\":\"rgb(34, 34, 34)\"}}},{\"type\":\"text\",\"data\":{\"content\":\"1.Bitte ermöglicht 1–3 cm große Unterschiede aufgrund manueller Messung.\",\"style\":{\"color\":\"rgb(34, 34, 34)\"}}},{\"type\":\"text\",\"data\":{\"content\":\"2.Taube zur unterschiedlichen Anzeige und unterschiedlichen Lichts, das Bild kann die tatsächliche Farbe des Artikels nicht zeigen.Danke\",\"style\":{\"color\":\"rgb(34, 34, 34)\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Merkmale:\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\"Es ist multifunktional. Sparen Sie die Gebühren.Genug, um alles zu halten, was Sie im Flugkomfort und den Unterhaltung benötigen.Leicht zu tragen. Hergestellt aus wasserbeständigem und reißfestem Stoff.\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\"MULTIFUNKTIONAL\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\"Verwenden Sie es als Wochenendtasche, Übernachtungstasche, Sporttasche, Sporttasche, Trainingstasche, Reisetasche, Krankenhaustasche, Handgepäcktasche.Perfekt für alle Ihre Reise braucht.\",\"style\":{}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sd12b7c8c9fa744639c2638b059e490968.png\",\"style\":{\"width\":750,\"height\":1000}}},{\"type\":\"text\",\"data\":{\"content\":\"Sparen Sie Ihre Tragetasche auf LADEGEN\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\"Maße: 18,1 x 12,6 x 5,9 Zoll, perfekte Passform, persönlicher Artikel, Größe 18 x 14 x 8 Zoll von Spirit Airlines & Frontier Airlines.Es kann unter dem Sitz platziert werden, um Ihre Übergewichtsgebühren zu sparen.\",\"style\":{}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S00f497c8c01d4c939ef5604fd7874227b.png\",\"style\":{\"width\":750,\"height\":1000}}},{\"type\":\"text\",\"data\":{\"content\":\"25L KAPAZITÄT\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\"Genug, um alles zu halten, was Sie im Flugkomfort und den Unterhaltung benötigen.Wenn Sie übernachtliche Reise fliegen, könnten Sie einfach die einzige Tasche sein, die Sie tragen müssen.\",\"style\":{}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sc5e1d6a527194c77ac7efb6eba7164ff7.jpg\",\"style\":{\"width\":750,\"height\":800}}},{\"type\":\"text\",\"data\":{\"content\":\"EINFACH TRAGEN\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\"Die Trolley-Hülle auf der Wochenend-Reisetasche lässt sich leicht über den Griff eines gemeinsamen Koffers gleiten.Es hat auch Außentaschen zur Aufbewahrung Ihres täglichen Gebrauchsmaterials.\",\"style\":{}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sfa556ee2bf6f4e3a939ea4f0505bcebeI.jpg\",\"style\":{\"width\":750,\"height\":1000}}},{\"type\":\"text\",\"data\":{\"content\":\"LANGLEBIGES NYLON\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\"Hergestellt aus wasserbeständigem und reißfestem Stoff.Es schützt Ihre Zahnräder gut vor Regen und sorgt leicht schwere Gegenstände.\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\"FALTBAR\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\"Es ist faltbar. Es kann als folgt gefaltet werden.\",\"style\":{}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S033dbb5d8402422c9145027d086d83e0U.jpg\",\"style\":{\"width\":750,\"height\":1000}}}]}",
+    "subject": "Faltbare Reisetasche für Flugzeuge, Handgepäcktasche für Damen und Mädchen, leicht, großes Fassungsvermögen, Sport, Wochenendausflug über Nacht",
+    "evaluation_count": "10299",
+    "sales_count": "10000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.4",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 380430,
+    "product_id": 1005007547820639,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p><br /></p>\n<h2 style=\"font-family:Inter, &quot;Open Sans&quot;, sans-serif;font-size:20px;font-weight:700;letter-spacing:-0.4px;line-height:24px;text-align:start;white-space:normal;color:rgb(34, 34, 34);background-color:rgb(255, 255, 255);border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:inherit\" class=\"snow-ali-kit_Typography__base__1shggo snow-ali-kit_Typography-Primary__base__1xop0e snow-ali-kit_Typography__strong__1shggo snow-ali-kit_Typography__sizeHeadingL__1shggo SnowProductContent_SnowProductContent__heading__1dttw\" align=\"start\" id=\"tl_1\">Beschreibung</h2>\n<div style=\"font-family:Inter, &quot;Open Sans&quot;, sans-serif;font-size:medium;font-weight:400;letter-spacing:normal;text-align:start;white-space:normal;color:rgb(34, 34, 34);background-color:rgb(255, 255, 255);border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:inherit\" align=\"start\">\n <div style=\"margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;overflow:hidden;width:865px;position:relative;box-sizing:inherit\" class=\"SnowProductContent_SnowProductContent__content__1dttw\">\n  <div style=\"font-family:inherit;border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:content-box\" class=\"detailmodule_html\">\n   <div style=\"font-family:inherit;border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:content-box\" class=\"detail-desc-decorate-richtext\">\n    <div style=\"font-family:inherit;border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:content-box\" class=\"ai-description\">\n     <div style=\"font-family:inherit;border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:content-box\" class=\"origin-part box-sizing\">\n      <p style=\"font-family:&quot;Open Sans&quot;, sans-serif;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:border-box\" align=\"start\"><span style=\"background-color:rgb(255, 255, 255);font-family:inherit\"><span style=\"font-family:inherit\"><strong id=\"tl_2\">• Ger&auml;umige Reisetasche:</strong></span></span><span style=\"background-color:rgb(255, 255, 255);font-family:inherit\" id=\"tl_3\">Die modische Reisetasche eignet sich perfekt f&uuml;r lange Reisen, da sie ausreichend Platz bietet, um alle wichtigen Dinge aufzubewahren.</span></p>\n      <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\"><br /></p>\n      <p style=\"font-family:&quot;Open Sans&quot;, sans-serif;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:border-box\" align=\"start\"><span style=\"background-color:rgb(255, 255, 255);font-family:inherit\"><span style=\"font-family:inherit\"><strong id=\"tl_4\">• Langlebiges Material :</strong></span></span><span style=\"background-color:rgb(255, 255, 255);font-family:inherit\" id=\"tl_5\">Diese aus hochwertigem Nylon gefertigte Reisetasche ist auf Langlebigkeit ausgelegt und h&auml;lt Abnutzung stand.</span></p>\n      <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\"><br /></p>\n      <p style=\"font-family:&quot;Open Sans&quot;, sans-serif;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:border-box\" align=\"start\"><span style=\"background-color:rgb(255, 255, 255);font-family:inherit\"><span style=\"font-family:inherit\"><strong id=\"tl_6\">• Leicht zu tragen:</strong></span></span><span style=\"background-color:rgb(255, 255, 255);font-family:inherit\" id=\"tl_7\">Mit bequemen Griffen und einem stabilen Boden l&auml;sst sich diese Reisetasche leicht transportieren und eignet sich daher ideal f&uuml;r unterwegs.</span></p>\n      <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\"><br /></p>\n      <p style=\"font-family:&quot;Open Sans&quot;, sans-serif;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:border-box\" align=\"start\"><span style=\"background-color:rgb(255, 255, 255);font-family:inherit\"><span style=\"font-family:inherit\"><strong id=\"tl_8\">• Sicherer Verschluss :</strong></span></span><span style=\"background-color:rgb(255, 255, 255);font-family:inherit\" id=\"tl_9\">Der Rei&szlig;verschluss sorgt daf&uuml;r, dass Ihre Sachen unterwegs sicher und gesch&uuml;tzt bleiben.</span></p>\n      <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\"><br /></p>\n     </div>\n    </div>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\"><span style=\"font-family:inherit\"><strong id=\"tl_10\">Spezifikationen:</strong></span></p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" id=\"tl_11\">Produktl&auml;nge: 46 cm</p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" id=\"tl_12\">Produktbreite: 14,5 cm</p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" id=\"tl_13\">Produkth&ouml;he: 32 cm</p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" id=\"tl_14\">Farbe: Rosa, Blau, Dunkelblau und Rot</p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" id=\"tl_15\">Material: Nylon</p>\n    <p style=\"font-family:inherit;font-size:medium;font-weight:400;letter-spacing:normal;line-height:1.1;text-align:start;white-space:normal;color:rgb(34, 34, 34);background-color:rgb(255, 255, 255);border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" align=\"start\" id=\"tl_16\">Hinweis: <br /></p>\n    <p style=\"font-family:inherit;font-size:medium;font-weight:400;letter-spacing:normal;line-height:1.1;text-align:start;white-space:normal;color:rgb(34, 34, 34);background-color:rgb(255, 255, 255);border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" align=\"start\" id=\"tl_17\">1.Bitte erlauben Sie 1-3 cm Abweichungen aufgrund der manuellen Messung.</p>\n    <p style=\"font-family:inherit;font-size:medium;font-weight:400;letter-spacing:normal;line-height:1.1;text-align:start;white-space:normal;color:rgb(34, 34, 34);background-color:rgb(255, 255, 255);border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" align=\"start\" id=\"tl_18\">2. Aufgrund der unterschiedlichen Anzeige und des unterschiedlichen Lichts zeigt das Bild m&ouml;glicherweise nicht die tats&auml;chliche Farbe des Artikels.Danke</p>\n    <div>\n     <br />\n    </div>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\"><span style=\"font-family:inherit\"><strong id=\"tl_19\">Features:</strong></span></p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" id=\"tl_20\">Es ist multifunktional. Sparen Sie Aufladungen.Genug, um alles aufzubewahren, was Sie f&uuml;r Komfort und Unterhaltung im Flug ben&ouml;tigen.Leicht zu tragen. Hergestellt aus wasserabweisendem und rei&szlig;festem Stoff.</p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" id=\"tl_21\">MULTIFUNKTIONAL</p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" id=\"tl_22\">Verwenden Sie es als Wochenendtasche, &Uuml;bernachtungstasche, Sporttasche, Sporttasche, Trainingstasche, Reisetasche, Krankenhaustasche oder Handgep&auml;cktasche.Perfekt f&uuml;r alle Ihre Reisebed&uuml;rfnisse.</p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\"><img style=\"font-family:inherit;border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sd12b7c8c9fa744639c2638b059e490968.png\" slate-data-type=\"image\" /></p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" id=\"tl_23\">SPAREN SIE IHRE TRAGEN ZU LADEN</p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" id=\"tl_24\">Ma&szlig;e: 18,1 x 12,6 x 5,9 Zoll, perfekte Passform f&uuml;r pers&ouml;nliche Artikel, Gr&ouml;&szlig;e 18 x 14 x 20,3 cm von Spirit Airlines und Frontier Airlines.Es kann unter dem Sitz platziert werden, um &Uuml;bergewichtigkosten zu sparen.</p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\"><img style=\"font-family:inherit;border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S00f497c8c01d4c939ef5604fd7874227b.png\" slate-data-type=\"image\" /></p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" id=\"tl_25\">25L KAPAZIT&Auml;T</p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" id=\"tl_26\">Genug, um alles aufzubewahren, was Sie f&uuml;r Komfort und Unterhaltung im Flug ben&ouml;tigen.Wenn Sie f&uuml;r eine Nachtreise fliegen, k&ouml;nnte dies ganz einfach die einzige Tasche sein, die Sie tragen m&uuml;ssen.</p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\"><img style=\"font-family:inherit;border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sc5e1d6a527194c77ac7efb6eba7164ff7.jpg\" slate-data-type=\"image\" /></p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" id=\"tl_27\">EINFACHES TRAGEN</p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" id=\"tl_28\">Die Trolley-H&uuml;lle an der Weekender-Reisetasche rutscht problemlos &uuml;ber den Griff eines gew&ouml;hnlichen Koffers.Es verf&uuml;gt au&szlig;erdem &uuml;ber Au&szlig;entaschen zur Aufbewahrung Ihrer t&auml;glichen Gebrauchsgegenst&auml;nde.</p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\"><img style=\"font-family:inherit;border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sfa556ee2bf6f4e3a939ea4f0505bcebeI.jpg\" slate-data-type=\"image\" /></p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" id=\"tl_29\">LANGLEBIGES NYLON</p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" id=\"tl_30\">Hergestellt aus wasserabweisendem und rei&szlig;festem Stoff.Es sch&uuml;tzt Ihre Ausr&uuml;stung gut vor Regen und bietet Platz f&uuml;r schwere Gegenst&auml;nde.</p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" id=\"tl_31\">FALTBAR</p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" id=\"tl_32\">Es ist faltbar. Es kann wie folgt gefaltet werden.</p>\n    <p style=\"font-family:inherit;line-height:1.1;border:0px;margin:0px 0px 16px;margin-bottom:16px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\"><img style=\"font-family:inherit;border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;max-width:100%;box-sizing:inherit\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S033dbb5d8402422c9145027d086d83e0U.jpg\" slate-data-type=\"image\" /></p>\n   </div>\n  </div>\n </div>\n</div>\n<p><br /></p></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "3rd Floor, Building 10, No. 89 Siyuan Road, Sansanli Street, Yiwu City, Zhejiang Province",
+    "phone": "13567009280",
+    "country_name": "China",
+    "email": "946839087@qq.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 266081643,
+        "attr_value_id": 100015203,
+        "attr_name": "CN",
+        "attr_value": "Zhejiang"
+      },
+      {
+        "attr_name_id": 200000161,
+        "attr_value_id": 100006887,
+        "attr_name": "Artikelform",
+        "attr_value": "Rechteckig"
+      },
+      {
+        "attr_name_id": 20205,
+        "attr_value_id": 63,
+        "attr_name": "Hauptmaterial",
+        "attr_value": "Nylon"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 246639247,
+        "attr_value_id": 1983470436,
+        "attr_name": "Wasserdichtigkeitsniveau",
+        "attr_value": "wasserbeständig"
+      },
+      {
+        "attr_name_id": 200000400,
+        "attr_value_id": -1,
+        "attr_name": "Materialzusammensetzung",
+        "attr_value": "nylon"
+      },
+      {
+        "attr_name_id": 1151,
+        "attr_value_id": 1045,
+        "attr_name": "Härte",
+        "attr_value": "WEICH"
+      },
+      {
+        "attr_name_id": 200000137,
+        "attr_value_id": 200002180,
+        "attr_name": "Artikeltyp",
+        "attr_value": "Reisetaschen"
+      },
+      {
+        "attr_name_id": 326,
+        "attr_value_id": 200000072,
+        "attr_name": "Art",
+        "attr_value": "Lässig"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1104071308,
+    "shipping_speed_rating": "4.6",
+    "communication_rating": "4.5",
+    "store_name": "Shop1104071308 Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.4"
+  }
+}

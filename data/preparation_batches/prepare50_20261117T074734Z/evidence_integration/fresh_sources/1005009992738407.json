@@ -1,0 +1,190 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:1052",
+        "offer_sale_price": "2.69",
+        "sku_id": "12000050782959152",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "5.60",
+        "offer_bulk_sale_price": "2.69",
+        "sku_available_stock": 9382,
+        "id": "14:1052",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Rosa",
+              "sku_image": "https://ae01.alicdn.com/kf/Sb9bca80bd2074f0fb542799324e4b666r.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_id": 1052,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:173",
+        "offer_sale_price": "2.69",
+        "sku_id": "12000050782959151",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "5.60",
+        "offer_bulk_sale_price": "2.69",
+        "sku_available_stock": 21,
+        "id": "14:173",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Blau",
+              "sku_image": "https://ae01.alicdn.com/kf/S4313d8a3133b490c8987a732bc1a5534G.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_id": 173,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:771",
+        "offer_sale_price": "2.69",
+        "sku_id": "12000050782959150",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "5.61",
+        "offer_bulk_sale_price": "2.69",
+        "sku_available_stock": 32,
+        "id": "14:771",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Beige",
+              "sku_image": "https://ae01.alicdn.com/kf/S1afa330819124b6d9afa1d8bb01f2485D.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_id": 771,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "ae_video_dtos": {
+      "ae_video_d_t_o": [
+        {
+          "media_status": "approved",
+          "media_type": "video",
+          "poster_url": "https://ae-pic-a1.aliexpress-media.com/kf/S3f1c6d0be8f74a86ad58e515ccd1aea5u.jpg",
+          "ali_member_id": 6003451311,
+          "media_id": 5000496368479,
+          "media_url": "https://video.aliexpress-media.com/play/5000496368479.mp4"
+        }
+      ]
+    },
+    "image_urls": "https://ae01.alicdn.com/kf/S0a5592bb71384ed49286958855b70820S.jpeg;https://ae01.alicdn.com/kf/Sd1ee89b0c2ed49358c7ee7307a32574dX.jpg;https://ae01.alicdn.com/kf/Sdb476144f20543288a0958c1cc92a131F.jpg;https://ae01.alicdn.com/kf/S97357a13bc2e4bfc8f52f063e46758a97.jpg;https://ae01.alicdn.com/kf/S83a3fff6b19d42f5b2ab5aa73d0baa2b1.jpg;https://ae01.alicdn.com/kf/S1874ac3a672e435da5d312b0028444d87.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 16,
+    "package_height": 3,
+    "package_length": 24,
+    "gross_weight": "0.036",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005009992738407,
+    "sub_product_id": "{\"US\":3256809806423655}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"text\",\"data\":{\"content\":\"\\n  Funktionen:\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Große Kapazität: kann eine Vielzahl von Kosmetika aufnehmen.\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Praktische Aufbewahrung: Einfach im Rucksack zu verstauen.\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Weit verbreitet: Es kann auch zur Aufbewahrung von Kosmetika, kleinen elektronischen Produkten und anderen Gegenständen verwendet werden.\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Standard:\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Produktname: 1 Rosa/Beige/Blaue Kosmetiktasche mit großer Kapazität\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Produktfarben: Weiß/Rosa/Blau\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Produktmaterial: Vliesstoff\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Produktgröße: 17 * 11 * 2 cm\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Verpackung: OPP-Beutel\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Geeigneter Zeitpunkt: Alle vier Jahreszeiten\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Hinweis: Assistent\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Aufgrund der manuellen Messung können Größen- und Gewichtsabweichungen auftreten.Bitte haben Sie Verständnis.\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Aufgrund von Faktoren wie Beleuchtung, Sättigung und Pixel kann es zu Farbunterschieden kommen. Wir entschuldigen uns für etwaige Unannehmlichkeiten. \\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}}]}",
+    "subject": "Solide Pelz Kosmetische Lagerung Tasche Große Frauen Zipper Make-Up Organizer Handtasche Schreibwaren Bleistift Fall Reise Make-Up Toilettenartikel Punch",
+    "evaluation_count": "1263",
+    "sales_count": "5000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.7",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 152407,
+    "product_id": 1005009992738407,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\">\n <div class=\"detail-desc-decorate-richtext\" id=\"tl_1\">\n  Funktionen: \n  <br />Gro&szlig;e Kapazit&auml;t: kann eine Vielzahl von Kosmetika aufnehmen. \n  <br />Praktische Aufbewahrung: Einfach im Rucksack zu verstauen. \n  <br />Weit verbreitet: Es kann auch zur Aufbewahrung von Kosmetika, kleinen elektronischen Produkten und anderen Gegenst&auml;nden verwendet werden. \n  <br />Standard: \n  <br />Produktname: 1 Rosa/Beige/Blaue Kosmetiktasche mit gro&szlig;er Kapazit&auml;t \n  <br />Produktfarben: Wei&szlig;/Rosa/Blau \n  <br />Produktmaterial: Vliesstoff \n  <br />Produktgr&ouml;&szlig;e: 17 * 11 * 2 cm \n  <br />Verpackung: OPP-Beutel \n  <br />Geeigneter Zeitpunkt: Alle vier Jahreszeiten \n  <br />Hinweis: Assistent \n  <br />Aufgrund der manuellen Messung k&ouml;nnen Gr&ouml;&szlig;en- und Gewichtsabweichungen auftreten.Bitte haben Sie Verst&auml;ndnis. \n  <br />Aufgrund von Faktoren wie Beleuchtung, S&auml;ttigung und Pixel kann es zu Farbunterschieden kommen. Wir entschuldigen uns f&uuml;r etwaige Unannehmlichkeiten.\n </div>\n</div>\n<p><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S2a90425846754195b67f018b3d8114b2W.png\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S78cac0fc3d7741eb8d9633462482a88aM.png\" slate-data-type=\"image\" /><br /></p></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "Room 2141, 2nd Floor, North Second District, Textile City, Tangxi Village, Shiqi Street, Haishu District, Ningbo City, Zhejiang Province, China",
+    "phone": "18758299233",
+    "country_name": "China",
+    "email": "335139024@qq.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 20205,
+        "attr_value_id": 48,
+        "attr_name": "Hauptmaterial",
+        "attr_value": "POLYESTER"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 266081643,
+        "attr_value_id": 100015203,
+        "attr_name": "CN",
+        "attr_value": "Zhejiang"
+      },
+      {
+        "attr_name_id": 100004113,
+        "attr_value_id": 23399582356,
+        "attr_name": "Sport",
+        "attr_value": "Andere"
+      },
+      {
+        "attr_name_id": 200000195,
+        "attr_value_id": -1,
+        "attr_name": "Artikelgewicht",
+        "attr_value": "34g"
+      },
+      {
+        "attr_name_id": 200000137,
+        "attr_value_id": 200001972,
+        "attr_name": "Artikeltyp",
+        "attr_value": "Kosmetikkoffer"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1105116667,
+    "shipping_speed_rating": "4.7",
+    "communication_rating": "4.7",
+    "store_name": "Shop1105116667 Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.6"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "requested_count": 50,
+  "publish_authorized": false,
+  "original_batch": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z",
+  "reviewed_evidence_receipt": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\applied_receipt.json",
+  "created_at": "2026-11-17T08:57:47.371945+00:00",
+  "supplier_contract_or_owned_stock_evidence_provided": false,
+  "canonical_daily_publish_limit_unchanged": true
+}

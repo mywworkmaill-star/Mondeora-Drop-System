@@ -1,0 +1,127 @@
+{
+  "tarih": "2026-11-13",
+  "durum": "API_YETKI_SORUNU_TESPIT_EDILDI",
+  "root_cause": {
+    "sorun": "eBay Marketing API Write Permission eksik",
+    "detay": "OAuth token READ-ONLY, WRITE operasyonları 404/400 veriyor",
+    "etkilenen": [
+      "Ad bid güncelleme",
+      "Ad silme/ekleme",
+      "Kampanya bid güncelleme",
+      "Yeni kampanya oluşturma"
+    ]
+  },
+  "mevcut_durum": {
+    "kampanya": {
+      "id": "167027798017",
+      "isim": "MONDEORA-BASIS-01",
+      "durum": "RUNNING",
+      "default_bid": "2%",
+      "ad_bid": "8%",
+      "guncelleme": "2026-11-13 - 23/23 basarili"
+    },
+    "ilanlar": {
+      "toplam": 23,
+      "aktif": 23,
+      "promoted_listings": 23,
+      "ilk_200_de": 6,
+      "gorunmeyen": 15
+    },
+    "inventory_reference_sorun": {
+      "null_count": "23/23",
+      "sebep": "Ad'ler listing ID ile oluşturulmuş, SKU ile değil",
+      "sonuc": "Update API'leri 404 hatası veriyor"
+    }
+  },
+  "denenen_cozumler": [
+    {
+      "metod": "PUT /ad/{adId}",
+      "payload": "{'bidPercentage': '8.0'}",
+      "sonuc": "HTTP 404",
+      "sebep": "inventoryReferenceId NULL"
+    },
+    {
+      "metod": "DELETE /ad/{adId}",
+      "sonuc": "HTTP 404",
+      "sebep": "Write permission yok"
+    },
+    {
+      "metod": "POST /ad_campaign/{id}/ad",
+      "payload": "{'listingId': 'xxx', 'bidPercentage': '8.0'}",
+      "sonuc": "HTTP 400",
+      "sebep": "Write permission yok"
+    },
+    {
+      "metod": "PUT /ad_campaign/{id}",
+      "payload": "{'campaignStatus': 'PAUSED'}",
+      "sonuc": "HTTP 400",
+      "sebep": "Invalid request - permission sorunu"
+    },
+    {
+      "metod": "POST /ad_campaign",
+      "payload": "New campaign",
+      "sonuc": "HTTP 400",
+      "sebep": "Scope yetersiz"
+    },
+    {
+      "metod": "POST /bulk_update_ads_by_inventory_reference",
+      "sonuc": "HTTP 404",
+      "sebep": "Resource not found"
+    }
+  ],
+  "cozum_secenekleri": [
+    {
+      "id": 1,
+      "baslik": "Token Yeniden Yetkilendir",
+      "oneri": "Tavsiye edilmez - Riskli",
+      "adimlar": [
+        "https://developer.ebay.com/my/auth/?env=production&index=0",
+        "Sell.Marketing scope'u FULL ACCESS seç",
+        "Yeni token al",
+        ".env'e kaydet",
+        "Script tekrar çalıştır"
+      ],
+      "sure": "10 dakika",
+      "risk": "Mevcut otomasyonu bozabilir",
+      "etki": "+60% bid artışı (otomatik)"
+    },
+    {
+      "id": 2,
+      "baslik": "Manuel eBay Seller Hub",
+      "oneri": "ÖNERİLEN - %100 Güvenli",
+      "adimlar": [
+        "https://www.ebay.de/sh/mkt/campaigns",
+        "MONDEORA-BASIS-01 kampanyasını aç",
+        "Edit campaign → Funding Strategy",
+        "Bid %5 → %8 değiştir",
+        "Save"
+      ],
+      "sure": "2 dakika",
+      "risk": "YOK",
+      "etki": "+60% bid artışı, tüm 23 ilan"
+    },
+    {
+      "id": 3,
+      "baslik": "Hiçbir Şey Yapma - Bekle",
+      "oneri": "Alternatif - Güvenli",
+      "mantik": "Mevcut %5 bid zaten çalışıyor, ilk satış doğal olarak gelir",
+      "sure": "7-14 gün",
+      "risk": "YOK",
+      "etki": "Daha yavaş satış başlangıcı"
+    }
+  ],
+  "final_tavsiye": {
+    "secenek": 2,
+    "baslik": "Manuel eBay Seller Hub",
+    "sebep": "2 dakika, %100 güvenli, otomasyonu bozmaz, garantili +60% bid artışı",
+    "url": "https://www.ebay.de/sh/mkt/campaigns"
+  },
+  "olusturulan_dosyalar": [
+    "root_cause_analysis.json - Detaylı API analizi",
+    "campaign_migration_result.json - Başarısız kampanya oluşturma denemesi",
+    "ad_migration_result.json - Başarısız ad migrasyonu denemesi",
+    "SORUN_TESPIT_VE_COZUM.txt - Detaylı rapor",
+    "FINAL_SORUN_RAPORU.json - Bu rapor"
+  ],
+  "ozet": "eBay Marketing API write yetkisi olmadan Promoted Listings bid'i otomatik artırılamaz. Manuel eBay Seller Hub (2 dk) veya token yeniden yetkilendirme (10 dk, riskli) gerekiyor."
+}

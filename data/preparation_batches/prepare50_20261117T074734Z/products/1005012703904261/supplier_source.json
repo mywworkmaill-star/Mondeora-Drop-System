@@ -1,0 +1,164 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:200006151#M",
+        "offer_sale_price": "3.55",
+        "sku_id": "12000059083859397",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "7.40",
+        "offer_bulk_sale_price": "3.55",
+        "sku_available_stock": 22,
+        "id": "14:200006151#M",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Hellgrau",
+              "sku_image": "https://ae01.alicdn.com/kf/S09fbcb7a0d61486e80623697d2749fef1.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "M",
+              "property_value_id": 200006151,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:193#S",
+        "offer_sale_price": "2.75",
+        "sku_id": "12000059083859396",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "6.24",
+        "offer_bulk_sale_price": "2.75",
+        "sku_available_stock": 9,
+        "id": "14:193#S",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "schwarz",
+              "sku_image": "https://ae01.alicdn.com/kf/S09fbcb7a0d61486e80623697d2749fef1.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "S",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "image_urls": "https://ae01.alicdn.com/kf/S0f68cad53b754733a17014f6756b261dS.jpg;https://ae01.alicdn.com/kf/Se28c1bb167f3492bbd9a4fafc0d588d0B.jpg;https://ae01.alicdn.com/kf/S55de0cf917ae4f81914c4703a6cc9052p.jpg;https://ae01.alicdn.com/kf/S7a93f3f0456645299d72d5078f165e03N.jpg;https://ae01.alicdn.com/kf/Se618bba2088c4f61b61aa298bcddc385Y.jpg;https://ae01.alicdn.com/kf/S4090998bfbfb45458a85ff805027f7afP.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 7,
+    "package_height": 3,
+    "package_length": 12,
+    "gross_weight": "0.044",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005012703904261,
+    "sub_product_id": "{\"US\":3256812517589509}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"text\",\"data\":{\"content\":\"Vielseitig einsetzbar: Jede Packung enthält 1/2 schwarzes Verlängerungskabel, um Ihnen bei der Organisation zu helfen.Ideal zum Einwickeln und Aufbewahren von Weihnachtsbeleuchtung, Elektrokabeln, Werkzeugkabeln, Schläuchen und mehr;Perfekt zum Aufräumen verschiedener Bereiche, darunter Garage und Küche.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Erweiterbare Abmessungen für mehr Anpassungsfähigkeit: mit einem Umfang von etwa 17,72 Zoll und einer Breite von ca. 1 Zoll sind diese Verlängerungsbügel perfekt für die ordentliche Aufbewahrung längerer Gegenstände; klemmen Sie sie aneinander nach Länge für eine effizientere Aufbewahrung.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Der dreieckige Clip verbessert die Griffkraft: Jedes Aufbewahrungsgerät mit Verlängerungsleiste verfügt über einen robusten dreieckigen Clip, der sich fest fixiert; diese Funktion verlängert die Lebensdauer des Schultergurts und hält Ihren Aufbewahrungsbereich ordentlich.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Vielseitige Organisationslösungen: Dank ihrer verstellbaren Konstruktion können diese Verlängerungsbügel problemlos verschiedene Gegenstände unterschiedlicher Größe aufnehmen.Sie eignen sich perfekt zum Organisieren von Schläuchen, großen Kabeln und anderen umfangreichen Gegenständen im Haus oder im Lager.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Hochwertige Materialien, robust und langlebig: Hergestellt aus Nylon und Metall, sind diese strapazierfähigen Aufbewahrungsgurte für den intensiven und langfristigen Gebrauch konzipiert; die erhöhte Festigkeit gewährleistet, dass Ihre Gegenstände sicher sind.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"  Menge: S-1x\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"                  M-2\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sf3d9fe6db90c4c48b615f8e5e8d06593X.jpg\",\"style\":{\"width\":750,\"height\":1000}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Se618bba2088c4f61b61aa298bcddc385Y.jpg\",\"style\":{\"width\":1500,\"height\":1500}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S55de0cf917ae4f81914c4703a6cc9052p.jpg\",\"style\":{\"width\":1500,\"height\":1500}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S4090998bfbfb45458a85ff805027f7afP.jpg\",\"style\":{\"width\":1500,\"height\":1500}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S91b2fea5cd624718a47532c0cf3cba006.jpg\",\"style\":{\"width\":5120,\"height\":5104}}}]}",
+    "subject": "45 cm schwarzer, verstellbarer Kabelorganizer mit 3-Achsen-Schnalle – Schwerlast-Organizer mit 3-Achsen-Schnalle – Schwerlast-Aufbewahrungsgurt",
+    "evaluation_count": "104",
+    "sales_count": "700+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.7",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 200043145,
+    "product_id": 1005012703904261,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p><span style=\"color:rgb(67, 70, 73);font-size:18px;font-family:&quot;TT Norms Pro&quot;, &quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun\" id=\"tl_1\">Vielseitig einsetzbar: Jede Packung enth&auml;lt 1 St&uuml;ck/2 St&uuml;ck schwarze Verl&auml;ngerungskabel, damit Sie organisiert bleiben; ideal zum Einwickeln und Aufbewahren von Weihnachtsbeleuchtung, Elektrokabeln, Werkzeugkabeln, Schl&auml;uchen und vielem mehr; perfekt zum Aufr&auml;umen verschiedener Bereiche, einschlie&szlig;lich Garage und K&uuml;che. <br />Erweiterbare Abmessungen f&uuml;r Anpassungsf&auml;higkeit: Mit einem Umfang von ca. 45 cm und einer Breite von ca. 2,5 cm eignen sich diese Verl&auml;ngerungshalterungen perfekt f&uuml;r die ordentliche Aufbewahrung l&auml;ngerer Gegenst&auml;nde; klemmen Sie sie je nach L&auml;nge zusammen, um eine effizientere Lagerung zu erm&ouml;glichen. <br />Der dreieckige Clip verbessert die Grifffestigkeit: Jedes Aufbewahrungsger&auml;t f&uuml;r Verl&auml;ngerungslinien verf&uuml;gt &uuml;ber einen langlebigen dreieckigen Clip, der fest sitzt; Diese Funktion verl&auml;ngert die Lebensdauer des Schultergurts zus&auml;tzlich und sorgt f&uuml;r Ordnung in Ihrem Stauraum. <br />Vielseitige Organisationsl&ouml;sungen: Dank ihres verstellbaren Designs k&ouml;nnen diese Verl&auml;ngerungsb&uuml;gel problemlos verschiedene Gegenst&auml;nde aufnehmen, unabh&auml;ngig von ihrer Gr&ouml;&szlig;e; Sie eignen sich perfekt zum Ordnen von Schl&auml;uchen, gro&szlig;en Kabeln und anderen sperrigen Gegenst&auml;nden im Haus oder Lager. <br />Hochwertige Materialien, robust und langlebig: Diese robusten Aufbewahrungsgurte aus Nylon und Metall sind f&uuml;r den harten und langfristigen Einsatz konzipiert; Die erh&ouml;hte Festigkeit sorgt daf&uuml;r, dass Ihre Gegenst&auml;nde sicher bleiben.</span></p>\n<p><br /><br /></p>\n<p><span style=\"color:rgb(67, 70, 73);font-size:22px;font-family:&quot;TT Norms Pro&quot;, &quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun\" id=\"tl_2\">&nbsp; Menge: S-1 Stk.</span></p>\n<p><span style=\"color:rgb(67, 70, 73);font-size:22px;font-family:&quot;TT Norms Pro&quot;, &quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun\" id=\"tl_3\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;M-2 St&uuml;ck</span></p>\n<p><br /></p>\n<p><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sf3d9fe6db90c4c48b615f8e5e8d06593X.jpg\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Se618bba2088c4f61b61aa298bcddc385Y.jpg\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S55de0cf917ae4f81914c4703a6cc9052p.jpg\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S4090998bfbfb45458a85ff805027f7afP.jpg\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S91b2fea5cd624718a47532c0cf3cba006.jpg\" slate-data-type=\"image\" /></p></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "Unit 2, Building 53, Shangjin Community, Baiyun Street, Dongyang City, Jinhua City, Zhejiang Province",
+    "phone": "15956795927",
+    "country_name": "China",
+    "email": "19965928964@163.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 326,
+        "attr_value_id": 765,
+        "attr_name": "Art",
+        "attr_value": "Modern"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 266081643,
+        "attr_value_id": 100015203,
+        "attr_name": "CN",
+        "attr_value": "Zhejiang"
+      },
+      {
+        "attr_name_id": 230125275,
+        "attr_value_id": 23399582356,
+        "attr_name": "Befestigungsart",
+        "attr_value": "Andere"
+      },
+      {
+        "attr_name_id": 43,
+        "attr_value_id": 3138,
+        "attr_name": "Funktion",
+        "attr_value": "Wiederverwendbar"
+      },
+      {
+        "attr_name_id": 10,
+        "attr_value_id": 365789,
+        "attr_name": "Material",
+        "attr_value": "PP-Plastik"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 217,
+        "attr_value_id": 1982203215,
+        "attr_name": "Merkmal",
+        "attr_value": "Einstellbare Größe"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1104863214,
+    "shipping_speed_rating": "4.8",
+    "communication_rating": "4.7",
+    "store_name": "Shop1104863214 Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.6"
+  }
+}

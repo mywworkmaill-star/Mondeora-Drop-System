@@ -1,0 +1,60 @@
+{
+  "index": 19,
+  "product_id": "1005008290283020",
+  "db_title": "Schreibtisch-Organizer aus Netzstoff für Bürobedarf, Caddy mit Stifthalter und Aufbewahrungskörben für Schreibtischzubehör, 3 Fächer, Schwarz",
+  "started_at": "2026-11-17T07:52:56.529459+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "Schreibtisch-Organizer aus Netzstoff für Bürobedarf, Caddy mit Stifthalter und Aufbewahrungskörben für Schreibtischzubehör, 3 Fächer, Schwarz",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/S71ac813667034114946298daea68a8c9v.jpg",
+    "https://ae01.alicdn.com/kf/Sed0a0fbc11094ab7bff4fd5d821757e3m.jpg",
+    "https://ae01.alicdn.com/kf/S14df6c3b66fe49579553def02fcffd47I.jpg",
+    "https://ae01.alicdn.com/kf/Sae626c632bfa490e96f18e76d887f639D.jpg",
+    "https://ae01.alicdn.com/kf/S7efbe468d151484fa271acd446aa9f998.jpg",
+    "https://ae01.alicdn.com/kf/S4f135f602e58466bb4045f6ad9b7c08fV.jpg"
+  ],
+  "main_image_dimensions": [
+    800,
+    800
+  ],
+  "main_image_file": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\products\\1005008290283020\\main.jpg",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:category_unapproved",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 5
+  },
+  "finished_at": "2026-11-17T07:53:00.285632+00:00",
+  "canonical_status": "blocked"
+}

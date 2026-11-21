@@ -1,0 +1,60 @@
+{
+  "index": 32,
+  "product_id": "1005009723070135",
+  "db_title": "Küche Hängen Organizer Rack mit Haken Unter Schrank Papier Handtuch Lumpen Aufhänger Schneiden Bord Topf Abdeckung Halter Lagerung Regal",
+  "started_at": "2026-11-17T07:53:10.042452+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "Küche Hängen Organizer Rack mit Haken Unter Schrank Papier Handtuch Lumpen Aufhänger Schneiden Bord Topf Abdeckung Halter Lagerung Regal",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/Sca39a48649f1440eb142f8383c49cb812.png",
+    "https://ae01.alicdn.com/kf/S2814d0e8a6174ef489ffe47c62c66158f.png",
+    "https://ae01.alicdn.com/kf/S8744fb895a524d2ba0d1c1a0e1184e819.png",
+    "https://ae01.alicdn.com/kf/S8b2ae964e66549de8fa76a711111c779F.png",
+    "https://ae01.alicdn.com/kf/S9926a152561945ff8d3b19156da15ee1g.jpg",
+    "https://ae01.alicdn.com/kf/S405a7fe58e0a48ea82641a67ade640e3d.jpg"
+  ],
+  "main_image_dimensions": [
+    1000,
+    1000
+  ],
+  "main_image_file": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\products\\1005009723070135\\main.jpg",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:category_unapproved",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 3
+  },
+  "finished_at": "2026-11-17T07:53:13.185878+00:00",
+  "canonical_status": "blocked"
+}

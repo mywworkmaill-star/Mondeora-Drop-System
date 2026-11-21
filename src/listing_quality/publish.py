@@ -16,12 +16,76 @@ STOP = {'für', 'und', 'mit', 'zum', 'zur', 'der', 'die', 'das', 'aus', 'in', 'v
 
 
 def make_title(subject):
-    s = re.sub(r'\s+', ' ', subject or '').strip()
+    """Transform AliExpress subject into natural German eBay.de title following ebay-de-keyword-titles rules.
+    - Remove foreign language mix (1pc, PCS, etc.)
+    - Remove keyword stuffing (max 2 repeats per word)
+    - Remove emoji and banned chars
+    - Normalize excessive CAPS
+    - Enforce 80 char limit with natural word boundary
+    - Clean stop-word endings
+    """
+    if not subject:
+        return ''
+    
+    s = subject.strip()
+    
+    # 1. Remove emoji and banned chars upfront
+    s = re.sub(r'[\U0001F000-\U0001FFFF\u2600-\u27BF]', '', s)  # emoji
+    s = re.sub(r'[!*#~<>]', '', s)  # banned chars from risk_rules
+    
+    # 2. Clean common foreign language patterns and spam markers
+    replacements = {
+        r'\b\d+\s*pcs?\b': '',              # 1pc, 2pcs
+        r'\b\d+\s*stücke?\b': '',            # redundant count
+        r'\bnew\b': '',                      # spam adjective
+        r'\bhot\s+sale\b': '',               # spam
+        r'\bfree\s+shipping\b': '',          # spam
+        r'\bbest\s+seller\b': '',            # spam
+        r'\bhigh\s+quality\b': '',           # spam
+        r'\b(organizador|squeeze)\b': '',    # Spanish/English leftover
+        r'\b(storage)\b': 'Aufbewahrung',    # EN->DE
+        r'\b(bag)\b': 'Tasche',
+        r'\b(holder)\b': 'Halter',
+    }
+    for pattern, replacement in replacements.items():
+        s = re.sub(pattern, replacement, s, flags=re.IGNORECASE)
+    
+    # 3. Normalize whitespace
+    s = re.sub(r'\s+', ' ', s).strip()
+    
+    # 4. Remove keyword stuffing: max 2 occurrences per word (case-insensitive)
+    words = s.split()
+    seen = {}
+    filtered = []
+    for w in words:
+        wl = w.lower()
+        if len(wl) <= 3:  # short words (und, für, etc.) don't count
+            filtered.append(w)
+            continue
+        count = seen.get(wl, 0)
+        if count < 2:
+            filtered.append(w)
+            seen[wl] = count + 1
+    s = ' '.join(filtered)
+    
+    # 5. Normalize excessive CAPS: if >40% of alpha words are all-caps, lowercase them
+    alpha_words = [w for w in s.split() if len(w) > 3 and w.isalpha()]
+    if alpha_words:
+        caps_ratio = sum(w.isupper() for w in alpha_words) / len(alpha_words)
+        if caps_ratio > 0.4:
+            # Lower-case all-caps words except first letter
+            s = ' '.join(w.capitalize() if w.isupper() and len(w) > 1 else w for w in s.split())
+    
+    # 6. Enforce 80 char limit at natural word boundary
     if len(s) > 80:
         s = s[:80].rsplit(' ', 1)[0]
-    words = s.rstrip(' ,;:-').split(' ')
-    while words and words[-1].lower().strip(',;:') in STOP:
+    
+    # 7. Clean trailing punctuation and stop-word endings
+    s = s.rstrip(' ,;:-')
+    words = s.split()
+    while words and words[-1].lower().rstrip(',;:') in STOP:
         words.pop()
+    
     return ' '.join(words).rstrip(' ,;:-')
 
 
@@ -140,14 +204,22 @@ def plan_for(ali, ebay, pid, ship, db_title=None, extra_aspects=None, existing=F
     for candidate in candidates:
         try:
             meta = categories.aspects_for(ebay, candidate['category_id'])
-            shared, missing = categories.fill_aspects(meta, props)
+            shared, missing = categories.fill_aspects(meta, props, subject=subject)
+            before_fill = set(shared)
             shared.update(extra_aspects or {})
-            missing = [m for m in missing if m not in shared]
-            if any(a['name'] == 'Produktart' for a in meta) and 'Produktart' not in shared:
-                shared['Produktart'] = [candidate['path'].split(' > ')[-1]]
-                missing = [m for m in missing if m != 'Produktart']
+            # Hata 49: track which names were only ever supplied by extra_aspects (not
+            # derivable from the supplier's own raw props) so quality_contract.inspect_plan()
+            # can trust them via explicit provenance instead of re-deriving from props and
+            # calling a real, human-verified-from-photo fact "unsafe_derived_fact".
+            aspect_provenance = {name: {'source': 'verified_human_review'} for name in (extra_aspects or {})
+                                  if name not in before_fill}
+
+            # Package measurements do not establish product dimensions.
+            missing = [m for m in missing if not shared.get(m)]
+
             if missing:
                 raise ValueError(f'required aspects missing: {missing}')
+
             mapping = map_variation_names(plan, meta) if plan['is_variation'] else {}
             cat = candidate
             break
@@ -155,6 +227,17 @@ def plan_for(ali, ebay, pid, ship, db_title=None, extra_aspects=None, existing=F
             attempt_errors.append(f"{candidate['category_id']}: {ex}")
     else:
         raise ValueError(f'no candidate category fit (tried {len(candidates)}): {attempt_errors}')
+    # One bounded research pass for the winning category. Suggestions never fill
+    # our product facts. No inventory snapshot is available here; the report says so.
+    from src.listing_quality import competitor_aspects
+    try:
+        competitor_report = competitor_aspects.research(ebay, subject, cat['category_id'], limit=10)
+    except Exception as error:
+        competitor_report = {'status': 'not_verified', 'product_facts_verified': False,
+            'candidates': [], 'suggestions': {},
+            'errors': [{'stage': 'research', 'error_type': type(error).__name__}],
+            'own_listing_exclusion': {'complete': False,
+                'limitation': 'authoritative_own_listing_inventory_not_available'}}
     for v in plan['variants']:
         v['aspects'] = {mapping.get(k, k): val for k, val in v['aspects'].items()}
     for sp in plan['specifications']:
@@ -175,7 +258,9 @@ def plan_for(ali, ebay, pid, ship, db_title=None, extra_aspects=None, existing=F
             v['image'] = None
     if not shared_imgs and not any(v['image'] for v in plan['variants']) and not existing:
         raise ValueError(f'GATE BLOCK no image >= 500 px (dropped {len(_dropped)}): eBay would reject it (error 25002)')
-    return {'gates': {**g, 'demand': dinfo, 'demand_review': dreview, 'images_dropped': len(_dropped)}, 'res': res, 'title': title, 'cat': cat, 'shared': shared, 'plan': plan, 'desc': desc, 'imgs': shared_imgs}
+    return {'gates': {**g, 'demand': dinfo, 'demand_review': dreview, 'images_dropped': len(_dropped)},
+            'res': res, 'title': title, 'cat': cat, 'shared': shared, 'plan': plan, 'desc': desc, 'imgs': shared_imgs,
+            'aspect_metadata': meta, 'aspect_provenance': aspect_provenance, 'competitor_research': competitor_report}
 
 
 def apply(ali, ebay, pid, old_sku, ship, dry_run=True, db_title=None, old_listing_id=None, extra_aspects=None, verified_aspects=None):

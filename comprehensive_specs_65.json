@@ -1,0 +1,68 @@
+{
+  "dimensions": {
+    "found": false,
+    "length_cm": null,
+    "width_cm": null,
+    "height_cm": null,
+    "depth_cm": null,
+    "diameter_cm": null,
+    "text": "Tum 6 gorsel tek tek incelendi (lifestyle/elde tutma fotograflari, 3 renk karsilastirmasi, ic icerik gosterimi). Hicbir goselde olcu yazisi, cetvel, dimension overlay veya sayisal cm/inch degeri yok. Gercek fiziksel olcu bulunamadi.",
+    "confidence": 0
+  },
+  "weight": {
+    "found": false,
+    "product_weight_g": null,
+    "package_weight_g": null,
+    "text": "",
+    "confidence": 0
+  },
+  "material": {
+    "primary": "Stoff (gestepptes Plüsch-/Samtmaterial)",
+    "composition": ["Plüsch/Samt-Stoff (Polyester vermutlich)"],
+    "confidence": 85,
+    "source": "vision"
+  },
+  "color": {
+    "found": true,
+    "main": "Mehrfarbig (3 Varianten sichtbar)",
+    "options": ["Rosa", "Blau", "Weiß/Creme"],
+    "confidence": 92,
+    "source": "vision"
+  },
+  "capacity": {
+    "found": false,
+    "volume_liter": null,
+    "item_count": null,
+    "load_capacity_kg": null,
+    "text": "",
+    "confidence": 0
+  },
+  "features": [
+    "Gestepptes Karo-/Quadratmuster",
+    "Reißverschluss in Rosa-Ton",
+    "Weiches Plüsch-/Samtmaterial",
+    "3 Farbvarianten (Rosa/Blau/Weiß) in Produktbildern gezeigt",
+    "Eignet sich für Kosmetik, Stifte, Make-up (im Bild mit Stiften befüllt gezeigt)",
+    "Trapezform/leicht rechteckig mit abgerundeten Ecken"
+  ],
+  "brand": {
+    "name": "No-Name",
+    "confidence": 80
+  },
+  "model": {
+    "number": "",
+    "confidence": 0
+  },
+  "certifications": [],
+  "technical": {
+    "temperature_min_c": null,
+    "temperature_max_c": null,
+    "power_watt": null,
+    "voltage": null
+  },
+  "assembly": {
+    "required": "Unknown",
+    "tools_needed": "Unknown",
+    "time_minutes": null
+  }
+}

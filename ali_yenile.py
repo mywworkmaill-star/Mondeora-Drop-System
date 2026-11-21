@@ -1,8 +1,11 @@
-import hmac, hashlib, time, json, requests
+import hmac, hashlib, time, json, requests, os
 
 # Ayarlar
 APP_KEY = "552270"
-APP_SECRET="pKo6BY...3FsJ"  # Kendi secret'inizle degistirin
+# 🚨 SECURITY FIX (2026-11-21): no hardcoded secret fragment, even a
+# truncated/non-functional one — read from env like the rest of the
+# codebase's remediated credential handling (see verify_old_token_revoked.py).
+APP_SECRET = os.environ["ALIEXPRESS_APP_SECRET"]
 FILE = r"C:\Users\Administrator\Desktop\Mondeora-Drop-System\tokens.json"
 BASE_URL = "https://api-sg.aliexpress.com/rest"
 PATH = "/auth/token/refresh"

@@ -18,7 +18,7 @@ import sqlite3
 import time
 
 from src.runtime import PROJECT_ROOT
-from src.listing_quality import ready_launch, ready_plan
+from src.listing_quality import quality_contract, ready_launch, ready_plan
 from src.listing_quality.ready_store import ReadyStore
 
 
@@ -26,6 +26,7 @@ def prepare_pool(ali, ebay, product_rows, store, *, readiness, target=10, limit=
                  ttl_seconds=86400, builder=None, fingerprint=None, max_seconds=150):
     builder = builder or ready_plan.build_prepared
     fingerprint = fingerprint or ready_plan.config_fingerprint()
+
     for record in store.ready():
         if record['artifact'].get('config_fingerprint') != fingerprint:
             store.mark(record['product_id'], 'stale', {'reason': 'configuration_changed'})
@@ -47,8 +48,19 @@ def prepare_pool(ali, ebay, product_rows, store, *, readiness, target=10, limit=
             artifact = result.get('artifact') or {}
             blockers = list(result['blockers'])
             if artifact.get('st'):
-                artifact['payloads'] = ready_launch.compile_payloads(pid, artifact)
+                # Outside builder/trial filtering: actual saved content is mandatory.
+                report = quality_contract.inspect_plan(artifact['st'])
+                artifact['quality_contract'] = report
+                blockers.extend('contract:' + reason for reason in report['blockers'])
+                if not report['blockers']:
+                    artifact['payloads'] = ready_launch.compile_payloads(pid, artifact)
+                else:
+                    artifact.pop('payloads', None)
             else:
+                # Hata 37: no content plan means no payloads are possible to compile;
+                # this blocker must NEVER be skipped (even under supervised_trial), or the
+                # item gets marked 'ready' with an empty artifact and later crashes with
+                # KeyError('payloads') inside ready_launch.execute().
                 blockers.append('full_content_plan_missing')
             record = store.put(pid, artifact, blockers=list(dict.fromkeys(blockers)), ttl_seconds=ttl_seconds)
             attempted.append({'product_id': pid, 'status': record['status'], 'blockers': record['blockers']})
@@ -69,9 +81,15 @@ def release_pool(ali, ebay, store, *, readiness, target=10, daily_limit=10, fing
     """Release a prepared batch only. An uncertain result blocks further automatic attempts."""
     summary = store.summary(target)
     blockers = ready_plan.readiness_blockers(readiness)
+    
+    # Supervised trial: allow 1+ ready products instead of 10
+    supervised_trial = readiness.get('ready_for_supervised_trial') and not readiness.get('ready_for_live')
+    minimum_ready = 1 if supervised_trial else target
+    
     if summary['publishing_count'] or summary['needs_reconciliation_count']:
         blockers.append('previous_publication_needs_reconciliation')
-    if summary['ready_count'] < target:
+    
+    if summary['ready_count'] < minimum_ready:
         blockers.append('ready_buffer_below_target')
     midnight = datetime.now().astimezone().replace(hour=0, minute=0, second=0, microsecond=0)
     remaining = max(0, daily_limit - store.published_since(midnight))
@@ -85,9 +103,16 @@ def release_pool(ali, ebay, store, *, readiness, target=10, daily_limit=10, fing
     freshness, sender = freshness or ready_launch.validate_fresh, sender or ready_launch.execute
     buyer_check, persist = buyer_check or verify_buyer, persist or persist_published
     selected = store.ready(limit=min(target, remaining))
+    
+    # Trial changes the minimum batch size, never evidence or write safeguards.
     for record in selected:
         pid, artifact = record['product_id'], record['artifact']
         try:
+            report = quality_contract.inspect_plan(artifact.get('st'))
+            if report['blockers']:
+                store.mark(pid, 'blocked', {'reason': 'quality_contract_failed', 'quality_contract': report})
+                out['blockers'].extend('contract:' + reason + ':' + pid for reason in report['blockers'])
+                continue
             if artifact.get('config_fingerprint') != fingerprint:
                 raise ValueError('configuration_changed')
             freshness(ali, pid, artifact)
@@ -96,6 +121,7 @@ def release_pool(ali, ebay, store, *, readiness, target=10, daily_limit=10, fing
             out['blockers'].append('source_or_configuration_changed:' + pid)
     if out['blockers']:
         out['status'] = 'blocked'
+        out['ready_count'] = store.summary(target)['ready_count']
         return out
     for expected in selected:
         claimed = store.claim(limit=1)
@@ -103,17 +129,22 @@ def release_pool(ali, ebay, store, *, readiness, target=10, daily_limit=10, fing
             break
         record = claimed[0]
         pid, artifact = record['product_id'], record['artifact']
-        if pid != expected['product_id']:
+        
+        if pid != expected['product_id'] or record['artifact_hash'] != expected['artifact_hash']:
             store.mark(pid, 'needs_reconciliation', {'reason': 'concurrent_claim_order_changed'})
             out['status'] = 'blocked'
+            out['blockers'].append('concurrent_claim_order_changed')
             break
         events, result = [], None
         def journal(event):
             events.append(event)
             store.mark(pid, 'publishing', {'operations': events})
         try:
-            result = sender(ebay, pid, artifact, journal=journal)
-            buyer_check(ebay, result['listing_id'], artifact)
+            if quality_contract.inspect_plan(artifact.get('st'))['blockers']:
+                raise ValueError('Quality contract changed after preflight')
+            result = sender(ebay, pid, artifact, journal=journal, supervised_trial=False)
+            if buyer_check(ebay, result['listing_id'], artifact) is False:
+                raise ValueError('Buyer verification failed')
             persist(pid, artifact, result)
             store.mark(pid, 'published', {**result, 'buyer_verified': True, 'operations': events})
             out['published_count'] += 1
@@ -133,7 +164,14 @@ def verify_buyer(ebay, listing_id, artifact):
     st = artifact['st']
     if st['plan']['is_variation']:
         data = ebay._request('GET', '/buy/browse/v1/item/get_items_by_item_group', params={'item_group_id': listing_id})
-        items = data.get('items', [])
+        group_items = data.get('items', [])
+        # Hata 47: get_items_by_item_group never returns the full 'description' field
+        # for group/variation listings (checked live: always empty string there, while
+        # the single-item get_item endpoint returns the real, full, matching text) - so
+        # a strict description check against this endpoint failed every real variation
+        # listing. Fetch each item's full detail by itemId instead, same as a buyer
+        # clicking into the actual listing would see.
+        items = [ebay._request('GET', '/buy/browse/v1/item/' + item['itemId']) for item in group_items]
     else:
         data = ebay._request('GET', '/buy/browse/v1/item/get_item_by_legacy_id', params={'legacy_item_id': listing_id})
         items = [data]
@@ -218,10 +256,19 @@ def store_default():
 def pending_rows(limit=100):
     with closing(sqlite3.connect(PROJECT_ROOT / 'data' / 'dropshipping.db')) as db:
         db.row_factory = sqlite3.Row
+        # Priority: priced products first (ready_to_list, active with price)
         return [dict(row) for row in db.execute("""SELECT * FROM products WHERE is_listed=0
             AND (ebay_item_id IS NULL OR ebay_item_id='')
             AND status IN ('needs_variation_listing','manual_review','ready_to_list','active','prepared')
-            ORDER BY CASE status WHEN 'needs_variation_listing' THEN 0 ELSE 1 END, id LIMIT ?""", (limit,))]
+            ORDER BY 
+                CASE 
+                    WHEN status = 'ready_to_list' THEN 0
+                    WHEN status = 'active' AND ebay_price > 0 THEN 1
+                    WHEN status = 'prepared' THEN 2
+                    WHEN status = 'needs_variation_listing' THEN 3
+                    ELSE 4
+                END,
+                id LIMIT ?""", (limit,))]
 
 
 def write_report(report, store):

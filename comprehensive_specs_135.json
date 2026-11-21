@@ -1,0 +1,13 @@
+{
+  "dimensions": {"found": false, "length_cm": null, "width_cm": null, "height_cm": null, "depth_cm": null, "diameter_cm": null, "text": "6 görselin hiçbirinde cm/inch cinsinden ölçü, cetvel ya da ölçü oku yok. Görsellerde sadece 'SIZE:AA' / 'SIZE:AAA' (pil tipi etiketi, kutu ölçüsü değil) ve 'Battery storage box for 24 batteries' (kapasite metni) yazıyor; fiziksel L/W/H bilgisi hiçbir karede verilmemiş.", "confidence": 0},
+  "weight": {"found": false, "product_weight_g": null, "package_weight_g": null, "text": "", "confidence": 0},
+  "material": {"primary": "Kunststoff (transparent, hartes PP/PS)", "composition": ["Kunststoff, durchsichtig"], "confidence": 88, "source": "vision"},
+  "color": {"found": true, "main": "Transparent", "options": ["Transparent"], "confidence": 85, "source": "vision"},
+  "capacity": {"found": true, "volume_liter": null, "item_count": 24, "load_capacity_kg": null, "text": "Görselde doğrudan yazı: 'Battery storage box for 24 batteries' (2 bölme x 12, AA veya AAA pil için).", "confidence": 90},
+  "features": ["Mehrere Fächer (ca. 6 kleine Fächer pro Hälfte sichtbar)", "Tragegriff (Dreieck-Griff)", "Klappdeckel mit Scharnier", "Für AA- und AAA-Batterien geeignet (laut Bildbeschriftung)", "Für 24 Batterien ausgelegt", "Transparent/durchsichtig", "Staubdicht laut Titel (visuell nicht widerlegt)", "Zum Aufhängen geeignet ('Suspended design')"],
+  "brand": {"name": "No-Name", "confidence": 80},
+  "model": {"number": "", "confidence": 0},
+  "certifications": [],
+  "technical": {"temperature_min_c": null, "temperature_max_c": null, "power_watt": null, "voltage": null},
+  "assembly": {"required": "Unknown", "tools_needed": "Unknown", "time_minutes": null}
+}

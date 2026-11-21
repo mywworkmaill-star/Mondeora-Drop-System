@@ -1,0 +1,60 @@
+{
+  "index": 29,
+  "product_id": "1005007547820639",
+  "db_title": "Faltbare Reisetasche für Flugzeuge, Handgepäcktasche für Damen und Mädchen, leicht, großes Fassungsvermögen, Sport, Wochenendausflug über Nacht",
+  "started_at": "2026-11-17T07:53:06.841216+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "Faltbare Reisetasche für Flugzeuge, Handgepäcktasche für Damen und Mädchen, leicht, großes Fassungsvermögen, Sport, Wochenendausflug über Nacht",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/Sebdbbdb1b7324aadb996aeb05abe47cai.jpg",
+    "https://ae01.alicdn.com/kf/S64c90e4092294b1990921c0b6f4ae05dS.jpg",
+    "https://ae01.alicdn.com/kf/Sa13e10e15b95421c80ee7fde786f8357t.jpg",
+    "https://ae01.alicdn.com/kf/S2f11db153f53491b998ac25b41220476F.jpg",
+    "https://ae01.alicdn.com/kf/Sb947b48599a14f42a6db4fc13d5c311dd.png",
+    "https://ae01.alicdn.com/kf/S86a5ded281984de5afdf59ce88988eeea.jpg"
+  ],
+  "main_image_dimensions": [
+    800,
+    800
+  ],
+  "main_image_file": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\products\\1005007547820639\\main.jpg",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:category_unapproved",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 4
+  },
+  "finished_at": "2026-11-17T07:53:10.000612+00:00",
+  "canonical_status": "blocked"
+}

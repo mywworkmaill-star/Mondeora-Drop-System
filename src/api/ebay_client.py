@@ -73,7 +73,7 @@ class eBayAPIClient:
         raise error from None
 
     def _request(self, method, path, **kwargs):
-        if not path.startswith('/') or '?' in path or '#' in path or '://' in path:
+        if not path.startswith('/') or '#' in path or '://' in path:
             self._fail('Invalid eBay API path')
         if method != 'GET':
             self._require_live()
@@ -106,6 +106,8 @@ class eBayAPIClient:
                 time.sleep(min(0.5 * 2 ** retries, 8.0))
                 continue
             if not 200 <= response.status_code < 300:
+                # Provider bodies and resource paths can contain credentials or buyer data.
+                # Persist only the sanitized status; callers classify errors by status_code.
                 self._fail('eBay API request failed (HTTP %d)' % response.status_code, response.status_code)
             if (method == 'POST' and response.status_code == 201
                     and re.fullmatch(r'/sell/fulfillment/v1/order/[^/]+/shipping_fulfillment', path)
@@ -117,6 +119,26 @@ class eBayAPIClient:
                 handle = location[len(prefix):] if isinstance(location, str) and location.startswith(prefix) else ''
                 self.last_error = None
                 return {'fulfillmentId': handle} if re.fullmatch(r'[A-Za-z0-9_-]{1,128}', handle) else {}
+            if (method == 'POST' and response.status_code == 201
+                    and path == '/sell/marketing/v1/ad_campaign'
+                    and getattr(response, 'content', None) == b''):
+                # This endpoint also documents 201 with no body — the new
+                # campaignId is only in the Location header.
+                location = getattr(response, 'headers', {}).get('Location', '')
+                prefix = self.production_url + path + '/'
+                handle = location[len(prefix):] if isinstance(location, str) and location.startswith(prefix) else ''
+                self.last_error = None
+                return {'campaignId': handle} if re.fullmatch(r'[A-Za-z0-9_-]{1,128}', handle) else {}
+            if (method == 'POST' and response.status_code == 201
+                    and re.fullmatch(r'/sell/marketing/v1/ad_campaign/[^/]+/ad', path)
+                    and getattr(response, 'content', None) == b''):
+                # Same 201-empty-body pattern when adding a single ad to a
+                # campaign — the new adId is only in the Location header.
+                location = getattr(response, 'headers', {}).get('Location', '')
+                prefix = self.production_url + path + '/'
+                handle = location[len(prefix):] if isinstance(location, str) and location.startswith(prefix) else ''
+                self.last_error = None
+                return {'adId': handle} if re.fullmatch(r'[A-Za-z0-9_-]{1,128}', handle) else {}
             if response.status_code == 204:
                 if method == 'GET':
                     self._fail('eBay returned an empty read response')
@@ -179,8 +201,18 @@ class eBayAPIClient:
                 response = self.session.request('POST', self.production_url + '/identity/v1/oauth2/token',
                     headers={'Authorization': 'Basic ' + basic, 'Content-Type': 'application/x-www-form-urlencoded'},
                     data={'grant_type': 'refresh_token', 'refresh_token': refresh}, timeout=30, allow_redirects=False)
-                if response.status_code != 200:
-                    self._fail('eBay OAuth request failed (HTTP %d)' % response.status_code)
+                if response.status_code >= 400:
+                    # 🚨 FIX (2026-11-21): this used to reference undefined
+                    # `method`/`path` (this function only has `force` in
+                    # scope) — a real NameError on every failed OAuth refresh
+                    # (expired/revoked refresh token, rate limit), bypassing
+                    # the intended self._fail() path and crashing callers
+                    # that only catch OSError. It also printed the raw
+                    # response body to stdout, contradicting this file's own
+                    # "never propagate credentials/response text" policy.
+                    # Fixed: no undefined names, no raw body in logs.
+                    print(f"\n🔴 eBay OAuth refresh failed (HTTP {response.status_code})\n")
+                    self._fail('eBay OAuth token refresh failed (HTTP %d)' % response.status_code, response.status_code)
                 body = response.json()
                 token, raw_expiry = body.get('access_token'), body.get('expires_in', 0)
                 expires = float(raw_expiry)
@@ -465,6 +497,54 @@ class eBayAPIClient:
             return True
         except EBayAPIError:
             return False
+
+    def create_inventory_item_group(self, group_key, group_data):
+        """
+        Create or update inventory item group (for variation listings)
+        
+        Args:
+            group_key: Unique group identifier (e.g., 'VAR-48-GROUP')
+            group_data: Dict with title, description, aspects, imageUrls,
+                       variantSKUs, variesBy specifications
+        
+        Returns:
+            Dict with success status
+        """
+        
+        self._request(
+            'PUT',
+            self.inventory_path + '/inventory_item_group/' + quote(group_key, safe=''),
+            json=group_data
+        )
+        
+        return {'success': True, 'group_key': group_key}
+    
+    def publish_offer_by_inventory_item_group(self, group_key, marketplace_id='EBAY_DE'):
+        """
+        Publish variation listing by inventory item group
+        
+        Args:
+            group_key: Inventory item group key
+            marketplace_id: eBay marketplace (default: EBAY_DE)
+        
+        Returns:
+            Dict with listingId
+        """
+        
+        response = self._request(
+            'POST',
+            self.inventory_path + '/offer/publish_by_inventory_item_group',
+            json={
+                'inventoryItemGroupKey': group_key,
+                'marketplaceId': marketplace_id
+            }
+        )
+        
+        return {
+            'success': True,
+            'listing_id': response.get('listingId'),
+            'warnings': response.get('warnings', [])
+        }
 
     def get_product_details(self, ebay_item_id):
         sku, offer = self._listing_offer(ebay_item_id)

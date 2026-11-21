@@ -1,0 +1,67 @@
+{
+  "dimensions": {
+    "found": false,
+    "length_cm": null,
+    "width_cm": null,
+    "height_cm": null,
+    "depth_cm": null,
+    "diameter_cm": null,
+    "text": "Explosionszeichnung zeigt nur Teilmasse: Halterkoerper (schwarzer Klemmblock) 7.6cm Breite x 4cm Hoehe; Silikonband/Gurt separat 9.2cm Laenge x 3.7cm Breite. Zusaetzlich Textangabe 'max opening 76mm/2.99in, passend fuer 4.8 Zoll Handys'. Keine durchgaengige Gesamt-Laenge/Breite/Hoehe der zusammengebauten Einheit oder Verpackung vorhanden, daher kein vollstaendiges L/B/H ableitbar.",
+    "confidence": 30
+  },
+  "weight": {
+    "found": false,
+    "product_weight_g": null,
+    "package_weight_g": null,
+    "text": "",
+    "confidence": 0
+  },
+  "material": {
+    "primary": "Silikon + Kunststoff (ABS)",
+    "composition": ["Silikon", "Kunststoff"],
+    "confidence": 70,
+    "source": "vision (visuelle Materialeinschaetzung: biegsames Band = Silikon, harter Klemmblock = Kunststoff)"
+  },
+  "color": {
+    "found": true,
+    "main": "Schwarz",
+    "options": ["Rosarot", "Weiss", "Blau", "Schwarz", "Grau", "Rot", "Gelb"],
+    "confidence": 95,
+    "source": "vision"
+  },
+  "capacity": {
+    "found": false,
+    "volume_liter": null,
+    "item_count": null,
+    "load_capacity_kg": null,
+    "text": "",
+    "confidence": 0
+  },
+  "features": [
+    "Verstellbare Klemme, maximale Oeffnung 7.6cm/76mm, passend fuer Handys bis 4.8 Zoll",
+    "Befestigung per Silikon-Gurt am Lenkrad (laut Bildern)",
+    "Auch auf Armaturenbrett montierbar (laut Bildern gezeigt)",
+    "7 Farbvarianten verfuegbar: Rosarot, Weiss, Blau, Schwarz, Grau, Rot, Gelb",
+    "Klappbarer/schwenkbarer Klemmmechanismus mit Verriegelungshebel"
+  ],
+  "brand": {
+    "name": "No-Name",
+    "confidence": 80
+  },
+  "model": {
+    "number": "",
+    "confidence": 0
+  },
+  "certifications": [],
+  "technical": {
+    "temperature_min_c": null,
+    "temperature_max_c": null,
+    "power_watt": null,
+    "voltage": null
+  },
+  "assembly": {
+    "required": "Ja (Minimal)",
+    "tools_needed": "Kein Werkzeug, Silikonband wird ums Lenkrad gespannt und Klemme eingerastet",
+    "time_minutes": null
+  }
+}

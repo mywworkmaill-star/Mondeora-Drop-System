@@ -1,0 +1,60 @@
+{
+  "index": 20,
+  "product_id": "1005011848504195",
+  "db_title": "Multifunktionaler Kofferraum-Organizer, 1 Stück, Gepäckbox-Ständer, rutschfester Zaun, Aufbewahrungshalter für Werkzeuge",
+  "started_at": "2026-11-17T07:52:56.561178+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "Multifunktionaler Kofferraum-Organizer, 1 Stück, Gepäckbox-Ständer, rutschfester Zaun, Aufbewahrungshalter für Werkzeuge",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/S15afbfc860f642d4a7389d6406beda75k.jpg",
+    "https://ae01.alicdn.com/kf/S666305d123a248c0968f7740c1090a0cb.jpg",
+    "https://ae01.alicdn.com/kf/S97cb36bd162546da9e41add143ea6c3fY.jpg",
+    "https://ae01.alicdn.com/kf/Sf269f743f4744058b2e56d2a87f3dcb1N.jpg",
+    "https://ae01.alicdn.com/kf/Se391aeeb988540b7838f9c4e49dccbd98.jpg",
+    "https://ae01.alicdn.com/kf/S015276260c0146dc8ef6bf845d2c070aq.jpg"
+  ],
+  "main_image_dimensions": [
+    1000,
+    1000
+  ],
+  "main_image_file": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\products\\1005011848504195\\main.jpg",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:variant_review",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 3
+  },
+  "finished_at": "2026-11-17T07:52:59.640500+00:00",
+  "canonical_status": "blocked"
+}

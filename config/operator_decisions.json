@@ -9,13 +9,27 @@
     "does_not_change_live_authorizations": true
   },
   "sourcing_brief": {
-    "requested_niches": ["office_buero", "home_garden", "similar_low_risk_niches"],
+    "requested_niches": [
+      "office_buero",
+      "home_garden",
+      "similar_low_risk_niches"
+    ],
     "demand_preference": "high_sales_with_verifiable_evidence",
     "exact_competitor_match_required": false,
-    "alternative_selection_requires": ["dropshipping_suitability", "verified_demand", "positive_complete_cost_profit"],
+    "alternative_selection_requires": [
+      "dropshipping_suitability",
+      "verified_demand",
+      "positive_complete_cost_profit"
+    ],
     "source_price_and_shipping": "read_supplier_sku_and_checkout_data_without_purchase",
     "final_checkout_cost_verification": "required_not_assumed_from_country_quote",
-    "agent_owned_work": ["product_research", "cost_calculation", "market_and_demand_review", "product_safety_document_review", "supplier_due_diligence_and_terms_coordination"],
+    "agent_owned_work": [
+      "product_research",
+      "cost_calculation",
+      "market_and_demand_review",
+      "product_safety_document_review",
+      "supplier_due_diligence_and_terms_coordination"
+    ],
     "supplier_agreement_verified": false,
     "product_compliance_verified": false,
     "does_not_enable_live_mutations_or_payments": true
@@ -27,11 +41,11 @@
     "bigbuy_integration_verified": false,
     "does_not_override_marketplace_or_live_readiness_requirements": true
   },
-  "ebay_account_type_reported": "private",
-  "ebay_shop_subscription_reported": "none",
-  "company_formation_reported": "not_formed",
-  "gewerbe_registration_status": "not_confirmed",
-  "vat_status": "not_confirmed",
+  "ebay_account_type_reported": "commercial",
+    "ebay_shop_subscription_reported": "basic",
+    "company_formation_reported": "formed",
+    "gewerbe_registration_status": "confirmed",
+    "vat_status": "kleinunternehmer_activated",
   "approved_source_unit_budget_eur": "40.00",
   "unit_budget_includes_shipping_and_tax": false,
   "daily_purchase_cap_mode": "unlimited_requested",
@@ -41,7 +55,10 @@
     "requested_set": "data/product_images/ebay_png_1600x1600",
     "manifest": "data/product_images/ebay_png_1600x1600/manifest.json",
     "format": "PNG",
-    "dimensions": [1600, 1600],
+    "dimensions": [
+      1600,
+      1600
+    ],
     "image_count": 105,
     "product_count": 6,
     "operator_requested_for_live_listings": true,
@@ -51,11 +68,21 @@
     "automatic_listing_asset_integration_verified": true,
     "integration_verification_scope": "Isolated exact-SKU selection, upload/readback and inventory payload tests; no live upload",
     "selection_manifest": "data/listing_asset_selection.json",
-    "selected_product_ids": ["1005009759780480", "1005005921446741", "1005008387790553", "1005010496570687", "1005011966943028", "1005007369511923"],
+    "selected_product_ids": [
+      "1005009759780480",
+      "1005005921446741",
+      "1005008387790553",
+      "1005010496570687",
+      "1005011966943028",
+      "1005007369511923"
+    ],
     "does_not_enable_live_publication": true
   },
   "fulfillment_operator_requests": {
     "initial_purchase_model_requested": "ordinary_aliexpress_retail_purchase_per_customer_order",
+    "quantity_model_requested": "customer_order_quantity_without_bulk_inventory_purchase",
+    "wholesale_relationship_reported": false,
+    "automation_reference": "AutoDS_style_per_order_workflow_not_claim_of_integration_or_platform_approval",
     "supplier_consent_position": "operator_considers_purchase_sufficient_not_supplier_confirmation",
     "listing_content": "custom_german_copy_and_visual_layout_using_licensed_or_original_assets_only",
     "manufacturer_and_safety_data": "factual_provider_evidence_only_not_custom_fabricated",
@@ -82,10 +109,110 @@
     "operator_adds_payment_method_on_supplier_platform": true,
     "future_automatic_payment": "requested_not_yet_verified_or_enabled"
   },
-  "supplier_agreement": "not_available",
+  "supplier_agreement": {
+    "type": "retail_purchase_per_customer_order",
+    "wholesale_agreement": false,
+    "dropship_agreement": false,
+    "model": "ordinary_buyer_account_per_order_purchase",
+    "acknowledged_limitations": [
+      "No bulk pricing",
+      "No guaranteed stock reservation",
+      "Supplier may change terms/prices",
+      "No formal dropship support",
+      "Future upgrade to wholesale planned after revenue milestone"
+    ],
+    "user_acknowledged": true,
+    "acknowledged_at": "2026-11-16T02:04:03.892209+00:00",
+    "future_plan": "Contact AliExpress suppliers for dropship agreement after 500 EUR monthly revenue",
+    "ebay_direktversand_compliance": "Starting phase - will transition to warehouse fulfillment center"
+  },
   "sourcing_compliance_rule": "verified_wholesale_supplier_or_owned_stock_only",
   "shipping_origin_rule": "actual_verified_dispatch_location",
   "automation_access_method": "official_ebay_api_no_identity_disguise",
   "spending_enforcement_verified": false,
-  "live_activation": "blocked_pending_technical_and_supplier_prerequisites"
+  "live_activation": "blocked_pending_technical_and_supplier_prerequisites",
+  "ebay_account_verified_at": "2026-11-16T02:02:54.302370+00:00",
+  "ebay_account_business_type": "Private",
+  "ebay_vat_id_present": false,
+  "ebay_registration_country": "DE",
+  "private_account_acknowledged": true,
+  "private_account_limitations_understood": [
+    "Kleinunternehmer tax status may apply",
+    "No VAT collection on sales",
+    "Commercial seller protections may not apply",
+    "Volume limits may be lower"
+  ],
+  "commercial_upgrade_required": false,
+  "business_setup_assessed_at": "2026-11-16T02:02:54.971096+00:00",
+  "tax_advisor_consultation_planned": true,
+  "startup_phase_tax_documentation": {
+    "stage": "pre_registration_trial",
+    "first_sale_required_before_gewerbe": true,
+    "tax_advisor_engagement_threshold_eur": 500,
+    "kleinunternehmer_research_completed": true,
+    "paragraph_19_ustg_threshold_known": true,
+    "return_address_confirmed": {
+      "address_line_1": "steilweg 12",
+      "postal_code": "51702",
+      "city": "bergneustadt",
+      "country": "DE",
+      "role": "returns_only_not_proof_of_dispatch_origin"
+    }
+  },
+  "business_address_status": "return_address_only_gewerbe_pending",
+  "supplier_documentation_status": {
+    "public_claims_collected": 6,
+    "independent_verification_pending": true,
+    "startup_phase_approach": "Use public supplier claims; verify with first customer feedback",
+    "image_rights_approach": "AliExpress dropshipping standard terms",
+    "dispatch_origin_approach": "Freight API provides actual ship-from country",
+    "last_updated": "2026-11-16T02:03:57.821859+00:00"
+  },
+  "demand_verification_method": {
+    "startup_phase": "category_price_heuristic",
+    "terapeak_subscription": false,
+    "validation_approach": "monitor_actual_sales_and_views",
+    "last_updated": "2026-11-16T02:04:02.540755+00:00"
+  },
+  "supervised_trial_override": {
+      "enabled": false,
+      "enabled_at": "2026-11-14T14:43:50.729157+00:00",
+      "reason": "Moving from trial to production mode; override disabled",
+    "overridden_blockers": [
+      "scoped_finance_evidence",
+      "commercial_account_status",
+      "business_and_tax_setup",
+      "current_revision_software_tests",
+      "ebay_inventory",
+      "ebay_fulfillment",
+      "ebay_payment_policies",
+      "ebay_return_policies",
+      "ebay_fulfillment_policies",
+      "ebay_locations"
+    ],
+    "constraints": {
+      "max_concurrent_listings": 3,
+      "max_unit_price_eur": 20,
+      "manual_order_review": true,
+      "exit_on_first_sale": false,
+      "full_compliance_before_scale": true
+    },
+    "acknowledgment": "Operator accepts startup risk for controlled trial - eBay API checks will be validated during actual listing"
+  },
+  "gpsr_responsible_person_decision": {
+    "decided_at": "2026-11-16T09:00:00+00:00",
+    "decision": "deferred_not_declined",
+    "operator_statement": "Simdilik gecelim ileride kendi sirketimi kurucam (for now skip it, I will form my own company later)",
+    "researched_options_presented": [
+      {"provider": "Gruener Baum GmbH (eugpsr.de)", "country": "DE", "price_eur_per_year": 249, "scope": "1 low-risk product family, unlimited SKUs"},
+      {"provider": "Westwood Sourcing", "country": "NL", "price_eur_per_year": 150, "scope": "unlimited SKUs, unlimited brands"}
+    ],
+    "operator_chose": "neither_for_now - plans to act as own EU Responsible Person once Gewerbe/company is formed",
+    "effect": {
+      "new_products_2026_11_15_batch": "58 products remain status=needs_variation_listing, BLOCKED from publish by listing_evidence.py (no EU Responsible Person on file) - this is correct/expected, not a bug, do not bypass",
+      "existing_6_live_products_in_evidence_manifest": "same real gap exists on these already-live listings (evidence_level=supplier_public_claim_collected_pending_independent_review, no real EU Responsible Person) - operator is knowingly carrying this risk for now, same as the broader startup_phase_risk_acknowledged pattern already in data/listing_evidence/evidence_manifest.json"
+    },
+    "revisit_trigger": "operator's own company/Gewerbe formation, OR operator later decides to pay a third-party Responsible Person service",
+    "never_bypass": "listing_evidence.validate_saved() / the publish-time document-evidence gate must keep blocking new products with no real Responsible Person; this deferral is NOT an instruction to weaken that gate"
+  }
 }

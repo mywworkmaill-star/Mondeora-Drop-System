@@ -1,0 +1,394 @@
+{
+  "product_id": "1005007907908369",
+  "index": 4,
+  "checked_at": "2026-11-17T07:57:12.921764+00:00",
+  "ready_for_publication": false,
+  "remote_mutations_performed": false,
+  "errors": [],
+  "quote_count": 8,
+  "title": "Küche Papier Handtuch Halter Klebstoff Tissue Aufhänger Wc Rollen Papier",
+  "title_issues": [],
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "sku_rows": [
+    {
+      "sku_id": "12000042857816886",
+      "cost": 2.55,
+      "stock": 13,
+      "aspects": {
+        "Farbe": "Weiß"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd47fa772384849a692eff28ae16bf8b0V.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005007907908369",
+        "sku_id": "12000042857816886",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:14.460131+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 23.99,
+      "provisional_model_net_eur": 15.86
+    },
+    {
+      "sku_id": "12000042857816885",
+      "cost": 2.25,
+      "stock": 14,
+      "aspects": {
+        "Farbe": "Schwarz"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S7bf26ee2d4ee49e39cadf9d4fa899af7K.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005007907908369",
+        "sku_id": "12000042857816885",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:15.001857+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 22.99,
+      "provisional_model_net_eur": 15.3
+    },
+    {
+      "sku_id": "12000042857816894",
+      "cost": 4.29,
+      "stock": 132,
+      "aspects": {
+        "Farbe": "Cylinder Long Schwarz"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sa1e1b1d8992947d8a6bbe0d6d2d1580aD.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005007907908369",
+        "sku_id": "12000042857816894",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:15.516825+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 25.99,
+      "provisional_model_net_eur": 15.85
+    },
+    {
+      "sku_id": "12000042857816893",
+      "cost": 3.99,
+      "stock": 36,
+      "aspects": {
+        "Farbe": "Cylinder Long Weiß"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sf32874e2a4cb4e698d583c950114b0dfB.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005007907908369",
+        "sku_id": "12000042857816893",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:16.040393+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 24.99,
+      "provisional_model_net_eur": 15.29
+    },
+    {
+      "sku_id": "12000042857816891",
+      "cost": 2.79,
+      "stock": 33,
+      "aspects": {
+        "Farbe": "Cylinder Weiß"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sfff1eb3732f7495ca775a0926620d021N.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005007907908369",
+        "sku_id": "12000042857816891",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:16.587225+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 23.99,
+      "provisional_model_net_eur": 15.62
+    },
+    {
+      "sku_id": "12000042857816890",
+      "cost": 2.79,
+      "stock": 10,
+      "aspects": {
+        "Farbe": "Cylinder Schwarz"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S975aed6919144191af40f2672bf1d629i.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005007907908369",
+        "sku_id": "12000042857816890",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:17.122685+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 23.99,
+      "provisional_model_net_eur": 15.62
+    },
+    {
+      "sku_id": "12000042857816889",
+      "cost": 3.99,
+      "stock": 12,
+      "aspects": {
+        "Farbe": "Long Weiß"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S26473fdbfacc4118a755aa4c171d6d36S.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005007907908369",
+        "sku_id": "12000042857816889",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:17.719580+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 24.99,
+      "provisional_model_net_eur": 15.29
+    },
+    {
+      "sku_id": "12000042857816888",
+      "cost": 4.19,
+      "stock": 14,
+      "aspects": {
+        "Farbe": "Long Schwarz"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S2f5dab38050045fdb9c13e3a1f8beae3u.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005007907908369",
+        "sku_id": "12000042857816888",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:18.346257+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 24.99,
+      "provisional_model_net_eur": 15.09
+    }
+  ],
+  "category": {
+    "category_id": "46283",
+    "path": "Möbel & Wohnen > Kochen & Genießen > Ordnung & Aufbewahrung > Halter/Ständer & Küchenleisten",
+    "confidence": 1.0,
+    "needs_review": false,
+    "source": "override",
+    "level": "medium",
+    "note": "kitchen paper-towel/tissue holder (title explicitly says Küche/kitchen). Auto-resolve chose 25452 Kosmetiktücherboxen (bathroom facial-tissue box covers) at 0.25 confidence - wrong room/use. Same holder/stand category as the other wall-mount kitchen organizers in this niche batch is the correct real fit."
+  },
+  "supported_shared_aspects": {
+    "Produktart": [
+      "Spender"
+    ],
+    "Material": [
+      "Kunststoff"
+    ]
+  },
+  "human_review_aspect_names": [],
+  "missing_required_aspects": [
+    "Höhe",
+    "Länge",
+    "Breite"
+  ],
+  "required_aspects": [
+    {
+      "name": "Höhe",
+      "values": [
+        "14 cm",
+        "16,5 cm",
+        "18 cm",
+        "20,0 cm",
+        "30,0 cm",
+        "14,4 Zoll",
+        "55,0 cm",
+        "70,0 cm",
+        "75,0 cm",
+        "85,0 cm",
+        "90,0 cm"
+      ],
+      "mode": "FREE_TEXT"
+    },
+    {
+      "name": "Länge",
+      "values": [
+        "10 cm",
+        "10,2 cm",
+        "20,0 cm",
+        "28 cm",
+        "4.5 m",
+        "8,0 m",
+        "15 m",
+        "23,0 m",
+        "60,0 m",
+        "61,0 m"
+      ],
+      "mode": "FREE_TEXT"
+    },
+    {
+      "name": "Breite",
+      "values": [
+        "16,5 cm",
+        "18 cm",
+        "10,2 Zoll",
+        "28 cm",
+        "11,5 Zoll",
+        "11,7 Zoll",
+        "30,0 cm",
+        "33 cm",
+        "35,0 cm",
+        "38 cm",
+        "40,0 cm",
+        "43 cm",
+        "45,0 cm"
+      ],
+      "mode": "FREE_TEXT"
+    }
+  ],
+  "optional_unknown_aspects": [
+    "Marke",
+    "Farbe",
+    "Herstellernummer",
+    "Herstellungsmethode",
+    "Herstellungsstil",
+    "Anzahl der Etagen",
+    "Anzahl der Regalfächer",
+    "Anzahl der Fächer",
+    "Größe",
+    "Set enthält",
+    "Besonderheiten",
+    "Form",
+    "Montage",
+    "Stil",
+    "Tiefe",
+    "Holzton",
+    "Ursprungsland",
+    "Abteilung",
+    "Personalisieren",
+    "Kapazität",
+    "Ständerart",
+    "Fassungsvermögen Kapseln/Pads",
+    "Durchmesser",
+    "Gewicht",
+    "Modell",
+    "Anzahl der Einheiten",
+    "Maßeinheit",
+    "Anleitung für Personalisierung",
+    "Haltbarkeitsgarantie",
+    "Produktlinie"
+  ],
+  "draft_file": "product_draft.html",
+  "finished_at": "2026-11-17T07:57:18.823207+00:00"
+}

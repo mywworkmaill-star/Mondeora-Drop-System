@@ -1,0 +1,242 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:200006154#B white",
+        "offer_sale_price": "2.25",
+        "sku_id": "12000049355816384",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "4.60",
+        "offer_bulk_sale_price": "2.25",
+        "sku_available_stock": 26,
+        "id": "14:200006154#B white",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "dunkles Khaki",
+              "sku_image": "https://ae01.alicdn.com/kf/S53999fce998440e6869e30cca881cc35l.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "B white",
+              "property_value_id": 200006154,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:29",
+        "offer_sale_price": "1.55",
+        "sku_id": "12000034251365165",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "4.56",
+        "offer_bulk_sale_price": "1.55",
+        "sku_available_stock": 41,
+        "id": "14:29",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "WEISS",
+              "sku_image": "https://ae01.alicdn.com/kf/S08350eae054e4349a1abab1572f0dc3cW.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_id": 29,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:193",
+        "offer_sale_price": "2.89",
+        "sku_id": "12000034251365164",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "8.26",
+        "offer_bulk_sale_price": "2.89",
+        "sku_available_stock": 30,
+        "id": "14:193",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "schwarz",
+              "sku_image": "https://ae01.alicdn.com/kf/Sa7ff6e695d07492e9c09332818e7a780x.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:200006151#2pcs white",
+        "offer_sale_price": "3.75",
+        "sku_id": "12000048617470509",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "7.81",
+        "offer_bulk_sale_price": "3.75",
+        "sku_available_stock": 18,
+        "id": "14:200006151#2pcs white",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Hellgrau",
+              "sku_image": "https://ae01.alicdn.com/kf/Sfac904f804264cdd831ad46afcbbc9ecf.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "2pcs white",
+              "property_value_id": 200006151,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:200006152#B Black",
+        "offer_sale_price": "2.59",
+        "sku_id": "12000049355816383",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "5.29",
+        "offer_bulk_sale_price": "2.59",
+        "sku_available_stock": 39,
+        "id": "14:200006152#B Black",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "hellgrün",
+              "sku_image": "https://ae01.alicdn.com/kf/S9b252748c68044b7aac83f6b5b1c97412.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "B Black",
+              "property_value_id": 200006152,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:200006153#2pcs black",
+        "offer_sale_price": "4.39",
+        "sku_id": "12000048617470510",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "9.15",
+        "offer_bulk_sale_price": "4.39",
+        "sku_available_stock": 57,
+        "id": "14:200006153#2pcs black",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "hellgelb",
+              "sku_image": "https://ae01.alicdn.com/kf/Sea0d62066e8d4cf5a7e1e7021d3d077bT.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "2pcs black",
+              "property_value_id": 200006153,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "image_urls": "https://ae01.alicdn.com/kf/S6ff7299de58f4c6eb073e16eccab5ae6t.jpg;https://ae01.alicdn.com/kf/Sa75ce4caa7264cf3b195a6b367475324n.jpg;https://ae01.alicdn.com/kf/S9730fb92d8534f76ad3b0fbbacf84d76D.jpg;https://ae01.alicdn.com/kf/Sae3a666a28354691b2560d4e51e38fa4N.jpg;https://ae01.alicdn.com/kf/S580e8418ddd145188ad7d0d040b92730R.jpg;https://ae01.alicdn.com/kf/Sf3340748ac8042f3a562b117ddaad60d5.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 15,
+    "package_height": 3,
+    "package_length": 16,
+    "gross_weight": "0.031",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005005759411405,
+    "sub_product_id": "{\"US\":3256805573096653}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sd7f6d72c5a1b404ab3f160ff611515ccZ.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S364dad79d8aa4a1e8007574dbe3ec28fQ.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S7aaed687ac4a4b41b11c88a8eadc328cb.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Saaa766f02d4c4a628d950178f1c0e2c9J.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sac9776159fcd48ce8f6fb6a1cdaf6d927.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sad23edaa113f4ed9a667166c4032051e4.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S712c9875ba094b66bc6ed032acadae6eo.jpg\",\"style\":{\"width\":800,\"height\":800}}}]}",
+    "subject": "Multifunktionaler Wand-Organizer für Fernbedienungen und Mobiltelefone",
+    "evaluation_count": "2936",
+    "sales_count": "5000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.6",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 200044148,
+    "product_id": 1005005759411405,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p style=\"text-align:left;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px\" align=\"left\"><br /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sd7f6d72c5a1b404ab3f160ff611515ccZ.jpg\" slate-data-type=\"image\" /><br /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S364dad79d8aa4a1e8007574dbe3ec28fQ.jpg\" slate-data-type=\"image\" /><br /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S7aaed687ac4a4b41b11c88a8eadc328cb.jpg\" slate-data-type=\"image\" /><br /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Saaa766f02d4c4a628d950178f1c0e2c9J.jpg\" slate-data-type=\"image\" /><br /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sac9776159fcd48ce8f6fb6a1cdaf6d927.jpg\" slate-data-type=\"image\" /><br /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sad23edaa113f4ed9a667166c4032051e4.jpg\" slate-data-type=\"image\" /><br /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S712c9875ba094b66bc6ed032acadae6eo.jpg\" slate-data-type=\"image\" /></p><p><br /></p></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "Room 501, 5th Floor, Building 6, Xihe Second District, Houzhai Street, Yiwu City, Jinhua City, Zhejiang Province,china",
+    "phone": "18357941975",
+    "country_name": "China",
+    "email": "18357941975@163.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 43,
+        "attr_value_id": 1983457662,
+        "attr_name": "Funktion",
+        "attr_value": "Problemlose Installation"
+      },
+      {
+        "attr_name_id": 306657049,
+        "attr_value_id": 1984089219,
+        "attr_name": "Abteilung",
+        "attr_value": "Unisex-Erwachsene"
+      },
+      {
+        "attr_name_id": 10,
+        "attr_value_id": 124,
+        "attr_name": "Material",
+        "attr_value": "Kunststoff"
+      },
+      {
+        "attr_name_id": 217,
+        "attr_value_id": 1983458057,
+        "attr_name": "Merkmal",
+        "attr_value": "BPA-freier Kunststoff"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1102810800,
+    "shipping_speed_rating": "4.7",
+    "communication_rating": "4.6",
+    "store_name": "Wmxmore Living Home Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.5"
+  }
+}

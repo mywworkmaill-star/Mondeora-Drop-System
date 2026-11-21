@@ -1,0 +1,133 @@
+════════════════════════════════════════════════════════════════════
+  eBay CASSINI OPTIMIZATION - 21 AKTIF İLAN ANALİZİ
+  Tarih: 2026-11-13
+════════════════════════════════════════════════════════════════════
+
+📊 GENEL DURUM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Ortalama Score:        86.5/110 (78.6%)  [Hedef: >90/110]
+Score 90+ İlan:        15/21 (71%)       [Hedef: 100%]
+Score <80 İlan:        3/21 (14%)        [Hedef: 0%]
+Zero Traffic:          21/21 (100%) 🚨   [EN KRİTİK SORUN]
+Fiyat Rekabetçi:       11/21 (52%)       [Hedef: >80%]
+Eksik Aspects:         6/21 (29%)        [Hedef: 0%]
+Promoted Listings:     21/21 (%5 bid) ✓
+
+🔴 KRİTİK BULGULAR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. ZERO TRAFFIC KRİZİ (21/21 İlan)
+   - Tüm ilanlar son 30 günde SIFIR impression
+   - Tahmini satış kaybı: %80+
+   - Root cause: Muhtemelen kategori/başlık/sıralama sorunu
+
+2. FİYAT REKABET SORUNU (10/21 İlan)
+   - 10 ilan pazar medyanının 1.5x+ üzerinde
+   - En yüksek sapma: 2.01x (Mini Wärme - 35.99 vs 17.90 EUR)
+   - CTR ve conversion kaybı: %20-40
+
+3. EKSİK ITEM SPECIFICS (6/21 İlan)
+   - Cassini relevance penaltısı
+   - Score kaybı: -20 puan/ilan
+   - Toplam 11 aspect eksik
+
+⚡ HEMEN YAPILACAKLAR (İlk 24 Saat)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Traffic Root Cause Analizi
+   └─ Script: scripts/traffic_audit.py
+   └─ Süre: 30 dakika
+   └─ Etki: Zero traffic nedenini tespit et
+
+2. Eksik Aspects Doldur (6 İlan)
+   └─ Script: scripts/fill_missing_aspects.py
+   └─ Süre: 15 dakika
+   └─ Etki: +15-25% relevance, Score 86.5→92
+
+3. Agresif Fiyat Düşür (6 İlan)
+   └─ Script: scripts/optimize_prices.py
+   └─ Süre: 20 dakika
+   └─ Etki: +30-40% CTR, rekabet 52%→81%
+
+📈 CASSINI FAKTÖR PERFORMANSI
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Faktör                        Durum    Hedef   Aksiyon
+─────────────────────────────────────────────────────────────────
+1. Relevance                  75%      95%     ✅ GEREKLI
+   ├─ Başlık                  100%     100%    ✓ Optimal
+   ├─ Kategori                62%      100%    ✅ 8 ilan review
+   └─ Aspects                 71%      100%    ✅ 6 ilan eksik
+
+2. Seller Performance         100%     100%    ✓ Optimal
+   ├─ Handling (2 gün)        ✓        ✓       ✓
+   ├─ Return (30 gün)         ✓        ✓       ✓
+   └─ Shipping (ücretsiz)     ✓        ✓       ✓
+
+3. Listing Quality            95%      95%     ✓ Optimal
+   ├─ Resimler (5-6/ilan)     ✓        ✓       ✓
+   └─ Açıklama (3000+ char)   ✓        ✓       ✓
+
+4. Price Competitiveness      52%      80%     ✅ GEREKLI
+   └─ Median seviyesinde      11/21    17/21   ✅ 6-10 ilan
+
+5. Sales Velocity             0%       -       ✅ Traffic çöz
+6. Promoted Listings          100%     100%    ✓ Optimal
+
+🎯 EN DÜŞÜK PERFORMANS İLANLAR (Öncelik)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Aufbewahrungstasche (Score: 73) - 860133996385
+   ❌ 4 eksik aspect
+   ❌ Zero traffic
+   Aksiyon: Aspect + kategori kontrol
+
+2. Mini Wärme (Score: 73) - 860134886090
+   ❌ Fiyat 2.01x median (35.99→22.99 EUR öner.)
+   ❌ 1 eksik aspect
+   Aksiyon: AGRESIF fiyat + aspect
+
+3. Pop-Up Maus (Score: 80) - 860134873775
+   ❌ Fiyat 1.84x median (34.99→24.99 EUR)
+   ❌ 1 eksik aspect
+   Aksiyon: Fiyat + aspect
+
+4. Löffel Halter (Score: 77) - 860138343669
+   ❌ 3 eksik aspect
+   Aksiyon: Aspect doldur
+
+5. Make-up Organizer (Score: 85) - 860138544587
+   ❌ Fiyat 1.73x median (37.99→27.99 EUR)
+   ⚠️ Kategori güven 0.5
+   Aksiyon: Fiyat + kategori
+
+6. Hundespielzeugball (Score: 85) - 860134905415
+   ❌ Fiyat 1.75x median (33.99→25.99 EUR)
+   Aksiyon: Fiyat düşür
+
+📅 30 GÜN BEKLENEN SONUÇLAR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Metrik              Mevcut    30 Gün     İyileştirme
+─────────────────────────────────────────────────────────────────
+Ortalama Score      86.5      95         +9.8%
+Traffic             0         500-1000   ∞
+Fiyat Rekabet       52%       81%        +56%
+Eksik Aspects       29%       0%         -100%
+İlk Satışlar        0         3-7 ürün   Gelir başlangıcı
+
+📂 OLUŞTURULAN DOSYALAR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ data/cassini_strategy_report.md      - Detaylı strateji (19KB)
+✓ data/cassini_full_audit.json         - Ham audit verileri
+✓ QUICK_START_CASSINI.md               - Hızlı başlangıç rehberi
+✓ scripts/fill_missing_aspects.py      - Aspect doldurma
+✓ scripts/optimize_prices.py           - Fiyat optimizasyonu
+✓ scripts/traffic_audit.py             - Traffic analizi
+
+🚀 İLK ADIM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+python scripts/traffic_audit.py
+
+Bu script zero traffic'in root cause'ını tespit edecek.
+Sonuç: data/traffic_audit_results.json
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Rapor Tarihi: 2026-11-13
+Sonraki Review: 2026-11-20 (7 gün sonra)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

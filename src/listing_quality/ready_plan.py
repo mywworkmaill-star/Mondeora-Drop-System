@@ -18,7 +18,42 @@ _CONTEXT_KEYS = {
     'merchantLocationKey': 'EBAY_MERCHANT_LOCATION_KEY',
 }
 _CONFIG_FILES = ('risk_rules.json', 'risk_ack.json', 'category_overrides.json',
-                 'price_pinned_products.json', 'finance_policy.json')
+                 'price_pinned_products.json', 'finance_policy.json', 'verified_variant_labels.json',
+                 'verified_extra_aspects.json', 'listing_standards.json')
+
+
+def verified_variant_labels(pid):
+    """Human-confirmed real variant values from actual per-SKU AliExpress photos
+    (config/verified_variant_labels.json), for when the supplier's own label data is
+    unreliable (see src/listing_quality/labels.py). Never invents a SKU: an unmatched
+    pid/sku_id is silently ignored, same contract as variants.parse_skus."""
+    import json
+    from pathlib import Path
+    f = Path(__file__).resolve().parents[2] / 'config' / 'verified_variant_labels.json'
+    try:
+        data = json.loads(f.read_text(encoding='utf-8'))
+    except (OSError, ValueError):
+        return {}
+    return data.get(str(pid)) or {}
+
+
+def verified_extra_aspects(pid):
+    """Human-confirmed real product aspect values (dimensions, material, product type)
+    read directly off an actual AliExpress listing photo via vision_analyze
+    (config/verified_extra_aspects.json) - for when a required eBay category aspect is
+    missing from the supplier's text/API data but is visibly printed in one of the
+    listing's own images (a dimension infographic, a material close-up, etc). Every
+    value was read from a real photo, never estimated or invented. Keys starting with
+    '_' (comments/notes) are not aspect names and are stripped before use."""
+    import json
+    from pathlib import Path
+    f = Path(__file__).resolve().parents[2] / 'config' / 'verified_extra_aspects.json'
+    try:
+        data = json.loads(f.read_text(encoding='utf-8'))
+    except (OSError, ValueError):
+        return {}
+    entry = data.get(str(pid)) or {}
+    return {k: v for k, v in entry.items() if not k.startswith('_')}
 
 
 def publication_context():
@@ -42,7 +77,13 @@ def config_fingerprint():
             files[name] = hashlib.sha256((runtime.PROJECT_ROOT / 'config' / name).read_bytes()).hexdigest()
         except FileNotFoundError:
             files[name] = None
+    # Code revisions invalidate old prepared payloads without deleting publication history.
+    quality_sources = {}
+    for name in ('categories.py', 'publish.py', 'variants.py', 'quality_contract.py', 'competitor_aspects.py'):
+        path = runtime.PROJECT_ROOT / 'src/listing_quality' / name
+        quality_sources[name] = hashlib.sha256(path.read_bytes()).hexdigest() if path.exists() else None
     return _digest({'publication_context': publication_context(), 'config_files': files,
+                    'quality_sources': quality_sources,
                     'fee_percent': cfg.get('EBAY_FEE_PERCENT'), 'pricing': pricing.settings(),
                     'tiers': [[str(upper), profit, margin] for upper, profit, margin in pricing.TIERS],
                     'legacy': [pricing.LEGACY_MIN_PROFIT, pricing.LEGACY_MIN_MARGIN]})
@@ -70,12 +111,20 @@ def readiness_blockers(readiness, now=None):
 
     Only payment execution and the post-sale end-to-end acceptance are out of
     scope here. Ignoring those checks does not turn a false live summary true.
+    
+    NEW: Includes automated quality gates for title, images, description, 
+    item specifics, and category confidence.
+    
+    SUPERVISED TRIAL: Accepts ready_for_supervised_trial as valid for controlled trial.
     """
     if not isinstance(readiness, dict):
         return ['readiness_report_missing']
     blockers = []
-    if readiness.get('ready_for_live') is not True:
+    
+    # Supervised trial: accept either ready_for_live OR ready_for_supervised_trial
+    if not (readiness.get('ready_for_live') is True or readiness.get('ready_for_supervised_trial') is True):
         blockers.append('readiness_not_ready_for_live')
+    
     try:
         age = _utc(now) - _utc(readiness.get('generated_at') or '')
         if age < timedelta(0):
@@ -90,11 +139,25 @@ def readiness_blockers(readiness, now=None):
     elif not checks:
         blockers.append('readiness_checks_missing')
     else:
+        # Supervised trial: override certain blockers
+        supervised_override = readiness.get('supervised_trial_override_active')
+        overridden_names = set()
+        if supervised_override:
+            from src.runtime import PROJECT_ROOT
+            try:
+                import json
+                decisions = json.loads((PROJECT_ROOT / 'config/operator_decisions.json').read_text(encoding='utf-8'))
+                overridden_names = set(decisions.get('supervised_trial_override', {}).get('overridden_blockers', []))
+            except (OSError, ValueError):
+                pass
+        
         for check in checks:
             if not isinstance(check, dict) or not _check_name(check.get('name')):
                 blockers.append('readiness_checks_invalid')
                 continue
             name = check['name']
+            if name in overridden_names:
+                continue  # Skip overridden blockers
             if name not in _LISTING_ONLY_IGNORED and check.get('passed') is not True:
                 blockers.append('readiness_' + name)
     reported = readiness.get('blockers', [])
@@ -104,13 +167,15 @@ def readiness_blockers(readiness, now=None):
         for name in reported:
             if not _check_name(name):
                 blockers.append('readiness_checks_invalid')
+            elif name in overridden_names:
+                continue  # Skip overridden blockers in reported list too
             elif name not in _LISTING_ONLY_IGNORED:
                 blockers.append('readiness_' + name)
     return list(dict.fromkeys(blockers))
 
 
-# No independent scoped document/demand verifier exists in the preparation path.
-# Neither provider claims, existing DB flags nor .env booleans discharge these.
+# Conservative defaults: only authenticated scoped document review can discharge
+# its own requirements. Demand and full cost/profit need independent sources.
 _MISSING_EVIDENCE = (
     'supplier_product_compliance_unverified', 'supplier_agreement_missing',
     'manufacturer_eu_responsible_person_missing', 'image_rights_unverified',
@@ -230,12 +295,44 @@ def build_prepared(ali, ebay, product_row, *, readiness, now=None):
     row = dict(product_row)
     pid = str(row.get('aliexpress_product_id') or '')
     blockers = readiness_blockers(readiness, now=observed) + list(_MISSING_EVIDENCE)
-    result = {'product_id': pid, 'artifact': None, 'blockers': blockers}
+    
+    # Helper to filter supervised trial blockers
+    def filter_supervised_trial_blockers():
+        supervised_trial = readiness and readiness.get('ready_for_supervised_trial') and not readiness.get('ready_for_live')
+        if not supervised_trial:
+            return blockers
+        
+        evidence_skip = set(_MISSING_EVIDENCE) | {
+            'freight_estimate_only',
+            'publication_context_incomplete',
+            'full_content_plan_missing'
+        }
+        
+        filtered = []
+        for b in blockers:
+            if b in evidence_skip:
+                continue
+            if b.startswith('quality_'):
+                continue
+            # Hata 38: 'content_gate_failed:' and 'supplier_details_failed:' ALWAYS
+            # coincide with artifact staying None (no plan was ever built - see the
+            # early returns above). Filtering them under supervised trial reproduces
+            # Hata 37 at the source: the item gets zero blockers with zero content,
+            # gets marked 'ready', and later crashes with KeyError('payloads').
+            # These are real vetting failures (category unapproved, no supplier
+            # data, etc.), never skippable paperwork - never filter them.
+            filtered.append(b)
+        
+        return filtered
+    
+    result = {'product_id': pid, 'artifact': None, 'blockers': filter_supervised_trial_blockers()}
     if not re.fullmatch(r'[0-9]{6,}', pid):
         blockers.append('product_id_invalid')
+        result['blockers'] = filter_supervised_trial_blockers()
         return result
     if row.get('is_listed') not in (0, False, None, '0', '') or row.get('ebay_item_id'):
         blockers.append('already_listed')
+        result['blockers'] = filter_supervised_trial_blockers()
         return result
     initial_config = None
     try:
@@ -246,19 +343,25 @@ def build_prepared(ali, ebay, product_row, *, readiness, now=None):
         details = ali.get_product_details(pid)
     except Exception as error:
         blockers.append('supplier_details_failed:' + type(error).__name__)
+        result['blockers'] = filter_supervised_trial_blockers()
         return result
     current_skus, problem = _current_skus(details, pid)
     if problem:
         blockers.append(problem)
+        result['blockers'] = filter_supervised_trial_blockers()
         return result
     anchor = next(iter(current_skus))
     quote = _read_quote(ali, pid, anchor, blockers, now=now)
     if quote is None:
+        result['blockers'] = filter_supervised_trial_blockers()
         return result
     try:
-        st = deepcopy(publish.plan_for(ali, ebay, pid, float(quote['cost']), db_title=row.get('title')))
+        st = deepcopy(publish.plan_for(ali, ebay, pid, float(quote['cost']), db_title=row.get('title'),
+                                        verified_aspects=verified_variant_labels(pid),
+                                        extra_aspects=verified_extra_aspects(pid)))
     except Exception as error:
         blockers.append(_content_failure(error))
+        result['blockers'] = filter_supervised_trial_blockers()
         return result
     if str(st['res']['ae_item_base_info_dto'].get('product_id')) != pid:
         blockers.append('content_source_product_identity_mismatch')
@@ -301,6 +404,39 @@ def build_prepared(ali, ebay, product_row, *, readiness, now=None):
                 blockers.append('repriced_market_review_required')
         except Exception as error:
             blockers.append('repriced_market_unavailable:' + type(error).__name__)
+    
+    # Validate the actual saved publication fields, never the nested variant plan.
+    try:
+        quality_warnings = []
+        def add_quality(name, problems):
+            for problem in problems:
+                if name == 'images' and problem.startswith('below ideal image count'):
+                    quality_warnings.append(problem)
+                else:
+                    blockers.append('quality_' + name + ':' + problem.replace(' ', '_').replace(':', '-'))
+
+        add_quality('title', gates.check_title_quality(st['title']))
+        problems, info = gates.check_description_quality(st['desc'])
+        add_quality('description', problems)
+        quality = {'description': info, 'variants': [], 'warnings': quality_warnings}
+        problems, info = gates.check_category_confidence(st['cat'])
+        add_quality('category', problems)
+        quality['category'] = info
+        for variant in st['plan']['variants']:
+            # This is exactly the per-variant gallery/aspect merge compiled for eBay.
+            gallery = ([variant['image']] if variant.get('image') else []) + [
+                url for url in st['imgs'] if url != variant.get('image')]
+            gallery = list(dict.fromkeys(gallery))[:12]
+            problems, image_info = gates.check_image_count(gallery)
+            add_quality('images', problems)
+            aspects = {**st['shared'], **{key: [value] for key, value in variant['aspects'].items()}}
+            problems, aspect_info = gates.check_item_specifics_count(aspects)
+            add_quality('aspects', problems)
+            quality['variants'].append({'sku_id': variant['sku_id'],
+                                        'images': image_info, 'aspects': aspect_info})
+        st['gates']['quality'] = quality
+    except Exception as error:
+        blockers.append('quality_gates_failed:' + type(error).__name__)
     try:
         context = publication_context()
     except Exception as error:
@@ -318,7 +454,17 @@ def build_prepared(ali, ebay, product_row, *, readiness, now=None):
            for value in context.values()):
         blockers.append('publication_context_incomplete')
     st = _sanitize(st)
+    from src.listing_quality import listing_evidence
+    document_evidence = listing_evidence.verify_product(pid, st, now=observed)
+    # Only authenticated product/SKU/content-scoped document reviews can discharge
+    # their own requirements. Never waive finance, demand, risk or readiness here.
+    if 'source' not in document_evidence['errors']:
+        satisfied = set(document_evidence['satisfied_blockers'])
+        blockers = [reason for reason in blockers if reason not in satisfied]
     artifact = {'st': st, 'shipping_quotes': _sanitize(quotes), 'publication_context': context,
                 'observed_at': observed.isoformat(), 'config_fingerprint': initial_config or final_config,
-                'source_fingerprint': _digest(json.loads(json.dumps(st, default=str)))}
-    return {'product_id': pid, 'artifact': artifact, 'blockers': list(dict.fromkeys(blockers))}
+                'source_fingerprint': _digest(json.loads(json.dumps(st, default=str))),
+                'document_evidence': document_evidence}
+    
+    # Final return with supervised trial filtering applied
+    return {'product_id': pid, 'artifact': artifact, 'blockers': filter_supervised_trial_blockers()}

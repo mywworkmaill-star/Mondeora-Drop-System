@@ -410,10 +410,18 @@ class AliExpressAPIClient:
         while True:
             try:
                 if files is None:
-                    response = self.session.post(url, data=data, timeout=30)
+                    # 🚨 SECURITY FIX (2026-11-21): allow_redirects defaulted
+                    # to True — every signed AliExpress call (app_key, sign,
+                    # timestamp, and the live access/refresh token on /sync
+                    # and /auth/token/refresh calls) travels as POST body
+                    # data. A 3xx from api-sg.aliexpress.com would make
+                    # requests transparently resend that body, token
+                    # included, to the redirect target. ebay_client.py
+                    # already disables this everywhere; mirrored here.
+                    response = self.session.post(url, data=data, timeout=30, allow_redirects=False)
                 else:
                     # TOP signs text fields; binary bytes travel as a multipart file.
-                    response = self.session.post(url, data=data, files=files, timeout=30)
+                    response = self.session.post(url, data=data, files=files, timeout=30, allow_redirects=False)
             except requests.RequestException:
                 if idempotent and retries < MAX_RETRIES:
                     retries += 1

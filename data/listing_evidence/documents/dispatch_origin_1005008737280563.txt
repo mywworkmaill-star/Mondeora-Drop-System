@@ -1,0 +1,34 @@
+DISPATCH ORIGIN VERIFICATION METHODOLOGY / SEVKIYAT MENSEI DOGRULAMA YONTEMI
+=============================================================================
+REVISED 2026-11-16: the original version of this document assumed the
+AliExpress Freight API returns an explicit ship-from country field. That
+assumption was checked against the real API response and found WRONG -
+get_shipping_quote() returns no origin-country field at all, and the
+lower-level calculate_buyer_freight() call requires the caller to ALREADY
+know and supply the origin country (it is a freight calculator, not an
+origin-discovery tool). There is no API call in this system that
+independently verifies ship-from country.
+
+Real basis actually used instead:
+Each real freight quote returned for these products carries
+service_name/logistics_service_name = "CAINIAO_FULFILLMENT_STD" - Cainiao is
+Alibaba Group's own cross-border logistics network, used for AliExpress's
+standard China-to-overseas dropship fulfillment. This is a genuine, checked
+signal (not a guess): every product checked so far on this account uses
+this exact service name. The signing tool records dispatch_origin=CN when,
+and only when, the live quote's service_name/logistics_service_name matches
+this known China-origin Cainiao pattern. Any product returning a different,
+unrecognized service name is NOT auto-labeled - it is flagged
+"origin_requires_manual_check" and excluded from the dispatch_origin
+category until a human confirms the real origin (e.g. by checking the
+AliExpress listing page's own "Ships From" field, which this API does not
+expose).
+
+The account holder (Achmet Basirikli) has confirmed, 2026-11-16, that this
+carrier-signal-based methodology (CN for Cainiao-fulfilled SKUs, manual
+check for anything else) is an acceptable, honestly-labeled real basis for
+the dispatch_origin requirement - understanding this is inference from a
+real logistics signal, not a formal customs/origin certificate.
+
+
+LIVE VERIFICATION for product 1005008737280563, sku 12000046461425415, queried 2026-11-16T19:15:31.622507+00:00: logistics_service=CAINIAO_FULFILLMENT_STD -> dispatch_origin=CN

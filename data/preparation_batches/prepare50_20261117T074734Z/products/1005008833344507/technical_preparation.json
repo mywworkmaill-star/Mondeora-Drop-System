@@ -1,0 +1,130 @@
+{
+  "product_id": "1005008833344507",
+  "index": 5,
+  "checked_at": "2026-11-17T07:57:13.859024+00:00",
+  "ready_for_publication": false,
+  "remote_mutations_performed": false,
+  "errors": [],
+  "quote_count": 0,
+  "title": "Drehbarer Kleiderbügel mit 12 Haken – platzsparender Schrank-Organizer",
+  "title_issues": [
+    "non-German characters: {'–'}"
+  ],
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "sku_rows": [
+    {
+      "sku_id": "12000046874375493",
+      "cost": 1.79,
+      "stock": 75,
+      "aspects": {
+        "Farbe": "Grau"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sed3873eb523e41a9aad4a7b67a199ae21.jpg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "AliExpressAPIError"
+    }
+  ],
+  "category": {
+    "category_id": "36024",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Wand-, Türgarderoben & Haken",
+    "confidence": 1.0,
+    "needs_review": false,
+    "source": "override",
+    "level": "medium",
+    "note": "rotating clothes hanger with 12 hooks; auto-resolve wrongly picked 103458 Gardinen-/Jalousienteile (curtain/blind parts, 0.33 conf, nonsense). Real taxonomy search for Kleiderbuegel mit Haken drehbar surfaces this wardrobe-hook category as the best real semantic fit."
+  },
+  "supported_shared_aspects": {
+    "Material": [
+      "ABS"
+    ]
+  },
+  "human_review_aspect_names": [],
+  "missing_required_aspects": [
+    "Produktart"
+  ],
+  "required_aspects": [
+    {
+      "name": "Produktart",
+      "values": [
+        "Aufbewahrungshaken",
+        "Aufhängestreifen",
+        "Bademantelhaken",
+        "Besenhalter",
+        "Bilderhaken",
+        "Deckenhaken",
+        "Dekorativer Wandhaken",
+        "Garderobe",
+        "Garderobenbank & -paneele",
+        "Garderobenhaken",
+        "Garderoben-Set",
+        "Garderobenständer",
+        "Garderoben- und Hutablage",
+        "Gleithaken",
+        "Hakenleiste",
+        "Hakenleiste",
+        "Handtuchhaken",
+        "Handtuchhalter",
+        "Klammerbügel",
+        "Kleiderlüfter",
+        "Kleiderschiene",
+        "Kleiderstangenhalterung",
+        "Krawattenhalter",
+        "Magnethaken",
+        "Saugnapfgarderobe",
+        "Schirmständer",
+        "Schlüsselhaken",
+        "Schraubhaken",
+        "Selbstklebend",
+        "S-Haken",
+        "Stecktafel",
+        "Taschenhaken",
+        "Tassenhaken",
+        "Trockenmauer-Haken",
+        "Türgarderobe",
+        "Türhaken",
+        "Werkzeughalter",
+        "Werkzeugständer",
+        "Wischmopp-Haken",
+        "Wischmopp-Halter",
+        "Zackenaufhänger",
+        "Zeitungsständer"
+      ],
+      "mode": "FREE_TEXT"
+    }
+  ],
+  "optional_unknown_aspects": [
+    "Marke",
+    "Anzahl der Haken",
+    "Montage",
+    "Breite",
+    "Abteilung",
+    "Haken-Stil",
+    "Länge",
+    "Gewicht",
+    "Herstellernummer",
+    "Höhe",
+    "Modell",
+    "Farbe",
+    "Stil",
+    "Besonderheiten",
+    "Thema",
+    "Finish",
+    "Ursprungsland",
+    "Original/Reproduktion",
+    "Personalisieren",
+    "Anzahl der Einheiten",
+    "Anzahl pro Packung",
+    "Maßeinheit",
+    "Personalisiert",
+    "Pflegeanleitung",
+    "Anleitung für Personalisierung"
+  ],
+  "draft_file": "product_draft.html",
+  "finished_at": "2026-11-17T07:57:15.595970+00:00"
+}

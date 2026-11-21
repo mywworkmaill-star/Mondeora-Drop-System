@@ -1,0 +1,60 @@
+{
+  "index": 31,
+  "product_id": "1005011558522906",
+  "db_title": "Kompakter Schlüsselorganizer aus Metall, Minimalistischer Schlüsselhalter für Schlüsselbund, Sichert 2-6 Schlüssel, Aufbewahrungsorganisation",
+  "started_at": "2026-11-17T07:53:08.915330+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "Kompakter Schlüsselorganizer aus Metall, Minimalistischer Schlüsselhalter für Schlüsselbund, Sichert 2-6 Schlüssel, Aufbewahrungsorganisation",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/Sf98478150b1c49639ebf95adf7d5a3332.jpg",
+    "https://ae01.alicdn.com/kf/S75b365247c9d478884d93aec19d3d36ag.jpg",
+    "https://ae01.alicdn.com/kf/S648385e475444fd6aca3566d288040f9o.jpg",
+    "https://ae01.alicdn.com/kf/Sbadbd6c6705f476a87f10a2c20c7619d4.jpg",
+    "https://ae01.alicdn.com/kf/S2954b783e8e8445ca61344757ef750a9s.jpg",
+    "https://ae01.alicdn.com/kf/Sc6f715ec94f645e9a5e4e556a7a6c585N.jpg"
+  ],
+  "main_image_dimensions": [
+    800,
+    800
+  ],
+  "main_image_file": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\products\\1005011558522906\\main.jpg",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:category_unapproved",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 4
+  },
+  "finished_at": "2026-11-17T07:53:12.032486+00:00",
+  "canonical_status": "blocked"
+}

@@ -1,0 +1,50 @@
+{"product_id": "1005010026666604", "quotes": 1, "skus": 1, "missing_required": [], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005010496570687", "quotes": 2, "skus": 2, "missing_required": ["Breite", "Höhe", "Länge", "Produktart"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005008833344507", "quotes": 0, "skus": 1, "missing_required": ["Produktart"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005005759411405", "quotes": 5, "skus": 6, "missing_required": [], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005012066024130", "quotes": 1, "skus": 1, "missing_required": ["Marke"], "category_needs_review": false, "main_image_available": false}
+{"product_id": "1005007907908369", "quotes": 8, "skus": 8, "missing_required": ["Höhe", "Länge", "Breite"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005010796812930", "quotes": 1, "skus": 2, "missing_required": ["Breite", "Höhe", "Länge"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005008119002572", "quotes": 2, "skus": 2, "missing_required": ["Marke", "Produktart"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005007238983224", "error_type": "AliExpressAPIError"}
+{"product_id": "1005007659052613", "quotes": 1, "skus": 1, "missing_required": [], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005007584828356", "quotes": 11, "skus": 12, "missing_required": ["Produktart"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005012382436424", "quotes": 1, "skus": 1, "missing_required": [], "category_needs_review": false, "main_image_available": false}
+{"product_id": "1005007705527057", "quotes": 4, "skus": 4, "missing_required": ["Breite", "Höhe", "Länge"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005012032555747", "quotes": 3, "skus": 4, "missing_required": ["Breite", "Höhe", "Länge", "Produktart"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005010795524159", "quotes": 4, "skus": 4, "missing_required": ["Höhe", "Länge", "Breite"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005010141016715", "quotes": 2, "skus": 2, "missing_required": [], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005005385299054", "quotes": 6, "skus": 6, "missing_required": ["Hersteller"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005008290283020", "quotes": 0, "skus": 1, "missing_required": ["Breite", "Höhe", "Länge", "Produktart"], "category_needs_review": true, "main_image_available": true}
+{"product_id": "1005011848504195", "quotes": 2, "skus": 2, "missing_required": ["Hersteller", "Herstellernummer"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005008387790553", "quotes": 6, "skus": 7, "missing_required": ["Breite", "Höhe", "Länge"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005011904255432", "quotes": 2, "skus": 2, "missing_required": ["Marke", "Markenkompatibilität", "Modellkompatibilität", "Produktart"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005012774230299", "quotes": 2, "skus": 2, "missing_required": ["Marke", "Produktart", "Modellkompatibilität"], "category_needs_review": false, "main_image_available": false}
+{"product_id": "1005009992738407", "quotes": 2, "skus": 3, "missing_required": ["Marke"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005010471370917", "quotes": 1, "skus": 1, "missing_required": ["Marke", "Farbe"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005006830218955", "quotes": 7, "skus": 7, "missing_required": ["Breite", "Höhe", "Länge"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005005921446741", "quotes": 1, "skus": 1, "missing_required": ["Breite", "Höhe", "Länge", "Produktart"], "category_needs_review": true, "main_image_available": true}
+{"product_id": "1005010262367908", "quotes": 1, "skus": 1, "missing_required": ["Marke", "Produktart"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005007547820639", "quotes": 2, "skus": 2, "missing_required": ["Breite", "Höhe", "Länge", "Produktart"], "category_needs_review": true, "main_image_available": true}
+{"product_id": "1005004970036864", "quotes": 1, "skus": 2, "missing_required": ["Breite", "Höhe", "Länge", "Produktart"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005011558522906", "quotes": 7, "skus": 9, "missing_required": ["Marke"], "category_needs_review": true, "main_image_available": true}
+{"product_id": "1005009723070135", "quotes": 6, "skus": 6, "missing_required": ["Produktart"], "category_needs_review": true, "main_image_available": true}
+{"product_id": "1005008464837668", "quotes": 2, "skus": 2, "missing_required": ["Marke"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005011918498017", "quotes": 0, "skus": 1, "missing_required": ["Marke"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005012706422328", "quotes": 4, "skus": 4, "missing_required": ["Höhe", "Länge", "Breite"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005006116459385", "quotes": 39, "skus": 50, "missing_required": ["Höhe"], "category_needs_review": true, "main_image_available": true}
+{"product_id": "1005006963247455", "quotes": 10, "skus": 13, "missing_required": ["Marke"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005009313031651", "quotes": 2, "skus": 2, "missing_required": ["Höhe", "Länge", "Breite"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005006232978114", "quotes": 8, "skus": 11, "missing_required": ["Breite", "Höhe", "Länge"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005008684706431", "quotes": 6, "skus": 6, "missing_required": ["Produktart"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005007070511540", "quotes": 4, "skus": 5, "missing_required": ["Marke", "Produktart"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005007164564054", "quotes": 6, "skus": 6, "missing_required": ["Marke"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005006943431670", "quotes": 8, "skus": 9, "missing_required": ["Produktart"], "category_needs_review": true, "main_image_available": true}
+{"product_id": "1005008223937342", "quotes": 12, "skus": 14, "missing_required": ["Marke"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005008995117677", "quotes": 10, "skus": 13, "missing_required": ["Marke", "Markenkompatibilität", "Modellkompatibilität", "Produktart"], "category_needs_review": true, "main_image_available": true}
+{"product_id": "1005009800425890", "quotes": 2, "skus": 4, "missing_required": ["Hersteller"], "category_needs_review": true, "main_image_available": true}
+{"product_id": "1005012052613902", "quotes": 2, "skus": 2, "missing_required": ["Hersteller"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005007203879191", "quotes": 12, "skus": 13, "missing_required": ["Marke", "Farbe", "Produktart"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005012703904261", "quotes": 2, "skus": 2, "missing_required": ["Marke", "Produktart"], "category_needs_review": true, "main_image_available": false}
+{"product_id": "1005008997918604", "quotes": 1, "skus": 3, "missing_required": ["Marke", "Produktart"], "category_needs_review": false, "main_image_available": true}
+{"product_id": "1005008222543759", "quotes": 9, "skus": 9, "missing_required": ["Marke", "Produktart"], "category_needs_review": false, "main_image_available": true}

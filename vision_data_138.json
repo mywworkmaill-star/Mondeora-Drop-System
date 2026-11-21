@@ -1,0 +1,68 @@
+{
+  "dimensions": {
+    "found": true,
+    "length_cm": 15.2,
+    "width_cm": 15.2,
+    "height_cm": 7.0,
+    "text": "6IN × 6IN × 2.75IN",
+    "confidence": 95,
+    "source": "Image 6"
+  },
+  "material": {
+    "value": "Kunststoff (Transparent Box + Schaumstoff-Einsatz)",
+    "confidence": 93,
+    "source": "Images 2-5 consensus"
+  },
+  "color": {
+    "value": "Schwarz/Grau mit transparentem Deckel",
+    "confidence": 94,
+    "source": "Images 2-5 consensus"
+  },
+  "capacity": {
+    "value": "72 Batterien (32 AA + 40 AAA)",
+    "confidence": 100,
+    "source": "Image 2 explicit"
+  },
+  "features": [
+    {
+      "value": "Abnehmbarer Schaumstoff-Einsatz",
+      "confidence": 95,
+      "source": "Image 4"
+    },
+    {
+      "value": "Transparente Box mit schwarzem Einsatz",
+      "confidence": 95,
+      "source": "Image 4"
+    },
+    {
+      "value": "Tragbarer Griff",
+      "confidence": 95,
+      "source": "Image 5"
+    },
+    {
+      "value": "Wasserdicht",
+      "confidence": 95,
+      "source": "Image 5"
+    },
+    {
+      "value": "Sicherer Verschluss",
+      "confidence": 95,
+      "source": "Image 5"
+    },
+    {
+      "value": "Gut geschnittene Löcher für Batterien",
+      "confidence": 92,
+      "source": "Image 4"
+    },
+    {
+      "value": "Kompakte Aufbewahrung",
+      "confidence": 90,
+      "source": "Image 3"
+    },
+    {
+      "value": "Einzelfächer für jede Batterie",
+      "confidence": 95,
+      "source": "Images 3-4"
+    }
+  ]
+}

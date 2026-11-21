@@ -1,0 +1,9 @@
+{
+  "generated_at": "2026-11-17T07:18:00.725446+00:00",
+  "global_blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement"
+  ],
+  "ready_for_live": false,
+  "ready_for_supervised_trial": false
+}

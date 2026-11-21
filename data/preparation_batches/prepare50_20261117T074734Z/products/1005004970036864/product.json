@@ -1,0 +1,60 @@
+{
+  "index": 30,
+  "product_id": "1005004970036864",
+  "db_title": "1pc Grau Kleinigkeiten Tasche Lagerung Wand Halterung Mesh Kunststoff Taschen Spender Hängen Wiederverwendet Lagerung Beutel Müll Taschen Küche müll Org",
+  "started_at": "2026-11-17T07:53:07.837648+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "1pc Grau Kleinigkeiten Tasche Lagerung Wand Halterung Mesh Kunststoff Taschen Spender Hängen Wiederverwendet Lagerung Beutel Müll Taschen Küche müll Org",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/S2476cbf699164e95a7f8b34ca8050a15R.jpg",
+    "https://ae01.alicdn.com/kf/S691c1eee4dee4e468b62d65e7d9961c0w.jpg",
+    "https://ae01.alicdn.com/kf/S685e03afef584c7b9b1f676112463cabv.jpg",
+    "https://ae01.alicdn.com/kf/S46f766e569f14d96b4d9bf6cd4971f60G.jpg",
+    "https://ae01.alicdn.com/kf/S7787f453389f45a680c858eb2fa41342q.jpg",
+    "https://ae01.alicdn.com/kf/S9049c05d84104e97a2fc9d484bbca692t.jpg"
+  ],
+  "main_image_dimensions": [
+    800,
+    800
+  ],
+  "main_image_file": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\products\\1005004970036864\\main.jpg",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:category_aspects_incomplete",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 8
+  },
+  "finished_at": "2026-11-17T07:53:13.555312+00:00",
+  "canonical_status": "blocked"
+}

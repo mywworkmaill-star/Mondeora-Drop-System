@@ -1,0 +1,248 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:94#Black 20 pcs",
+        "offer_sale_price": "2.49",
+        "sku_id": "12000041287323912",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "2.50",
+        "offer_bulk_sale_price": "2.49",
+        "sku_available_stock": 121,
+        "id": "14:94#Black 20 pcs",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "grau",
+              "sku_image": "https://ae01.alicdn.com/kf/S5c4178a74ebf46b3b82a0d3cd7961081m.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Black 20 pcs",
+              "property_value_id": 94,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:350852#Gray 10 pcs",
+        "offer_sale_price": "1.69",
+        "sku_id": "12000039668865886",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "1.70",
+        "offer_bulk_sale_price": "1.69",
+        "sku_available_stock": 24,
+        "id": "14:350852#Gray 10 pcs",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Orange",
+              "sku_image": "https://ae01.alicdn.com/kf/S94e6bbdde29c40618ce7db8fcf28a72aq.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Gray 10 pcs",
+              "property_value_id": 350852,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:29#Gray 20  pcs",
+        "offer_sale_price": "2.45",
+        "sku_id": "12000041287323911",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "2.46",
+        "offer_bulk_sale_price": "2.45",
+        "sku_available_stock": 25,
+        "id": "14:29#Gray 20  pcs",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "WEISS",
+              "sku_image": "https://ae01.alicdn.com/kf/S8dc2c356e33a4ed9bb0f994d1979695aW.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Gray 20  pcs",
+              "property_value_id": 29,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:350853#Black 10 pcs",
+        "offer_sale_price": "1.75",
+        "sku_id": "12000039668865887",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "1.76",
+        "offer_bulk_sale_price": "1.75",
+        "sku_available_stock": 72,
+        "id": "14:350853#Black 10 pcs",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Silber",
+              "sku_image": "https://ae01.alicdn.com/kf/S68b40013e7e3478cbf2b551567297d29v.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Black 10 pcs",
+              "property_value_id": 350853,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:10#White 20 pcs",
+        "offer_sale_price": "2.49",
+        "sku_id": "12000041287323910",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "2.50",
+        "offer_bulk_sale_price": "2.49",
+        "sku_available_stock": 32,
+        "id": "14:10#White 20 pcs",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Rot",
+              "sku_image": "https://ae01.alicdn.com/kf/S4e96d64299c5491c827776ceab7975ae9.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "White 20 pcs",
+              "property_value_id": 10,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:350850#White 10 pcs",
+        "offer_sale_price": "1.79",
+        "sku_id": "12000039668865885",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "1.79",
+        "offer_bulk_sale_price": "1.79",
+        "sku_available_stock": 16,
+        "id": "14:350850#White 10 pcs",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Gold",
+              "sku_image": "https://ae01.alicdn.com/kf/S224b239328fb4e26a43d00dd01aa65bb1.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "White 10 pcs",
+              "property_value_id": 350850,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "image_urls": "https://ae01.alicdn.com/kf/S67bd0062b7b44261b2f7ae44d96f52bdI.jpg;https://ae01.alicdn.com/kf/S3ea7899dbaba4b2bb0a32b998c0c4d83o.jpg;https://ae01.alicdn.com/kf/S224b239328fb4e26a43d00dd01aa65bb1.jpg;https://ae01.alicdn.com/kf/S0cf3a30922e94dff92abe01ce0ed4413r.jpg;https://ae01.alicdn.com/kf/S6d9c687733ea42a6bab2ab2279de7694X.jpg;https://ae01.alicdn.com/kf/Sd14d5c5187174b4b9174b2b68c8fe2cdv.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 10,
+    "package_height": 2,
+    "package_length": 10,
+    "gross_weight": "0.020",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 5,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005007164564054,
+    "sub_product_id": "{\"US\":3256806978249302}"
+  },
+  "ae_item_base_info_dto": {
+    "subject": "Kabelbinder, Befestigungsdraht, wiederverwendbarer Kabel-Organizer, Kabel-Seil-Halter, selbstklebend, verstellbar, Kabel-Organizer, Riemen, Schreibtisch-Management",
+    "evaluation_count": "1794",
+    "sales_count": "10000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.8",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 14191206,
+    "product_id": 1005007164564054,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p id=\"tl_1\">Product Description<img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S67bd0062b7b44261b2f7ae44d96f52bdI.jpg\" slate-data-type=\"image\" /></p>\n<p><br /></p>\n<p id=\"tl_2\">Product Name: Velcro straps</p>\n<p id=\"tl_3\">Material: Nylon</p>\n<p id=\"tl_4\">Colour: black, grey, white</p>\n<p id=\"tl_5\">Size: as shown in the picture</p>\n<p><br /></p>\n<p id=\"tl_6\">Cautions</p>\n<p id=\"tl_7\">1. Due to manual measurement, the size may have 1-2 cm difference.</p>\n<p id=\"tl_8\">2. Due to the difference of monitor and lighting, the picture may not show the actual colour of the item. Thank you for your understanding.<img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S6d9c687733ea42a6bab2ab2279de7694X.jpg\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sd14d5c5187174b4b9174b2b68c8fe2cdv.jpg\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S0cf3a30922e94dff92abe01ce0ed4413r.jpg\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S68b40013e7e3478cbf2b551567297d29v.jpg\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S224b239328fb4e26a43d00dd01aa65bb1.jpg\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S94e6bbdde29c40618ce7db8fcf28a72aq.jpg\" slate-data-type=\"image\" /></p></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "1706 zhong'an building, culture community plaza, baji street, longgang district, shenzhen city, guangdong province",
+    "phone": "15820113901",
+    "country_name": "China",
+    "email": "854009283@qq.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 400083212,
+        "attr_value_id": 24097551176,
+        "attr_name": "Ist drahtlose Funktionalität enthalten?",
+        "attr_value": "Ja"
+      },
+      {
+        "attr_name_id": 400084007,
+        "attr_value_id": 23399554847,
+        "attr_name": "Ist eine Batterie im Lieferumfang enthalten?",
+        "attr_value": "Nein"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 10,
+        "attr_value_id": 63,
+        "attr_name": "Material",
+        "attr_value": "Nylon"
+      },
+      {
+        "attr_name_id": 200000631,
+        "attr_value_id": 349907,
+        "attr_name": "Individualisiert",
+        "attr_value": "Ja"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      },
+      {
+        "attr_name_id": -2,
+        "attr_name": "semi_Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 911340143,
+    "shipping_speed_rating": "4.8",
+    "communication_rating": "4.8",
+    "store_name": "China Topbrand Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.7"
+  }
+}

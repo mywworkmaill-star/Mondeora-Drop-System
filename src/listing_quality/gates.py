@@ -106,6 +106,144 @@ def acknowledged(pid):
         return {}
 
 
+def check_title_quality(title, rules=None):
+    """Enhanced title quality gate: 60-80 char target, 8+ words, natural German keywords."""
+    t = (rules or _load('risk_rules.json'))['title']
+    probs = []
+    tlen = len(title.strip())
+    
+    # Character range check (60-80 is optimal, warn if outside)
+    if tlen < 60:
+        probs.append(f'title too short ({tlen} < 60 chars) - add more descriptive keywords')
+    elif tlen > 80:
+        probs.append(f'title too long ({tlen} > 80 chars)')
+    
+    # Word count (8+ is optimal for German keywords)
+    words = re.findall(r'[\wäöüÄÖÜß]+', title)
+    if len(words) < 8:
+        probs.append(f'too few keywords ({len(words)} < 8 words)')
+    
+    # Check for non-German characters/words (excluding real model names)
+    foreign_chars = re.findall(r'[^\x00-\x7F\u00C0-\u017F\u0370-\u03FF\s\d\-.,!?()]', title)
+    if foreign_chars:
+        probs.append(f'non-German characters: {set(foreign_chars)}')
+    
+    return probs
+
+
+def check_image_count(image_urls, rules=None):
+    """Image count gate: min 6, ideal 8-12, all ≥500px (uses images.filter_urls)."""
+    from src.listing_quality.images import filter_urls
+    
+    rules = rules or _load('risk_rules.json')
+    img_rules = rules.get('images', {'min_count': 6, 'ideal_count': 8})
+    
+    if not image_urls or not isinstance(image_urls, (list, tuple)):
+        return ['no images provided'], {'total': 0, 'valid': 0, 'dropped': 0}
+    
+    kept, dropped = filter_urls(list(image_urls))
+    info = {
+        'total': len(image_urls),
+        'valid': len(kept),
+        'dropped': len(dropped),
+        'ideal': img_rules['ideal_count']
+    }
+    
+    probs = []
+    if len(kept) < img_rules['min_count']:
+        probs.append(f'insufficient images ({len(kept)} < {img_rules["min_count"]} min)')
+    elif len(kept) < img_rules['ideal_count']:
+        probs.append(f'below ideal image count ({len(kept)} < {img_rules["ideal_count"]} ideal)')
+    
+    if dropped:
+        probs.append(f'{len(dropped)} images dropped (< 500px or invalid)')
+    
+    return probs, info
+
+
+def check_description_quality(description, rules=None):
+    """Description quality gate: min 500 chars, HTML structure, bullet points."""
+    rules = rules or _load('risk_rules.json')
+    desc_rules = rules.get('description', {'min_length': 500})
+    
+    if not description or not isinstance(description, str):
+        return ['empty description'], {'length': 0}
+    
+    clean_text = re.sub(r'<[^>]+>', '', description)  # Strip HTML for length check
+    text_length = len(clean_text.strip())
+    
+    info = {
+        'length': text_length,
+        'has_html': '<' in description and '>' in description,
+        'has_lists': '<ol' in description.lower() or '<ul' in description.lower() or '<li' in description.lower(),
+        'has_table': '<table' in description.lower() or '<tr' in description.lower(),
+    }
+    
+    probs = []
+    if text_length < desc_rules['min_length']:
+        probs.append(f'description too short ({text_length} < {desc_rules["min_length"]} chars)')
+    
+    if not info['has_html']:
+        probs.append('no HTML formatting (plain text only)')
+    
+    if not info['has_lists']:
+        probs.append('no bullet points or numbered lists')
+    
+    if not info['has_table']:
+        probs.append('no specification table')
+    
+    return probs, info
+
+
+def check_item_specifics_count(aspects, rules=None):
+    """Item specifics gate: min 10 aspects (eBay's own requirement + quality)."""
+    rules = rules or _load('risk_rules.json')
+    aspect_rules = rules.get('aspects', {'min_count': 10})
+    
+    if not aspects or not isinstance(aspects, (list, dict)):
+        return ['no item specifics provided'], {'count': 0}
+    
+    count = len(aspects) if isinstance(aspects, dict) else len([a for a in aspects if isinstance(a, (tuple, list)) and len(a) >= 2])
+    info = {'count': count, 'min_required': aspect_rules['min_count']}
+    
+    probs = []
+    if count < aspect_rules['min_count']:
+        probs.append(f'insufficient item specifics ({count} < {aspect_rules["min_count"]} min)')
+    
+    return probs, info
+
+
+def check_category_confidence(category_result, rules=None):
+    """Category confidence gate: ≥ 0.6 confidence, needs_review flag check."""
+    rules = rules or _load('risk_rules.json')
+    cat_rules = rules.get('category', {'min_confidence': 0.6})
+    
+    if not isinstance(category_result, dict):
+        return ['invalid category result'], {'confidence': 0.0}
+    
+    confidence = category_result.get('confidence', 0.0)
+    needs_review = category_result.get('needs_review', True)
+    category_id = category_result.get('category_id')
+    
+    info = {
+        'confidence': confidence,
+        'needs_review': needs_review,
+        'category_id': category_id
+    }
+    
+    probs = []
+    if confidence < cat_rules['min_confidence']:
+        probs.append(f'low category confidence ({confidence:.2f} < {cat_rules["min_confidence"]})')
+    
+    if needs_review:
+        probs.append('category flagged for manual review')
+    
+    if not category_id:
+        probs.append('no category ID assigned')
+    
+    return probs, info
+
+
 def evaluate(pid, title, props, ebay=None, queries=None, our_price=None):
     rules = _load('risk_rules.json')
     block, review = check_risk(title, props, rules)

@@ -1,0 +1,56 @@
+{
+  "index": 48,
+  "product_id": "1005012703904261",
+  "db_title": "45 cm schwarzer, verstellbarer Kabelorganizer mit 3-Achsen-Schnalle – Schwerlast-Organizer mit 3-Achsen-Schnalle – Schwerlast-Aufbewahrungsgurt",
+  "started_at": "2026-11-17T07:53:30.253574+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "45 cm schwarzer, verstellbarer Kabelorganizer mit 3-Achsen-Schnalle – Schwerlast-Organizer mit 3-Achsen-Schnalle – Schwerlast-Aufbewahrungsgurt",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/S0f68cad53b754733a17014f6756b261dS.jpg",
+    "https://ae01.alicdn.com/kf/Se28c1bb167f3492bbd9a4fafc0d588d0B.jpg",
+    "https://ae01.alicdn.com/kf/S55de0cf917ae4f81914c4703a6cc9052p.jpg",
+    "https://ae01.alicdn.com/kf/S7a93f3f0456645299d72d5078f165e03N.jpg",
+    "https://ae01.alicdn.com/kf/Se618bba2088c4f61b61aa298bcddc385Y.jpg",
+    "https://ae01.alicdn.com/kf/S4090998bfbfb45458a85ff805027f7afP.jpg"
+  ],
+  "image_download_error": "HTTPError",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:category_unapproved",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 4
+  },
+  "finished_at": "2026-11-17T07:53:33.729026+00:00",
+  "canonical_status": "blocked"
+}

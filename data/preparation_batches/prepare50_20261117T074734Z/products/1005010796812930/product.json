@@ -1,0 +1,60 @@
+{
+  "index": 9,
+  "product_id": "1005010796812930",
+  "db_title": "Heißer Verkauf: 4-stöckiges X-förmiges Schuhregal, Multifunktionales X-Design Staubgeschütztes Aufbewahrungsregal für Schlafsäle, Eingangsbereiche, Flure und Schlafzimmer",
+  "started_at": "2026-11-17T07:52:45.986533+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "Heißer Verkauf: 4-stöckiges X-förmiges Schuhregal, Multifunktionales X-Design Staubgeschütztes Aufbewahrungsregal für Schlafsäle, Eingangsbereiche, Flure und Schlafzimmer",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/Sfe90d48f18294b3f99c41e726c3ca3e3p.jpg",
+    "https://ae01.alicdn.com/kf/S12db55d326014ad4b2efa06d2fbe4bdaS.jpg",
+    "https://ae01.alicdn.com/kf/S440aa082570a4970a0b8fc5b2fc6efa9Q.jpg",
+    "https://ae01.alicdn.com/kf/S87c7b3d369c34f488af4c7854a5a964cT.jpg",
+    "https://ae01.alicdn.com/kf/Sbf5f134222834fd293e08dc7e101a2c48.jpg",
+    "https://ae01.alicdn.com/kf/Se1d6864d84914df38071da0f5edb0301z.jpg"
+  ],
+  "main_image_dimensions": [
+    1200,
+    1200
+  ],
+  "main_image_file": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\products\\1005010796812930\\main.jpg",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:category_aspects_incomplete",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 1
+  },
+  "finished_at": "2026-11-17T07:52:48.961368+00:00",
+  "canonical_status": "blocked"
+}

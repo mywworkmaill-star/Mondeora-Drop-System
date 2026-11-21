@@ -1,0 +1,74 @@
+# TÜM KULLANILABİLİR EBAY ASPECTS
+# Bu aspects'ler kategori metadata'dan gelecek
+# Her ürün için uygun olanlar seçilecek
+# ASLA UYDURMA - sadece gerçek veri
+
+# Temel Bilgiler
+Marke
+Produktart
+EAN
+GTIN
+Herstellernummer
+Modell
+
+# Fiziksel Özellikler - Boyutlar
+Länge
+Breite
+Höhe
+Tiefe
+Durchmesser
+Gewicht
+Fassungsvermögen
+Volumen
+Größe
+
+# Görsel Özellikler
+Farbe
+Material
+Stil
+Form
+Muster
+Oberflächenbeschaffenheit
+Finish
+Thema
+
+# Kullanım
+Zimmer
+Innen-/Außenbereich
+Abteilung
+Jahreszeit
+Anlass
+Personalisiert
+
+# Elektrik/Elektronik
+Stromquelle
+Spannung
+Leistung
+Energieeffizienzklasse
+Lichtfarbe
+Farbtemperatur
+Lichtstrom
+Beleuchtungstechnik
+Fassung
+Schutzart
+Smart Home Kompatibilität
+Steuerungsart
+
+# Montaj/Kurulum
+Montage erforderlich
+Montageart
+Anzahl der Teile
+Set enthält
+Kabellänge
+
+# Kapasite/Dayanıklılık
+Sitzhöhe
+Maximale Belastbarkeit
+Kapazität
+
+# Bakım/Garanti
+Besonderheiten
+Pflegeanleitung
+Herstellungsland und -region
+Herstellergarantie
+Lieferumfang

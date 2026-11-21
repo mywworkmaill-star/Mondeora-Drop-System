@@ -1,0 +1,62 @@
+{
+  "index": 24,
+  "product_id": "1005006116459385",
+  "db_title": "Versiegelte Gläser Küche Getreide Lagerung Organizer Große Tank Kunststoff Feuchtigkeit-beständig Lagerung Box Haushalt Gewürz Gläser Set",
+  "started_at": "2026-11-17T07:53:00.491189+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "Versiegelte Gläser Küche Getreide Lagerung Organizer Große Tank Kunststoff Feuchtigkeit-beständig Lagerung Box Haushalt Gewürz Gläser Set",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [
+      "cosmetics_food_supplement: ['lebensmittel']"
+    ],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/S3e7307eb6df446c2b7a74b70fd3002d6k.jpg",
+    "https://ae01.alicdn.com/kf/S988306eb788f475595bd4df7b3b0044ce.jpg",
+    "https://ae01.alicdn.com/kf/S2f6fc2470ad54ab4907f5f6d953597e8P.jpg",
+    "https://ae01.alicdn.com/kf/S03901ae3c00748bc9e3b960b504467b37.jpg",
+    "https://ae01.alicdn.com/kf/S36103485402340f296e9998f9e440c1fQ.jpg",
+    "https://ae01.alicdn.com/kf/S2221d981369a41b192ef6ec2b8b236ccy.jpg"
+  ],
+  "main_image_dimensions": [
+    800,
+    800
+  ],
+  "main_image_file": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\products\\1005006116459385\\main.jpg",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:gate_review",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 0
+  },
+  "finished_at": "2026-11-17T07:53:02.521625+00:00",
+  "canonical_status": "blocked"
+}

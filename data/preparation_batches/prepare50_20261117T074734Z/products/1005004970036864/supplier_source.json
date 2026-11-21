@@ -1,0 +1,212 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:193#1PC Black",
+        "offer_sale_price": "2.05",
+        "sku_id": "12000037011085900",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "4.10",
+        "offer_bulk_sale_price": "2.05",
+        "sku_available_stock": 26,
+        "id": "14:193#1PC Black",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "schwarz",
+              "sku_image": "https://ae01.alicdn.com/kf/S461a91b14b844826b45ad24cb20fb27fl.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "1PC Black",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:366#1PC Yellow",
+        "offer_sale_price": "2.35",
+        "sku_id": "12000037011085899",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "4.70",
+        "offer_bulk_sale_price": "2.35",
+        "sku_available_stock": 10,
+        "id": "14:366#1PC Yellow",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Gelb",
+              "sku_image": "https://ae01.alicdn.com/kf/S366f6119d8c24942b05594460f398b674.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "1PC Yellow",
+              "property_value_id": 366,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "ae_video_dtos": {
+      "ae_video_d_t_o": [
+        {
+          "media_status": "approved",
+          "media_type": "video",
+          "poster_url": "https://ae-pic-a1.aliexpress-media.com/kf/S2476cbf699164e95a7f8b34ca8050a15R.jpg",
+          "ali_member_id": 2683392016,
+          "media_id": 1100149021257,
+          "media_url": "https://video.aliexpress-media.com/play/1100149021257.mp4"
+        }
+      ]
+    },
+    "image_urls": "https://ae01.alicdn.com/kf/S2476cbf699164e95a7f8b34ca8050a15R.jpg;https://ae01.alicdn.com/kf/S691c1eee4dee4e468b62d65e7d9961c0w.jpg;https://ae01.alicdn.com/kf/S685e03afef584c7b9b1f676112463cabv.jpg;https://ae01.alicdn.com/kf/S46f766e569f14d96b4d9bf6cd4971f60G.jpg;https://ae01.alicdn.com/kf/S7787f453389f45a680c858eb2fa41342q.jpg;https://ae01.alicdn.com/kf/S9049c05d84104e97a2fc9d484bbca692t.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 8,
+    "package_height": 3,
+    "package_length": 13,
+    "gross_weight": "0.011",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005004970036864,
+    "sub_product_id": "{\"US\":3256804783722112}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"mobileDetail\":[{\"content\":\"Umwelt freundliches Material\",\"type\":\"text\"},{\"content\":\"Diese Aufbewahrung tasche aus umwelt freundlichem Polyester bietet eine nachhaltige Lösung für Ihr Küchen abfall management.\",\"type\":\"text\"},{\"content\":\"Wand montage Design\",\"type\":\"text\"},{\"content\":\"Das an der Wand montierte Design dieser Aufbewahrung tasche spart nicht nur Platz, sondern verleiht Ihrer Küche auch einen Hauch von modernem Komfort.\",\"type\":\"text\"},{\"content\":\"3D-Muster\",\"type\":\"text\"},{\"content\":\"Das drei dimensionale Muster auf der Aufbewahrung tasche verleiht Ihrem Küchen dekor einen einzigartigen ästhetischen Reiz und macht es zu einer stilvollen Ergänzung.\",\"type\":\"text\"},{\"content\":\"Vielseitiger Einsatz\",\"type\":\"text\"},{\"content\":\"Diese Aufbewahrung tasche ist vielseitig einsetzbar und eignet sich zur Aufbewahrung von Küchen müll, wieder verwendeten Aufbewahrung beuteln oder anderen kleinen Gegenständen. Dies macht sie zu einem praktischen Haushalts gegenstand.\",\"type\":\"text\"},{\"content\":\"Haltbare Dicke\",\"type\":\"text\"},{\"content\":\"Mit einer Dicke von 2,5 Drähten ist diese Aufbewahrung tasche langlebig und langlebig, um sicher zustellen, dass sie schweren Gegenständen standhält.\",\"type\":\"text\"},{\"content\":\"Einfacher Zugang\",\"type\":\"text\"},{\"content\":\"Das Design dieser Aufbewahrung tasche ermöglicht einen einfachen Zugang und Komfort und ist damit eine praktische Wahl für den täglichen Gebrauch.\",\"type\":\"text\"},{\"content\":\"Merkmale:\",\"type\":\"text\"},{\"content\":\"Hängendes Design, leere Plastiktüten\",\"type\":\"text\"},{\"content\":\"Einfach zu bedienen, ordentlich und ordentlich\",\"type\":\"text\"},{\"content\":\"Verschleiß fest, langlebig und verformung beständig\",\"type\":\"text\"},{\"content\":\"Sauber und ordentlich, nicht leicht zu erden, Veredelung\",\"type\":\"text\"},{\"content\":\"Oben, unten ziehen, doppelte Öffnung\",\"type\":\"text\"},{\"content\":\"Förderlich für die Veredelung, bequem für den sekundären Gebrauch\",\"type\":\"text\"},{\"content\":\"Spezifikationen:\",\"type\":\"text\"},{\"content\":\"Artikel kategorie: Aufbewahrung tasche\",\"type\":\"text\"},{\"content\":\"Material: Nylon\",\"type\":\"text\"},{\"content\":\"Gewicht: 20g (ca. 5g Fehler)\",\"type\":\"text\"},{\"content\":\"Farbe: grau\",\"type\":\"text\"},{\"content\":\"Paket einges ch lossen:\",\"type\":\"text\"},{\"content\":\"1 * Aufbewahrung tasche\",\"type\":\"text\"},{\"content\":\"Anmerkung:\",\"type\":\"text\"},{\"content\":\"1. Bitte erlauben Sie 1-3 cm unter scheidet sich aufgrund der manuellen Messung.\",\"type\":\"text\"},{\"content\":\"2. Aufgrund der unterschied lichen Anzeige und des unterschied lichen Lichts zeigt das Bild möglicher weise nicht die tatsächliche Farbe des Artikels an. Vielen Dank für Ihr Verständnis\",\"type\":\"text\"},{\"col\":1,\"images\":[{\"height\":653,\"imgUrl\":\"https://ae01.alicdn.com/kf/S8f5412ec130d4cab92e0dae64eaa28a8v.jpg\",\"width\":750},{\"height\":412,\"imgUrl\":\"https://ae01.alicdn.com/kf/S2950274d343b4b08902b8579d1920cfdI.jpg\",\"width\":750},{\"height\":502,\"imgUrl\":\"https://ae01.alicdn.com/kf/Sf123cef843ce4a4d998c25af485d9d5bg.jpg\",\"width\":750},{\"height\":734,\"imgUrl\":\"https://ae01.alicdn.com/kf/S528f8e19d5ad412d9148853bfb7ef7aev.jpg\",\"width\":750},{\"height\":720,\"imgUrl\":\"https://ae01.alicdn.com/kf/S15e06c41d6de454aa25fffb03e83e394D.jpg\",\"width\":750},{\"height\":625,\"imgUrl\":\"https://ae01.alicdn.com/kf/Seae5d72cc90a49a89db9db7ed4ae183bl.jpg\",\"width\":750},{\"height\":553,\"imgUrl\":\"https://ae01.alicdn.com/kf/S46974c200c824df9b812b27f14197c34c.jpg\",\"width\":750},{\"height\":785,\"imgUrl\":\"https://ae01.alicdn.com/kf/S2ace8cd788dc42feac92b6dcb514bf41i.jpg\",\"width\":750},{\"height\":501,\"imgUrl\":\"https://ae01.alicdn.com/kf/S2aae3917fff245649facd2e95876030fn.jpg\",\"width\":750},{\"height\":500,\"imgUrl\":\"https://ae01.alicdn.com/kf/Scaaa0438b32f4bae98c0a0ce0b8a1056g.jpg\",\"width\":750}],\"type\":\"image\"}],\"version\":\"1.0\",\"versionNum\":1}",
+    "subject": "1pc Grau Kleinigkeiten Tasche Lagerung Wand Halterung Mesh Kunststoff Taschen Spender Hängen Wiederverwendet Lagerung Beutel Müll Taschen Küche müll Org",
+    "evaluation_count": "3183",
+    "sales_count": "10000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.7",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 154101,
+    "product_id": 1005004970036864,
+    "detail": "<html>\n <head></head> \n <body>\n  <div class=\"ai-description\">\n   <div class=\"origin-part box-sizing\">\n    <p style=\"\n        font-family: 'Open Sans', sans-serif;\n        font-size: 14px;\n        font-weight: 400;\n        letter-spacing: normal;\n        line-height: inherit;\n        text-align: start;\n        white-space: normal;\n        color: rgb(0, 0, 0);\n        background-color: rgb(255, 255, 255);\n        margin: 0px;\n        margin-bottom: 0px;\n        margin-top: 0px;\n        margin-left: 0px;\n        margin-right: 0px;\n        padding: 0px;\n        padding-bottom: 0px;\n        padding-top: 0px;\n        padding-left: 0px;\n        padding-right: 0px;\n        box-sizing: border-box;\n      \" align=\"start\"> <span style=\"background-color: rgba(255, 255, 255, 255)\"><strong>• Umwelt freundliches Material :</strong></span><span style=\"background-color: rgba(255, 255, 255, 255)\">Diese Aufbewahrung tasche aus umwelt freundlichem Polyester bietet eine nachhaltige L&ouml;sung f&uuml;r Ihr K&uuml;chen abfall management.</span> </p> \n    <p><br /></p>\n    <p style=\"\n        font-family: 'Open Sans', sans-serif;\n        font-size: 14px;\n        font-weight: 400;\n        letter-spacing: normal;\n        line-height: inherit;\n        text-align: start;\n        white-space: normal;\n        color: rgb(0, 0, 0);\n        background-color: rgb(255, 255, 255);\n        margin: 0px;\n        margin-bottom: 0px;\n        margin-top: 0px;\n        margin-left: 0px;\n        margin-right: 0px;\n        padding: 0px;\n        padding-bottom: 0px;\n        padding-top: 0px;\n        padding-left: 0px;\n        padding-right: 0px;\n        box-sizing: border-box;\n      \" align=\"start\"> <span style=\"background-color: rgba(255, 255, 255, 255)\"><strong>• Wand montage Design :</strong></span><span style=\"background-color: rgba(255, 255, 255, 255)\">Das an der Wand montierte Design dieser Aufbewahrung tasche spart nicht nur Platz, sondern verleiht Ihrer K&uuml;che auch einen Hauch von modernem Komfort.</span> </p> \n    <p><br /></p>\n    <p style=\"\n        font-family: 'Open Sans', sans-serif;\n        font-size: 14px;\n        font-weight: 400;\n        letter-spacing: normal;\n        line-height: inherit;\n        text-align: start;\n        white-space: normal;\n        color: rgb(0, 0, 0);\n        background-color: rgb(255, 255, 255);\n        margin: 0px;\n        margin-bottom: 0px;\n        margin-top: 0px;\n        margin-left: 0px;\n        margin-right: 0px;\n        padding: 0px;\n        padding-bottom: 0px;\n        padding-top: 0px;\n        padding-left: 0px;\n        padding-right: 0px;\n        box-sizing: border-box;\n      \" align=\"start\"> <span style=\"background-color: rgba(255, 255, 255, 255)\"><strong>• 3D-Muster :</strong></span><span style=\"background-color: rgba(255, 255, 255, 255)\">Das drei dimensionale Muster auf der Aufbewahrung tasche verleiht Ihrem K&uuml;chen dekor einen einzigartigen &auml;sthetischen Reiz und macht es zu einer stilvollen Erg&auml;nzung.</span> </p> \n    <p><br /></p>\n    <p style=\"\n        font-family: 'Open Sans', sans-serif;\n        font-size: 14px;\n        font-weight: 400;\n        letter-spacing: normal;\n        line-height: inherit;\n        text-align: start;\n        white-space: normal;\n        color: rgb(0, 0, 0);\n        background-color: rgb(255, 255, 255);\n        margin: 0px;\n        margin-bottom: 0px;\n        margin-top: 0px;\n        margin-left: 0px;\n        margin-right: 0px;\n        padding: 0px;\n        padding-bottom: 0px;\n        padding-top: 0px;\n        padding-left: 0px;\n        padding-right: 0px;\n        box-sizing: border-box;\n      \" align=\"start\"> <span style=\"background-color: rgba(255, 255, 255, 255)\"><strong>• Vielseitiger Einsatz :</strong></span><span style=\"background-color: rgba(255, 255, 255, 255)\">Diese Aufbewahrung tasche ist vielseitig einsetzbar und eignet sich zur Aufbewahrung von K&uuml;chen m&uuml;ll, wieder verwendeten Aufbewahrung beuteln oder anderen kleinen Gegenst&auml;nden. Dies macht sie zu einem praktischen Haushalts gegenstand.</span> </p> \n    <p><br /></p>\n    <p style=\"\n        font-family: 'Open Sans', sans-serif;\n        font-size: 14px;\n        font-weight: 400;\n        letter-spacing: normal;\n        line-height: inherit;\n        text-align: start;\n        white-space: normal;\n        color: rgb(0, 0, 0);\n        background-color: rgb(255, 255, 255);\n        margin: 0px;\n        margin-bottom: 0px;\n        margin-top: 0px;\n        margin-left: 0px;\n        margin-right: 0px;\n        padding: 0px;\n        padding-bottom: 0px;\n        padding-top: 0px;\n        padding-left: 0px;\n        padding-right: 0px;\n        box-sizing: border-box;\n      \" align=\"start\"> <span style=\"background-color: rgba(255, 255, 255, 255)\"><strong>• Haltbare Dicke :</strong></span><span style=\"background-color: rgba(255, 255, 255, 255)\">Mit einer Dicke von 2,5 Dr&auml;hten ist diese Aufbewahrung tasche langlebig und langlebig, um sicher zustellen, dass sie schweren Gegenst&auml;nden standh&auml;lt.</span> </p> \n    <p><br /></p>\n    <p style=\"\n        font-family: 'Open Sans', sans-serif;\n        font-size: 14px;\n        font-weight: 400;\n        letter-spacing: normal;\n        line-height: inherit;\n        text-align: start;\n        white-space: normal;\n        color: rgb(0, 0, 0);\n        background-color: rgb(255, 255, 255);\n        margin: 0px;\n        margin-bottom: 0px;\n        margin-top: 0px;\n        margin-left: 0px;\n        margin-right: 0px;\n        padding: 0px;\n        padding-bottom: 0px;\n        padding-top: 0px;\n        padding-left: 0px;\n        padding-right: 0px;\n        box-sizing: border-box;\n      \" align=\"start\"> <span style=\"background-color: rgba(255, 255, 255, 255)\"><strong>• Einfacher Zugang :</strong></span><span style=\"background-color: rgba(255, 255, 255, 255)\">Das Design dieser Aufbewahrung tasche erm&ouml;glicht einen einfachen Zugang und Komfort und ist damit eine praktische Wahl f&uuml;r den t&auml;glichen Gebrauch.</span> </p> \n    <p><br /></p>\n   </div>\n  </div>  \n  <p><br /></p> \n  <p class=\"MsoNormal\"><span style=\"font-size:14pt;font-family:Calibri\">Merkmale:</span></p> \n  <p class=\"MsoNormal\"><span style=\"font-size:14pt;font-family:Calibri\">H&auml;ngendes Design, leere Plastikt&uuml;ten</span></p> \n  <p class=\"MsoNormal\"><span style=\"font-size:14pt;font-family:Calibri\">Einfach zu bedienen, ordentlich und ordentlich</span></p> \n  <p class=\"MsoNormal\"><span style=\"font-size:14pt;font-family:Calibri\">Verschlei&szlig; fest, langlebig und verformung best&auml;ndig</span></p> \n  <p class=\"MsoNormal\"><span style=\"font-size:14pt;font-family:Calibri\">Sauber und ordentlich, nicht leicht zu erden, Veredelung</span></p> \n  <p class=\"MsoNormal\"><span style=\"font-size:14pt;font-family:Calibri\">Oben, unten ziehen, doppelte &Ouml;ffnung</span></p> \n  <p class=\"MsoNormal\"><span style=\"font-size:14pt;font-family:Calibri\">F&ouml;rderlich f&uuml;r die Veredelung, bequem f&uuml;r den sekund&auml;ren Gebrauch</span></p> \n  <p><br /></p> \n  <p class=\"MsoNormal\"><span style=\"font-size:14pt;font-family:Calibri\">Spezifikationen:</span></p> \n  <p class=\"MsoNormal\"><span style=\"font-size:14pt;font-family:Calibri\">Artikel kategorie: Aufbewahrung tasche</span></p> \n  <p class=\"MsoNormal\"><span style=\"font-size:14pt;font-family:Calibri\">Material: Nylon</span></p> \n  <p class=\"MsoNormal\"><span style=\"font-size:14pt;font-family:Calibri\">Gewicht: 20g (ca. 5g Fehler)</span></p> \n  <p class=\"MsoNormal\"><span style=\"font-size:14pt;font-family:Calibri\">Farbe: grau</span></p> \n  <p><br /></p> \n  <p class=\"MsoNormal\"><span style=\"font-size:14pt;font-family:Calibri\">Paket einges ch lossen:</span></p> \n  <p class=\"MsoNormal\"><span style=\"font-size:14pt;font-family:Calibri\">1 * Aufbewahrung tasche</span></p> \n  <p><br /></p> \n  <p class=\"MsoNormal\"><span style=\"font-size:14pt;font-family:Calibri\">Anmerkung:</span></p> \n  <p class=\"MsoNormal\"><span style=\"font-size:14pt;font-family:Calibri\">1. Bitte erlauben Sie 1-3 cm unter scheidet sich aufgrund der manuellen Messung.</span></p> \n  <p class=\"MsoNormal\"><span style=\"font-size:14pt;font-family:Calibri\">2. Aufgrund der unterschied lichen Anzeige und des unterschied lichen Lichts zeigt das Bild m&ouml;glicher weise nicht die tats&auml;chliche Farbe des Artikels an. Vielen Dank f&uuml;r Ihr Verst&auml;ndnis</span></p> \n  <p class=\"MsoNormal\"><img src=\"https://ae01.alicdn.com/kf/S8f5412ec130d4cab92e0dae64eaa28a8v.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/S2950274d343b4b08902b8579d1920cfdI.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/Sf123cef843ce4a4d998c25af485d9d5bg.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/S528f8e19d5ad412d9148853bfb7ef7aev.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/S15e06c41d6de454aa25fffb03e83e394D.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/Seae5d72cc90a49a89db9db7ed4ae183bl.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/S46974c200c824df9b812b27f14197c34c.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/S2ace8cd788dc42feac92b6dcb514bf41i.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/S2aae3917fff245649facd2e95876030fn.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/Scaaa0438b32f4bae98c0a0ce0b8a1056g.jpg\" slate-data-type=\"image\"></p>  \n </body>\n</html>"
+  },
+  "manufacturer_info": {
+    "address": "Floor 1, Unit 3, Building 15, Zhoudian West District, 23 Li Street, Yiwu City, Jinhua City, Zhejiang Province",
+    "phone": "13567009280",
+    "country_name": "China",
+    "email": "946839087@qq.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 217,
+        "attr_value_id": 1983458058,
+        "attr_name": "Merkmal",
+        "attr_value": "Mehrfachverwendungen"
+      },
+      {
+        "attr_name_id": 10,
+        "attr_value_id": 48,
+        "attr_name": "Material",
+        "attr_value": "POLYESTER"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 266081643,
+        "attr_value_id": 100015203,
+        "attr_name": "CN",
+        "attr_value": "Zhejiang"
+      },
+      {
+        "attr_name_id": 43,
+        "attr_value_id": 3138,
+        "attr_name": "Funktion",
+        "attr_value": "Wiederverwendbar"
+      },
+      {
+        "attr_name_id": 200001619,
+        "attr_value_id": 520,
+        "attr_name": "Geeigneter Raum",
+        "attr_value": "Küche"
+      },
+      {
+        "attr_name_id": 20662,
+        "attr_value_id": 100007613,
+        "attr_name": "Merkmal",
+        "attr_value": "Umweltfreundlich"
+      },
+      {
+        "attr_name_id": 324,
+        "attr_value_id": 351094,
+        "attr_name": "Form",
+        "attr_value": "Oval"
+      },
+      {
+        "attr_name_id": 158,
+        "attr_value_id": 201734809,
+        "attr_name": "Dicke",
+        "attr_value": "2,5 draht"
+      },
+      {
+        "attr_name_id": 200000329,
+        "attr_value_id": 200012791,
+        "attr_name": "Mustertyp",
+        "attr_value": "Dreidimensionaler Typ"
+      },
+      {
+        "attr_name_id": 521,
+        "attr_value_id": 100014141,
+        "attr_name": "Verwendung",
+        "attr_value": "Mehrzweck"
+      },
+      {
+        "attr_name_id": 6,
+        "attr_value_id": 100014107,
+        "attr_name": "Typ",
+        "attr_value": "Lagerung Taschen"
+      },
+      {
+        "attr_name_id": 1594,
+        "attr_value_id": 200012793,
+        "attr_name": "Form",
+        "attr_value": "Kleidungsaufhängungsart/Aufhängungsart"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1103816097,
+    "shipping_speed_rating": "4.7",
+    "communication_rating": "4.6",
+    "store_name": "Shop1103816097 Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.5"
+  }
+}

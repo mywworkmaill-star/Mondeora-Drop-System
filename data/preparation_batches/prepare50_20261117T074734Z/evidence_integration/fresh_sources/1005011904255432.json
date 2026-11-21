@@ -1,0 +1,139 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:200006151#Grey",
+        "offer_sale_price": "5.09",
+        "sku_id": "12000058623387620",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "10.60",
+        "offer_bulk_sale_price": "5.09",
+        "sku_available_stock": 15,
+        "id": "14:200006151#Grey",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Hellgrau",
+              "sku_image": "https://ae01.alicdn.com/kf/Se562c04a055246b096a03f9550d69c1c1.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Grey",
+              "property_value_id": 200006151,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:100018786",
+        "offer_sale_price": "4.69",
+        "sku_id": "12000056965691554",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "9.98",
+        "offer_bulk_sale_price": "4.69",
+        "sku_available_stock": 35,
+        "id": "14:100018786",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Transparent",
+              "sku_image": "https://ae01.alicdn.com/kf/S7f18e670e95d413284b9a2b4f65bd301Z.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_id": 100018786,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "image_urls": "https://ae01.alicdn.com/kf/Scb109e2631bc41198ac21b42b13d90b8g.jpg;https://ae01.alicdn.com/kf/Sd06a7efc9fc2403dae48f78d7222fb35T.jpg;https://ae01.alicdn.com/kf/S5721d18582454986bef0f02f445b8315r.jpg;https://ae01.alicdn.com/kf/S8e05baeb0106421c8b29122cddab4be8z.jpg;https://ae01.alicdn.com/kf/Sf1815d10c519457a92cb0c213a6b929bq.jpg;https://ae01.alicdn.com/kf/S1de421cfe5f447d8807734004ccebfbf2.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 11,
+    "package_height": 11,
+    "package_length": 11,
+    "gross_weight": "0.171",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005011904255432,
+    "sub_product_id": "{\"US\":3256811717940680}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"text\",\"data\":{\"content\":\"🏠【Wandmontierter Zahnbürstenhalter ohne Bohren】 – Transparent, platzsparend und einfach zu installieren!\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Halten Sie Ihre Badezimmerarbeitsplatten ordentlich und Ihre Zahnbürsten im Sauberer Zustand mit diesem eleganten, transparenten, wandmontierten Halter!Mit starkem Klebeverschluss ausgestattet, installiert es sich in Sekundenschnelle – kein Bohren erforderlich.Perfekt zum Aufbewahren von Zahnbürsten, Zahnpasta, Rasierern und mehr.Das kristallklare Design passt nahtlos zu jedem Badezimmerstil!\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"📦 PRODUKTDETAILS\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"✔ Material: Hochwertiger, transparenter Kunststoff (langlebig & leicht zu reinigen!)\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"✔ Design: Mehrfach-Fächer-Organizer – Für Zahnbürsten, Zahnpasta, Rasierer & Kleinteile\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"✔ Installation: Starke Klebefläche – kein Bohren, keine Werkzeuge, keine Wandbeschädigung!🚫🔨\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"✔ Farbe: Kristallklar (Passt zu jedem Badezimmerdekor!)\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"✔ Kapazität: Mehrere Fächer für Familiengebrauch\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"✔ Eigenschaft: Wasserdicht & rostfrei – Ideal für feuchte Badezimmer\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"💝 WARUM SIE ES LIEBEN WERDEN\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"✅ OHNE BOHREN ZU INSTALLIEREN – Einfach abziehen, aufkleben und drücken!Perfekt für Mieter und Hausbesitzer gleichermaßen!🏠🔒\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"✅ Hält Theken ordentlich und frei – Frei für den Einsatz von vertikaler Wandfläche zur Optimierung des Thekengewinthers!📏✨\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"✅ ENTWASSERT WASSER EINFACH – Das offene Design ermöglicht, dass Zahnbürsten sich natürlicherweise lüften lassen – keine eingekapselte Feuchtigkeit oder Schimmel!💧🦷\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"✅ TRANSPARENT & ELEGANT – Kristallklares Material verschmilzt nahtlos – sieht an Ihrer Wand wie ein Schwebefilm vorbei gehen an!👀💎\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"✅ STRONG & DURABLE – Hält mehrere Zahnbürsten sicher, ohne dass sie herunterfallen!💪🛡️\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"✅ EINFACH ZU REINIGEN – Einfach mit einem feuchten Tuch abwischen – bleibt funkelnd sauber!🧽✨\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"🏡 PERFEKT FÜR\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Familienbadezimmer🏠 – Halten Sie die Zahnbürsten aller an einem Ort organisiert aufbewahrt!\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Kinderbadezimmer👶 – Platzieren Sie es in kinderfreundlicher Höhe für einfachen Zugriff!\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Gästebadezimmer🚪 – Eine ordentliche und einladende Atmosphäre für Besucher!\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Kleine Wohnungen & Studentenwohnheime🏢 Maximieren Sie die begrenzte Arbeitsflächennutzbarkeit mühelos!\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Mietobjekte📝 Bohrfreies Design bedeutet keine Sorgen um eine Kautionierung!\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Küchenspülenbereich🍽️ – Aufbewahren Sie Geschirrbürsten oder kleine Utensilien ordentlich!\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Geschenk für neue Hausbesitzer🎁 – Ein praktisches und durchdachtes Einweihungsgeschenk!\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"🛍️   Beseitigen Sie die Unordnung in wenigen Minuten – klicken Sie jetzt auf „In den Warenkorb hinzufügen“ für diesen bohrfreien Organizer! 🛒\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S6b54036123694a93a2501b0c6b85a248k.jpg\",\"style\":{\"width\":1340,\"height\":1785}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S5266d49c38fb451a902ddd12fdf77bebS.jpg\",\"style\":{\"width\":1340,\"height\":1785}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Se9fb2f7b93a7462db5011595bd439c57L.jpg\",\"style\":{\"width\":1340,\"height\":1785}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S99a971b59e4b48c4917992a9ef4eaad60.jpg\",\"style\":{\"width\":1340,\"height\":1785}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S9551b7dd410643bb8abdfb2f2e512b793.jpg\",\"style\":{\"width\":1340,\"height\":1785}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sa63a7a0a581c4e96b49df689a0541cc6a.jpg\",\"style\":{\"width\":1340,\"height\":1785}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S41d7898ecfc84b049ce8cbca85274d9eb.jpg\",\"style\":{\"width\":1340,\"height\":1785}}}]}",
+    "subject": "Zahnbürsten-Aufbewahrungsregal, große Kapazität, Badezimmer-Wandmontage-Aufbewahrungsbox, Kunststoff-Organizer für Zahnbürsten, Zahnpasta, Rasierer",
+    "evaluation_count": "865",
+    "sales_count": "5000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.6",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 200256142,
+    "product_id": 1005011904255432,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_1\">🏠【Bohrfreier Wand-Zahnb&uuml;rstenhalter】 – Klar, platzsparend &amp; einfach zu installieren!</span></p>\n<p><br /></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_2\">Halten Sie Ihre Badezimmerablagen aufger&auml;umt und Ihre Zahnb&uuml;rsten ordentlich organisiert mit diesem eleganten, transparenten Wandhalter! Mit starker Kleber&uuml;ckseite in Sekunden montiert – kein Bohren erforderlich. Perfekt zur Aufbewahrung von Zahnb&uuml;rsten, Zahnpasta, Rasierern und mehr. Das kristallklare Design f&uuml;gt sich nahtlos in jeden Badezimmerstil ein!</span></p>\n<p><br /></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_3\">📦 PRODUKTDETAILS</span></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_4\">✔ Material: Hochwertiger, klarer Kunststoff (langlebig &amp; leicht zu reinigen!)</span></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_5\">✔ Design: Organizer mit mehreren F&auml;chern – F&uuml;r Zahnb&uuml;rsten, Zahnpasta, Rasierer und Kleinteile</span></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_6\">✔ Installation: Starke Kleber&uuml;ckseite – Kein Bohren, kein Werkzeug, keine Wandbesch&auml;digung! 🚫🔨</span></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_7\">✔ Farbe: Kristallklar (Passt zu jeder Badezimmereinrichtung!)</span></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_8\">✔ Kapazit&auml;t: Mehrere Steckpl&auml;tze f&uuml;r den Familiengebrauch</span></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_9\">✔ Merkmal: Wasserdicht &amp; Rostfrei – Ideal f&uuml;r feuchte Badezimmer</span></p>\n<p><br /></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_10\">💝 WARUM SIE ES LIEBEN WERDEN</span></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_11\">✅ BOHRFREIE MONTAGE – Einfach abziehen, aufkleben und andr&uuml;cken! Perfekt f&uuml;r Mieter und Hausbesitzer gleicherma&szlig;en! 🏠🔒</span></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_12\">✅ H&Auml;LT ARBEITSPL&Auml;TZE FREI – Schafft wertvollen Platz auf der Arbeitsfl&auml;che, indem vertikaler Wandraum genutzt wird! 📏✨</span></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_13\">✅ L&Auml;SST WASSER LEICHT AB – Offenes Design erm&ouml;glicht nat&uuml;rliches Lufttrocknen der Zahnb&uuml;rsten – keine eingeschlossene Feuchtigkeit oder Schimmel! 💧🦷</span></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_14\">✅ TRANSPARENT &amp; SCHLANK – Kristallklares Material f&uuml;gt sich nahtlos ein – sieht aus, als w&uuml;rde es an Ihrer Wand schweben! 👀💎</span></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_15\">✅ STARK &amp; LANGLEBIG – H&auml;lt mehrere Zahnb&uuml;rsten sicher, ohne herunterzufallen! 💪🛡️</span></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_16\">✅ EINFACH ZU REINIGEN – Einfach mit einem feuchten Tuch abwischen – bleibt strahlend sauber! 🧽✨</span></p>\n<p><br /></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_17\">🏡 PERFEKT F&Uuml;R</span></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_18\">• Familienbadezimmer 🏠 – Halten Sie die Zahnb&uuml;rsten aller an einem Ort organisiert!</span></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_19\">• Kinderbadezimmer 👶 – Auf kindgerechter H&ouml;he platzieren, damit sie leicht zu erreichen sind!</span></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_20\">• G&auml;stetoiletten 🚪 – Eine ordentliche und einladende Note f&uuml;r Besucher!</span></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_21\">• Kleine Wohnungen &amp; Studentenwohnheime 🏢 – Maximieren Sie m&uuml;helos begrenzten Platz auf der Arbeitsfl&auml;che!</span></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_22\">• Mietobjekte 📝 – Das bohrfreie Design bedeutet keine Sorgen um die Kaution!</span></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_23\">• Sp&uuml;lbereich 🍽️ – Bewahren Sie Sp&uuml;lb&uuml;rsten oder kleine Utensilien ordentlich auf!</span></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_24\">• Geschenk f&uuml;r neue Hausbesitzer 🎁 – Ein praktisches und durchdachtes Einweihungsgeschenk!</span></p>\n<p><br /><br /><br /></p>\n<p><span style=\"font-size:18px;font-family:georgia, serif\" id=\"tl_25\">🛍️ Beseitigen Sie Unordnung in Minuten – klicken Sie noch heute auf „In den Warenkorb“ f&uuml;r diesen bohrfreien Organizer! 🛒</span></p>\n<p><img src=\"https://ae01.alicdn.com/kf/S6b54036123694a93a2501b0c6b85a248k.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/S5266d49c38fb451a902ddd12fdf77bebS.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/Se9fb2f7b93a7462db5011595bd439c57L.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/S99a971b59e4b48c4917992a9ef4eaad60.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/S9551b7dd410643bb8abdfb2f2e512b793.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/Sa63a7a0a581c4e96b49df689a0541cc6a.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/S41d7898ecfc84b049ce8cbca85274d9eb.jpg\" slate-data-type=\"image\" /></p>\n<p><br /><br /></p>\n<p><br /></p></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "CN Second Floor, Building 1, No. 3, Baofeng Road, Niansanli Street, Yiwu City, Zhejiang Province ,Jinhua City , Zhejiang Province,Yiwu City, Zhejiang Province",
+    "phone": "15967940813",
+    "country_name": "China",
+    "email": "xiugesp@163.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 10,
+        "attr_value_id": 124,
+        "attr_name": "Material",
+        "attr_value": "Kunststoff"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 234747215,
+        "attr_value_id": 2467,
+        "attr_name": "Ist ein Smart-Gerät",
+        "attr_value": "no"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1103759363,
+    "shipping_speed_rating": "4.8",
+    "communication_rating": "4.7",
+    "store_name": "Haisheng Home Furnishings Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.6"
+  }
+}

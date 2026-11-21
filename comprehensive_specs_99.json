@@ -1,0 +1,76 @@
+{
+  "dimensions": {
+    "found": false,
+    "length_cm": null,
+    "width_cm": null,
+    "height_cm": null,
+    "depth_cm": null,
+    "diameter_cm": null,
+    "text": "6 görsel incelendi, hiçbirinde sayısal ölçü (cm/mm/inch) veya cetvel/ölçü çizgisi bulunamadı. Sadece 'Big week size' gibi tanımlayıcı (ölçüsüz) metin var.",
+    "confidence": 0
+  },
+  "weight": {
+    "found": false,
+    "product_weight_g": null,
+    "package_weight_g": null,
+    "text": "",
+    "confidence": 0
+  },
+  "material": {
+    "primary": "PU-Leder (Einband)",
+    "composition": [
+      "PU-Leder (Einband)",
+      "Papier 80g (Innenseiten)"
+    ],
+    "confidence": 75,
+    "source": "vision - Bildtext: 'Soft surface pu leather', '80g kinbor paper'"
+  },
+  "color": {
+    "found": true,
+    "main": "Gelb",
+    "options": [
+      "Gelb",
+      "Weinrot",
+      "Himmelblau",
+      "Mandel/Creme",
+      "Schokoladenbraun"
+    ],
+    "confidence": 60,
+    "source": "vision - mehrere Farbvarianten in Produktbildern sichtbar (Hero-Bild + Farbkarte 'almonds/Love sky/Hazel Chocolate'), keine eindeutige Hauptfarbe markiert, Gelb am prominentesten im Hauptbild"
+  },
+  "capacity": {
+    "found": false,
+    "volume_liter": null,
+    "item_count": null,
+    "load_capacity_kg": null,
+    "text": "",
+    "confidence": 0
+  },
+  "features": [
+    "Wochenplaner mit Timeline-Layout (self-filled)",
+    "PU-Lederhuelle",
+    "Lesezeichenband",
+    "Jahreskalender + Monatsplan + Wochenplan + Checklisten/Geschenkliste",
+    "80g Kinbor-Papier, zwei Seiten pro Woche"
+  ],
+  "brand": {
+    "name": "No-Name",
+    "confidence": 80
+  },
+  "model": {
+    "number": "",
+    "confidence": 0
+  },
+  "certifications": [],
+  "technical": {
+    "temperature_min_c": null,
+    "temperature_max_c": null,
+    "power_watt": null,
+    "voltage": null
+  },
+  "assembly": {
+    "required": "Unknown",
+    "tools_needed": "Unknown",
+    "time_minutes": null
+  }
+}

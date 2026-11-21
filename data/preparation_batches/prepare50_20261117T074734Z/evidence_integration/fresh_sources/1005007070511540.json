@@ -1,0 +1,235 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:193#Black;380:200006285",
+        "offer_sale_price": "1.79",
+        "sku_id": "12000039308054009",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "3.73",
+        "offer_bulk_sale_price": "1.79",
+        "sku_available_stock": 311,
+        "id": "14:193#Black;380:200006285",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "schwarz",
+              "sku_image": "https://ae01.alicdn.com/kf/Scf72f69f08664872a64750599cf10b7cv.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Black",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "5 m",
+              "sku_property_name": "Länge",
+              "property_value_id": 200006285,
+              "sku_property_id": 380
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:94#Gray;380:200006478",
+        "offer_sale_price": "1.19",
+        "sku_id": "12000039308054008",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "2.43",
+        "offer_bulk_sale_price": "1.19",
+        "sku_available_stock": 27,
+        "id": "14:94#Gray;380:200006478",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "grau",
+              "sku_image": "https://ae01.alicdn.com/kf/Sa224e37e9909410fa4d6dec6aa46a47fe.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Gray",
+              "property_value_id": 94,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "1m",
+              "sku_property_name": "Länge",
+              "property_value_id": 200006478,
+              "sku_property_id": 380
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:193#Black;380:200007474#3M",
+        "offer_sale_price": "1.49",
+        "sku_id": "12000039308054010",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "3.10",
+        "offer_bulk_sale_price": "1.49",
+        "sku_available_stock": 201,
+        "id": "14:193#Black;380:200007474#3M",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "schwarz",
+              "sku_image": "https://ae01.alicdn.com/kf/Scf72f69f08664872a64750599cf10b7cv.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Black",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "3m",
+              "sku_property_name": "Länge",
+              "property_value_definition_name": "3M",
+              "property_value_id": 200007474,
+              "sku_property_id": 380
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:94#Gray;380:200007474#3M",
+        "offer_sale_price": "1.55",
+        "sku_id": "12000039308054007",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "3.23",
+        "offer_bulk_sale_price": "1.55",
+        "sku_available_stock": 27,
+        "id": "14:94#Gray;380:200007474#3M",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "grau",
+              "sku_image": "https://ae01.alicdn.com/kf/Sa224e37e9909410fa4d6dec6aa46a47fe.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Gray",
+              "property_value_id": 94,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "3m",
+              "sku_property_name": "Länge",
+              "property_value_definition_name": "3M",
+              "property_value_id": 200007474,
+              "sku_property_id": 380
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:94#Gray;380:200006285",
+        "offer_sale_price": "1.85",
+        "sku_id": "12000039308054006",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "3.85",
+        "offer_bulk_sale_price": "1.85",
+        "sku_available_stock": 75,
+        "id": "14:94#Gray;380:200006285",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "grau",
+              "sku_image": "https://ae01.alicdn.com/kf/Sa224e37e9909410fa4d6dec6aa46a47fe.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Gray",
+              "property_value_id": 94,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "5 m",
+              "sku_property_name": "Länge",
+              "property_value_id": 200006285,
+              "sku_property_id": 380
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "image_urls": "https://ae01.alicdn.com/kf/S7b338a2be52747c0905f3efe50a7d343m.jpg;https://ae01.alicdn.com/kf/S9da766289bfd4473a84e1f58639314e8A.jpg;https://ae01.alicdn.com/kf/Sa895c1f7ddd6491f987419e0a02d749a2.jpg;https://ae01.alicdn.com/kf/S04a942ae0c364b90a3749c069aa5d3e7w.jpg;https://ae01.alicdn.com/kf/S6074778dcfec44f5b6a8d90a81e930f3q.jpg;https://ae01.alicdn.com/kf/S891eb5244fe4408bb28cff18cc24d46fH.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 8,
+    "package_height": 0,
+    "package_length": 8,
+    "gross_weight": "0.019",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005007070511540,
+    "sub_product_id": "{\"US\":3256806884196788}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S3e5271414f26485bb926b0f8a20abdaaD.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Seae4c088d7734737952d229107b6fd7eE.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S856fb38eee4e44e7969bedcf7306dbe3F.jpg?has_lang=1&ver=1\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S559638561cce4622bbbcdaf1a25bf83f0.jpg?has_lang=1&ver=1\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S36e5af5a528a4982bad36c2849585d23S.jpg?has_lang=1&ver=1\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S3dddecf2f2784c73b88e764b69f760781.jpg?has_lang=1&ver=1\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S51a8ea0e6ad14db490ab5de17b13aa888.jpg\",\"style\":{\"width\":800,\"height\":800}}}]}",
+    "subject": "5 m Kabel-Organizer mit Klettverschluss, Kabelbinder, Drahtwickler, USB-Kabelmanagement, Schutz für Kopfhörer, Maus, Kabelbinder",
+    "evaluation_count": "6104",
+    "sales_count": "10000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.8",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 201206404,
+    "product_id": 1005007070511540,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p><img src=\"https://ae01.alicdn.com/kf/S0af5504accc84ea5a1a37e81e59add74X.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/Sa55708dbc3bb46da9723185af564a7d7u.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/S04a942ae0c364b90a3749c069aa5d3e7w.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/S6074778dcfec44f5b6a8d90a81e930f3q.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/S891eb5244fe4408bb28cff18cc24d46fH.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/S6b26a14c1f8c418b9c4081138f3bb7a19.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/S7b338a2be52747c0905f3efe50a7d343m.jpg\" slate-data-type=\"image\" /></p><br /></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "304, Building B, No,4 Jincheng, Road, fucheng Ao Community. Pinghu Street,Longgang District, Shenzhen City, Guangdong Province, China",
+    "phone": "13640951101",
+    "country_name": "China",
+    "email": "su1770142583@163.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 4636422715,
+        "attr_name": "Markenname",
+        "attr_value": "Opansten"
+      },
+      {
+        "attr_name_id": 10,
+        "attr_value_id": 200572145,
+        "attr_name": "Material",
+        "attr_value": "Kunststoff"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1102924951,
+    "shipping_speed_rating": "4.7",
+    "communication_rating": "4.6",
+    "store_name": "Opansten Factory Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.5"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "dimensions": {
+    "found": true,
+    "length_cm": 19,
+    "width_cm": 8,
+    "height_cm": 9,
+    "depth_cm": null,
+    "diameter_cm": null,
+    "text": "Product image dimension infographic (kf/Sec28bd2dcf6f4a138e18e09a6fea1d2cf.jpg): '19cm / 7.48inch' (length), '8cm / 3.15inch' (width), '9cm / 3.54inch' (height)",
+    "confidence": 98
+  },
+  "weight": {
+    "found": false,
+    "product_weight_g": null,
+    "package_weight_g": null,
+    "text": "",
+    "confidence": 0
+  },
+  "material": {
+    "primary": "PU-Leder (Kunstleder)",
+    "composition": [
+      "PU leather",
+      "Kunststoff (innere Struktur)"
+    ],
+    "confidence": 70,
+    "source": "vision observation (genähte Lederoptik auf Produktbildern sichtbar, Titel nennt kein Material)"
+  },
+  "color": {
+    "found": true,
+    "main": "Schwarz",
+    "options": [
+      "Grau (Holzmaserung-Optik)"
+    ],
+    "confidence": 90,
+    "source": "vision"
+  },
+  "capacity": {
+    "found": false,
+    "volume_liter": null,
+    "item_count": null,
+    "load_capacity_kg": null,
+    "text": "Bilder zeigen ca. 4 Facher fuer Fernbedienungen, aber keine explizit geschriebene Stueckzahl-Angabe gefunden",
+    "confidence": 0
+  },
+  "features": [
+    "Mehrere Faecher (ca. 4 sichtbar) fuer Fernbedienungen und Stifte",
+    "PU-Leder-Oberflaeche mit sichtbaren Ziernaehten",
+    "Abgerundete, platzsparende Form fuer Schreibtisch/Nachttisch"
+  ],
+  "brand": {
+    "name": "No-Name",
+    "confidence": 80
+  },
+  "model": {
+    "number": "",
+    "confidence": 0
+  },
+  "certifications": [],
+  "technical": {
+    "temperature_min_c": null,
+    "temperature_max_c": null,
+    "power_watt": null,
+    "voltage": null
+  },
+  "assembly": {
+    "required": "Unknown",
+    "tools_needed": "Unknown",
+    "time_minutes": null
+  }
+}

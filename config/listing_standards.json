@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "max_items_per_run": 20,
+  "max_seconds_per_run": 75,
+  "remote_mutations": false,
+  "resolve_remote_mutations": true,
+  "unknown_required": "block",
+  "unknown_optional": "review_queue",
+  "competitor_values": "research_only_require_supplier_evidence",
+  "variant_combinations": "no_silent_pack_or_model_deduplication",
+  "dimensions": "product_dimensions_only_not_package_dimensions",
+  "manufacturer": "preserve_verified_identity_not_brand_default",
+  "buyer_verification": "mandatory_including_supervised_trial",
+  "maintenance": "preserve_ready_database_and_reconciliation_history"
+}

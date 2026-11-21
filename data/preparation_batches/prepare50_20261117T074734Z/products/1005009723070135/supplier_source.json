@@ -1,0 +1,250 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:200006151#Danceng",
+        "offer_sale_price": "19.89",
+        "sku_id": "12000049977736151",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "39.77",
+        "offer_bulk_sale_price": "19.89",
+        "sku_available_stock": 1,
+        "id": "14:200006151#Danceng",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Hellgrau",
+              "sku_image": "https://ae01.alicdn.com/kf/Sa5815b2594e74317ab722500a97b658bk.png",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Danceng",
+              "property_value_id": 200006151,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:200004889#Silvery",
+        "offer_sale_price": "27.19",
+        "sku_id": "12000058195295763",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "54.33",
+        "offer_bulk_sale_price": "27.19",
+        "sku_available_stock": 9,
+        "id": "14:200004889#Silvery",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "armeegrün",
+              "sku_image": "https://ae01.alicdn.com/kf/Sc61339ad5bc34e4b86c68cbf80e427e7I.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Silvery",
+              "property_value_id": 200004889,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:200002130#Shuangpaigou White",
+        "offer_sale_price": "6.29",
+        "sku_id": "12000049977736156",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "14.30",
+        "offer_bulk_sale_price": "6.29",
+        "sku_available_stock": 4,
+        "id": "14:200002130#Shuangpaigou White",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Elfenbein",
+              "sku_image": "https://ae01.alicdn.com/kf/S75ca8687ed434609b742c85c22bf693dF.png",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Shuangpaigou White",
+              "property_value_id": 200002130,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:200006153#Shuangceng A",
+        "offer_sale_price": "23.39",
+        "sku_id": "12000049977736152",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "46.70",
+        "offer_bulk_sale_price": "23.39",
+        "sku_available_stock": 20,
+        "id": "14:200006153#Shuangceng A",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "hellgelb",
+              "sku_image": "https://ae01.alicdn.com/kf/S4f17c668bb254253be96ffebc6d6630fc.png",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Shuangceng A",
+              "property_value_id": 200006153,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:200006152#Shuangceng B",
+        "offer_sale_price": "20.79",
+        "sku_id": "12000049977736153",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "47.25",
+        "offer_bulk_sale_price": "20.79",
+        "sku_available_stock": 1,
+        "id": "14:200006152#Shuangceng B",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "hellgrün",
+              "sku_image": "https://ae01.alicdn.com/kf/S4d9150c7f9a1403fbc1a63ff9289dea1e.png",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Shuangceng B",
+              "property_value_id": 200006152,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:200006154#Shuangceng C",
+        "offer_sale_price": "27.99",
+        "sku_id": "12000049977736154",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "55.92",
+        "offer_bulk_sale_price": "27.99",
+        "sku_available_stock": 4,
+        "id": "14:200006154#Shuangceng C",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "dunkles Khaki",
+              "sku_image": "https://ae01.alicdn.com/kf/S680ab04370754d5bafde247fbd2ed675F.png",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Shuangceng C",
+              "property_value_id": 200006154,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "image_urls": "https://ae01.alicdn.com/kf/Sca39a48649f1440eb142f8383c49cb812.png;https://ae01.alicdn.com/kf/S2814d0e8a6174ef489ffe47c62c66158f.png;https://ae01.alicdn.com/kf/S8744fb895a524d2ba0d1c1a0e1184e819.png;https://ae01.alicdn.com/kf/S8b2ae964e66549de8fa76a711111c779F.png;https://ae01.alicdn.com/kf/S9926a152561945ff8d3b19156da15ee1g.jpg;https://ae01.alicdn.com/kf/S405a7fe58e0a48ea82641a67ade640e3d.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 28,
+    "package_height": 12,
+    "package_length": 29,
+    "gross_weight": "0.705",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005009723070135,
+    "sub_product_id": "{\"US\":3256809536755383}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"text\",\"data\":{\"content\":\"Robustes Material\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Dieses Regal ist aus robusten Materialien gefertigt und gewährleistet eine lange Lebensdauer, da es den Anforderungen des täglichen Gebrauchs in der Küche standhält.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Einfache Installation\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Das Regal lässt sich einfach installieren und benötigt weder spezielle Werkzeuge noch besondere Fähigkeiten, was es zu einer praktischen Ergänzung für jede Küche macht.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Multifunktional\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Dieses Regal erfüllt mehrere Funktionen und dient als Halter für Schneidebretter, Topfdeckel, Papiertücher und vieles mehr.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Platzsparendes Design\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Dank seines platzsparenden Designs nutzt dieses Regal den unter dem Schrank befindlichen Raum effizient aus und maximiert so die Stauraumkapazität Ihrer Küche.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S12ffe01b3ce54d67b7464676e06ff60fy.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S9857dbd42b3443c5b08d28b24ea8725ds.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S5df7cad8c3c84c789da547eb309d0dd41.png\",\"style\":{\"width\":800,\"height\":9014}}}]}",
+    "subject": "Küche Hängen Organizer Rack mit Haken Unter Schrank Papier Handtuch Lumpen Aufhänger Schneiden Bord Topf Abdeckung Halter Lagerung Regal",
+    "evaluation_count": "282",
+    "sales_count": "600+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.5",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 200044148,
+    "product_id": 1005009723070135,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p><strong id=\"tl_1\">Robustes Material</strong></p>\n<p id=\"tl_2\">Dieses Regal ist aus robusten Materialien gefertigt und gew&auml;hrleistet eine lange Lebensdauer, da es den Anforderungen des t&auml;glichen Gebrauchs in der K&uuml;che standh&auml;lt.</p>\n<p><strong id=\"tl_3\">Einfache Installation</strong></p>\n<p id=\"tl_4\">Das Regal l&auml;sst sich einfach installieren und ben&ouml;tigt weder spezielle Werkzeuge noch besondere F&auml;higkeiten, was es zu einer praktischen Erg&auml;nzung f&uuml;r jede K&uuml;che macht.</p>\n<p><strong id=\"tl_5\">Multifunktional</strong></p>\n<p id=\"tl_6\">Dieses Regal erf&uuml;llt mehrere Funktionen und dient als Halter f&uuml;r Schneidebretter, Topfdeckel, Papiert&uuml;cher und vieles mehr.</p>\n<p><strong id=\"tl_7\">Platzsparendes Design</strong></p>\n<p id=\"tl_8\">Dank seines platzsparenden Designs nutzt dieses Regal den unter dem Schrank befindlichen Raum effizient aus und maximiert so die Stauraumkapazit&auml;t Ihrer K&uuml;che.</p>\n<p><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S12ffe01b3ce54d67b7464676e06ff60fy.jpg\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S9857dbd42b3443c5b08d28b24ea8725ds.jpg\" slate-data-type=\"image\" /><br /></p>\n<p><br /></p>\n<p><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S5df7cad8c3c84c789da547eb309d0dd41.png\" slate-data-type=\"image\" /></p>\n<p><br /></p></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "No. 2-6 Jinlong Road, Taoyuan Street, Ninghai County, Ningbo City, Zhejiang Province",
+    "phone": "15257467170",
+    "country_name": "China",
+    "email": "w56465412313@163.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 43,
+        "attr_value_id": 3138,
+        "attr_name": "Funktion",
+        "attr_value": "Wiederverwendbar"
+      },
+      {
+        "attr_name_id": 306657049,
+        "attr_value_id": 1984089219,
+        "attr_name": "Abteilung",
+        "attr_value": "Unisex-Erwachsene"
+      },
+      {
+        "attr_name_id": 10,
+        "attr_value_id": 480,
+        "attr_name": "Material",
+        "attr_value": "STAHL"
+      },
+      {
+        "attr_name_id": 217,
+        "attr_value_id": 23399620951,
+        "attr_name": "Merkmal",
+        "attr_value": "Andere"
+      },
+      {
+        "attr_name_id": 400049002,
+        "attr_value_id": 23710544761,
+        "attr_name": "wenn mit Schubladen",
+        "attr_value": "n"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1103183197,
+    "shipping_speed_rating": "4.6",
+    "communication_rating": "4.6",
+    "store_name": "CTZS Storage Supplies-4 Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.5"
+  }
+}

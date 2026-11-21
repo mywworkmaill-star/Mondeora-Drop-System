@@ -1,0 +1,152 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:200006151#White",
+        "offer_sale_price": "3.15",
+        "sku_id": "12000043867333339",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "8.61",
+        "offer_bulk_sale_price": "3.15",
+        "sku_available_stock": 149,
+        "id": "14:200006151#White",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Hellgrau",
+              "sku_image": "https://ae01.alicdn.com/kf/S231fabaf65174cce9fcc460177c44a9e1.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "White",
+              "property_value_id": 200006151,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:202010806#Black",
+        "offer_sale_price": "3.05",
+        "sku_id": "12000043867333338",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "8.37",
+        "offer_bulk_sale_price": "3.05",
+        "sku_available_stock": 84,
+        "id": "14:202010806#Black",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Bronze",
+              "sku_image": "https://ae01.alicdn.com/kf/Se2799ac87e5d4d20ba0907aa3632f733o.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Black",
+              "property_value_id": 202010806,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "image_urls": "https://ae01.alicdn.com/kf/Sd334f17157e6430981a88b509874e7efr.jpg;https://ae01.alicdn.com/kf/S5b2f09b88f2b41989a3a401192036174v.jpg;https://ae01.alicdn.com/kf/Se892abe087684c778cd776d6e7960ac8g.jpg;https://ae01.alicdn.com/kf/Scd4dd5b5464c4e3d8c259d053f595f25m.jpg;https://ae01.alicdn.com/kf/S2888f73d3f934d05a58dfcc3e89ce97bs.jpg;https://ae01.alicdn.com/kf/Sf5abc4b28ffa4ed99031917c05dda1166.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 21,
+    "package_height": 7,
+    "package_length": 23,
+    "gross_weight": "0.096",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005008119002572,
+    "sub_product_id": "{\"US\":3256807932687820}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sb147f87eb7a8494c95672e129d65488bm.jpg\",\"style\":{\"width\":458,\"height\":458},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S9439087671804a8ebc64d8f65afb487fI.jpg\",\"style\":{\"width\":458,\"height\":458},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S0de27196aadb492cb8367927fa3867eco.jpg\",\"style\":{\"width\":458,\"height\":458},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S8b5cb94ca6a64675a44dda2313f027bfU.jpg\",\"style\":{\"width\":458,\"height\":458},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S20218631681b47acb7760a7a36966e22u.jpg?has_lang=1&ver=1\",\"style\":{\"width\":458,\"height\":458},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sadddf973b6aa45adbce7a80c4d1bc35bm.jpg?has_lang=1&ver=1\",\"style\":{\"width\":458,\"height\":458},\"targetUrl\":\"\"}}]}",
+    "subject": "1 Stück Aufbewahrungsregal für Haartrockner, nicht perforierte Wandhalterung für Badezimmer, Aufbewahrung von Luftkanälen im Badezimmer",
+    "evaluation_count": "9628",
+    "sales_count": "10000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.4",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 200110150,
+    "product_id": 1005008119002572,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"> <img src=\"https://ae01.alicdn.com/kf/Sb147f87eb7a8494c95672e129d65488bm.jpg\" slate-data-type=\"image\" /> <br /> <img src=\"https://ae01.alicdn.com/kf/S9439087671804a8ebc64d8f65afb487fI.jpg\" slate-data-type=\"image\" /> <br /> <img src=\"https://ae01.alicdn.com/kf/S0de27196aadb492cb8367927fa3867eco.jpg\" slate-data-type=\"image\" /> <br /> <img src=\"https://ae01.alicdn.com/kf/S8b5cb94ca6a64675a44dda2313f027bfU.jpg\" slate-data-type=\"image\" /> <br /> <img src=\"https://ae01.alicdn.com/kf/S20218631681b47acb7760a7a36966e22u.jpg\" slate-data-type=\"image\" /> <br /> <img src=\"https://ae01.alicdn.com/kf/Sadddf973b6aa45adbce7a80c4d1bc35bm.jpg\" slate-data-type=\"image\" /> <br /></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "5th Floor, No.1 Hengjiang Jiangxin Apartment, Yanbu, Dali Town, Nanhai District, Foshan City, Guangdong Province",
+    "phone": "15976682848",
+    "country_name": "China",
+    "email": "411134863@qq.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 217,
+        "attr_value_id": 23399620951,
+        "attr_name": "Merkmal",
+        "attr_value": "Andere"
+      },
+      {
+        "attr_name_id": 906,
+        "attr_value_id": 124,
+        "attr_name": "Rahmenmaterial",
+        "attr_value": "Kunststoff"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 43,
+        "attr_value_id": 3138,
+        "attr_name": "Funktion",
+        "attr_value": "Wiederverwendbar"
+      },
+      {
+        "attr_name_id": 10,
+        "attr_value_id": 200012757,
+        "attr_name": "Material",
+        "attr_value": "PET+PE"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1103671516,
+    "shipping_speed_rating": "4.7",
+    "communication_rating": "4.6",
+    "store_name": "jiankuan Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.5"
+  }
+}

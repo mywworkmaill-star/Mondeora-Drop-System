@@ -1,0 +1,21 @@
+SUPPLIER PRODUCT COMPLIANCE DECLARATION / URUN UYGUNLUGU BEYANI
+=================================================================
+Evidence level: provider_claim_not_independent_verification.
+
+Product safety/compliance information for these listings is based SOLELY
+on the AliExpress supplier's own public product-page claims (title,
+description, images, stated material/specifications). No independent
+laboratory testing, CE-file review, or third-party certification audit has
+been performed on any individual product.
+
+Scope limitation (hard gate, enforced in code, not just a policy note):
+This evidence level is ONLY accepted for low-risk, non-regulated categories.
+The existing risk gates (src/listing_quality/gates.py, check_risk()) already
+BLOCK electronics with batteries, toys, cosmetics/food, weapons/restricted
+items and children's products outright - this declaration does not and
+cannot override those blocks.
+
+The account holder (Achmet Basirikli) has confirmed, 2026-11-16, that this
+evidence level is understood and accepted as the current operating basis for
+the home storage/organization product family, pending future independent
+verification as the business scales.

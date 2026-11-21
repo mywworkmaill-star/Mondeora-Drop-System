@@ -1,0 +1,117 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:200006151#Yellow-1PCS",
+        "offer_sale_price": "3.15",
+        "sku_id": "12000052521264051",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "6.85",
+        "offer_bulk_sale_price": "3.15",
+        "sku_available_stock": 187,
+        "id": "14:200006151#Yellow-1PCS",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Hellgrau",
+              "sku_image": "https://ae01.alicdn.com/kf/S7fd28fa4e8d8459b8e398f2a9020eab08.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Yellow-1PCS",
+              "property_value_id": 200006151,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "image_urls": "https://ae01.alicdn.com/kf/S1f6a955843c8481bb1d514541b365ece7.jpg;https://ae01.alicdn.com/kf/S9cb5eab56ee2410083abb0a15ecd377bl.jpg;https://ae01.alicdn.com/kf/S56665d651bb34e8c937286f1379b922cp.jpg;https://ae01.alicdn.com/kf/S55fd21de15b44806a805ff2771142619k.jpg;https://ae01.alicdn.com/kf/Sf447502848bd4d3894721acdde5106335.jpg;https://ae01.alicdn.com/kf/Sd0e1b96d468242dc8a694d1673c788afZ.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 12,
+    "package_height": 6,
+    "package_length": 13,
+    "gross_weight": "0.056",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005010471370917,
+    "sub_product_id": "{\"US\":3256810285056165}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S1f6a955843c8481bb1d514541b365ece7.jpg\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S9cb5eab56ee2410083abb0a15ecd377bl.jpg?has_lang=1&ver=1\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S56665d651bb34e8c937286f1379b922cp.jpg\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sf447502848bd4d3894721acdde5106335.jpg\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sd0e1b96d468242dc8a694d1673c788afZ.jpg\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S55fd21de15b44806a805ff2771142619k.jpg\",\"style\":{\"width\":1200,\"height\":1200}}}]}",
+    "subject": "Niedlicher sternförmiger Zahnbürstenhalter, freistehender Badezimmer-Organizer mit niedlichem Gesichtsdesign, platzsparende Zahnbürste und Zahnpasta",
+    "evaluation_count": "1369",
+    "sales_count": "10000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.4",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 200256142,
+    "product_id": 1005010471370917,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p style=\"margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;display:block;width:100%\"><img src=\"https://ae01.alicdn.com/kf/S1f6a955843c8481bb1d514541b365ece7.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/S9cb5eab56ee2410083abb0a15ecd377bl.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/Sd0e1b96d468242dc8a694d1673c788afZ.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/S56665d651bb34e8c937286f1379b922cp.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/Sf447502848bd4d3894721acdde5106335.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/S55fd21de15b44806a805ff2771142619k.jpg\" slate-data-type=\"image\" /></p><br /></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "Room 401, 4th Floor, Building B, No. 85 Xiahe Road, Beiyuan Subdistrict, Yiwu City",
+    "phone": "13375898953",
+    "country_name": "China",
+    "email": "rsmy20251027@163.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 10,
+        "attr_value_id": 124,
+        "attr_name": "Material",
+        "attr_value": "Kunststoff"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 234747215,
+        "attr_value_id": 2467,
+        "attr_name": "Ist ein Smart-Gerät",
+        "attr_value": "no"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1105203471,
+    "shipping_speed_rating": "4.7",
+    "communication_rating": "4.7",
+    "store_name": "Shop1105203471 Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.5"
+  }
+}

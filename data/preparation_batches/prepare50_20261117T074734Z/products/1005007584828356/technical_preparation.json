@@ -1,0 +1,494 @@
+{
+  "product_id": "1005007584828356",
+  "index": 7,
+  "checked_at": "2026-11-17T07:57:16.662000+00:00",
+  "ready_for_publication": false,
+  "remote_mutations_performed": false,
+  "errors": [],
+  "quote_count": 11,
+  "title": "Kompakter Schlüsselorganizer aus Metall, Minimalistischer Schlüsselhalter",
+  "title_issues": [
+    "too few keywords (6 < 8 words)"
+  ],
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "sku_rows": [
+    {
+      "sku_id": "12000041393578042",
+      "cost": 11.49,
+      "stock": 0,
+      "aspects": {
+        "Farbe": "Gradient"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S7b8ca65248e74012a1746bc798a06300f.jpg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "not_currently_in_stock"
+    },
+    {
+      "sku_id": "12000041393578043",
+      "cost": 9.49,
+      "stock": 4,
+      "aspects": {
+        "Color": "Rot Carbon"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S3591cdd0d94742f2953592477845853ee.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005007584828356",
+        "sku_id": "12000041393578043",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:18.314454+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 36.99,
+      "provisional_model_net_eur": 20.17
+    },
+    {
+      "sku_id": "12000041393578040",
+      "cost": 10.99,
+      "stock": 8,
+      "aspects": {
+        "Color": "Damascus"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S4a67bcff1a9f44aaa94d0b0b407e0c37u.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005007584828356",
+        "sku_id": "12000041393578040",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:18.848396+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 38.99,
+      "provisional_model_net_eur": 20.4
+    },
+    {
+      "sku_id": "12000041393578041",
+      "cost": 8.39,
+      "stock": 3,
+      "aspects": {
+        "Color": "Gold Carbon"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S17cef845696e4c02a9754ee8e965cc84E.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005007584828356",
+        "sku_id": "12000041393578041",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:19.354660+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 35.99,
+      "provisional_model_net_eur": 20.4
+    },
+    {
+      "sku_id": "12000041393578038",
+      "cost": 7.49,
+      "stock": 13,
+      "aspects": {
+        "Color": "Carbon Fiber"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sbee80a7af57c4ad5bfa21601b7432df8A.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005007584828356",
+        "sku_id": "12000041393578038",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:19.912712+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 28.99,
+      "provisional_model_net_eur": 15.25
+    },
+    {
+      "sku_id": "12000041393578039",
+      "cost": 9.08,
+      "stock": 3,
+      "aspects": {
+        "Color": "Blau Carbon"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S38c2d883e83b4e0a98b40bd1bdee5780h.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005007584828356",
+        "sku_id": "12000041393578039",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:20.482481+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 36.99,
+      "provisional_model_net_eur": 20.58
+    },
+    {
+      "sku_id": "12000041393578036",
+      "cost": 8.69,
+      "stock": 4,
+      "aspects": {
+        "Color": "Silber"
+      },
+      "verified": false,
+      "image": "https://ae01.alicdn.com/kf/Sf3f7d0b2184a4d81bf8abdf72754aa0cX.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005007584828356",
+        "sku_id": "12000041393578036",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:20.995391+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 35.99,
+      "provisional_model_net_eur": 20.1
+    },
+    {
+      "sku_id": "12000041393578037",
+      "cost": 9.49,
+      "stock": 7,
+      "aspects": {
+        "Color": "Schwarz Carbon"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S5e32957b959b450884674990fade54acx.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005007584828356",
+        "sku_id": "12000041393578037",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:21.501448+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 36.99,
+      "provisional_model_net_eur": 20.17
+    },
+    {
+      "sku_id": "12000041393578034",
+      "cost": 8.49,
+      "stock": 11,
+      "aspects": {
+        "Color": "Grün"
+      },
+      "verified": false,
+      "image": "https://ae01.alicdn.com/kf/S893f65fa699041b8afbc55deb94ff44fc.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005007584828356",
+        "sku_id": "12000041393578034",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:21.987044+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 35.99,
+      "provisional_model_net_eur": 20.3
+    },
+    {
+      "sku_id": "12000041393578035",
+      "cost": 7.79,
+      "stock": 4,
+      "aspects": {
+        "Color": "Rot"
+      },
+      "verified": false,
+      "image": "https://ae01.alicdn.com/kf/S39407736c535465f96c51e3e8ec7c597L.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005007584828356",
+        "sku_id": "12000041393578035",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:22.508675+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 29.99,
+      "provisional_model_net_eur": 15.81
+    },
+    {
+      "sku_id": "12000041393578032",
+      "cost": 7.99,
+      "stock": 16,
+      "aspects": {
+        "Color": "schwarz"
+      },
+      "verified": false,
+      "image": "https://ae01.alicdn.com/kf/Scfb395e4cef0412395deaad6245e3c6cs.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005007584828356",
+        "sku_id": "12000041393578032",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:23.037679+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 29.99,
+      "provisional_model_net_eur": 15.61
+    },
+    {
+      "sku_id": "12000041393578033",
+      "cost": 7.79,
+      "stock": 4,
+      "aspects": {
+        "Color": "Blau"
+      },
+      "verified": false,
+      "image": "https://ae01.alicdn.com/kf/S69dab19156a04d458f1d81d7f56c292cW.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005007584828356",
+        "sku_id": "12000041393578033",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:23.532117+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 29.99,
+      "provisional_model_net_eur": 15.81
+    }
+  ],
+  "category": {
+    "category_id": "36024",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Wand-, Türgarderoben & Haken",
+    "confidence": 1.0,
+    "needs_review": false,
+    "source": "override",
+    "level": "medium",
+    "note": "compact metal key organizer (wall-mount); auto-resolve picked 50431 Schluesselanhaenger/Transponder/Lanyards (car keychain accessories, 0.33 conf) which is for key FOBS not a wall rack. Real taxonomy search for Schluesselorganizer Wandhalter surfaces this wall-hook category as the better real fit."
+  },
+  "supported_shared_aspects": {
+    "Material": [
+      "Metallisch",
+      "Aluminum Alloy"
+    ]
+  },
+  "human_review_aspect_names": [],
+  "missing_required_aspects": [
+    "Produktart"
+  ],
+  "required_aspects": [
+    {
+      "name": "Produktart",
+      "values": [
+        "Aufbewahrungshaken",
+        "Aufhängestreifen",
+        "Bademantelhaken",
+        "Besenhalter",
+        "Bilderhaken",
+        "Deckenhaken",
+        "Dekorativer Wandhaken",
+        "Garderobe",
+        "Garderobenbank & -paneele",
+        "Garderobenhaken",
+        "Garderoben-Set",
+        "Garderobenständer",
+        "Garderoben- und Hutablage",
+        "Gleithaken",
+        "Hakenleiste",
+        "Hakenleiste",
+        "Handtuchhaken",
+        "Handtuchhalter",
+        "Klammerbügel",
+        "Kleiderlüfter",
+        "Kleiderschiene",
+        "Kleiderstangenhalterung",
+        "Krawattenhalter",
+        "Magnethaken",
+        "Saugnapfgarderobe",
+        "Schirmständer",
+        "Schlüsselhaken",
+        "Schraubhaken",
+        "Selbstklebend",
+        "S-Haken",
+        "Stecktafel",
+        "Taschenhaken",
+        "Tassenhaken",
+        "Trockenmauer-Haken",
+        "Türgarderobe",
+        "Türhaken",
+        "Werkzeughalter",
+        "Werkzeugständer",
+        "Wischmopp-Haken",
+        "Wischmopp-Halter",
+        "Zackenaufhänger",
+        "Zeitungsständer"
+      ],
+      "mode": "FREE_TEXT"
+    }
+  ],
+  "optional_unknown_aspects": [
+    "Marke",
+    "Anzahl der Haken",
+    "Montage",
+    "Breite",
+    "Abteilung",
+    "Haken-Stil",
+    "Länge",
+    "Gewicht",
+    "Herstellernummer",
+    "Höhe",
+    "Modell",
+    "Farbe",
+    "Stil",
+    "Besonderheiten",
+    "Thema",
+    "Finish",
+    "Ursprungsland",
+    "Original/Reproduktion",
+    "Personalisieren",
+    "Anzahl der Einheiten",
+    "Anzahl pro Packung",
+    "Maßeinheit",
+    "Personalisiert",
+    "Pflegeanleitung",
+    "Anleitung für Personalisierung"
+  ],
+  "draft_file": "product_draft.html",
+  "finished_at": "2026-11-17T07:57:23.915031+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "dimensions": {"found": false, "length_cm": null, "width_cm": null, "height_cm": null, "depth_cm": null, "diameter_cm": null, "text": "6 görselin hiçbirinde ölçü overlay'i, cetvel veya cm/inch yazısı yok. Tüm görseller lifestyle/kullanım fotoğrafları (buzdolabı içi, mutfak tezgahı, elde tutma, yemek içeriği). Farklı boy kutular bir arada gösterilmiş ama sayısal ölçü verilmemiş.", "confidence": 0},
+  "weight": {"found": false, "product_weight_g": null, "package_weight_g": null, "text": "", "confidence": 0},
+  "material": {"primary": "Kunststoff (transparent, lebensmittelecht)", "composition": ["Kunststoff (Polypropylen-Typ, durchsichtig)", "Silikon-Dichtung am Deckelrand (blau)"], "confidence": 85, "source": "vision"},
+  "color": {"found": true, "main": "Transparent", "options": ["Transparent", "Blau (Deckel-/Clip-Akzent)"], "confidence": 90, "source": "vision"},
+  "capacity": {"found": false, "volume_liter": null, "item_count": null, "load_capacity_kg": null, "text": "Görsellerde farklı büyüklükte kutular bir set halinde gösteriliyor ancak litre/adet bilgisi net yazılı değil, sayı tahmini yapılmadı.", "confidence": 0},
+  "features": ["Luftdicht versiegelter Deckel (Click-Lock-Clips)", "Stapelbar", "Rechteckige Form", "Kühlschrank-/Gefrierschrank-geeignet", "Spülmaschinenfest (laut üblichem Design, görselde doğrulanamadı)", "Durchsichtiger Korpus mit farbiger Dichtung"],
+  "brand": {"name": "No-Name", "confidence": 80},
+  "model": {"number": "", "confidence": 0},
+  "certifications": [],
+  "technical": {"temperature_min_c": null, "temperature_max_c": null, "power_watt": null, "voltage": null},
+  "assembly": {"required": "Unknown", "tools_needed": "Unknown", "time_minutes": null}
+}

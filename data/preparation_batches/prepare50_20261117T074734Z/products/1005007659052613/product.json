@@ -1,0 +1,88 @@
+{
+  "index": 10,
+  "product_id": "1005007659052613",
+  "db_title": "Durchsichtiger Fernbedienungshalter und Schreibtisch-Organizer aus Kunststoff mit 4 Fächern für den Heim- und Bürogebrauch",
+  "started_at": "2026-11-17T07:52:46.379447+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "Durchsichtiger Fernbedienungshalter und Schreibtisch-Organizer aus Kunststoff mit 4 Fächern für den Heim- und Bürogebrauch",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/Se3fc556be47e4f82ba021f109a17dab1C.jpeg",
+    "https://ae01.alicdn.com/kf/S21022be76ca74b20b46a7f56190c241bu.jpg",
+    "https://ae01.alicdn.com/kf/Se5ee39e964334b638aa26b8afecfaa3en.jpg",
+    "https://ae01.alicdn.com/kf/Sbe6c160e4f6a498a9823074be735fbceI.jpg",
+    "https://ae01.alicdn.com/kf/Sf9879acfd8264a658681975c8b252caeD.jpg",
+    "https://ae01.alicdn.com/kf/S2a9a10c2168b4635b24304e73437213cG.jpg"
+  ],
+  "main_image_dimensions": [
+    1601,
+    1601
+  ],
+  "main_image_file": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\products\\1005007659052613\\main.jpg",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "freight_estimate_only",
+    "quality_title:too_few_keywords_(7_<_8_words)",
+    "quality_description:no_bullet_points_or_numbered_lists",
+    "quality_images:insufficient_images_(2_<_6_min)",
+    "quality_aspects:insufficient_item_specifics_(7_<_10_min)",
+    "publication_context_incomplete"
+  ],
+  "source_checked": true,
+  "has_full_content": true,
+  "has_compiled_payloads": true,
+  "content_contract_passed": true,
+  "fully_ready": false,
+  "status": "blocked_content_saved",
+  "final_title": "Durchsichtiger Fernbedienungshalter und Schreibtisch-Organizer aus Kunststoff",
+  "category": {
+    "category_id": "159897",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Boxen",
+    "confidence": 1.0,
+    "needs_review": false,
+    "source": "override",
+    "level": "medium",
+    "note": "clear 4-compartment desk/remote-control organizer box; auto-resolve picked this same category but only 0.25 confidence. Confirmed via dedicated taxonomy search - top real hit."
+  },
+  "variant_count": 1,
+  "shipping_quotes_count": 1,
+  "document_evidence": {
+    "basis": "authenticated_scoped_document_review",
+    "accepted_requirements": [
+      "supplier_product_compliance",
+      "supplier_agreement",
+      "manufacturer_eu_responsible_person",
+      "image_rights",
+      "dispatch_origin"
+    ],
+    "satisfied_blockers": [
+      "supplier_product_compliance_unverified",
+      "supplier_agreement_missing",
+      "manufacturer_eu_responsible_person_missing",
+      "image_rights_unverified",
+      "dispatch_origin_unverified"
+    ],
+    "missing_blockers": [],
+    "errors": {},
+    "review_fingerprint": "5a73a7820993e515acf3a52057e18f85f04845b2b64930eb8fc1d5e6d92c97e3",
+    "valid_until": "2026-11-17T15:15:31.622507+00:00"
+  },
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 7
+  },
+  "finished_at": "2026-11-17T07:52:53.764150+00:00",
+  "artifact_sha256": "dd81028ff5bae127ced1630e87ab01221d7269f926933ca6523d1d4b807ed641",
+  "canonical_status": "blocked"
+}

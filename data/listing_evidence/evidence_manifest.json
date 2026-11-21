@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "generated_at": "2026-11-16T02:03:57.812541+00:00",
+  "records": [
+    {
+      "product_id": "1005005504286671",
+      "marketplace": "EBAY_DE",
+      "evidence_level": "supplier_public_claim_collected_pending_independent_review",
+      "manufacturer_claim_collected": true,
+      "eu_responsible_claim_collected": true,
+      "documents_downloaded": 1,
+      "collected_at": "2026-11-14T13:35:56.324435+00:00",
+      "independent_verification_required": true,
+      "startup_phase_risk_acknowledged": true
+    },
+    {
+      "product_id": "1005005995498062",
+      "marketplace": "EBAY_DE",
+      "evidence_level": "supplier_public_claim_collected_pending_independent_review",
+      "manufacturer_claim_collected": true,
+      "eu_responsible_claim_collected": true,
+      "documents_downloaded": 0,
+      "collected_at": "2026-11-14T13:35:56.324435+00:00",
+      "independent_verification_required": true,
+      "startup_phase_risk_acknowledged": true
+    },
+    {
+      "product_id": "1005006266383463",
+      "marketplace": "EBAY_DE",
+      "evidence_level": "supplier_public_claim_collected_pending_independent_review",
+      "manufacturer_claim_collected": true,
+      "eu_responsible_claim_collected": true,
+      "documents_downloaded": 0,
+      "collected_at": "2026-11-14T13:35:56.324435+00:00",
+      "independent_verification_required": true,
+      "startup_phase_risk_acknowledged": true
+    },
+    {
+      "product_id": "1005009647044745",
+      "marketplace": "EBAY_DE",
+      "evidence_level": "supplier_public_claim_collected_pending_independent_review",
+      "manufacturer_claim_collected": true,
+      "eu_responsible_claim_collected": true,
+      "documents_downloaded": 0,
+      "collected_at": "2026-11-14T13:35:56.324435+00:00",
+      "independent_verification_required": true,
+      "startup_phase_risk_acknowledged": true
+    },
+    {
+      "product_id": "1005012061920624",
+      "marketplace": "EBAY_DE",
+      "evidence_level": "supplier_public_claim_collected_pending_independent_review",
+      "manufacturer_claim_collected": true,
+      "eu_responsible_claim_collected": true,
+      "documents_downloaded": 0,
+      "collected_at": "2026-11-14T13:35:56.324435+00:00",
+      "independent_verification_required": true,
+      "startup_phase_risk_acknowledged": true
+    },
+    {
+      "product_id": "1005012861205757",
+      "marketplace": "EBAY_DE",
+      "evidence_level": "supplier_public_claim_collected_pending_independent_review",
+      "manufacturer_claim_collected": true,
+      "eu_responsible_claim_collected": true,
+      "documents_downloaded": 0,
+      "collected_at": "2026-11-14T13:35:56.324435+00:00",
+      "independent_verification_required": true,
+      "startup_phase_risk_acknowledged": true
+    }
+  ]
+}

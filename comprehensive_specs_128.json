@@ -1,0 +1,22 @@
+{
+  "dimensions": {
+    "found": false,
+    "length_cm": null,
+    "width_cm": 8.5,
+    "height_cm": 11.4,
+    "depth_cm": null,
+    "diameter_cm": null,
+    "text": "Görsel S10c0c5cbb27a438da9e89f9e6dc90752k.jpg uzerinde cizili olcu diyagrami var: yatay 53mm/2.1inch (kollarin ic genisligi) ve 85mm/3.34inch (kollarin dis/max genisligi); dikey 114mm/4.5inch (klips mekanizmasi dahil toplam yukseklik) ve 99mm/3.9inch (sadece govde-kol kismi yuksekligi, klips haric). Width icin max deger (85mm=8.5cm) ve height icin toplam deger (114mm=11.4cm) alindi. Hicbir goeselde derinlik/length olcusu yazili degil, bu yuzden ucuncu boyut eksik ve found=false birakildi.",
+    "confidence": 90
+  },
+  "weight": {"found": false, "product_weight_g": null, "package_weight_g": null, "text": "", "confidence": 0},
+  "material": {"primary": "Kunststoff", "composition": ["ABS", "Metall", "Silikon"], "confidence": 75, "source": "vision+title fallback"},
+  "color": {"found": true, "main": "Schwarz", "options": ["Schwarz"], "confidence": 95, "source": "vision"},
+  "capacity": {"found": false, "volume_liter": null, "item_count": null, "load_capacity_kg": null, "text": "", "confidence": 0},
+  "features": ["Eingebautes Metall (bruchsicher)", "360 Grad verstellbar", "Luftungsschlitz-Halterung (Air Vent)", "Kompatibel mit 5.0-7.2 Zoll Smartphones", "Einhand-Bedienung"],
+  "brand": {"name": "No-Name", "confidence": 80},
+  "model": {"number": "", "confidence": 0},
+  "certifications": [],
+  "technical": {"temperature_min_c": null, "temperature_max_c": null, "power_watt": null, "voltage": null},
+  "assembly": {"required": "Unknown", "tools_needed": "Unknown", "time_minutes": null}
+}

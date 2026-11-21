@@ -1,0 +1,70 @@
+
+================================================================================
+DATABASE → EBAY VERIFICATION REPORT
+================================================================================
+
+Database Products Checked:  70
+
+Verification Results:
+  ✅ Active on eBay:         30
+  ⚠️  Inactive/Not Found:    4
+  🔄 Updated to Inactive:    4
+  ❌ Errors:                 36
+
+================================================================================
+
+INACTIVE/NOT FOUND LISTINGS:
+
+  ID 4: Pop-Up Lustige Maus und Käse Block Squeeze Anti-St...
+    eBay Item ID: 860144076965
+    Status: Exists but Inactive
+  ID 5: Katzenspielzeug Filz mit Bällen Interaktives Besch...
+    eBay Item ID: None
+    Status: Exists but Inactive
+  ID 7: Hundespielzeug Ball Bissfest Zahnreinigung Kauspie...
+    eBay Item ID: None
+    Status: Exists but Inactive
+  ID 11: Butter-Stick Fidget-Spielzeug: Elastischer Käse-St...
+    eBay Item ID: 860144076373
+    Status: Exists but Inactive
+
+ERRORS (36):
+
+  ID 10: Could not verify (no offer_id or API limitation)
+  ID 22: Could not verify (no offer_id or API limitation)
+  ID 24: Could not verify (no offer_id or API limitation)
+  ID 26: Could not verify (no offer_id or API limitation)
+  ID 29: Could not verify (no offer_id or API limitation)
+  ID 30: Could not verify (no offer_id or API limitation)
+  ID 31: Could not verify (no offer_id or API limitation)
+  ID 33: Could not verify (no offer_id or API limitation)
+  ID 34: Could not verify (no offer_id or API limitation)
+  ID 36: Could not verify (no offer_id or API limitation)
+  ID 37: Could not verify (no offer_id or API limitation)
+  ID 38: Could not verify (no offer_id or API limitation)
+  ID 39: Could not verify (no offer_id or API limitation)
+  ID 40: Could not verify (no offer_id or API limitation)
+  ID 41: Could not verify (no offer_id or API limitation)
+  ID 42: Could not verify (no offer_id or API limitation)
+  ID 43: Could not verify (no offer_id or API limitation)
+  ID 46: Could not verify (no offer_id or API limitation)
+  ID 47: Could not verify (no offer_id or API limitation)
+  ID 50: Could not verify (no offer_id or API limitation)
+  ID 56: Could not verify (no offer_id or API limitation)
+  ID 57: Could not verify (no offer_id or API limitation)
+  ID 58: Could not verify (no offer_id or API limitation)
+  ID 59: Could not verify (no offer_id or API limitation)
+  ID 67: Could not verify (no offer_id or API limitation)
+  ID 68: Could not verify (no offer_id or API limitation)
+  ID 69: Could not verify (no offer_id or API limitation)
+  ID 72: Could not verify (no offer_id or API limitation)
+  ID 73: Could not verify (no offer_id or API limitation)
+  ID 75: Could not verify (no offer_id or API limitation)
+  ID 83: Could not verify (no offer_id or API limitation)
+  ID 85: Could not verify (no offer_id or API limitation)
+  ID 91: Could not verify (no offer_id or API limitation)
+  ID 94: Could not verify (no offer_id or API limitation)
+  ID 105: Could not verify (no offer_id or API limitation)
+  ID 143: Could not verify (no offer_id or API limitation)
+
+================================================================================

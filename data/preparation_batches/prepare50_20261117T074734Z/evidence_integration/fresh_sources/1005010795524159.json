@@ -1,0 +1,206 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:29",
+        "offer_sale_price": "5.49",
+        "sku_id": "12000053530614304",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "11.68",
+        "offer_bulk_sale_price": "5.49",
+        "sku_available_stock": 43,
+        "id": "14:29",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "WEISS",
+              "sku_image": "https://ae01.alicdn.com/kf/S3cd64004b8b64bffadc47904f10b6d110.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_id": 29,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:350852",
+        "offer_sale_price": "4.39",
+        "sku_id": "12000053530614305",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "9.34",
+        "offer_bulk_sale_price": "4.39",
+        "sku_available_stock": 48,
+        "id": "14:350852",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Orange",
+              "sku_image": "https://ae01.alicdn.com/kf/S844937ebc3764b578f30f80b1bb27998a.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_id": 350852,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:933",
+        "offer_sale_price": "5.49",
+        "sku_id": "12000053530614306",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "11.68",
+        "offer_bulk_sale_price": "5.49",
+        "sku_available_stock": 1,
+        "id": "14:933",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "KAFFE",
+              "sku_image": "https://ae01.alicdn.com/kf/Sc83ff2f808684874aa9558334ca0d8b3E.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_id": 933,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:193",
+        "offer_sale_price": "5.19",
+        "sku_id": "12000053530614307",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "11.04",
+        "offer_bulk_sale_price": "5.19",
+        "sku_available_stock": 117,
+        "id": "14:193",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "schwarz",
+              "sku_image": "https://ae01.alicdn.com/kf/S2351047beb874c3790d43e908c5c6b76f.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "image_urls": "https://ae01.alicdn.com/kf/Sff1b11d52e5347fcbc2c652940a0cc80Z.jpg;https://ae01.alicdn.com/kf/Sdac7327fc5034c5380de0be5f7795fceU.jpg;https://ae01.alicdn.com/kf/S82e875986c0846f0ac2ade759b18744dg.jpg;https://ae01.alicdn.com/kf/S8bb5fc6479d8419d90a06b811ec7b4fcb.jpg;https://ae01.alicdn.com/kf/Sf5cf22363aba4372b704adbd640701c4R.jpg;https://ae01.alicdn.com/kf/Sec28bd2dcf6f4a138e18e09a6fea1d2cf.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 10,
+    "package_height": 8,
+    "package_length": 20,
+    "gross_weight": "0.140",
+    "package_type": false,
+    "product_unit": 100000000
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005010795524159,
+    "sub_product_id": "{\"US\":3256810609209407}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S844937ebc3764b578f30f80b1bb27998a.jpg\",\"style\":{\"width\":800,\"height\":800},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sc83ff2f808684874aa9558334ca0d8b3E.jpg\",\"style\":{\"width\":800,\"height\":800},\"targetUrl\":\"\"}}]}",
+    "subject": "1 Stück Fernbedienungshalter – Fernbedienungs-Organizer für Fernseher, Medienplayer, Stifte, platzsparender Organizer für Schreibtisch und Nachttisch",
+    "evaluation_count": "1263",
+    "sales_count": "5000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.5",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 154102,
+    "product_id": 1005010795524159,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><img src=\"https://ae01.alicdn.com/kf/S844937ebc3764b578f30f80b1bb27998a.jpg\" slate-data-type=\"image\" /><img src=\"https://ae01.alicdn.com/kf/Sc83ff2f808684874aa9558334ca0d8b3E.jpg\" slate-data-type=\"image\" /><br /></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "3rd floor, factory building no. 470 city store road, chuanjiang street, yiwu city, jinhua city, zhejiang province",
+    "phone": "18395998808",
+    "country_name": "China",
+    "email": "13857901124@163.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 266081643,
+        "attr_value_id": 100015203,
+        "attr_name": "CN",
+        "attr_value": "Zhejiang"
+      },
+      {
+        "attr_name_id": 10,
+        "attr_value_id": 124,
+        "attr_name": "Material",
+        "attr_value": "Kunststoff"
+      },
+      {
+        "attr_name_id": 43,
+        "attr_value_id": 3138,
+        "attr_name": "Funktion",
+        "attr_value": "Wiederverwendbar"
+      },
+      {
+        "attr_name_id": 906,
+        "attr_value_id": 124,
+        "attr_name": "Rahmenmaterial",
+        "attr_value": "Kunststoff"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 521,
+        "attr_value_id": 4335,
+        "attr_name": "Verwendung",
+        "attr_value": "Fernsteuerung"
+      },
+      {
+        "attr_name_id": 6,
+        "attr_value_id": 100014110,
+        "attr_name": "Typ",
+        "attr_value": "Speicherkasten und Behälter"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1103743899,
+    "shipping_speed_rating": "4.7",
+    "communication_rating": "4.6",
+    "store_name": "Shop1103743899 Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.5"
+  }
+}

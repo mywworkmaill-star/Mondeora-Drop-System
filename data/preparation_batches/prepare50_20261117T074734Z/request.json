@@ -1,0 +1,12 @@
+{
+  "requested_count": 50,
+  "publish_authorized": false,
+  "created_at": "2026-11-17T07:47:34.041441+00:00",
+  "root": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System",
+  "initial_readiness_generated_at": "2026-11-17T07:18:00.725446+00:00",
+  "initial_global_blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement"
+  ],
+  "canonical_buffer_target_unchanged": true
+}

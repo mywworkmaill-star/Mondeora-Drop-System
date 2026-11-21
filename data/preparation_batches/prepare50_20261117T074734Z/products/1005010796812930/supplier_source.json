@@ -1,0 +1,152 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:200006152#4-layer-C",
+        "offer_sale_price": "6.49",
+        "sku_id": "12000053535293408",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "14.11",
+        "offer_bulk_sale_price": "6.49",
+        "sku_available_stock": 64,
+        "id": "14:200006152#4-layer-C",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "hellgrün",
+              "sku_image": "https://ae01.alicdn.com/kf/S440aa082570a4970a0b8fc5b2fc6efa9Q.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "4-layer-C",
+              "property_value_id": 200006152,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:200006151#4-layer-A",
+        "offer_sale_price": "13.29",
+        "sku_id": "12000053535293407",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "27.69",
+        "offer_bulk_sale_price": "13.29",
+        "sku_available_stock": 74,
+        "id": "14:200006151#4-layer-A",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Hellgrau",
+              "sku_image": "https://ae01.alicdn.com/kf/S440aa082570a4970a0b8fc5b2fc6efa9Q.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "4-layer-A",
+              "property_value_id": 200006151,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "image_urls": "https://ae01.alicdn.com/kf/Sfe90d48f18294b3f99c41e726c3ca3e3p.jpg;https://ae01.alicdn.com/kf/S12db55d326014ad4b2efa06d2fbe4bdaS.jpg;https://ae01.alicdn.com/kf/S440aa082570a4970a0b8fc5b2fc6efa9Q.jpg;https://ae01.alicdn.com/kf/S87c7b3d369c34f488af4c7854a5a964cT.jpg;https://ae01.alicdn.com/kf/Sbf5f134222834fd293e08dc7e101a2c48.jpg;https://ae01.alicdn.com/kf/Se1d6864d84914df38071da0f5edb0301z.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 18,
+    "package_height": 1,
+    "package_length": 19,
+    "gross_weight": "0.018",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005010796812930,
+    "sub_product_id": "{\"US\":3256810610498178}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"text\",\"data\":{\"content\":\"(Produktbeschreibung)\\nDieses 4-stufige X-förmige staubdichte Schuhregal ist ein platzsparendes Muss für ein aufgeräumtes Zuhause!Hergestellt aus robusten Stahlrohren (glänzend schwarz lackiert) und ausgestattet mit einer staubdichten Stoffschicht pro Ebene, hält es Ihre Schuhe sauber und maximiert die Lagerkapazität auf kleinen Flächen.Mit den Maßen 42 cm (L) × 18,5 cm (B) × 49,2 cm (H) passt dieser kompakte Organizer perfekt in Eingangsbereiche, Schlafzimmer, Balkone oder enge Ecken.Seine einzigartige X-Rahmen-Struktur sorgt für Stabilität, ohne zusätzlichen Platz auf dem Boden einzunehmen.Kein Werkzeug für die Montage erforderlich – die Einrichtung ist in wenigen Minuten abgeschlossen!Es kann 8-10 Paar Schuhe (Turnschuhe, Lederschuhe usw.) aufnehmen.), wodurch Ihr Schuhwerk organisiert und leicht zugänglich bleibt.\",\"style\":{\"fontSize\":13,\"fontWeight\":\"normal\",\"align\":\"left\",\"color\":\"#434649\"}}},{\"type\":\"text\",\"data\":{\"content\":\"\\n \\n 1. Platzsparende X-Struktur \\n Das einzigartige X-förmige Rahmendesign nutzt den vertikalen Raum optimal aus, perfekt für kleine Wohnungen/Eingangsbereiche – Schluss mit überfüllten Böden! \\n 2. Staubdichte Schutzschicht \\n Jede Ebene ist mit einer staubdichten Stoffabdeckung ausgestattet, die verhindert, dass sich Staub auf den Schuhen ansammelt, und Ihre Reinigungszeit verkürzt. \\n 3. Werkzeuglose Schnellmontage \\n Einfacher Aufbau + klare Anweisungen: Der Zusammenbau ist in nur 3-5 Minuten erledigt, selbst für Anfänger oder Personen, die komplexe Aufbauten nicht mögen. \\n 4. Robustes Stahlrohrmaterial \\n Die robuste Stahlrohrkonstruktion gewährleistet eine hohe Tragfähigkeit und hält schwere Schuhe (Sneaker/Stiefel) sicher, ohne zu wackeln. \\n 5,4-stufiges Regal mit großer Kapazität \\n Kompakte Größe, aber großer Stauraum: bietet Platz für bis zu 8-10 Paar Schuhe und sorgt für Ordnung in Ihrem Eingangsbereich/Schlafzimmer.\",\"style\":{\"fontSize\":13,\"fontWeight\":\"normal\",\"align\":\"left\",\"color\":\"#434649\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sc602834b7c66400c846321d4d498219bx.jpg\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Se1d6864d84914df38071da0f5edb0301z.jpg\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sae59276780d644cebed257af3a3e3f57c.jpg\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S06fca911a2cc46ebb9faae9adf7bef3fz.jpg\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S6ef5b49b3f5d4f29bdeffe483f19b7e51.jpg\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S70819f4c71ad47fda0d4ef6c479057a8n.jpg\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S87c7b3d369c34f488af4c7854a5a964cT.jpg\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sbf5f134222834fd293e08dc7e101a2c48.jpg\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sa5c84bc9d59f4696af53f3b5da56e675X.jpg\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sba243440dd624a1287424bfafa209778r.jpg\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S12db55d326014ad4b2efa06d2fbe4bdaS.jpg\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sb3f94229668a4258908ab5a0a83ca4625.jpg\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S56221dbec3e54e2cb44f379a4fef6135G.jpg\",\"style\":{\"width\":1200,\"height\":1200}}}]}",
+    "subject": "Heißer Verkauf: 4-stöckiges X-förmiges Schuhregal, Multifunktionales X-Design Staubgeschütztes Aufbewahrungsregal für Schlafsäle, Eingangsbereiche, Flure und Schlafzimmer",
+    "evaluation_count": "2156",
+    "sales_count": "10000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "3.9",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 100004488,
+    "product_id": 1005010796812930,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_text\">\n <p style=\"font-size:13px;font-weight:normal;text-align:left;color:rgb(67, 70, 73);display:block;width:100%\" align=\"left\" id=\"tl_1\">(Produktbeschreibung) <br />Dieses 4-stufige X-f&ouml;rmige staubdichte Schuhregal ist ein platzsparendes Muss f&uuml;r ein aufger&auml;umtes Zuhause!Hergestellt aus robusten Stahlrohren (gl&auml;nzend schwarz lackiert) und ausgestattet mit einer staubdichten Stoffschicht pro Ebene, h&auml;lt es Ihre Schuhe sauber und maximiert die Lagerkapazit&auml;t auf kleinen Fl&auml;chen.Mit den Ma&szlig;en 42 cm (L) &times; 18,5 cm (B) &times; 49,2 cm (H) passt dieser kompakte Organizer perfekt in Eingangsbereiche, Schlafzimmer, Balkone oder enge Ecken.Seine einzigartige X-Rahmen-Struktur sorgt f&uuml;r Stabilit&auml;t, ohne zus&auml;tzlichen Platz auf dem Boden einzunehmen.Kein Werkzeug f&uuml;r die Montage erforderlich – die Einrichtung ist in wenigen Minuten abgeschlossen!Es kann 8-10 Paar Schuhe (Turnschuhe, Lederschuhe usw.) aufnehmen.), wodurch Ihr Schuhwerk organisiert und leicht zug&auml;nglich bleibt.</p>\n</div>\n<div class=\"detailmodule_text\">\n <div>\n  <br />\n  <br />\n </div>\n <p style=\"font-size:13px;font-weight:normal;text-align:left;color:rgb(67, 70, 73);display:block;width:100%\" align=\"left\" id=\"tl_2\">1. Platzsparende X-Struktur <br />Das einzigartige X-f&ouml;rmige Rahmendesign nutzt den vertikalen Raum optimal aus, perfekt f&uuml;r kleine Wohnungen/Eingangsbereiche – Schluss mit &uuml;berf&uuml;llten B&ouml;den! <br />2. Staubdichte Schutzschicht <br />Jede Ebene ist mit einer staubdichten Stoffabdeckung ausgestattet, die verhindert, dass sich Staub auf den Schuhen ansammelt, und Ihre Reinigungszeit verk&uuml;rzt. <br />3. Werkzeuglose Schnellmontage <br />Einfacher Aufbau + klare Anweisungen: Der Zusammenbau ist in nur 3-5 Minuten erledigt, selbst f&uuml;r Anf&auml;nger oder Personen, die komplexe Aufbauten nicht m&ouml;gen. <br />4. Robustes Stahlrohrmaterial <br />Die robuste Stahlrohrkonstruktion gew&auml;hrleistet eine hohe Tragf&auml;higkeit und h&auml;lt schwere Schuhe (Sneaker/Stiefel) sicher, ohne zu wackeln. <br />5,4-stufiges Regal mit gro&szlig;er Kapazit&auml;t <br />Kompakte Gr&ouml;&szlig;e, aber gro&szlig;er Stauraum: bietet Platz f&uuml;r bis zu 8-10 Paar Schuhe und sorgt f&uuml;r Ordnung in Ihrem Eingangsbereich/Schlafzimmer.</p>\n</div>\n<div class=\"detailmodule_image\">\n <img class=\"detail-desc-decorate-image\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sc602834b7c66400c846321d4d498219bx.jpg\" slate-data-type=\"image\" />\n <img class=\"detail-desc-decorate-image\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/Se1d6864d84914df38071da0f5edb0301z.jpg\" slate-data-type=\"image\" />\n <img class=\"detail-desc-decorate-image\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sae59276780d644cebed257af3a3e3f57c.jpg\" slate-data-type=\"image\" />\n <img class=\"detail-desc-decorate-image\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S06fca911a2cc46ebb9faae9adf7bef3fz.jpg\" slate-data-type=\"image\" />\n <img class=\"detail-desc-decorate-image\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S6ef5b49b3f5d4f29bdeffe483f19b7e51.jpg\" slate-data-type=\"image\" />\n <img class=\"detail-desc-decorate-image\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S70819f4c71ad47fda0d4ef6c479057a8n.jpg\" slate-data-type=\"image\" />\n <img class=\"detail-desc-decorate-image\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S87c7b3d369c34f488af4c7854a5a964cT.jpg\" slate-data-type=\"image\" />\n <img class=\"detail-desc-decorate-image\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sbf5f134222834fd293e08dc7e101a2c48.jpg\" slate-data-type=\"image\" />\n <img class=\"detail-desc-decorate-image\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sa5c84bc9d59f4696af53f3b5da56e675X.jpg\" slate-data-type=\"image\" />\n <img class=\"detail-desc-decorate-image\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sba243440dd624a1287424bfafa209778r.jpg\" slate-data-type=\"image\" />\n <img class=\"detail-desc-decorate-image\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S12db55d326014ad4b2efa06d2fbe4bdaS.jpg\" slate-data-type=\"image\" />\n <img class=\"detail-desc-decorate-image\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sb3f94229668a4258908ab5a0a83ca4625.jpg\" slate-data-type=\"image\" />\n <img class=\"detail-desc-decorate-image\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S56221dbec3e54e2cb44f379a4fef6135G.jpg\" slate-data-type=\"image\" />\n</div>\n<p><br /></p></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "CN-No.303, No.2, Danping East Lane 3, Danping Community, Nanwan Street, Longgang District, Shenzhen, China\n",
+    "phone": "19066789552",
+    "country_name": "China",
+    "email": "2178348781@qq.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 906,
+        "attr_value_id": 352913,
+        "attr_name": "Rahmenmaterial",
+        "attr_value": "Metall"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 43,
+        "attr_value_id": 365414,
+        "attr_name": "Funktion",
+        "attr_value": "faltbar"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 10,
+        "attr_value_id": 438,
+        "attr_name": "Material",
+        "attr_value": "PP"
+      },
+      {
+        "attr_name_id": 6,
+        "attr_value_id": 100009902,
+        "attr_name": "Typ",
+        "attr_value": "Schuh-Aufhänger"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1104559987,
+    "shipping_speed_rating": "4.6",
+    "communication_rating": "4.6",
+    "store_name": "Nordicbox Organizers Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.4"
+  }
+}

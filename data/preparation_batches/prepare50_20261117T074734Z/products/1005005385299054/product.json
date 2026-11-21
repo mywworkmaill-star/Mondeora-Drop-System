@@ -1,0 +1,60 @@
+{
+  "index": 16,
+  "product_id": "1005005385299054",
+  "db_title": "Auto-Befestigungsclips, gemischtes Set für Karosserie, Drucknieten, Stoßstangen, Türverkleidungen, Befestigungskit, Auto-Clips, 100/50 Stück, Box/Beutelverpackung",
+  "started_at": "2026-11-17T07:52:53.822815+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "Auto-Befestigungsclips, gemischtes Set für Karosserie, Drucknieten, Stoßstangen, Türverkleidungen, Befestigungskit, Auto-Clips, 100/50 Stück, Box/Beutelverpackung",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/Sdeb87d1656cc46418a5ee5924678d91bO.jpg",
+    "https://ae01.alicdn.com/kf/S9a8cf91badd94b48bbf7c0b0dff7f659z.jpg",
+    "https://ae01.alicdn.com/kf/S1ca34d2c97ca4049bd9283e55b1544d1x.jpg",
+    "https://ae01.alicdn.com/kf/S18caceb8af1847c59c940be3a94b47e43.jpg",
+    "https://ae01.alicdn.com/kf/Sbf706bd179fa45a897112d4e452ab541X.jpg",
+    "https://ae01.alicdn.com/kf/Scad2077758924bfe99e5b93ed3d20e02A.jpg"
+  ],
+  "main_image_dimensions": [
+    1000,
+    1000
+  ],
+  "main_image_file": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\products\\1005005385299054\\main.jpg",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:category_aspects_incomplete",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 1
+  },
+  "finished_at": "2026-11-17T07:52:56.457115+00:00",
+  "canonical_status": "blocked"
+}

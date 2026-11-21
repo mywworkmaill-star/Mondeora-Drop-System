@@ -1,0 +1,56 @@
+{
+  "index": 11,
+  "product_id": "1005007238983224",
+  "db_title": "1-4 stücke Wand Montiert Lagerung Box Multifunktions Schlag Kostenloser Organizer TV Fernbedienung DIY Handy Stecker Lade Halter stehen",
+  "started_at": "2026-11-17T07:52:46.423311+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "1-4 stücke Wand Montiert Lagerung Box Multifunktions Schlag Kostenloser Organizer TV Fernbedienung DIY Handy Stecker Lade Halter stehen",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/S9bae4c6fc8cf4246b823a40d426e710d5.jpg",
+    "https://ae01.alicdn.com/kf/S11d95712af39487991e2169cf219ba49m.jpg",
+    "https://ae01.alicdn.com/kf/S7495b7ae08c7467296ca1e3753501429C.jpg",
+    "https://ae01.alicdn.com/kf/S29fc5a2732d54ee5a2cacbda598fe4e5z.jpg",
+    "https://ae01.alicdn.com/kf/S6768d5e5aa934a4992ba354ca79d77013.jpg",
+    "https://ae01.alicdn.com/kf/S322caa8f2d2542f3b2356777a9fae02ag.jpg"
+  ],
+  "image_download_error": "HTTPError",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:category_aspects_incomplete",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 1
+  },
+  "finished_at": "2026-11-17T07:52:48.876806+00:00",
+  "canonical_status": "blocked"
+}

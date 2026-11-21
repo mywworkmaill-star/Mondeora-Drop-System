@@ -1,0 +1,221 @@
+{
+  "category_id": "43504",
+  "mandatory_aspects": {
+    "Hauptmaterial": {
+      "required": true,
+      "example_values": [
+        "Vliesstoff"
+      ],
+      "usage_rate": "100%"
+    },
+    "Produktart": {
+      "required": true,
+      "example_values": [
+        "Aufbewahrungstasche"
+      ],
+      "usage_rate": "100%"
+    },
+    "Besonderheiten": {
+      "required": true,
+      "example_values": [
+        "Mit Griff",
+        "Reißverschluss",
+        "Leather Handles"
+      ],
+      "usage_rate": "100%"
+    },
+    "Höhe": {
+      "required": true,
+      "example_values": [
+        "8 cm",
+        "25 cm"
+      ],
+      "usage_rate": "100%"
+    },
+    "Breite": {
+      "required": true,
+      "example_values": [
+        "35 cm",
+        "13 cm"
+      ],
+      "usage_rate": "100%"
+    },
+    "Artikeltyp": {
+      "required": true,
+      "example_values": [
+        "REISEZUBEHÖR"
+      ],
+      "usage_rate": "100%"
+    },
+    "Herstellernummer": {
+      "required": true,
+      "example_values": [
+        "Nicht zutreffend"
+      ],
+      "usage_rate": "100%"
+    },
+    "Herstellungsmethode": {
+      "required": true,
+      "example_values": [
+        "Patchwork Fabric"
+      ],
+      "usage_rate": "50%"
+    },
+    "Materialzusammensetzung": {
+      "required": true,
+      "example_values": [
+        "Vliesstoff"
+      ],
+      "usage_rate": "100%"
+    },
+    "Kapazität": {
+      "required": true,
+      "example_values": [
+        "Large Capacity"
+      ],
+      "usage_rate": "50%"
+    },
+    "Material": {
+      "required": true,
+      "example_values": [
+        "Vliesstoff"
+      ],
+      "usage_rate": "100%"
+    },
+    "CN": {
+      "required": true,
+      "example_values": [
+        "Zhejiang"
+      ],
+      "usage_rate": "100%"
+    },
+    "Artikelgewicht": {
+      "required": true,
+      "example_values": [
+        "0.1",
+        "0.2"
+      ],
+      "usage_rate": "100%"
+    },
+    "Länge": {
+      "required": true,
+      "example_values": [
+        "19 cm",
+        "55 cm"
+      ],
+      "usage_rate": "100%"
+    },
+    "Gewicht": {
+      "required": true,
+      "example_values": [
+        "Not specified",
+        "100 g"
+      ],
+      "usage_rate": "100%"
+    },
+    "Ursprung": {
+      "required": true,
+      "example_values": [
+        "CN (Herkunft)"
+      ],
+      "usage_rate": "100%"
+    },
+    "Farbe": {
+      "required": true,
+      "example_values": [
+        "220L",
+        "Medium Blau"
+      ],
+      "usage_rate": "100%"
+    },
+    "Marke": {
+      "required": true,
+      "example_values": [
+        "Markenlos"
+      ],
+      "usage_rate": "100%"
+    },
+    "EAN": {
+      "required": true,
+      "example_values": [
+        "Nicht zutreffend"
+      ],
+      "usage_rate": "100%"
+    },
+    "Herstellungsland und -region": {
+      "required": true,
+      "example_values": [
+        "China"
+      ],
+      "usage_rate": "100%"
+    },
+    "Modell": {
+      "required": true,
+      "example_values": [
+        "Not specified",
+        "Nicht zutreffend"
+      ],
+      "usage_rate": "100%"
+    },
+    "Herstellungsstil": {
+      "required": true,
+      "example_values": [
+        "Fashionable Design"
+      ],
+      "usage_rate": "50%"
+    },
+    "Zustand": {
+      "required": true,
+      "example_values": [
+        "Neu"
+      ],
+      "usage_rate": "100%"
+    },
+    "Anzahl der Teile": {
+      "required": true,
+      "example_values": [
+        "1"
+      ],
+      "usage_rate": "100%"
+    },
+    "Tiefe": {
+      "required": true,
+      "example_values": [
+        "Not specified"
+      ],
+      "usage_rate": "50%"
+    },
+    "Anzahl pro Packung": {
+      "required": true,
+      "example_values": [
+        "1"
+      ],
+      "usage_rate": "50%"
+    },
+    "Größe": {
+      "required": true,
+      "example_values": [
+        "Mittel"
+      ],
+      "usage_rate": "50%"
+    },
+    "Mustertyp": {
+      "required": true,
+      "example_values": [
+        "Blumig"
+      ],
+      "usage_rate": "50%"
+    },
+    "Thema": {
+      "required": true,
+      "example_values": [
+        "Blumen"
+      ],
+      "usage_rate": "50%"
+    }
+  },
+  "optional_aspects": {},
+  "created_at": "2026-11-18T12:59:33.460337",
+  "source": "successful_listings",
+  "sample_count": 2
+}

@@ -1,0 +1,60 @@
+{
+  "index": 3,
+  "product_id": "1005010496570687",
+  "db_title": "Kleideraufbewahrungstasche mit großem Fassungsvermögen, robuste Organizer-Box aus Vliesstoff, durchsichtiges Fenster für Bettdecken, Decken, Bettwäsche unter dem Bett",
+  "started_at": "2026-11-17T07:52:38.600704+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "Kleideraufbewahrungstasche mit großem Fassungsvermögen, robuste Organizer-Box aus Vliesstoff, durchsichtiges Fenster für Bettdecken, Decken, Bettwäsche unter dem Bett",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/S357cede78b52432e97706036071adbd26.jpg",
+    "https://ae01.alicdn.com/kf/S34b9665a21c94ca5b560e49810098d1d4.jpg",
+    "https://ae01.alicdn.com/kf/S36a72e59d7fd402c92e8ac40181eed12c.jpg",
+    "https://ae01.alicdn.com/kf/S0888b4c974f94b488cb022d6c94968fbb.jpg",
+    "https://ae01.alicdn.com/kf/Saadcd64deaa644a7b288f9314d710151Q.jpg",
+    "https://ae01.alicdn.com/kf/S2623d4900ce94e09a6a1e888204326118.jpg"
+  ],
+  "main_image_dimensions": [
+    800,
+    800
+  ],
+  "main_image_file": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\products\\1005010496570687\\main.jpg",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:variant_review",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 0
+  },
+  "finished_at": "2026-11-17T07:52:44.015770+00:00",
+  "canonical_status": "blocked"
+}

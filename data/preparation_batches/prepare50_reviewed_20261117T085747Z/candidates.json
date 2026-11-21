@@ -1,0 +1,1382 @@
+[
+  {
+    "product_id": "1005007659052613",
+    "title": "Durchsichtiger Fernbedienungshalter und Schreibtisch-Organizer aus Kunststoff mit 4 Fächern für den Heim- und Bürogebrauch",
+    "db_id": 60,
+    "status": "needs_variation_listing",
+    "saved_status": "blocked",
+    "saved_has_content": false,
+    "saved_blockers": [
+      "freight_unavailable:AliExpressAPIError",
+      "full_content_plan_missing"
+    ],
+    "category_override": {
+      "category_id": "159897",
+      "level": "medium",
+      "note": "clear 4-compartment desk/remote-control organizer box; auto-resolve picked this same category but only 0.25 confidence. Confirmed via dedicated taxonomy search - top real hit.",
+      "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Boxen"
+    },
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005005759411405",
+    "title": "Multifunktionaler Wand-Organizer für Fernbedienungen und Mobiltelefone",
+    "db_id": 61,
+    "status": "needs_variation_listing",
+    "saved_status": "stale",
+    "saved_has_content": true,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005007238983224",
+    "title": "1-4 stücke Wand Montiert Lagerung Box Multifunktions Schlag Kostenloser Organizer TV Fernbedienung DIY Handy Stecker Lade Halter stehen",
+    "db_id": 62,
+    "status": "needs_variation_listing",
+    "saved_status": "blocked",
+    "saved_has_content": false,
+    "saved_blockers": [
+      "freight_unavailable:AliExpressAPIError",
+      "full_content_plan_missing"
+    ],
+    "category_override": {
+      "category_id": "159897",
+      "level": "medium",
+      "note": "wall-mounted multi-pocket organizer (TV remote, phone, charger); auto-resolve picked this same category but only 0.25 confidence. Confirmed via dedicated taxonomy search - top real hit.",
+      "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Boxen"
+    },
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005007705527057",
+    "title": "10 Stück multifunktionale Aufbewahrungsbox, langlebig, große Desktop-Aufbewahrungsbox, Unterwäsche-Aufbewahrung, geeignet für die Aufbewahrung von Kleinigkeiten",
+    "db_id": 63,
+    "status": "needs_variation_listing",
+    "saved_status": "blocked",
+    "saved_has_content": false,
+    "saved_blockers": [
+      "freight_unavailable:AliExpressAPIError",
+      "full_content_plan_missing"
+    ],
+    "category_override": {
+      "category_id": "159897",
+      "level": "medium",
+      "note": "10pc multi-function storage box set; auto-resolve picked this same category but only 0.25 confidence.",
+      "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Boxen"
+    },
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005012382436424",
+    "title": "2 Sätze modularer Kabel- und Datenkabel-Organizer, modulares DIY-Design, geeignet für den Desktop-/Heimgebrauch, Desktop-Organisation",
+    "db_id": 64,
+    "status": "needs_variation_listing",
+    "saved_status": "blocked",
+    "saved_has_content": false,
+    "saved_blockers": [
+      "content_gate_failed:ValueError:gate_block",
+      "full_content_plan_missing"
+    ],
+    "category_override": {
+      "category_id": "67858",
+      "level": "high",
+      "note": "modular cable/data-cable organizer set; auto-resolve wrongly picked 259841 Duschrinnen & Abläufe (shower drains, 0.33 conf, nonsense). Real taxonomy search for Kabel Organizer Datenkabel modular returns this exact cable-management category as the clear top hit - already proven correct for other cable-organizer SKUs in this catalog.",
+      "path": "Computer, Tablets & Netzwerk > Kabel & Steckverbinder > Kabelbinder & Kabelmanager"
+    },
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005009992738407",
+    "title": "Solide Pelz Kosmetische Lagerung Tasche Große Frauen Zipper Make-Up Organizer Handtasche Schreibwaren Bleistift Fall Reise Make-Up Toilettenartikel Punch",
+    "db_id": 65,
+    "status": "needs_variation_listing",
+    "saved_status": "blocked",
+    "saved_has_content": false,
+    "saved_blockers": [
+      "content_gate_failed:ValueError:gate_review",
+      "full_content_plan_missing"
+    ],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005006116459385",
+    "title": "Versiegelte Gläser Küche Getreide Lagerung Organizer Große Tank Kunststoff Feuchtigkeit-beständig Lagerung Box Haushalt Gewürz Gläser Set",
+    "db_id": 66,
+    "status": "needs_variation_listing",
+    "saved_status": "blocked",
+    "saved_has_content": false,
+    "saved_blockers": [
+      "content_gate_failed:ValueError:gate_review",
+      "full_content_plan_missing"
+    ],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005012032555747",
+    "title": "Verstärkte Kleiderorganizer: Hosen- und Pullover-Aufbewahrungsschränke, Schubladenorganizer, Jeans-Aufbewahrungsbox, Kleiderschrank-Organizer",
+    "db_id": 70,
+    "status": "needs_variation_listing",
+    "saved_status": "blocked",
+    "saved_has_content": false,
+    "saved_blockers": [
+      "content_gate_failed:ValueError:category_aspects_incomplete",
+      "full_content_plan_missing"
+    ],
+    "category_override": {
+      "category_id": "43504",
+      "level": "high",
+      "note": "reinforced clothes organizer for pants/sweaters; auto-resolve wrongly picked 20593 Tueren & Tuerbeschlaege/Sonstige (door hardware, 0.33 conf, nonsense). Real taxonomy search for Hosen Pullover Aufbewahrung Kleiderorganizer returns this exact storage-bag category as the clear top hit - same category already used successfully for 5 other storage-bag/organizer listings in this catalog.",
+      "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Aufbewahrungsbeutel & -taschen"
+    },
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005010795524159",
+    "title": "1 Stück Fernbedienungshalter – Fernbedienungs-Organizer für Fernseher, Medienplayer, Stifte, platzsparender Organizer für Schreibtisch und Nachttisch",
+    "db_id": 71,
+    "status": "needs_variation_listing",
+    "saved_status": "blocked",
+    "saved_has_content": false,
+    "saved_blockers": [
+      "content_gate_failed:ValueError:category_aspects_incomplete",
+      "full_content_plan_missing"
+    ],
+    "category_override": {
+      "category_id": "46283",
+      "level": "medium",
+      "note": "remote-control wall holder; auto-resolve picked this same category but only 0.25 confidence. No better semantic fit exists among alternatives.",
+      "path": "Möbel & Wohnen > Kochen & Genießen > Ordnung & Aufbewahrung > Halter/Ständer & Küchenleisten"
+    },
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005006830218955",
+    "title": "Transparenter Aufbewahrungsbehälter, Schmuckschatulle, durchsichtige Kunststoff-Organizer-Box, leere Ohrring-Aufbewahrungs-Organizer, Vitrine für Perlen",
+    "db_id": 76,
+    "status": "needs_variation_listing",
+    "saved_status": "blocked",
+    "saved_has_content": false,
+    "saved_blockers": [
+      "content_gate_failed:ValueError:gate_review",
+      "full_content_plan_missing"
+    ],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005010471370917",
+    "title": "Niedlicher sternförmiger Zahnbürstenhalter, freistehender Badezimmer-Organizer mit niedlichem Gesichtsdesign, platzsparende Zahnbürste und Zahnpasta",
+    "db_id": 77,
+    "status": "needs_variation_listing",
+    "saved_status": "blocked",
+    "saved_has_content": false,
+    "saved_blockers": [
+      "content_gate_failed:ValueError:category_aspects_incomplete",
+      "full_content_plan_missing"
+    ],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005005385299054",
+    "title": "Auto-Befestigungsclips, gemischtes Set für Karosserie, Drucknieten, Stoßstangen, Türverkleidungen, Befestigungskit, Auto-Clips, 100/50 Stück, Box/Beutelverpackung",
+    "db_id": 78,
+    "status": "needs_variation_listing",
+    "saved_status": "blocked",
+    "saved_has_content": false,
+    "saved_blockers": [
+      "content_gate_failed:ValueError:category_aspects_incomplete",
+      "full_content_plan_missing"
+    ],
+    "category_override": {
+      "category_id": "14769",
+      "level": "medium",
+      "note": "mixed set of car body mounting clips; auto-resolve picked this same category but only 0.33 confidence (generic Sonstige bucket is the closest real fit for a mixed clip assortment).",
+      "path": "Auto & Motorrad: Teile > Autoteile & Zubehör > Karosserie-, Anbauteile & Zubehör > Sonstige"
+    },
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005012522516317",
+    "title": "SEAMETAL Aufbewahrungsbox unter dem Sitz, universelle Organizer-Box für den Autositzboden, abnehmbare Aufbewahrungsbox, Gadget-Hülle, universelles Zubehör",
+    "db_id": 82,
+    "status": "needs_variation_listing",
+    "saved_status": "blocked",
+    "saved_has_content": false,
+    "saved_blockers": [
+      "content_gate_failed:ValueError:category_aspects_incomplete",
+      "full_content_plan_missing"
+    ],
+    "category_override": {
+      "category_id": "63690",
+      "level": "medium",
+      "note": "under-seat car storage box; auto-resolve picked this same category but only 0.25 confidence.",
+      "path": "Auto & Motorrad: Teile > Autoteile & Zubehör > Innenausstattung > Aufbewahrung & Organisation > Kofferraumnetze, -Organizer & Trenngitter"
+    },
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005010141016715",
+    "title": "Abflusskorb vom Drucktyp: Lebensmittelsieb und Spülbecken-Organizer, multifunktional für den Einsatz in Küche und Badezimmer",
+    "db_id": 84,
+    "status": "needs_variation_listing",
+    "saved_status": "blocked",
+    "saved_has_content": false,
+    "saved_blockers": [
+      "content_gate_failed:ValueError:variant_review",
+      "full_content_plan_missing"
+    ],
+    "category_override": {
+      "category_id": "20636",
+      "level": "high",
+      "note": "User-approved 2026-11-16: Abflusskorb/Lebensmittelsieb (drain basket/sink strainer). Fresh real taxonomy resolution scored confidence=1.0 for this exact fit (Siebe & Seiher = sieves & strainers), clearly better than the earlier 0.33-confidence guesses (Elektrikerwerkzeuge, Bad & Kueche) shown to the user at decision time.",
+      "path": "Möbel & Wohnen > Kochen & Genießen > Küchenhelfer > Siebe & Seiher"
+    },
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [
+        "cosmetics_food_supplement"
+      ],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005008387790553",
+    "title": "Rotierender Stifthalter, Schreibtisch-Organizer, große Kapazität, Stift-Aufbewahrungsbox, Kosmetikpinsel-Organisation, Box, Arbeitszimmer, Schlafsaal-Zubehör",
+    "db_id": 88,
+    "status": "needs_variation_listing",
+    "saved_status": "blocked",
+    "saved_has_content": false,
+    "saved_blockers": [
+      "content_gate_failed:ValueError:category_aspects_incomplete",
+      "full_content_plan_missing"
+    ],
+    "category_override": {
+      "category_id": "43504",
+      "level": "high",
+      "note": "User-approved 2026-11-16: Rotierender Stifthalter/Schreibtisch-Organizer (rotating pen/desk organizer). Same storage-bag/box category already proven correct for multiple other organizer SKUs in this catalog, chosen over the algorithm's low-confidence (0.33) Wandgarderoben/hooks guess.",
+      "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Aufbewahrungsbeutel & -taschen"
+    },
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [
+        "cosmetics_food_supplement"
+      ],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005005921446741",
+    "title": "1PC PP Desktop Doppel Schicht Lagerung Rack Rechteckige Weiß Organisation Student Schreibtisch Büro Kosmetik Schreibwaren",
+    "db_id": 90,
+    "status": "needs_variation_listing",
+    "saved_status": "blocked",
+    "saved_has_content": false,
+    "saved_blockers": [
+      "content_gate_failed:ValueError:category_unapproved",
+      "full_content_plan_missing"
+    ],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [
+        "cosmetics_food_supplement"
+      ],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005010262367908",
+    "title": "6er-Pack Schnürsenkelschlösser ohne Schnürsenkel: Federbelastete und einfache Installation für sportliche und freizeitschuhe",
+    "db_id": 92,
+    "status": "needs_variation_listing",
+    "saved_status": "blocked",
+    "saved_has_content": false,
+    "saved_blockers": [
+      "content_gate_failed:ValueError:gate_block",
+      "full_content_plan_missing"
+    ],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005007547820639",
+    "title": "Faltbare Reisetasche für Flugzeuge, Handgepäcktasche für Damen und Mädchen, leicht, großes Fassungsvermögen, Sport, Wochenendausflug über Nacht",
+    "db_id": 93,
+    "status": "needs_variation_listing",
+    "saved_status": "blocked",
+    "saved_has_content": false,
+    "saved_blockers": [
+      "content_gate_failed:ValueError:category_unapproved",
+      "full_content_plan_missing"
+    ],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005010026666604",
+    "title": "1 Stück neuer Hutablage im Instagram-Stil mit Haken zum Aufhängen, passend für 8 hohe Kappen für Wohnheim, Schrank, Wandmontage, Baseball",
+    "db_id": 95,
+    "status": "needs_variation_listing",
+    "saved_status": "ready",
+    "saved_has_content": true,
+    "saved_blockers": [],
+    "category_override": {
+      "category_id": "36024",
+      "level": "medium",
+      "note": "wall-mounted hat rack with hooks (title literally 'Hutablage... zum Aufhaengen... Wandmontage'); auto-resolve picked this same category but only 0.25 confidence. Real picklist Produktart value 'Garderoben- und Hutablage' is an exact title match, confirming the category fit.",
+      "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Wand-, Türgarderoben & Haken"
+    },
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005004970036864",
+    "title": "1pc Grau Kleinigkeiten Tasche Lagerung Wand Halterung Mesh Kunststoff Taschen Spender Hängen Wiederverwendet Lagerung Beutel Müll Taschen Küche müll Org",
+    "db_id": 96,
+    "status": "needs_variation_listing",
+    "saved_status": "blocked",
+    "saved_has_content": false,
+    "saved_blockers": [
+      "content_gate_failed:ValueError:category_unapproved",
+      "full_content_plan_missing"
+    ],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005012125398229",
+    "title": "Ninja 3D-Gedruckter Schreibtisch-Organizer Stifthalter Multifunktionaler Stiftständer Kreatives Geschenk Kulturelle und Kreative Schreibtischdekoration",
+    "db_id": 97,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005012752871821",
+    "title": "2027 Kawaii Cartoon Schreibtisch-Organizer Stifthalter Make-up Pinsel Aufbewahrung Niedliche Desktop-Deko Geschenk für Mädchenzimmer",
+    "db_id": 98,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005006223145861",
+    "title": "Kinbor Timeline Wochenplaner, Taschen-A6-Tagebuch, Notizbuch, tägliche Agenda, Monatsplanung, Gewohnheiten, Tracker, Zeit-Organizer, Zeitplan",
+    "db_id": 99,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005011558522906",
+    "title": "Kompakter Schlüsselorganizer aus Metall, Minimalistischer Schlüsselhalter für Schlüsselbund, Sichert 2-6 Schlüssel, Aufbewahrungsorganisation",
+    "db_id": 100,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005009723070135",
+    "title": "Küche Hängen Organizer Rack mit Haken Unter Schrank Papier Handtuch Lumpen Aufhänger Schneiden Bord Topf Abdeckung Halter Lagerung Regal",
+    "db_id": 101,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005011715930773",
+    "title": "Kinbor Selbstdisziplin-Notizbuch ohne Datum, Terminplaner, A5 Wochenjournal, Tages-, Monats- und Jahresplanungsbuch, Zeitorganisator",
+    "db_id": 102,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005008464837668",
+    "title": "1 Stück transparenter Acryl-Schreibtisch-Organizer mit Schleifenakzent, langlebiger Stifthalter und Aufbewahrungskorb für Bürobedarf, Stifte und Zubehör",
+    "db_id": 103,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005011918498017",
+    "title": "Tragbare Golf-Schuhtasche aus Oxford-Stoff, atmungsaktive, leichte Golf-Handtasche, staubdichte Fußball-Tennis-Schuhtasche",
+    "db_id": 104,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005012706422328",
+    "title": "100 Stück schwarze, verdickte Plastiktüten – Supermarkt-Einkaufstüten für Takeaway, Küche, Müllaufbewahrung, Verpackung, Aufbewahrungstasche",
+    "db_id": 105,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005006963247455",
+    "title": "Auto-Mülleimer (mit Deckel), enthält 60 (300) Müllbeutel, kleiner Auto-Mülleimer, auslaufsicheres Mini-Autozubehör",
+    "db_id": 106,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005006232978114",
+    "title": "Vakuum-Aufbewahrungsbeutel mit Ventil, zusammenklappbar, komprimiert, platzsparend, zur Aufbewahrung von Kleidung, große Größe für Handtuch, Stoff, Decke",
+    "db_id": 107,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005009313031651",
+    "title": "3-stufiger Roll-Eier-Aufbewahrungsbehälter für den Kühlschrank, hält 24 Eier, Organizer-Rack, großes Fassungsvermögen, Aufbewahrungsbox für Küche und Kühlschrank",
+    "db_id": 108,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005008684706431",
+    "title": "1/2/4/6Pcs Edelstahl Waschbecken Haken Multifunktions Punch-freies Küche Bad Rack Becken lagerung Rack Handtuch Hängen Halter",
+    "db_id": 109,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005007070511540",
+    "title": "5 m Kabel-Organizer mit Klettverschluss, Kabelbinder, Drahtwickler, USB-Kabelmanagement, Schutz für Kopfhörer, Maus, Kabelbinder",
+    "db_id": 110,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [
+        "electronics_battery"
+      ],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005007164564054",
+    "title": "Kabelbinder, Befestigungsdraht, wiederverwendbarer Kabel-Organizer, Kabel-Seil-Halter, selbstklebend, verstellbar, Kabel-Organizer, Riemen, Schreibtisch-Management",
+    "db_id": 111,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005008223937342",
+    "title": "20/12/4PCS Kabelbinder Kabel Organizer Management Silikon Draht Halter Riemen Zip Clips Wiederverwendbare Krawatte Wraps Keeperwinder Gummi",
+    "db_id": 112,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005006943431670",
+    "title": "20/10/5PCS Lösbare Kabel Organizer Krawatten Maus Kopfhörer Draht Management Nylon Kabel Krawatten Wiederverwendbare Schleife Hoop band Straps Krawatte",
+    "db_id": 113,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005008995117677",
+    "title": "Multifunktionale, zweifach gefaltete Aufbewahrungstasche, Doppelreißverschluss, großes Fassungsvermögen, Aufbewahrungsarrangement, Make-up-Toilettenartikel, große Klassifizierungstasche",
+    "db_id": 114,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005007203879191",
+    "title": "Tragbare Zahnpasta-Zahnbürsten-Schutzhalter-Etui, Reise- und Camping-Aufbewahrungsbox, schützt Zahnbürste, Zahnpasta vor Schmutz und Beschädigung",
+    "db_id": 115,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005007668463067",
+    "title": "50 Packungen antihaftbeschichtetes Papier, liniert mit Heißluftfritteuse zum Backen und Mikrowellenherde, leicht zu reinigen und trennen für gesünderes Kochen",
+    "db_id": 116,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005006682621770",
+    "title": "Versiegelte rechteckige Kühlschrank-Aufbewahrungsbox mit Deckel. Kunststoff-Crisper-Mikrowellenbeheizte Lunchbox mit Deckel",
+    "db_id": 117,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005009800425890",
+    "title": "2Pcs Auto Sitz Lücke Füllstoff Sitz Spalt Lagerung Box Tasche Zwischen Sitze Konsole Organizer Dekoration Innen Auto Zubehör",
+    "db_id": 118,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005012052613902",
+    "title": "2 Stück Auto-Schirmhaken – Kofferraumaufhänger, universell für Limousinen mit bohrfreier Montage, multifunktionale Aufbewahrungsregale für die Rückenlehne",
+    "db_id": 119,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005012703904261",
+    "title": "45 cm schwarzer, verstellbarer Kabelorganizer mit 3-Achsen-Schnalle – Schwerlast-Organizer mit 3-Achsen-Schnalle – Schwerlast-Aufbewahrungsgurt",
+    "db_id": 120,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005008997918604",
+    "title": "Desktop Feste Erbse Draht Organizer Draht Organizer Lagerung Hub Selbst-klebe Wickler Daten Draht Wickler Büro Schreibtisch Management Ordner",
+    "db_id": 121,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005008222543759",
+    "title": "10/20/50PCS Kabel Organizer Clips Draht Wickler Halter Schutz USB Kabel Management Klebe Haken Schreibtisch Klemme für Home Office",
+    "db_id": 122,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [
+        "electronics_battery"
+      ],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005009588207856",
+    "title": "Neue Universal Auto Telefon Halterung Auto Lenkrad Auto Navigation Rack Teleskop Clip Handys Auto Telefon Halter",
+    "db_id": 123,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005007401842369",
+    "title": "Schrauben dreher Organizer Schraubens chl üssel Organizer Handwerkzeug halter Display Rack für Werkstatt Schraubens chl üssel Lager regal Zubehör",
+    "db_id": 124,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005006301568928",
+    "title": "Toocki Kabel-Organizer, 3, 5, 7-Loch-Kabelaufwicklung, flexible Kabelmanagement-Clips für Kabelausrüstung, Kabelschutz für Ladegeräte",
+    "db_id": 125,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [
+        "electronics_battery"
+      ],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005010588781328",
+    "title": "Silikon Saug Telefon Halter Matte Multifunktionale Saugnapf Wand Stehen Platz Anti-Slip Einseitige Fall Montieren Zurück Aufkleber",
+    "db_id": 126,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005008565155083",
+    "title": "Magnetischer Kabelclip, Kabelhalter, selbstklebender Drahthalter, Kabel-Organizer für das Heimbüro unter dem Schreibtisch",
+    "db_id": 127,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [
+        "magnets_small_parts"
+      ],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005005757400107",
+    "title": "Autotelefon halter Auto Entlüftung sclip halterung Mobile Cell Stand Smartphone GPS-Unterstützung für 4, 5-6, 5-Zoll-Mobilgeräte",
+    "db_id": 128,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005005757999487",
+    "title": "Toocki Kabel Draht Kabel Organizer Management 7-Loch-Halter USB Desktop Wickler Clip flexibel für Maus Tastatur USB Typ C Kabel",
+    "db_id": 129,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [
+        "electronics_battery"
+      ],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005008288595479",
+    "title": "6 Stücke Karabiner Clip Schlüsselanhänger Metall Karabiner Form Schlüsselanhänger Schlüsselanhänger Schlüsselhalter Clips Hakenhalter Organizer für Autoschlüssel Finder",
+    "db_id": 130,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005006338829917",
+    "title": "Kabel-Aufbewahrungstasche, wasserdicht, digital, elektronisch, Organizer, tragbar, USB, Datenleitung, Ladegerät, Stecker, Aufbewahrungstasche, Reise-Kabel-Organizer",
+    "db_id": 131,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [
+        "electronics_battery"
+      ],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005007476351473",
+    "title": "Tragbare Mini-Aufbewahrung tasche mit durchsichtigem Reiß verschluss-platzsparender Organizer für Kopfhörer und Ladegeräte, vielseitig mit praktischer Schlüssel bunds ch laufe",
+    "db_id": 132,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [
+        "electronics_battery"
+      ],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005012278367425",
+    "title": "Wasserdichte Netz-Kulturtasche, Kosmetik-Organizer mit Kordelzug und Schnellverschluss, transparente Tasche für Reisen, Fitness und Reisen im Flugzeug",
+    "db_id": 133,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [
+        "cosmetics_food_supplement"
+      ],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005010701876407",
+    "title": "Batterie-Aufbewahrungs-Organizer-Halter für 54 AA AAA-Batterien, Batteriebox, Garagenbehälter, Schubladen-Organisationsspender für Zuhause",
+    "db_id": 134,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [
+        "electronics_battery"
+      ],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005012370075529",
+    "title": "AA- oder AAA-Batterie-Aufbewahrungsbox, auslaufsicherer und staubdichter Batterie-Organizer für das Heimbüro",
+    "db_id": 135,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [
+        "electronics_battery"
+      ],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005008676969979",
+    "title": "Batterie-Aufbewahrungs-Organizer-Halter für 54 AA AAA-Batterien, Batteriebox, Garagenbehälter, Schubladen-Organisationsspender für Zuhause",
+    "db_id": 136,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [
+        "electronics_battery"
+      ],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005010494395563",
+    "title": "Batterie-Organizer-Aufbewahrungstasche für 48 x AA, 48 x AAA-Batterien insgesamt 96 mit Batterietester, extra 2 Taschen für andere Zubehörteile",
+    "db_id": 137,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [
+        "electronics_battery"
+      ],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005007058762290",
+    "title": "Batterie-Aufbewahrungs-Organizer-Halter für 72 AA AAA-Batterien, Batteriebox, Garagenbehälter, Schubladen-Organisationsspender für Zuhause",
+    "db_id": 138,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [
+        "electronics_battery"
+      ],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005009138376610",
+    "title": "Wandmontierter Batterie-Organizer – AA- und AAA-Batterie-Aufbewahrungsspender für Küchenschränke",
+    "db_id": 139,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [
+        "electronics_battery"
+      ],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005010632728625",
+    "title": "Batterie-Aufbewahrungs-Organizer, AA- und AAA-Kombination, Batteriehalter, Wandmontage, Batterie-Spender-Behälter für 10AAA- und 10AA-Batterien",
+    "db_id": 140,
+    "status": "needs_variation_listing",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [
+        "electronics_battery"
+      ],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005010496570687",
+    "title": "Kleideraufbewahrungstasche mit großem Fassungsvermögen, robuste Organizer-Box aus Vliesstoff, durchsichtiges Fenster für Bettdecken, Decken, Bettwäsche unter dem Bett",
+    "db_id": 37,
+    "status": "manual_review",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": {
+      "category_id": "43504",
+      "level": "high",
+      "note": "large clothes storage bag; auto-resolve wrongly picked 42146 Staubsauger-Ersatzteile (vacuum cleaner parts, 0.33 conf, nonsense). Real taxonomy search for Kleideraufbewahrungstasche returns this exact category top hit - same category already used successfully for 4 other storage-bag listings in this catalog.",
+      "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Aufbewahrungsbeutel & -taschen"
+    },
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005007907908369",
+    "title": "Küche Papier Handtuch Halter Klebstoff Tissue Aufhänger Wc Rollen Papier Spender Schrank Lagerung Serviette Rack Bad Zubehör",
+    "db_id": 39,
+    "status": "manual_review",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": {
+      "category_id": "46283",
+      "level": "medium",
+      "note": "kitchen paper-towel/tissue holder (title explicitly says Küche/kitchen). Auto-resolve chose 25452 Kosmetiktücherboxen (bathroom facial-tissue box covers) at 0.25 confidence - wrong room/use. Same holder/stand category as the other wall-mount kitchen organizers in this niche batch is the correct real fit.",
+      "path": "Möbel & Wohnen > Kochen & Genießen > Ordnung & Aufbewahrung > Halter/Ständer & Küchenleisten"
+    },
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005008833344507",
+    "title": "Drehbarer Kleiderbügel mit 12 Haken – platzsparender Schrank-Organizer für Krawatten, Gürtel, Unterwäsche, Röcke |   Tragbare Aufbewahrung zu Hause und im Wohnheim",
+    "db_id": 43,
+    "status": "manual_review",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": {
+      "category_id": "36024",
+      "level": "medium",
+      "note": "rotating clothes hanger with 12 hooks; auto-resolve wrongly picked 103458 Gardinen-/Jalousienteile (curtain/blind parts, 0.33 conf, nonsense). Real taxonomy search for Kleiderbuegel mit Haken drehbar surfaces this wardrobe-hook category as the best real semantic fit.",
+      "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Wand-, Türgarderoben & Haken"
+    },
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005012066024130",
+    "title": "50 Stück Kabelorganisator Kabelmanagement Kabelaufwickler Klebeband-Schutz für Drahtbinder Telefonzubehör Kabelorganisator",
+    "db_id": 45,
+    "status": "manual_review",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": {
+      "category_id": "67858",
+      "level": "high",
+      "note": "50pc cable organizer/management set; auto-resolve picked this exact category but only 0.33 confidence - already proven correct for other cable-organizer SKUs in this catalog.",
+      "path": "Computer, Tablets & Netzwerk > Kabel & Steckverbinder > Kabelbinder & Kabelmanager"
+    },
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005008290283020",
+    "title": "Schreibtisch-Organizer aus Netzstoff für Bürobedarf, Caddy mit Stifthalter und Aufbewahrungskörben für Schreibtischzubehör, 3 Fächer, Schwarz",
+    "db_id": 47,
+    "status": "manual_review",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005007584828356",
+    "title": "Kompakter Schlüsselorganizer aus Metall, Minimalistischer Schlüsselhalter für Schlüsselbund, Hält 1-5 Schlüssel Sicher",
+    "db_id": 49,
+    "status": "manual_review",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": {
+      "category_id": "36024",
+      "level": "medium",
+      "note": "compact metal key organizer (wall-mount); auto-resolve picked 50431 Schluesselanhaenger/Transponder/Lanyards (car keychain accessories, 0.33 conf) which is for key FOBS not a wall rack. Real taxonomy search for Schluesselorganizer Wandhalter surfaces this wall-hook category as the better real fit.",
+      "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Wand-, Türgarderoben & Haken"
+    },
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005011848504195",
+    "title": "Multifunktionaler Kofferraum-Organizer, 1 Stück, Gepäckbox-Ständer, rutschfester Zaun, Aufbewahrungshalter für Werkzeuge",
+    "db_id": 51,
+    "status": "manual_review",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005011904255432",
+    "title": "Zahnbürsten-Aufbewahrungsregal, große Kapazität, Badezimmer-Wandmontage-Aufbewahrungsbox, Kunststoff-Organizer für Zahnbürsten, Zahnpasta, Rasierer",
+    "db_id": 52,
+    "status": "manual_review",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005008119002572",
+    "title": "1 Stück Aufbewahrungsregal für Haartrockner, nicht perforierte Wandhalterung für Badezimmer, Aufbewahrung von Luftkanälen im Badezimmer",
+    "db_id": 53,
+    "status": "manual_review",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": {
+      "category_id": "103426",
+      "level": "medium",
+      "note": "non-perforated bathroom wall mount for hair dryer storage (title explicitly says Badezimmer/bathroom); auto-resolve wrongly picked 130142 Kleinteilemagazine & Stapelboxen (workshop small-parts bins, 0.33 conf, wrong room/use). Real taxonomy search for Haartrockner Halter Wandmontage surfaces this bathroom wall-hook category as the correct real fit.",
+      "path": "Möbel & Wohnen > Badezimmer > Badezimmerzubehör > Wandhaken & Aufhänger"
+    },
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005010796812930",
+    "title": "Heißer Verkauf: 4-stöckiges X-förmiges Schuhregal, Multifunktionales X-Design Staubgeschütztes Aufbewahrungsregal für Schlafsäle, Eingangsbereiche, Flure und Schlafzimmer",
+    "db_id": 54,
+    "status": "manual_review",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": {
+      "category_id": "43506",
+      "level": "high",
+      "note": "4-tier X-shaped stackable shoe rack; auto-resolve wrongly picked 41973 Scharniere (door hinges, 0.25 conf, nonsense). Real taxonomy search for Schuhregal X-foermig stapelbar returns this exact shoe-storage category as the clear top hit.",
+      "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Schuhaufbewahrung"
+    },
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  },
+  {
+    "product_id": "1005012774230299",
+    "title": "Aufbewahrungsständer für Körperfettwaagen, Tischständer, Gewichtshalterung, Bodenhalterung für Badezimmerwaagen, Organizer-Regal",
+    "db_id": 55,
+    "status": "manual_review",
+    "saved_status": null,
+    "saved_has_content": false,
+    "saved_blockers": [],
+    "category_override": null,
+    "risk": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {}
+    }
+  }
+]

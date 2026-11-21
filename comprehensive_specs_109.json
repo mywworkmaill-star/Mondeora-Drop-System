@@ -1,0 +1,73 @@
+{
+  "dimensions": {
+    "found": true,
+    "length_cm": 8.0,
+    "width_cm": 8.0,
+    "height_cm": null,
+    "depth_cm": null,
+    "diameter_cm": null,
+    "text": "Görsel 5/6 (S71235a91abf94d458b4bdb9b3496e3c3u.jpg) üzerinde iki ölçü çizgisi net şekilde '8CM/3.15IN' yazısıyla etiketlenmiş; her ikisi de kare şeklindeki yapışkanlı montaj plakasının (arka taban) iki kenarını gösteriyor (8cm x 8cm). Zoom ile doğrulandı, rakam net okunuyor. NOT: Bu ölçü sadece duvara yapışan kare montaj plakasına ait; çengelin duvardan çıkıntı derinliği/yüksekliği (Item Height) hiçbir görselde yazılı olarak verilmemiş, bu yüzden height_cm=null bırakıldı — uydurulmadı.",
+    "confidence": 90
+  },
+  "weight": {
+    "found": false,
+    "product_weight_g": null,
+    "package_weight_g": null,
+    "text": "",
+    "confidence": 0
+  },
+  "material": {
+    "primary": "Edelstahl (verchromt/poliert) mit Kunststoff-Klebepad",
+    "composition": [
+      "Edelstahl",
+      "Kunststoff (Klebepad)"
+    ],
+    "confidence": 85,
+    "source": "vision"
+  },
+  "color": {
+    "found": true,
+    "main": "Silber",
+    "options": [
+      "Silber (Edelstahl)",
+      "Beige/Champagner (Klebepad)"
+    ],
+    "confidence": 90,
+    "source": "vision"
+  },
+  "capacity": {
+    "found": false,
+    "volume_liter": null,
+    "item_count": null,
+    "load_capacity_kg": null,
+    "text": "",
+    "confidence": 0
+  },
+  "features": [
+    "Punch-freie Montage (selbstklebend)",
+    "Wandmontage",
+    "Für Waschbecken/Küche/Bad",
+    "Style A verstellbar / Style B nicht verstellbar (laut Produktbild-Hinweis)",
+    "Mehrfachverpackung verfügbar (1/2/4/6 Stück laut Titel)"
+  ],
+  "brand": {
+    "name": "No-Name",
+    "confidence": 80
+  },
+  "model": {
+    "number": "",
+    "confidence": 0
+  },
+  "certifications": [],
+  "technical": {
+    "temperature_min_c": null,
+    "temperature_max_c": null,
+    "power_watt": null,
+    "voltage": null
+  },
+  "assembly": {
+    "required": "Unknown",
+    "tools_needed": "Unknown",
+    "time_minutes": null
+  }
+}

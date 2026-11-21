@@ -1,0 +1,135 @@
+{
+  "product_id": "1005010141016715",
+  "index": 17,
+  "checked_at": "2026-11-17T07:57:27.358337+00:00",
+  "ready_for_publication": false,
+  "remote_mutations_performed": false,
+  "errors": [],
+  "quote_count": 2,
+  "title": "Abflusskorb vom Drucktyp: Lebensmittelsieb und Spülbecken-Organizer",
+  "title_issues": [
+    "too few keywords (7 < 8 words)"
+  ],
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [
+      "cosmetics_food_supplement"
+    ],
+    "info": {}
+  },
+  "sku_rows": [
+    {
+      "sku_id": "12000051294768719",
+      "cost": 4.29,
+      "stock": 65,
+      "aspects": {
+        "Farbe": "Grün",
+        "Außendurchmesser": "Anderes"
+      },
+      "verified": false,
+      "image": "https://ae01.alicdn.com/kf/S178089c5019b4c42b1942ad252235820X.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005010141016715",
+        "sku_id": "12000051294768719",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:28.853094+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 25.99,
+      "provisional_model_net_eur": 15.85
+    },
+    {
+      "sku_id": "12000051294768718",
+      "cost": 4.19,
+      "stock": 23,
+      "aspects": {
+        "Farbe": "Gelb",
+        "Außendurchmesser": "Anderes"
+      },
+      "verified": false,
+      "image": "https://ae01.alicdn.com/kf/Sadb89296767e433aac34e9b031cbcb54E.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005010141016715",
+        "sku_id": "12000051294768718",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:29.361912+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 24.99,
+      "provisional_model_net_eur": 15.09
+    }
+  ],
+  "category": {
+    "category_id": "20636",
+    "path": "Möbel & Wohnen > Kochen & Genießen > Küchenhelfer > Siebe & Seiher",
+    "confidence": 1.0,
+    "needs_review": false,
+    "source": "override",
+    "level": "high",
+    "note": "User-approved 2026-11-16: Abflusskorb/Lebensmittelsieb (drain basket/sink strainer). Fresh real taxonomy resolution scored confidence=1.0 for this exact fit (Siebe & Seiher = sieves & strainers), clearly better than the earlier 0.33-confidence guesses (Elektrikerwerkzeuge, Bad & Kueche) shown to the user at decision time."
+  },
+  "supported_shared_aspects": {
+    "Produktart": [
+      "Lebensmittelsieb"
+    ]
+  },
+  "human_review_aspect_names": [],
+  "missing_required_aspects": [],
+  "required_aspects": [],
+  "optional_unknown_aspects": [
+    "Material",
+    "Set enthält",
+    "Marke",
+    "Geeignete Lebensmittel",
+    "Anzahl der Teile",
+    "Farbe",
+    "Herstellernummer",
+    "Größe",
+    "Durchmesser",
+    "Höhe",
+    "Besonderheiten",
+    "Ursprungsland",
+    "Zubereitungsart",
+    "Gewicht",
+    "Breite",
+    "Tiefe",
+    "Herstellergarantie",
+    "Modell",
+    "Stil",
+    "Leistung",
+    "Anzahl der Einheiten",
+    "Maßeinheit",
+    "Haltbarkeitsgarantie"
+  ],
+  "draft_file": "product_draft.html",
+  "finished_at": "2026-11-17T07:57:29.771864+00:00"
+}

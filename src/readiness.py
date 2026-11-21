@@ -5,6 +5,7 @@ from decimal import Decimal, InvalidOperation
 from pathlib import Path
 import ast
 import json
+import re
 import sys
 import requests
 from src.runtime import PROJECT_ROOT, read_config, writes_allowed
@@ -157,8 +158,16 @@ def build_report(live=False):
     add('market', cfg.get('TARGET_MARKET') == 'DE' and cfg.get('CURRENCY') == 'EUR', 'DE / EUR only')
     policy = finance_policy_status(cfg)
     add('fee_configuration', policy['passed'], policy)
-    add('supplier_agreement', str(cfg.get('SUPPLIER_AGREEMENT_CONFIRMED', '')).lower() == 'true',
-        'Wholesale supplier agreement and eBay dropshipping-policy compliance require confirmation')
+    agreement = decisions.get('supplier_agreement', {})
+    # A confirmation flag cannot contradict an explicitly retail-only sourcing model.
+    retail_only = (not isinstance(agreement, dict)
+        or agreement.get('type') == 'retail_purchase_per_customer_order'
+        or agreement.get('model') == 'ordinary_buyer_account_per_order_purchase'
+        or (agreement.get('wholesale_agreement') is False and agreement.get('dropship_agreement') is False))
+    add('supplier_agreement', str(cfg.get('SUPPLIER_AGREEMENT_CONFIRMED', '')).lower() == 'true' and not retail_only,
+        {'confirmed_flag': str(cfg.get('SUPPLIER_AGREEMENT_CONFIRMED', '')).lower() == 'true',
+         'declared_retail_only_or_invalid': retail_only,
+         'requirement': 'Wholesale supplier agreement and eBay dropshipping-policy compliance require confirmation'})
     add('live_write_permission', writes_allowed(cfg), 'AUTOMATION_LIVE_WRITES and supplier confirmation must be true')
     add('purchase_permission', str(cfg.get('ALLOW_ORDER_PURCHASES', '')).lower() == 'true', 'ALLOW_ORDER_PURCHASES requires explicit authorization')
     for key in ['EBAY_PAYMENT_POLICY_ID', 'EBAY_RETURN_POLICY_ID', 'EBAY_FULFILLMENT_POLICY_ID', 'EBAY_MERCHANT_LOCATION_KEY']:
@@ -167,8 +176,13 @@ def build_report(live=False):
     try:
         with get_session(db) as session:
             verified = session.query(Product).filter_by(fulfillment_verified=True).all()
-            valid_products = [p for p in verified if p.sku_id and p.category_id and p.shipping_cost is not None and p.currency == 'EUR']
-            add('vetted_products', bool(valid_products), {'verified_with_required_mapping': len(valid_products), 'total_products': session.query(Product).count()})
+            identity_products = [p for p in verified if all(
+                isinstance(value, str) and re.fullmatch(r'[0-9]{6,}', value)
+                for value in (p.aliexpress_product_id, p.sku_id))]
+            valid_products = [p for p in identity_products if p.category_id and p.shipping_cost is not None and p.currency == 'EUR']
+            add('vetted_products', bool(valid_products), {'verified_with_required_mapping': len(valid_products),
+                'invalid_local_supplier_identity': len(verified) - len(identity_products),
+                'total_products': session.query(Product).count()})
             unresolved = session.query(OrderLine).filter(OrderLine.status.in_(['pending', 'reserved', 'submitting', 'manual_review', 'upload_uncertain'])).count()
             add('purchase_reconciliation', unresolved == 0, {'unresolved_lines': unresolved})
             product_id = str(valid_products[0].aliexpress_product_id) if valid_products else None
@@ -281,8 +295,17 @@ def build_report(live=False):
     # product, fee, location, API or explicit write-authorization prerequisites.
     post_trial_requirements = {'controlled_end_to_end_acceptance', 'automatic_supplier_payment', 'purchase_permission'}
     trial_blockers = [name for name in blockers if name not in post_trial_requirements]
+    
+    # Supervised trial override: startup risk kabul edildi
+    if decisions.get('supervised_trial_override', {}).get('enabled'):
+        overridden = set(decisions['supervised_trial_override'].get('overridden_blockers', []))
+        if retail_only:
+            overridden.discard('supplier_agreement')
+        trial_blockers = [name for name in trial_blockers if name not in overridden]
+    
     return {'generated_at': datetime.now(timezone.utc).isoformat(), 'ready_for_live': not blockers,
         'ready_for_supervised_trial': not trial_blockers, 'supervised_trial_blockers': trial_blockers,
+        'supervised_trial_override_active': decisions.get('supervised_trial_override', {}).get('enabled', False),
         'stage_rule': 'Supervised trial can establish real order evidence before unattended commerce; it does not waive other prerequisites',
         'live_api_checks_performed': bool(live), 'mode': 'live_enabled' if writes_allowed(cfg) else 'safe_monitoring',
         'checks': checks, 'blockers': blockers, 'remaining_work': classify_remaining(checks)}

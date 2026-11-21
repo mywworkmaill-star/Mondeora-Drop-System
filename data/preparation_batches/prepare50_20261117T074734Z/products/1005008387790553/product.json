@@ -1,0 +1,62 @@
+{
+  "index": 18,
+  "product_id": "1005008387790553",
+  "db_title": "Rotierender Stifthalter, Schreibtisch-Organizer, große Kapazität, Stift-Aufbewahrungsbox, Kosmetikpinsel-Organisation, Box, Arbeitszimmer, Schlafsaal-Zubehör",
+  "started_at": "2026-11-17T07:52:54.938489+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "Rotierender Stifthalter, Schreibtisch-Organizer, große Kapazität, Stift-Aufbewahrungsbox, Kosmetikpinsel-Organisation, Box, Arbeitszimmer, Schlafsaal-Zubehör",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [
+      "cosmetics_food_supplement"
+    ],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/Sa1ee2ea0468c4cd5abc3c3596b48d7ael.jpg",
+    "https://ae01.alicdn.com/kf/S090f282ebe4146f09e1d9a4c15e9206dn.jpg",
+    "https://ae01.alicdn.com/kf/Sfcb9788b945541e2bdf078c2fdcaa68cO.jpg",
+    "https://ae01.alicdn.com/kf/S9282982cfbbc4f1b9e5efdbe71eb0c72o.jpg",
+    "https://ae01.alicdn.com/kf/Saa328ea4ca6f467c9592a65276ef72b8o.jpg",
+    "https://ae01.alicdn.com/kf/S1dbca08f18fb453a9ca1b12e469cf7692.jpg"
+  ],
+  "main_image_dimensions": [
+    1601,
+    1601
+  ],
+  "main_image_file": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\products\\1005008387790553\\main.jpg",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:category_aspects_incomplete",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 1
+  },
+  "finished_at": "2026-11-17T07:52:57.431083+00:00",
+  "canonical_status": "blocked"
+}

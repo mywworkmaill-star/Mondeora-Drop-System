@@ -1,0 +1,22 @@
+{
+  "dimensions": {
+    "found": false,
+    "length_cm": null,
+    "width_cm": null,
+    "height_cm": null,
+    "depth_cm": null,
+    "diameter_cm": null,
+    "text": "6 goeselin hicbirinde yazili/cizili gercek fiziksel olcu (cm/mm) yok. Tum goeseller lifestyle/sahne fotograflari (kutuphane, masa, sunum), teknik olcu diyagrami bulunmuyor.",
+    "confidence": 0
+  },
+  "weight": {"found": false, "product_weight_g": null, "package_weight_g": null, "text": "", "confidence": 0},
+  "material": {"primary": "Kunststoff (3D-Druck)", "composition": ["PLA", "Harz"], "confidence": 65, "source": "title fallback"},
+  "color": {"found": true, "main": "Schwarz", "options": ["Schwarz", "Silber/Zinn"], "confidence": 85, "source": "vision"},
+  "capacity": {"found": false, "volume_liter": null, "item_count": null, "load_capacity_kg": null, "text": "", "confidence": 0},
+  "features": ["3D-gedruckte Figur", "Dient als Stifthalter", "Design: Ninja/Ritter mit Stift als 'Waffe' in der Hand", "Schreibtisch-Dekoration"],
+  "brand": {"name": "No-Name", "confidence": 80},
+  "model": {"number": "", "confidence": 0},
+  "certifications": [],
+  "technical": {"temperature_min_c": null, "temperature_max_c": null, "power_watt": null, "voltage": null},
+  "assembly": {"required": "Unknown", "tools_needed": "Unknown", "time_minutes": null}
+}

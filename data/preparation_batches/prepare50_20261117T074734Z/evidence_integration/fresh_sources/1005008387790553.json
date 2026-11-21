@@ -1,0 +1,285 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:200004890#White",
+        "offer_sale_price": "6.09",
+        "sku_id": "12000044814959612",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "12.69",
+        "offer_bulk_sale_price": "6.09",
+        "sku_available_stock": 5,
+        "id": "14:200004890#White",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Dunkelgrau",
+              "sku_image": "https://ae01.alicdn.com/kf/Sdde8bc5552aa4509a9ed56a76bd2e5bdy.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "White",
+              "property_value_id": 200004890,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:200006152#style2 White",
+        "offer_sale_price": "6.79",
+        "sku_id": "12000057626497051",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "13.85",
+        "offer_bulk_sale_price": "6.79",
+        "sku_available_stock": 10,
+        "id": "14:200006152#style2 White",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "hellgrün",
+              "sku_image": "https://ae01.alicdn.com/kf/Sb6d67edfbda94e58ae659e03a6a72bc6r.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "style2 White",
+              "property_value_id": 200006152,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:94#Cherry pink",
+        "offer_sale_price": "5.99",
+        "sku_id": "12000044814959613",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "12.48",
+        "offer_bulk_sale_price": "5.99",
+        "sku_available_stock": 8,
+        "id": "14:94#Cherry pink",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "grau",
+              "sku_image": "https://ae01.alicdn.com/kf/Sd5abce8d63f3449c90b81a2e6106e1f5F.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Cherry pink",
+              "property_value_id": 94,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:10#style2 Pink",
+        "offer_sale_price": "7.39",
+        "sku_id": "12000057626497050",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "15.08",
+        "offer_bulk_sale_price": "7.39",
+        "sku_available_stock": 10,
+        "id": "14:10#style2 Pink",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Rot",
+              "sku_image": "https://ae01.alicdn.com/kf/Se4fbb4d2c5aa40c384f5ce0ae59d11c8H.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "style2 Pink",
+              "property_value_id": 10,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:1052#Sky Blue",
+        "offer_sale_price": "5.99",
+        "sku_id": "12000044814959614",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "12.48",
+        "offer_bulk_sale_price": "5.99",
+        "sku_available_stock": 2,
+        "id": "14:1052#Sky Blue",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Rosa",
+              "sku_image": "https://ae01.alicdn.com/kf/Sd964b57a703249a88e432acae5d7de37A.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Sky Blue",
+              "property_value_id": 1052,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:200006156#Mint green",
+        "offer_sale_price": "6.19",
+        "sku_id": "12000044814959611",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "12.90",
+        "offer_bulk_sale_price": "6.19",
+        "sku_available_stock": 21,
+        "id": "14:200006156#Mint green",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Pflaume",
+              "sku_image": "https://ae01.alicdn.com/kf/Sdf191e50ca3743df99ae96bc4feb7079g.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Mint green",
+              "property_value_id": 200006156,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:193#style3 Blue",
+        "offer_sale_price": "6.19",
+        "sku_id": "12000058260787862",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "12.63",
+        "offer_bulk_sale_price": "6.19",
+        "sku_available_stock": 0,
+        "id": "14:193#style3 Blue",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "schwarz",
+              "sku_image": "https://ae01.alicdn.com/kf/S0f534d60df4e495980c9b31b5bedee93b.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "style3 Blue",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "ae_video_dtos": {
+      "ae_video_d_t_o": [
+        {
+          "media_status": "approved",
+          "media_type": "video",
+          "poster_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sd327a5e021e54037aaefc5640041845ax.jpg",
+          "ali_member_id": 6001265162,
+          "media_id": 5000258812566,
+          "media_url": "https://video.aliexpress-media.com/play/5000258812566.mp4"
+        }
+      ]
+    },
+    "image_urls": "https://ae01.alicdn.com/kf/Sa1ee2ea0468c4cd5abc3c3596b48d7ael.jpg;https://ae01.alicdn.com/kf/S090f282ebe4146f09e1d9a4c15e9206dn.jpg;https://ae01.alicdn.com/kf/Sfcb9788b945541e2bdf078c2fdcaa68cO.jpg;https://ae01.alicdn.com/kf/S9282982cfbbc4f1b9e5efdbe71eb0c72o.jpg;https://ae01.alicdn.com/kf/Saa328ea4ca6f467c9592a65276ef72b8o.jpg;https://ae01.alicdn.com/kf/S1dbca08f18fb453a9ca1b12e469cf7692.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 17,
+    "package_height": 13,
+    "package_length": 18,
+    "gross_weight": "0.238",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005008387790553,
+    "sub_product_id": "{\"US\":3256808201475801}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"text\",\"data\":{\"content\":\"  Features:\\nVersatile and Functional: The creative rotating pen holder is a desktop organizer that combines style and practicality, making it perfect for school or office use.\\nConvenient and User-Friendly: Designed with smooth edges and a large capacity storage box, this pen organizer ensures a hassle-free experience, making it a must-have for all your study essentials.\\nDurable and Reliable: Crafted with good-quality materials, this rotating pen holder is built to last, ensuring long-term usage without compromising its functionality.\\nStylish and Modern: The sleek design of this pen holder adds a touch of elegance to any workspace, making it not only practical but also visually appealing.\\nPerfect Gift Idea: Whether for a student, colleague, or friend, this rotating pen holder makes an ideal gift for any occasion, combining functionality with style.\\nSpecifications:\\nMaterial: Plastic\\nSize: 15.5*10cm\\nNotes:\\nPlease allow slightly errors due to manual measurement and different monitors.\\nPackage Includes:\\n1*Creative Rotating Pen Holder\\n\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S090f282ebe4146f09e1d9a4c15e9206dn.jpg?has_lang=1&ver=1\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\" \",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S9282982cfbbc4f1b9e5efdbe71eb0c72o.jpg?has_lang=1&ver=1\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\" \",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S60947fe414b545d6aadc024aa7dd3269I.jpg?has_lang=1&ver=1\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\" \",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sdf191e50ca3743df99ae96bc4feb7079g.jpg?has_lang=1&ver=1\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\" \",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sd5abce8d63f3449c90b81a2e6106e1f5F.jpg\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\" \",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sd964b57a703249a88e432acae5d7de37A.jpg?has_lang=1&ver=1\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\" \",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sa1ee2ea0468c4cd5abc3c3596b48d7ael.jpg?has_lang=1&ver=1\",\"style\":{}}},{\"type\":\"text\",\"data\":{\"content\":\" \",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S77e004aec4da409fab5dfb52c52e2ab1F.jpg?has_lang=1&ver=1\",\"style\":{}}}]}",
+    "subject": "Rotierender Stifthalter, Schreibtisch-Organizer, große Kapazität, Stift-Aufbewahrungsbox, Kosmetikpinsel-Organisation, Box, Arbeitszimmer, Schlafsaal-Zubehör",
+    "evaluation_count": "1367",
+    "sales_count": "4000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.7",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 211114,
+    "product_id": 1005008387790553,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div style=\"width: 920px; font-size: 12px;\"> \n <div> \n  <p>Features:<br /></p>\n  <p>Vielseitig und funktional: Der kreative rotierende Stifthalter ist ein Desktop-Organizer, der Stil und Funktionalit&auml;t vereint und ihn perfekt f&uuml;r den Schul- oder B&uuml;rogebrauch macht.</p>\n  <p>Praktisch und benutzerfreundlich: Dieser Stift-Organizer ist mit glatten Kanten und einer Aufbewahrungsbox mit gro&szlig;em Fassungsverm&ouml;gen ausgestattet und sorgt f&uuml;r ein problemloses Erlebnis, was ihn zu einem Muss f&uuml;r alle Ihre Arbeitsutensilien macht.</p>\n  <p>Langlebig und zuverl&auml;ssig: Dieser aus hochwertigen Materialien gefertigte rotierende Stifthalter ist auf Langlebigkeit ausgelegt und gew&auml;hrleistet eine langfristige Nutzung ohne Kompromisse bei der Funktionalit&auml;t.</p>\n  <p>Stilvoll und modern: Das schlanke Design dieses Stifthalters verleiht jedem Arbeitsbereich einen Hauch von Eleganz und macht ihn nicht nur praktisch, sondern auch optisch ansprechend.</p>\n  <p>Perfekte Geschenkidee: Ob f&uuml;r einen Sch&uuml;ler, Kollegen oder Freund, dieser drehbare Stifthalter ist ein ideales Geschenk f&uuml;r jeden Anlass und kombiniert Funktionalit&auml;t mit Stil.</p>\n  <p><br /></p>\n  <p>Spezifikationen:</p>\n  <p>Material:<span style=\"text-wrap-mode: wrap;\">Kunststoff</span></p>\n  <p>Gr&ouml;&szlig;e: 15,5 x 10 cm</p>\n  <p><span style=\"text-wrap: wrap;\"><br /></span></p>\n  <p>Hinweise:<br />Bitte erlauben Sie geringf&uuml;gige Fehler aufgrund manueller Messung und unterschiedlicher Monitore.</p>\n  <p><br style=\"text-wrap: wrap;\" /></p>\n  <p><br /></p>\n  <br />\n </div> \n <br /> \n</div> <div style=\"font-size:16px;font-weight:bold;\">\n Paket beinhaltet:\n</div> <p>1 * Kreativer rotierender Stifthalter</p> <br /> <div> \n <img src=\"https://ae01.alicdn.com/kf/S090f282ebe4146f09e1d9a4c15e9206dn.jpg\" alt=\"\" name=\"img01\" /> \n <img src=\"https://ae01.alicdn.com/kf/S9282982cfbbc4f1b9e5efdbe71eb0c72o.jpg\" alt=\"\" name=\"img01\" /> \n <img src=\"https://ae01.alicdn.com/kf/S60947fe414b545d6aadc024aa7dd3269I.jpg\" alt=\"\" name=\"img01\" /> \n <img src=\"https://ae01.alicdn.com/kf/Sdf191e50ca3743df99ae96bc4feb7079g.jpg\" alt=\"\" name=\"img01\" /> \n <img src=\"https://ae01.alicdn.com/kf/Sd5abce8d63f3449c90b81a2e6106e1f5F.jpg\" alt=\"\" name=\"img01\" /> \n <img src=\"https://ae01.alicdn.com/kf/Sd964b57a703249a88e432acae5d7de37A.jpg\" alt=\"\" name=\"img01\" /> \n <img src=\"https://ae01.alicdn.com/kf/Sa1ee2ea0468c4cd5abc3c3596b48d7ael.jpg\" alt=\"\" name=\"img01\" /> \n <img src=\"https://ae01.alicdn.com/kf/S77e004aec4da409fab5dfb52c52e2ab1F.jpg\" alt=\"\" name=\"img01\" /> \n</div> <div> \n <img <=\"\" div=\"\" />\n</div></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "Room 603, Building 19, Yuefengyuan, No. 86 Chenfeng Road, Xianjiahu Street, Yuelu District, Changsha City, Hunan Province",
+    "phone": "13534279674",
+    "country_name": "China",
+    "email": "qi6392fu@126.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 326,
+        "attr_value_id": 200004126,
+        "attr_name": "Art",
+        "attr_value": "Japanischer Stil"
+      },
+      {
+        "attr_name_id": 3,
+        "attr_value_id": -1,
+        "attr_name": "Modellnummer",
+        "attr_value": "Pen Holders"
+      },
+      {
+        "attr_name_id": 10,
+        "attr_value_id": 124,
+        "attr_name": "Material",
+        "attr_value": "Kunststoff"
+      },
+      {
+        "attr_name_id": 6,
+        "attr_value_id": 100007326,
+        "attr_name": "Typ",
+        "attr_value": "Stift Halter"
+      },
+      {
+        "attr_name_id": 324,
+        "attr_value_id": 353,
+        "attr_name": "Form",
+        "attr_value": "rund"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1104336988,
+    "shipping_speed_rating": "4.7",
+    "communication_rating": "4.7",
+    "store_name": "Ease-life Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.6"
+  }
+}

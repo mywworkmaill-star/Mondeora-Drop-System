@@ -1,0 +1,71 @@
+{
+  "dimensions": {
+    "found": true,
+    "length_cm": 34,
+    "width_cm": null,
+    "height_cm": 16,
+    "depth_cm": null,
+    "diameter_cm": null,
+    "text": "Product image dimension infographic (kf/S51d5b30d566042389e5fd18326abcb85N.jpg): '34cm/13.39inch' (Laenge), '16cm/6.3inch' (Hoehe). Keine Breiten-/Tiefenangabe im Bild vorhanden (flaches Haengeorganizer-Design).",
+    "confidence": 95
+  },
+  "weight": {
+    "found": false,
+    "product_weight_g": null,
+    "package_weight_g": null,
+    "text": "",
+    "confidence": 0
+  },
+  "material": {
+    "primary": "Kunststoff (Hartplastik)",
+    "composition": [
+      "ABS/PP Kunststoff",
+      "Metallhaken (verchromt)"
+    ],
+    "confidence": 65,
+    "source": "vision observation (glatte Kunststoffoberflaeche und Metall-Aufhaenger auf Produktbildern sichtbar)"
+  },
+  "color": {
+    "found": true,
+    "main": "Cremeweiss/Beige",
+    "options": [
+      "Blaugrau",
+      "Rosa"
+    ],
+    "confidence": 80,
+    "source": "vision"
+  },
+  "capacity": {
+    "found": true,
+    "volume_liter": null,
+    "item_count": 8,
+    "load_capacity_kg": null,
+    "text": "Titel: 'passend fuer 8 hohe Kappen' - auf Produktbildern sind mehrere Haken sichtbar, die mehrere Kappen gleichzeitig halten (Anzahl der Haken im Bild nicht einzeln exakt zaehlbar, Angabe stammt primaer aus dem Titel)",
+    "confidence": 70
+  },
+  "features": [
+    "Mehrfach-Haken-Design zum gleichzeitigen Aufhaengen mehrerer Kappen",
+    "Zum Aufhaengen an Kleiderstange im Schrank",
+    "Platzsparende Aufbewahrung fuer Wohnheim/Schrank"
+  ],
+  "brand": {
+    "name": "No-Name",
+    "confidence": 80
+  },
+  "model": {
+    "number": "",
+    "confidence": 0
+  },
+  "certifications": [],
+  "technical": {
+    "temperature_min_c": null,
+    "temperature_max_c": null,
+    "power_watt": null,
+    "voltage": null
+  },
+  "assembly": {
+    "required": "Unknown",
+    "tools_needed": "Unknown",
+    "time_minutes": null
+  }
+}

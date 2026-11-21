@@ -189,5 +189,24 @@
   "min_listings": 1,
   "max_price_over_median": 2.0,
   "note": "Browse API fixed-price listings for the same product type; our price is compared with the median."
+ },
+ "images": {
+  "min_count": 6,
+  "ideal_count": 8,
+  "max_count": 12,
+  "min_resolution": 500,
+  "note": "eBay requires ≥500px on longest side (error 25002). Min 6, ideal 8-12 for good presentation."
+ },
+ "description": {
+  "min_length": 500,
+  "note": "German HTML description with bullets, specs table, and package info. Min 500 chars of actual text."
+ },
+ "aspects": {
+  "min_count": 10,
+  "note": "Item Specifics (eBay attributes): min 10 for quality ranking. Includes Marke, Material, Farbe, Größe, etc."
+ },
+ "category": {
+  "min_confidence": 0.6,
+  "note": "eBay Taxonomy confidence. Below 0.6 or needs_review=true requires manual verification."
  }
 }

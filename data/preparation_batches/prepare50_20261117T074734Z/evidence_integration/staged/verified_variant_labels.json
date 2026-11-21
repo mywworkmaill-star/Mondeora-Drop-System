@@ -1,0 +1,77 @@
+{
+  "_comment": "Human-confirmed real variant labels from actual AliExpress per-SKU photos, used when property_value_definition_name is missing/unreliable and the German machine-translated value is itself wrong (see src/listing_quality/labels.py docstring). Keyed by product_id -> {sku_id: {aspect_name: real_value}}. Only overrides the exact sku_id listed; never invents a SKU. Every value here was confirmed by viewing the real AliExpress sku_image photo, not guessed.",
+  "1005010795524159": {
+    "12000053530614304": {
+      "Farbe": "Weiß"
+    },
+    "12000053530614305": {
+      "Farbe": "Orange"
+    },
+    "12000053530614306": {
+      "Farbe": "Kaffee"
+    },
+    "12000053530614307": {
+      "Farbe": "Schwarz"
+    }
+  },
+  "1005005704381272": {
+    "_photo_note": "English property_value_definition_name is the reliable source here (Blue/Green/Pink match their real photos); the German sku_property_value is cross-scrambled (Blue->schwarz, Green->Rot, Pink->Blau - all wrong). The 3 'white-ish' SKUs (3pcs/Elfenbein, Premium White/hellgelb, None/WEISS) all photograph as plain white and correctly collapse to one Weiss variant.",
+    "12000042897987498": {
+      "Farbe": "Blau"
+    },
+    "12000047821829269": {
+      "Farbe": "Weiß"
+    },
+    "12000042897987499": {
+      "Farbe": "Grün"
+    },
+    "12000056441347099": {
+      "Farbe": "Weiß"
+    },
+    "12000042897987500": {
+      "Farbe": "Rosa"
+    },
+    "12000034062652618": {
+      "Farbe": "Weiß"
+    }
+  },
+  "_blocked_needs_code_change": {
+    "_note": "These 3 products have NO real colour axis at all - every SKU photographs identically; the true distinguishing attribute (pack quantity or size/grid-count) is mislabelled under AliExpress's own 'Farbe' property name. verified_variant_labels only overrides VALUES under the existing aspect name, it cannot rename the aspect axis itself (Farbe -> Menge/Groesse) - that needs a code change in variants.py/publish.py to add a 'rename_aspect' override, plus checking the chosen eBay category actually offers a variation-enabled Menge/Groesse aspect. Forcing a single fake colour value here would silently COLLAPSE real, differently-priced SKUs into one (duplicate-combo dedupe keeps only the cheapest) - never do that. Left correctly blocked for manual_review.",
+    "1005008937309838": "Kuehlschrank-Organizer: all photos show plain transparent containers; AliExpress 'Farbe' values are actually pack quantity (5pcs/10pcs/15pcs/20pcs).",
+    "1005007159440155": "Diamond-Painting storage box: all photos show the same clear box; AliExpress 'Farbe' values are actually compartment/grid count (4/10/12/14/15/30 Grids).",
+    "1005010496570687": "Kleideraufbewahrungstasche: both photos show the same white/grey striped bag; AliExpress 'Farbe' values are actually size/capacity (L=30L, XL=52L).",
+    "1005005759411405": "Separate source SKUs mix pack counts with colour. Historical common-colour overrides removed so genuine different packs cannot silently collapse."
+  },
+  "1005007584828356": {
+    "12000041393578036": {
+      "Color": "Silber"
+    },
+    "12000041393578034": {
+      "Color": "Grün"
+    },
+    "12000041393578032": {
+      "Color": "Schwarz"
+    },
+    "12000041393578033": {
+      "Color": "Blau"
+    }
+  },
+  "1005011848504195": {
+    "12000056763805548": {
+      "Farbe": "Orange"
+    },
+    "12000056763805547": {
+      "Farbe": "Grau"
+    }
+  },
+  "1005011904255432": {
+    "12000056965691554": {
+      "Farbe": "Transparent"
+    }
+  },
+  "1005007203879191": {
+    "12000039792767315": {
+      "Farbe": "Rosa"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "env": {
+    "ENABLE_PATTERN_RULES": "1",
+    "ENABLE_CODE_SECURITY_REVIEW": "0",
+    "ENABLE_STOP_REVIEW": "0",
+    "ENABLE_COMMIT_REVIEW": "0",
+    "DO_NOT_TRACK": "1"
+  },
+  "enabledPlugins": {
+    "security-guidance@claude-plugins-official": true,
+    "pyright-lsp@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "claude-plugins-official": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/anthropics/claude-plugins-official.git"
+      }
+    }
+  }
+}

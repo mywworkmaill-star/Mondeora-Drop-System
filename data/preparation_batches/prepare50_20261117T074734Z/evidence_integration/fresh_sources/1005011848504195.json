@@ -1,0 +1,145 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:350852",
+        "offer_sale_price": "3.45",
+        "sku_id": "12000056763805548",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "7.84",
+        "offer_bulk_sale_price": "3.45",
+        "sku_available_stock": 91,
+        "id": "14:350852",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Orange",
+              "sku_image": "https://ae01.alicdn.com/kf/S0bb8f949565740349b47db063102df4c5.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_id": 350852,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:200004889#Gary",
+        "offer_sale_price": "3.95",
+        "sku_id": "12000056763805547",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "8.78",
+        "offer_bulk_sale_price": "3.95",
+        "sku_available_stock": 291,
+        "id": "14:200004889#Gary",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "armeegrün",
+              "sku_image": "https://ae01.alicdn.com/kf/Sa0cd2ed2d9b1411e8e505c701d4f74045.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Gary",
+              "property_value_id": 200004889,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "image_urls": "https://ae01.alicdn.com/kf/S15afbfc860f642d4a7389d6406beda75k.jpg;https://ae01.alicdn.com/kf/S666305d123a248c0968f7740c1090a0cb.jpg;https://ae01.alicdn.com/kf/S97cb36bd162546da9e41add143ea6c3fY.jpg;https://ae01.alicdn.com/kf/Sf269f743f4744058b2e56d2a87f3dcb1N.jpg;https://ae01.alicdn.com/kf/Se391aeeb988540b7838f9c4e49dccbd98.jpg;https://ae01.alicdn.com/kf/S015276260c0146dc8ef6bf845d2c070aq.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 11,
+    "package_height": 10,
+    "package_length": 22,
+    "gross_weight": "0.097",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005011848504195,
+    "sub_product_id": "{\"US\":3256811662189443}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"text\",\"data\":{\"content\":\"Multifunktionaler Auto-Kofferraum-Werkzeughalter, Gepäckbox-Ständer, rutschfester Organizer, Aufbewahrungshalter \\n Funktionen: \\n Ideal für die feste Positionierung im Auto oder LKW-Organizer. \\n Stellen Sie sicher, dass Ihre Gegenstände nicht wackeln, selbst wenn die Straße holprig ist. \\n PP-Material, exquisites Design, ist sicher und langlebig. \\n Magisches Klebeband an der Unterseite, um sicherzustellen, dass es rutschfest ist. \\n Einzigartige Form, einfacher Stil, leicht zu installieren. \\n Beschreibungen: \\n Produktfunktion: Fixierrahmen für Gegenstände im Kofferraum des Autos. \\n Funktion: Stoßfestigkeit, Empfangsbestätigung usw. \\n für den Kofferraum des Autos (insbesondere für Flüssigkeiten und leicht erschütterbare Gegenstände). \\n Verwendung: Ideal für die Aufbewahrung im Auto, hält Gegenstände sicher und ordentlich im Auto und verhindert Verschüttungen. \\n Spezifikationen: \\n Farbe: Grau/Orange \\n Größe: 19*14*11,5cm \\n Material: PP \\n Im Lieferumfang enthalten: \\n 1 x Fester Rackhalter \\n Hinweise: Assistent \\n 1. Aufgrund der Unterschiede zwischen verschiedenen Monitoren spiegelt das Bild möglicherweise nicht die tatsächliche Farbe des Artikels wider. Wir garantieren, dass der Stil dem auf den Bildern gezeigten entspricht. \\n 2. Aufgrund der manuellen Messung und unterschiedlichen Messmethoden bitten wir um eine Abweichung von 1-3 cm. Danke!\",\"style\":{\"fontSize\":13,\"fontWeight\":\"normal\",\"align\":\"left\",\"color\":\"#434649\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sb4c7647d76934de79497665fe6b1bd6fg.jpg\",\"style\":{\"width\":1000,\"height\":1000}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S0a230bf372434aae86002e8feb2f23c2Q.jpg\",\"style\":{\"width\":1000,\"height\":1000}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S66fd5d49a65c4023ae907ea1571891b1Y.jpg\",\"style\":{\"width\":1000,\"height\":1000}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S96a568d353234fb88c9da662e1566bd7e.jpg\",\"style\":{\"width\":1000,\"height\":1000}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S52f32609fffb42adb234c92d5e3189f4v.jpg\",\"style\":{\"width\":1000,\"height\":1000}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S904c5177b3714511bda614ce988a9a8fO.jpg\",\"style\":{\"width\":1000,\"height\":1000}}}]}",
+    "subject": "Multifunktionaler Kofferraum-Organizer, 1 Stück, Gepäckbox-Ständer, rutschfester Zaun, Aufbewahrungshalter für Werkzeuge",
+    "evaluation_count": "1600",
+    "sales_count": "5000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.7",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 200000278,
+    "product_id": 1005011848504195,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\">\n <div class=\"detail-desc-decorate-richtext\">\n  <p style=\"font-family:&quot;TT Norms Pro&quot;, &quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(34, 34, 34);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\" id=\"tl_1\">Multifunktionaler Auto-Kofferraum-Werkzeughalter, Gep&auml;ckbox-St&auml;nder, rutschfester Organizer, Aufbewahrungshalter</p>\n  <p style=\"font-family:OpenSans;font-size:14px;font-weight:300;letter-spacing:normal;line-height:20px;text-align:start;white-space:pre-wrap;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px 0px 12px;margin-bottom:12px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" class=\"detail-desc-decorate-content\" align=\"start\" id=\"tl_2\">Funktionen: <br />Ideal f&uuml;r die feste Positionierung im Auto oder LKW-Organizer. <br />Stellen Sie sicher, dass Ihre Gegenst&auml;nde nicht wackeln, selbst wenn die Stra&szlig;e holprig ist. <br />PP-Material, exquisites Design, ist sicher und langlebig. <br />Magisches Klebeband an der Unterseite, um sicherzustellen, dass es rutschfest ist. <br />Einzigartige Form, einfacher Stil, leicht zu installieren. <br /> <br />Beschreibungen: <br />Produktfunktion: Fixierrahmen f&uuml;r Gegenst&auml;nde im Kofferraum des Autos. <br />Funktion: Sto&szlig;festigkeit, Empfangsbest&auml;tigung usw. <br />f&uuml;r den Kofferraum des Autos (insbesondere f&uuml;r Fl&uuml;ssigkeiten und leicht ersch&uuml;tterbare Gegenst&auml;nde). <br />Verwendung: Ideal f&uuml;r die Aufbewahrung im Auto, h&auml;lt Gegenst&auml;nde sicher und ordentlich im Auto und verhindert Versch&uuml;ttungen. <br /> <br />Spezifikationen: <br />Farbe: Grau/Orange <br />Gr&ouml;&szlig;e: 19*14*11,5cm <br />Material: PP <br />Im Lieferumfang enthalten: <br />1 x Fester Rackhalter <br /> <br />Hinweise: Assistent <br />1. Aufgrund der Unterschiede zwischen verschiedenen Monitoren spiegelt das Bild m&ouml;glicherweise nicht die tats&auml;chliche Farbe des Artikels wider.Wir garantieren, dass der Stil dem auf den Bildern gezeigten entspricht. <br /> <br />2. Aufgrund der manuellen Messung und unterschiedlichen Messmethoden bitten wir um eine Abweichung von 1-3 cm. Danke! <img width=\"1000px\" height=\"1000px\" slate-data-type=\"image\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sb4c7647d76934de79497665fe6b1bd6fg.jpg\" style=\"width:1000px;height:1000px\" /> <img width=\"1000px\" height=\"1000px\" slate-data-type=\"image\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S0a230bf372434aae86002e8feb2f23c2Q.jpg\" style=\"width:1000px;height:1000px\" /> <img width=\"1000px\" height=\"1000px\" slate-data-type=\"image\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S66fd5d49a65c4023ae907ea1571891b1Y.jpg\" style=\"width:1000px;height:1000px\" /> <img width=\"1000px\" height=\"1000px\" slate-data-type=\"image\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S96a568d353234fb88c9da662e1566bd7e.jpg\" style=\"width:1000px;height:1000px\" /> <img width=\"1000px\" height=\"1000px\" slate-data-type=\"image\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S52f32609fffb42adb234c92d5e3189f4v.jpg\" style=\"width:1000px;height:1000px\" /> <img width=\"1000px\" height=\"1000px\" slate-data-type=\"image\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S904c5177b3714511bda614ce988a9a8fO.jpg\" style=\"width:1000px;height:1000px\" /></p>\n </div>\n</div>\n<br /></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "No.1603, 16th Floor, Unit 2, Building 1, No.88 Changqing Road, jinniu district, Chengdu, Sichuan.",
+    "phone": "13683450522",
+    "country_name": "China",
+    "email": "jggae2022@163.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 203062806,
+        "attr_name": "Markenname",
+        "attr_value": "other"
+      },
+      {
+        "attr_name_id": 10,
+        "attr_value_id": 351785,
+        "attr_name": "Material",
+        "attr_value": "ABS"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 266081643,
+        "attr_value_id": 100015203,
+        "attr_name": "CN",
+        "attr_value": "Zhejiang"
+      },
+      {
+        "attr_name_id": 200000137,
+        "attr_value_id": 200000861,
+        "attr_name": "Artikeltyp",
+        "attr_value": "Gepäckträger und Zubehör"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1103836144,
+    "shipping_speed_rating": "4.8",
+    "communication_rating": "4.7",
+    "store_name": "JGG Global Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.7"
+  }
+}

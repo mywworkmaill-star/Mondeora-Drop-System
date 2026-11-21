@@ -1,0 +1,19 @@
+SUPPLIER AGREEMENT DECLARATION / TEDARIK MODELI BEYANI
+=======================================================
+Model: Ordinary per-order retail purchase through a standard AliExpress
+buyer account (operator_decisions.json: supplier_agreement.type =
+"retail_purchase_per_customer_order"). No wholesale or formal dropship
+agreement exists with any supplier.
+
+Acknowledged limitations (already on record, operator_decisions.json,
+supplier_agreement.acknowledged_limitations, confirmed 2026-11-16):
+  - No bulk pricing
+  - No guaranteed stock reservation
+  - Supplier may change terms/prices without notice
+  - No formal dropship support
+  - Future upgrade to a wholesale/dropship agreement planned after reaching
+    500 EUR monthly revenue
+
+This is the real, current supplier relationship - not a formal contract,
+but a documented, consistent retail-purchase practice the account holder
+has confirmed and accepts.

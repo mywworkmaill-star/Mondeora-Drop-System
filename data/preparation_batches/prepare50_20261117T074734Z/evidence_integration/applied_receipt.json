@@ -1,0 +1,1811 @@
+{
+  "before_hashes": {
+    "category_overrides.json": "db001403189115f842df2c6e33125661baf19420bca9d3d2c21cecf410a52b58",
+    "verified_extra_aspects.json": "2dea3fc7f7b7e61a1b0b8ed8a8e0e4067ecf7a62fcc434d4ccb178323afddf3b",
+    "verified_variant_labels.json": "a2ffb303c25f934f39edd3d99c0d7990fa8e3743bdbfb1f8a38e5d669ba11968"
+  },
+  "after_hashes": {
+    "category_overrides.json": "9e18c749fb887a41bd2148c23c8c489a5493d3845d470568d5ccbebcf25b2742",
+    "verified_extra_aspects.json": "2df6abccf2d65b953166e94593dded0e4ddaa1062f91c89f108a1b83dccb8535",
+    "verified_variant_labels.json": "244a4257937f4a9c0841d25dde74801c92214fd9eac52636fe70defcf5c41586"
+  },
+  "current_source_reads_succeeded": 50,
+  "current_source_read_errors": {},
+  "category_decisions": [
+    {
+      "product_id": "1005010026666604",
+      "before_category_id": "36024",
+      "category_id": "116743",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005005759411405",
+      "before_category_id": null,
+      "category_id": "159897",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005010496570687",
+      "before_category_id": "43504",
+      "category_id": "43504",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005007907908369",
+      "before_category_id": "46283",
+      "category_id": "20643",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005008833344507",
+      "before_category_id": "36024",
+      "category_id": "116743",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005012066024130",
+      "before_category_id": "67858",
+      "category_id": "67858",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005008119002572",
+      "before_category_id": "103426",
+      "category_id": "31385",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005010796812930",
+      "before_category_id": "43506",
+      "category_id": "43506",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005007238983224",
+      "before_category_id": "159897",
+      "category_id": "159897",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005007705527057",
+      "before_category_id": "159897",
+      "category_id": "159897",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005012382436424",
+      "before_category_id": "67858",
+      "category_id": "67858",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005012032555747",
+      "before_category_id": "43504",
+      "category_id": "159897",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005010795524159",
+      "before_category_id": "46283",
+      "category_id": "159897",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005005385299054",
+      "before_category_id": "14769",
+      "category_id": "262164",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005010141016715",
+      "before_category_id": "20636",
+      "category_id": "20636",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005008387790553",
+      "before_category_id": "43504",
+      "category_id": "127610",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005008290283020",
+      "before_category_id": null,
+      "category_id": "127609",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005011848504195",
+      "before_category_id": null,
+      "category_id": "63690",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005011904255432",
+      "before_category_id": null,
+      "category_id": "25453",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005009992738407",
+      "before_category_id": null,
+      "category_id": "36413",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005006116459385",
+      "before_category_id": null,
+      "category_id": "20654",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005006830218955",
+      "before_category_id": null,
+      "category_id": "159897",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005010471370917",
+      "before_category_id": null,
+      "category_id": "25453",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005005921446741",
+      "before_category_id": null,
+      "category_id": "3199",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005007547820639",
+      "before_category_id": null,
+      "category_id": "113043",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005004970036864",
+      "before_category_id": null,
+      "category_id": "43504",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005009723070135",
+      "before_category_id": null,
+      "category_id": "46283",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005008464837668",
+      "before_category_id": null,
+      "category_id": "127610",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005011918498017",
+      "before_category_id": null,
+      "category_id": "43504",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005012706422328",
+      "before_category_id": null,
+      "category_id": "118787",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005006963247455",
+      "before_category_id": null,
+      "category_id": "180117",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005006232978114",
+      "before_category_id": null,
+      "category_id": "43504",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005009313031651",
+      "before_category_id": null,
+      "category_id": "46283",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005008684706431",
+      "before_category_id": null,
+      "category_id": "36024",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005007070511540",
+      "before_category_id": null,
+      "category_id": "67858",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005007164564054",
+      "before_category_id": null,
+      "category_id": "67858",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005008223937342",
+      "before_category_id": null,
+      "category_id": "67858",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005006943431670",
+      "before_category_id": null,
+      "category_id": "67858",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005007203879191",
+      "before_category_id": null,
+      "category_id": "25453",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005009800425890",
+      "before_category_id": null,
+      "category_id": "262203",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005012052613902",
+      "before_category_id": null,
+      "category_id": "262203",
+      "action": "replace"
+    },
+    {
+      "product_id": "1005008997918604",
+      "before_category_id": null,
+      "category_id": "67858",
+      "action": "retain"
+    },
+    {
+      "product_id": "1005008222543759",
+      "before_category_id": null,
+      "category_id": "67858",
+      "action": "retain"
+    }
+  ],
+  "extra_type_values": [
+    {
+      "product_id": "1005010026666604",
+      "name": "Produktart",
+      "values": [
+        "Kappen- & Huthalter"
+      ]
+    },
+    {
+      "product_id": "1005005759411405",
+      "name": "Produktart",
+      "values": [
+        "Fernbedienungshalter"
+      ]
+    },
+    {
+      "product_id": "1005010496570687",
+      "name": "Produktart",
+      "values": [
+        "Aufbewahrungstasche"
+      ]
+    },
+    {
+      "product_id": "1005007907908369",
+      "name": "Produktart",
+      "values": [
+        "Küchenrollenhalter"
+      ]
+    },
+    {
+      "product_id": "1005008833344507",
+      "name": "Produktart",
+      "values": [
+        "Gürtel- & Krawattenhalter"
+      ]
+    },
+    {
+      "product_id": "1005012066024130",
+      "name": "Produktart",
+      "values": [
+        "Kabelaufwickler"
+      ]
+    },
+    {
+      "product_id": "1005008119002572",
+      "name": "Produktart",
+      "values": [
+        "Wandregal"
+      ]
+    },
+    {
+      "product_id": "1005010796812930",
+      "name": "Produktart",
+      "values": [
+        "Schuhregal"
+      ]
+    },
+    {
+      "product_id": "1005007238983224",
+      "name": "Produktart",
+      "values": [
+        "Fernbedienungshalter"
+      ]
+    },
+    {
+      "product_id": "1005007705527057",
+      "name": "Produktart",
+      "values": [
+        "Aufbewahrungsbox"
+      ]
+    },
+    {
+      "product_id": "1005012382436424",
+      "name": "Produktart",
+      "values": [
+        "Kabelhalter"
+      ]
+    },
+    {
+      "product_id": "1005012032555747",
+      "name": "Produktart",
+      "values": [
+        "Aufbewahrungsbox"
+      ]
+    },
+    {
+      "product_id": "1005010795524159",
+      "name": "Produktart",
+      "values": [
+        "Fernbedienungshalter"
+      ]
+    },
+    {
+      "product_id": "1005005385299054",
+      "name": "Produktart",
+      "values": [
+        "Befestigungsclip"
+      ]
+    },
+    {
+      "product_id": "1005010141016715",
+      "name": "Produktart",
+      "values": [
+        "Lebensmittelsieb"
+      ]
+    },
+    {
+      "product_id": "1005008387790553",
+      "name": "Produktart",
+      "values": [
+        "Stifthalter"
+      ]
+    },
+    {
+      "product_id": "1005008290283020",
+      "name": "Produktart",
+      "values": [
+        "Schreibtisch-Organizer"
+      ]
+    },
+    {
+      "product_id": "1005011848504195",
+      "name": "Produktart",
+      "values": [
+        "Kofferraum-Organizer"
+      ]
+    },
+    {
+      "product_id": "1005011904255432",
+      "name": "Produktart",
+      "values": [
+        "Zahnbürstenhalter"
+      ]
+    },
+    {
+      "product_id": "1005009992738407",
+      "name": "Produktart",
+      "values": [
+        "Kosmetiktasche"
+      ]
+    },
+    {
+      "product_id": "1005006116459385",
+      "name": "Produktart",
+      "values": [
+        "Vorratsdose"
+      ]
+    },
+    {
+      "product_id": "1005006830218955",
+      "name": "Produktart",
+      "values": [
+        "Schmuckschatulle"
+      ]
+    },
+    {
+      "product_id": "1005010471370917",
+      "name": "Produktart",
+      "values": [
+        "Zahnbürstenhalter"
+      ]
+    },
+    {
+      "product_id": "1005005921446741",
+      "name": "Produktart",
+      "values": [
+        "Regale"
+      ]
+    },
+    {
+      "product_id": "1005004970036864",
+      "name": "Produktart",
+      "values": [
+        "Plastiktütenspender"
+      ]
+    },
+    {
+      "product_id": "1005009723070135",
+      "name": "Produktart",
+      "values": [
+        "Unterbau-Küchenregal"
+      ]
+    },
+    {
+      "product_id": "1005008464837668",
+      "name": "Produktart",
+      "values": [
+        "Stifthalter"
+      ]
+    },
+    {
+      "product_id": "1005011918498017",
+      "name": "Produktart",
+      "values": [
+        "Schuhtasche für Reise & Sport"
+      ]
+    },
+    {
+      "product_id": "1005012706422328",
+      "name": "Produktart",
+      "values": [
+        "Tüte"
+      ]
+    },
+    {
+      "product_id": "1005006963247455",
+      "name": "Produktart",
+      "values": [
+        "Abfalleimer"
+      ]
+    },
+    {
+      "product_id": "1005006232978114",
+      "name": "Produktart",
+      "values": [
+        "Vakuum-Aufbewahrungsbeutel"
+      ]
+    },
+    {
+      "product_id": "1005009313031651",
+      "name": "Produktart",
+      "values": [
+        "Eierhalter"
+      ]
+    },
+    {
+      "product_id": "1005008684706431",
+      "name": "Produktart",
+      "values": [
+        "Aufbewahrungshaken"
+      ]
+    },
+    {
+      "product_id": "1005007070511540",
+      "name": "Produktart",
+      "values": [
+        "Klettkabelverbinder"
+      ]
+    },
+    {
+      "product_id": "1005007164564054",
+      "name": "Produktart",
+      "values": [
+        "Kabelbinder"
+      ]
+    },
+    {
+      "product_id": "1005008223937342",
+      "name": "Produktart",
+      "values": [
+        "Kabelbinder"
+      ]
+    },
+    {
+      "product_id": "1005006943431670",
+      "name": "Produktart",
+      "values": [
+        "Kabelbinder"
+      ]
+    },
+    {
+      "product_id": "1005007203879191",
+      "name": "Produktart",
+      "values": [
+        "Zahnbürstenetui"
+      ]
+    },
+    {
+      "product_id": "1005009800425890",
+      "name": "Produktart",
+      "values": [
+        "Sitzspalt-Organizer"
+      ]
+    },
+    {
+      "product_id": "1005012052613902",
+      "name": "Produktart",
+      "values": [
+        "Regenschirmhalter"
+      ]
+    },
+    {
+      "product_id": "1005008997918604",
+      "name": "Produktart",
+      "values": [
+        "Kabelhalter"
+      ]
+    },
+    {
+      "product_id": "1005008222543759",
+      "name": "Produktart",
+      "values": [
+        "Kabelklemme(n)"
+      ]
+    }
+  ],
+  "supplier_brands": [
+    {
+      "product_id": "1005006830218955",
+      "Marke": "SMI Fine",
+      "source_pointer": "/ae_item_properties/ae_item_property/0/attr_value"
+    },
+    {
+      "product_id": "1005006232978114",
+      "Marke": "LEENKEA",
+      "source_pointer": "/ae_item_properties/ae_item_property/0/attr_value"
+    },
+    {
+      "product_id": "1005007070511540",
+      "Marke": "Opansten",
+      "source_pointer": "/ae_item_properties/ae_item_property/0/attr_value"
+    }
+  ],
+  "optional_fact_fields": [
+    {
+      "product_id": "1005010026666604",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P3",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005005759411405",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P2",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005005759411405",
+      "name": "Montage",
+      "values": [
+        "Wandmontage"
+      ],
+      "evidence": [
+        [
+          "T",
+          "Wand-Organizer"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005010496570687",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P5",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005010496570687",
+      "name": "Besonderheiten",
+      "values": [
+        "Faltbar",
+        "Mit Sichtfenster"
+      ],
+      "evidence": [
+        [
+          "P2",
+          "faltbar"
+        ],
+        [
+          "T",
+          "durchsichtiges Fenster"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005010496570687",
+      "name": "Form",
+      "values": [
+        "Rechteck"
+      ],
+      "evidence": [
+        [
+          "P8",
+          "rectangle"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005007907908369",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P3",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005007907908369",
+      "name": "Montage",
+      "values": [
+        "Selbstklebend"
+      ],
+      "evidence": [
+        [
+          "T",
+          "Klebstoff"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005008833344507",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P2",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005008833344507",
+      "name": "Besonderheiten",
+      "values": [
+        "Drehbar",
+        "Wiederverwendbar"
+      ],
+      "evidence": [
+        [
+          "T",
+          "Drehbarer Kleiderbügel"
+        ],
+        [
+          "P4",
+          "Wiederverwendbar"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005012066024130",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P2",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005012066024130",
+      "name": "Besonderheiten",
+      "values": [
+        "Wiederverwendbar"
+      ],
+      "evidence": [
+        [
+          "D",
+          "Wiederverwendbare"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005008119002572",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P4",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005008119002572",
+      "name": "Montage",
+      "values": [
+        "Wandmontage"
+      ],
+      "evidence": [
+        [
+          "T",
+          "Wandhalterung"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005008119002572",
+      "name": "Besonderheiten",
+      "values": [
+        "Wiederverwendbar"
+      ],
+      "evidence": [
+        [
+          "P5",
+          "Wiederverwendbar"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005010796812930",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P2",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005010796812930",
+      "name": "Besonderheiten",
+      "values": [
+        "Faltbar"
+      ],
+      "evidence": [
+        [
+          "P3",
+          "faltbar"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005007238983224",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P1",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005007238983224",
+      "name": "Montage",
+      "values": [
+        "Wandmontage"
+      ],
+      "evidence": [
+        [
+          "T",
+          "Wand Montiert"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005007705527057",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P1",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005007705527057",
+      "name": "Besonderheiten",
+      "values": [
+        "Langlebig",
+        "Stapelbar"
+      ],
+      "evidence": [
+        [
+          "P4",
+          "Stapelbar"
+        ],
+        [
+          "T",
+          "langlebig"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005012382436424",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P1",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005012032555747",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P2",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005012032555747",
+      "name": "Besonderheiten",
+      "values": [
+        "Faltbar",
+        "Staubdicht",
+        "Mit Griff"
+      ],
+      "evidence": [
+        [
+          "D",
+          "faltbare Aufbewahrungstasche"
+        ],
+        [
+          "D",
+          "staubdicht"
+        ],
+        [
+          "D",
+          "Mit einem Griff"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005010795524159",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P1",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005010795524159",
+      "name": "Besonderheiten",
+      "values": [
+        "Wiederverwendbar"
+      ],
+      "evidence": [
+        [
+          "P4",
+          "Wiederverwendbar"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005005385299054",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P2",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005010141016715",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P2",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005008387790553",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P2",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005008290283020",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P2",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005008290283020",
+      "name": "Anzahl der Fächer",
+      "values": [
+        "3"
+      ],
+      "evidence": [
+        [
+          "T",
+          "3 Fächer"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005011848504195",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P3",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005011904255432",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P1",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005011904255432",
+      "name": "Besonderheiten",
+      "values": [
+        "Bohrfreie Montage"
+      ],
+      "evidence": [
+        [
+          "D",
+          "Kein Bohren"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005009992738407",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P3",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005006116459385",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P4",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005006116459385",
+      "name": "Besonderheiten",
+      "values": [
+        "Wiederverwendbar",
+        "Stapelbar"
+      ],
+      "evidence": [
+        [
+          "P2",
+          "Wiederverwendbar"
+        ],
+        [
+          "D",
+          "stapelbar"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005006830218955",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P3",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005006830218955",
+      "name": "Material",
+      "values": [
+        "Polypropylen (PP)"
+      ],
+      "evidence": [
+        [
+          "D",
+          "PP-Kunststoff"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005006830218955",
+      "name": "Modell",
+      "values": [
+        "PS-01"
+      ],
+      "evidence": [
+        [
+          "P19",
+          "PS-01"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005006830218955",
+      "name": "Besonderheiten",
+      "values": [
+        "Tragbar"
+      ],
+      "evidence": [
+        [
+          "P17",
+          "tragbar"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005010471370917",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P1",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005010471370917",
+      "name": "Installationsart",
+      "values": [
+        "Freistehend"
+      ],
+      "evidence": [
+        [
+          "T",
+          "freistehender"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005005921446741",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P7",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005005921446741",
+      "name": "Material",
+      "values": [
+        "Polypropylen (PP)"
+      ],
+      "evidence": [
+        [
+          "P9",
+          "PP-Plastik"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005005921446741",
+      "name": "Form",
+      "values": [
+        "Rechteckig"
+      ],
+      "evidence": [
+        [
+          "T",
+          "Rechteckige"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005005921446741",
+      "name": "Montage",
+      "values": [
+        "Freistehend"
+      ],
+      "evidence": [
+        [
+          "P11",
+          "Stehender Typ"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005007547820639",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P1",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005007547820639",
+      "name": "Besonderheiten",
+      "values": [
+        "Faltbar",
+        "Wasserabweisend"
+      ],
+      "evidence": [
+        [
+          "T",
+          "Faltbare"
+        ],
+        [
+          "D",
+          "wasserabweisendem"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005004970036864",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P4",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005004970036864",
+      "name": "Besonderheiten",
+      "values": [
+        "Wiederverwendbar"
+      ],
+      "evidence": [
+        [
+          "P6",
+          "Wiederverwendbar"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005009723070135",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P2",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005009723070135",
+      "name": "Montage",
+      "values": [
+        "Unterbau"
+      ],
+      "evidence": [
+        [
+          "T",
+          "Unter Schrank"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005009723070135",
+      "name": "Besonderheiten",
+      "values": [
+        "Wiederverwendbar"
+      ],
+      "evidence": [
+        [
+          "P3",
+          "Wiederverwendbar"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005008464837668",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P2",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005011918498017",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P4",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005011918498017",
+      "name": "Besonderheiten",
+      "values": [
+        "Atmungsaktiv",
+        "Leicht",
+        "Staubdicht"
+      ],
+      "evidence": [
+        [
+          "T",
+          "atmungsaktive, leichte Golf-Handtasche, staubdichte"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005012706422328",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P1",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005012706422328",
+      "name": "Personalisieren",
+      "values": [
+        "Nein"
+      ],
+      "evidence": [
+        [
+          "P6",
+          "Nein"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005006963247455",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P3",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005006232978114",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P3",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005006232978114",
+      "name": "Material",
+      "values": [
+        "PET + PE"
+      ],
+      "evidence": [
+        [
+          "D",
+          "Material: PET + PE"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005006232978114",
+      "name": "Besonderheiten",
+      "values": [
+        "Platzsparend",
+        "Faltbar",
+        "Wiederverwendbar"
+      ],
+      "evidence": [
+        [
+          "T",
+          "zusammenklappbar, komprimiert, platzsparend"
+        ],
+        [
+          "P1",
+          "Wiederverwendbar"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005009313031651",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P6",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005008684706431",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P1",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005008684706431",
+      "name": "Montage",
+      "values": [
+        "Selbstklebend"
+      ],
+      "evidence": [
+        [
+          "D",
+          "Haushaltsklebedesign"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005008684706431",
+      "name": "Besonderheiten",
+      "values": [
+        "Bohrfreie Montage"
+      ],
+      "evidence": [
+        [
+          "D",
+          "Kein Bohren"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005007070511540",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P3",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005007164564054",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P4",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005007164564054",
+      "name": "Besonderheiten",
+      "values": [
+        "Verstellbar",
+        "Wiederverwendbar",
+        "Selbstklebend"
+      ],
+      "evidence": [
+        [
+          "T",
+          "wiederverwendbarer Kabel-Organizer, Kabel-Seil-Halter, selbstklebend, verstellbar"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005008223937342",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P2",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005008223937342",
+      "name": "Besonderheiten",
+      "values": [
+        "Verstellbar",
+        "Wiederverwendbar"
+      ],
+      "evidence": [
+        [
+          "D",
+          "Flexible and Adjustable"
+        ],
+        [
+          "D",
+          "Durable and Reusable"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005006943431670",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P2",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005006943431670",
+      "name": "Besonderheiten",
+      "values": [
+        "Lösbar",
+        "Wiederverwendbar"
+      ],
+      "evidence": [
+        [
+          "T",
+          "Lösbare Kabel Organizer"
+        ],
+        [
+          "T",
+          "Wiederverwendbare"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005007203879191",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P2",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005007203879191",
+      "name": "Besonderheiten",
+      "values": [
+        "Wiederverwendbar"
+      ],
+      "evidence": [
+        [
+          "P4",
+          "Wiederverwendbar"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005009800425890",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P3",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005012052613902",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P2",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005008997918604",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P1",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005008997918604",
+      "name": "Besonderheiten",
+      "values": [
+        "Selbstklebend",
+        "Wiederverwendbar"
+      ],
+      "evidence": [
+        [
+          "T",
+          "Selbst-klebe"
+        ],
+        [
+          "P3",
+          "Wiederverwendbar"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005008222543759",
+      "name": "Ursprungsland",
+      "values": [
+        "China"
+      ],
+      "evidence": [
+        [
+          "P3",
+          "CN (Herkunft)"
+        ]
+      ]
+    },
+    {
+      "product_id": "1005008222543759",
+      "name": "Besonderheiten",
+      "values": [
+        "Selbstklebend"
+      ],
+      "evidence": [
+        [
+          "T",
+          "Klebe Haken"
+        ]
+      ]
+    }
+  ],
+  "verified_sku_labels": [
+    {
+      "product_id": "1005007584828356",
+      "sku_id": "12000041393578036",
+      "aspects": {
+        "Color": "Silber"
+      }
+    },
+    {
+      "product_id": "1005007584828356",
+      "sku_id": "12000041393578034",
+      "aspects": {
+        "Color": "Grün"
+      }
+    },
+    {
+      "product_id": "1005007584828356",
+      "sku_id": "12000041393578032",
+      "aspects": {
+        "Color": "Schwarz"
+      }
+    },
+    {
+      "product_id": "1005007584828356",
+      "sku_id": "12000041393578033",
+      "aspects": {
+        "Color": "Blau"
+      }
+    },
+    {
+      "product_id": "1005011848504195",
+      "sku_id": "12000056763805548",
+      "aspects": {
+        "Farbe": "Orange"
+      }
+    },
+    {
+      "product_id": "1005011848504195",
+      "sku_id": "12000056763805547",
+      "aspects": {
+        "Farbe": "Grau"
+      }
+    },
+    {
+      "product_id": "1005011904255432",
+      "sku_id": "12000056965691554",
+      "aspects": {
+        "Farbe": "Transparent"
+      }
+    },
+    {
+      "product_id": "1005007203879191",
+      "sku_id": "12000039792767315",
+      "aspects": {
+        "Farbe": "Rosa"
+      }
+    }
+  ],
+  "kept_blocked_product_ids": [
+    "1005007584828356",
+    "1005007659052613",
+    "1005012774230299",
+    "1005010262367908",
+    "1005011558522906",
+    "1005008995117677",
+    "1005012703904261"
+  ],
+  "deferred": [],
+  "historical_safety_corrections": [
+    "removed_unsubstantiated_Markenlos:1005012382436424",
+    "removed_unconfirmed_dimension:Breite:1005007659052613",
+    "removed_unconfirmed_dimension:Höhe:1005007659052613",
+    "removed_unconfirmed_dimension:Hoehe:1005007659052613",
+    "removed_unconfirmed_dimension:Länge:1005007659052613",
+    "removed_unconfirmed_dimension:Laenge:1005007659052613",
+    "removed_pack_collapsing_label_overrides:1005005759411405"
+  ],
+  "summary": {
+    "requested_products": 50,
+    "category_decisions_staged": 43,
+    "new_or_replaced_category_ids": 36,
+    "type_fields_staged": 42,
+    "supplier_brand_fields_staged": 3,
+    "optional_fact_fields_staged": 82,
+    "sku_labels_staged": 8,
+    "unresolved_products_kept_blocked": 7,
+    "source_read_errors": 0
+  },
+  "all_release_document_and_risk_gates_preserved": true,
+  "created_at": "2026-11-17T08:54:06.322961+00:00",
+  "applied": true,
+  "applied_at": "2026-11-17T08:56:48.691837+00:00",
+  "backup_directory": "C:\\Users\\Administrator\\AppData\\Local\\hermes\\backups\\mondeora\\prepare50_evidence_20261117T085648Z",
+  "publication_performed": false,
+  "risk_acknowledgements_changed": false,
+  "operator_decisions_changed": false
+}

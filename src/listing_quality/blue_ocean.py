@@ -27,6 +27,18 @@ DEFAULT_KEYWORDS = (
     'Kleiderschrank Organizer', 'Kabelorganizer', 'Gewuerz Organizer',
     'Schrank Organizer Box', 'Kosmetik Organizer', 'Schreibtisch Organizer',
     'Werkzeug Organizer Box',
+    # Added 2026-11-15 (same niche, new sub-categories - first 10 were mostly exhausted
+    # against the existing 211-SKU catalog, this widens real-candidate discovery).
+    'Schuhregal Organizer', 'Waeschekorb Organizer', 'Reiseorganizer Kulturtasche',
+    'Buero Aktenorganizer', 'Schmuckkaestchen Organizer', 'Besteckkasten Organizer',
+    'Aufbewahrungskorb Regal', 'Haengeorganizer Schrank', 'Vakuumbeutel Aufbewahrung',
+    'Naehkasten Organizer',
+    # Added 2026-11-16, round 2 (same niche, deeper sub-categories after the first 20
+    # keywords started returning mostly already-seeded candidates).
+    'Handtuch Aufbewahrung', 'Socken Organizer Schublade', 'Krawatten Organizer',
+    'Bettdecken Aufbewahrungstasche', 'Zeitschriften Organizer Halter',
+    'Schrank Trennwand Organizer', 'Schluessel Organizer Wandhalter',
+    'Sonnenbrille Aufbewahrungsbox', 'Pfannendeckel Organizer', 'Autositz Organizer Tasche',
 )
 
 

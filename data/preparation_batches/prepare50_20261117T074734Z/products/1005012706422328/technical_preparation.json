@@ -1,0 +1,287 @@
+{
+  "product_id": "1005012706422328",
+  "index": 35,
+  "checked_at": "2026-11-17T07:57:59.540757+00:00",
+  "ready_for_publication": false,
+  "remote_mutations_performed": false,
+  "errors": [],
+  "quote_count": 4,
+  "title": "schwarze, verdickte Plastiktüten – Supermarkt-Einkaufstüten für Takeaway",
+  "title_issues": [
+    "too few keywords (7 < 8 words)",
+    "non-German characters: {'–'}"
+  ],
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "sku_rows": [
+    {
+      "sku_id": "12000059725682990",
+      "cost": 10.49,
+      "stock": 26,
+      "aspects": {
+        "Farbe": "Schwarz",
+        "Größe der Geschenkbox": "32x52cm",
+        "Größe der Geschenktüte": "100 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S452b300f3c7d437aaeb7173869c9d86aB.png",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005012706422328",
+        "sku_id": "12000059725682990",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:01.289724+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 37.99,
+      "provisional_model_net_eur": 20.03
+    },
+    {
+      "sku_id": "12000059725682991",
+      "cost": 10.19,
+      "stock": 9,
+      "aspects": {
+        "Farbe": "Schwarz",
+        "Größe der Geschenkbox": "28x48cm",
+        "Größe der Geschenktüte": "100 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S452b300f3c7d437aaeb7173869c9d86aB.png",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005012706422328",
+        "sku_id": "12000059725682991",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:58:01.804258+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 37.99,
+      "provisional_model_net_eur": 20.33
+    },
+    {
+      "sku_id": "12000059123912819",
+      "cost": 4.09,
+      "stock": 60,
+      "aspects": {
+        "Farbe": "Schwarz",
+        "Größe der Geschenkbox": "22X35cm",
+        "Größe der Geschenktüte": "100 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S452b300f3c7d437aaeb7173869c9d86aB.png",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005012706422328",
+        "sku_id": "12000059123912819",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:02.338306+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 24.99,
+      "provisional_model_net_eur": 15.19
+    },
+    {
+      "sku_id": "12000059123912820",
+      "cost": 7.29,
+      "stock": 11,
+      "aspects": {
+        "Farbe": "Schwarz",
+        "Größe der Geschenkbox": "26x42cm",
+        "Größe der Geschenktüte": "100 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S452b300f3c7d437aaeb7173869c9d86aB.png",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005012706422328",
+        "sku_id": "12000059123912820",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:02.864529+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 28.99,
+      "provisional_model_net_eur": 15.45
+    }
+  ],
+  "category": {
+    "category_id": "46283",
+    "path": "Möbel & Wohnen > Kochen & Genießen > Ordnung & Aufbewahrung > Halter/Ständer & Küchenleisten",
+    "confidence": 0.67,
+    "needs_review": false,
+    "queries_used": 3,
+    "alternatives": [
+      [
+        "261068",
+        "Spielzeug > Action-Figuren & Zubehör > Action- & Spielfiguren",
+        1
+      ],
+      [
+        "43504",
+        "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Aufbewahrungsbeutel & -taschen",
+        0
+      ],
+      [
+        "20613",
+        "Haushaltsgeräte > Klimaanlagen & Heizgeräte > Klimageräte & Heizgeräte > Heizgeräte",
+        0
+      ]
+    ],
+    "source": "auto"
+  },
+  "supported_shared_aspects": {
+    "Material": [
+      "Kunststoff"
+    ]
+  },
+  "human_review_aspect_names": [],
+  "missing_required_aspects": [
+    "Höhe",
+    "Länge",
+    "Breite"
+  ],
+  "required_aspects": [
+    {
+      "name": "Höhe",
+      "values": [
+        "14 cm",
+        "16,5 cm",
+        "18 cm",
+        "20,0 cm",
+        "30,0 cm",
+        "14,4 Zoll",
+        "55,0 cm",
+        "70,0 cm",
+        "75,0 cm",
+        "85,0 cm",
+        "90,0 cm"
+      ],
+      "mode": "FREE_TEXT"
+    },
+    {
+      "name": "Länge",
+      "values": [
+        "10 cm",
+        "10,2 cm",
+        "20,0 cm",
+        "28 cm",
+        "4.5 m",
+        "8,0 m",
+        "15 m",
+        "23,0 m",
+        "60,0 m",
+        "61,0 m"
+      ],
+      "mode": "FREE_TEXT"
+    },
+    {
+      "name": "Breite",
+      "values": [
+        "16,5 cm",
+        "18 cm",
+        "10,2 Zoll",
+        "28 cm",
+        "11,5 Zoll",
+        "11,7 Zoll",
+        "30,0 cm",
+        "33 cm",
+        "35,0 cm",
+        "38 cm",
+        "40,0 cm",
+        "43 cm",
+        "45,0 cm"
+      ],
+      "mode": "FREE_TEXT"
+    }
+  ],
+  "optional_unknown_aspects": [
+    "Produktart",
+    "Marke",
+    "Farbe",
+    "Herstellernummer",
+    "Herstellungsmethode",
+    "Herstellungsstil",
+    "Anzahl der Etagen",
+    "Anzahl der Regalfächer",
+    "Anzahl der Fächer",
+    "Größe",
+    "Set enthält",
+    "Besonderheiten",
+    "Form",
+    "Montage",
+    "Stil",
+    "Tiefe",
+    "Holzton",
+    "Ursprungsland",
+    "Abteilung",
+    "Personalisieren",
+    "Kapazität",
+    "Ständerart",
+    "Fassungsvermögen Kapseln/Pads",
+    "Durchmesser",
+    "Gewicht",
+    "Modell",
+    "Anzahl der Einheiten",
+    "Maßeinheit",
+    "Anleitung für Personalisierung",
+    "Haltbarkeitsgarantie",
+    "Produktlinie"
+  ],
+  "draft_file": "product_draft.html",
+  "finished_at": "2026-11-17T07:58:04.468830+00:00"
+}

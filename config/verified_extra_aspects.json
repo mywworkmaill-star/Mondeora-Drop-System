@@ -1,0 +1,550 @@
+{
+  "_comment": "Human-confirmed real product aspect values extracted from actual AliExpress listing photos (dimension infographics, material close-ups, usage-context images) via vision_analyze. Keyed by product_id -> {aspect_name: real_value}. Used when the supplier's text/API data is missing a required eBay category aspect (Breite/Hoehe/Laenge/Produktart/Material etc.) but a real measurement or fact is visibly printed in one of the listing's own photos. Every value here was read directly off a real product image, never estimated/guessed/invented.",
+  "1005005759411405": {
+    "_photo_note": "Dimension infographic found in image index 3 of 6 (https://ae01.alicdn.com/kf/Sae3a666a28354691b2560d4e51e38fa4N.jpg): 86mm height, 97mm width, 36mm depth, self-adhesive wall-mount (sticky pad visible in last image). Product is a two-pocket wall-mounted remote-control/phone holder.",
+    "Breite": [
+      "9,7 cm"
+    ],
+    "Hoehe": [
+      "8,6 cm"
+    ],
+    "Höhe": [
+      "8,6 cm"
+    ],
+    "Laenge": [
+      "3,6 cm"
+    ],
+    "Länge": [
+      "3,6 cm"
+    ],
+    "Produktart": [
+      "Fernbedienungshalter"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Montage": [
+      "Wandmontage"
+    ]
+  },
+  "1005007659052613": {
+    "_photo_note": "Earlier dimension assignments archived; exact physical model/axis identity is unresolved. No replacement measurements inferred."
+  },
+  "1005012382436424": {
+    "_photo_note": "Previous Markenlos inference removed: supplier NONE is not an explicit no-brand declaration.",
+    "Produktart": [
+      "Kabelhalter"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ]
+  },
+  "1005010026666604": {
+    "_photo_note": "Title is literally 'Hutablage... zum Aufhängen... Wandmontage' (hat rack/shelf, wall-mounted with hooks). 'Garderoben- und Hutablage' is a real, exact picklist value for category 36024's Produktart field - a direct title match, not a guess.",
+    "Produktart": [
+      "Kappen- & Huthalter"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ]
+  },
+  "1005010496570687": {
+    "Produktart": [
+      "Aufbewahrungstasche"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Besonderheiten": [
+      "Faltbar",
+      "Mit Sichtfenster"
+    ],
+    "Form": [
+      "Rechteck"
+    ]
+  },
+  "1005007907908369": {
+    "Produktart": [
+      "Küchenrollenhalter"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Montage": [
+      "Selbstklebend"
+    ]
+  },
+  "1005008833344507": {
+    "Produktart": [
+      "Gürtel- & Krawattenhalter"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Besonderheiten": [
+      "Drehbar",
+      "Wiederverwendbar"
+    ]
+  },
+  "1005012066024130": {
+    "Produktart": [
+      "Kabelaufwickler"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Besonderheiten": [
+      "Wiederverwendbar"
+    ]
+  },
+  "1005008119002572": {
+    "Produktart": [
+      "Wandregal"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Montage": [
+      "Wandmontage"
+    ],
+    "Besonderheiten": [
+      "Wiederverwendbar"
+    ]
+  },
+  "1005010796812930": {
+    "Produktart": [
+      "Schuhregal"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Besonderheiten": [
+      "Faltbar"
+    ]
+  },
+  "1005007238983224": {
+    "Produktart": [
+      "Fernbedienungshalter"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Montage": [
+      "Wandmontage"
+    ]
+  },
+  "1005007705527057": {
+    "Produktart": [
+      "Aufbewahrungsbox"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Besonderheiten": [
+      "Langlebig",
+      "Stapelbar"
+    ]
+  },
+  "1005012032555747": {
+    "Produktart": [
+      "Aufbewahrungsbox"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Besonderheiten": [
+      "Faltbar",
+      "Staubdicht",
+      "Mit Griff"
+    ]
+  },
+  "1005010795524159": {
+    "Produktart": [
+      "Fernbedienungshalter"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Besonderheiten": [
+      "Wiederverwendbar"
+    ]
+  },
+  "1005005385299054": {
+    "Produktart": [
+      "Befestigungsclip"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ]
+  },
+  "1005010141016715": {
+    "Produktart": [
+      "Lebensmittelsieb"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ]
+  },
+  "1005008387790553": {
+    "Produktart": [
+      "Stifthalter"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ]
+  },
+  "1005008290283020": {
+    "Produktart": [
+      "Schreibtisch-Organizer"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Anzahl der Fächer": [
+      "3"
+    ]
+  },
+  "1005011848504195": {
+    "Produktart": [
+      "Kofferraum-Organizer"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ]
+  },
+  "1005011904255432": {
+    "Produktart": [
+      "Zahnbürstenhalter"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Besonderheiten": [
+      "Bohrfreie Montage"
+    ]
+  },
+  "1005009992738407": {
+    "Produktart": [
+      "Kosmetiktasche"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ]
+  },
+  "1005006116459385": {
+    "Produktart": [
+      "Vorratsdose"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Besonderheiten": [
+      "Wiederverwendbar",
+      "Stapelbar"
+    ]
+  },
+  "1005006830218955": {
+    "Produktart": [
+      "Schmuckschatulle"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Marke": [
+      "SMI Fine"
+    ],
+    "Ursprungsland": [
+      "China"
+    ],
+    "Material": [
+      "Polypropylen (PP)"
+    ],
+    "Modell": [
+      "PS-01"
+    ],
+    "Besonderheiten": [
+      "Tragbar"
+    ]
+  },
+  "1005010471370917": {
+    "Produktart": [
+      "Zahnbürstenhalter"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Installationsart": [
+      "Freistehend"
+    ]
+  },
+  "1005005921446741": {
+    "Produktart": [
+      "Regale"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Material": [
+      "Polypropylen (PP)"
+    ],
+    "Form": [
+      "Rechteckig"
+    ],
+    "Montage": [
+      "Freistehend"
+    ]
+  },
+  "1005007547820639": {
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Besonderheiten": [
+      "Faltbar",
+      "Wasserabweisend"
+    ]
+  },
+  "1005004970036864": {
+    "Produktart": [
+      "Plastiktütenspender"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Besonderheiten": [
+      "Wiederverwendbar"
+    ]
+  },
+  "1005009723070135": {
+    "Produktart": [
+      "Unterbau-Küchenregal"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Montage": [
+      "Unterbau"
+    ],
+    "Besonderheiten": [
+      "Wiederverwendbar"
+    ]
+  },
+  "1005008464837668": {
+    "Produktart": [
+      "Stifthalter"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ]
+  },
+  "1005011918498017": {
+    "Produktart": [
+      "Schuhtasche für Reise & Sport"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Besonderheiten": [
+      "Atmungsaktiv",
+      "Leicht",
+      "Staubdicht"
+    ]
+  },
+  "1005012706422328": {
+    "Produktart": [
+      "Tüte"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Personalisieren": [
+      "Nein"
+    ]
+  },
+  "1005006963247455": {
+    "Produktart": [
+      "Abfalleimer"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ]
+  },
+  "1005006232978114": {
+    "Produktart": [
+      "Vakuum-Aufbewahrungsbeutel"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Marke": [
+      "LEENKEA"
+    ],
+    "Ursprungsland": [
+      "China"
+    ],
+    "Material": [
+      "PET + PE"
+    ],
+    "Besonderheiten": [
+      "Platzsparend",
+      "Faltbar",
+      "Wiederverwendbar"
+    ]
+  },
+  "1005009313031651": {
+    "Produktart": [
+      "Eierhalter"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ]
+  },
+  "1005008684706431": {
+    "Produktart": [
+      "Aufbewahrungshaken"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Montage": [
+      "Selbstklebend"
+    ],
+    "Besonderheiten": [
+      "Bohrfreie Montage"
+    ]
+  },
+  "1005007070511540": {
+    "Produktart": [
+      "Klettkabelverbinder"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Marke": [
+      "Opansten"
+    ],
+    "Ursprungsland": [
+      "China"
+    ]
+  },
+  "1005007164564054": {
+    "Produktart": [
+      "Kabelbinder"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Besonderheiten": [
+      "Verstellbar",
+      "Wiederverwendbar",
+      "Selbstklebend"
+    ]
+  },
+  "1005008223937342": {
+    "Produktart": [
+      "Kabelbinder"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Besonderheiten": [
+      "Verstellbar",
+      "Wiederverwendbar"
+    ]
+  },
+  "1005006943431670": {
+    "Produktart": [
+      "Kabelbinder"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Besonderheiten": [
+      "Lösbar",
+      "Wiederverwendbar"
+    ]
+  },
+  "1005007203879191": {
+    "Produktart": [
+      "Zahnbürstenetui"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Besonderheiten": [
+      "Wiederverwendbar"
+    ]
+  },
+  "1005009800425890": {
+    "Produktart": [
+      "Sitzspalt-Organizer"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ]
+  },
+  "1005012052613902": {
+    "Produktart": [
+      "Regenschirmhalter"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ]
+  },
+  "1005008997918604": {
+    "Produktart": [
+      "Kabelhalter"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Besonderheiten": [
+      "Selbstklebend",
+      "Wiederverwendbar"
+    ]
+  },
+  "1005008222543759": {
+    "Produktart": [
+      "Kabelklemme(n)"
+    ],
+    "_category_evidence": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "Ursprungsland": [
+      "China"
+    ],
+    "Besonderheiten": [
+      "Selbstklebend"
+    ]
+  }
+}

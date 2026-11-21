@@ -1,0 +1,260 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:193#black;200321262:202637829#100PC;200323261:202638848#32x52cm",
+        "offer_sale_price": "10.49",
+        "sku_id": "12000059725682990",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "25.59",
+        "offer_bulk_sale_price": "10.49",
+        "sku_available_stock": 26,
+        "id": "14:193#black;200321262:202637829#100PC;200323261:202638848#32x52cm",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "schwarz",
+              "sku_image": "https://ae01.alicdn.com/kf/S452b300f3c7d437aaeb7173869c9d86aB.png",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "black",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "13x8x15cm",
+              "sku_property_name": "Größe der Geschenkbox",
+              "property_value_definition_name": "32x52cm",
+              "property_value_id": 202638848,
+              "sku_property_id": 200323261
+            },
+            {
+              "sku_property_value": "9X15cm",
+              "sku_property_name": "Größe der Geschenktüte",
+              "property_value_definition_name": "100PC",
+              "property_value_id": 202637829,
+              "sku_property_id": 200321262
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:193#black;200321262:202637829#100PC;200323261:202638849#28x48cm",
+        "offer_sale_price": "10.19",
+        "sku_id": "12000059725682991",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "25.47",
+        "offer_bulk_sale_price": "10.19",
+        "sku_available_stock": 9,
+        "id": "14:193#black;200321262:202637829#100PC;200323261:202638849#28x48cm",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "schwarz",
+              "sku_image": "https://ae01.alicdn.com/kf/S452b300f3c7d437aaeb7173869c9d86aB.png",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "black",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "18x7x24cm",
+              "sku_property_name": "Größe der Geschenkbox",
+              "property_value_definition_name": "28x48cm",
+              "property_value_id": 202638849,
+              "sku_property_id": 200323261
+            },
+            {
+              "sku_property_value": "9X15cm",
+              "sku_property_name": "Größe der Geschenktüte",
+              "property_value_definition_name": "100PC",
+              "property_value_id": 202637829,
+              "sku_property_id": 200321262
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:193#black;200321262:202637829#100PC;200323261:202638846#22X35cm",
+        "offer_sale_price": "4.09",
+        "sku_id": "12000059123912819",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "10.76",
+        "offer_bulk_sale_price": "4.09",
+        "sku_available_stock": 60,
+        "id": "14:193#black;200321262:202637829#100PC;200323261:202638846#22X35cm",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "schwarz",
+              "sku_image": "https://ae01.alicdn.com/kf/S452b300f3c7d437aaeb7173869c9d86aB.png",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "black",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "5x5x5cm",
+              "sku_property_name": "Größe der Geschenkbox",
+              "property_value_definition_name": "22X35cm",
+              "property_value_id": 202638846,
+              "sku_property_id": 200323261
+            },
+            {
+              "sku_property_value": "9X15cm",
+              "sku_property_name": "Größe der Geschenktüte",
+              "property_value_definition_name": "100PC",
+              "property_value_id": 202637829,
+              "sku_property_id": 200321262
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:193#black;200321262:202637829#100PC;200323261:202638847#26x42cm",
+        "offer_sale_price": "7.29",
+        "sku_id": "12000059123912820",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "18.69",
+        "offer_bulk_sale_price": "7.29",
+        "sku_available_stock": 11,
+        "id": "14:193#black;200321262:202637829#100PC;200323261:202638847#26x42cm",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "schwarz",
+              "sku_image": "https://ae01.alicdn.com/kf/S452b300f3c7d437aaeb7173869c9d86aB.png",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "black",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "9,5x9,5x11cm",
+              "sku_property_name": "Größe der Geschenkbox",
+              "property_value_definition_name": "26x42cm",
+              "property_value_id": 202638847,
+              "sku_property_id": 200323261
+            },
+            {
+              "sku_property_value": "9X15cm",
+              "sku_property_name": "Größe der Geschenktüte",
+              "property_value_definition_name": "100PC",
+              "property_value_id": 202637829,
+              "sku_property_id": 200321262
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "image_urls": "https://ae01.alicdn.com/kf/Sdcd639d3c6cf4ad5955df8b6d7b40df7K.png;https://ae01.alicdn.com/kf/S452b300f3c7d437aaeb7173869c9d86aB.png;https://ae01.alicdn.com/kf/S1c513a59508243229aa8e760d5ea452d2.jpg;https://ae01.alicdn.com/kf/Scbb1a9e7746a4e24b10fe158af9c8c172.jpg;https://ae01.alicdn.com/kf/Sdd567291200c4ad5a5cf8bc70fb94e53D.jpg;https://ae01.alicdn.com/kf/Se5ba74ff1555415bbea1a484e7161483A.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 11,
+    "package_height": 6,
+    "package_length": 30,
+    "gross_weight": "0.349",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005012706422328,
+    "sub_product_id": "{\"US\":3256812520107576}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sdcd639d3c6cf4ad5955df8b6d7b40df7K.png\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S452b300f3c7d437aaeb7173869c9d86aB.png\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S1c513a59508243229aa8e760d5ea452d2.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Scbb1a9e7746a4e24b10fe158af9c8c172.jpg\",\"style\":{\"width\":760,\"height\":760}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sdd567291200c4ad5a5cf8bc70fb94e53D.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Se5ba74ff1555415bbea1a484e7161483A.jpg\",\"style\":{\"width\":800,\"height\":800}}}]}",
+    "subject": "100 Stück schwarze, verdickte Plastiktüten – Supermarkt-Einkaufstüten für Takeaway, Küche, Müllaufbewahrung, Verpackung, Aufbewahrungstasche",
+    "evaluation_count": "1951",
+    "sales_count": "10000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.4",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 200223144,
+    "product_id": 1005012706422328,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sdcd639d3c6cf4ad5955df8b6d7b40df7K.png\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S452b300f3c7d437aaeb7173869c9d86aB.png\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S1c513a59508243229aa8e760d5ea452d2.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Scbb1a9e7746a4e24b10fe158af9c8c172.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sdd567291200c4ad5a5cf8bc70fb94e53D.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Se5ba74ff1555415bbea1a484e7161483A.jpg\" slate-data-type=\"image\"/></p></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "No. 2-3-5, Building 114, No. 65, Lane 209, Qinglinwan S\ntreet, Haishu District, Ningbo City, Zhejiang Province,\nChina",
+    "phone": "15757832983",
+    "country_name": "China",
+    "email": "985913923@qq.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 266081643,
+        "attr_value_id": 100015203,
+        "attr_name": "CN",
+        "attr_value": "Zhejiang"
+      },
+      {
+        "attr_name_id": 20640,
+        "attr_value_id": 365515,
+        "attr_name": "Anlass",
+        "attr_value": "Weltumwelttag"
+      },
+      {
+        "attr_name_id": 10,
+        "attr_value_id": 124,
+        "attr_name": "Material",
+        "attr_value": "Kunststoff"
+      },
+      {
+        "attr_name_id": 200257272,
+        "attr_value_id": 2468,
+        "attr_name": "Faltbar",
+        "attr_value": "Ja"
+      },
+      {
+        "attr_name_id": 200000631,
+        "attr_value_id": 349906,
+        "attr_name": "Individualisiert",
+        "attr_value": "Nein"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1105445225,
+    "shipping_speed_rating": "4.6",
+    "communication_rating": "4.5",
+    "store_name": "Shop1105445225 Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.3"
+  }
+}

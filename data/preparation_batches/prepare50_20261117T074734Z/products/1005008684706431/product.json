@@ -1,0 +1,60 @@
+{
+  "index": 39,
+  "product_id": "1005008684706431",
+  "db_title": "1/2/4/6Pcs Edelstahl Waschbecken Haken Multifunktions Punch-freies Küche Bad Rack Becken lagerung Rack Handtuch Hängen Halter",
+  "started_at": "2026-11-17T07:53:19.959229+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "1/2/4/6Pcs Edelstahl Waschbecken Haken Multifunktions Punch-freies Küche Bad Rack Becken lagerung Rack Handtuch Hängen Halter",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/Sdc1a2288a344489a9b8b3041ed3451b9K.png",
+    "https://ae01.alicdn.com/kf/S184e9e32b5514af8a019f018e0439962c.jpg",
+    "https://ae01.alicdn.com/kf/S67bb43e0258345e5859927e1c2792d94Z.jpg",
+    "https://ae01.alicdn.com/kf/S117f40f553a14e41bcd6c0d77cd95c47J.jpg",
+    "https://ae01.alicdn.com/kf/S71235a91abf94d458b4bdb9b3496e3c3u.jpg",
+    "https://ae01.alicdn.com/kf/S6b9b6ce807d94cf0aca9009746200d77B.jpg"
+  ],
+  "main_image_dimensions": [
+    1601,
+    1601
+  ],
+  "main_image_file": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\products\\1005008684706431\\main.jpg",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:variant_review",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 3
+  },
+  "finished_at": "2026-11-17T07:53:22.941905+00:00",
+  "canonical_status": "blocked"
+}

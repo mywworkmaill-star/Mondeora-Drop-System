@@ -22,8 +22,10 @@ class Supplier:
                 'quantity': 1, 'cost': self.freight, 'service_name': 'TRACKED'}
 
 
-def test_freshness_rejects_cost_change_before_any_publication():
-    from src.listing_quality import ready_launch
+def test_freshness_rejects_cost_change_before_any_publication(monkeypatch):
+    from src.listing_quality import ready_launch, listing_evidence
+    # This transport/source test assumes a separately authenticated document review.
+    monkeypatch.setattr(listing_evidence, 'validate_saved', lambda *a, **kw: {})
     saved = artifact()
     saved['st']['res'] = raw()
     saved['shipping_quotes'] = {'2000000000001': Supplier().get_shipping_quote('1005000000000', '2000000000001')}
@@ -86,8 +88,9 @@ class FakeApi:
         raise AssertionError((method, path))
 
 
-def test_publish_saved_payloads_reads_back_exact_target():
-    from src.listing_quality import ready_launch
+def test_publish_saved_payloads_reads_back_exact_target(monkeypatch):
+    from src.listing_quality import ready_launch, listing_evidence
+    monkeypatch.setattr(listing_evidence, 'validate_saved', lambda *a, **kw: {})
     saved = artifact()
     saved['payloads'] = ready_launch.compile_payloads('1005000000000', saved)
     api = FakeApi()
@@ -97,8 +100,9 @@ def test_publish_saved_payloads_reads_back_exact_target():
     assert sum(method == 'POST' and path.endswith('/publish') for method, path in api.calls) == 1
 
 
-def test_publish_ambiguous_failure_does_not_retry_or_delete():
-    from src.listing_quality import ready_launch
+def test_publish_ambiguous_failure_does_not_retry_or_delete(monkeypatch):
+    from src.listing_quality import ready_launch, listing_evidence
+    monkeypatch.setattr(listing_evidence, 'validate_saved', lambda *a, **kw: {})
     saved = artifact()
     saved['payloads'] = ready_launch.compile_payloads('1005000000000', saved)
     api = FakeApi(fail_publish=True)
@@ -108,8 +112,9 @@ def test_publish_ambiguous_failure_does_not_retry_or_delete():
     assert sum(method == 'POST' and path.endswith('/publish') for method, path in api.calls) == 1
 
 
-def test_existing_offer_stops_before_any_new_write():
-    from src.listing_quality import ready_launch
+def test_existing_offer_stops_before_any_new_write(monkeypatch):
+    from src.listing_quality import ready_launch, listing_evidence
+    monkeypatch.setattr(listing_evidence, 'validate_saved', lambda *a, **kw: {})
     saved = artifact()
     saved['payloads'] = ready_launch.compile_payloads('1005000000000', saved)
     api = FakeApi(existing=True)

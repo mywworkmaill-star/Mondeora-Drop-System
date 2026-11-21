@@ -1,0 +1,243 @@
+{
+  "product_id": "1005010796812930",
+  "index": 9,
+  "checked_at": "2026-11-17T07:57:18.838240+00:00",
+  "ready_for_publication": false,
+  "remote_mutations_performed": false,
+  "errors": [],
+  "quote_count": 1,
+  "title": "Heißer Verkauf: 4-stöckiges X-förmiges Schuhregal, Multifunktionales X-Design",
+  "title_issues": [],
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "sku_rows": [
+    {
+      "sku_id": "12000053535293408",
+      "cost": 6.49,
+      "stock": 64,
+      "aspects": {
+        "Farbe": "4 Layer C"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S440aa082570a4970a0b8fc5b2fc6efa9Q.jpg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "AliExpressAPIError"
+    },
+    {
+      "sku_id": "12000053535293407",
+      "cost": 13.29,
+      "stock": 74,
+      "aspects": {
+        "Farbe": "4 Layer A"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S440aa082570a4970a0b8fc5b2fc6efa9Q.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005010796812930",
+        "sku_id": "12000053535293407",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:20.620282+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 41.99,
+      "provisional_model_net_eur": 20.69
+    }
+  ],
+  "category": {
+    "category_id": "43506",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Schuhaufbewahrung",
+    "confidence": 1.0,
+    "needs_review": false,
+    "source": "override",
+    "level": "high",
+    "note": "4-tier X-shaped stackable shoe rack; auto-resolve wrongly picked 41973 Scharniere (door hinges, 0.25 conf, nonsense). Real taxonomy search for Schuhregal X-foermig stapelbar returns this exact shoe-storage category as the clear top hit."
+  },
+  "supported_shared_aspects": {
+    "Produktart": [
+      "Schuhregal"
+    ],
+    "Material": [
+      "PP"
+    ]
+  },
+  "human_review_aspect_names": [],
+  "missing_required_aspects": [
+    "Breite",
+    "Höhe",
+    "Länge"
+  ],
+  "required_aspects": [
+    {
+      "name": "Produktart",
+      "values": [
+        "Akkordeonmappe",
+        "Apothekerglas",
+        "Armlehnen-Organizer",
+        "Aufbewahrungsbox",
+        "Aufbewahrungseinheit",
+        "Badezimmerkorb",
+        "Badezimmerorganisator",
+        "Briefablage",
+        "Briefaufbewahrung",
+        "Briefhalter",
+        "Buchschachtel",
+        "Cubby Lagerung",
+        "Cubby-Organizer",
+        "Cubby-Verbindungselement",
+        "Deckenaufbewahrung",
+        "Deko-Eimer",
+        "Dekorative Aufbewahrungsbox",
+        "Dekorative Box",
+        "Dekorative Dose",
+        "Dekoratives Glas",
+        "Dom/Glasglocke",
+        "Dose",
+        "Duftend",
+        "Duftfrei",
+        "Erste-Hilfe-Kasten",
+        "Fernbedienungshalter",
+        "Garderobe",
+        "Garderobenständer",
+        "Geschenkkorb",
+        "Geschenkpapierrollen Aufbewahrung",
+        "Glas",
+        "Gürtel- & Krawattenhalter",
+        "Haken",
+        "Hängeaufbewahrung",
+        "Hängeschuhregal",
+        "Hutschachtel",
+        "Kanister",
+        "Kappen- & Huthalter",
+        "Keksdose",
+        "Kiste",
+        "Kleiderständer",
+        "Kleiderstange",
+        "Mobiler Schrank",
+        "Mottenkugeln",
+        "Regalfachteiler",
+        "Regal für den begehbaren Kleiderschrank",
+        "Regalsystem",
+        "Rezeptschachtel",
+        "Schachtel-Set",
+        "Schatztruhe",
+        "Schirmständer",
+        "Schlüssel- & Brief-Kombiablage",
+        "Schlüsselablage",
+        "Schlüsselhaken",
+        "Schlüsselkasten",
+        "Schmuckdose",
+        "Schmuckschatulle",
+        "Schublade",
+        "Schuh-Aufbewahrungsbox",
+        "Schuhbank",
+        "Schuhbox",
+        "Schuhbügel",
+        "Schuh-Cubby",
+        "Schuhregal",
+        "Schuhschrank",
+        "Schuhspanner",
+        "Schuhtasche",
+        "Schuhtasche für Reise & Sport",
+        "Souvenirschachtel",
+        "Spardose",
+        "Spieluhr",
+        "Spielzeugkiste",
+        "Stiefel-Aufbewahrung",
+        "Süßigkeitenglas",
+        "Taschen-Organizer",
+        "Taschentuchschachtel",
+        "Teedose",
+        "Truhe",
+        "Truhenbank",
+        "Unterbett-Aufbewahrung",
+        "Vakuum-Aufbewahrungsbeutel",
+        "Wandtasche",
+        "Wäschekorb",
+        "Wiederverwendbare Einkaufstasche"
+      ],
+      "mode": "FREE_TEXT"
+    },
+    {
+      "name": "Breite",
+      "values": [
+        "66,0 cm",
+        "85,0 cm",
+        "89 cm",
+        "140 cm",
+        "190 cm"
+      ],
+      "mode": "FREE_TEXT"
+    },
+    {
+      "name": "Höhe",
+      "values": [
+        "40,0 cm",
+        "70,0 cm",
+        "75,0 cm",
+        "85,0 cm",
+        "89 cm",
+        "90,0 cm",
+        "140 cm"
+      ],
+      "mode": "FREE_TEXT"
+    },
+    {
+      "name": "Länge",
+      "values": [],
+      "mode": "FREE_TEXT"
+    }
+  ],
+  "optional_unknown_aspects": [
+    "Marke",
+    "Anzahl der Regalfächer",
+    "Besonderheiten",
+    "Anzahl der Teile",
+    "Montage",
+    "Kapazität",
+    "Zimmer",
+    "Abteilung",
+    "Durchmesser",
+    "Gewicht",
+    "Herstellernummer",
+    "Modell",
+    "Montage erforderlich",
+    "Tiefe",
+    "Farbe",
+    "Anzahl pro Packung",
+    "Anzahl der Fächer",
+    "Anzahl der Schubladen",
+    "Stil",
+    "Ursprungsland",
+    "Geeignet für",
+    "Größe",
+    "Anzahl der Einheiten",
+    "Duft",
+    "Finish",
+    "Form",
+    "Maßeinheit",
+    "Muster",
+    "Original/Reproduktion",
+    "Pflegeanleitung",
+    "Thema"
+  ],
+  "draft_file": "product_draft.html",
+  "finished_at": "2026-11-17T07:57:21.197549+00:00"
+}

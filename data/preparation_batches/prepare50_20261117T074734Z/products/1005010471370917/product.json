@@ -1,0 +1,60 @@
+{
+  "index": 26,
+  "product_id": "1005010471370917",
+  "db_title": "Niedlicher sternförmiger Zahnbürstenhalter, freistehender Badezimmer-Organizer mit niedlichem Gesichtsdesign, platzsparende Zahnbürste und Zahnpasta",
+  "started_at": "2026-11-17T07:53:02.137590+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "Niedlicher sternförmiger Zahnbürstenhalter, freistehender Badezimmer-Organizer mit niedlichem Gesichtsdesign, platzsparende Zahnbürste und Zahnpasta",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/S1f6a955843c8481bb1d514541b365ece7.jpg",
+    "https://ae01.alicdn.com/kf/S9cb5eab56ee2410083abb0a15ecd377bl.jpg",
+    "https://ae01.alicdn.com/kf/S56665d651bb34e8c937286f1379b922cp.jpg",
+    "https://ae01.alicdn.com/kf/S55fd21de15b44806a805ff2771142619k.jpg",
+    "https://ae01.alicdn.com/kf/Sf447502848bd4d3894721acdde5106335.jpg",
+    "https://ae01.alicdn.com/kf/Sd0e1b96d468242dc8a694d1673c788afZ.jpg"
+  ],
+  "main_image_dimensions": [
+    1200,
+    1200
+  ],
+  "main_image_file": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\products\\1005010471370917\\main.jpg",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:category_aspects_incomplete",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 7
+  },
+  "finished_at": "2026-11-17T07:53:06.796646+00:00",
+  "canonical_status": "blocked"
+}

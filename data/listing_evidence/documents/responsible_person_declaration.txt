@@ -1,0 +1,27 @@
+RESPONSIBLE PERSON DECLARATION / SORUMLU KISI BEYANI
+======================================================
+Niche scope: Home storage & organization products (Aufbewahrung/Organizer)
+sourced from AliExpress for resale on eBay.de.
+
+EU Responsible Person (GPSR Art. 16, Art. 3(10)):
+  Name: Achmet Basirikli
+  Address: Steilweg 12, 51702 Bergneustadt, Germany
+
+Basis: The manufacturer (AliExpress supplier, China) is not established in the
+EU and has no EU-based authorized representative on record. The above-named
+person is the one placing these products on the EU market (de facto
+"importer" under GPSR Art. 3(10)) and accepts the Art. 16 Responsible Person
+role for this product family.
+
+Scope limitation: this declaration covers ONLY low-risk, non-regulated
+storage/organization products. It does NOT cover electronics with batteries,
+toys, cosmetics, or children's products - those remain excluded from listing
+by the existing risk gates (gates.py) regardless of this declaration.
+
+Confirmed by the account holder via chat on 2026-11-16, recorded in
+config/operator_decisions.json (gpsr_responsible_person_decision) and
+config/listing_evidence_standing_approval.json.
+
+THIS IS NOT A SUBSTITUTE for maintaining real technical documentation,
+safety information and German-language instructions per product, which
+remain the Responsible Person's ongoing obligation under GPSR Art. 16(2)-(4).

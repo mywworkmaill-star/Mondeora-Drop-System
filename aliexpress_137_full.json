@@ -1,0 +1,49 @@
+{
+  "product_id": "1005010494395563",
+  "product_title": "Batterie-Organizer-Aufbewahrungstasche für 48 x AA, 48 x AAA-Batterien insgesamt 96 mit Batterietester, extra 2 Taschen für andere Zubehörteile",
+  "product_main_image_url": "https://ae01.alicdn.com/kf/S55568400b4a748c392315808431cfbbaf.png",
+  "image_urls": "https://ae01.alicdn.com/kf/S55568400b4a748c392315808431cfbbaf.png;https://ae01.alicdn.com/kf/Sb400f9fbf0c14f3aa028608d210f10e7Q.jpg;https://ae01.alicdn.com/kf/S4a8e2ea7374f4076afcc9e04f309edb84.jpg;https://ae01.alicdn.com/kf/S880110eed38040ae83fd337d06f4e0e4w.jpg;https://ae01.alicdn.com/kf/Se9d738529e2c4b63a2054180f91b6da4Y.jpg;https://ae01.alicdn.com/kf/Sf865d86a3d384a47be8d96c09757e6648.jpg",
+  "sale_price": 17.29,
+  "warehouse_count": 24,
+  "sku_id": "12000052587504272",
+  "shipping_cost": null,
+  "currency": "EUR",
+  "ship_to_country": "DE",
+  "skus": [
+    {
+      "sku_id": "12000052587504272",
+      "sku_attr": "14:29#Black",
+      "warehouse_count": 24,
+      "sale_price": 17.29,
+      "currency": "EUR"
+    }
+  ],
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:29#Black",
+        "offer_sale_price": "17.29",
+        "sku_id": "12000052587504272",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "35.29",
+        "offer_bulk_sale_price": "17.29",
+        "sku_available_stock": 24,
+        "id": "14:29#Black",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "WEISS",
+              "sku_image": "https://ae01.alicdn.com/kf/S6bcd915c1c424114b5d7616aa36c1897W.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Black",
+              "property_value_id": 29,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "transaction_ready": false
+}

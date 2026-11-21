@@ -1,0 +1,62 @@
+{
+  "index": 23,
+  "product_id": "1005009992738407",
+  "db_title": "Solide Pelz Kosmetische Lagerung Tasche Große Frauen Zipper Make-Up Organizer Handtasche Schreibwaren Bleistift Fall Reise Make-Up Toilettenartikel Punch",
+  "started_at": "2026-11-17T07:53:00.332707+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "Solide Pelz Kosmetische Lagerung Tasche Große Frauen Zipper Make-Up Organizer Handtasche Schreibwaren Bleistift Fall Reise Make-Up Toilettenartikel Punch",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [
+      "cosmetics_food_supplement: ['kosmetik']"
+    ],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/S0a5592bb71384ed49286958855b70820S.jpeg",
+    "https://ae01.alicdn.com/kf/Sd1ee89b0c2ed49358c7ee7307a32574dX.jpg",
+    "https://ae01.alicdn.com/kf/Sdb476144f20543288a0958c1cc92a131F.jpg",
+    "https://ae01.alicdn.com/kf/S97357a13bc2e4bfc8f52f063e46758a97.jpg",
+    "https://ae01.alicdn.com/kf/S83a3fff6b19d42f5b2ab5aa73d0baa2b1.jpg",
+    "https://ae01.alicdn.com/kf/S1874ac3a672e435da5d312b0028444d87.jpg"
+  ],
+  "main_image_dimensions": [
+    800,
+    800
+  ],
+  "main_image_file": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\products\\1005009992738407\\main.jpg",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:gate_review",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 0
+  },
+  "finished_at": "2026-11-17T07:53:02.039398+00:00",
+  "canonical_status": "blocked"
+}

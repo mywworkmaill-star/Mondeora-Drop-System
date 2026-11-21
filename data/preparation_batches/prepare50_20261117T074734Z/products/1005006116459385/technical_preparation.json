@@ -1,0 +1,1628 @@
+{
+  "product_id": "1005006116459385",
+  "index": 24,
+  "checked_at": "2026-11-17T07:57:37.777238+00:00",
+  "ready_for_publication": false,
+  "remote_mutations_performed": false,
+  "errors": [],
+  "quote_count": 39,
+  "title": "Versiegelte Gläser Küche Getreide Lagerung Organizer Große Tank Kunststoff",
+  "title_issues": [],
+  "current_source_risk": {
+    "block": [],
+    "review": [
+      "cosmetics_food_supplement: ['lebensmittel']"
+    ],
+    "acknowledged": [],
+    "info": {}
+  },
+  "sku_rows": [
+    {
+      "sku_id": "12000035928455900",
+      "cost": 20.19,
+      "stock": 3,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "1800ML",
+        "Anzahl der Ebenen": "2 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455900",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:39.539998+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 49.99,
+      "provisional_model_net_eur": 20.71
+    },
+    {
+      "sku_id": "12000035928455901",
+      "cost": 28.19,
+      "stock": 3,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "1800ML",
+        "Anzahl der Ebenen": "3 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455901",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:40.059982+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 64.99,
+      "provisional_model_net_eur": 25.69
+    },
+    {
+      "sku_id": "12000035928455902",
+      "cost": 41.19,
+      "stock": 3,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "1800ML",
+        "Anzahl der Ebenen": "4 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455902",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:40.601854+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 79.99,
+      "provisional_model_net_eur": 25.66
+    },
+    {
+      "sku_id": "12000035928455903",
+      "cost": 33.59,
+      "stock": 3,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "1800ML",
+        "Anzahl der Ebenen": "5 Sizes Each 1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455903",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:41.130816+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 70.99,
+      "provisional_model_net_eur": 25.48
+    },
+    {
+      "sku_id": "12000035928455896",
+      "cost": 23.39,
+      "stock": 1,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "1300ML",
+        "Anzahl der Ebenen": "3 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455896",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:41.660651+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 58.99,
+      "provisional_model_net_eur": 25.3
+    },
+    {
+      "sku_id": "12000035928455897",
+      "cost": 32.59,
+      "stock": 1,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "1300ML",
+        "Anzahl der Ebenen": "4 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "AliExpressAPIError"
+    },
+    {
+      "sku_id": "12000035928455898",
+      "cost": 33.59,
+      "stock": 3,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "1300ML",
+        "Anzahl der Ebenen": "5 Sizes Each 1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455898",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 5,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:42.637675+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 70.99,
+      "provisional_model_net_eur": 25.48
+    },
+    {
+      "sku_id": "12000035928455899",
+      "cost": 9.99,
+      "stock": 1,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "1800ML",
+        "Anzahl der Ebenen": "1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455899",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:43.208262+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 37.99,
+      "provisional_model_net_eur": 20.53
+    },
+    {
+      "sku_id": "12000035928455892",
+      "cost": 23.59,
+      "stock": 13,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "950ML",
+        "Anzahl der Ebenen": "4 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455892",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:43.742739+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 58.99,
+      "provisional_model_net_eur": 25.1
+    },
+    {
+      "sku_id": "12000035928455893",
+      "cost": 34.59,
+      "stock": 2,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "950ML",
+        "Anzahl der Ebenen": "5 Sizes Each 1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455893",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:44.279882+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 71.99,
+      "provisional_model_net_eur": 25.34
+    },
+    {
+      "sku_id": "12000035928455894",
+      "cost": 8.29,
+      "stock": 10,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "1300ML",
+        "Anzahl der Ebenen": "1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455894",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 4,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:45.127549+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 35.99,
+      "provisional_model_net_eur": 20.5
+    },
+    {
+      "sku_id": "12000035928455895",
+      "cost": 15.89,
+      "stock": 6,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "1300ML",
+        "Anzahl der Ebenen": "2 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "AliExpressAPIError"
+    },
+    {
+      "sku_id": "12000035928455888",
+      "cost": 34.99,
+      "stock": 22928,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "700ML",
+        "Anzahl der Ebenen": "5 Sizes Each 1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455888",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:46.167959+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 72.99,
+      "provisional_model_net_eur": 25.81
+    },
+    {
+      "sku_id": "12000035928455889",
+      "cost": 7.49,
+      "stock": 6,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "950ML",
+        "Anzahl der Ebenen": "1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455889",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 4,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:46.742956+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 28.99,
+      "provisional_model_net_eur": 15.25
+    },
+    {
+      "sku_id": "12000035928455890",
+      "cost": 11.49,
+      "stock": 4,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "950ML",
+        "Anzahl der Ebenen": "2 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455890",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:47.336081+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 39.99,
+      "provisional_model_net_eur": 20.76
+    },
+    {
+      "sku_id": "12000035928455891",
+      "cost": 15.59,
+      "stock": 2,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "950ML",
+        "Anzahl der Ebenen": "3 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455891",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:47.848026+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 43.99,
+      "provisional_model_net_eur": 20.12
+    },
+    {
+      "sku_id": "12000035928455884",
+      "cost": 6.09,
+      "stock": 4,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "700ML",
+        "Anzahl der Ebenen": "1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455884",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:48.382976+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 27.99,
+      "provisional_model_net_eur": 15.78
+    },
+    {
+      "sku_id": "12000035928455885",
+      "cost": 10.89,
+      "stock": 5,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "700ML",
+        "Anzahl der Ebenen": "2 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455885",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 5,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:48.982198+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 38.99,
+      "provisional_model_net_eur": 20.5
+    },
+    {
+      "sku_id": "12000035928455886",
+      "cost": 15.49,
+      "stock": 3,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "700ML",
+        "Anzahl der Ebenen": "3 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "AliExpressAPIError"
+    },
+    {
+      "sku_id": "12000035928455887",
+      "cost": 20.39,
+      "stock": 6,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "700ML",
+        "Anzahl der Ebenen": "4 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455887",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:50.019071+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 49.99,
+      "provisional_model_net_eur": 20.51
+    },
+    {
+      "sku_id": "12000035928455880",
+      "cost": 9.49,
+      "stock": 3,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "460ML",
+        "Anzahl der Ebenen": "2 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "AliExpressAPIError"
+    },
+    {
+      "sku_id": "12000035928455881",
+      "cost": 12.99,
+      "stock": 17,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "460ML",
+        "Anzahl der Ebenen": "3 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "AliExpressAPIError"
+    },
+    {
+      "sku_id": "12000035928455882",
+      "cost": 17.39,
+      "stock": 4,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "460ML",
+        "Anzahl der Ebenen": "4 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455882",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:51.649830+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 45.99,
+      "provisional_model_net_eur": 20.05
+    },
+    {
+      "sku_id": "12000035928455883",
+      "cost": 34.59,
+      "stock": 7,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "460ML",
+        "Anzahl der Ebenen": "5 Sizes Each 1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455883",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:52.208245+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 71.99,
+      "provisional_model_net_eur": 25.34
+    },
+    {
+      "sku_id": "12000035928455879",
+      "cost": 6.09,
+      "stock": 13,
+      "aspects": {
+        "Farbe": "Schwarz Cover",
+        "Größe": "460ML",
+        "Anzahl der Ebenen": "1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S041fec982f9143de8845cea6586cb939T.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455879",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:52.732453+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 27.99,
+      "provisional_model_net_eur": 15.78
+    },
+    {
+      "sku_id": "12000035928455928",
+      "cost": 36.99,
+      "stock": 997,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "1800ML",
+        "Anzahl der Ebenen": "5 Sizes Each 1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455928",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:53.442042+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 74.99,
+      "provisional_model_net_eur": 25.54
+    },
+    {
+      "sku_id": "12000035928455924",
+      "cost": 11.49,
+      "stock": 7,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "1800ML",
+        "Anzahl der Ebenen": "1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455924",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:53.993435+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 39.99,
+      "provisional_model_net_eur": 20.76
+    },
+    {
+      "sku_id": "12000035928455925",
+      "cost": 19.59,
+      "stock": 2,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "1800ML",
+        "Anzahl der Ebenen": "2 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455925",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:54.555260+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 48.99,
+      "provisional_model_net_eur": 20.45
+    },
+    {
+      "sku_id": "12000035928455926",
+      "cost": 28.99,
+      "stock": 11076,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "1800ML",
+        "Anzahl der Ebenen": "3 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455926",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:55.105952+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 65.99,
+      "provisional_model_net_eur": 25.75
+    },
+    {
+      "sku_id": "12000035928455927",
+      "cost": 38.99,
+      "stock": 4,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "1800ML",
+        "Anzahl der Ebenen": "4 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "AliExpressAPIError"
+    },
+    {
+      "sku_id": "12000035928455920",
+      "cost": 16.99,
+      "stock": 6,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "1300ML",
+        "Anzahl der Ebenen": "2 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455920",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:56.113179+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 45.99,
+      "provisional_model_net_eur": 20.45
+    },
+    {
+      "sku_id": "12000035928455921",
+      "cost": 26.19,
+      "stock": 0,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "1300ML",
+        "Anzahl der Ebenen": "3 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "not_currently_in_stock"
+    },
+    {
+      "sku_id": "12000035928455922",
+      "cost": 35.59,
+      "stock": 9990,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "1300ML",
+        "Anzahl der Ebenen": "4 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455922",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:56.677744+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 72.99,
+      "provisional_model_net_eur": 25.21
+    },
+    {
+      "sku_id": "12000035928455923",
+      "cost": 36.19,
+      "stock": 20087,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "1300ML",
+        "Anzahl der Ebenen": "5 Sizes Each 1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455923",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:57.205185+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 73.99,
+      "provisional_model_net_eur": 25.47
+    },
+    {
+      "sku_id": "12000035928455916",
+      "cost": 17.89,
+      "stock": 22894,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "950ML",
+        "Anzahl der Ebenen": "3 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455916",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:57.795664+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 46.99,
+      "provisional_model_net_eur": 20.42
+    },
+    {
+      "sku_id": "12000035928455917",
+      "cost": 22.59,
+      "stock": 22823,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "950ML",
+        "Anzahl der Ebenen": "4 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455917",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:58.465812+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 51.99,
+      "provisional_model_net_eur": 20.04
+    },
+    {
+      "sku_id": "12000035928455918",
+      "cost": 34.59,
+      "stock": 11192,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "950ML",
+        "Anzahl der Ebenen": "5 Sizes Each 1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455918",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:57:59.073305+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 71.99,
+      "provisional_model_net_eur": 25.34
+    },
+    {
+      "sku_id": "12000035928455919",
+      "cost": 9.79,
+      "stock": 7,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "1300ML",
+        "Anzahl der Ebenen": "1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455919",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:59.612756+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 37.99,
+      "provisional_model_net_eur": 20.73
+    },
+    {
+      "sku_id": "12000035928455912",
+      "cost": 20.39,
+      "stock": 22883,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "700ML",
+        "Anzahl der Ebenen": "4 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455912",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:58:00.141479+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 49.99,
+      "provisional_model_net_eur": 20.51
+    },
+    {
+      "sku_id": "12000035928455913",
+      "cost": 36.99,
+      "stock": 0,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "700ML",
+        "Anzahl der Ebenen": "5 Sizes Each 1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "not_currently_in_stock"
+    },
+    {
+      "sku_id": "12000035928455914",
+      "cost": 7.29,
+      "stock": 10,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "950ML",
+        "Anzahl der Ebenen": "1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455914",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 4,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:00.816327+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 28.99,
+      "provisional_model_net_eur": 15.45
+    },
+    {
+      "sku_id": "12000035928455915",
+      "cost": 10.99,
+      "stock": 13,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "950ML",
+        "Anzahl der Ebenen": "2 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455915",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:58:01.346867+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 38.99,
+      "provisional_model_net_eur": 20.4
+    },
+    {
+      "sku_id": "12000035928455908",
+      "cost": 33.99,
+      "stock": 3,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "460ML",
+        "Anzahl der Ebenen": "5 Sizes Each 1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455908",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:58:01.882328+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 70.99,
+      "provisional_model_net_eur": 25.08
+    },
+    {
+      "sku_id": "12000035928455909",
+      "cost": 6.69,
+      "stock": 12,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "700ML",
+        "Anzahl der Ebenen": "1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455909",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:02.477821+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 27.99,
+      "provisional_model_net_eur": 15.18
+    },
+    {
+      "sku_id": "12000035928455910",
+      "cost": 11.19,
+      "stock": 4,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "700ML",
+        "Anzahl der Ebenen": "2 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455910",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:58:03.048239+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 38.99,
+      "provisional_model_net_eur": 20.2
+    },
+    {
+      "sku_id": "12000035928455911",
+      "cost": 15.59,
+      "stock": 2,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "700ML",
+        "Anzahl der Ebenen": "3 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "AliExpressAPIError"
+    },
+    {
+      "sku_id": "12000035928455904",
+      "cost": 4.89,
+      "stock": 41,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "460ML",
+        "Anzahl der Ebenen": "1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455904",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:04.129385+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 25.99,
+      "provisional_model_net_eur": 15.25
+    },
+    {
+      "sku_id": "12000035928455905",
+      "cost": 8.69,
+      "stock": 11063,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "460ML",
+        "Anzahl der Ebenen": "2 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006116459385",
+        "sku_id": "12000035928455905",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:58:04.658359+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 35.99,
+      "provisional_model_net_eur": 20.1
+    },
+    {
+      "sku_id": "12000035928455906",
+      "cost": 13.19,
+      "stock": 3,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "460ML",
+        "Anzahl der Ebenen": "3 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "AliExpressAPIError"
+    },
+    {
+      "sku_id": "12000035928455907",
+      "cost": 18.19,
+      "stock": 6,
+      "aspects": {
+        "Farbe": "Weiß Cover",
+        "Größe": "460ML",
+        "Anzahl der Ebenen": "4 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sd95a861f91764db9b71b57b2443a2c50Z.jpg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "AliExpressAPIError"
+    }
+  ],
+  "category": {
+    "category_id": "20654",
+    "path": "Möbel & Wohnen > Kochen & Genießen > Ordnung & Aufbewahrung > Vorratsgefäße & -gläser",
+    "confidence": 0.25,
+    "needs_review": true,
+    "queries_used": 4,
+    "alternatives": [
+      [
+        "20655",
+        "Möbel & Wohnen > Kochen & Genießen > Ordnung & Aufbewahrung > Plastikaufbewahrungsbehälter",
+        1
+      ],
+      [
+        "46283",
+        "Möbel & Wohnen > Kochen & Genießen > Ordnung & Aufbewahrung > Halter/Ständer & Küchenleisten",
+        1
+      ],
+      [
+        "261044",
+        "Sammeln & Seltenes > Sammelkartenspiele/TCGs > TCG OVP Displays",
+        1
+      ]
+    ],
+    "source": "auto"
+  },
+  "supported_shared_aspects": {
+    "Material": [
+      "Acryl"
+    ]
+  },
+  "human_review_aspect_names": [],
+  "missing_required_aspects": [
+    "Höhe"
+  ],
+  "required_aspects": [
+    {
+      "name": "Höhe",
+      "values": [
+        "11,43 cm (4.5 in)",
+        "14 cm",
+        "16,5 cm",
+        "18 cm",
+        "20,0 cm",
+        "24 cm",
+        "30,0 cm",
+        "14,4 Zoll",
+        "55,0 cm",
+        "70,0 cm",
+        "75,0 cm",
+        "85,0 cm",
+        "90,0 cm",
+        "100 cm"
+      ],
+      "mode": "FREE_TEXT"
+    }
+  ],
+  "optional_unknown_aspects": [
+    "Produktart",
+    "Besonderheiten",
+    "Marke",
+    "Anzahl der Teile",
+    "Farbe",
+    "Form",
+    "Kapazität",
+    "Herstellernummer",
+    "Herstellungsmethode",
+    "Herstellungsstil",
+    "Thema",
+    "Stil",
+    "Ursprungsland",
+    "Gewicht",
+    "Durchmesser",
+    "Tiefe",
+    "Charakter",
+    "Muster",
+    "Holzton",
+    "Charakter Familie",
+    "Abteilung",
+    "Produktlinie",
+    "Personalisieren",
+    "Modell",
+    "Anzahl der Einheiten",
+    "Maßeinheit",
+    "Anleitung für Personalisierung",
+    "Haltbarkeitsgarantie"
+  ],
+  "draft_file": "product_draft.html",
+  "finished_at": "2026-11-17T07:58:08.046532+00:00"
+}

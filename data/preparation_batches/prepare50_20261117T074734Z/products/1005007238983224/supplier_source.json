@@ -1,0 +1,314 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:366#4PCS-Black",
+        "offer_sale_price": "2.69",
+        "sku_id": "12000039915308962",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "5.85",
+        "offer_bulk_sale_price": "2.69",
+        "sku_available_stock": 52,
+        "id": "14:366#4PCS-Black",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Gelb",
+              "sku_image": "https://ae01.alicdn.com/kf/Se97fb554d24349f299af75936c212df0e.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "4PCS-Black",
+              "property_value_id": 366,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:29#2PCS-Black",
+        "offer_sale_price": "2.29",
+        "sku_id": "12000039915308963",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "4.98",
+        "offer_bulk_sale_price": "2.29",
+        "sku_available_stock": 24,
+        "id": "14:29#2PCS-Black",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "WEISS",
+              "sku_image": "https://ae01.alicdn.com/kf/Sea2704368a1b40e19997f6d85b6fd6164.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "2PCS-Black",
+              "property_value_id": 29,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:350852#8PCS-Black",
+        "offer_sale_price": "4.59",
+        "sku_id": "12000039915308961",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "9.77",
+        "offer_bulk_sale_price": "4.59",
+        "sku_available_stock": 7,
+        "id": "14:350852#8PCS-Black",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Orange",
+              "sku_image": "https://ae01.alicdn.com/kf/S4cd8f91566f8433cb8c255af2bc1dba9T.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "8PCS-Black",
+              "property_value_id": 350852,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:201441571#4PCS-White",
+        "offer_sale_price": "2.75",
+        "sku_id": "12000039915308966",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "5.98",
+        "offer_bulk_sale_price": "2.75",
+        "sku_available_stock": 42,
+        "id": "14:201441571#4PCS-White",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Saphir",
+              "sku_image": "https://ae01.alicdn.com/kf/S1e395f12d08e48d7b59335f052b29838z.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "4PCS-White",
+              "property_value_id": 201441571,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:201441570#2PCS-White",
+        "offer_sale_price": "2.19",
+        "sku_id": "12000039915308967",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "4.76",
+        "offer_bulk_sale_price": "2.19",
+        "sku_available_stock": 20,
+        "id": "14:201441570#2PCS-White",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Himmelblau",
+              "sku_image": "https://ae01.alicdn.com/kf/Sfade0da10d1d42b5bab1fe1f713dca45x.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "2PCS-White",
+              "property_value_id": 201441570,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:193#1PCS-Black",
+        "offer_sale_price": "1.89",
+        "sku_id": "12000039915308964",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "4.12",
+        "offer_bulk_sale_price": "1.89",
+        "sku_available_stock": 35,
+        "id": "14:193#1PCS-Black",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "schwarz",
+              "sku_image": "https://ae01.alicdn.com/kf/Sc5ab2f7d2a3144288b5b5af7440ce24dP.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "1PCS-Black",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:1052#8PCS-White",
+        "offer_sale_price": "4.39",
+        "sku_id": "12000039915308965",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "9.34",
+        "offer_bulk_sale_price": "4.39",
+        "sku_available_stock": 4,
+        "id": "14:1052#8PCS-White",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Rosa",
+              "sku_image": "https://ae01.alicdn.com/kf/S985c179524ee4727975f5ca2a89aa366x.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "8PCS-White",
+              "property_value_id": 1052,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:175#1PCS-White",
+        "offer_sale_price": "1.89",
+        "sku_id": "12000039915308968",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "4.11",
+        "offer_bulk_sale_price": "1.89",
+        "sku_available_stock": 10077,
+        "id": "14:175#1PCS-White",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Grün",
+              "sku_image": "https://ae01.alicdn.com/kf/Sb149ef8abbc644fab426d0633f2d629f2.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "1PCS-White",
+              "property_value_id": 175,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "ae_video_dtos": {
+      "ae_video_d_t_o": [
+        {
+          "media_status": "approved",
+          "media_type": "video",
+          "poster_url": "https://ae-pic-a1.aliexpress-media.com/kf/S64b9cfbf697f4ef9865a267c5f7cb5acg.jpg",
+          "ali_member_id": 2680080166,
+          "media_id": 5000639414575,
+          "media_url": "https://video.aliexpress-media.com/play/5000639414575.mp4"
+        }
+      ]
+    },
+    "image_urls": "https://ae01.alicdn.com/kf/S9bae4c6fc8cf4246b823a40d426e710d5.jpg;https://ae01.alicdn.com/kf/S11d95712af39487991e2169cf219ba49m.jpg;https://ae01.alicdn.com/kf/S7495b7ae08c7467296ca1e3753501429C.jpg;https://ae01.alicdn.com/kf/S29fc5a2732d54ee5a2cacbda598fe4e5z.jpg;https://ae01.alicdn.com/kf/S6768d5e5aa934a4992ba354ca79d77013.jpg;https://ae01.alicdn.com/kf/S322caa8f2d2542f3b2356777a9fae02ag.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 10,
+    "package_height": 6,
+    "package_length": 15,
+    "gross_weight": "0.055",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005007238983224,
+    "sub_product_id": "{\"US\":3256807052668472}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S11d95712af39487991e2169cf219ba49m.jpg\",\"style\":{},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S7495b7ae08c7467296ca1e3753501429C.jpg?has_lang=1&ver=1\",\"style\":{},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S29fc5a2732d54ee5a2cacbda598fe4e5z.jpg\",\"style\":{},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S6768d5e5aa934a4992ba354ca79d77013.jpg?has_lang=1&ver=1\",\"style\":{},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S322caa8f2d2542f3b2356777a9fae02ag.jpg?has_lang=1&ver=1\",\"style\":{},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S1a2b8dffa1dc41d7b698e4573de964e4E.jpg\",\"style\":{},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S88840ad9568c4b0e9147757bb9c4cac9P.jpg\",\"style\":{},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S70857b15c2d04255bc4ec13aa6e4ef91h.jpg?has_lang=1&ver=1\",\"style\":{},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sba238d8dfe5945c2af3153bdcefe660bw.jpg?has_lang=1&ver=1\",\"style\":{},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sefe7e0008bb64b669b33105a978d2904Y.jpg\",\"style\":{},\"targetUrl\":\"\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S05d84731270343c2b0e7f531cf67b71fP.jpg\",\"style\":{},\"targetUrl\":\"\"}}]}",
+    "subject": "1-4 stücke Wand Montiert Lagerung Box Multifunktions Schlag Kostenloser Organizer TV Fernbedienung DIY Handy Stecker Lade Halter stehen",
+    "evaluation_count": "7361",
+    "sales_count": "5000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.3",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 5093004,
+    "product_id": 1005007238983224,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div>\n <p><img style=\"width:800px\" width=\"800px\" src=\"https://ae01.alicdn.com/kf/S11d95712af39487991e2169cf219ba49m.jpg\" slate-data-type=\"image\" /></p>\n <p><img style=\"width:1000px\" width=\"1000px\" src=\"https://ae01.alicdn.com/kf/S7495b7ae08c7467296ca1e3753501429C.jpg\" slate-data-type=\"image\" /></p>\n <p><img style=\"width:1000px\" width=\"1000px\" src=\"https://ae01.alicdn.com/kf/S29fc5a2732d54ee5a2cacbda598fe4e5z.jpg\" slate-data-type=\"image\" /></p>\n <p><img style=\"width:800px\" width=\"800px\" src=\"https://ae01.alicdn.com/kf/S6768d5e5aa934a4992ba354ca79d77013.jpg\" slate-data-type=\"image\" /></p>\n <p><img style=\"width:1000px\" width=\"1000px\" src=\"https://ae01.alicdn.com/kf/S322caa8f2d2542f3b2356777a9fae02ag.jpg\" slate-data-type=\"image\" /></p>\n <p><img style=\"width:800px\" width=\"800px\" src=\"https://ae01.alicdn.com/kf/S1a2b8dffa1dc41d7b698e4573de964e4E.jpg\" slate-data-type=\"image\" /></p>\n <p><img style=\"width:800px\" width=\"800px\" src=\"https://ae01.alicdn.com/kf/S88840ad9568c4b0e9147757bb9c4cac9P.jpg\" slate-data-type=\"image\" /></p>\n <p><img style=\"width:800px\" width=\"800px\" src=\"https://ae01.alicdn.com/kf/S70857b15c2d04255bc4ec13aa6e4ef91h.jpg\" slate-data-type=\"image\" /></p>\n <p><img style=\"width:1000px\" width=\"1000px\" src=\"https://ae01.alicdn.com/kf/Sba238d8dfe5945c2af3153bdcefe660bw.jpg\" slate-data-type=\"image\" /></p>\n <p><img style=\"width:640px\" width=\"640px\" src=\"https://ae01.alicdn.com/kf/Sefe7e0008bb64b669b33105a978d2904Y.jpg\" slate-data-type=\"image\" /></p>\n <p><img style=\"width:640px\" width=\"640px\" src=\"https://ae01.alicdn.com/kf/S05d84731270343c2b0e7f531cf67b71fP.jpg\" slate-data-type=\"image\" /></p>\n</div><p><br /></p></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "506, 5th Floor, Getailong, Ma'antang Community, Bantian Street, Longgang District, Shenzhen City, Guangdong Province, China 518000",
+    "phone": "18588419495",
+    "country_name": "China",
+    "email": "ret22319@163.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 10,
+        "attr_value_id": 365210,
+        "attr_name": "Material",
+        "attr_value": "andere"
+      },
+      {
+        "attr_name_id": 100002145,
+        "attr_value_id": 8260805481,
+        "attr_name": "Eigenschaften",
+        "attr_value": "Keine Funktionen"
+      },
+      {
+        "attr_name_id": 1248,
+        "attr_value_id": 349906,
+        "attr_name": "Ladegerät",
+        "attr_value": "Nein"
+      },
+      {
+        "attr_name_id": 351,
+        "attr_value_id": 462082825,
+        "attr_name": "Typ",
+        "attr_value": "Wandhalter"
+      },
+      {
+        "attr_name_id": 981,
+        "attr_value_id": 350452,
+        "attr_name": "Kompatible Marke",
+        "attr_value": "Universell"
+      },
+      {
+        "attr_name_id": 200000723,
+        "attr_value_id": 200003683,
+        "attr_name": "Hat Lautsprecher",
+        "attr_value": "Nein"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1103632434,
+    "shipping_speed_rating": "4.6",
+    "communication_rating": "4.5",
+    "store_name": "SEamopar 3C Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.4"
+  }
+}

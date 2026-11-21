@@ -1,0 +1,79 @@
+{
+  "dimensions": {
+    "found": true,
+    "length_cm": 26.5,
+    "width_cm": 27.5,
+    "height_cm": 3,
+    "text": "26.5cm × 25/30cm × 3cm",
+    "confidence": 100,
+    "source": "Image 1 - Bottom technical diagrams",
+    "note": "CORRECTED: Height is 3cm (NOT 13cm - user correction)"
+  },
+  "material": {
+    "value": "Metall (beschichteter Stahl)",
+    "confidence": 95,
+    "source": "Images 2-6 consensus"
+  },
+  "color": {
+    "value": "Schwarz",
+    "confidence": 98,
+    "source": "Images 2-6 consensus"
+  },
+  "capacity": {
+    "value": "6-8 Haken",
+    "confidence": 95,
+    "source": "Image 4"
+  },
+  "features": [
+    {
+      "value": "Verstellbare Montage-Clips",
+      "confidence": 98,
+      "source": "Image 4"
+    },
+    {
+      "value": "Ausziehbar 25-30cm",
+      "confidence": 100,
+      "source": "Image 1 dimensions"
+    },
+    {
+      "value": "Unter-Schrank-Montage",
+      "confidence": 98,
+      "source": "Images 3-6"
+    },
+    {
+      "value": "Clip & Go - Werkzeuglose Montage",
+      "confidence": 100,
+      "source": "Image 3"
+    },
+    {
+      "value": "Papiertuch-Halter",
+      "confidence": 95,
+      "source": "Images 2-3"
+    },
+    {
+      "value": "Schneidebrett-Aufhängung",
+      "confidence": 95,
+      "source": "Images 3,5,6"
+    },
+    {
+      "value": "Utensilien-Haken",
+      "confidence": 95,
+      "source": "Images 2-6"
+    },
+    {
+      "value": "Mehrfach-Ebenen (2-3 Regale)",
+      "confidence": 92,
+      "source": "Images 4-6"
+    },
+    {
+      "value": "Für kleine Küchen",
+      "confidence": 100,
+      "source": "Image 3"
+    },
+    {
+      "value": "Platzsparend",
+      "confidence": 95,
+      "source": "Images 3-6"
+    }
+  ]
+}

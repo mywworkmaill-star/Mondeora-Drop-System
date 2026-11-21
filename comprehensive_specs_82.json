@@ -1,0 +1,61 @@
+{
+  "dimensions": {
+    "found": true,
+    "length_cm": 37.2,
+    "width_cm": 13.8,
+    "height_cm": 6,
+    "depth_cm": null,
+    "diameter_cm": null,
+    "text": "Product image: 37.2cm length, 13.8cm width, 6cm height (under-seat car storage box)",
+    "confidence": 98
+  },
+  "weight": {
+    "found": false,
+    "product_weight_g": null,
+    "package_weight_g": null,
+    "text": "",
+    "confidence": 0
+  },
+  "material": {
+    "primary": "Kunststoff",
+    "composition": [],
+    "confidence": 70,
+    "source": "title fallback"
+  },
+  "color": {
+    "found": true,
+    "main": "Schwarz",
+    "options": [],
+    "confidence": 96,
+    "source": "vision (clearly black in all product images)"
+  },
+  "capacity": {
+    "found": false,
+    "volume_liter": null,
+    "item_count": null,
+    "load_capacity_kg": null,
+    "text": "",
+    "confidence": 0
+  },
+  "features": [],
+  "brand": {
+    "name": "No-Name",
+    "confidence": 80
+  },
+  "model": {
+    "number": "",
+    "confidence": 0
+  },
+  "certifications": [],
+  "technical": {
+    "temperature_min_c": null,
+    "temperature_max_c": null,
+    "power_watt": null,
+    "voltage": null
+  },
+  "assembly": {
+    "required": "Unknown",
+    "tools_needed": "Unknown",
+    "time_minutes": null
+  }
+}

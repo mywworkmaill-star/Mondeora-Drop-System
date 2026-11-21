@@ -1,0 +1,68 @@
+{
+  "dimensions": {
+    "found": false,
+    "length_cm": null,
+    "width_cm": null,
+    "height_cm": null,
+    "depth_cm": null,
+    "diameter_cm": null,
+    "text": "Gorsel 2 (Sd51f53adcbc34c8bbbf376960eecd0c6e.jpg) olcu overlay'i iceriyor ANCAK iki FARKLI kanca tasarimi icin CELISKILI olculer gosteriyor: Tip A (duz S/J-kanca, tek kanca, SOL tarafta) = Yukseklik 7.5cm/2.95in, Genislik 7cm/2.76in, Kalinlik 2cm/0.79in (uc olcu de mevcut). Tip B (catalli/ikili Y-kanca, SAG tarafta) = Yukseklik 13cm/5.12in, Genislik 7cm/2.76in (sadece 2 olcu, 3. boyut/derinlik gosterilmemis). Diger urun gorsellerinde (idx4 ve idx5) her iki tasarim da ayri '2PCS' setleri olarak ayri ayri gosteriliyor - bu yuzden gercek satilan urunde hangi tasarimin (A mi B mi) geldigi gorsellerden kesin belirlenemiyor. Tek ve guvenilir bir L/W/H seti cikarilamadigindan found=false birakildi; tahmine dayali secim yapilmadi.",
+    "confidence": 60
+  },
+  "weight": {
+    "found": false,
+    "product_weight_g": null,
+    "package_weight_g": null,
+    "text": "",
+    "confidence": 0
+  },
+  "material": {
+    "primary": "Kunststoff (Hartplastik, mattschwarz)",
+    "composition": ["Kunststoff/ABS (vermutlich)"],
+    "confidence": 95,
+    "source": "vision"
+  },
+  "color": {
+    "found": true,
+    "main": "Schwarz",
+    "options": ["Schwarz"],
+    "confidence": 98,
+    "source": "vision"
+  },
+  "capacity": {
+    "found": true,
+    "volume_liter": null,
+    "item_count": 2,
+    "load_capacity_kg": null,
+    "text": "Titel '2 Stück' und Produktbild-Aufdruck '2PCS' bestätigen 2er-Set.",
+    "confidence": 90
+  },
+  "features": [
+    "2 Stück im Set (lt. Titel und '2PCS'-Bildaufdruck)",
+    "Universeller Kofferraum-/Rücksitz-Haken für Limousinen",
+    "Montage am Top-Tether-Verankerungspunkt im Kofferraum sichtbar",
+    "Hält Regenschirm/Taschen im Kofferraum fest",
+    "Clip-/Einhängemontage, keine Werkzeuge nötig",
+    "Zwei unterschiedliche Hakenformen im Bildmaterial sichtbar (einfacher S-Haken und gegabelter Doppelhaken) – Design der gelieferten Variante nicht eindeutig"
+  ],
+  "brand": {
+    "name": "No-Name",
+    "confidence": 80
+  },
+  "model": {
+    "number": "",
+    "confidence": 0
+  },
+  "certifications": [],
+  "technical": {
+    "temperature_min_c": null,
+    "temperature_max_c": null,
+    "power_watt": null,
+    "voltage": null
+  },
+  "assembly": {
+    "required": "Nein",
+    "tools_needed": "Keine",
+    "time_minutes": null
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "requested": 50,
+  "unique_product_ids": 50,
+  "live_supplier_source_records": 50,
+  "technical_drafts_saved": 50,
+  "source_sku_records": 280,
+  "current_shipping_quotes": 239,
+  "full_pipeline_content_packages": 3,
+  "fully_ready": 0,
+  "shortfall": 50,
+  "published_by_this_batch": 0,
+  "main_images_saved": 46,
+  "identical_main_image_groups": [],
+  "missing_required_aspects": {
+    "Breite": 16,
+    "Höhe": 17,
+    "Länge": 16,
+    "Produktart": 22,
+    "Marke": 19,
+    "Hersteller": 4,
+    "Herstellernummer": 1,
+    "Markenkompatibilität": 2,
+    "Modellkompatibilität": 3,
+    "Farbe": 2
+  },
+  "category_review_required": 10,
+  "quote_errors": {
+    "AliExpressAPIError": 35,
+    "not_currently_in_stock": 6
+  },
+  "content_gate_counts": {
+    "content_gate_failed:ValueError:variant_review": 10,
+    "content_gate_failed:ValueError:category_aspects_incomplete": 19,
+    "content_gate_failed:ValueError:gate_block": 1,
+    "freight_unavailable:AliExpressAPIError": 4,
+    "content_gate_failed:ValueError:category_unapproved": 8,
+    "content_gate_failed:ValueError:gate_review": 5
+  },
+  "canonical_records_blocked": 50,
+  "locally_unpublished_products": 50,
+  "remote_commerce_writes_performed": false,
+  "verified_at": "2026-11-17T08:02:50.510280+00:00"
+}

@@ -1,0 +1,135 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:200006156#Black",
+        "offer_sale_price": "5.39",
+        "sku_id": "12000044498636058",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "15.68",
+        "offer_bulk_sale_price": "5.39",
+        "sku_available_stock": 3,
+        "id": "14:200006156#Black",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Pflaume",
+              "sku_image": "https://ae01.alicdn.com/kf/S8aeb3d3361b1410c966fea9bb23b02a0W.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Black",
+              "property_value_id": 200006156,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "image_urls": "https://ae01.alicdn.com/kf/S71ac813667034114946298daea68a8c9v.jpg;https://ae01.alicdn.com/kf/Sed0a0fbc11094ab7bff4fd5d821757e3m.jpg;https://ae01.alicdn.com/kf/S14df6c3b66fe49579553def02fcffd47I.jpg;https://ae01.alicdn.com/kf/Sae626c632bfa490e96f18e76d887f639D.jpg;https://ae01.alicdn.com/kf/S7efbe468d151484fa271acd446aa9f998.jpg;https://ae01.alicdn.com/kf/S4f135f602e58466bb4045f6ad9b7c08fV.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 28,
+    "package_height": 11,
+    "package_length": 29,
+    "gross_weight": "0.907",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005008290283020,
+    "sub_product_id": "{\"US\":3256808103968268}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sd2aad40e5af144d288f982a20d1c7713g.jpg?has_lang=1&ver=1\",\"style\":{\"width\":790,\"height\":723}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S778dcb86c2db4b288dbaabdabe52edefm.jpg?has_lang=1&ver=1\",\"style\":{\"width\":970,\"height\":600}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S9897890e1b7444349d2d0d04f3794759j.jpg\",\"style\":{\"width\":300,\"height\":300}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S1a527b0013944f4c95aac86d88931c34U.jpg\",\"style\":{\"width\":300,\"height\":300}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S11f5a69aa3b6491bb9d7a35ede30960aU.jpg\",\"style\":{\"width\":970,\"height\":300}}}]}",
+    "subject": "Schreibtisch-Organizer aus Netzstoff für Bürobedarf, Caddy mit Stifthalter und Aufbewahrungskörben für Schreibtischzubehör, 3 Fächer, Schwarz",
+    "evaluation_count": "1735",
+    "sales_count": "4000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.6",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 211114,
+    "product_id": 1005008290283020,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p><img src=\"https://ae01.alicdn.com/kf/Sd2aad40e5af144d288f982a20d1c7713g.jpg\" slate-data-type=\"image\"/><img src=\"https://ae01.alicdn.com/kf/S778dcb86c2db4b288dbaabdabe52edefm.jpg\" slate-data-type=\"image\"/><img src=\"https://ae01.alicdn.com/kf/S9897890e1b7444349d2d0d04f3794759j.jpg\" slate-data-type=\"image\"/><img src=\"https://ae01.alicdn.com/kf/S1a527b0013944f4c95aac86d88931c34U.jpg\" slate-data-type=\"image\"/><img src=\"https://ae01.alicdn.com/kf/S11f5a69aa3b6491bb9d7a35ede30960aU.jpg\" slate-data-type=\"image\"/></p></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "4 / F, No. 2, Hongye Road, Xishan Village, Xixi Town, Yongkang City, Jinhua City, Zhejiang Province (independent declaration)",
+    "phone": "15792010623",
+    "country_name": "China",
+    "email": "805033106@qq.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 21029403108,
+        "attr_name": "Markenname",
+        "attr_value": "NoEnName_Null"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 326,
+        "attr_value_id": 365311,
+        "attr_name": "Art",
+        "attr_value": "Andere"
+      },
+      {
+        "attr_name_id": 100002186,
+        "attr_value_id": 200008438,
+        "attr_name": "Neuheit",
+        "attr_value": "Fantastisch"
+      },
+      {
+        "attr_name_id": 10,
+        "attr_value_id": 398,
+        "attr_name": "Material",
+        "attr_value": "Metall"
+      },
+      {
+        "attr_name_id": 6,
+        "attr_value_id": 100007326,
+        "attr_name": "Typ",
+        "attr_value": "Stift Halter"
+      },
+      {
+        "attr_name_id": 324,
+        "attr_value_id": 365311,
+        "attr_name": "Form",
+        "attr_value": "Andere"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1103337172,
+    "shipping_speed_rating": "4.6",
+    "communication_rating": "4.6",
+    "store_name": "Cosy Abode Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.5"
+  }
+}

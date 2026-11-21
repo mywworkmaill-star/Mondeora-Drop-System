@@ -1,0 +1,71 @@
+{
+  "dimensions": {
+    "found": true,
+    "length_cm": 7.5,
+    "width_cm": 7.5,
+    "height_cm": 10.5,
+    "depth_cm": null,
+    "diameter_cm": null,
+    "text": "Produktbild zeigt Massangaben direkt auf dem Foto: vertikale Linie an der Hoehe beschriftet mit '10.5cm/4.13in', diagonale Linie an der quadratischen Basis beschriftet mit '7.5cm/2.95in'. Da die Grundflaeche quadratisch ist, gilt length=width=7.5cm.",
+    "confidence": 95
+  },
+  "weight": {
+    "found": false,
+    "product_weight_g": null,
+    "package_weight_g": null,
+    "text": "",
+    "confidence": 0
+  },
+  "material": {
+    "primary": "Acryl/transparenter Kunststoff",
+    "composition": [
+      "Acryl (geflochtene/Waben-Optik, PET/PS-Gewebe-Design)"
+    ],
+    "confidence": 80,
+    "source": "vision + Titel ('transparenter Acryl-Schreibtisch-Organizer')"
+  },
+  "color": {
+    "found": true,
+    "main": "Transparent/Klar",
+    "options": [
+      "Transparent/Klar",
+      "Schwarz/Rauchgrau"
+    ],
+    "confidence": 85,
+    "source": "vision - beide Farbvarianten nebeneinander in mehreren Produktbildern sichtbar"
+  },
+  "capacity": {
+    "found": false,
+    "volume_liter": null,
+    "item_count": null,
+    "load_capacity_kg": null,
+    "text": "",
+    "confidence": 0
+  },
+  "features": [
+    "Rosa Schleifenakzent",
+    "Quadratische Geflecht-/Waben-Optik",
+    "Stifthalter/Schreibtisch-Organizer",
+    "Zwei Farboptionen (transparent & schwarz)"
+  ],
+  "brand": {
+    "name": "No-Name",
+    "confidence": 80
+  },
+  "model": {
+    "number": "",
+    "confidence": 0
+  },
+  "certifications": [],
+  "technical": {
+    "temperature_min_c": null,
+    "temperature_max_c": null,
+    "power_watt": null,
+    "voltage": null
+  },
+  "assembly": {
+    "required": "Unknown",
+    "tools_needed": "Unknown",
+    "time_minutes": null
+  }
+}

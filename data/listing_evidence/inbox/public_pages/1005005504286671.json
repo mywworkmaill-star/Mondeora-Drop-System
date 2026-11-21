@@ -1,0 +1,46 @@
+{
+  "product_id": "1005005504286671",
+  "evidence_level": "public_supplier_claim_not_independent_approval",
+  "url": "https://fr.aliexpress.com/item/1005005504286671.html?gatewayAdapt=glo2fra",
+  "title": "🐴 Sac de rangement pour vêtements de grande capacité, évalué avec poignée renforcée, adapté aux couvertures, literie pliable avec fermeture éclair robuste - AliExpress 1524",
+  "compliance_panel": "Informations sur la conformité des articles\n\nInformations du fabricant\nNom : Yiwu Lulu Handicraft Co., Ltd.\nAdresse : 3/F, No.1 Weiya Road, Shangxi Town, Yiwu City, Jinhua City, Zhejiang Province\nEmail : 946839087@qq.com\nTéléphone : 15057908325\n\n\n\nInformations de la personne responsable en UE\nNom : SUCCESSCOURIERSL\nAdresse : CALLERIOTORMESNUM. 1,PLANTA 1,DERECHA,OFICINA 3,Fuenlabrada,Madrid,28947Spain\nEmail : successservice2@hotmail.com\nTéléphone : 910602659\n\n\n\nIdentifiant de l'article\nL'identifiant de l'article est un élément d'information utilisé pour identifier un article (tel que le type, le numéro de lot ou de série, le code EAN ou toute autre information permettant d'identifier l'article).\n12000033338068289-3072000374048438-774829750",
+  "documents": [
+    {
+      "label": "Mode d'emploi\nVoir",
+      "url": "https://ae-pic-a1.aliexpress-media.com/kf/Saff63736ec864d2da1c30824f787b6a5z.pdf"
+    }
+  ],
+  "stores": [
+    {
+      "name": "Vendu par\nShop1103807091 Store\n(Commerçant)",
+      "url": "https://fr.aliexpress.com/store/1103807091"
+    },
+    {
+      "name": "Shop1103807091 Store",
+      "url": "https://fr.aliexpress.com/store/1103807091"
+    }
+  ],
+  "manufacturer_claim": {
+    "name": "Yiwu Lulu Handicraft Co., Ltd.",
+    "address": "3/F, No.1 Weiya Road, Shangxi Town, Yiwu City, Jinhua City, Zhejiang Province",
+    "email": "946839087@qq.com",
+    "phone": "15057908325"
+  },
+  "eu_responsible_person_claim": {
+    "name": "SUCCESSCOURIERSL",
+    "address": "CALLERIOTORMESNUM. 1,PLANTA 1,DERECHA,OFICINA 3,Fuenlabrada,Madrid,28947Spain",
+    "email": "successservice2@hotmail.com",
+    "phone": "910602659"
+  },
+  "observed_at": "2026-11-14T13:35:55.451557+00:00",
+  "independently_verified": false,
+  "saved_documents": [
+    {
+      "source_url": "https://ae-pic-a1.aliexpress-media.com/kf/Saff63736ec864d2da1c30824f787b6a5z.pdf",
+      "path": "data\\listing_evidence\\inbox\\public_pages\\1005005504286671-1.pdf",
+      "sha256": "2b03e0dd151b0615c9932273675a113df1ce0bc4c5ecb5e81532def698b7b671",
+      "bytes": 251541,
+      "document_role": "supplier_published_document_not_certificate_approval"
+    }
+  ]
+}

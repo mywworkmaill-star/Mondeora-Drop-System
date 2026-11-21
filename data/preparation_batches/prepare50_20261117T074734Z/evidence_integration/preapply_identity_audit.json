@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-11-17T08:56:47.669272+00:00",
+  "external_inventory_records": 235,
+  "distinct_inventory_skus": 235,
+  "selected_product_inventory_matches": [],
+  "selected_product_published_offers": [],
+  "lookup_errors": [],
+  "variant_collision_checks": [
+    {
+      "product_id": "1005007584828356",
+      "source_skus": 12,
+      "multiple_human_override_collision": false,
+      "all_sku_ids_preserved": true
+    },
+    {
+      "product_id": "1005011848504195",
+      "source_skus": 2,
+      "multiple_human_override_collision": false,
+      "all_sku_ids_preserved": true
+    },
+    {
+      "product_id": "1005011904255432",
+      "source_skus": 2,
+      "multiple_human_override_collision": false,
+      "all_sku_ids_preserved": true
+    },
+    {
+      "product_id": "1005007203879191",
+      "source_skus": 13,
+      "multiple_human_override_collision": false,
+      "all_sku_ids_preserved": true
+    }
+  ],
+  "local_preparation_mutations_only": true,
+  "external_mutations_performed": false
+}

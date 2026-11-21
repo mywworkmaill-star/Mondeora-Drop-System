@@ -40,7 +40,7 @@ def _checked(call):
 
 
 def _enforce_readiness():
-    """Same rule as main.py: live writes only when the readiness report says ready_for_live."""
+    """Same rule as main.py: live writes only when the readiness report says ready_for_live OR ready_for_supervised_trial."""
     from src.runtime import read_config, writes_allowed, enable_read_only
     if not writes_allowed(read_config()):
         return 'read_only'
@@ -48,10 +48,46 @@ def _enforce_readiness():
         report = json.loads((ROOT / 'data/readiness_report.json').read_text(encoding='utf-8'))
         if report.get('ready_for_live'):
             return 'live'
+        if report.get('ready_for_supervised_trial'):
+            return 'supervised_trial'
     except (OSError, ValueError):
         pass
     enable_read_only()
     return 'read_only (readiness gate not passed)'
+
+
+_READINESS_REFRESH_JOBS = {'listing_prepare', 'product_sync', 'listing_pipeline',
+                           'publish_ready', 'new_variation_listing'}
+
+
+def _refresh_listing_readiness(name):
+    """Refresh stale/malformed evidence with GET-only checks, never auto-approve blockers."""
+    if name not in _READINESS_REFRESH_JOBS:
+        return
+    from src.readiness import build_report, save_report
+    from src.listing_quality.ready_plan import readiness_blockers
+    invalid = {'readiness_report_missing', 'readiness_report_stale', 'readiness_report_from_future',
+               'readiness_report_timestamp_invalid', 'readiness_checks_invalid', 'readiness_checks_missing'}
+
+    def read_cached():
+        try:
+            return json.loads((ROOT / 'data/readiness_report.json').read_text(encoding='utf-8'))
+        except (OSError, ValueError):
+            return None
+
+    def needs_refresh(report):
+        return (not isinstance(report, dict) or report.get('live_api_checks_performed') is not True
+                or bool(invalid.intersection(readiness_blockers(report))))
+
+    if not needs_refresh(read_cached()):
+        return
+    with JobLock('readiness_refresh'):
+        # Another listing alias may have refreshed while this process waited.
+        if needs_refresh(read_cached()):
+            report = build_report(live=True)
+            if needs_refresh(report):
+                raise ValueError('Invalid refreshed readiness report')
+            save_report(report)
 
 
 def job_token_refresh():
@@ -167,6 +203,36 @@ def job_listing_buffer_status():
     return ready_workflow.buffer_status()
 
 
+def job_listing_standards():
+    """Bounded GET-only catalog audit, coverage report and persistent review queue."""
+    from src.api.ebay_client import eBayAPIClient
+    from src.listing_quality.standards import run_cycle
+    settings = json.loads((ROOT / 'config/listing_standards.json').read_text(encoding='utf-8'))
+    max_items = int(settings['max_items_per_run'])
+    max_seconds = float(settings['max_seconds_per_run'])
+    if not 1 <= max_items <= 30 or not 1 <= max_seconds <= 90:
+        raise ValueError('Invalid listing standards audit budget')
+    return run_cycle(eBayAPIClient(), ROOT, max_items=max_items, max_seconds=max_seconds)
+
+
+def job_listing_standards_resolve():
+    """Bounded real-evidence resolver over the review queue: additive aspect PUTs
+    (never overwrite/remove an existing value) and local category_overrides.json
+    confirmation only (never an eBay category write). Safe dry run by default --
+    remote_mutations only turns on when config explicitly opts in."""
+    from src.api.aliexpress_client import AliExpressAPIClient
+    from src.api.ebay_client import eBayAPIClient
+    from src.listing_quality.standards_resolve import resolve_cycle
+    settings = json.loads((ROOT / 'config/listing_standards.json').read_text(encoding='utf-8'))
+    max_items = int(settings['max_items_per_run'])
+    max_seconds = float(settings['max_seconds_per_run'])
+    if not 1 <= max_items <= 30 or not 1 <= max_seconds <= 90:
+        raise ValueError('Invalid listing standards resolve budget')
+    remote_mutations = bool(settings.get('resolve_remote_mutations', False))
+    return resolve_cycle(eBayAPIClient(), AliExpressAPIClient(), ROOT, max_items=max_items,
+                         max_seconds=max_seconds, remote_mutations=remote_mutations)
+
+
 def _live_only(name):
     from src.runtime import writes_allowed
     if not writes_allowed():
@@ -211,8 +277,8 @@ def job_social_media():
     blocked = _live_only('social_media')
     if blocked:
         return blocked
-    from auto_social_media import AutoSocialMedia
-    return {'status': 'ok', 'result': AutoSocialMedia().run_automation()}
+    from auto_social_media import SocialMediaAutoPoster
+    return {'status': 'ok', 'result': SocialMediaAutoPoster().run_automation()}
 
 
 def job_db_backup(keep=14):
@@ -464,6 +530,149 @@ def job_listing_health():
             'by_code': out['by_code'], 'report': str(path)}
 
 
+def job_listing_integrity_check():
+    """Read-only ground-truth audit of EVERY real eBay listing (paginated directly from eBay -
+    never the DB's is_listed=1 filter, which has been proven to drift/undercount). Never writes
+    to eBay/AliExpress/DB. Catches, per listing:
+
+    1. category_name_leaked_into_aspect: an aspect VALUE (most often Produktart) is literally
+       the display name of a (wrong) eBay category - the exact, confirmed bug pattern from the
+       2026-11 audit (a Grill-Abdeckhauben category assigned to a clothes storage bag, with
+       Produktart="Grill-Abdeckhauben"). Checked against the listing's OWN current category name
+       AND the category's own Produktart picklist (literal category-name strings never belong
+       in a closed Produktart list, so a match there is instant corruption too).
+    2. category_inconsistent_across_group: SKUs in the same variation-group listing point at
+       different categoryIds (seen live after a partial category-change write).
+    3. missing_required_aspect: a currently-required aspect for the live categoryId has no value.
+    4. low_aspect_count: fewer than 10 real aspects (ebay-listing-aspect-enrichment target).
+
+    Report: data/audit/listing_integrity_report.json. Status is 'critical' if any #1/#2 found
+    (these indicate broken/corrupted live data), 'warning' for #3/#4 only, else 'ok'.
+    """
+    import json
+    from datetime import datetime, timezone
+    from collections import defaultdict
+    e = _engine()
+    ebay = e.ebay_client
+
+    skus = []
+    limit, offset = 100, 0
+    while True:
+        resp = ebay._request('GET', '/sell/inventory/v1/inventory_item', params={'limit': limit, 'offset': offset})
+        items = resp.get('inventoryItems', [])
+        skus.extend(i.get('sku') for i in items if i.get('sku'))
+        total = resp.get('total', 0)
+        if not items or offset + limit >= total:
+            break
+        offset += limit
+
+    cat_name_cache, cat_aspects_cache = {}, {}
+
+    def category_name(cid):
+        if cid not in cat_name_cache:
+            try:
+                r = ebay._request('GET', f'/commerce/taxonomy/v1/category_tree/77/get_category_subtree',
+                                   params={'category_id': cid})
+                cat_name_cache[cid] = (r.get('categorySubtreeNode', {}).get('category', {}) or {}).get('categoryName')
+            except Exception:
+                cat_name_cache[cid] = None
+        return cat_name_cache[cid]
+
+    def category_aspect_meta(cid):
+        if cid not in cat_aspects_cache:
+            try:
+                r = ebay._request('GET', '/commerce/taxonomy/v1/category_tree/77/get_item_aspects_for_category',
+                                   params={'category_id': str(cid)})
+                out = []
+                for a in r.get('aspects', []):
+                    c = a['aspectConstraint']
+                    out.append({'name': a['localizedAspectName'], 'required': bool(c.get('aspectRequired')),
+                                'mode': c.get('aspectMode'),
+                                'values': [v['localizedValue'] for v in a.get('aspectValues', [])][:300]})
+                cat_aspects_cache[cid] = out
+            except Exception:
+                cat_aspects_cache[cid] = []
+        return cat_aspects_cache[cid]
+
+    by_listing = defaultdict(list)
+    errors = []
+    for sku in skus:
+        try:
+            item = ebay._request('GET', f'/sell/inventory/v1/inventory_item/{sku}')
+            aspects = (item.get('product') or {}).get('aspects') or {}
+        except Exception as ex:
+            errors.append({'sku': sku, 'stage': 'inventory_item', 'error': f'{type(ex).__name__}: {ex}'[:150]})
+            continue
+        try:
+            offer_resp = ebay._request('GET', '/sell/inventory/v1/offer', params={'sku': sku})
+            offers = offer_resp.get('offers', [])
+        except Exception as ex:
+            errors.append({'sku': sku, 'stage': 'offer', 'error': f'{type(ex).__name__}: {ex}'[:150]})
+            continue
+        if not offers:
+            continue
+        o = offers[0]
+        listing = o.get('listing') or {}
+        if listing.get('listingStatus') not in ('ACTIVE', 'OUT_OF_STOCK'):
+            continue
+        by_listing[listing.get('listingId')].append({
+            'sku': sku, 'category_id': o.get('categoryId'), 'aspects': aspects,
+        })
+
+    problems, listings_report = [], []
+    for listing_id, rows in by_listing.items():
+        cat_ids = {r['category_id'] for r in rows}
+        listing_problems = []
+        if len(cat_ids) > 1:
+            listing_problems.append({'code': 'category_inconsistent_across_group', 'severity': 'critical',
+                                      'detail': {'category_ids_seen': sorted(cat_ids)}})
+        for cid in cat_ids:
+            if not cid:
+                continue
+            real_name = category_name(cid)
+            meta = category_aspect_meta(cid)
+            produktart_meta = next((a for a in meta if a['name'] == 'Produktart'), None)
+            required_names = {a['name'] for a in meta if a['required']}
+            for r in rows:
+                if r['category_id'] != cid:
+                    continue
+                for aname, avals in r['aspects'].items():
+                    for av in (avals if isinstance(avals, list) else [avals]):
+                        av_s = str(av)
+                        if real_name and av_s == real_name:
+                            listing_problems.append({'code': 'category_name_leaked_into_aspect', 'severity': 'critical',
+                                                      'detail': {'sku': r['sku'], 'aspect': aname, 'value': av_s,
+                                                                 'category_id': cid}})
+                        elif produktart_meta and aname == 'Produktart' and produktart_meta['mode'] == 'SELECTION_ONLY' \
+                                and produktart_meta['values'] and av_s not in produktart_meta['values']:
+                            listing_problems.append({'code': 'produktart_not_in_category_picklist', 'severity': 'critical',
+                                                      'detail': {'sku': r['sku'], 'value': av_s, 'category_id': cid}})
+                missing = sorted(required_names - set(r['aspects'].keys()))
+                if missing:
+                    listing_problems.append({'code': 'missing_required_aspect', 'severity': 'warning',
+                                              'detail': {'sku': r['sku'], 'missing': missing}})
+                if len(r['aspects']) < 10:
+                    listing_problems.append({'code': 'low_aspect_count', 'severity': 'warning',
+                                              'detail': {'sku': r['sku'], 'aspect_count': len(r['aspects'])}})
+        if listing_problems:
+            problems.extend({**p, 'listing_id': listing_id} for p in listing_problems)
+        listings_report.append({'listing_id': listing_id, 'sku_count': len(rows),
+                                 'category_ids': sorted(cat_ids), 'problem_count': len(listing_problems)})
+
+    critical = [p for p in problems if p['severity'] == 'critical']
+    status = 'critical' if critical else ('warning' if problems else 'ok')
+    out = {'generated_at': datetime.now(timezone.utc).isoformat(), 'listings_scanned': len(by_listing),
+           'skus_scanned': len(skus), 'problem_count': len(problems), 'critical_count': len(critical),
+           'problems': problems, 'listings': listings_report, 'fetch_errors': errors}
+    path = ROOT / 'data' / 'audit' / 'listing_integrity_report.json'
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding='utf-8')
+    return {'status': status, 'listings_scanned': out['listings_scanned'], 'skus_scanned': out['skus_scanned'],
+            'problem_count': out['problem_count'], 'critical_count': out['critical_count'],
+            'by_code': {c: sum(1 for p in problems if p['code'] == c) for c in {p['code'] for p in problems}},
+            'report': str(path)}
+
+
 def job_rank_audit():
     """Read-only weekly 'will this rank #1' scan of every LIVE listing: real score (0-100) from
     rank_audit.audit_listing() (title, category confidence, required aspects, gallery images,
@@ -501,6 +710,151 @@ def job_rank_audit():
             'below_80_count': len(out['below_80']), 'errors': len(errors), 'report': str(path)}
 
 
+def job_image_reupload():
+    """Audit live eBay listings via Inventory API and detect those with <3 photos. Read-only report
+    generation: data/audit/image_reupload_report.json. Never auto-uploads - operator reviews and runs
+    a separate write flow if needed."""
+    import sqlite3
+    from datetime import datetime, timezone
+    from contextlib import closing
+    from urllib.parse import quote
+    e = _engine()
+    ebay = e.ebay_client
+    candidates, errors = [], []
+    with closing(sqlite3.connect(f'file:{(ROOT / "data/dropshipping.db").as_posix()}?mode=ro', uri=True)) as db:
+        # Hata 39: this used to guess a stale 'AUTO-PET-{ali_id}' SKU pattern that no
+        # current listing actually uses (real SKUs are 'AE-{pid}-{sku_id}', or 'VAR-'/
+        # legacy prefixes for older listings), so it 404'd on every is_listed=1 product
+        # every run. The one source of truth for a product's real, currently-registered
+        # SKU(s) is product_variants (written by publish/ready_workflow) - use that, and
+        # skip (don't guess) products with no variant rows recorded yet.
+        rows = db.execute('''SELECT p.id, pv.sku, p.ebay_item_id, p.title
+                              FROM products p JOIN product_variants pv ON p.id = pv.product_id
+                              WHERE p.is_listed = 1''').fetchall()
+        skipped_no_variants = db.execute('''SELECT COUNT(*) FROM products p
+            WHERE p.is_listed = 1
+              AND p.id NOT IN (SELECT product_id FROM product_variants)''').fetchone()[0]
+    seen_products = set()
+    for pid, ebay_sku, ebay_id, title in rows:
+        if not ebay_sku or pid in seen_products:
+            continue
+        seen_products.add(pid)
+        try:
+            path = f'/sell/inventory/v1/inventory_item/{quote(ebay_sku, safe="")}'
+            resp = ebay._request('GET', path)
+            product_obj = resp.get('product', {})
+            image_urls = product_obj.get('imageUrls') or []
+            photo_count = len(image_urls)
+            if photo_count < 3:
+                candidates.append({'product_id': pid, 'ebay_sku': ebay_sku, 'ebay_item_id': ebay_id,
+                                   'title': (title or '')[:60], 'current_photos': photo_count,
+                                   'image_urls': image_urls})
+        except Exception as ex:
+            errors.append({'product_id': pid, 'ebay_sku': ebay_sku,
+                           'error': f'{type(ex).__name__}: {ex}'[:200]})
+            continue
+    out = {'generated_at': datetime.now(timezone.utc).isoformat(), 'scanned': len(seen_products),
+           'skipped_no_variants_recorded': skipped_no_variants,
+           'needs_reupload': candidates, 'errors': errors}
+    path = ROOT / 'data' / 'audit' / 'image_reupload_report.json'
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding='utf-8')
+    return {'status': 'ok', 'scanned': len(seen_products), 'needs_reupload_count': len(candidates),
+            'errors_count': len(errors), 'skipped_no_variants_recorded': skipped_no_variants,
+            'report': str(path)}
+
+
+def job_title_quality_audit():
+    """Scan live eBay listings for title quality issues: repeated words, non-German text mixing.
+    Read-only report: data/audit/title_quality_report.json."""
+    import sqlite3, re
+    from datetime import datetime, timezone
+    from contextlib import closing
+    issues = []
+    with closing(sqlite3.connect(f'file:{(ROOT / "data/dropshipping.db").as_posix()}?mode=ro', uri=True)) as db:
+        rows = db.execute('SELECT id, sku_id, ebay_item_id, title FROM products WHERE is_listed=1').fetchall()
+    for pid, sku, ebay_id, title in rows:
+        if not title:
+            continue
+        problems = []
+        # Check for repeated words (case-insensitive)
+        words = re.findall(r'\b\w+\b', title.lower())
+        word_counts = {}
+        for w in words:
+            if len(w) > 3:  # skip short words like "für", "mit"
+                word_counts[w] = word_counts.get(w, 0) + 1
+        repeated = [f'{w}({c}x)' for w, c in word_counts.items() if c > 1]
+        if repeated:
+            problems.append(f'repeated_words:{",".join(repeated)}')
+        # Check for English/Turkish keywords (common non-German words)
+        foreign_keywords = ['for', 'with', 'the', 'and', 'to', 'in', 'price', 'new', 'free', 'shipping',
+                             've', 'için', 'ile', 'yeni', 'ücretsiz', 'fiyat']
+        found_foreign = [w for w in words if w in foreign_keywords]
+        if found_foreign:
+            problems.append(f'foreign_words:{",".join(set(found_foreign))}')
+        if problems:
+            issues.append({'product_id': pid, 'sku_id': sku, 'ebay_item_id': ebay_id,
+                           'title': title, 'problems': problems})
+    out = {'generated_at': datetime.now(timezone.utc).isoformat(), 'scanned': len(rows),
+           'issues_found': issues}
+    path = ROOT / 'data' / 'audit' / 'title_quality_report.json'
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding='utf-8')
+    return {'status': 'ok', 'scanned': len(rows), 'issues_count': len(issues), 'report': str(path)}
+
+
+def job_price_competitiveness():
+    """Compare our live eBay.de listing prices with Browse API competition medians (same keyword search).
+    Read-only report: data/audit/price_competitiveness_report.json."""
+    import sqlite3, statistics
+    from datetime import datetime, timezone
+    from contextlib import closing
+    e = _engine()
+    ebay = e.ebay_client
+    comparisons, errors = [], []
+    with closing(sqlite3.connect(f'file:{(ROOT / "data/dropshipping.db").as_posix()}?mode=ro', uri=True)) as db:
+        rows = db.execute('SELECT id, sku_id, ebay_item_id, title, ebay_price FROM products WHERE is_listed=1 AND ebay_price IS NOT NULL').fetchall()
+    for pid, sku, ebay_id, title, our_price in rows[:20]:  # limit to 20 to avoid rate-limits in first run
+        if not title:
+            continue
+        try:
+            # Extract main keyword (first 3-4 words of title)
+            search_keywords = ' '.join(title.split()[:4])
+            # eBay Browse API: search
+            url = f'https://api.ebay.com/buy/browse/v1/item_summary/search'
+            params = {'q': search_keywords, 'limit': 20, 'category_ids': '1281'}  # 1281 = Haustierbedarf
+            headers = {'Authorization': f'Bearer {ebay.access_token}',
+                       'X-EBAY-C-MARKETPLACE-ID': 'EBAY_DE', 'Accept': 'application/json'}
+            resp = ebay.session.get(url, params=params, headers=headers, timeout=15)
+            resp.raise_for_status()
+            data = resp.json()
+            items = data.get('itemSummaries') or []
+            competitor_prices = []
+            for item in items:
+                price_obj = item.get('price', {})
+                val = price_obj.get('value')
+                currency = price_obj.get('currency')
+                if val and currency == 'EUR':
+                    competitor_prices.append(float(val))
+            if len(competitor_prices) >= 3:
+                median = statistics.median(competitor_prices)
+                diff_pct = ((our_price - median) / median * 100) if median > 0 else 0
+                comparisons.append({'product_id': pid, 'sku_id': sku, 'ebay_item_id': ebay_id,
+                                    'title': (title or '')[:60], 'our_price': our_price,
+                                    'market_median': round(median, 2), 'diff_percent': round(diff_pct, 1),
+                                    'sample_size': len(competitor_prices)})
+        except Exception as ex:
+            errors.append({'product_id': pid, 'sku_id': sku, 'error': f'{type(ex).__name__}: {ex}'[:200]})
+            continue
+    out = {'generated_at': datetime.now(timezone.utc).isoformat(), 'scanned': len(rows),
+           'comparisons': comparisons, 'errors': errors}
+    path = ROOT / 'data' / 'audit' / 'price_competitiveness_report.json'
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding='utf-8')
+    return {'status': 'ok', 'scanned': len(rows), 'compared_count': len(comparisons),
+            'errors_count': len(errors), 'report': str(path)}
+
+
 def job_blue_ocean():
     """Daily real low-competition/high-demand product discovery. Scans DEFAULT_KEYWORDS niche
     via real AliExpress sales-sorted search + real eBay Browse API competition counts, verifies
@@ -520,6 +874,14 @@ def job_blue_ocean():
     passing = [c for c in scanned if c.get('passes_blue_ocean_filter')]
     seeded, skipped = [], []
     TARGET_SEEDED = 10
+    # Hata 43: this call never loaded config/risk_ack.json, so a user-approved per-product
+    # review acknowledgement (e.g. a storage box falsely flagged 'cosmetics_food_supplement')
+    # was silently ignored every run - the ack file existed but had no real effect here.
+    try:
+        risk_ack_pids = frozenset(json.loads((ROOT / 'config/risk_ack.json').read_text(encoding='utf-8'))
+                                   .get('acknowledged', {}).keys())
+    except (OSError, ValueError):
+        risk_ack_pids = frozenset()
     with get_session(e.engine) as session:
         for cand in passing:   # try every real discovery-filter pass, not just a fixed first-N,
                                 # so a real rejection (category confidence, risk, price-vs-market)
@@ -530,7 +892,8 @@ def job_blue_ocean():
             # unexpected KeyError in a field, a transient DB error on commit, ...) must not stop
             # the other 9 candidates in this run from being evaluated/seeded.
             try:
-                result = blue_ocean.verify_and_seed(e.aliexpress_client, e.ebay_client, cand, session, Product)
+                result = blue_ocean.verify_and_seed(e.aliexpress_client, e.ebay_client, cand, session, Product,
+                                                     risk_ack_pids=risk_ack_pids)
             except ValueError as ex:
                 session.rollback()
                 skipped.append({'product_id': cand.get('product_id'), 'seeded': False,
@@ -569,6 +932,50 @@ def job_ad_bid_optimize():
     e = _engine()
     from src.listing_quality import ads
     return ads.decay_due_boosts(e.ebay_client)
+
+
+def job_monitoring():
+    """Real-time monitoring of critical metrics with Telegram alerts."""
+    from src.monitoring import collect_metrics
+    from src.alerting import send_alerts_from_monitoring
+    
+    # Collect metrics
+    monitoring_result = collect_metrics()
+    
+    # Send alerts if any critical/warning conditions detected
+    alert_result = {}
+    if monitoring_result.get('alerts'):
+        alert_result = send_alerts_from_monitoring()
+    
+    return {
+        'status': monitoring_result.get('status', 'unknown'),
+        'alerts_count': len(monitoring_result.get('alerts', [])),
+        'alerts_sent': alert_result.get('alerts_sent', 0),
+        'metrics_summary': {
+            'tokens': monitoring_result['metrics'].get('token_status', {}),
+            'sales_7d': monitoring_result['metrics'].get('sales_status', {}).get('sales_7d', 0),
+            'visibility_pct': monitoring_result['metrics'].get('listing_visibility', {}).get('visibility_pct', 0),
+            'failed_jobs': len(monitoring_result['metrics'].get('job_failures', {}).get('failed_jobs', {}))
+        }
+    }
+
+
+def job_resolve_blockers():
+    """Resolve readiness and listing blockers automatically."""
+    import subprocess
+    script = ROOT / 'scripts/resolve_all_blockers.py'
+    try:
+        result = subprocess.run([sys.executable, str(script)], 
+                              capture_output=True, text=True, timeout=300, cwd=ROOT)
+        summary = json.loads((ROOT / 'data/audit/blocker_resolution_summary.json').read_text())
+        return {
+            "fixes_successful": summary['fixes_successful'],
+            "fixes_failed": summary['fixes_failed'],
+            "remaining_blockers": len(summary['remaining_blockers']),
+            "supervised_trial_ready": summary.get('ready_for_supervised_trial', False)
+        }
+    except Exception as e:
+        return {"error": str(e), "error_type": type(e).__name__}
 
 
 def job_freight_sync():
@@ -648,12 +1055,21 @@ JOBS = {
     'supplier_probe':    (job_supplier_probe, True),     # member.benefit, category.get, specialinfo.get
     'new_variation_listing': (job_new_variation_listing, False),  # multi-variant new products -> ONE variation listing
     'listing_health':    (job_listing_health, True),      # read-only diagnosis report, never writes to eBay/AliExpress/DB
+    'listing_integrity_check': (job_listing_integrity_check, True),  # ground-truth audit: category-leak, group-consistency, aspect gaps
+    'listing_standards': (job_listing_standards, True),  # bounded GET-only recurring audit + durable review queue
+    'listing_standards_resolve': (job_listing_standards_resolve, False),  # real-evidence aspect/category resolver; may PUT -> non-idempotent
     'variation_sync':    (job_variation_sync, True),     # per-variant price+stock for variation listings
     'freight_sync':      (job_freight_sync, True),       # ds.freight.query -> products.shipping_cost
     'price_refresh':     (job_price_refresh, True),      # ds.product.get -> products.aliexpress_price (SKU fallback)
     'ad_bid_optimize':   (job_ad_bid_optimize, True),     # Promoted Listings: decay BOOST_BID->STEADY_BID after BOOST_DAYS
     'rank_audit':        (job_rank_audit, True),          # read-only weekly rank-readiness score per live listing
     'blue_ocean':        (job_blue_ocean, True),           # daily low-competition/high-demand discovery -> seeds listing queue
+    'monitoring':        (job_monitoring, True),            # real-time critical metrics monitoring with Telegram alerts
+    'resolve_blockers':  (job_resolve_blockers, True),     # auto-resolve readiness and listing blockers
+    # --- 2026-11-13: new quality/audit jobs ---
+    'image_reupload':       (job_image_reupload, True),       # daily audit: <3 photos detection -> report
+    'title_quality_audit':  (job_title_quality_audit, True),  # weekly audit: repeated words, foreign language -> report
+    'price_competitiveness': (job_price_competitiveness, True), # weekly: Browse API median price comparison -> report
 }
 
 
@@ -680,7 +1096,39 @@ class JobLock:
         self.path.unlink(missing_ok=True)
 
 
-def run(name, alert_only=False):
+SEMANTIC_LISTING_JOBS = {'listing_standards', 'listing_prepare', 'listing_pipeline',
+                         'publish_ready', 'product_sync', 'new_variation_listing'}
+SEMANTIC_EXIT = {'success': 0, 'failed': 1, 'blocked': 2, 'deferred': 3}
+PROGRESS_FIELDS = ('processed_this_run', 'processed_count', 'verified_count', 'remaining_count',
+                   'catalog_total', 'fetch_error_count', 'budget_stop_count', 'removed_count',
+                   'unresolved_count', 'ready_count', 'shortfall', 'published_count')
+
+
+def _listing_outcome(name, status, result):
+    """Explicit scheduler contract; never equate a zero transport exit with approval."""
+    result = result if isinstance(result, dict) else {}
+    outcome = 'failed'
+    if status == 'busy':
+        outcome = 'deferred'
+    elif status == 'failed' or result.get('fetch_error_count', 0):
+        outcome = 'failed'
+    elif status in ('blocked', 'needs_reconciliation', 'publication_needs_reconciliation') or result.get('blockers'):
+        outcome = 'blocked'
+    elif name == 'listing_standards':
+        if result.get('complete') is False and result.get('fetch_error_count') == 0:
+            outcome = 'deferred'
+        elif result.get('complete') is True and result.get('fetch_error_count') == 0:
+            outcome = 'success' if status == 'verified' and not result.get('unresolved_count') else 'blocked'
+    elif status in ('shortfall', 'partial') or result.get('shortfall'):
+        outcome = 'deferred'
+    elif status == 'ok':
+        outcome = 'success'
+    return {'version': 1, 'job': name, 'status': outcome,
+            'progress': {key: result[key] for key in PROGRESS_FIELDS
+                         if type(result.get(key)) is int and result[key] >= 0}}
+
+
+def run(name, alert_only=False, *, semantic_outcome=False):
     if name not in JOBS:
         raise SystemExit(f'unknown job {name!r}; known: {", ".join(JOBS)}')
     fn, idempotent = JOBS[name]
@@ -688,20 +1136,29 @@ def run(name, alert_only=False):
     tracker = None
     try:
         with JobLock(name):
-            mode = _enforce_readiness()
-            from src.intelligence.healing import heal
-            from core.job_tracking import TrackedJob
-            tracker = TrackedJob(name, mode).__enter__()
             try:
-                result = heal(name, fn, idempotent=idempotent)
-                status = (result.get('status') if isinstance(result, dict) else None) or 'ok'
-            except Exception as exc:  # noqa: BLE001
-                result, status = {'error': type(exc).__name__}, 'failed'
+                _refresh_listing_readiness(name)
+            except Exception as exc:
+                from src.runtime import enable_read_only
+                enable_read_only()
+                mode, status = 'read_only (readiness refresh failed)', 'blocked'
+                result = {'status': status, 'blockers': ['readiness_refresh_failed'],
+                          'error_type': type(exc).__name__, 'published_count': 0}
+            else:
+                mode = _enforce_readiness()
+                from src.intelligence.healing import heal
+                from core.job_tracking import TrackedJob
+                tracker = TrackedJob(name, mode).__enter__()
                 try:
-                    from src.intelligence.healing import similar_past_incidents
-                    result['similar_past'] = [r['text'][:160] for r in similar_past_incidents(f'{name} {type(exc).__name__} {exc}')]
-                except Exception:
-                    pass
+                    result = heal(name, fn, idempotent=idempotent)
+                    status = (result.get('status') if isinstance(result, dict) else None) or 'ok'
+                except Exception as exc:  # noqa: BLE001
+                    result, status = {'error': type(exc).__name__}, 'failed'
+                    try:
+                        from src.intelligence.healing import similar_past_incidents
+                        result['similar_past'] = [r['text'][:160] for r in similar_past_incidents(f'{name} {type(exc).__name__} {exc}')]
+                    except Exception:
+                        pass
     except BlockingIOError:
         mode, result, status = '-', {}, 'busy'
     if tracker is not None:
@@ -731,12 +1188,36 @@ def run(name, alert_only=False):
         if name == 'listing_health' and isinstance(result, dict) and result.get('blocked'):
             problems.append(f"listing_health: {result['blocked']} \u00fcr\u00fcn blokl\u0131 ({result.get('by_code')}) "
                             f"-> {result.get('report')}")
+        if name == 'listing_integrity_check' and isinstance(result, dict) and result.get('problem_count'):
+            problems.append(f"listing_integrity: {result.get('critical_count',0)} KRITIK / "
+                            f"{result.get('problem_count',0)} toplam sorun ({result.get('by_code')}) "
+                            f"-> {result.get('report')}")
+        if name == 'listing_standards' and isinstance(result, dict):
+            # Notify on semantic result changes, not every timestamp/checkpoint tick.
+            import hashlib
+            semantic = {k: result.get(k) for k in ('status', 'complete', 'open_reviews', 'fetch_error_count')}
+            digest = hashlib.sha256(json.dumps(semantic, sort_keys=True).encode()).hexdigest()
+            notice = JOBS_DIR / 'listing_standards_notice.json'
+            try:
+                previous = json.loads(notice.read_text(encoding='utf-8')).get('digest')
+            except (OSError, ValueError, AttributeError):
+                previous = None
+            if previous != digest:
+                temporary = notice.with_suffix('.json.tmp')
+                temporary.write_text(json.dumps({'digest': digest}), encoding='utf-8')
+                temporary.replace(notice)
+                problems.append('listing_standards: ' + json.dumps(semantic, ensure_ascii=False)
+                                + ' -> data/audit/listing_standards_report.json')
         if name == 'daily_report' and status == 'ok':
             problems.append(json.dumps(result, ensure_ascii=False)[:1200])
         if status == 'ok' and (name == 'weekly_report' or (name == 'diagnose' and result.get('model'))):
             problems.append(json.dumps(result, ensure_ascii=False, default=str)[:1500])
         if problems:
             print('Mondeora: ' + ' | '.join(problems))
+    if semantic_outcome and name in SEMANTIC_LISTING_JOBS:
+        outcome = _listing_outcome(name, status, result)
+        print('MONDEORA_JOB_OUTCOME ' + json.dumps(outcome, sort_keys=True))
+        return SEMANTIC_EXIT[outcome['status']]
     return 1 if status == 'failed' else 0
 
 
@@ -748,7 +1229,7 @@ def main(argv=None):
     if not argv or argv[0] in ('--list', '-l'):
         print('\n'.join(JOBS)); return 0
     alert_only = '--alert-only' in argv
-    return run(argv[0], alert_only)
+    return run(argv[0], alert_only, semantic_outcome='--semantic-outcome' in argv)
 
 
 if __name__ == '__main__':

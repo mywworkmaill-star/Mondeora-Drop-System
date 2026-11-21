@@ -1,0 +1,60 @@
+{
+  "index": 41,
+  "product_id": "1005007164564054",
+  "db_title": "Kabelbinder, Befestigungsdraht, wiederverwendbarer Kabel-Organizer, Kabel-Seil-Halter, selbstklebend, verstellbar, Kabel-Organizer, Riemen, Schreibtisch-Management",
+  "started_at": "2026-11-17T07:53:23.109556+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "Kabelbinder, Befestigungsdraht, wiederverwendbarer Kabel-Organizer, Kabel-Seil-Halter, selbstklebend, verstellbar, Kabel-Organizer, Riemen, Schreibtisch-Management",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/S67bd0062b7b44261b2f7ae44d96f52bdI.jpg",
+    "https://ae01.alicdn.com/kf/S3ea7899dbaba4b2bb0a32b998c0c4d83o.jpg",
+    "https://ae01.alicdn.com/kf/S224b239328fb4e26a43d00dd01aa65bb1.jpg",
+    "https://ae01.alicdn.com/kf/S0cf3a30922e94dff92abe01ce0ed4413r.jpg",
+    "https://ae01.alicdn.com/kf/S6d9c687733ea42a6bab2ab2279de7694X.jpg",
+    "https://ae01.alicdn.com/kf/Sd14d5c5187174b4b9174b2b68c8fe2cdv.jpg"
+  ],
+  "main_image_dimensions": [
+    1000,
+    1000
+  ],
+  "main_image_file": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\products\\1005007164564054\\main.jpg",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:category_aspects_incomplete",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 7
+  },
+  "finished_at": "2026-11-17T07:53:27.068230+00:00",
+  "canonical_status": "blocked"
+}

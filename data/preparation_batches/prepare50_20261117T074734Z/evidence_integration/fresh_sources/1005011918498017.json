@@ -1,0 +1,134 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:193",
+        "offer_sale_price": "5.59",
+        "sku_id": "12000057015143022",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "12.15",
+        "offer_bulk_sale_price": "5.59",
+        "sku_available_stock": 132,
+        "id": "14:193",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "schwarz",
+              "sku_image": "https://ae01.alicdn.com/kf/S5c8839e5346541ad85c103bb66d73437a.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "image_urls": "https://ae01.alicdn.com/kf/S6ce718e433cc461abd3867f79a2238b7L.jpg;https://ae01.alicdn.com/kf/S6d0922a93daf4675bf0e954f9e6f9109P.jpg;https://ae01.alicdn.com/kf/S0a4e83bb19f8460a9d3c69110d550a2ea.jpg;https://ae01.alicdn.com/kf/S9f31ef3ded53414d8c9a9493ad4e329c8.jpg;https://ae01.alicdn.com/kf/S04c60a4695d74e5288d3474dde03b112R.jpg;https://ae01.alicdn.com/kf/S5c8839e5346541ad85c103bb66d73437a.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 11,
+    "package_height": 4,
+    "package_length": 35,
+    "gross_weight": "0.142",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005011918498017,
+    "sub_product_id": "{\"US\":3256811732183265}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sc097662c729346429e667f71065caf7ao.jpg\",\"style\":{\"width\":790,\"height\":1057}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sf79fe39f569f4bc1a73b5e361640a5942.jpg\",\"style\":{\"width\":790,\"height\":1006}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Se3ea45a520c246ba9be48fb8bf091a72M.jpg\",\"style\":{\"width\":790,\"height\":443}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S7cf8f2a5568b4369ba470bb6801ab465r.jpg\",\"style\":{\"width\":790,\"height\":863}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S3ec75fd619a944eabf2415c9ae028ee1Q.jpg\",\"style\":{\"width\":790,\"height\":585}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sb3887fa6e7764609a15c0bc83eed5fdcG.jpg\",\"style\":{\"width\":790,\"height\":869}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/See8a60f94ae64fca9e4738345623804b6.jpg\",\"style\":{\"width\":790,\"height\":1064}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sc8994a40b4024029b35c2c208704b2a5Q.jpg\",\"style\":{\"width\":790,\"height\":1060}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Se92818308b194d32acbfbc06b34fd9c03.jpg\",\"style\":{\"width\":790,\"height\":1059}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S9dec1d7349c14aeb8af871de687742eaf.jpg\",\"style\":{\"width\":790,\"height\":444}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S5fa05bd961bd4aaa8d4ea320e3f4da5b2.jpg\",\"style\":{\"width\":790,\"height\":967}}}]}",
+    "subject": "Tragbare Golf-Schuhtasche aus Oxford-Stoff, atmungsaktive, leichte Golf-Handtasche, staubdichte Fußball-Tennis-Schuhtasche",
+    "evaluation_count": "1141",
+    "sales_count": "5000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.7",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 154101,
+    "product_id": 1005011918498017,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p><img src=\"https://ae01.alicdn.com/kf/Sc097662c729346429e667f71065caf7ao.jpg\" slate-data-type=\"image\"/><img src=\"https://ae01.alicdn.com/kf/Sf79fe39f569f4bc1a73b5e361640a5942.jpg\" slate-data-type=\"image\"/><img src=\"https://ae01.alicdn.com/kf/Se3ea45a520c246ba9be48fb8bf091a72M.jpg\" slate-data-type=\"image\"/><img src=\"https://ae01.alicdn.com/kf/S7cf8f2a5568b4369ba470bb6801ab465r.jpg\" slate-data-type=\"image\"/><img src=\"https://ae01.alicdn.com/kf/S3ec75fd619a944eabf2415c9ae028ee1Q.jpg\" slate-data-type=\"image\"/><img src=\"https://ae01.alicdn.com/kf/Sb3887fa6e7764609a15c0bc83eed5fdcG.jpg\" slate-data-type=\"image\"/><img src=\"https://ae01.alicdn.com/kf/See8a60f94ae64fca9e4738345623804b6.jpg\" slate-data-type=\"image\"/><img src=\"https://ae01.alicdn.com/kf/Sc8994a40b4024029b35c2c208704b2a5Q.jpg\" slate-data-type=\"image\"/><img src=\"https://ae01.alicdn.com/kf/Se92818308b194d32acbfbc06b34fd9c03.jpg\" slate-data-type=\"image\"/><img src=\"https://ae01.alicdn.com/kf/S9dec1d7349c14aeb8af871de687742eaf.jpg\" slate-data-type=\"image\"/><img src=\"https://ae01.alicdn.com/kf/S5fa05bd961bd4aaa8d4ea320e3f4da5b2.jpg\" slate-data-type=\"image\"/></p></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "Room 2004, No. 2, Puyuan Sanli, Jinhai Street, Xiang'an District, Xiamen City",
+    "phone": "18750914768",
+    "country_name": "China",
+    "email": "573733828@qq.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 217,
+        "attr_value_id": 1983458058,
+        "attr_name": "Merkmal",
+        "attr_value": "Mehrfachverwendungen"
+      },
+      {
+        "attr_name_id": 10,
+        "attr_value_id": 360758,
+        "attr_name": "Material",
+        "attr_value": "Oxford"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 266081643,
+        "attr_value_id": 100015203,
+        "attr_name": "CN",
+        "attr_value": "Zhejiang"
+      },
+      {
+        "attr_name_id": 43,
+        "attr_value_id": 3138,
+        "attr_name": "Funktion",
+        "attr_value": "Wiederverwendbar"
+      },
+      {
+        "attr_name_id": 6,
+        "attr_value_id": 100014107,
+        "attr_name": "Typ",
+        "attr_value": "Lagerung Taschen"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1105386167,
+    "shipping_speed_rating": "4.7",
+    "communication_rating": "4.7",
+    "store_name": "Shop1105386167 Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.6"
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "product_id": "1005008684706431",
+  "index": 39,
+  "checked_at": "2026-11-17T07:58:10.397997+00:00",
+  "ready_for_publication": false,
+  "remote_mutations_performed": false,
+  "errors": [],
+  "quote_count": 6,
+  "title": "1/2/4/ Edelstahl Waschbecken Haken Multifunktions Punch-freies Küche Bad Rack",
+  "title_issues": [],
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "sku_rows": [
+    {
+      "sku_id": "12000051596214591",
+      "cost": 3.05,
+      "stock": 12,
+      "aspects": {
+        "Farbe": "B 2 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S0357a4e5191e4fa5a72937b6c7724203j.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005008684706431",
+        "sku_id": "12000051596214591",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:11.845709+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 23.99,
+      "provisional_model_net_eur": 15.36
+    },
+    {
+      "sku_id": "12000048199826712",
+      "cost": 13.49,
+      "stock": 9,
+      "aspects": {
+        "Farbe": "6 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S20538784bdc84a32890a3dba4e6a869ar.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005008684706431",
+        "sku_id": "12000048199826712",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 7,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:58:12.479473+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 41.99,
+      "provisional_model_net_eur": 20.49
+    },
+    {
+      "sku_id": "12000048199826711",
+      "cost": 9.89,
+      "stock": 2,
+      "aspects": {
+        "Farbe": "4 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S779249782f85459ba0b87dd47cc534e1w.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005008684706431",
+        "sku_id": "12000048199826711",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:58:12.997447+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 37.99,
+      "provisional_model_net_eur": 20.63
+    },
+    {
+      "sku_id": "12000046231404661",
+      "cost": 5.49,
+      "stock": 11,
+      "aspects": {
+        "Farbe": "2 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sc5558dd9376946adab0e5f00ae1af9005.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005008684706431",
+        "sku_id": "12000046231404661",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:13.500484+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 26.99,
+      "provisional_model_net_eur": 15.52
+    },
+    {
+      "sku_id": "12000051596214592",
+      "cost": 4.29,
+      "stock": 100,
+      "aspects": {
+        "Farbe": "B 4 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S7c5e73f188604ea98583af7612976e33t.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005008684706431",
+        "sku_id": "12000051596214592",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 7,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:58:14.019325+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 25.99,
+      "provisional_model_net_eur": 15.85
+    },
+    {
+      "sku_id": "12000046231404660",
+      "cost": 3.49,
+      "stock": 5,
+      "aspects": {
+        "Farbe": "1 Stück"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S7886da2e226c41d7ab510c7ccfe9467bi.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005008684706431",
+        "sku_id": "12000046231404660",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:58:14.506266+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 24.99,
+      "provisional_model_net_eur": 15.79
+    }
+  ],
+  "category": {
+    "category_id": "36024",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Wand-, Türgarderoben & Haken",
+    "confidence": 0.67,
+    "needs_review": false,
+    "queries_used": 3,
+    "alternatives": [
+      [
+        "159897",
+        "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Boxen",
+        1
+      ],
+      [
+        "259841",
+        "Heimwerker > Bad & Küche > Bad > Duschen, Badewannen & Teile > Duschrinnen & Abläufe",
+        0
+      ],
+      [
+        "20442",
+        "Möbel & Wohnen > Badezimmer > Badezimmerzubehör > Handtuchhalter",
+        0
+      ]
+    ],
+    "source": "auto"
+  },
+  "supported_shared_aspects": {
+    "Material": [
+      "ABS",
+      "Metal"
+    ],
+    "Anzahl der Haken": [
+      "1"
+    ]
+  },
+  "human_review_aspect_names": [],
+  "missing_required_aspects": [
+    "Produktart"
+  ],
+  "required_aspects": [
+    {
+      "name": "Produktart",
+      "values": [
+        "Aufbewahrungshaken",
+        "Aufhängestreifen",
+        "Bademantelhaken",
+        "Besenhalter",
+        "Bilderhaken",
+        "Deckenhaken",
+        "Dekorativer Wandhaken",
+        "Garderobe",
+        "Garderobenbank & -paneele",
+        "Garderobenhaken",
+        "Garderoben-Set",
+        "Garderobenständer",
+        "Garderoben- und Hutablage",
+        "Gleithaken",
+        "Hakenleiste",
+        "Hakenleiste",
+        "Handtuchhaken",
+        "Handtuchhalter",
+        "Klammerbügel",
+        "Kleiderlüfter",
+        "Kleiderschiene",
+        "Kleiderstangenhalterung",
+        "Krawattenhalter",
+        "Magnethaken",
+        "Saugnapfgarderobe",
+        "Schirmständer",
+        "Schlüsselhaken",
+        "Schraubhaken",
+        "Selbstklebend",
+        "S-Haken",
+        "Stecktafel",
+        "Taschenhaken",
+        "Tassenhaken",
+        "Trockenmauer-Haken",
+        "Türgarderobe",
+        "Türhaken",
+        "Werkzeughalter",
+        "Werkzeugständer",
+        "Wischmopp-Haken",
+        "Wischmopp-Halter",
+        "Zackenaufhänger",
+        "Zeitungsständer"
+      ],
+      "mode": "FREE_TEXT"
+    }
+  ],
+  "optional_unknown_aspects": [
+    "Marke",
+    "Montage",
+    "Breite",
+    "Abteilung",
+    "Haken-Stil",
+    "Länge",
+    "Gewicht",
+    "Herstellernummer",
+    "Höhe",
+    "Modell",
+    "Farbe",
+    "Stil",
+    "Besonderheiten",
+    "Thema",
+    "Finish",
+    "Ursprungsland",
+    "Original/Reproduktion",
+    "Personalisieren",
+    "Anzahl der Einheiten",
+    "Anzahl pro Packung",
+    "Maßeinheit",
+    "Personalisiert",
+    "Pflegeanleitung",
+    "Anleitung für Personalisierung"
+  ],
+  "draft_file": "product_draft.html",
+  "finished_at": "2026-11-17T07:58:15.987869+00:00"
+}

@@ -1,0 +1,56 @@
+{
+  "index": 21,
+  "product_id": "1005011904255432",
+  "db_title": "Zahnbürsten-Aufbewahrungsregal, große Kapazität, Badezimmer-Wandmontage-Aufbewahrungsbox, Kunststoff-Organizer für Zahnbürsten, Zahnpasta, Rasierer",
+  "started_at": "2026-11-17T07:52:57.595943+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "Zahnbürsten-Aufbewahrungsregal, große Kapazität, Badezimmer-Wandmontage-Aufbewahrungsbox, Kunststoff-Organizer für Zahnbürsten, Zahnpasta, Rasierer",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/Scb109e2631bc41198ac21b42b13d90b8g.jpg",
+    "https://ae01.alicdn.com/kf/Sd06a7efc9fc2403dae48f78d7222fb35T.jpg",
+    "https://ae01.alicdn.com/kf/S5721d18582454986bef0f02f445b8315r.jpg",
+    "https://ae01.alicdn.com/kf/S8e05baeb0106421c8b29122cddab4be8z.jpg",
+    "https://ae01.alicdn.com/kf/Sf1815d10c519457a92cb0c213a6b929bq.jpg",
+    "https://ae01.alicdn.com/kf/S1de421cfe5f447d8807734004ccebfbf2.jpg"
+  ],
+  "image_download_error": "HTTPError",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:variant_review",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 3
+  },
+  "finished_at": "2026-11-17T07:53:00.361334+00:00",
+  "canonical_status": "blocked"
+}

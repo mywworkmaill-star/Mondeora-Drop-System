@@ -1,0 +1,3709 @@
+{
+  "st": {
+    "gates": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {},
+      "demand": {
+        "listings_found": 25,
+        "median": 12.98,
+        "p25": 7.57,
+        "min": 3.41,
+        "max": 55.01,
+        "our_price": 22.99,
+        "price_vs_median": 1.77
+      },
+      "demand_review": [],
+      "images_dropped": 0,
+      "quality": {
+        "description": {
+          "length": 765,
+          "has_html": true,
+          "has_lists": true,
+          "has_table": true
+        },
+        "variants": [
+          {
+            "sku_id": "12000049355816384",
+            "images": {
+              "total": 7,
+              "valid": 7,
+              "dropped": 0,
+              "ideal": 8
+            },
+            "aspects": {
+              "count": 8,
+              "min_required": 10
+            }
+          },
+          {
+            "sku_id": "12000034251365164",
+            "images": {
+              "total": 7,
+              "valid": 7,
+              "dropped": 0,
+              "ideal": 8
+            },
+            "aspects": {
+              "count": 8,
+              "min_required": 10
+            }
+          }
+        ],
+        "warnings": [
+          "below ideal image count (7 < 8 ideal)",
+          "below ideal image count (7 < 8 ideal)"
+        ],
+        "category": {
+          "confidence": 0.67,
+          "needs_review": false,
+          "category_id": "159897"
+        }
+      }
+    },
+    "res": {
+      "ae_item_sku_info_dtos": {
+        "ae_item_sku_info_d_t_o": [
+          {
+            "sku_attr": "14:200006154#B white",
+            "offer_sale_price": "2.25",
+            "sku_id": "12000049355816384",
+            "price_include_tax": true,
+            "currency_code": "EUR",
+            "sku_price": "4.60",
+            "offer_bulk_sale_price": "2.25",
+            "sku_available_stock": 26,
+            "id": "14:200006154#B white",
+            "ae_sku_property_dtos": {
+              "ae_sku_property_d_t_o": [
+                {
+                  "sku_property_value": "dunkles Khaki",
+                  "sku_image": "https://ae01.alicdn.com/kf/S53999fce998440e6869e30cca881cc35l.jpg",
+                  "sku_property_name": "Farbe",
+                  "property_value_definition_name": "B white",
+                  "property_value_id": 200006154,
+                  "sku_property_id": 14
+                }
+              ]
+            }
+          },
+          {
+            "sku_attr": "14:29",
+            "offer_sale_price": "1.55",
+            "sku_id": "12000034251365165",
+            "price_include_tax": true,
+            "currency_code": "EUR",
+            "sku_price": "4.56",
+            "offer_bulk_sale_price": "1.55",
+            "sku_available_stock": 41,
+            "id": "14:29",
+            "ae_sku_property_dtos": {
+              "ae_sku_property_d_t_o": [
+                {
+                  "sku_property_value": "WEISS",
+                  "sku_image": "https://ae01.alicdn.com/kf/S08350eae054e4349a1abab1572f0dc3cW.jpg",
+                  "sku_property_name": "Farbe",
+                  "property_value_id": 29,
+                  "sku_property_id": 14
+                }
+              ]
+            }
+          },
+          {
+            "sku_attr": "14:193",
+            "offer_sale_price": "2.89",
+            "sku_id": "12000034251365164",
+            "price_include_tax": true,
+            "currency_code": "EUR",
+            "sku_price": "8.26",
+            "offer_bulk_sale_price": "2.89",
+            "sku_available_stock": 30,
+            "id": "14:193",
+            "ae_sku_property_dtos": {
+              "ae_sku_property_d_t_o": [
+                {
+                  "sku_property_value": "schwarz",
+                  "sku_image": "https://ae01.alicdn.com/kf/Sa7ff6e695d07492e9c09332818e7a780x.jpg",
+                  "sku_property_name": "Farbe",
+                  "property_value_id": 193,
+                  "sku_property_id": 14
+                }
+              ]
+            }
+          },
+          {
+            "sku_attr": "14:200006151#2pcs white",
+            "offer_sale_price": "3.75",
+            "sku_id": "12000048617470509",
+            "price_include_tax": true,
+            "currency_code": "EUR",
+            "sku_price": "7.81",
+            "offer_bulk_sale_price": "3.75",
+            "sku_available_stock": 18,
+            "id": "14:200006151#2pcs white",
+            "ae_sku_property_dtos": {
+              "ae_sku_property_d_t_o": [
+                {
+                  "sku_property_value": "Hellgrau",
+                  "sku_image": "https://ae01.alicdn.com/kf/Sfac904f804264cdd831ad46afcbbc9ecf.jpg",
+                  "sku_property_name": "Farbe",
+                  "property_value_definition_name": "2pcs white",
+                  "property_value_id": 200006151,
+                  "sku_property_id": 14
+                }
+              ]
+            }
+          },
+          {
+            "sku_attr": "14:200006152#B Black",
+            "offer_sale_price": "2.59",
+            "sku_id": "12000049355816383",
+            "price_include_tax": true,
+            "currency_code": "EUR",
+            "sku_price": "5.29",
+            "offer_bulk_sale_price": "2.59",
+            "sku_available_stock": 39,
+            "id": "14:200006152#B Black",
+            "ae_sku_property_dtos": {
+              "ae_sku_property_d_t_o": [
+                {
+                  "sku_property_value": "hellgrün",
+                  "sku_image": "https://ae01.alicdn.com/kf/S9b252748c68044b7aac83f6b5b1c97412.jpg",
+                  "sku_property_name": "Farbe",
+                  "property_value_definition_name": "B Black",
+                  "property_value_id": 200006152,
+                  "sku_property_id": 14
+                }
+              ]
+            }
+          },
+          {
+            "sku_attr": "14:200006153#2pcs black",
+            "offer_sale_price": "4.39",
+            "sku_id": "12000048617470510",
+            "price_include_tax": true,
+            "currency_code": "EUR",
+            "sku_price": "9.15",
+            "offer_bulk_sale_price": "4.39",
+            "sku_available_stock": 57,
+            "id": "14:200006153#2pcs black",
+            "ae_sku_property_dtos": {
+              "ae_sku_property_d_t_o": [
+                {
+                  "sku_property_value": "hellgelb",
+                  "sku_image": "https://ae01.alicdn.com/kf/Sea0d62066e8d4cf5a7e1e7021d3d077bT.jpg",
+                  "sku_property_name": "Farbe",
+                  "property_value_definition_name": "2pcs black",
+                  "property_value_id": 200006153,
+                  "sku_property_id": 14
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ae_multimedia_info_dto": {
+        "image_urls": "https://ae01.alicdn.com/kf/S6ff7299de58f4c6eb073e16eccab5ae6t.jpg;https://ae01.alicdn.com/kf/Sa75ce4caa7264cf3b195a6b367475324n.jpg;https://ae01.alicdn.com/kf/S9730fb92d8534f76ad3b0fbbacf84d76D.jpg;https://ae01.alicdn.com/kf/Sae3a666a28354691b2560d4e51e38fa4N.jpg;https://ae01.alicdn.com/kf/S580e8418ddd145188ad7d0d040b92730R.jpg;https://ae01.alicdn.com/kf/Sf3340748ac8042f3a562b117ddaad60d5.jpg"
+      },
+      "package_info_dto": {
+        "package_width": 15,
+        "package_height": 3,
+        "package_length": 16,
+        "gross_weight": "0.031",
+        "package_type": false,
+        "product_unit": 100000015
+      },
+      "logistics_info_dto": {
+        "delivery_time": 7,
+        "ship_to_country": "DE"
+      },
+      "product_id_converter_result": {
+        "main_product_id": 1005005759411405,
+        "sub_product_id": "{\"US\":3256805573096653}"
+      },
+      "ae_item_base_info_dto": {
+        "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sd7f6d72c5a1b404ab3f160ff611515ccZ.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S364dad79d8aa4a1e8007574dbe3ec28fQ.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S7aaed687ac4a4b41b11c88a8eadc328cb.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Saaa766f02d4c4a628d950178f1c0e2c9J.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sac9776159fcd48ce8f6fb6a1cdaf6d927.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sad23edaa113f4ed9a667166c4032051e4.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S712c9875ba094b66bc6ed032acadae6eo.jpg\",\"style\":{\"width\":800,\"height\":800}}}]}",
+        "subject": "Multifunktionaler Wand-Organizer für Fernbedienungen und Mobiltelefone",
+        "evaluation_count": "2936",
+        "sales_count": "5000+",
+        "product_status_type": "onSelling",
+        "avg_evaluation_rating": "4.6",
+        "separated_listing": false,
+        "currency_code": "CNY",
+        "sl_product": false,
+        "category_id": 200044148,
+        "product_id": 1005005759411405,
+        "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p style=\"text-align:left;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px\" align=\"left\"><br /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sd7f6d72c5a1b404ab3f160ff611515ccZ.jpg\" slate-data-type=\"image\" /><br /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S364dad79d8aa4a1e8007574dbe3ec28fQ.jpg\" slate-data-type=\"image\" /><br /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S7aaed687ac4a4b41b11c88a8eadc328cb.jpg\" slate-data-type=\"image\" /><br /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Saaa766f02d4c4a628d950178f1c0e2c9J.jpg\" slate-data-type=\"image\" /><br /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sac9776159fcd48ce8f6fb6a1cdaf6d927.jpg\" slate-data-type=\"image\" /><br /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sad23edaa113f4ed9a667166c4032051e4.jpg\" slate-data-type=\"image\" /><br /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S712c9875ba094b66bc6ed032acadae6eo.jpg\" slate-data-type=\"image\" /></p><p><br /></p></div></div>\r\n"
+      },
+      "manufacturer_info": {
+        "address": "Room 501, 5th Floor, Building 6, Xihe Second District, Houzhai Street, Yiwu City, Jinhua City, Zhejiang Province,china",
+        "phone": "18357941975",
+        "country_name": "China",
+        "email": "18357941975@163.com",
+        "phone_prefix": "86"
+      },
+      "has_whole_sale": false,
+      "ae_item_properties": {
+        "ae_item_property": [
+          {
+            "attr_name_id": 2,
+            "attr_value_id": 201512802,
+            "attr_name": "Markenname",
+            "attr_value": "NONE"
+          },
+          {
+            "attr_name_id": 400000603,
+            "attr_value_id": 23399591357,
+            "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+            "attr_value": "Keine"
+          },
+          {
+            "attr_name_id": 219,
+            "attr_value_id": 9441741844,
+            "attr_name": "Ursprung",
+            "attr_value": "CN (Herkunft)"
+          },
+          {
+            "attr_name_id": 43,
+            "attr_value_id": 1983457662,
+            "attr_name": "Funktion",
+            "attr_value": "Problemlose Installation"
+          },
+          {
+            "attr_name_id": 306657049,
+            "attr_value_id": 1984089219,
+            "attr_name": "Abteilung",
+            "attr_value": "Unisex-Erwachsene"
+          },
+          {
+            "attr_name_id": 10,
+            "attr_value_id": 124,
+            "attr_name": "Material",
+            "attr_value": "Kunststoff"
+          },
+          {
+            "attr_name_id": 217,
+            "attr_value_id": 1983458057,
+            "attr_name": "Merkmal",
+            "attr_value": "BPA-freier Kunststoff"
+          },
+          {
+            "attr_name_id": -1,
+            "attr_name": "Choice",
+            "attr_value": "yes"
+          }
+        ]
+      },
+      "ae_store_info": {
+        "store_id": 1102810800,
+        "shipping_speed_rating": "4.7",
+        "communication_rating": "4.6",
+        "store_name": "Wmxmore Living Home Store",
+        "store_country_code": "CN",
+        "item_as_described_rating": "4.5"
+      }
+    },
+    "title": "Multifunktionaler Wand-Organizer für Fernbedienungen und Mobiltelefone",
+    "cat": {
+      "category_id": "159897",
+      "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Boxen",
+      "confidence": 0.67,
+      "needs_review": false,
+      "queries_used": 3,
+      "alternatives": [
+        [
+          "61312",
+          "TV, Video & Audio > TV- & Heim-Audio-Zubehör > Fernbedienungen",
+          1
+        ],
+        [
+          "36024",
+          "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Wand-, Türgarderoben & Haken",
+          0
+        ],
+        [
+          "4678",
+          "Business & Industrie > Elektronik & Messtechnik > Mess- & Prüftechnik > Messgeräte & Detektoren > Sonstige Messgeräte",
+          0
+        ]
+      ],
+      "source": "auto"
+    },
+    "shared": {
+      "Material": [
+        "Kunststoff"
+      ],
+      "Breite": [
+        "9,7 cm"
+      ],
+      "Hoehe": [
+        "8,6 cm"
+      ],
+      "Höhe": [
+        "8,6 cm"
+      ],
+      "Laenge": [
+        "3,6 cm"
+      ],
+      "Länge": [
+        "3,6 cm"
+      ],
+      "Produktart": [
+        "Wandhalter"
+      ]
+    },
+    "plan": {
+      "is_variation": true,
+      "variants": [
+        {
+          "sku_id": "12000049355816384",
+          "aspects": {
+            "Farbe": "Weiß"
+          },
+          "image": "https://ae01.alicdn.com/kf/S53999fce998440e6869e30cca881cc35l.jpg",
+          "cost": 2.25,
+          "verified": true,
+          "has_color": true,
+          "human_override": true,
+          "stock": 26,
+          "price": 22.99,
+          "net": 15.3,
+          "sku": "AE-1005005759411405-12000049355816384",
+          "qty": 5
+        },
+        {
+          "sku_id": "12000034251365164",
+          "aspects": {
+            "Farbe": "Schwarz"
+          },
+          "image": "https://ae01.alicdn.com/kf/Sa7ff6e695d07492e9c09332818e7a780x.jpg",
+          "cost": 2.89,
+          "verified": true,
+          "has_color": true,
+          "human_override": true,
+          "stock": 30,
+          "price": 23.99,
+          "net": 15.52,
+          "sku": "AE-1005005759411405-12000034251365164",
+          "qty": 5
+        }
+      ],
+      "dropped": [
+        [
+          "12000034251365165",
+          "verified duplicate of 12000049355816384"
+        ],
+        [
+          "12000048617470509",
+          "verified duplicate of 12000049355816384"
+        ],
+        [
+          "12000049355816383",
+          "verified duplicate of 12000034251365164"
+        ],
+        [
+          "12000048617470510",
+          "verified duplicate of 12000034251365164"
+        ]
+      ],
+      "specifications": [
+        {
+          "name": "Farbe",
+          "values": [
+            "Schwarz",
+            "Weiß"
+          ]
+        }
+      ],
+      "flags": []
+    },
+    "desc": "<div style=\"font-family:Arial,sans-serif;\"><div style=\"background:#1a5276;color:#fff;font-size:11px;font-weight:bold;padding:3px 8px;border-radius:3px;display:inline-block;\">Seite 1 - Allgemeine Beschreibung</div><h2 style=\"margin:6px 0 10px;font-size:20px;\">Multifunktionaler Wand-Organizer für Fernbedienungen und Mobiltelefone</h2><table style=\"width:100%;margin:0 0 12px;\"><tr><td style=\"padding:4px;text-align:center;\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sd7f6d72c5a1b404ab3f160ff611515ccZ.jpg\" alt=\"Produktfoto\" style=\"max-width:150px;width:100%;border-radius:6px;border:1px solid #d6dbdf;\"></td><td style=\"padding:4px;text-align:center;\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S364dad79d8aa4a1e8007574dbe3ec28fQ.jpg\" alt=\"Produktfoto\" style=\"max-width:150px;width:100%;border-radius:6px;border:1px solid #d6dbdf;\"></td></tr></table><div style=\"background:#f4f6f7;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><p style=\"font-size:14px;margin:0 0 2px;\"><b>Varianten:</b> siehe Auswahl oben im Angebot.</p><ul style=\"font-size:13px;margin:0 0 0 16px;\"><li><b>Farbe:</b> Schwarz, Weiß</li></ul></div><div style=\"background:#fff;border:1px solid #1a5276;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><p style=\"font-size:13px;margin:0;\"><b>Versand &amp; Rückgabe</b><br>Neu, Versand aus dem Ausland, Lieferzeit ca. 7-15 Werktage. Rückgabe gemäß Angebotsbedingungen.</p></div><hr style=\"border:none;border-top:2px dashed #d6dbdf;margin:16px 0;\"><div style=\"background:#1a5276;color:#fff;font-size:11px;font-weight:bold;padding:3px 8px;border-radius:3px;display:inline-block;\">Seite 2 - Wichtige Produktinformationen</div><h2 style=\"margin:6px 0 10px;font-size:20px;\">Spezifikation</h2><div style=\"background:#fff;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><table style=\"width:100%;border-collapse:collapse;font-size:13px;\"><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Ursprung</td><td style=\"padding:5px 8px;\">CN (Herkunft)</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Funktion</td><td style=\"padding:5px 8px;\">Problemlose Installation</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Abteilung</td><td style=\"padding:5px 8px;\">Unisex-Erwachsene</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Material</td><td style=\"padding:5px 8px;\">Kunststoff</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Merkmal</td><td style=\"padding:5px 8px;\">BPA-freier Kunststoff</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Choice</td><td style=\"padding:5px 8px;\">yes</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;\">Verpackung</td><td style=\"padding:5px 8px;\">ca. 16 x 15 x 3 cm, ca. 0.031 kg</td></tr></table></div><div style=\"background:#fff;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><h3 style=\"margin:0 0 6px;font-size:15px;color:#1a5276;\">Paket beinhaltet</h3><p style=\"font-size:13px;margin:0;\">1x Multifunktionaler Wand-Organizer für Fernbedienungen und Mobiltelefone</p></div><div style=\"background:#f4f6f7;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><h3 style=\"margin:0 0 6px;font-size:15px;color:#1a5276;\">Hinweis</h3><p style=\"font-size:12px;margin:0;color:#666;\">Bitte beachten Sie, dass es aufgrund manueller Messung und unterschiedlicher Monitoreinstellungen zu geringfügigen Abweichungen bei Farbe und Maßen kommen kann.</p></div></div>",
+    "imgs": [
+      "https://ae01.alicdn.com/kf/S6ff7299de58f4c6eb073e16eccab5ae6t.jpg",
+      "https://ae01.alicdn.com/kf/Sa75ce4caa7264cf3b195a6b367475324n.jpg",
+      "https://ae01.alicdn.com/kf/S9730fb92d8534f76ad3b0fbbacf84d76D.jpg",
+      "https://ae01.alicdn.com/kf/Sae3a666a28354691b2560d4e51e38fa4N.jpg",
+      "https://ae01.alicdn.com/kf/S580e8418ddd145188ad7d0d040b92730R.jpg",
+      "https://ae01.alicdn.com/kf/Sf3340748ac8042f3a562b117ddaad60d5.jpg"
+    ],
+    "aspect_metadata": [
+      {
+        "name": "Breite",
+        "required": true,
+        "variation_ok": true,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "15 cm",
+          "20 cm",
+          "31 cm",
+          "36 cm",
+          "41 cm",
+          "46 cm",
+          "56 cm",
+          "61 cm"
+        ]
+      },
+      {
+        "name": "Höhe",
+        "required": true,
+        "variation_ok": true,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "15 cm",
+          "20 cm",
+          "31 cm"
+        ]
+      },
+      {
+        "name": "Länge",
+        "required": true,
+        "variation_ok": true,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "15 cm",
+          "20 cm",
+          "25 cm",
+          "31 cm",
+          "46 cm"
+        ]
+      },
+      {
+        "name": "Produktart",
+        "required": true,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Abfallpresse",
+          "Abfallsackhalter",
+          "Abfallsackhalter hängend",
+          "Akkordeonmappe",
+          "Anzugbügel",
+          "Apothekerglas",
+          "Armlehnen-Organizer",
+          "Aufbewahrungsbox",
+          "Aufbewahrungseinheit",
+          "Aufbewahrungskorb",
+          "Aufbewahrungstasche",
+          "Auslagekorb",
+          "Badezimmerkorb",
+          "Badezimmerorganisator",
+          "Batterie Aufbewahrungsbox",
+          "Behälter",
+          "Bett-Seiten-Taschen-Organizer",
+          "Bettwäschentasche",
+          "Blumenkorb",
+          "Briefablage",
+          "Briefaufbewahrung",
+          "Briefhalter",
+          "Brotkorb",
+          "Buchschachtel",
+          "Buchständer",
+          "Cubby Lagerung",
+          "Cubby-Organizer",
+          "Cubby-Verbindungselement",
+          "Deckelverschluss",
+          "Deckenaufbewahrung",
+          "Deko-Eimer",
+          "Dekorative Aufbewahrungsbox",
+          "Dekorative Box",
+          "Dekorative Dose",
+          "Dekorativer Korb",
+          "Dekoratives Glas",
+          "Dom/Glasglocke",
+          "Dose",
+          "Duftend",
+          "Duftfrei",
+          "Eierkorb",
+          "Einbau-Mülleimer",
+          "Einmachglas",
+          "Erntekorb",
+          "Ersatzdeckel",
+          "Erste-Hilfe-Kasten",
+          "Fernbedienungshalter",
+          "Füllhorn",
+          "Garderobe",
+          "Garderobenständer",
+          "Gemüsekorb",
+          "Gepäckaufbewahrung",
+          "Geschenkkorb",
+          "Geschenkpapierrollen Aufbewahrung",
+          "Glas",
+          "Gürtel- & Krawattenhalter",
+          "Haken",
+          "Halterungen",
+          "Hängeaufbewahrung",
+          "Hängekorb",
+          "Hängeschuhregal",
+          "Herkömmlicher Kleiderbügel",
+          "Herrendiener",
+          "Hosen",
+          "Hosenbügel",
+          "Hosenbügel offen",
+          "Hutschachtel",
+          "Hygiene-Abfallbehälter",
+          "Kabeltasche",
+          "Kanister",
+          "Kappen- & Huthalter",
+          "Keksdose",
+          "Kiste",
+          "Kiste/Koffer/Truhe",
+          "Klammerbügel",
+          "Kleiderbezug",
+          "Kleiderbügel Abdeckung",
+          "Kleiderbügel Auto",
+          "Kleiderständer",
+          "Kleiderstange",
+          "Koffer",
+          "Komposteimer",
+          "Korb",
+          "Korbset",
+          "Korbständer",
+          "Kordelzugbeutel",
+          "Kosmetikeimer",
+          "Matratzenaufbewahrung",
+          "Mobiler Schrank",
+          "Mottenkugeln",
+          "Mülleimer Aufkleber",
+          "Mülleimer mit Druckdeckel",
+          "Mülleimer mit Klappdeckel",
+          "Mülleimer mit Rädern",
+          "Mülleimer mit Schwingdeckel",
+          "Mülleimer mit Sensor",
+          "Müllpresssäcke",
+          "Müllsackständer",
+          "Mülltonne",
+          "Mülltrennung",
+          "Mülltüte",
+          "Netzaufbewahrungsbeutel",
+          "Netzbeutel",
+          "Obstkorb",
+          "Osterkorb",
+          "Papierkorb",
+          "Pflanzenständer",
+          "Picknickkorb",
+          "Plastiktütenspender",
+          "Platzsparbeutel",
+          "Recyclingbeutel",
+          "Rednerpult",
+          "Regalfachteiler",
+          "Regal für den begehbaren Kleiderschrank",
+          "Regalsystem",
+          "Rezeptschachtel",
+          "Schachtel-Set",
+          "Schatztruhe",
+          "Schirmeimer",
+          "Schirmständer",
+          "Schlüssel- & Brief-Kombiablage",
+          "Schlüsselablage",
+          "Schlüsselhaken",
+          "Schlüsselkasten",
+          "Schmuckdose",
+          "Schmuckschatulle",
+          "Schublade",
+          "Schubladenbox",
+          "Schubladen-Organizer",
+          "Schuh-Aufbewahrungsbox",
+          "Schuhbank",
+          "Schuhbox",
+          "Schuhbügel",
+          "Schuh-Cubby",
+          "Schuhregal",
+          "Schuhschrank",
+          "Schuhspanner",
+          "Schuhtasche",
+          "Schuhtasche für Reise & Sport",
+          "Souvenirschachtel",
+          "Sparbüchse",
+          "Spardose",
+          "Spieluhr",
+          "Spielzeugaufbewahrungsbeutel",
+          "Spielzeugkiste",
+          "Spielzeugtasche",
+          "Stiefel-Aufbewahrung",
+          "Stoffeinlagen",
+          "Süßigkeitenglas",
+          "Taschenhalter",
+          "Taschen-Organizer",
+          "Taschentuchschachtel",
+          "Teedose",
+          "Tischmülleimer",
+          "Tragetasche",
+          "Treppenkorb",
+          "Treteimer",
+          "Truhe",
+          "Truhenbank",
+          "Unterbett-Aufbewahrung",
+          "Unterbett Aufbewahrungstasche",
+          "Unterbettkommode",
+          "Vakuum-Aufbewahrungsbeutel",
+          "Wandtasche",
+          "Wäschekorb",
+          "Weihnachtsbaum Aufbewahrungstasche",
+          "Wertstofftonne",
+          "Wiederverwendbare Einkaufstasche",
+          "Würfel Aufbewahrungsbox",
+          "Zusammenklappbarer Mülleimer"
+        ]
+      },
+      {
+        "name": "Marke",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Markenlos",
+          "!it",
+          "10.Deep",
+          "10 Strawberry Street",
+          "180s",
+          "187 inc",
+          "1881 Rogers",
+          "1888 Mills",
+          "191 Unlimited",
+          "1921",
+          "1 Madison",
+          "24th & Ocean",
+          "291",
+          "2b. RYCH",
+          "2 Bamboo",
+          "2bfree",
+          "2B Real",
+          "2EROS",
+          "2HKnits",
+          "2 Lulas Boutique",
+          "2x4basics",
+          "2XU",
+          "360 Sweater",
+          "3 Big Notes",
+          "3BWest",
+          "3J Workshop",
+          "3M",
+          "3N2",
+          "3pommes",
+          "3 Sprouts",
+          "45rpm",
+          "4D CONCEPTS",
+          "4walls",
+          "5.11 Tactical",
+          "525 america",
+          "55DSL",
+          "575",
+          "59Fifty",
+          "5th & Ocean",
+          "6126 by Lindsay Lohan",
+          "626 Blue",
+          "686",
+          "6 Degrees",
+          "7.62 Design",
+          "7321 Design",
+          "77kids",
+          "7 Chi",
+          "7 For All Mankind",
+          "883 Police",
+          "99Degrees Custom",
+          "99 Volts",
+          "9THROSE",
+          "A. Giannetti",
+          "A. KURTZ",
+          "A.L.C.",
+          "a.n.a",
+          "A. Rogers",
+          "a.testoni",
+          "A&BC",
+          "A&B Home",
+          "A&G",
+          "A&W",
+          "A|X Armani Exchange",
+          "Aaron Chang",
+          "Abaeté",
+          "Abas",
+          "A Bathing Ape",
+          "Abercrombie & Fitch",
+          "ABN Finest",
+          "ABS by Allen Schwartz",
+          "Absorba",
+          "AbsorbaStone",
+          "Acacia",
+          "Academy",
+          "Accent",
+          "Accent Plus",
+          "Access Able",
+          "Access Lighting",
+          "Accessories by Me",
+          "ACCO",
+          "Accoutrements",
+          "Acctim",
+          "Accubrush",
+          "Accuride",
+          "Accuspray",
+          "acdc",
+          "ACE",
+          "ACHLA Designs",
+          "Acme",
+          "ACME Studio",
+          "Acorn",
+          "Acoustic",
+          "Acrobat",
+          "Acropolis",
+          "ACS",
+          "Active",
+          "ActiVeman",
+          "Activision",
+          "Actos",
+          "ACUDOR",
+          "Acuity",
+          "AcuRite",
+          "AD",
+          "Adagio",
+          "Adam",
+          "Adam Hall",
+          "Adams",
+          "Adams Row",
+          "Adar",
+          "Adderley",
+          "Addiction",
+          "ADDIS",
+          "Addison",
+          "Adeeing",
+          "Adele Wechsler",
+          "Adelphi",
+          "ADEMCO",
+          "aden + anais",
+          "Adesso",
+          "ADF",
+          "Adidas",
+          "Adi Designs",
+          "ADIEU",
+          "Adio",
+          "Adler",
+          "ADM",
+          "Admetior",
+          "Admiral",
+          "Adolfo",
+          "Adonna",
+          "Adorn",
+          "Adorn Home Essentials",
+          "Adrian Bartol",
+          "Adrianna Papell",
+          "Adrienne Landau",
+          "Adrienne Landau Studio",
+          "Adrienne Vittadini",
+          "ADT",
+          "Advance",
+          "Advanced Graphics",
+          "Advantus",
+          "Adventure Bound",
+          "AEG",
+          "Aegis",
+          "AE Light",
+          "Aerie",
+          "AERIN",
+          "AERIS",
+          "Aero",
+          "AeroBed",
+          "aerolatte",
+          "Aeromax",
+          "Aéropostale",
+          "AeroPress",
+          "Aerosoles",
+          "Aerus",
+          "Aesop",
+          "Aetrex",
+          "AFC",
+          "Affinity",
+          "Affliction",
+          "Afina",
+          "AFK",
+          "Aflac",
+          "AFLighting",
+          "Aftershock",
+          "AFTRON",
+          "AGA",
+          "AG Adriano Goldschmied",
+          "Against the Elements",
+          "Agan Traders",
+          "Agape",
+          "Agave Nectar",
+          "AGB",
+          "Agent Provocateur",
+          "Aggie",
+          "Aggio",
+          "agnès b.",
+          "Agnona",
+          "Agora",
+          "Agra Heritage Marble Crafts",
+          "Agraria",
+          "Agri-Fab",
+          "Ahmilk",
+          "Aico",
+          "Aidan Gray Living",
+          "Aigle",
+          "AIKO",
+          "ailisilk",
+          "Aimbry",
+          "AirCloud",
+          "Air Couture",
+          "Aire Barcelona",
+          "Aireloom",
+          "AireRyder",
+          "Air force",
+          "Airfree",
+          "Air King",
+          "Airlessco",
+          "Air Locker",
+          "AirLuxe",
+          "Airpura",
+          "Airsprung",
+          "AIRWALK",
+          "Airway",
+          "Air Wick",
+          "Ajka Crystal",
+          "AJ Valenci",
+          "AKA",
+          "Akademiks",
+          "Aker",
+          "Akers Ranch",
+          "Akiko",
+          "AKOO",
+          "Akribos XXIV",
+          "Akris",
+          "Akro-Mils",
+          "Al & Ray",
+          "A La Carte",
+          "Aladdin",
+          "Alaïa",
+          "Alan Symonds",
+          "Alara",
+          "Alba",
+          "Alberto Fermani",
+          "Albert Thurston",
+          "Albertus Swanepoel",
+          "Albin Preissler",
+          "Alchemy",
+          "Alchemy Gothic",
+          "Alden",
+          "Aldo",
+          "Alegria",
+          "Alegro",
+          "Alejandro Ingelmo",
+          "Alemite",
+          "Alera",
+          "Alert Stamping",
+          "Alessi",
+          "ALEX",
+          "Alexander",
+          "Alexander Del Rossa",
+          "Alexander Julian",
+          "Alexander Kalifano",
+          "Alexander Lloyd",
+          "Alexander McQueen",
+          "Alexander Olch",
+          "Alexander Taron",
+          "Alexander Wang",
+          "Alexandra Bartlett",
+          "Alexandra Neel",
+          "Alexandria",
+          "Alex Cannon",
+          "Alex Clark",
+          "Alex Evenings",
+          "Alexia Admor",
+          "ALEXIS",
+          "Alexis Bittar",
+          "Alexis Hudson",
+          "Alex Products",
+          "Alfa",
+          "Alfani",
+          "Alfani RED",
+          "Alfred Angelo",
+          "Alfred Meakin",
+          "ALFRED SUNG",
+          "Alfresco",
+          "Alfresco Home",
+          "Algoma",
+          "Alia",
+          "Alias Kim",
+          "Alice's Cottage",
+          "Alice + Olivia",
+          "ALICE by Temperley",
+          "Alico",
+          "Alienware",
+          "Alien Workshop",
+          "ALIFE",
+          "Ali Ro",
+          "Alisa Pan",
+          "Aliz",
+          "All American",
+          "All American Comfort",
+          "All American Hats",
+          "AllBrass",
+          "All Chic",
+          "All-Clad",
+          "All Day",
+          "Allegra Hicks",
+          "Allegra K",
+          "Allegri",
+          "Allegro",
+          "Allen",
+          "Allen + Roth",
+          "Allen Designs",
+          "AllerAir",
+          "Allergy Sentry",
+          "Aller Vale Pottery",
+          "Alleson Athletic",
+          "Allett"
+        ]
+      },
+      {
+        "name": "Besonderheiten",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": true,
+        "values": [
+          "Abnehmbare Abdeckung",
+          "Abnehmbares Fach",
+          "Antihaftwirkung",
+          "Antirutsch",
+          "Ausgepolstert",
+          "Automatisch",
+          "Beschwert",
+          "Bestickt",
+          "Bio",
+          "Bioabbaubar",
+          "Deckelverriegelung",
+          "Drehriegel",
+          "Erweiterbar",
+          "Extra breite Schulter",
+          "Flockdruck",
+          "Gebogen",
+          "Geflochten",
+          "Gefüttert",
+          "Gekerbt",
+          "Gestuft",
+          "Gewoben",
+          "Gleitend",
+          "Handbemalt",
+          "Hängend",
+          "Hosenbügel",
+          "Klappbar",
+          "Klebefähig",
+          "Kleiderlift",
+          "Langlebig",
+          "Limited Edition",
+          "Magnetisch",
+          "Mikrowellensicher",
+          "Mit Deckel",
+          "Mit Fächern",
+          "Mit Griff",
+          "Mit Kreidetafel",
+          "Mit Rädern",
+          "Mit Rollen",
+          "Mit Schloss",
+          "Mit Schubfächern",
+          "Mit Schutzfolie",
+          "Mit Zugband",
+          "Motorisiert",
+          "Nagerfest",
+          "Offene Vorderseite",
+          "Ohne Deckel",
+          "Pappröhre",
+          "Platzsparend",
+          "Reisefreundlich",
+          "Reißverschluss",
+          "Rotierbar",
+          "Rutschsicher",
+          "Schirmboden",
+          "Schirmloch",
+          "Schlauchförmig",
+          "Schmal",
+          "Schneidefreiheit",
+          "Schwerlast",
+          "Spülmaschinenfest",
+          "Stapelbar",
+          "Unterbett",
+          "Verstellbar",
+          "Verstellbare Höhe",
+          "Verstellbare Klammern",
+          "Wasserdicht",
+          "Wasserfest",
+          "Wetterresistent",
+          "Wiederverschließbar",
+          "Zusammensteckbar",
+          "Zusätzlicher Halt"
+        ]
+      },
+      {
+        "name": "Material",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": true,
+        "values": [
+          "100% Baumwolle",
+          "100% Kaschmir",
+          "100% Leinen",
+          "100% Polyester",
+          "100% Wolle",
+          "Acetat",
+          "Acryl",
+          "Ahorn",
+          "Alfa",
+          "Alginat",
+          "Alpaka",
+          "Aluminium",
+          "Angora",
+          "Angorakanin",
+          "Aramid",
+          "Bambus",
+          "Bast",
+          "Baumwolle",
+          "Beton",
+          "Biber",
+          "Birke",
+          "Bronze",
+          "Buche",
+          "Chiffon",
+          "Chrom",
+          "Draht",
+          "Edelstahl",
+          "Eibe",
+          "Eiche",
+          "Eisen",
+          "Elastane",
+          "Elastodien",
+          "Elastolefin",
+          "Elastomultiester",
+          "Emaille",
+          "Erle",
+          "Esche",
+          "Faserplatte",
+          "Faux-Wildleder",
+          "Fischotter",
+          "Flachs",
+          "Fluorfaser",
+          "Ginster",
+          "Glas",
+          "Guanako",
+          "Gummi",
+          "Gummibaum",
+          "Gusseisen",
+          "Hanf",
+          "Hartzinn",
+          "Harz",
+          "Henequen",
+          "Holz",
+          "Holz & Glas",
+          "Holz & Metall",
+          "Holzfurnier",
+          "Jute",
+          "Kamel",
+          "Kapok",
+          "Karton",
+          "Karton/Papier",
+          "Kaschgora",
+          "Kastanie",
+          "Keramik",
+          "Kiefer",
+          "Kirsche",
+          "Knochenporzellan",
+          "Kokosfaser",
+          "Korbgeflecht",
+          "Kristall",
+          "Kunststoff",
+          "Kupfer",
+          "Lama",
+          "Leder",
+          "Lyocell",
+          "Maguey",
+          "Mahagoni",
+          "Manila",
+          "Marmor",
+          "Maschendraht",
+          "Massivholz",
+          "MDF/Spanplatte",
+          "Melamin",
+          "Mesh",
+          "Messing",
+          "Metall",
+          "Modacryl",
+          "Modal",
+          "Mohair",
+          "Nickel",
+          "Nylon",
+          "Palisander",
+          "Papier",
+          "Papierfaser",
+          "Polyamid",
+          "Polyester",
+          "Polyethylen",
+          "Polyharnstoff",
+          "Polyimid",
+          "Polylactid",
+          "Polypropylen",
+          "Polyurethan",
+          "Porzellan",
+          "PVC",
+          "Quecksilber",
+          "Ramie",
+          "Rattan",
+          "Regenerierte Proteinfaser",
+          "Sackleinen",
+          "Samt",
+          "Schilfrohr",
+          "Schmiedeeisen",
+          "Seegras",
+          "Segeltuch",
+          "Seide",
+          "Sisal",
+          "Stahl",
+          "Stein",
+          "Steinzeug",
+          "Stoff/Textil",
+          "Stroh",
+          "Sunn",
+          "Synthetik",
+          "Teak",
+          "Terrakotta",
+          "Textilleder",
+          "Tierhaar",
+          "Ton",
+          "Triacetat",
+          "Trivinyl",
+          "Verbundwerkstoff",
+          "Vikunja",
+          "Vinylal",
+          "Viskose",
+          "Walnuss",
+          "Wasserhyazinthen",
+          "Weide",
+          "Wildleder",
+          "Yakwolle",
+          "Zeder",
+          "Zinn"
+        ]
+      },
+      {
+        "name": "Farbe",
+        "required": false,
+        "variation_ok": true,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Beige",
+          "Blau",
+          "Braun",
+          "Gelb",
+          "Gold",
+          "Grau",
+          "Grün",
+          "Lila",
+          "Mehrfarbig",
+          "Orange",
+          "Rosa",
+          "Rot",
+          "Schwarz",
+          "Silber",
+          "Transparent",
+          "Weiß"
+        ]
+      },
+      {
+        "name": "Anzahl der Teile",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "1",
+          "Einteilig",
+          "2",
+          "Zweiteilig",
+          "3",
+          "Dreiteilig",
+          "4",
+          "Vierteilig",
+          "5",
+          "Fünfteilig"
+        ]
+      },
+      {
+        "name": "Montage",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": true,
+        "values": [
+          "Freistehend",
+          "Hängend",
+          "Über der Tür",
+          "Wandmontage"
+        ]
+      },
+      {
+        "name": "Montage erforderlich",
+        "required": false,
+        "variation_ok": false,
+        "mode": "SELECTION_ONLY",
+        "multi": false,
+        "values": [
+          "Ja",
+          "Nein"
+        ]
+      },
+      {
+        "name": "Kapazität",
+        "required": false,
+        "variation_ok": true,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "2 qt",
+          "4 qt",
+          "6 qt",
+          "8 qt",
+          "10 qt",
+          "12 qt",
+          "14 qt",
+          "16 qt",
+          "18 qt",
+          "20 qt",
+          "22 qt",
+          "24 qt",
+          "26 qt",
+          "28 qt",
+          "30 qt",
+          "32 qt",
+          "34 qt",
+          "36 qt",
+          "38 qt",
+          "40 qt",
+          "Weniger als 40 qt",
+          "40-80 qt",
+          "42 qt",
+          "44 qt",
+          "46 qt",
+          "48 qt",
+          "50 qt",
+          "81-120 qt",
+          "1 gal (3,79 L)",
+          "2 gal (7,57 L)",
+          "3 gal (11,36 L)",
+          "4 gal (15,14 L)",
+          "5 gal (18,93 L)",
+          "6 gal",
+          "7 gal",
+          "8 gal",
+          "9 gal",
+          "10 gal (37,85 L)",
+          "11 gal",
+          "12 gal",
+          "13 gal",
+          "14 gal",
+          "15 gal",
+          "16 gal",
+          "17 gal",
+          "18 gal",
+          "19 gal",
+          "20 gal",
+          "21 gal",
+          "22 gal",
+          "23 gal",
+          "24 gal",
+          "25 gal",
+          "26 gal",
+          "27 gal",
+          "28 gal",
+          "29 gal",
+          "30 gal",
+          "31 gal",
+          "32 gal",
+          "33 gal",
+          "34 gal",
+          "35 gal",
+          "36 gal",
+          "37 gal",
+          "38 gal",
+          "39 gal",
+          "40 gal",
+          "41 gal",
+          "42 gal",
+          "43 gal",
+          "44 gal",
+          "45 gal",
+          "46 gal",
+          "47 gal",
+          "48 gal",
+          "49 gal",
+          "50 gal",
+          "51 gal",
+          "52 gal",
+          "53 gal (200,61 L)",
+          "54 gal",
+          "55 gal (208,18 L)",
+          "56 gal",
+          "57 gal",
+          "58 gal",
+          "59 gal",
+          "60 gal",
+          "61 gal",
+          "62 gal",
+          "63 gal",
+          "64 gal",
+          "65 gal",
+          "66 gal",
+          "67 gal",
+          "68 gal",
+          "69 gal",
+          "70 gal",
+          "71 gal",
+          "72 gal",
+          "73 gal",
+          "74 gal",
+          "75 gal",
+          "76 gal",
+          "77 gal",
+          "78 gal",
+          "79 gal",
+          "80 gal",
+          "81 gal",
+          "82 gal",
+          "83 gal",
+          "84 gal",
+          "85 gal",
+          "86 gal",
+          "87 gal",
+          "88 gal",
+          "89 gal",
+          "90 gal",
+          "91 gal",
+          "92 gal",
+          "93 gal",
+          "94 gal",
+          "95 gal",
+          "96 gal",
+          "97 gal",
+          "98 gal",
+          "99 gal",
+          "100 gal",
+          "1 Paar",
+          "2-5 Paare",
+          "6-10 Paare",
+          "11-15 Paare",
+          "16-20 Paare",
+          "Mehr als 20 Paare",
+          "21-25 Paare",
+          "26-30 Paare",
+          "31-35 Paare",
+          "36-40 Paare",
+          "Mehr als 40 Paare",
+          "13 L"
+        ]
+      },
+      {
+        "name": "Gewicht",
+        "required": false,
+        "variation_ok": true,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": []
+      },
+      {
+        "name": "Herstellernummer",
+        "required": false,
+        "variation_ok": true,
+        "mode": "FREE_TEXT",
+        "multi": true,
+        "values": []
+      },
+      {
+        "name": "Modell",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Bentgo BGODIP-B",
+          "Bentgo BGODIP-G",
+          "Bentgo BGOGLS-G",
+          "Bentgo BGOGLS-P",
+          "Bentgo BGOGLS-Y",
+          "Cello System Box",
+          "Cello System Box maxi",
+          "Cosmoplast IFHHST372",
+          "Cosmoplast IFHHST537",
+          "Cosmoplast IFHHST538",
+          "Cosmoplast IFHHST540",
+          "Cosmoplast IFHHST546",
+          "Cosmoplast IFHHST557",
+          "Keter Capri Deck Box",
+          "Keter Luzon",
+          "Keter Novel Deck Box",
+          "Keter Premier 100",
+          "Keter Sumatra",
+          "Mammut",
+          "SentrySafe FHW40100",
+          "SentrySafe FHW40300",
+          "SentrySafe HD4100"
+        ]
+      },
+      {
+        "name": "Tiefe",
+        "required": false,
+        "variation_ok": true,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Weniger als 1 Zoll (2,54 cm)",
+          "1 Zoll",
+          "1,25 Zoll",
+          "1,5 Zoll",
+          "1,75 Zoll",
+          "2 Zoll",
+          "2,25 Zoll",
+          "2,5 Zoll",
+          "2,75 Zoll",
+          "3 Zoll",
+          "3,25 Zoll",
+          "3,5 Zoll",
+          "3,75 Zoll",
+          "4 Zoll",
+          "4,25 Zoll",
+          "4,5 Zoll",
+          "4,75 Zoll",
+          "Weniger als 5 Zoll",
+          "5 Zoll",
+          "Mehr als 5 Zoll",
+          "5,5 Zoll",
+          "6 Zoll",
+          "6,5 Zoll",
+          "7 Zoll",
+          "7,5 Zoll",
+          "Weniger als 8 Zoll",
+          "8 Zoll",
+          "8,1 Zoll",
+          "8,2 Zoll",
+          "8,3 Zoll",
+          "8,4 Zoll",
+          "8,5 Zoll",
+          "8,6 Zoll",
+          "8,7 Zoll",
+          "8,8 Zoll",
+          "8,9 Zoll",
+          "9 Zoll",
+          "9,1 Zoll",
+          "9,2 Zoll",
+          "9,3 Zoll",
+          "9,4 Zoll",
+          "9,5 Zoll",
+          "9,6 Zoll",
+          "9,7 Zoll",
+          "9,8 Zoll",
+          "9,9 Zoll",
+          "10 Zoll",
+          "10,1 Zoll",
+          "10,2 Zoll",
+          "10,3 Zoll",
+          "10,4 Zoll",
+          "10,5 Zoll",
+          "10,6 Zoll",
+          "10,7 Zoll",
+          "10,8 Zoll",
+          "10,9 Zoll",
+          "11 Zoll",
+          "11,1 Zoll",
+          "11,2 Zoll",
+          "11,3 Zoll",
+          "11,4 Zoll",
+          "11,5 Zoll",
+          "11,6 Zoll",
+          "11,7 Zoll",
+          "11,8 Zoll",
+          "11,9 Zoll",
+          "12 Zoll",
+          "Mehr als 12 Zoll",
+          "12,5 Zoll",
+          "13 Zoll",
+          "13,5 Zoll",
+          "14 Zoll",
+          "14,5 Zoll",
+          "15 Zoll",
+          "Mehr als 15 Zoll",
+          "16 Zoll",
+          "17 Zoll",
+          "18 Zoll",
+          "19 Zoll",
+          "20 Zoll",
+          "21 Zoll",
+          "22 Zoll",
+          "23 Zoll",
+          "24 Zoll"
+        ]
+      },
+      {
+        "name": "Herstellungsmethode",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Getöpfert",
+          "Glasfusing",
+          "Mundgeblasenes Glas"
+        ]
+      },
+      {
+        "name": "Herstellungsstil",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Amethystglas",
+          "Blau-Weiß-Porzellan",
+          "Carnival Glass",
+          "Chintz",
+          "Cranberry Glass",
+          "Delft",
+          "Elegant Glass",
+          "Flint Glass",
+          "Flow Blue",
+          "Gepresstes Glas",
+          "Geschliffenes Glas",
+          "Kobaltglas",
+          "Kunstglas",
+          "Kunst-Keramik",
+          "Majolika Keramik",
+          "Opakes Glas",
+          "Opalescent Glass",
+          "Opalglas",
+          "Ruby Glass",
+          "Splitterglas-Optik",
+          "Stained Glass",
+          "Stretch Glass",
+          "Uranium Glas",
+          "Vaselineglas"
+        ]
+      },
+      {
+        "name": "Größe",
+        "required": false,
+        "variation_ok": true,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Mini",
+          "Klein",
+          "Mittel",
+          "Groß",
+          "Extra groß"
+        ]
+      },
+      {
+        "name": "Anzahl der Fächer",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ]
+      },
+      {
+        "name": "Anzahl pro Packung",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "1",
+          "10-19",
+          "1-19",
+          "1-20",
+          "1-9",
+          "2",
+          "20-29",
+          "20-39",
+          "20-40",
+          "21-40",
+          "30-39",
+          "40-49",
+          "40-59",
+          "40-60",
+          "41-60",
+          "50-59",
+          "60-100",
+          "60-69",
+          "61-100",
+          "70-79",
+          "80-89",
+          "90-100",
+          "3",
+          "Mehr als 100",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ]
+      },
+      {
+        "name": "Form",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Buch",
+          "Dreieck",
+          "Eiffelturm",
+          "Eule",
+          "Herz",
+          "Hund",
+          "Katze",
+          "Makrone",
+          "Oval",
+          "Quadratisch",
+          "Raute",
+          "Rechteck",
+          "Rechteckig",
+          "Rund",
+          "Schädel",
+          "Schwein",
+          "Zylindrisch"
+        ]
+      },
+      {
+        "name": "Thema",
+        "required": false,
+        "variation_ok": true,
+        "mode": "FREE_TEXT",
+        "multi": true,
+        "values": [
+          "Abstrakt",
+          "Affen",
+          "Americana",
+          "American Football",
+          "Baby",
+          "Bagger",
+          "Beliebte Charaktere",
+          "Berge & Schluchten",
+          "Besondere Anlässe",
+          "Blumen",
+          "Blumen & Garten",
+          "Bohemien",
+          "Briefmarken",
+          "Chanukka",
+          "Clown",
+          "Clowns & Zirkus",
+          "Comic-Helden",
+          "Cowboys & wilder Westen",
+          "Dänisch",
+          "Dinosaurier",
+          "Disney Figuren",
+          "Drachen",
+          "Einhorn",
+          "Elfen & Feen",
+          "Engel & Putten",
+          "Englisch",
+          "Erinnerungen",
+          "Essen/Küche",
+          "Essen & Trinken",
+          "Essen & Wein",
+          "Eule",
+          "Fahrzeuge",
+          "Fallschirmspringen",
+          "Fantasie & Mythologie",
+          "Filme",
+          "Flaggen & Politik",
+          "Flugzeuge",
+          "Frieden",
+          "Friedensfürst",
+          "Fußball",
+          "Garten",
+          "Gelassenheitsgebet",
+          "Hähne & Hühner",
+          "Halloween",
+          "Häuser & Architektur",
+          "Hexerei & Zauberei",
+          "Hollywood",
+          "Hunde & Welpen",
+          "Italienisch",
+          "Jahreszeiten",
+          "Karikatur",
+          "Katzen",
+          "Kunst",
+          "Kürbis",
+          "Landkarten",
+          "Lastwagen",
+          "Laufsport",
+          "Liebe & Herzen",
+          "Logo",
+          "Los Angeles",
+          "Märchen",
+          "Meer",
+          "Meeresansichten",
+          "Menschen",
+          "Miami",
+          "Militär",
+          "Militär & Waffen",
+          "Mode",
+          "Mode & Kostüme",
+          "Mond & Sterne",
+          "Monster",
+          "Monumente",
+          "Motorrad",
+          "Muffin",
+          "München",
+          "Muscheln",
+          "Musik",
+          "Natur",
+          "Naturgeschichte",
+          "Nautisch",
+          "Neuheit",
+          "New York",
+          "Nordamerika",
+          "Nordsee",
+          "Obst",
+          "Olympische Spiele",
+          "Orchidee",
+          "Palme",
+          "Paris",
+          "Patriotisch",
+          "Pfau",
+          "Pferde",
+          "Pinguine",
+          "Pin-Up",
+          "Piraten",
+          "Plätze",
+          "Poker",
+          "Porträts & Menschen",
+          "Prag",
+          "Prinzessinnen/Feen",
+          "Promis",
+          "Qualle",
+          "Raumfahrt",
+          "Raumschiffe & Weltraum",
+          "Reisen",
+          "Religion",
+          "Reptilien",
+          "Retro",
+          "Rettungsdienste",
+          "Rio de Janeiro",
+          "Ritter & Mittelalter",
+          "Roboter",
+          "Rudern",
+          "Rugby",
+          "Safari",
+          "Sakralbauten",
+          "San Francisco",
+          "Schiffe & Boote",
+          "Schmetterlinge",
+          "Schmuck",
+          "Schuhe",
+          "Schwimmen",
+          "Shabby",
+          "Silhouetten",
+          "Skandinavisch",
+          "Skateboarden",
+          "Skelette & Totenschädel",
+          "Skifahren",
+          "Snowboarden",
+          "Sonnenaufgang",
+          "Sonnenuntergang",
+          "Spaß & Kurioses",
+          "Sport",
+          "Sportwagen",
+          "Stars & Musiker",
+          "Steine",
+          "Stillleben",
+          "Strand",
+          "Strand & Tropen",
+          "Straßen & Straßenkarten",
+          "Südamerika",
+          "Superhelden",
+          "Surfen",
+          "Tattoos",
+          "Tennis",
+          "Theater",
+          "Tiere",
+          "Tokio",
+          "Tropisch",
+          "TV, Filme & Musik",
+          "TV & Stars",
+          "Universität & Schule",
+          "Universitäten",
+          "Unterwasserwelt",
+          "Urlaub",
+          "Urwald",
+          "USA Landkarten",
+          "US Navy",
+          "Vampire",
+          "Venedig",
+          "Verbote",
+          "Verkehr",
+          "Vespa",
+          "Videospiele",
+          "Vogel",
+          "Vögel & Vogelhäuser",
+          "Volleyball",
+          "Wahrzeichen",
+          "Wasserfälle",
+          "Weihnachten",
+          "Weltkarte",
+          "Weltraum",
+          "Werkzeug",
+          "Wildtiere",
+          "Windmühlen",
+          "Wolkenkratzer",
+          "Wörter & Redewendungen",
+          "Wrestling",
+          "WWE",
+          "Zahlen & Buchstaben",
+          "Zebras",
+          "Zeitgenössisch",
+          "Zitate",
+          "Zombies",
+          "Züge"
+        ]
+      },
+      {
+        "name": "Stil",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Afrikanisch",
+          "Amerikanischer Directoire-Stil",
+          "Amerikanischer Empire-Stil",
+          "Antik",
+          "Art déco",
+          "Arts & Crafts/Mission",
+          "Barock",
+          "Barock/Rokoko",
+          "Bauernhaus",
+          "Bauhaus",
+          "Biedermeier",
+          "Britischer Kolonialstil",
+          "Chippendale",
+          "Cottage",
+          "Cromwellianisch",
+          "Directoire-Stil",
+          "Edwardianisch",
+          "Edward VII",
+          "Eklektisch",
+          "Elisabethanisch",
+          "Elizabeth II",
+          "Empire",
+          "Ethnischer Stil",
+          "Federal Style",
+          "Französischer Landhaus-Stil",
+          "Früher Federal Style",
+          "Geflochten",
+          "George IV",
+          "George V",
+          "Georgisch",
+          "Glatt",
+          "Gotisch",
+          "Henry IV",
+          "Hollywood Regency",
+          "Hütten-Stil",
+          "Indianisch",
+          "Indisch",
+          "Jakobinisch",
+          "Jugendstil",
+          "Karolinisch",
+          "Kasachisch",
+          "Kelim",
+          "Keltisch",
+          "Kolonialstil",
+          "Kunst & Handwerk/Mission-Stil",
+          "Kurdisch",
+          "Landhaus",
+          "Louis III",
+          "Louis XIV",
+          "Louis XV",
+          "Louis XVI",
+          "Maritim",
+          "Marokkanisch",
+          "Mediterran",
+          "Mitte Jahrhundert Modern",
+          "Modern",
+          "Nachkriegsdesign",
+          "Nantucket",
+          "Pop Art",
+          "Queen-Anne-Stil",
+          "Regence",
+          "Regency",
+          "Renaissance",
+          "Restoration",
+          "Retro",
+          "Rivivale",
+          "Rokoko",
+          "Romantik",
+          "Shabby",
+          "Shaker",
+          "Shaker Stil",
+          "Sheraton",
+          "Skandinavisch",
+          "Southwestern",
+          "Spaß & Kurioses",
+          "Später Federal Style",
+          "Stil Liberty",
+          "Tierfellmuster",
+          "Toskanisch",
+          "Traditionell",
+          "Tudor",
+          "Türkisch",
+          "Übergangsstil",
+          "Urig",
+          "Urlaub",
+          "Viktorianisch",
+          "Vintage/Retro",
+          "Weltwirtschaftskrise",
+          "Western",
+          "William & Mary",
+          "William III",
+          "William IV",
+          "Zeitgenössisch"
+        ]
+      },
+      {
+        "name": "Finish",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Anilin",
+          "Antikes Messing",
+          "Bedruckt",
+          "Bemalt",
+          "Bereift",
+          "Edelplatin",
+          "Eierschale",
+          "Farbwechselnd",
+          "Gebeizt",
+          "Gebürstet",
+          "Gebürstetes Gold",
+          "Gebürstetes Messing",
+          "Gekalkt",
+          "Gelackt",
+          "Genarbt",
+          "Geölt",
+          "Gespiegelt",
+          "Glänzend",
+          "Glatt",
+          "Halbmatt",
+          "Hochglänzend",
+          "Hochglanzpoliert",
+          "Holzeffekt",
+          "Irisierend",
+          "Lasiert",
+          "Matt",
+          "Metallisch",
+          "Moiré",
+          "Pergament",
+          "Poliert",
+          "Polierter Nickel",
+          "Poliertes Chrom",
+          "Pulverbeschichtung",
+          "Rohe Oberfläche",
+          "Satin",
+          "Scheinend",
+          "Seidenmatt",
+          "Semianilin",
+          "Strukturiert",
+          "Unbemalt",
+          "Unlackiert",
+          "Unlasiert",
+          "Unpoliert",
+          "UV-Öl",
+          "Vinylbeschichtet",
+          "Wachsbeschichtet"
+        ]
+      },
+      {
+        "name": "Ursprungsland",
+        "required": false,
+        "variation_ok": false,
+        "mode": "SELECTION_ONLY",
+        "multi": false,
+        "values": [
+          "Afghanistan",
+          "Ägypten",
+          "Albanien",
+          "Algerien",
+          "Andorra",
+          "Angola",
+          "Anguilla",
+          "Antigua und Barbuda",
+          "Äquatorialguinea",
+          "Argentinien",
+          "Armenien",
+          "Aruba",
+          "Aserbaidschan",
+          "Äthiopien",
+          "Australien",
+          "Bahamas",
+          "Bahrain",
+          "Bangladesch",
+          "Barbados",
+          "Belarus",
+          "Belgien",
+          "Belize",
+          "Benin",
+          "Bermuda",
+          "Bhutan",
+          "Bolivien",
+          "Bosnien und Herzegowina",
+          "Botsuana",
+          "Brasilien",
+          "Britische Jungferninseln",
+          "Britisches Territorium im Indischen Ozean",
+          "Brunei Darussalam",
+          "Bulgarien",
+          "Burkina Faso",
+          "Burundi",
+          "Chile",
+          "China",
+          "Cookinseln",
+          "Costa Rica",
+          "Côte d'Ivoire",
+          "Curaçao",
+          "Dänemark",
+          "Deutschland",
+          "Dominica",
+          "Dominikanische Republik",
+          "Dschibuti",
+          "Ecuador",
+          "El Salvador",
+          "Eritrea",
+          "Estland",
+          "Eswatini",
+          "Falklandinseln",
+          "Färöer-Inseln",
+          "Fidschi",
+          "Finnland",
+          "Frankreich",
+          "Französische Südgebiete und Antarktisgebiete",
+          "Französisch-Guayana",
+          "Französisch-Polynesien, einschließlich Tahiti",
+          "Gabun",
+          "Gambia",
+          "Gazastreifen",
+          "Georgien",
+          "Ghana",
+          "Gibraltar",
+          "Grenada",
+          "Griechenland",
+          "Grönland",
+          "Guadeloupe",
+          "Guam",
+          "Guatemala",
+          "Guernsey",
+          "Guinea",
+          "Guinea-Bissau",
+          "Guyana",
+          "Haiti",
+          "Heard und McDonaldinseln",
+          "Honduras",
+          "Hongkong",
+          "Indien",
+          "Indonesien",
+          "Irak",
+          "Iran, Islamische Republik",
+          "Irland",
+          "Island",
+          "Israel",
+          "Italien",
+          "Jamaika",
+          "Japan",
+          "Jemen",
+          "Jersey",
+          "Jordanien",
+          "Jungferninseln",
+          "Kaimaninseln",
+          "Kambodscha",
+          "Kamerun",
+          "Kanada",
+          "Kanarische Inseln",
+          "Kap Verde",
+          "Kasachstan",
+          "Katar",
+          "Kenia",
+          "Kirgisistan",
+          "Kiribati",
+          "Kokosinseln (Keelinginseln)",
+          "Kolumbien",
+          "Komoren",
+          "Kongo, Demokratische Republik",
+          "Kongo, Republik",
+          "Kosovo",
+          "Kroatien",
+          "Kuba",
+          "Kuwait",
+          "Laos, Demokratische Volksrepublik",
+          "Lesotho",
+          "Lettland",
+          "Libanon",
+          "Liberia",
+          "Libyen",
+          "Liechtenstein",
+          "Litauen",
+          "Luxemburg",
+          "Macau",
+          "Madagaskar",
+          "Madeira",
+          "Malawi",
+          "Malaysia",
+          "Malediven",
+          "Mali",
+          "Malta",
+          "Marokko",
+          "Marshallinseln",
+          "Martinique",
+          "Mauretanien",
+          "Mauritius",
+          "Mayotte",
+          "Mexiko",
+          "Mikronesien, Föderierte Staaten von",
+          "Moldau, Republik",
+          "Monaco",
+          "Mongolei",
+          "Montenegro",
+          "Montserrat",
+          "Mosambik",
+          "Myanmar /Birma",
+          "Namibia",
+          "Nauru",
+          "Nepal",
+          "Neukaledonien",
+          "Neuseeland",
+          "Nicaragua",
+          "Niederlande",
+          "Niger",
+          "Nigeria",
+          "Niue",
+          "Nordkorea (Demokratische Volksrepublik Korea)",
+          "Nördliche Marianen",
+          "Nordmazedonien",
+          "Norfolkinsel",
+          "Norwegen",
+          "Oman",
+          "Österreich",
+          "Pakistan",
+          "Palau",
+          "Panama",
+          "Papua-Neuguinea",
+          "Paraguay",
+          "Peru",
+          "Philippinen",
+          "Polen",
+          "Portugal",
+          "Puerto Rico",
+          "Réunion",
+          "Ruanda",
+          "Rumänien",
+          "Russische Föderation",
+          "Saint Barthélemy",
+          "Saint-Martin",
+          "Saint-Pierre und Miquelon",
+          "Salomonen",
+          "Sambia",
+          "Samoa",
+          "San Marino",
+          "São Tomé und Príncipe",
+          "Saudi-Arabien",
+          "Schweden",
+          "Schweiz",
+          "Senegal",
+          "Serbien",
+          "Seychellen",
+          "Sierra Leone",
+          "Simbabwe",
+          "Singapur",
+          "Sint Eustatius",
+          "Sint Maarten",
+          "Slowakei",
+          "Slowenien",
+          "Somalia",
+          "Spanien",
+          "Sri Lanka",
+          "St. Helena",
+          "St. Kitts und Nevis",
+          "St. Lucia",
+          "St. Vincent und die Grenadinen",
+          "Südafrika",
+          "Sudan",
+          "Südgeorgien und die Südlichen Sandwichinseln",
+          "Südkorea (Republik Korea)",
+          "Surinam",
+          "Svalbard und Jan Mayen",
+          "Syrien",
+          "Tadschikistan",
+          "Taiwan",
+          "Tansania, Vereinigte Republik",
+          "Thailand",
+          "Togo",
+          "Tokelau",
+          "Tonga",
+          "Trinidad und Tobago",
+          "Tristan da Cunha",
+          "Tschad",
+          "Tschechische Republik",
+          "Tunesien",
+          "Türkei",
+          "Turkmenistan",
+          "Turks- und Caicosinseln",
+          "Tuvalu",
+          "Uganda",
+          "Ukraine",
+          "Ungarn",
+          "Uruguay",
+          "USA",
+          "Usbekistan",
+          "Vanuatu",
+          "Vatikanstadt",
+          "Venezuela",
+          "Vereinigte Arabische Emirate",
+          "Vereinigtes Königreich",
+          "Vietnam",
+          "Wallis und Futuna",
+          "Weihnachtsinseln",
+          "Westjordanland",
+          "Zentralafrikanische Republik",
+          "Zypern"
+        ]
+      },
+      {
+        "name": "Muster",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Abstrakt",
+          "Argyle-Muster",
+          "Bildmotive",
+          "Blätter",
+          "Bonbon-Streifen",
+          "Britische Flagge",
+          "Chevron",
+          "Dalmatinermuster",
+          "Damast",
+          "Einfarbig",
+          "Ethnisch",
+          "Farbblock",
+          "Fischgrätmuster",
+          "Flaggenmuster",
+          "Fleckenmuster",
+          "Geblümt",
+          "Geometrisch",
+          "Geparden-Muster",
+          "Gepunktet",
+          "Gestreift",
+          "Giraffenmuster",
+          "Glitzer",
+          "Hahnentritt",
+          "Herzen",
+          "Ikat",
+          "Kariert",
+          "Kreise",
+          "Krokodilmuster",
+          "Kuhfellmuster",
+          "Leopardenmuster",
+          "Mandala",
+          "Marmoriert",
+          "Marsh & Field",
+          "Naturmuster",
+          "Neon/Fluoreszent",
+          "Nordisch",
+          "Ornamente",
+          "Paisley",
+          "Palampore",
+          "Patchwork",
+          "Punktmuster",
+          "Raute",
+          "Schlangenmuster",
+          "Schnee",
+          "Schnurbatik",
+          "Schottenmuster",
+          "Straußenmuster",
+          "Strukturiert",
+          "Tarnmuster",
+          "Tartan",
+          "Tattersall",
+          "Tierfellmuster",
+          "Tigermuster",
+          "Toile-de-Jouy",
+          "Ton-in-Ton",
+          "Trellis",
+          "Tupfen",
+          "Vichy",
+          "Vollflächig",
+          "Wald",
+          "Wüste",
+          "Zebramuster",
+          "Zickzack"
+        ]
+      },
+      {
+        "name": "Herkunft",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Arzberg",
+          "Augarten",
+          "Berlin",
+          "Böhmen",
+          "Bonn",
+          "Bunzlau",
+          "Colorado",
+          "Devon",
+          "Dresden",
+          "Empoli",
+          "Ens",
+          "Eschenbach",
+          "Frankenthal",
+          "Frechen",
+          "Fürstenberg",
+          "Hampshire",
+          "Herend",
+          "Kalifornien",
+          "Karlsruhe",
+          "Köln",
+          "Langenthal",
+          "Lilienthal",
+          "Limoges",
+          "Ludwigsburg",
+          "North Carolina",
+          "Nymphenburg",
+          "Quimper",
+          "Rosenthal",
+          "Schlesien",
+          "Schottland",
+          "Schramberg",
+          "Siegburg",
+          "Sorau",
+          "Thüringen",
+          "Venedisch",
+          "Wächtersbach",
+          "Watcombe",
+          "Westerwald",
+          "Wien"
+        ]
+      },
+      {
+        "name": "Personalisieren",
+        "required": false,
+        "variation_ok": false,
+        "mode": "SELECTION_ONLY",
+        "multi": false,
+        "values": [
+          "Ja",
+          "Nein"
+        ]
+      },
+      {
+        "name": "Anzahl der Einheiten",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": []
+      },
+      {
+        "name": "Maßeinheit",
+        "required": false,
+        "variation_ok": false,
+        "mode": "SELECTION_ONLY",
+        "multi": false,
+        "values": [
+          "10ml",
+          "100ml",
+          "10g",
+          "100g",
+          "kg",
+          "L",
+          "m",
+          "m²",
+          "m³",
+          "Einheit"
+        ]
+      },
+      {
+        "name": "Original/Reproduktion",
+        "required": false,
+        "variation_ok": false,
+        "mode": "SELECTION_ONLY",
+        "multi": false,
+        "values": [
+          "Original",
+          "Reproduktion"
+        ]
+      },
+      {
+        "name": "Anleitung für Personalisierung",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": []
+      },
+      {
+        "name": "Handgefertigt",
+        "required": false,
+        "variation_ok": false,
+        "mode": "SELECTION_ONLY",
+        "multi": false,
+        "values": [
+          "Ja",
+          "Nein"
+        ]
+      },
+      {
+        "name": "Produktlinie",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Brambly Hedge",
+          "Bunnykins",
+          "Early American Prescut/EAPC",
+          "Fiesta",
+          "Fire-King",
+          "Forest Green",
+          "Hummel",
+          "Lido, Soreno",
+          "My Scene",
+          "Royal Ruby",
+          "Wexford",
+          "Whimsies"
+        ]
+      }
+    ],
+    "aspect_provenance": {
+      "Breite": {
+        "source": "verified_human_review"
+      },
+      "Hoehe": {
+        "source": "verified_human_review"
+      },
+      "Höhe": {
+        "source": "verified_human_review"
+      },
+      "Laenge": {
+        "source": "verified_human_review"
+      },
+      "Länge": {
+        "source": "verified_human_review"
+      },
+      "Produktart": {
+        "source": "verified_human_review"
+      }
+    },
+    "competitor_research": {
+      "status": "not_verified",
+      "query": "Multifunktionaler Wand Organizer",
+      "category_id": "159897",
+      "source": "ebay_buy_browse",
+      "product_facts_verified": false,
+      "candidates": [
+        {
+          "item_id": "v1|287649423343|0",
+          "seller": "martinezbshop",
+          "title": "Fernbedienungshalter, Wandhalterung, multifunktionaler magnetischer Organizer,",
+          "category_ids": [
+            "159897"
+          ],
+          "source": "https://www.ebay.de/itm/287649423343?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2BMMTgKefJvbHNv7%2FEQmKXBTJzHSQM%2B91IdoHmh8tMeSTE3OFwQ0nTRzE2CktN3zztfhXjsIzLbuYpvN06XG1597iyI0POknTl3FoiAwHkgtsonqRaBgl6pmprBemWKy3%2FVLhk6Z%2BNgLA%2FeQETMw7bC%2FiUjtu9gyjPkrEKwgEz2%2Ft4XsE8CmnWAMzkArg67BAo%3D",
+          "aspects": {
+            "Marke": "Freewindo",
+            "Produktart": "Fernbedienungshalter Wandhalterung multifunktionaler",
+            "Breite": "*",
+            "Höhe": "*",
+            "Spezifische Verwendungsmöglichkeiten für Produkt": "Halterung für Fernbedienung, Schreibwaren",
+            "Material": "Kunststoff",
+            "Besonderes Merkmal": "Faltbar",
+            "Farbe": "Schwarz",
+            "Oberflächentyp": "Unbehandelt",
+            "Befestigungsart": "Wandmontage",
+            "Länge": "4,1T x 12,3B x 7,5H cm",
+            "Anzahl der Fächer": "1",
+            "Kapazität": "3 cm",
+            "ABSCHNITT / FAMILIE": "Kleinteileaufbewahrung > Utensilienschalen",
+            "+ INFO": "Stück, TV-Fernbedienungshalter, Wandhalterung, magnetischer Sti",
+            "SKU": "732081"
+          },
+          "evidence_type": "competitor_not_supplier"
+        },
+        {
+          "item_id": "v1|398119908365|0",
+          "seller": "ferfergar2",
+          "title": "Fernbedienungshalter, Wandhalterung, multifunktionaler magnetischer Organizer,",
+          "category_ids": [
+            "159897"
+          ],
+          "source": "https://www.ebay.de/itm/398119908365?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9CLFgpEw80%2Bz4O3dM9xM2A70P1ATTU0dxLlBZ1plc0H02DgwGV3OD4SqhTpT2Sse7ktE%2BpVL6qZt5vzLMv5TzRPPZcleSPv4KF7FnVQBsota%2Bd0OS1%2BBLaQcet3zKE5%2BwtaWiBB0QhiSARwITo%2FZwqnmxRvVWXpfJaYz0IajfJJvlX%2FOqK%2BpejIDTr3sM6bzQ%3D",
+          "aspects": {
+            "Marke": "Freewindo",
+            "Produktart": "Fernbedienungshalter Wandhalterung multifunktionaler",
+            "Breite": "*",
+            "Höhe": "*",
+            "Spezifische": "Halterung",
+            "Material": "Kunststoff",
+            "Besonderes": "Faltbar",
+            "Farbe": "Schwarz",
+            "Oberflächentyp": "Unbehandelt",
+            "Befestigungsart": "Wandmontage",
+            "Länge": "4,1T",
+            "Anzahl": "2",
+            "Verwendung": "Halterung",
+            "Besondere": "Faltbar",
+            "Steckerprofil": "Wandmontage",
+            "Artikel": "4,1T",
+            "Oberflächenbehandlung": "Unbehandelt",
+            "Hersteller": "Freewindo",
+            "Herkunftsland": "China",
+            "Enthaltene": "2",
+            "ABSCHNITT / FAMILIE": "Kleinteileaufbewahrung > Utensilienschalen",
+            "+ INFO": "Stück, TV-Fernbedienungshalter, Wandhalterung, magnetischer Sti",
+            "SKU": "89634"
+          },
+          "evidence_type": "competitor_not_supplier"
+        },
+        {
+          "item_id": "v1|860096487287|0",
+          "seller": "malvashop",
+          "title": "Fernbedienungshalter, Wandhalterung, multifunktionaler magnetischer Organizer,",
+          "category_ids": [
+            "159897"
+          ],
+          "source": "https://www.ebay.de/itm/860096487287?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde8bJHcG1DsZR9uMNnoBqFTben0y47aVnmSdTRDVsQAOkwqV5LnWaHfIfoFcv03eQaBCuqDmAREPVk%2BmEwEbzqLjOKCZmT6fqvE8VnPjpOnv7LhkJLGU5ydf81cFfs1R0WKd1gRbD%2FPJkSzDmP9Mq2l4BtuqFfSdeitXTaN3UBFqyxbFcEznUs5e3di1AaAxuTM%3D",
+          "aspects": {
+            "Marke": "Freewindo",
+            "Produktart": "Fernbedienungshalter Wandhalterung multifunktionaler",
+            "Höhe": "*",
+            "Breite": "*",
+            "Spezifische Verwendungsmöglichkeiten für Produkt": "Halterung für Fernbedienung, Schreibwaren",
+            "Material": "Kunststoff",
+            "Besonderes Merkmal": "Faltbar",
+            "Farbe": "Weiß",
+            "Oberflächentyp": "Matt",
+            "Befestigungsart": "Wandmontage",
+            "Länge": "4,1T x 12,3B x 7,5H cm",
+            "Anzahl der Fächer": "1",
+            "Anzahl der Einheiten": "2.0 stück",
+            "ABSCHNITT / FAMILIE": "Kleinteileaufbewahrung > Utensilienschalen",
+            "+ INFO": "Stück, TV-Fernbedienungshalter, Wandhalterung, magnetischer Sti",
+            "SKU": "120504"
+          },
+          "evidence_type": "competitor_not_supplier"
+        },
+        {
+          "item_id": "v1|136719482901|435318192915",
+          "seller": "mrwolf.911",
+          "title": "Multifunktionaler Wandorganizer für Fernbedienungen und Handys",
+          "category_ids": [
+            "159897"
+          ],
+          "source": "https://www.ebay.de/itm/136719482901?var=435318192915&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2BYoD9kfb0gWk%2B7hhk0jZEekkvGXuUtBgEAmHADL73tQmKtjt619DIL%2Fun%2F5bsiXSqJRMnV%2F0z%2FJYNcv8mL%2BN8Cuf1EqWhcztknV92sRLZyt0Jmm1zlCUc4%2Blryj5szhgUifFRw1MDIfvSXwng5xysrqXUXJkRb00I8HxXM3C0lV4h2k8%2FEhx9hUkytkjjJpAI%3D",
+          "aspects": {
+            "Color": "B white",
+            "Number of Items in Set": "1",
+            "Size": "Medium",
+            "Material": "Plastic",
+            "Item Length": "see images",
+            "Colour": "mutli",
+            "Mounting": "Wall Mounted",
+            "Brand": "Unbranded",
+            "Type": "Storage Rack",
+            "Item Height": "see images",
+            "Features": "Adhesive, Adjustable",
+            "Item Width": "see images",
+            "Handmade": "No",
+            "Country of Origin": "China"
+          },
+          "evidence_type": "competitor_not_supplier"
+        },
+        {
+          "item_id": "v1|358801055492|0",
+          "seller": "garciashopp",
+          "title": "Fernbedienungshalter, Wandhalterung, multifunktionaler magnetischer Organizer,",
+          "category_ids": [
+            "159897"
+          ],
+          "source": "https://www.ebay.de/itm/358801055492",
+          "aspects": {
+            "Marke": "Freewindo",
+            "Produktart": "Fernbedienungshalter Wandhalterung multifunktionaler",
+            "Höhe": "*",
+            "Breite": "*",
+            "Spezifische": "Halterung",
+            "Material": "Kunststoff",
+            "Besonderes": "Faltbar",
+            "Farbe": "Weiß",
+            "Oberflächentyp": "Matt",
+            "Befestigungsart": "Wandmontage",
+            "Länge": "4,1T",
+            "Anzahl": "2",
+            "Verwendung": "Halterung",
+            "Besondere": "Faltbar",
+            "Steckerprofil": "Wandmontage",
+            "Artikel": "4,1T",
+            "Oberflächenbehandlung": "Matt",
+            "Hersteller": "Freewindo",
+            "Herkunftsland": "China",
+            "Enthaltene": "2",
+            "ABSCHNITT / FAMILIE": "Kleinteileaufbewahrung > Utensilienschalen",
+            "+ INFO": "Stück, TV-Fernbedienungshalter, Wandhalterung, magnetischer Sti",
+            "SKU": "371397"
+          },
+          "evidence_type": "competitor_not_supplier"
+        },
+        {
+          "item_id": "v1|168793603850|468062332325",
+          "seller": "muqadd-0",
+          "title": "Multifunktionaler Wandorganizer für Fernbedienungen und Handys",
+          "category_ids": [
+            "159897"
+          ],
+          "source": "https://www.ebay.de/itm/168793603850?var=468062332325&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2Bv9loHBaioDNHAfTW%2F3QeSnzmUh2c5fPG09cHQRYHre4zmbdTbBKR5F%2BkcB64RI3BNuslrHBODIJc3QHNALNHYuYCJ%2FHezWPeYsa76U4bOxsy4sk4fy9sFuiE2ZujAYKDVBUwD7V5XHbDUcNpzOsrjKagz9K%2FH3BJsyH3%2Fmp3g5EWGDEAxLqpz%2FmjG%2BFi39nI%3D",
+          "aspects": {
+            "Color": "WHITE",
+            "Size": "ONE SIZE",
+            "Material": "Plastic",
+            "Item Length": "See Description",
+            "Colour": "RANDOM",
+            "Mounting": "Wall Mounted",
+            "Brand": "Unbranded",
+            "Type": "Remote & Phone Holder",
+            "Unit Type": "Unit",
+            "Item Height": "See Description",
+            "Features": "Adjustable, Anti-Slip, Durable, Dust-proof",
+            "Country of Origin": "United Kingdom",
+            "Item Width": "See Description"
+          },
+          "evidence_type": "competitor_not_supplier"
+        },
+        {
+          "item_id": "v1|188942710700|696131737146",
+          "seller": "handybasket",
+          "title": "Multifunktionaler Wandorganizer für Fernbedienungen und Handys",
+          "category_ids": [
+            "159897"
+          ],
+          "source": "https://www.ebay.de/itm/188942710700?var=696131737146&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2BGh3LcIlXxoMxWTBX8yiutnS7T%2BuMr3rsdqRfhfocpW3JQcvqW3O9pGXyWsib%2BMGyuK1%2B1IpGg7%2Bt2epQGnYIv0nd7PrlARZIRR6Q2cULrydsEAR%2FUSS%2Bo4nHqZhI%2FO549pLyfdDxi9erv9GbyjdudOSCcwiQT53lkGiHJqBqBaZTXgS%2BcvEJM%2F8wI2FrI4p4%3D",
+          "aspects": {
+            "color": "WHITE",
+            "Mounting": "Wall Mounted",
+            "Brand": "Unbranded",
+            "Type": "Storage Rack",
+            "Size": "Medium",
+            "Item Height": "see images",
+            "Material": "Plastic",
+            "Features": "Adhesive, Adjustable",
+            "Item Length": "see images",
+            "Item Width": "see images",
+            "Handmade": "No",
+            "Country of Origin": "United Kingdom"
+          },
+          "evidence_type": "competitor_not_supplier"
+        },
+        {
+          "item_id": "v1|287516699041|589421468138",
+          "seller": "familynestemporium",
+          "title": "Aufbewahrungsbox Wandmontage Multifunktionaler Organizer Medizin Kosmetik Lippenstift",
+          "category_ids": [
+            "159897"
+          ],
+          "source": "https://www.ebay.de/itm/287516699041?var=589421468138&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde91xhNp%2B%2FiYDc1GoKk35RDIIYP0T73RSZyRVs6TT8Y9w4K%2FqNgGCysl7A3qGJXRhODP7kUOTpDTIAppsksdU0AV68SK8PrhTQYXXQhuvdZsnaboL%2BD9uBueH%2FX1LDerBU8VgGcqII4Z877adWzFjnflcLT%2B16zGzPJvtaU6lc28aWkn59WHc%2FctJVnvC%2F97Yto%3D",
+          "aspects": {
+            "Pattern": "Multi-grid",
+            "Item Height": "8 in (20.3 cm)",
+            "Item Length": "8 in (20.3 cm)",
+            "Item Width": "12 in (30.5 cm)",
+            "Type": "Compartment Bin",
+            "Brand": "Unbranded",
+            "Material": "Plastic",
+            "Size": "Medium",
+            "Features": "Durable, Space Saving",
+            "Number of Items in Set": "1",
+            "Mounting": "Wall Mounted, Free Standing",
+            "Assembly Required": "No",
+            "Number in Pack": "1",
+            "Shape": "Rectangular",
+            "Country of Origin": "China"
+          },
+          "evidence_type": "competitor_not_supplier"
+        }
+      ],
+      "suggestions": {},
+      "errors": [],
+      "skipped": [
+        {
+          "item_id": "v1|318944541097|0",
+          "code": "product_type_mismatch"
+        },
+        {
+          "item_id": "v1|197590522035|0",
+          "code": "product_type_mismatch"
+        }
+      ],
+      "own_listing_exclusion": {
+        "provided_count": 0,
+        "applied": false,
+        "complete": false,
+        "limitation": "authoritative_own_listing_inventory_not_available"
+      },
+      "completeness": {
+        "requested": 10,
+        "detail_attempts": 10,
+        "successful_independent": 8,
+        "minimum_independent": 3,
+        "sufficient_sample": true,
+        "search_complete": false
+      }
+    }
+  },
+  "shipping_quotes": {
+    "12000049355816384": {
+      "product_id": "1005005759411405",
+      "sku_id": "12000049355816384",
+      "quantity": 1,
+      "ship_to_country": "DE",
+      "currency": "EUR",
+      "cost": 1.99,
+      "service_name": "CAINIAO_FULFILLMENT_STD",
+      "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+      "delivery_estimate": {
+        "min_days": 1,
+        "max_days": 9
+      },
+      "quoted_at": "2026-11-17T07:51:34.173146+00:00",
+      "geographic_scope": "country",
+      "city": null,
+      "province": null,
+      "is_estimate": true,
+      "transaction_ready": false
+    },
+    "12000034251365164": {
+      "product_id": "1005005759411405",
+      "sku_id": "12000034251365164",
+      "quantity": 1,
+      "ship_to_country": "DE",
+      "currency": "EUR",
+      "cost": 1.99,
+      "service_name": "CAINIAO_FULFILLMENT_STD",
+      "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+      "delivery_estimate": {
+        "min_days": 1,
+        "max_days": 9
+      },
+      "quoted_at": "2026-11-17T07:51:45.609750+00:00",
+      "geographic_scope": "country",
+      "city": null,
+      "province": null,
+      "is_estimate": true,
+      "transaction_ready": false
+    }
+  },
+  "publication_context": {
+    "fulfillmentPolicyId": "263035514017",
+    "paymentPolicyId": "263035507017",
+    "returnPolicyId": "263035512017",
+    "merchantLocationKey": "default-warehouse"
+  },
+  "observed_at": "2026-11-17T07:51:31.892955+00:00",
+  "config_fingerprint": "c7a9b2157d0097adbce0703f4d81ac3cd15755cca056e5c20d8aa0a042fd7d54",
+  "source_fingerprint": "e2938256c9ecf3522083e600b1182efc60025be3a7c944435ecf3fac0c72ccea",
+  "document_evidence": {
+    "basis": "authenticated_scoped_document_review",
+    "accepted_requirements": [],
+    "satisfied_blockers": [],
+    "missing_blockers": [
+      "supplier_product_compliance_unverified",
+      "supplier_agreement_missing",
+      "manufacturer_eu_responsible_person_missing",
+      "image_rights_unverified",
+      "dispatch_origin_unverified"
+    ],
+    "errors": {
+      "supplier_product_compliance": "missing_invalid_stale_or_scope_mismatched_review",
+      "supplier_agreement": "missing_invalid_stale_or_scope_mismatched_review",
+      "manufacturer_eu_responsible_person": "missing_invalid_stale_or_scope_mismatched_review",
+      "image_rights": "missing_invalid_stale_or_scope_mismatched_review",
+      "dispatch_origin": "missing_invalid_stale_or_scope_mismatched_review"
+    },
+    "review_fingerprint": null,
+    "valid_until": null
+  },
+  "quality_contract": {
+    "version": "1",
+    "blockers": [],
+    "warnings": [
+      "optional_aspect_unknown:Marke",
+      "optional_aspect_unknown:Besonderheiten",
+      "optional_aspect_unknown:Anzahl der Teile",
+      "optional_aspect_unknown:Montage",
+      "optional_aspect_unknown:Montage erforderlich",
+      "optional_aspect_unknown:Kapazität",
+      "optional_aspect_unknown:Gewicht",
+      "optional_aspect_unknown:Herstellernummer",
+      "optional_aspect_unknown:Modell",
+      "optional_aspect_unknown:Tiefe",
+      "optional_aspect_unknown:Herstellungsmethode",
+      "optional_aspect_unknown:Herstellungsstil",
+      "optional_aspect_unknown:Größe",
+      "optional_aspect_unknown:Anzahl der Fächer",
+      "optional_aspect_unknown:Anzahl pro Packung",
+      "optional_aspect_unknown:Form",
+      "optional_aspect_unknown:Thema",
+      "optional_aspect_unknown:Stil",
+      "optional_aspect_unknown:Finish",
+      "optional_aspect_unknown:Ursprungsland",
+      "optional_aspect_unknown:Muster",
+      "optional_aspect_unknown:Herkunft",
+      "optional_aspect_unknown:Personalisieren",
+      "optional_aspect_unknown:Anzahl der Einheiten",
+      "optional_aspect_unknown:Maßeinheit",
+      "optional_aspect_unknown:Original/Reproduktion",
+      "optional_aspect_unknown:Anleitung für Personalisierung",
+      "optional_aspect_unknown:Handgefertigt",
+      "optional_aspect_unknown:Produktlinie"
+    ],
+    "coverage": {
+      "metadata_available": true,
+      "supplier_source_available": true,
+      "supplier_sku_source_available": true,
+      "aspects": [
+        {
+          "name": "Breite",
+          "required": true,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "supported"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "supported"
+            }
+          ]
+        },
+        {
+          "name": "Höhe",
+          "required": true,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "supported"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "supported"
+            }
+          ]
+        },
+        {
+          "name": "Länge",
+          "required": true,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "supported"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "supported"
+            }
+          ]
+        },
+        {
+          "name": "Produktart",
+          "required": true,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "supported"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "supported"
+            }
+          ]
+        },
+        {
+          "name": "Marke",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Besonderheiten",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Material",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "supported"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "supported"
+            }
+          ]
+        },
+        {
+          "name": "Farbe",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "supported"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "supported"
+            }
+          ]
+        },
+        {
+          "name": "Anzahl der Teile",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Montage",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Montage erforderlich",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Kapazität",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Gewicht",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Herstellernummer",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Modell",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Tiefe",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Herstellungsmethode",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Herstellungsstil",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Größe",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Anzahl der Fächer",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Anzahl pro Packung",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Form",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Thema",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Stil",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Finish",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Ursprungsland",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Muster",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Herkunft",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Personalisieren",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Anzahl der Einheiten",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Maßeinheit",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Original/Reproduktion",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Anleitung für Personalisierung",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Handgefertigt",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Produktlinie",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "missing"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Hoehe",
+          "required": false,
+          "in_category_metadata": false,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "supported"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "supported"
+            }
+          ]
+        },
+        {
+          "name": "Laenge",
+          "required": false,
+          "in_category_metadata": false,
+          "variants": [
+            {
+              "sku_id": "12000049355816384",
+              "status": "supported"
+            },
+            {
+              "sku_id": "12000034251365164",
+              "status": "supported"
+            }
+          ]
+        }
+      ],
+      "unknown_required": [],
+      "unknown_optional": [
+        "Marke",
+        "Besonderheiten",
+        "Anzahl der Teile",
+        "Montage",
+        "Montage erforderlich",
+        "Kapazität",
+        "Gewicht",
+        "Herstellernummer",
+        "Modell",
+        "Tiefe",
+        "Herstellungsmethode",
+        "Herstellungsstil",
+        "Größe",
+        "Anzahl der Fächer",
+        "Anzahl pro Packung",
+        "Form",
+        "Thema",
+        "Stil",
+        "Finish",
+        "Ursprungsland",
+        "Muster",
+        "Herkunft",
+        "Personalisieren",
+        "Anzahl der Einheiten",
+        "Maßeinheit",
+        "Original/Reproduktion",
+        "Anleitung für Personalisierung",
+        "Handgefertigt",
+        "Produktlinie"
+      ],
+      "sku_identity": [
+        {
+          "sku_id": "12000049355816384",
+          "mapping_format_valid": true,
+          "supplier_exact_match": true
+        },
+        {
+          "sku_id": "12000034251365164",
+          "mapping_format_valid": true,
+          "supplier_exact_match": true
+        }
+      ]
+    }
+  },
+  "payloads": {
+    "items": [
+      {
+        "sku": "AE-1005005759411405-12000049355816384",
+        "body": {
+          "product": {
+            "title": "Multifunktionaler Wand-Organizer für Fernbedienungen und Mobiltelefone",
+            "description": "<div style=\"font-family:Arial,sans-serif;\"><div style=\"background:#1a5276;color:#fff;font-size:11px;font-weight:bold;padding:3px 8px;border-radius:3px;display:inline-block;\">Seite 1 - Allgemeine Beschreibung</div><h2 style=\"margin:6px 0 10px;font-size:20px;\">Multifunktionaler Wand-Organizer für Fernbedienungen und Mobiltelefone</h2><table style=\"width:100%;margin:0 0 12px;\"><tr><td style=\"padding:4px;text-align:center;\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sd7f6d72c5a1b404ab3f160ff611515ccZ.jpg\" alt=\"Produktfoto\" style=\"max-width:150px;width:100%;border-radius:6px;border:1px solid #d6dbdf;\"></td><td style=\"padding:4px;text-align:center;\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S364dad79d8aa4a1e8007574dbe3ec28fQ.jpg\" alt=\"Produktfoto\" style=\"max-width:150px;width:100%;border-radius:6px;border:1px solid #d6dbdf;\"></td></tr></table><div style=\"background:#f4f6f7;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><p style=\"font-size:14px;margin:0 0 2px;\"><b>Varianten:</b> siehe Auswahl oben im Angebot.</p><ul style=\"font-size:13px;margin:0 0 0 16px;\"><li><b>Farbe:</b> Schwarz, Weiß</li></ul></div><div style=\"background:#fff;border:1px solid #1a5276;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><p style=\"font-size:13px;margin:0;\"><b>Versand &amp; Rückgabe</b><br>Neu, Versand aus dem Ausland, Lieferzeit ca. 7-15 Werktage. Rückgabe gemäß Angebotsbedingungen.</p></div><hr style=\"border:none;border-top:2px dashed #d6dbdf;margin:16px 0;\"><div style=\"background:#1a5276;color:#fff;font-size:11px;font-weight:bold;padding:3px 8px;border-radius:3px;display:inline-block;\">Seite 2 - Wichtige Produktinformationen</div><h2 style=\"margin:6px 0 10px;font-size:20px;\">Spezifikation</h2><div style=\"background:#fff;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><table style=\"width:100%;border-collapse:collapse;font-size:13px;\"><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Ursprung</td><td style=\"padding:5px 8px;\">CN (Herkunft)</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Funktion</td><td style=\"padding:5px 8px;\">Problemlose Installation</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Abteilung</td><td style=\"padding:5px 8px;\">Unisex-Erwachsene</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Material</td><td style=\"padding:5px 8px;\">Kunststoff</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Merkmal</td><td style=\"padding:5px 8px;\">BPA-freier Kunststoff</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Choice</td><td style=\"padding:5px 8px;\">yes</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;\">Verpackung</td><td style=\"padding:5px 8px;\">ca. 16 x 15 x 3 cm, ca. 0.031 kg</td></tr></table></div><div style=\"background:#fff;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><h3 style=\"margin:0 0 6px;font-size:15px;color:#1a5276;\">Paket beinhaltet</h3><p style=\"font-size:13px;margin:0;\">1x Multifunktionaler Wand-Organizer für Fernbedienungen und Mobiltelefone</p></div><div style=\"background:#f4f6f7;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><h3 style=\"margin:0 0 6px;font-size:15px;color:#1a5276;\">Hinweis</h3><p style=\"font-size:12px;margin:0;color:#666;\">Bitte beachten Sie, dass es aufgrund manueller Messung und unterschiedlicher Monitoreinstellungen zu geringfügigen Abweichungen bei Farbe und Maßen kommen kann.</p></div></div>",
+            "imageUrls": [
+              "https://ae01.alicdn.com/kf/S53999fce998440e6869e30cca881cc35l.jpg",
+              "https://ae01.alicdn.com/kf/S6ff7299de58f4c6eb073e16eccab5ae6t.jpg",
+              "https://ae01.alicdn.com/kf/Sa75ce4caa7264cf3b195a6b367475324n.jpg",
+              "https://ae01.alicdn.com/kf/S9730fb92d8534f76ad3b0fbbacf84d76D.jpg",
+              "https://ae01.alicdn.com/kf/Sae3a666a28354691b2560d4e51e38fa4N.jpg",
+              "https://ae01.alicdn.com/kf/S580e8418ddd145188ad7d0d040b92730R.jpg",
+              "https://ae01.alicdn.com/kf/Sf3340748ac8042f3a562b117ddaad60d5.jpg"
+            ],
+            "aspects": {
+              "Material": [
+                "Kunststoff"
+              ],
+              "Breite": [
+                "9,7 cm"
+              ],
+              "Hoehe": [
+                "8,6 cm"
+              ],
+              "Höhe": [
+                "8,6 cm"
+              ],
+              "Laenge": [
+                "3,6 cm"
+              ],
+              "Länge": [
+                "3,6 cm"
+              ],
+              "Produktart": [
+                "Wandhalter"
+              ],
+              "Farbe": [
+                "Weiß"
+              ]
+            }
+          },
+          "condition": "NEW",
+          "availability": {
+            "shipToLocationAvailability": {
+              "quantity": 5
+            }
+          }
+        }
+      },
+      {
+        "sku": "AE-1005005759411405-12000034251365164",
+        "body": {
+          "product": {
+            "title": "Multifunktionaler Wand-Organizer für Fernbedienungen und Mobiltelefone",
+            "description": "<div style=\"font-family:Arial,sans-serif;\"><div style=\"background:#1a5276;color:#fff;font-size:11px;font-weight:bold;padding:3px 8px;border-radius:3px;display:inline-block;\">Seite 1 - Allgemeine Beschreibung</div><h2 style=\"margin:6px 0 10px;font-size:20px;\">Multifunktionaler Wand-Organizer für Fernbedienungen und Mobiltelefone</h2><table style=\"width:100%;margin:0 0 12px;\"><tr><td style=\"padding:4px;text-align:center;\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sd7f6d72c5a1b404ab3f160ff611515ccZ.jpg\" alt=\"Produktfoto\" style=\"max-width:150px;width:100%;border-radius:6px;border:1px solid #d6dbdf;\"></td><td style=\"padding:4px;text-align:center;\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S364dad79d8aa4a1e8007574dbe3ec28fQ.jpg\" alt=\"Produktfoto\" style=\"max-width:150px;width:100%;border-radius:6px;border:1px solid #d6dbdf;\"></td></tr></table><div style=\"background:#f4f6f7;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><p style=\"font-size:14px;margin:0 0 2px;\"><b>Varianten:</b> siehe Auswahl oben im Angebot.</p><ul style=\"font-size:13px;margin:0 0 0 16px;\"><li><b>Farbe:</b> Schwarz, Weiß</li></ul></div><div style=\"background:#fff;border:1px solid #1a5276;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><p style=\"font-size:13px;margin:0;\"><b>Versand &amp; Rückgabe</b><br>Neu, Versand aus dem Ausland, Lieferzeit ca. 7-15 Werktage. Rückgabe gemäß Angebotsbedingungen.</p></div><hr style=\"border:none;border-top:2px dashed #d6dbdf;margin:16px 0;\"><div style=\"background:#1a5276;color:#fff;font-size:11px;font-weight:bold;padding:3px 8px;border-radius:3px;display:inline-block;\">Seite 2 - Wichtige Produktinformationen</div><h2 style=\"margin:6px 0 10px;font-size:20px;\">Spezifikation</h2><div style=\"background:#fff;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><table style=\"width:100%;border-collapse:collapse;font-size:13px;\"><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Ursprung</td><td style=\"padding:5px 8px;\">CN (Herkunft)</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Funktion</td><td style=\"padding:5px 8px;\">Problemlose Installation</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Abteilung</td><td style=\"padding:5px 8px;\">Unisex-Erwachsene</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Material</td><td style=\"padding:5px 8px;\">Kunststoff</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Merkmal</td><td style=\"padding:5px 8px;\">BPA-freier Kunststoff</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Choice</td><td style=\"padding:5px 8px;\">yes</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;\">Verpackung</td><td style=\"padding:5px 8px;\">ca. 16 x 15 x 3 cm, ca. 0.031 kg</td></tr></table></div><div style=\"background:#fff;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><h3 style=\"margin:0 0 6px;font-size:15px;color:#1a5276;\">Paket beinhaltet</h3><p style=\"font-size:13px;margin:0;\">1x Multifunktionaler Wand-Organizer für Fernbedienungen und Mobiltelefone</p></div><div style=\"background:#f4f6f7;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><h3 style=\"margin:0 0 6px;font-size:15px;color:#1a5276;\">Hinweis</h3><p style=\"font-size:12px;margin:0;color:#666;\">Bitte beachten Sie, dass es aufgrund manueller Messung und unterschiedlicher Monitoreinstellungen zu geringfügigen Abweichungen bei Farbe und Maßen kommen kann.</p></div></div>",
+            "imageUrls": [
+              "https://ae01.alicdn.com/kf/Sa7ff6e695d07492e9c09332818e7a780x.jpg",
+              "https://ae01.alicdn.com/kf/S6ff7299de58f4c6eb073e16eccab5ae6t.jpg",
+              "https://ae01.alicdn.com/kf/Sa75ce4caa7264cf3b195a6b367475324n.jpg",
+              "https://ae01.alicdn.com/kf/S9730fb92d8534f76ad3b0fbbacf84d76D.jpg",
+              "https://ae01.alicdn.com/kf/Sae3a666a28354691b2560d4e51e38fa4N.jpg",
+              "https://ae01.alicdn.com/kf/S580e8418ddd145188ad7d0d040b92730R.jpg",
+              "https://ae01.alicdn.com/kf/Sf3340748ac8042f3a562b117ddaad60d5.jpg"
+            ],
+            "aspects": {
+              "Material": [
+                "Kunststoff"
+              ],
+              "Breite": [
+                "9,7 cm"
+              ],
+              "Hoehe": [
+                "8,6 cm"
+              ],
+              "Höhe": [
+                "8,6 cm"
+              ],
+              "Laenge": [
+                "3,6 cm"
+              ],
+              "Länge": [
+                "3,6 cm"
+              ],
+              "Produktart": [
+                "Wandhalter"
+              ],
+              "Farbe": [
+                "Schwarz"
+              ]
+            }
+          },
+          "condition": "NEW",
+          "availability": {
+            "shipToLocationAvailability": {
+              "quantity": 5
+            }
+          }
+        }
+      }
+    ],
+    "offers": [
+      {
+        "sku": "AE-1005005759411405-12000049355816384",
+        "body": {
+          "sku": "AE-1005005759411405-12000049355816384",
+          "marketplaceId": "EBAY_DE",
+          "format": "FIXED_PRICE",
+          "availableQuantity": 5,
+          "categoryId": "159897",
+          "merchantLocationKey": "default-warehouse",
+          "listingPolicies": {
+            "fulfillmentPolicyId": "263035514017",
+            "paymentPolicyId": "263035507017",
+            "returnPolicyId": "263035512017"
+          },
+          "listingDescription": "<div style=\"font-family:Arial,sans-serif;\"><div style=\"background:#1a5276;color:#fff;font-size:11px;font-weight:bold;padding:3px 8px;border-radius:3px;display:inline-block;\">Seite 1 - Allgemeine Beschreibung</div><h2 style=\"margin:6px 0 10px;font-size:20px;\">Multifunktionaler Wand-Organizer für Fernbedienungen und Mobiltelefone</h2><table style=\"width:100%;margin:0 0 12px;\"><tr><td style=\"padding:4px;text-align:center;\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sd7f6d72c5a1b404ab3f160ff611515ccZ.jpg\" alt=\"Produktfoto\" style=\"max-width:150px;width:100%;border-radius:6px;border:1px solid #d6dbdf;\"></td><td style=\"padding:4px;text-align:center;\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S364dad79d8aa4a1e8007574dbe3ec28fQ.jpg\" alt=\"Produktfoto\" style=\"max-width:150px;width:100%;border-radius:6px;border:1px solid #d6dbdf;\"></td></tr></table><div style=\"background:#f4f6f7;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><p style=\"font-size:14px;margin:0 0 2px;\"><b>Varianten:</b> siehe Auswahl oben im Angebot.</p><ul style=\"font-size:13px;margin:0 0 0 16px;\"><li><b>Farbe:</b> Schwarz, Weiß</li></ul></div><div style=\"background:#fff;border:1px solid #1a5276;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><p style=\"font-size:13px;margin:0;\"><b>Versand &amp; Rückgabe</b><br>Neu, Versand aus dem Ausland, Lieferzeit ca. 7-15 Werktage. Rückgabe gemäß Angebotsbedingungen.</p></div><hr style=\"border:none;border-top:2px dashed #d6dbdf;margin:16px 0;\"><div style=\"background:#1a5276;color:#fff;font-size:11px;font-weight:bold;padding:3px 8px;border-radius:3px;display:inline-block;\">Seite 2 - Wichtige Produktinformationen</div><h2 style=\"margin:6px 0 10px;font-size:20px;\">Spezifikation</h2><div style=\"background:#fff;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><table style=\"width:100%;border-collapse:collapse;font-size:13px;\"><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Ursprung</td><td style=\"padding:5px 8px;\">CN (Herkunft)</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Funktion</td><td style=\"padding:5px 8px;\">Problemlose Installation</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Abteilung</td><td style=\"padding:5px 8px;\">Unisex-Erwachsene</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Material</td><td style=\"padding:5px 8px;\">Kunststoff</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Merkmal</td><td style=\"padding:5px 8px;\">BPA-freier Kunststoff</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Choice</td><td style=\"padding:5px 8px;\">yes</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;\">Verpackung</td><td style=\"padding:5px 8px;\">ca. 16 x 15 x 3 cm, ca. 0.031 kg</td></tr></table></div><div style=\"background:#fff;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><h3 style=\"margin:0 0 6px;font-size:15px;color:#1a5276;\">Paket beinhaltet</h3><p style=\"font-size:13px;margin:0;\">1x Multifunktionaler Wand-Organizer für Fernbedienungen und Mobiltelefone</p></div><div style=\"background:#f4f6f7;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><h3 style=\"margin:0 0 6px;font-size:15px;color:#1a5276;\">Hinweis</h3><p style=\"font-size:12px;margin:0;color:#666;\">Bitte beachten Sie, dass es aufgrund manueller Messung und unterschiedlicher Monitoreinstellungen zu geringfügigen Abweichungen bei Farbe und Maßen kommen kann.</p></div></div>",
+          "pricingSummary": {
+            "price": {
+              "value": "22.99",
+              "currency": "EUR"
+            }
+          }
+        }
+      },
+      {
+        "sku": "AE-1005005759411405-12000034251365164",
+        "body": {
+          "sku": "AE-1005005759411405-12000034251365164",
+          "marketplaceId": "EBAY_DE",
+          "format": "FIXED_PRICE",
+          "availableQuantity": 5,
+          "categoryId": "159897",
+          "merchantLocationKey": "default-warehouse",
+          "listingPolicies": {
+            "fulfillmentPolicyId": "263035514017",
+            "paymentPolicyId": "263035507017",
+            "returnPolicyId": "263035512017"
+          },
+          "listingDescription": "<div style=\"font-family:Arial,sans-serif;\"><div style=\"background:#1a5276;color:#fff;font-size:11px;font-weight:bold;padding:3px 8px;border-radius:3px;display:inline-block;\">Seite 1 - Allgemeine Beschreibung</div><h2 style=\"margin:6px 0 10px;font-size:20px;\">Multifunktionaler Wand-Organizer für Fernbedienungen und Mobiltelefone</h2><table style=\"width:100%;margin:0 0 12px;\"><tr><td style=\"padding:4px;text-align:center;\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sd7f6d72c5a1b404ab3f160ff611515ccZ.jpg\" alt=\"Produktfoto\" style=\"max-width:150px;width:100%;border-radius:6px;border:1px solid #d6dbdf;\"></td><td style=\"padding:4px;text-align:center;\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S364dad79d8aa4a1e8007574dbe3ec28fQ.jpg\" alt=\"Produktfoto\" style=\"max-width:150px;width:100%;border-radius:6px;border:1px solid #d6dbdf;\"></td></tr></table><div style=\"background:#f4f6f7;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><p style=\"font-size:14px;margin:0 0 2px;\"><b>Varianten:</b> siehe Auswahl oben im Angebot.</p><ul style=\"font-size:13px;margin:0 0 0 16px;\"><li><b>Farbe:</b> Schwarz, Weiß</li></ul></div><div style=\"background:#fff;border:1px solid #1a5276;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><p style=\"font-size:13px;margin:0;\"><b>Versand &amp; Rückgabe</b><br>Neu, Versand aus dem Ausland, Lieferzeit ca. 7-15 Werktage. Rückgabe gemäß Angebotsbedingungen.</p></div><hr style=\"border:none;border-top:2px dashed #d6dbdf;margin:16px 0;\"><div style=\"background:#1a5276;color:#fff;font-size:11px;font-weight:bold;padding:3px 8px;border-radius:3px;display:inline-block;\">Seite 2 - Wichtige Produktinformationen</div><h2 style=\"margin:6px 0 10px;font-size:20px;\">Spezifikation</h2><div style=\"background:#fff;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><table style=\"width:100%;border-collapse:collapse;font-size:13px;\"><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Ursprung</td><td style=\"padding:5px 8px;\">CN (Herkunft)</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Funktion</td><td style=\"padding:5px 8px;\">Problemlose Installation</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Abteilung</td><td style=\"padding:5px 8px;\">Unisex-Erwachsene</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Material</td><td style=\"padding:5px 8px;\">Kunststoff</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Merkmal</td><td style=\"padding:5px 8px;\">BPA-freier Kunststoff</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Choice</td><td style=\"padding:5px 8px;\">yes</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;\">Verpackung</td><td style=\"padding:5px 8px;\">ca. 16 x 15 x 3 cm, ca. 0.031 kg</td></tr></table></div><div style=\"background:#fff;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><h3 style=\"margin:0 0 6px;font-size:15px;color:#1a5276;\">Paket beinhaltet</h3><p style=\"font-size:13px;margin:0;\">1x Multifunktionaler Wand-Organizer für Fernbedienungen und Mobiltelefone</p></div><div style=\"background:#f4f6f7;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><h3 style=\"margin:0 0 6px;font-size:15px;color:#1a5276;\">Hinweis</h3><p style=\"font-size:12px;margin:0;color:#666;\">Bitte beachten Sie, dass es aufgrund manueller Messung und unterschiedlicher Monitoreinstellungen zu geringfügigen Abweichungen bei Farbe und Maßen kommen kann.</p></div></div>",
+          "pricingSummary": {
+            "price": {
+              "value": "23.99",
+              "currency": "EUR"
+            }
+          }
+        }
+      }
+    ],
+    "group": {
+      "inventoryItemGroupKey": "GRP-1005005759411405",
+      "title": "Multifunktionaler Wand-Organizer für Fernbedienungen und Mobiltelefone",
+      "description": "<div style=\"font-family:Arial,sans-serif;\"><div style=\"background:#1a5276;color:#fff;font-size:11px;font-weight:bold;padding:3px 8px;border-radius:3px;display:inline-block;\">Seite 1 - Allgemeine Beschreibung</div><h2 style=\"margin:6px 0 10px;font-size:20px;\">Multifunktionaler Wand-Organizer für Fernbedienungen und Mobiltelefone</h2><table style=\"width:100%;margin:0 0 12px;\"><tr><td style=\"padding:4px;text-align:center;\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sd7f6d72c5a1b404ab3f160ff611515ccZ.jpg\" alt=\"Produktfoto\" style=\"max-width:150px;width:100%;border-radius:6px;border:1px solid #d6dbdf;\"></td><td style=\"padding:4px;text-align:center;\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S364dad79d8aa4a1e8007574dbe3ec28fQ.jpg\" alt=\"Produktfoto\" style=\"max-width:150px;width:100%;border-radius:6px;border:1px solid #d6dbdf;\"></td></tr></table><div style=\"background:#f4f6f7;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><p style=\"font-size:14px;margin:0 0 2px;\"><b>Varianten:</b> siehe Auswahl oben im Angebot.</p><ul style=\"font-size:13px;margin:0 0 0 16px;\"><li><b>Farbe:</b> Schwarz, Weiß</li></ul></div><div style=\"background:#fff;border:1px solid #1a5276;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><p style=\"font-size:13px;margin:0;\"><b>Versand &amp; Rückgabe</b><br>Neu, Versand aus dem Ausland, Lieferzeit ca. 7-15 Werktage. Rückgabe gemäß Angebotsbedingungen.</p></div><hr style=\"border:none;border-top:2px dashed #d6dbdf;margin:16px 0;\"><div style=\"background:#1a5276;color:#fff;font-size:11px;font-weight:bold;padding:3px 8px;border-radius:3px;display:inline-block;\">Seite 2 - Wichtige Produktinformationen</div><h2 style=\"margin:6px 0 10px;font-size:20px;\">Spezifikation</h2><div style=\"background:#fff;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><table style=\"width:100%;border-collapse:collapse;font-size:13px;\"><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Ursprung</td><td style=\"padding:5px 8px;\">CN (Herkunft)</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Funktion</td><td style=\"padding:5px 8px;\">Problemlose Installation</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Abteilung</td><td style=\"padding:5px 8px;\">Unisex-Erwachsene</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Material</td><td style=\"padding:5px 8px;\">Kunststoff</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Merkmal</td><td style=\"padding:5px 8px;\">BPA-freier Kunststoff</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Choice</td><td style=\"padding:5px 8px;\">yes</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;\">Verpackung</td><td style=\"padding:5px 8px;\">ca. 16 x 15 x 3 cm, ca. 0.031 kg</td></tr></table></div><div style=\"background:#fff;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><h3 style=\"margin:0 0 6px;font-size:15px;color:#1a5276;\">Paket beinhaltet</h3><p style=\"font-size:13px;margin:0;\">1x Multifunktionaler Wand-Organizer für Fernbedienungen und Mobiltelefone</p></div><div style=\"background:#f4f6f7;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><h3 style=\"margin:0 0 6px;font-size:15px;color:#1a5276;\">Hinweis</h3><p style=\"font-size:12px;margin:0;color:#666;\">Bitte beachten Sie, dass es aufgrund manueller Messung und unterschiedlicher Monitoreinstellungen zu geringfügigen Abweichungen bei Farbe und Maßen kommen kann.</p></div></div>",
+      "imageUrls": [
+        "https://ae01.alicdn.com/kf/S6ff7299de58f4c6eb073e16eccab5ae6t.jpg",
+        "https://ae01.alicdn.com/kf/Sa75ce4caa7264cf3b195a6b367475324n.jpg",
+        "https://ae01.alicdn.com/kf/S9730fb92d8534f76ad3b0fbbacf84d76D.jpg",
+        "https://ae01.alicdn.com/kf/Sae3a666a28354691b2560d4e51e38fa4N.jpg",
+        "https://ae01.alicdn.com/kf/S580e8418ddd145188ad7d0d040b92730R.jpg",
+        "https://ae01.alicdn.com/kf/Sf3340748ac8042f3a562b117ddaad60d5.jpg"
+      ],
+      "aspects": {
+        "Material": [
+          "Kunststoff"
+        ],
+        "Breite": [
+          "9,7 cm"
+        ],
+        "Hoehe": [
+          "8,6 cm"
+        ],
+        "Höhe": [
+          "8,6 cm"
+        ],
+        "Laenge": [
+          "3,6 cm"
+        ],
+        "Länge": [
+          "3,6 cm"
+        ],
+        "Produktart": [
+          "Wandhalter"
+        ]
+      },
+      "variesBy": {
+        "aspectsImageVariesBy": [
+          "Farbe"
+        ],
+        "specifications": [
+          {
+            "name": "Farbe",
+            "values": [
+              "Schwarz",
+              "Weiß"
+            ]
+          }
+        ]
+      },
+      "variantSKUs": [
+        "AE-1005005759411405-12000049355816384",
+        "AE-1005005759411405-12000034251365164"
+      ]
+    }
+  }
+}

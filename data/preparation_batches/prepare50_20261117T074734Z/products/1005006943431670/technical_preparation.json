@@ -1,0 +1,380 @@
+{
+  "product_id": "1005006943431670",
+  "index": 43,
+  "checked_at": "2026-11-17T07:58:16.977183+00:00",
+  "ready_for_publication": false,
+  "remote_mutations_performed": false,
+  "errors": [],
+  "quote_count": 8,
+  "title": "20/10/ Lösbare Kabel Organizer Krawatten Maus Kopfhörer Draht Management Nylon",
+  "title_issues": [],
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "sku_rows": [
+    {
+      "sku_id": "12000038819723121",
+      "cost": 1.89,
+      "stock": 6,
+      "aspects": {
+        "Farbe": "10 Stück Grau"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sa7f50708d6684783bffc4dd07565aea3n.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006943431670",
+        "sku_id": "12000038819723121",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:18.387723+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 22.99,
+      "provisional_model_net_eur": 15.66
+    },
+    {
+      "sku_id": "12000038819723120",
+      "cost": 1.59,
+      "stock": 8,
+      "aspects": {
+        "Farbe": "10 Stück Weiß"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S3102e849908243bd9d2a2e1a7dfb410ea.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006943431670",
+        "sku_id": "12000038819723120",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:18.883696+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 21.99,
+      "provisional_model_net_eur": 15.09
+    },
+    {
+      "sku_id": "12000038819723123",
+      "cost": 2.65,
+      "stock": 18,
+      "aspects": {
+        "Farbe": "20 Stück Weiß"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S99526ebab6424a8f849d06d02ae4fef5c.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006943431670",
+        "sku_id": "12000038819723123",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:19.441218+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 23.99,
+      "provisional_model_net_eur": 15.76
+    },
+    {
+      "sku_id": "12000038819723122",
+      "cost": 1.45,
+      "stock": 7,
+      "aspects": {
+        "Farbe": "20 Stück Schwarz"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S50b9dc49bc634c7a9a7dd5fe555069caD.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006943431670",
+        "sku_id": "12000038819723122",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:19.946745+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 21.99,
+      "provisional_model_net_eur": 15.23
+    },
+    {
+      "sku_id": "12000038819723125",
+      "cost": 1.55,
+      "stock": 5,
+      "aspects": {
+        "Farbe": "5 Stück Weiß"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S196c3196da6d48e89ccd424d9d9e0eabg.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006943431670",
+        "sku_id": "12000038819723125",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:20.453802+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 21.99,
+      "provisional_model_net_eur": 15.13
+    },
+    {
+      "sku_id": "12000038819723124",
+      "cost": 2.49,
+      "stock": 4,
+      "aspects": {
+        "Farbe": "20 Stück Grau"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S1272be03909c484aa7d48f9827d25cf4S.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006943431670",
+        "sku_id": "12000038819723124",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:21.053926+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 22.99,
+      "provisional_model_net_eur": 15.06
+    },
+    {
+      "sku_id": "12000038819723126",
+      "cost": 1.39,
+      "stock": 48,
+      "aspects": {
+        "Farbe": "5 Stück Schwarz"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Se56cfc2538324052aa30a029305dd59az.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006943431670",
+        "sku_id": "12000038819723126",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:58:21.603696+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 21.99,
+      "provisional_model_net_eur": 15.29
+    },
+    {
+      "sku_id": "12000038819723119",
+      "cost": 1.89,
+      "stock": 12,
+      "aspects": {
+        "Farbe": "10 Stück Schwarz"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S3b84be370899468b950ed4ab13133b96g.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006943431670",
+        "sku_id": "12000038819723119",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:22.114395+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 22.99,
+      "provisional_model_net_eur": 15.66
+    },
+    {
+      "sku_id": "12000038819723118",
+      "cost": 1.35,
+      "stock": 8,
+      "aspects": {
+        "Farbe": "5 Stück Grau"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sa5c383c3dc9c4312a76360b18efa00ea7.jpg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "AliExpressAPIError"
+    }
+  ],
+  "category": {
+    "category_id": "65509",
+    "path": "Business & Industrie > Elektronik & Messtechnik > Kabel & Leitungen > Kabelführungssysteme > Kabelbinder, -klemmen & -clips",
+    "confidence": 0.33,
+    "needs_review": true,
+    "queries_used": 3,
+    "alternatives": [
+      [
+        "67858",
+        "Computer, Tablets & Netzwerk > Kabel & Steckverbinder > Kabelbinder & Kabelmanager",
+        1
+      ],
+      [
+        "98624",
+        "Uhren & Schmuck > Uhren, -teile & -zubehör > Zubehör > Armbänder",
+        1
+      ],
+      [
+        "88667",
+        "Foto & Camcorder > Fotostudio-Zubehör > Lampenstativ-Zubehör",
+        0
+      ]
+    ],
+    "source": "auto"
+  },
+  "supported_shared_aspects": {
+    "Material": [
+      "Nylon"
+    ]
+  },
+  "human_review_aspect_names": [],
+  "missing_required_aspects": [
+    "Produktart"
+  ],
+  "required_aspects": [
+    {
+      "name": "Produktart",
+      "values": [
+        "Aufbewahrungsbeutel",
+        "Aufbewahrungskorb",
+        "Gummi-Spannseil",
+        "Gurt",
+        "Horizontale Kabelführung",
+        "Kabelbinder",
+        "Kabelhalter",
+        "Kabelkamm",
+        "Kabelklammer",
+        "Kabelklemme(n)",
+        "Kabelschelle",
+        "Kunststoff-Kabelbinder",
+        "Lagerungshüllmaterial",
+        "Laufbahn",
+        "P-Klammer",
+        "Schlauchklemme",
+        "Spiralwicklung",
+        "Verlängerungskabel-Speicherspule",
+        "Vertikale Kabelführung",
+        "Wasserdichte Box",
+        "Zurrgurt"
+      ],
+      "mode": "FREE_TEXT"
+    }
+  ],
+  "optional_unknown_aspects": [
+    "Mantelfarbe",
+    "Marke",
+    "Zerreißfestigkeit",
+    "Finish",
+    "Herstellernummer",
+    "Anzahl der Einheiten",
+    "Maßeinheit",
+    "Länge",
+    "Breite",
+    "Durchmesser",
+    "Besonderheiten",
+    "Anzahl der Kanäle",
+    "Anzahl pro Packung",
+    "Ursprungsland",
+    "Herstellergarantie",
+    "Höhe",
+    "Haltbarkeitsgarantie",
+    "Modell"
+  ],
+  "draft_file": "product_draft.html",
+  "finished_at": "2026-11-17T07:58:24.000300+00:00"
+}

@@ -1,0 +1,68 @@
+{
+  "dimensions": {
+    "found": false,
+    "length_cm": null,
+    "width_cm": null,
+    "height_cm": null,
+    "depth_cm": null,
+    "diameter_cm": null,
+    "text": "Nur Einzel-Clip-Masse (mm) im Massblatt auf der Verpackung sichtbar, KEINE Gesamt-Verpackungsmasse (L/B/H) vorhanden: C05 15.1x9.7x20.8mm, C20 20x8x15.1mm, C32 18.1x10.9x15.1mm, B01 19.8x13.9x31mm, D02 17.9x15.9x14mm, A16 17.9x22.3x7.6mm. Set enthaelt 6 verschiedene Clip-Typen unterschiedlicher Groesse, daher kein einheitliches L/B/H fuer das Gesamtprodukt ableitbar.",
+    "confidence": 20
+  },
+  "weight": {
+    "found": false,
+    "product_weight_g": null,
+    "package_weight_g": null,
+    "text": "",
+    "confidence": 0
+  },
+  "material": {
+    "primary": "Kunststoff (Nylon/PA)",
+    "composition": ["Kunststoff"],
+    "confidence": 70,
+    "source": "vision (visuelle Materialeinschaetzung, keine Textbestaetigung)"
+  },
+  "color": {
+    "found": true,
+    "main": "Schwarz",
+    "options": ["Schwarz", "Weiss"],
+    "confidence": 90,
+    "source": "vision"
+  },
+  "capacity": {
+    "found": true,
+    "volume_liter": null,
+    "item_count": 100,
+    "load_capacity_kg": null,
+    "text": "Verpackungsaufdruck 'HE26 100PCS' sichtbar, Set aus 6 Clip-Typen (C05 20Stk, C20 20Stk, C32 10Stk, B01 10Stk, D02 20Stk, A16 20Stk)",
+    "confidence": 95
+  },
+  "features": [
+    "6 verschiedene Clip-Typen im Set (C05, C20, C32, B01, D02, A16)",
+    "100 Stueck Gesamtmenge",
+    "Push-Type Befestigungsclips fuer Karosserie, Stossstange und Tuerverkleidung",
+    "Inklusive Loese-/Entfernungswerkzeug (rot, Griff Kunststoff, Kopf Eisen) laut Bild",
+    "OE-Referenznummern angegeben: 90467-06017, 01553-0038U, 0G032-50037-A, 91503-SZS-003, 91560-SA6-003, 1605396",
+    "Aufbewahrung in durchsichtiger Sortierbox mit 6 Faechern"
+  ],
+  "brand": {
+    "name": "Besper",
+    "confidence": 95
+  },
+  "model": {
+    "number": "HE26",
+    "confidence": 90
+  },
+  "certifications": [],
+  "technical": {
+    "temperature_min_c": null,
+    "temperature_max_c": null,
+    "power_watt": null,
+    "voltage": null
+  },
+  "assembly": {
+    "required": "Nein",
+    "tools_needed": "Kein Werkzeug fuer Einbau (Push-Clip-System); Entfernungswerkzeug im Lieferumfang enthalten",
+    "time_minutes": null
+  }
+}

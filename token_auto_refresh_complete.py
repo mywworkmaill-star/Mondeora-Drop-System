@@ -11,6 +11,14 @@ import hashlib
 import time
 from datetime import datetime, timedelta
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+# Hata: both ._update_env_file() methods below used a bare open(path,'w') with no
+# lock - a real race with the main job_token_refresh() path (src/api/ebay_client.py
+# / aliexpress_client.py), which already holds src.api.credential_file.credential_lock
+# for every .env write. Reuse the same lock + atomic (tempfile+fsync+os.replace)
+# writer so this fallback path can never corrupt or race the primary one.
+from src.api.credential_file import credential_lock, atomic_write
 
 class EbayRefreshTokenToAccessToken:
     """
@@ -167,29 +175,29 @@ class EbayRefreshTokenToAccessToken:
         print(f"   📝 Updating .env file...")
         
         try:
-            # Read current .env
-            with open(self.env_file, 'r') as f:
-                lines = f.readlines()
-            
-            # Find and replace EBAY_ACCESS_TOKEN line
-            updated_lines = []
-            found = False
-            
-            for line in lines:
-                if line.startswith("EBAY_ACCESS_TOKEN="):
+            with credential_lock(self.env_file):
+                # Read current .env
+                with open(self.env_file, 'r') as f:
+                    lines = f.readlines()
+
+                # Find and replace EBAY_ACCESS_TOKEN line
+                updated_lines = []
+                found = False
+
+                for line in lines:
+                    if line.startswith("EBAY_ACCESS_TOKEN="):
+                        updated_lines.append(f"EBAY_ACCESS_TOKEN={new_token}\n")
+                        found = True
+                    else:
+                        updated_lines.append(line)
+
+                # If not found, add it
+                if not found:
                     updated_lines.append(f"EBAY_ACCESS_TOKEN={new_token}\n")
-                    found = True
-                else:
-                    updated_lines.append(line)
-            
-            # If not found, add it
-            if not found:
-                updated_lines.append(f"EBAY_ACCESS_TOKEN={new_token}\n")
-            
-            # Write back
-            with open(self.env_file, 'w') as f:
-                f.writelines(updated_lines)
-            
+
+                # Write back (locked + atomic: tempfile + fsync + os.replace)
+                atomic_write(self.env_file, ''.join(updated_lines))
+
             print(f"   ✅ .env updated successfully")
             
             # Reload environment
@@ -364,25 +372,25 @@ class AliExpressRefreshTokenToAccessToken:
         print(f"   📝 Updating .env file...")
         
         try:
-            with open(self.env_file, 'r') as f:
-                lines = f.readlines()
-            
-            updated_lines = []
-            found = False
-            
-            for line in lines:
-                if line.startswith("ALIEXPRESS_ACCESS_TOKEN="):
+            with credential_lock(self.env_file):
+                with open(self.env_file, 'r') as f:
+                    lines = f.readlines()
+
+                updated_lines = []
+                found = False
+
+                for line in lines:
+                    if line.startswith("ALIEXPRESS_ACCESS_TOKEN="):
+                        updated_lines.append(f"ALIEXPRESS_ACCESS_TOKEN={new_token}\n")
+                        found = True
+                    else:
+                        updated_lines.append(line)
+
+                if not found:
                     updated_lines.append(f"ALIEXPRESS_ACCESS_TOKEN={new_token}\n")
-                    found = True
-                else:
-                    updated_lines.append(line)
-            
-            if not found:
-                updated_lines.append(f"ALIEXPRESS_ACCESS_TOKEN={new_token}\n")
-            
-            with open(self.env_file, 'w') as f:
-                f.writelines(updated_lines)
-            
+
+                atomic_write(self.env_file, ''.join(updated_lines))
+
             print(f"   ✅ .env updated successfully")
             
             from dotenv import load_dotenv

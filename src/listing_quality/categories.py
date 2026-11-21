@@ -129,20 +129,74 @@ def aspects_for(ebay, category_id):
     return out
 
 
-def fill_aspects(meta, props):
-    """Map AliExpress German properties onto the category's aspects. Returns (aspects, missing_required)."""
-    by_name = {n.lower(): v for n, v in props}
+# Exact property aliases, not substring heuristics. Product != packaging, finish,
+# composition of accessories, or a neighbouring dimension.
+PROPERTY_ALIASES = {
+    'material': ('produktmaterial', 'hauptmaterial', 'materialzusammensetzung'),
+    'produktmaterial': ('material', 'hauptmaterial', 'materialzusammensetzung'),
+    'farbe': ('hauptfarbe',), 'hauptfarbe': ('farbe',),
+    'größe': ('produktgröße',), 'produktgröße': ('größe',),
+    'abmessungen': ('produktabmessungen',),
+    'form': ('produktform',), 'produktform': ('form',),
+    'gewicht': ('produktgewicht', 'artikelgewicht'),
+    'artikelgewicht': ('gewicht', 'produktgewicht'), 'produktgewicht': ('gewicht', 'artikelgewicht'),
+    'marke': ('markenname', 'brand'), 'hersteller': ('manufacturer',),
+    'modell': ('modellnummer',), 'herstellernummer': ('mpn',),
+}
+TITLE_PHRASE_ASPECTS = {'produktart', 'besonderheiten', 'stil', 'muster', 'form', 'design', 'thema'}
+
+
+def phrase_evidence(text, phrase):
+    """A complete bounded phrase, with conservative local negation denial."""
+    tokens = re.findall(r'\w+', str(phrase).casefold())
+    if not tokens:
+        return False
+    pattern = r'(?<!\w)' + r'\W+'.join(re.escape(t) for t in tokens) + r'(?!\w)'
+    matches = list(re.finditer(pattern, str(text or '').casefold()))
+    if not matches:
+        return False
+    for match in matches:
+        prefix = re.findall(r'\w+', str(text).casefold()[:match.start()])[-4:]
+        suffix = re.findall(r'\w+', str(text).casefold()[match.end():])[:2]
+        if any(re.fullmatch(r'nicht|ohne|kein\w*|not|no|non', word) for word in prefix):
+            return False
+        if suffix and suffix[0] in {'nein', 'no', 'nicht'}:
+            return False
+    return True
+
+
+def fill_aspects(meta, props, enrich=True, subject=''):
+    """Use exact supplier facts or bounded explicit phrases; unknowns stay missing.
+
+    No brand/manufacturer/model/barcode defaults, unit assumptions, fuzzy property
+    names or one-word overlaps with multi-word picklists. Picklist validity alone
+    is not evidence that our product has the feature.
+    """
+    by_name = defaultdict(list)
+    for name, value in props:
+        if isinstance(value, str) and value.strip():
+            by_name[str(name).casefold()].append(value)
     out, missing = {}, []
     for a in meta:
-        n = a['name']
-        v = by_name.get(n.lower())
-        if n == 'Marke':
-            v = 'Markenlos'
-        if v and a['mode'] == 'SELECTION_ONLY' and a['values'] and v not in a['values']:
-            v = None
-        if v:
-            v = v.title() if v.isupper() and len(v) > 3 else v
-            out[n] = [v[:65]]
-        elif a['required']:
-            missing.append(n)
+        name, low = a['name'], a['name'].casefold()
+        keys = (low,) + (PROPERTY_ALIASES.get(low, ()) if enrich else ())
+        values = list(dict.fromkeys(value for key in keys for value in by_name.get(key, [])))
+        # Conflicting source attributes need review, not first/last value selection.
+        if not a.get('multi') and len(values) > 1:
+            values = []
+        if low in {'gewicht', 'produktgewicht', 'artikelgewicht'}:
+            values = [v for v in values if re.search(r'\b(?:kg|g|mg|lb|lbs|oz)\b', v, re.I)]
+        picklist = a.get('values') or []
+        if a.get('mode') == 'SELECTION_ONLY' and picklist:
+            values = [candidate for value in values for candidate in picklist if value.casefold() == candidate.casefold()]
+        if not values and enrich and low in TITLE_PHRASE_ASPECTS:
+            values = [candidate for candidate in picklist if phrase_evidence(subject, candidate)]
+        if not a.get('multi') and len(values) > 1:
+            values = []
+        # Never silently truncate evidence into a different brand/model or measure.
+        values = list(dict.fromkeys(v for v in values if len(v) <= 65))
+        if values:
+            out[name] = values
+        elif a.get('required'):
+            missing.append(name)
     return out, missing

@@ -1,0 +1,128 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:200004890#Transparent gray",
+        "offer_sale_price": "3.89",
+        "sku_id": "12000045249572814",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "11.79",
+        "offer_bulk_sale_price": "3.89",
+        "sku_available_stock": 6,
+        "id": "14:200004890#Transparent gray",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Dunkelgrau",
+              "sku_image": "https://ae01.alicdn.com/kf/S69c5c7cc58c842beb3e56c47c165c61ec.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Transparent gray",
+              "property_value_id": 200004890,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:200006156#transparent",
+        "offer_sale_price": "3.29",
+        "sku_id": "12000045249572813",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "9.97",
+        "offer_bulk_sale_price": "3.29",
+        "sku_available_stock": 19,
+        "id": "14:200006156#transparent",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Pflaume",
+              "sku_image": "https://ae01.alicdn.com/kf/Sc51becb7810c493abb093b3dfe17d556M.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "transparent",
+              "property_value_id": 200006156,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "image_urls": "https://ae01.alicdn.com/kf/S19bd9c9e01784f2093fd5e0f160ebf0fi.jpeg;https://ae01.alicdn.com/kf/S69c5c7cc58c842beb3e56c47c165c61ec.jpg;https://ae01.alicdn.com/kf/S75cece4ea4e449999fc659f6ce78281bL.jpg;https://ae01.alicdn.com/kf/S5dca687774534c8f9073d1ebba14b9c9o.jpg;https://ae01.alicdn.com/kf/Sb42d80c731454e199103e4d952d0bdb6V.jpg;https://ae01.alicdn.com/kf/Sc51becb7810c493abb093b3dfe17d556M.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 11,
+    "package_height": 8,
+    "package_length": 12,
+    "gross_weight": "0.106",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005008464837668,
+    "sub_product_id": "{\"US\":3256808278522916}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S69c5c7cc58c842beb3e56c47c165c61ec.jpg\",\"style\":{\"width\":458,\"height\":458}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S19bd9c9e01784f2093fd5e0f160ebf0fi.jpeg\",\"style\":{\"width\":458,\"height\":458}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S5dca687774534c8f9073d1ebba14b9c9o.jpg\",\"style\":{\"width\":458,\"height\":458}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sb42d80c731454e199103e4d952d0bdb6V.jpg\",\"style\":{\"width\":458,\"height\":458}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S2ca08a21a8b946e798f44b373fa03f22X.jpg\",\"style\":{\"width\":458,\"height\":458}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S75cece4ea4e449999fc659f6ce78281bL.jpg\",\"style\":{\"width\":458,\"height\":458}}}]}",
+    "subject": "1 Stück transparenter Acryl-Schreibtisch-Organizer mit Schleifenakzent, langlebiger Stifthalter und Aufbewahrungskorb für Bürobedarf, Stifte und Zubehör",
+    "evaluation_count": "31",
+    "sales_count": "71",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.9",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 211114,
+    "product_id": 1005008464837668,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><img referrerpolicy=\"no-referrer\" src=\"https://ae01.alicdn.com/kf/S69c5c7cc58c842beb3e56c47c165c61ec.jpg\"><br><img referrerpolicy=\"no-referrer\" src=\"https://ae01.alicdn.com/kf/S19bd9c9e01784f2093fd5e0f160ebf0fi.jpeg\"><br><img referrerpolicy=\"no-referrer\" src=\"https://ae01.alicdn.com/kf/S5dca687774534c8f9073d1ebba14b9c9o.jpg\"><br><img referrerpolicy=\"no-referrer\" src=\"https://ae01.alicdn.com/kf/Sb42d80c731454e199103e4d952d0bdb6V.jpg\"><br><img referrerpolicy=\"no-referrer\" src=\"https://ae01.alicdn.com/kf/S2ca08a21a8b946e798f44b373fa03f22X.jpg\"><br><img referrerpolicy=\"no-referrer\" src=\"https://ae01.alicdn.com/kf/S75cece4ea4e449999fc659f6ce78281bL.jpg\"></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "CN Guangdong Province Guangzhou Yuexiu District Room 2621, Room 2621, No. 316 Huanshi Middle Road, Room C0392, 440104\n",
+    "phone": "13421096029",
+    "country_name": "China",
+    "email": "jiabaikeji111@163.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1103644022,
+    "shipping_speed_rating": "4.7",
+    "communication_rating": "4.6",
+    "store_name": "Shop1103644022 Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.5"
+  }
+}

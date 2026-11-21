@@ -1,0 +1,74 @@
+{
+  "dimensions": {
+    "found": false,
+    "length_cm": null,
+    "width_cm": null,
+    "height_cm": null,
+    "depth_cm": null,
+    "diameter_cm": null,
+    "text": "6 görselin tamamı incelendi (lifestyle/ürün çekimleri: Kuromi, Hello Kitty, My Melody figürlü kalem/makyaj fırçası tutucular). Hiçbir görselde cetvel, ölçü overlay'i veya cm/inch yazısı bulunamadı. Gerçek ölçü yok, uydurma yapılmadı.",
+    "confidence": 0
+  },
+  "weight": {
+    "found": false,
+    "product_weight_g": null,
+    "package_weight_g": null,
+    "text": "",
+    "confidence": 0
+  },
+  "material": {
+    "primary": "Kunststoff (glänzend lackiertes Harz/PVC-Optik)",
+    "composition": [
+      "Kunststoff"
+    ],
+    "confidence": 75,
+    "source": "vision"
+  },
+  "color": {
+    "found": true,
+    "main": "Mehrfarbig",
+    "options": [
+      "Schwarz/Pink (Kuromi-Design)",
+      "Weiß/Pink (Hello Kitty-Design)",
+      "Pink/Weiß (My Melody-Design)"
+    ],
+    "confidence": 90,
+    "source": "vision"
+  },
+  "capacity": {
+    "found": false,
+    "volume_liter": null,
+    "item_count": null,
+    "load_capacity_kg": null,
+    "text": "",
+    "confidence": 0
+  },
+  "features": [
+    "Stifthalter",
+    "Make-up Pinsel Aufbewahrung",
+    "Kawaii Cartoon Design",
+    "Schreibtisch-Organizer",
+    "3 Charakter-Varianten: Kuromi, Hello Kitty, My Melody",
+    "Freistehend"
+  ],
+  "brand": {
+    "name": "No-Name",
+    "confidence": 80
+  },
+  "model": {
+    "number": "",
+    "confidence": 0
+  },
+  "certifications": [],
+  "technical": {
+    "temperature_min_c": null,
+    "temperature_max_c": null,
+    "power_watt": null,
+    "voltage": null
+  },
+  "assembly": {
+    "required": "Unknown",
+    "tools_needed": "Unknown",
+    "time_minutes": null
+  }
+}

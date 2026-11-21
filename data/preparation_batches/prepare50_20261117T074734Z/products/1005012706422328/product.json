@@ -1,0 +1,60 @@
+{
+  "index": 35,
+  "product_id": "1005012706422328",
+  "db_title": "100 Stück schwarze, verdickte Plastiktüten – Supermarkt-Einkaufstüten für Takeaway, Küche, Müllaufbewahrung, Verpackung, Aufbewahrungstasche",
+  "started_at": "2026-11-17T07:53:13.709427+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "100 Stück schwarze, verdickte Plastiktüten – Supermarkt-Einkaufstüten für Takeaway, Küche, Müllaufbewahrung, Verpackung, Aufbewahrungstasche",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/Sdcd639d3c6cf4ad5955df8b6d7b40df7K.png",
+    "https://ae01.alicdn.com/kf/S452b300f3c7d437aaeb7173869c9d86aB.png",
+    "https://ae01.alicdn.com/kf/S1c513a59508243229aa8e760d5ea452d2.jpg",
+    "https://ae01.alicdn.com/kf/Scbb1a9e7746a4e24b10fe158af9c8c172.jpg",
+    "https://ae01.alicdn.com/kf/Sdd567291200c4ad5a5cf8bc70fb94e53D.jpg",
+    "https://ae01.alicdn.com/kf/Se5ba74ff1555415bbea1a484e7161483A.jpg"
+  ],
+  "main_image_dimensions": [
+    800,
+    800
+  ],
+  "main_image_file": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\products\\1005012706422328\\main.jpg",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:category_aspects_incomplete",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 7
+  },
+  "finished_at": "2026-11-17T07:53:18.971943+00:00",
+  "canonical_status": "blocked"
+}

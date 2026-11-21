@@ -1,0 +1,10 @@
+{
+  "source": "Direct user answer to the supplier-evidence question in this Telegram conversation",
+  "question_scope": "Existing wholesale/dropship agreement or invoice for previously purchased stock covering the selected products",
+  "user_answer": "Yok",
+  "qualifying_document_provided": false,
+  "readiness_effect": "supplier_agreement_missing remains unresolved",
+  "does_not_authorize_publication": true,
+  "does_not_authorize_fabricated_agreements_or_approvals": true,
+  "technical_draft_work_may_continue": true
+}

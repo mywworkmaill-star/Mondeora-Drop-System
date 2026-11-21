@@ -5,6 +5,7 @@ Yeni eBay siparişi geldiğinde veya pending AliExpress siparişi olduğunda bil
 import json
 import smtplib
 import os
+import html
 from pathlib import Path
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -132,17 +133,24 @@ class OrderNotifier:
 """
         
         for i, order in enumerate(pending_orders, 1):
+            # 🚨 SECURITY FIX (2026-11-21): order_url/shipping_address are
+            # real eBay buyer/order data inserted into this HTML file with
+            # no escaping — a buyer-controlled address containing markup, or
+            # a corrupted order_url, rendered verbatim (script execution in
+            # the operator's browser at worst, since the file opens as
+            # file://). Escape text; restrict href to http(s) only.
+            safe_url = order['order_url'] if str(order['order_url']).lower().startswith(('http://', 'https://')) else '#'
             html_content += f"""
     <div class="order-card">
         <h3>📦 Sipariş #{i}</h3>
-        <p><strong>Ürün ID:</strong> {order['product_id']}</p>
-        <p><strong>Miktar:</strong> {order['quantity']}</p>
-        <p><strong>Zaman:</strong> {order['timestamp']}</p>
+        <p><strong>Ürün ID:</strong> {html.escape(str(order['product_id']))}</p>
+        <p><strong>Miktar:</strong> {html.escape(str(order['quantity']))}</p>
+        <p><strong>Zaman:</strong> {html.escape(str(order['timestamp']))}</p>
         
-        <a href="{order['order_url']}" class="btn" target="_blank">🔗 AliExpress'te Aç</a>
+        <a href="{html.escape(safe_url, quote=True)}" class="btn" target="_blank">🔗 AliExpress'te Aç</a>
         
         <h4>📍 Teslimat Adresi:</h4>
-        <div class="address">{order['shipping_address']}</div>
+        <div class="address">{html.escape(str(order['shipping_address']))}</div>
     </div>
 """
         

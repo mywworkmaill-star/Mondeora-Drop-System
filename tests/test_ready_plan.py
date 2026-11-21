@@ -332,7 +332,7 @@ def test_full_content_gate_failures_are_returned_without_bypass(hypothetical_lis
     elif scenario == 'category':
         monkeypatch.setattr(categories, 'resolve_for_product', lambda *a: {'category_id': '12345', 'needs_review': True})
     elif scenario == 'aspects':
-        monkeypatch.setattr(categories, 'fill_aspects', lambda *a: ({}, ['test-only-secret']))
+        monkeypatch.setattr(categories, 'fill_aspects', lambda *a, **kw: ({}, ['test-only-secret']))
     elif scenario == 'images':
         monkeypatch.setattr(images, 'filter_urls', lambda urls: ([], urls))
     else:

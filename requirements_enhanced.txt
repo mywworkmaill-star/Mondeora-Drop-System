@@ -1,0 +1,24 @@
+# Original Mondeora Requirements
+ebaysdk==2.1.5
+requests==2.31.0
+python-dotenv==1.0.0
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+pandas==2.1.3
+schedule==1.2.0
+aiohttp==3.9.1
+redis==5.0.1
+Flask==3.0.0
+APScheduler==3.10.4
+cryptography==41.0.7
+beautifulsoup4==4.12.2
+lxml==4.9.3
+Pillow==12.2.0
+openpyxl==3.1.5
+defusedxml>=0.7.1
+
+# NEW AI Enhancement Tools
+headroom-ai>=0.44.0           # Context compression for AI
+composio-core>=0.7.22         # 1000+ AI tools integration
+agent-reach>=1.6.1            # AI internet access
+perplexityai>=0.46.1          # AI search API

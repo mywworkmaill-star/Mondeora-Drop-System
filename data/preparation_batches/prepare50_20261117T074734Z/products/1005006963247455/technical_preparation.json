@@ -1,0 +1,550 @@
+{
+  "product_id": "1005006963247455",
+  "index": 36,
+  "checked_at": "2026-11-17T07:58:01.045825+00:00",
+  "ready_for_publication": false,
+  "remote_mutations_performed": false,
+  "errors": [],
+  "quote_count": 10,
+  "title": "Auto-Mülleimer (mit Deckel), enthält 60 (300) Müllbeutel, kleiner",
+  "title_issues": [],
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "sku_rows": [
+    {
+      "sku_id": "12000038872485424",
+      "cost": 7.39,
+      "stock": 14171,
+      "aspects": {
+        "Farbnamen": "Weiß 3"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S14efc2cf9b9f42cb835eb29778942247P.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006963247455",
+        "sku_id": "12000038872485424",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:58:02.479938+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 28.99,
+      "provisional_model_net_eur": 15.35
+    },
+    {
+      "sku_id": "12000038872485419",
+      "cost": 6.99,
+      "stock": 27,
+      "aspects": {
+        "Farbnamen": "Rosa 2"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sb683ab30a9024c3c8afd7b187a6412bd1.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006963247455",
+        "sku_id": "12000038872485419",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:58:02.989618+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 28.99,
+      "provisional_model_net_eur": 15.75
+    },
+    {
+      "sku_id": "12000038872485418",
+      "cost": 6.19,
+      "stock": 6,
+      "aspects": {
+        "Farbnamen": "Rosa 1"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S5ae7bbd361be479b9b8d392ef0cb7479f.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006963247455",
+        "sku_id": "12000038872485418",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:03.527512+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 27.99,
+      "provisional_model_net_eur": 15.68
+    },
+    {
+      "sku_id": "12000038872485417",
+      "cost": 6.69,
+      "stock": 3,
+      "aspects": {
+        "Farbnamen": "Blau 3"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Scd559a976f7d42b2bc2b802a77d9a9c99.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006963247455",
+        "sku_id": "12000038872485417",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:58:04.028769+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 27.99,
+      "provisional_model_net_eur": 15.18
+    },
+    {
+      "sku_id": "12000038872485416",
+      "cost": 6.89,
+      "stock": 8778,
+      "aspects": {
+        "Farbnamen": "Blau 2"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sf11668cbec1a476ca2ac383542877125K.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006963247455",
+        "sku_id": "12000038872485416",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:58:04.539862+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 28.99,
+      "provisional_model_net_eur": 15.85
+    },
+    {
+      "sku_id": "12000038872485423",
+      "cost": 1.85,
+      "stock": 7621,
+      "aspects": {
+        "Farbnamen": "1 Stück Garbage Bag"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sfb8ef5e7bba8475f990641a6b4497e7ep.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006963247455",
+        "sku_id": "12000038872485423",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:58:05.063181+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 22.99,
+      "provisional_model_net_eur": 15.7
+    },
+    {
+      "sku_id": "12000038872485422",
+      "cost": 6.89,
+      "stock": 3,
+      "aspects": {
+        "Farbnamen": "Weiß 2"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Se94545a40bf847649138d2dc0f51b7ffM.jpg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "AliExpressAPIError"
+    },
+    {
+      "sku_id": "12000038872485421",
+      "cost": 6.49,
+      "stock": 2,
+      "aspects": {
+        "Farbnamen": "Weiß 1"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S70e546e6c4964c59be064a346870b82eI.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006963247455",
+        "sku_id": "12000038872485421",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:06.117390+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 27.99,
+      "provisional_model_net_eur": 15.38
+    },
+    {
+      "sku_id": "12000038872485420",
+      "cost": 7.09,
+      "stock": 3,
+      "aspects": {
+        "Farbnamen": "Rosa 3"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S7eea8b8a156e459ab94ab33764e6e068p.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006963247455",
+        "sku_id": "12000038872485420",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 10
+        },
+        "quoted_at": "2026-11-17T07:58:06.685205+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 28.99,
+      "provisional_model_net_eur": 15.65
+    },
+    {
+      "sku_id": "12000038872485415",
+      "cost": 5.89,
+      "stock": 1,
+      "aspects": {
+        "Farbnamen": "Blau 1"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S479c4ced00c141c39706db756c7f9106Z.jpg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "AliExpressAPIError"
+    },
+    {
+      "sku_id": "12000038872485414",
+      "cost": 6.99,
+      "stock": 82,
+      "aspects": {
+        "Farbnamen": "Schwarz 3"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S91e3fb5552964513b8b3c1f9e70b54deW.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006963247455",
+        "sku_id": "12000038872485414",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:07.648614+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 28.99,
+      "provisional_model_net_eur": 15.75
+    },
+    {
+      "sku_id": "12000038872485413",
+      "cost": 6.59,
+      "stock": 19,
+      "aspects": {
+        "Farbnamen": "Schwarz 2"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S3cc930259b0445b09f70b4345d32506fF.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006963247455",
+        "sku_id": "12000038872485413",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:08.146823+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 27.99,
+      "provisional_model_net_eur": 15.28
+    },
+    {
+      "sku_id": "12000038872485412",
+      "cost": 3.15,
+      "stock": 79,
+      "aspects": {
+        "Farbnamen": "Schwarz 1"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S89b0365a3ae14f2f929fee4ea994eacfP.jpg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "AliExpressAPIError"
+    }
+  ],
+  "category": {
+    "category_id": "159094",
+    "path": "Sport > Camping & Outdoor > Bekleidung > Mützen",
+    "confidence": 0.5,
+    "needs_review": false,
+    "queries_used": 4,
+    "alternatives": [
+      [
+        "20608",
+        "Möbel & Wohnen > Haushalt > Haushaltswaren > Müll- & Abfalleimer",
+        1
+      ],
+      [
+        "20593",
+        "Heimwerker > Fenster, Türen & Treppen > Türen & Türbeschläge > Sonstige",
+        1
+      ],
+      [
+        "41511",
+        "Möbel & Wohnen > Dekoration > Bilder & Drucke",
+        0
+      ]
+    ],
+    "source": "auto"
+  },
+  "supported_shared_aspects": {
+    "Material": [
+      "ABS"
+    ]
+  },
+  "human_review_aspect_names": [],
+  "missing_required_aspects": [
+    "Marke"
+  ],
+  "required_aspects": [
+    {
+      "name": "Marke",
+      "values": [
+        "Markenlos",
+        "Adidas",
+        "ALUGAS",
+        "Arc'teryx",
+        "Army Surplus",
+        "ASICS",
+        "Baleno",
+        "Behr",
+        "Berghaus",
+        "Black Diamond",
+        "BLACKHAWK!",
+        "Black Mountain",
+        "Borneo",
+        "Browning",
+        "Browning Camping",
+        "Buff",
+        "Burton",
+        "Cabela's",
+        "Campagnolo",
+        "Carhartt",
+        "Champion",
+        "Coghlan's",
+        "Columbia",
+        "Craghoppers",
+        "Crane",
+        "Dale of Norway",
+        "Dare 2B",
+        "Deproc",
+        "Drymax",
+        "Eddie Bauer",
+        "EMS",
+        "ERIMA",
+        "FILA",
+        "Fjällräven",
+        "Fox River",
+        "Gonso",
+        "GORE-TEX",
+        "H2O",
+        "Haglöfs",
+        "Helly Hansen",
+        "Highlander",
+        "Hi-Tec",
+        "Hummel",
+        "Icepeak",
+        "Injinji",
+        "Jack Wolfskin",
+        "JAKO",
+        "Kappa",
+        "Karrimor",
+        "Kelty",
+        "Killtec",
+        "Klättermusen",
+        "L.L. Bean",
+        "LÖFFLER",
+        "Lowe Alpine",
+        "Mammut",
+        "Marmot",
+        "Maxpedition",
+        "Meindl",
+        "Minus33",
+        "Mossy Oak",
+        "Mountain Equipment",
+        "Mountain Hardwear",
+        "Mr. Heater",
+        "Naturehike",
+        "Nike",
+        "O'Neill",
+        "Odlo",
+        "Outdoor Research",
+        "Páramo",
+        "Patagonia",
+        "Pearl Izumi",
+        "prAna",
+        "PUMA",
+        "Quechua",
+        "RAB",
+        "Reebok",
+        "Regatta",
+        "REI",
+        "RockBros",
+        "Rohan",
+        "Rothco",
+        "Royal Robbins",
+        "Rucanor",
+        "SALEWA",
+        "Salomon",
+        "Schöffel",
+        "Schwarz",
+        "Seattle",
+        "Sierra Designs",
+        "Slazenger",
+        "Snugpak",
+        "Sprayway",
+        "Stansport",
+        "Stearns",
+        "Tarphat",
+        "Tchibo",
+        "TCM",
+        "The North Face",
+        "Thinsulate",
+        "Timberland",
+        "Tourbon",
+        "Trekmates",
+        "Under armour",
+        "VAUDE",
+        "Walls",
+        "White Sierra",
+        "Wigwam",
+        "Woolrich",
+        "Ziener"
+      ],
+      "mode": "FREE_TEXT"
+    }
+  ],
+  "optional_unknown_aspects": [
+    "Produktart",
+    "Abteilung",
+    "Farbe",
+    "Modell",
+    "Herstellernummer",
+    "Ursprungsland",
+    "Anzahl der Einheiten",
+    "Haltbarkeitsgarantie",
+    "Maßeinheit"
+  ],
+  "draft_file": "product_draft.html",
+  "finished_at": "2026-11-17T07:58:10.336905+00:00"
+}

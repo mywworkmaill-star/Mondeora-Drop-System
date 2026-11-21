@@ -1,0 +1,62 @@
+{
+  "index": 27,
+  "product_id": "1005005921446741",
+  "db_title": "1PC PP Desktop Doppel Schicht Lagerung Rack Rechteckige Weiß Organisation Student Schreibtisch Büro Kosmetik Schreibwaren",
+  "started_at": "2026-11-17T07:53:02.547315+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "1PC PP Desktop Doppel Schicht Lagerung Rack Rechteckige Weiß Organisation Student Schreibtisch Büro Kosmetik Schreibwaren",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [
+      "cosmetics_food_supplement"
+    ],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/See10656594ec4fcab2fec8fd929b2cf0o.jpg",
+    "https://ae01.alicdn.com/kf/S1e8153ddb6134b469e08a2bf7e723a46m.jpg",
+    "https://ae01.alicdn.com/kf/S98f055b7603c441081098b20c5514e38C.jpg",
+    "https://ae01.alicdn.com/kf/S51201c649cb94fa7a2a90f1654de7b71z.jpg",
+    "https://ae01.alicdn.com/kf/Sc5de7bece2dc48ab871aec546d35cca5R.jpg",
+    "https://ae01.alicdn.com/kf/S3c22dd17eb084163ae48d1c277eafdaeA.jpg"
+  ],
+  "main_image_dimensions": [
+    800,
+    800
+  ],
+  "main_image_file": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\products\\1005005921446741\\main.jpg",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:category_unapproved",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 4
+  },
+  "finished_at": "2026-11-17T07:53:06.070511+00:00",
+  "canonical_status": "blocked"
+}

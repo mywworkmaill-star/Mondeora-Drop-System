@@ -1,83 +1,594 @@
 {
- "_comment": "Reviewed category decisions (made from real Taxonomy API candidates). Takes precedence over auto-resolve. level: high|medium|low. blocked=true means do NOT list/modify until a human resolves it.",
- "1005009759780480": {
-  "blocked": true,
-  "note": "IDENTITY MISMATCH: DB/eBay title is a wireless charger, supplier product is an under-sink organizer. Resolve before any change."
- },
- "1005009030953454": {
-  "category_id": "180933",
-  "path": "Beauty & Gesundheit > Pflege- & Medizinischer Bedarf > Antistressbälle",
-  "level": "medium",
-  "note": "anti-stress squeeze toy, 14+; was wrongly in cat toys"
- },
- "1005011535580954": {
-  "category_id": "180933",
-  "path": "Beauty & Gesundheit > Pflege- & Medizinischer Bedarf > Antistressbälle",
-  "level": "medium",
-  "note": "soap-ball stress ball; auto picked Stückseife (wrong)"
- },
- "1005012150397874": {
-  "category_id": "180933",
-  "path": "Beauty & Gesundheit > Pflege- & Medizinischer Bedarf > Antistressbälle",
-  "level": "medium",
-  "note": "butter-stick fidget"
- },
- "1005006907344602": {
-  "category_id": "177791",
-  "path": "Haustierbedarf > Hunde > Spielzeug",
-  "level": "high",
-  "note": "dog ball; was in cat toys"
- },
- "1005008934128730": {
-  "category_id": "46305",
-  "path": "Haustierbedarf > Hunde > Körper- & Fellpflege > Bürsten, Kämme & Harken",
-  "level": "high",
-  "note": "pet-hair removal mitt; real eBay.de listings: 60x 46305 vs 4x Fusselrollen (market evidence)"
- },
- "1005010502345197": {
-  "category_id": "19187",
-  "path": "Spielzeug > Puzzles & Geduldspiele > Geduldspiele",
-  "level": "medium",
-  "note": "stainless steel cage puzzle"
- },
- "1005006848509888": {
-  "category_id": "69221",
-  "path": "Folienschweißgeräte",
-  "level": "medium",
-  "note": "mini handheld bag sealer; real category exists (8 live listings). Required aspect 'Modell' must be filled before publish"
- },
- "1005012671339401": {
-  "blocked": true,
-  "note": "NOT a cat toy: 3-colour LASER POINTER. Category 14954 Laserpointer needs aspect 'Laserklassen' (unknown) and laser pointers are legally restricted for consumers in DE/EU. Recommend withdrawing the listing."
- },
- "1005007756879885": {
-  "category_id": "116394",
-  "path": "Haustierbedarf > Hunde > Hygiene & Gesundheit > Mundhygiene",
-  "level": "high",
-  "note": "correct (60 real listings) but category does not allow Farbe variations; proposal: single listing, assorted colour"
- },
- "1005010397611220": {
-  "category_id": "19183",
-  "path": "Spielzeug > Puzzles & Geduldspiele > Puzzles",
-  "level": "reviewed",
-  "note": "Kids wooden puzzle toy (cat-shaped pieces, not a pet product). Real eBay taxonomy category where \"Farbe\" (Color) is a variation-enabled aspect (verified via get_item_aspects_for_category); the first candidate 9167 Holzspielzeug/Sonstige only allows Herstellernummer as variation aspect."
- },
- "1005010184187117": {
-  "category_id": "46283",
-  "path": "Möbel & Wohnen > Kochen & Genießen > Ordnung & Aufbewahrung > Halter/Ständer & Küchenleisten",
-  "level": "medium",
-  "note": "wall-mounted kitchen trash-bag holder/dispenser; auto-resolve picked this same category but only 0.25 confidence (low keyword agreement across taxonomy queries). Alternatives (Aufbewahrungsbeutel, Seifenschalen, Solarenergie-Zubehör) are clear semantic mismatches for a kitchen wall holder; this is the real best fit."
- },
- "1005007907908369": {
-  "category_id": "46283",
-  "path": "Möbel & Wohnen > Kochen & Genießen > Ordnung & Aufbewahrung > Halter/Ständer & Küchenleisten",
-  "level": "medium",
-  "note": "kitchen paper-towel/tissue holder (title explicitly says Küche/kitchen). Auto-resolve chose 25452 Kosmetiktücherboxen (bathroom facial-tissue box covers) at 0.25 confidence - wrong room/use. Same holder/stand category as the other wall-mount kitchen organizers in this niche batch is the correct real fit."
- },
- "1005012245151213": {
-  "category_id": "130142",
-  "path": "Heimwerker > Werkstattausrüstung > Werkzeugkoffer & Lagersysteme > Kleinteilemagazine & Stapelboxen",
-  "level": "high",
-  "note": "plastic screw/hardware organizer box; auto-resolve picked kitchen holders (46283, 0.25 conf, wrong). This was the real alternative #3 from the same taxonomy query (1 vote) and is an exact semantic match: 'Kleinteilemagazine' literally matches the title's own 'Kleinteile und Hardware'."
- }
+  "1005004970036864": {
+    "category_id": "43504",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Kunststoff Taschen Spender/Hängen Lagerung Beutel ve görselde alttan poşet çekilen asılı file torba aynı işlevdedir. Plastiktütenspender gerçek kategori sözlüğünde de bulunur; malzeme veya boyut tahmin edilmedi.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Aufbewahrungsbeutel & -taschen",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005005193534554": {
+    "category_id": "67858",
+    "level": "auto_confirmed",
+    "note": "Auto-confirmed by listing_standards_resolve on 2026-11-15T22:20:37.996065+00:00: real taxonomy resolution (confidence=1.0) matches the current live offer category_id. Not an eBay write; local bookkeeping only.",
+    "path": "Computer, Tablets & Netzwerk > Kabel & Steckverbinder > Kabelbinder & Kabelmanager"
+  },
+  "1005005385299054": {
+    "category_id": "262164",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Ham Artikeltyp=Befestigung und Clip, ürün başlığı ve kutulu klips görseli doğrudan karoseri Halterungen, Befestigungen & Montageteile yaprağına uyar. Gerçek FREE_TEXT şemaya ürünün gerçek türü Befestigungsclip olarak aktarılır. Besper marka kanıtı Hersteller üretici kanıtı yerine kullanılmadı.",
+    "path": "Auto & Motorrad: Teile > Autoteile & Zubehör > Karosserie-, Anbauteile & Zubehör > Halterungen, Befestigungen & Montageteile",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005005504286671": {
+    "category_id": "43504",
+    "level": "high",
+    "note": "Kleideraufbewahrungstasche; fixed LIVE on eBay 2026-11-15 (was wrongly 79686 Grill-Abdeckhauben) via fix_miscategorized_listings.py, never added here - same from-scratch re-prepare risk as 1005005995498062.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Aufbewahrungsbeutel & -taschen"
+  },
+  "1005005654202459": {
+    "category_id": "67858",
+    "level": "auto_confirmed",
+    "note": "Auto-confirmed by listing_standards_resolve on 2026-11-15T22:00:44.418066+00:00: real taxonomy resolution (confidence=0.67) matches the current live offer category_id. Not an eBay write; local bookkeeping only.",
+    "path": "Computer, Tablets & Netzwerk > Kabel & Steckverbinder > Kabelbinder & Kabelmanager"
+  },
+  "1005005759411405": {
+    "category_id": "159897",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Fernbedienungen ve Mobiltelefone der; fotoğraf bu eşyalar için açık tutucu cepler gösterir. Kumandanın kendisi değil; Boxen içindeki gerçek Fernbedienungshalter türü uygundur.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Boxen",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005005921446741": {
+    "category_id": "3199",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Desktop Doppel Schicht Lagerung Rack, ham Anzahl der Ebenen=DOPPEL ve Installationsart=Stehender Typ; görselde açık raf katları vardır. Kutudan farklı bir raf olduğu net; raf bölmesi sayısı ve boyutlar ayrı zorunlu kanıt olarak açık bırakıldı.",
+    "path": "Möbel & Wohnen > Möbel > Regale & Aufbewahrung",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005005995498062": {
+    "category_id": "43504",
+    "level": "high",
+    "note": "Auto Mesh Organizer (Kofferraum-/Rücksitz-Netztasche); fixed LIVE on eBay 2026-11-15 (was wrongly 39019 Holzspalter/log splitters) via fix_miscategorized_listings.py, but that fix only PUT the live offer/inventory_item - it was never added here, so a from-scratch re-prepare would resolve back to 39019. Group aspects already set live: Produktart=Netzaufbewahrungsbeutel, Material=Nylon, Laenge/Breite/Hoehe=21/9/4cm.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Aufbewahrungsbeutel & -taschen"
+  },
+  "1005006116459385": {
+    "category_id": "20654",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Getreide Lagerung/Gläser, ham Lebensmittelkontakt erforderlich=Ja ve fotoğraftaki kapaklı kuru gıda kapları Vorratsgefäße & -gläser ile doğrudan örtüşür. Taxonomy ilk önerisi farklı gelse de semantik uygunluk nettir. Set miktarı, yükseklik ve uygunluk belgesi doldurulmadı.",
+    "path": "Möbel & Wohnen > Kochen & Genießen > Ordnung & Aufbewahrung > Vorratsgefäße & -gläser",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005006232978114": {
+    "category_id": "43504",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Vakuum-Aufbewahrungsbeutel mit Ventil ve fotoğraftaki valfli poşetler eşleşir. Birden fazla ölçü seçeneği bulunduğundan tek boyut tüm SKUlara yazılmadı.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Aufbewahrungsbeutel & -taschen",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005006266383463": {
+    "category_id": "43504",
+    "level": "high",
+    "note": "Haushalt Aufbewahrungstasche; fixed LIVE on eBay 2026-11-15 (was wrongly a Koerbe/Blumentoepfe-style category) via fix_miscategorized_listings.py, never added here - same from-scratch re-prepare risk.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Aufbewahrungsbeutel & -taschen"
+  },
+  "1005006830218955": {
+    "category_id": "159897",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Schmuckschatulle/Organizer-Box ve ham Artikeltyp=Schmuckverpackung und -präsentation, görseldeki şeffaf bölmeli kutuyla tutarlıdır. Genel Boxen yaprağı ürünü kapsar. Kaynaktaki sıfır uzunluk/genişlik/yükseklik gerçek ölçü olarak kabul edilmedi.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Boxen",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005006848509888": {
+    "category_id": "69221",
+    "level": "medium",
+    "note": "mini handheld bag sealer; real category exists (8 live listings). Required aspect 'Modell' must be filled before publish",
+    "path": "Folienschweißgeräte"
+  },
+  "1005006907344602": {
+    "category_id": "177791",
+    "level": "high",
+    "note": "dog ball; was in cat toys",
+    "path": "Haustierbedarf > Hunde > Spielzeug"
+  },
+  "1005006943431670": {
+    "category_id": "67858",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Maus/Kopfhörer Draht Management ve ham Form=Cable Ties, görselde masa kablosu tutan bantlar gösterir. Taze tam başlık Taxonomy sorgusu da 67858 döndürdü. Mevcut endüstriyel kablo kategorisi aynı ailede olsa da tüketici bilgisayar çevre birimi düzenleyicisi için 67858 daha kesin bağlamdır; bu seçim varyant/ölçü kapısını atlamak için yapılmadı. 41 ile olası tekrar ayrı inceleme olarak korunur.",
+    "path": "Computer, Tablets & Netzwerk > Kabel & Steckverbinder > Kabelbinder & Kabelmanager",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005006963247455": {
+    "category_id": "180117",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Auto-Mülleimer ve fotoğraf kapaklı araç çöp kutusunu gösterir. Kamp şapkası kategorisi açıkça yanlıştır; araç içi Aufbewahrung & Organisation > Müll- & Abfalleimer yaprağı doğrudur. SUITU marka alanı üreticiye dönüştürülmedi, poşet miktarı ortaklaştırılmadı.",
+    "path": "Auto & Motorrad: Teile > Autoteile & Zubehör > Innenausstattung > Aufbewahrung & Organisation > Müll- & Abfalleimer",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005007047539173": {
+    "category_id": "22696",
+    "level": "auto_confirmed",
+    "note": "Auto-confirmed by listing_standards_resolve on 2026-11-16T16:20:12.777081+00:00: real taxonomy resolution (confidence=0.67) matches the current live offer category_id. Not an eBay write; local bookkeeping only.",
+    "path": "Sport > Angelsport > Zubehör > Ködereimer"
+  },
+  "1005007070511540": {
+    "category_id": "67858",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Kabel-Organizer mit Klettverschluss/Kabelbinder ve fotoğraftaki cırtlı sarma şeridi aynı kablo sabitleme işlevine sahiptir. Klettkabelverbinder gerçek tür değeridir; 5 m tüm uzunluk varyantlarına ortaklaştırılmadı.",
+    "path": "Computer, Tablets & Netzwerk > Kabel & Steckverbinder > Kabelbinder & Kabelmanager",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005007164564054": {
+    "category_id": "67858",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Kabelbinder/verstellbar ve fotoğraf masa altındaki kabloları tutan bantlar gösterir. Mevcut Kabelbinder türü geniş ve kanıtlıdır. Ham drahtlose Funktionalität=Ja değeri pasif kablo bağına özellik olarak taşınmadı. 43 ile benzerlik ürünleri birleştirmek için kullanılmadı.",
+    "path": "Computer, Tablets & Netzwerk > Kabel & Steckverbinder > Kabelbinder & Kabelmanager",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005007203879191": {
+    "category_id": "25453",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Schutzhalter-Etui/Tragbare Zahnpasta-Zahnbürsten, ham Modellnummer=Travel Dental Storage ve görsel kapaklı seyahat kutularını gösterir. FREE_TEXT Produktart altında Zahnbürstenetui gerçek biçimi korur; diş fırçası/macunun dahil olduğu varsayılmaz. Size=19.6*6cm hangi eBay ölçü alanına karşılık geldiği kanıtlanmadığından ölçüye aktarılmadı.",
+    "path": "Möbel & Wohnen > Badezimmer > Badezimmerzubehör > Becher & Zahnbürstenhalter",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005007238983224": {
+    "category_id": "159897",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık TV Fernbedienung/Handy ve ham Typ=Wandhalter der; görsel duvara takılan eşya cepleridir. Doğru kategori altında öneri Fernbedienungshalter; 1–4 paket seçenekleri tek adet olarak birleştirilmez.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Boxen",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005007370571569": {
+    "category_id": "36024",
+    "level": "auto_confirmed",
+    "note": "Auto-confirmed by listing_standards_resolve on 2026-11-15T22:04:32.210312+00:00: real taxonomy resolution (confidence=0.75) matches the current live offer category_id. Not an eBay write; local bookkeeping only.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Wand-, Türgarderoben & Haken"
+  },
+  "1005007412668346": {
+    "category_id": "67858",
+    "level": "auto_confirmed",
+    "note": "Auto-confirmed by listing_standards_resolve on 2026-11-15T22:02:19.415016+00:00: real taxonomy resolution (confidence=0.75) matches the current live offer category_id. Not an eBay write; local bookkeeping only.",
+    "path": "Computer, Tablets & Netzwerk > Kabel & Steckverbinder > Kabelbinder & Kabelmanager"
+  },
+  "1005007462620040": {
+    "category_id": "36413",
+    "level": "auto_confirmed",
+    "note": "Auto-confirmed by listing_standards_resolve on 2026-11-15T22:09:55.272917+00:00: real taxonomy resolution (confidence=0.5) matches the current live offer category_id. Not an eBay write; local bookkeeping only.",
+    "path": "Beauty & Gesundheit > Make-up > Make-up Taschen & Koffer"
+  },
+  "1005007530439463": {
+    "category_id": "36024",
+    "level": "auto_confirmed",
+    "note": "Auto-confirmed by listing_standards_resolve on 2026-11-18T05:20:18.260289+00:00: real taxonomy resolution (confidence=0.6) matches the current live offer category_id. Not an eBay write; local bookkeeping only.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Wand-, Türgarderoben & Haken"
+  },
+  "1005007547820639": {
+    "category_id": "113043",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Ham Artikeltyp=Reisetaschen ve başlık Reisetasche, görselde saplı seyahat çantasıyla tutarlıdır. Ev saklama kutusu değildir. Gerçek Reisetaschen şemasında Produktart alanı yok; eski yanlış kategorinin eksik Produktart/ölçü şartını sahte değerle kapatmak yerine doğru şema kaydedildi. El bagajı/havayolu uyumu onaylanmadı.",
+    "path": "Reisen > Reisekoffer & -taschen > Reisetaschen",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005007584828356": {
+    "blocked": true,
+    "category_id": "36024",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "medium",
+    "note": "Unresolved factual category/identity review. Görsel katlanan anahtar demetini taşıyan elde/cepte kullanılan organizerdir; mevcut duvar/gardırop kancası seçiminin wall-mount gerekçesi fiziksel ürüne aykırı. Ham Artikeltyp=Schlüsselbörse ve Geschlecht=Unisex; genel Schlüsselanhänger için Herren/Damen ayrımı ile ticari Schlüsselhalter yönetim kategorisi arasında net yaprak eşleşmesi doğrulanamadı. Araç anahtarı/otomobil merchandise olduğuna kanıt da yok. Doğru kategori kesinleşmeden Produktart doldurulmaz.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Wand-, Türgarderoben & Haken"
+  },
+  "1005007659052613": {
+    "blocked": true,
+    "category_id": "159897",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "medium",
+    "note": "Unresolved factual category/identity review. Başlık ve ham Material/Rahmenmaterial=Kunststoff şeffaf plastik ürünü tarif eder; ana fotoğraf tel/çubuk iskeletli bölmeli ürün gösterir. Görünüşten metal malzeme atanmadı. Genel Boxen kategorisi iki biçimi de kapsayabilir ancak hangi fiziksel model/SKUya ait olduğu belirsizdir; mevcut plastik ve ölçü değerleri bu çalışmada onaylanmadı. Yeni kategori/Produktart önerisi yok.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Boxen"
+  },
+  "1005007705527057": {
+    "category_id": "159897",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Ham Typ=Speicherkasten und Behälter, başlık Aufbewahrungsbox ve açık kutular görseli tutarlıdır. 10 Stück başlığı bütün SKU paketlerinin ortak adedi sayılmadı.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Boxen",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005007756879885": {
+    "category_id": "116394",
+    "level": "high",
+    "note": "correct (60 real listings) but category does not allow Farbe variations; proposal: single listing, assorted colour",
+    "path": "Haustierbedarf > Hunde > Hygiene & Gesundheit > Mundhygiene"
+  },
+  "1005007907908369": {
+    "category_id": "20643",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Küche Papier Handtuch Halter, ham Typ=Papierhalter ve görselde rulo taşıyan kol doğrudan Küchenrollenhalter kategorisini destekler. Genel mutfak stant kategorisi yerine işlevsel yaprak kategori seçildi.",
+    "path": "Möbel & Wohnen > Kochen & Genießen > Ordnung & Aufbewahrung > Küchenrollenhalter",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005008059797629": {
+    "category_id": "36024",
+    "level": "medium",
+    "note": "wall-mounted storage shelf; auto-resolve picked this same category but only 0.25 confidence.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Wand-, Türgarderoben & Haken"
+  },
+  "1005008119002572": {
+    "category_id": "31385",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Aufbewahrungsregal ve Badezimmer-Wandhalterung der; görsel depolama rafı/cepleri ile saç kurutucu yuvasını birlikte gösterir. Salt askı/kanca değil, banyo duvar rafıdır. Raf bölmesi sayısı ve ölçüler doldurulmadı.",
+    "path": "Möbel & Wohnen > Badezimmer > Badezimmerzubehör > Badezimmerregale",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005008222543759": {
+    "category_id": "67858",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Kabel Organizer Clips/Klemme ve ham Eigenschaften=Kabelclip, fotoğraftaki kabloyu kavrayan klipslerle tutarlıdır. Gerçek Kabelklemme(n) değeri seçildi. 10/20/50 adet ve farklı uzunluklar tek ortak değere çevrilmedi.",
+    "path": "Computer, Tablets & Netzwerk > Kabel & Steckverbinder > Kabelbinder & Kabelmanager",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005008223937342": {
+    "category_id": "67858",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Kabelbinder/Zip Clips/Tie Wraps ve görselde ayarlanabilir bağlar aynı işlevdedir. 4/12/20 paketleri birbirine dönüştürülmedi.",
+    "path": "Computer, Tablets & Netzwerk > Kabel & Steckverbinder > Kabelbinder & Kabelmanager",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005008290283020": {
+    "category_id": "127609",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Schreibtisch-Organizer/Caddy ve görselde kalem, not kâğıdı ve küçük eşyalar için farklı bölmeler bulunur. Ablagen & Sortierstationen içindeki Schreibtisch-Organizer, genel ev kutusundan daha kesin işlev eşleşmesidir.",
+    "path": "Büro & Schreibwaren > Schulbedarf > Schreibtischzubehör > Ablagen & Sortierstationen",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005008387790553": {
+    "category_id": "127610",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Ham Typ=Stift Halter, Modellnummer=Pen Holders ve başlık rotierender Stifthalter; görsel kalemlik kullanımıyla tutarlı. Saklama bezi/çantası değildir. Tema/yaş/oyuncak sınıfı veya dönme işlevinin test edildiği iddia edilmedi.",
+    "path": "Büro & Schreibwaren > Schulbedarf > Schreibtischzubehör > Stiftebecher & -Boxen",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005008464837668": {
+    "category_id": "127610",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Stifthalter/Bürobedarf/Stifte ve gerçek fotoğrafta kalem dolu açık üstlü kap vardır. Make-up çantası değildir; Stiftebecher & -Boxen türü daha doğrudan uyar. Akrilik materyal veya renk eklenmedi.",
+    "path": "Büro & Schreibwaren > Schulbedarf > Schreibtischzubehör > Stiftebecher & -Boxen",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005008684706431": {
+    "category_id": "36024",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Waschbecken Haken/Becken lagerung Rack ve ham Modellnummer=Washbasin Hook, görselde duvara katlanan kancayla eşleşir. Aufbewahrungshaken gerçek kategori sözlüğüne ve ürün işlevine uyar. Paslanmazlık, metal bileşimi veya paket adedi eklenmedi.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Wand-, Türgarderoben & Haken",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005008737280563": {
+    "category_id": "42362",
+    "level": "auto_confirmed",
+    "note": "Auto-confirmed by listing_standards_resolve on 2026-11-17T17:20:17.515082+00:00: real taxonomy resolution (confidence=0.5) matches the current live offer category_id. Not an eBay write; local bookkeeping only.",
+    "path": "Heimwerker > Werkstattausrüstung > Werkzeugkoffer & Lagersysteme > Werkzeuggürtel & -taschen"
+  },
+  "1005008833344507": {
+    "category_id": "116743",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Kleiderbügel ve Krawatten/Gürtel kullanımını açıkça belirtir; görsel dolap çubuğuna asılan çoklu askıyı doğrular. Duvar montajı varsayılmadı. Haken sayısı veya dönme mekanizması eklenmedi.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Kleiderbügel",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005008934128730": {
+    "category_id": "46305",
+    "level": "high",
+    "note": "pet-hair removal mitt; real eBay.de listings: 60x 46305 vs 4x Fusselrollen (market evidence)",
+    "path": "Haustierbedarf > Hunde > Körper- & Fellpflege > Bürsten, Kämme & Harken"
+  },
+  "1005008937309838": {
+    "category_id": "46283",
+    "level": "medium",
+    "note": "transparent fridge/pantry storage containers; auto-resolve picked this same category but only 0.25 confidence.",
+    "path": "Möbel & Wohnen > Kochen & Genießen > Ordnung & Aufbewahrung > Halter/Ständer & Küchenleisten"
+  },
+  "1005008995117677": {
+    "blocked": true,
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "note": "Unresolved factual category/identity review. Ana görsel saplı, açık üstlü çok gözlü çanta içi organizer gösterir; başlık Doppelreißverschluss/zweifach gefaltet ve ham Artikeltyp=Kosmetikkoffer der. Aynı SKU/model bağlantısı gösterilmeden bu gerçek fakat farklı açıklamalar uzlaştırılamaz. Staubsauger-Ersatzteile kesinlikle ilgisiz; fotoğrafa göre Taschen-Organizer veya metne göre Kosmetiktasche seçmek bu aşamada varsayım olur."
+  },
+  "1005008997918604": {
+    "category_id": "67858",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Draht Organizer/Schreibtisch Management ve gerçek fotoğraftaki kanallara yerleştirilmiş veri kabloları Kabelhalter işlevini destekler. Manyetiklik veya silikon malzeme iddiası eklenmedi.",
+    "path": "Computer, Tablets & Netzwerk > Kabel & Steckverbinder > Kabelbinder & Kabelmanager",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005009030953454": {
+    "category_id": "180933",
+    "level": "medium",
+    "note": "anti-stress squeeze toy, 14+; was wrongly in cat toys",
+    "path": "Beauty & Gesundheit > Pflege- & Medizinischer Bedarf > Antistressbälle"
+  },
+  "1005009313031651": {
+    "category_id": "46283",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Roll-Eier-Aufbewahrungsbehälter/Organizer-Rack, görselde yumurtaları sıralayan eğimli rafı doğrular. Mutfak saklama tutucu kategorisi ve gerçek Eierhalter değeri uygundur. Kapasite/gıda uygunluğu veya kat sayısı eklenmedi.",
+    "path": "Möbel & Wohnen > Kochen & Genießen > Ordnung & Aufbewahrung > Halter/Ständer & Küchenleisten",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005009659236961": {
+    "category_id": "20741",
+    "level": "auto_confirmed",
+    "note": "Auto-confirmed by listing_standards_resolve on 2026-11-15T22:02:19.415016+00:00: real taxonomy resolution (confidence=1.0) matches the current live offer category_id. Not an eBay write; local bookkeeping only.",
+    "path": "Haustierbedarf > Katzen > Spielzeug"
+  },
+  "1005009723070135": {
+    "category_id": "46283",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Unter Schrank/Schneiden Bord/Topf Abdeckung Halter, görselde dolap altında kesme tahtası/kapak tutma rafı gösterir. Genel gardırop kancası değil mutfak depolama rafıdır. FREE_TEXT şema doğru betimleyici türe izin verir; ölçüler görselden aktarılmadı.",
+    "path": "Möbel & Wohnen > Kochen & Genießen > Ordnung & Aufbewahrung > Halter/Ständer & Küchenleisten",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005009759780480": {
+    "blocked": true,
+    "note": "IDENTITY MISMATCH: DB/eBay title is a wireless charger, supplier product is an under-sink organizer. Resolve before any change."
+  },
+  "1005009792791686": {
+    "category_id": "43504",
+    "level": "auto_confirmed",
+    "note": "Auto-confirmed by listing_standards_resolve on 2026-11-15T22:04:32.210312+00:00: real taxonomy resolution (confidence=0.67) matches the current live offer category_id. Not an eBay write; local bookkeeping only.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Aufbewahrungsbeutel & -taschen"
+  },
+  "1005009800425890": {
+    "category_id": "262203",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Ham Typ=Aufbewahrungsbox/Tasche für Sitzspalte, başlık ve koltuk arası cep fotoğrafı tutarlıdır. Bagaj organizatörü değil; araç içi Weiteres Aufbewahrungs- & Ordnungszubehör yaprağı uygundur. Gerçek FREE_TEXT alana işlevi açıklayan Sitzspalt-Organizer önerilir.",
+    "path": "Auto & Motorrad: Teile > Autoteile & Zubehör > Innenausstattung > Aufbewahrung & Organisation > Weiteres Aufbewahrungs- & Ordnungszubehör",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005009889105186": {
+    "category_id": "54122",
+    "level": "medium",
+    "note": "470ml 2-in-1 olive oil dispenser/sprayer for cooking; auto-resolve picked this same category but only 0.25 confidence.",
+    "path": "Möbel & Wohnen > Kochen & Genießen > Gedeckter Tisch > Essig- & Öl-Sets"
+  },
+  "1005009992738407": {
+    "category_id": "36413",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık kosmetische Lagerung Tasche/Make-Up Toilettenartikel, ham Artikeltyp=Kosmetikkoffer ve fotoğrafta küçük fermuarlı çanta tutarlıdır. Pelz/kürk iddiası doğrulanmadığından taşınmadı; kozmetik ürününün kendisi değil, boş çantadır.",
+    "path": "Beauty & Gesundheit > Make-up > Make-up Taschen & Koffer",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005010026666604": {
+    "category_id": "116743",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Görselde dolap çubuğuna asılan kancalı askı var; duvar montajı/sabit raf varsayılmadı. Kleiderbügel yapısına, Kappen- & Huthalter değerine doğrudan uyar.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Kleiderbügel",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005010033725224": {
+    "category_id": "67858",
+    "level": "auto_confirmed",
+    "note": "Auto-confirmed by listing_standards_resolve on 2026-11-15T22:06:17.247054+00:00: real taxonomy resolution (confidence=0.75) matches the current live offer category_id. Not an eBay write; local bookkeeping only.",
+    "path": "Computer, Tablets & Netzwerk > Kabel & Steckverbinder > Kabelbinder & Kabelmanager"
+  },
+  "1005010141016715": {
+    "category_id": "20636",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Lebensmittelsieb ve Abflusskorb işlevini belirtir; fotoğraf süzme amaçlı mutfak kabı gösterir. Tür dışında gıda uygunluğu ya da işlev performansı onaylanmadı.",
+    "path": "Möbel & Wohnen > Kochen & Genießen > Küchenhelfer > Siebe & Seiher",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005010184187117": {
+    "category_id": "46283",
+    "level": "medium",
+    "note": "wall-mounted kitchen trash-bag holder/dispenser; auto-resolve picked this same category but only 0.25 confidence (low keyword agreement across taxonomy queries). Alternatives (Aufbewahrungsbeutel, Seifenschalen, Solarenergie-Zubehör) are clear semantic mismatches for a kitchen wall holder; this is the real best fit.",
+    "path": "Möbel & Wohnen > Kochen & Genießen > Ordnung & Aufbewahrung > Halter/Ständer & Küchenleisten"
+  },
+  "1005010262367908": {
+    "blocked": true,
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "note": "Unresolved factual category/identity review. Başlık Schnürsenkelschlösser ve görsel küçük yaylı bağcık kilitlerini destekler; akupunktur kalemi değildir. Ancak mevcut gerçek Taxonomy adayı Schnürsenkel, bağcığın kendisi kategorisidir; parçanın doğru yaprak üyeliği ayrı doğrulanmadan kilidi tam bağcıkmış gibi sınıflandırmak uygun değildir. Küçük-parça ve paket kapsamı açık kalır."
+  },
+  "1005010397611220": {
+    "category_id": "19183",
+    "level": "reviewed",
+    "note": "Kids wooden puzzle toy (cat-shaped pieces, not a pet product). Real eBay taxonomy category where \"Farbe\" (Color) is a variation-enabled aspect (verified via get_item_aspects_for_category); the first candidate 9167 Holzspielzeug/Sonstige only allows Herstellernummer as variation aspect.",
+    "path": "Spielzeug > Puzzles & Geduldspiele > Puzzles"
+  },
+  "1005010471370917": {
+    "category_id": "25453",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Zahnbürstenhalter ve görselde fırçalar için tutucu delikleri aynı işlevdedir. Yıldız/yüz teması hedef yaş veya oyuncak sınıfı kanıtı sayılmadı.",
+    "path": "Möbel & Wohnen > Badezimmer > Badezimmerzubehör > Becher & Zahnbürstenhalter",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005010496570687": {
+    "category_id": "43504",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Kleideraufbewahrungstasche başlığı ve şeffaf kapaklı, saplı kumaş saklama ürünü aynı işleve işaret eder. Tür kanıtlı; Breite/Höhe/Länge bu çalışmada doldurulmadı.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Aufbewahrungsbeutel & -taschen",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005010502345197": {
+    "category_id": "19187",
+    "level": "medium",
+    "note": "stainless steel cage puzzle",
+    "path": "Spielzeug > Puzzles & Geduldspiele > Geduldspiele"
+  },
+  "1005010795524159": {
+    "category_id": "159897",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Fernbedienungshalter/Fernbedienungs-Organizer, ham Verwendung=Fernsteuerung ve görsel kumanda ceplerinde tutarlıdır. Mutfak stantları kategorisinin ürünün kullanım alanıyla ilgisi yoktur.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Boxen",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005010796812930": {
+    "category_id": "43506",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Schuhregal başlığı ile ayakkabı taşıyan katlı raf görseli örtüşür. Ayakkabı askısı şeklindeki genel ham Typ alanına rağmen ana ürün ayakkabı rafıdır. Boyutlar, yük ve kesin kat sayısı eklenmedi.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Schuhaufbewahrung",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005011535580954": {
+    "category_id": "180933",
+    "level": "medium",
+    "note": "soap-ball stress ball; auto picked Stückseife (wrong)",
+    "path": "Beauty & Gesundheit > Pflege- & Medizinischer Bedarf > Antistressbälle"
+  },
+  "1005011558522906": {
+    "blocked": true,
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "note": "Unresolved factual category/identity review. Başlık kompakter Schlüsselorganizer, ham Product=Key storage clip/Purpose=Key storage ve fotoğraf cepte taşınan katlanır anahtar klipsinde tutarlıdır. Mevcut otomobil merchandise/transponder kategorisi için araç bağlantısı kanıtı yok. Kaynak cinsiyet/ürün-alt-tür alanları da genel anahtarlık kategorileri arasında net seçim sağlamaz; yeni yaprak seçilmedi."
+  },
+  "1005011848504195": {
+    "category_id": "63690",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Kofferraum-Organizer/rutschfester Zaun; görsel bagaj eşyalarının çevresinde konumlandırılan açık braketlerdir. Motosiklet parçası ya da kapalı saklama kutusu değildir. Kofferraum-Organizer türü işlevi kapsar, yapısına kapalı kutu özelliği eklenmedi.",
+    "path": "Auto & Motorrad: Teile > Autoteile & Zubehör > Innenausstattung > Aufbewahrung & Organisation > Kofferraumnetze, -Organizer & Trenngitter",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005011904255432": {
+    "category_id": "25453",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Ham başlık Zahnbürsten-Aufbewahrungsregal/Organizer für Zahnbürsten, Zahnpasta der; sınırlı tanıtım görseli banyo tutucusu ailesini destekler. Vakumlu süpürge parçası olmadığı nettir; tutucu kategorisine geçiş kanıtlıdır, montaj alt türü/ölçü eklenmedi.",
+    "path": "Möbel & Wohnen > Badezimmer > Badezimmerzubehör > Becher & Zahnbürstenhalter",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005011918498017": {
+    "category_id": "43504",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Golf-Schuhtasche/Fußball-Tennis-Schuhtasche, ham Typ=Lagerung Taschen ve fotoğraf ayakkabı taşıma çantasını destekler. Golf sopası ekipman çantası olan Golftaschen yerine gerçek depolama/ayakkabı çantası kategorisi seçildi; fotoğraftaki ölçüler tek SKU kapsamı doğrulanmadan aktarılmadı.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Aufbewahrungsbeutel & -taschen",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005011951690557": {
+    "category_id": "130145",
+    "level": "auto_confirmed",
+    "note": "Auto-confirmed by listing_standards_resolve on 2026-11-16T18:20:12.227462+00:00: real taxonomy resolution (confidence=0.5) matches the current live offer category_id. Not an eBay write; local bookkeeping only.",
+    "path": "Heimwerker > Werkstattausrüstung > Werkzeugkoffer & Lagersysteme > Werkzeugwände"
+  },
+  "1005012032555747": {
+    "category_id": "159897",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Ham başlık Jeans-Aufbewahrungsbox ve Schubladenorganizer der; fotoğraf açık üstlü, tutma saplı kutular gösterir. Kapalı saklama çantasından çok Boxen kategorisine uyar; çanta kategorisi sırf aynı şemayı paylaşıyor diye korunmadı.",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Boxen",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005012052613902": {
+    "category_id": "262203",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Auto-Schirmhaken/Kofferraumaufhänger, ham Typ=Regenschirmregal ve fotoğraftaki şemsiye tutucu birleşir. Araç içi depolama aksesuarı için daha kesin yaprak seçildi; eski Universell bir ürün tipi değil uyum ifadesidir. Montaj yöntemi veya evrensel araç uyumu onaylanmadı.",
+    "path": "Auto & Motorrad: Teile > Autoteile & Zubehör > Innenausstattung > Aufbewahrung & Organisation > Weiteres Aufbewahrungs- & Ordnungszubehör",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005012061920624": {
+    "category_id": "20593",
+    "level": "auto_confirmed",
+    "note": "Auto-confirmed by listing_standards_resolve on 2026-11-15T22:02:19.415016+00:00: real taxonomy resolution (confidence=0.67) matches the current live offer category_id. Not an eBay write; local bookkeeping only.",
+    "path": "Heimwerker > Fenster, Türen & Treppen > Türen & Türbeschläge > Sonstige"
+  },
+  "1005012066024130": {
+    "category_id": "67858",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Ham başlık Kabelorganisator/Kabelmanagement/Kabelaufwickler içerir; tüketici kablo düzenleme kategorisi uygundur. Fotoğraf yok; mevcut geniş tür yalnız başlık düzeyinde desteklenir, fiziksel alt model ve paket sayısı doğrulanmadı.",
+    "path": "Computer, Tablets & Netzwerk > Kabel & Steckverbinder > Kabelbinder & Kabelmanager",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005012150397874": {
+    "category_id": "180933",
+    "level": "medium",
+    "note": "butter-stick fidget",
+    "path": "Beauty & Gesundheit > Pflege- & Medizinischer Bedarf > Antistressbälle"
+  },
+  "1005012245151213": {
+    "category_id": "130142",
+    "level": "high",
+    "note": "plastic screw/hardware organizer box; auto-resolve picked kitchen holders (46283, 0.25 conf, wrong). This was the real alternative #3 from the same taxonomy query (1 vote) and is an exact semantic match: 'Kleinteilemagazine' literally matches the title's own 'Kleinteile und Hardware'.",
+    "path": "Heimwerker > Werkstattausrüstung > Werkzeugkoffer & Lagersysteme > Kleinteilemagazine & Stapelboxen"
+  },
+  "1005012252787980": {
+    "category_id": "23782",
+    "level": "auto_confirmed",
+    "note": "Auto-confirmed by listing_standards_resolve on 2026-11-17T11:20:12.800960+00:00: real taxonomy resolution (confidence=0.5) matches the current live offer category_id. Not an eBay write; local bookkeeping only.",
+    "path": "Heimwerker > Werkzeuge > Handwerkzeuge > Handwerkzeug-Sets"
+  },
+  "1005012382436424": {
+    "category_id": "67858",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık modüler Kabel- und Datenkabel-Organizer işlevini açıkça verir. Kablo yönetimi kategorisi ve geniş Kabelhalter türü metinle uyumludur; fotoğraf yok, modül biçimi/SKU eşlemesi ve mevcut diğer kapılar onaylanmadı.",
+    "path": "Computer, Tablets & Netzwerk > Kabel & Steckverbinder > Kabelbinder & Kabelmanager",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005012522516317": {
+    "category_id": "63690",
+    "level": "medium",
+    "note": "under-seat car storage box; auto-resolve picked this same category but only 0.25 confidence.",
+    "path": "Auto & Motorrad: Teile > Autoteile & Zubehör > Innenausstattung > Aufbewahrung & Organisation > Kofferraumnetze, -Organizer & Trenngitter"
+  },
+  "1005012671339401": {
+    "blocked": true,
+    "note": "NOT a cat toy: 3-colour LASER POINTER. Category 14954 Laserpointer needs aspect 'Laserklassen' (unknown) and laser pointers are legally restricted for consumers in DE/EU. Recommend withdrawing the listing."
+  },
+  "1005012703904261": {
+    "blocked": true,
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "note": "Unresolved factual category/identity review. Başlık Kabelorganizer/Aufbewahrungsgurt ve ham Einstellbare Größe bir saklama kayışını destekler; gitar askısı kullanımına kanıt yok. Fotoğraf yok ve 3-Achsen-Schnalle/Schwerlast işlevinin gerçek geometrisi doğrulanamadı. Kablo bağı, kablo taşıma bandı ve yük bağlama kayışı Taxonomy adayları arasında net alt tür seçilmedi; yük kapasitesi/ölçü de atanmadı."
+  },
+  "1005012706422328": {
+    "category_id": "118787",
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "level": "reviewed",
+    "note": "Başlık Plastiktüten/Supermarkt-Einkaufstüten/Verpackung ve fotoğrafta saplı plastik poşetler bulunur. Mutfak rafı ya da rol standı değildir; Verpackungs- & Versandbeutel > Tragetaschen doğrudan işlev eşleşmesidir. 100 adet tüm SKUlara taşınmadı.",
+    "path": "Business & Industrie > Transport & Logistik > Verpackung & Versand > Verpackungs- & Versandbeutel > Tragetaschen",
+    "review_scope": "category_and_product_type_only_no_publication_approval"
+  },
+  "1005012774230299": {
+    "blocked": true,
+    "evidence_ref": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\evidence_integration\\prepare50-category-review.json",
+    "note": "Unresolved factual category/identity review. Başlık Badezimmerwaagen/Körperfettwaagen için depolama standı der; PC oyun yedek parçası kategorisi ilgisizdir. Fotoğraf yok, ham Typ yalnız Speicherhalter und Ständer gibi geneldir; gerçek yapı raf mı açık terazi tutucu mu net değildir. Taxonomy önerisini tek başına ürün kanıtı sayarak kategori/Produktart seçilmedi."
+  },
+  "1005012861205757": {
+    "category_id": "46283",
+    "level": "high",
+    "note": "Kuechenbehaelter-Deckelhalter; fixed LIVE on eBay 2026-11-15 (was wrongly a Wand-/Tuergarderoben-style category) via fix_miscategorized_listings.py, never added here - same from-scratch re-prepare risk.",
+    "path": "Möbel & Wohnen > Kochen & Genießen > Ordnung & Aufbewahrung > Halter/Ständer & Küchenleisten"
+  },
+  "_comment": "Reviewed category decisions (made from real Taxonomy API candidates). Takes precedence over auto-resolve. level: high|medium|low. blocked=true means do NOT list/modify until a human resolves it."
 }

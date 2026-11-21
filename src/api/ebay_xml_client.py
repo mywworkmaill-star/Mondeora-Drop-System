@@ -5,7 +5,8 @@ AddItem, ReviseItem, GetItem operations
 
 import os
 import requests
-from xml.etree import ElementTree as ET
+from xml.etree import ElementTree as ET
+
 from defusedxml.ElementTree import fromstring as _safe_fromstring
 from datetime import datetime
 from dotenv import load_dotenv
@@ -121,11 +122,15 @@ class EbayXMLAPIClient:
         headers = self._get_headers(call_name)
         
         try:
+            # 🚨 SECURITY FIX (2026-11-21): the live eBayAuthToken is in the
+            # XML request body; without allow_redirects=False a 3xx from
+            # api.ebay.com/ws/api.dll would resend it to the redirect target.
             response = requests.post(
                 self.endpoint,
                 data=xml_body,
                 headers=headers,
-                timeout=15
+                timeout=15,
+                allow_redirects=False
             )
             
             if response.status_code == 200:
@@ -139,17 +144,29 @@ class EbayXMLAPIClient:
                         "root": root,
                     }
                 else:
+                    # Parse errors - try different error paths
                     errors = root.findall('.//ebay:Error', self.ns)
                     error_msgs = []
                     for error in errors:
-                        msg = error.find('.//ebay:ShortMessage', self.ns)
-                        if msg is not None:
-                            error_msgs.append(msg.text)
+                        # Try both ShortMessage and LongMessage
+                        short_msg = error.find('.//ebay:ShortMessage', self.ns)
+                        long_msg = error.find('.//ebay:LongMessage', self.ns)
+                        
+                        if long_msg is not None:
+                            error_msgs.append(long_msg.text)
+                        elif short_msg is not None:
+                            error_msgs.append(short_msg.text)
+                    
+                    # If no errors found, include raw response snippet
+                    if not error_msgs:
+                        raw_text = response.text[:500]
+                        error_msgs.append(f"No error details in response. Raw: {raw_text}")
                     
                     return {
                         "success": False,
                         "ack": ack.text if ack is not None else "Unknown",
                         "errors": error_msgs,
+                        "raw_response": response.text,  # Include full response
                     }
             else:
                 return {

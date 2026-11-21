@@ -1,0 +1,56 @@
+{
+  "index": 22,
+  "product_id": "1005012774230299",
+  "db_title": "Aufbewahrungsständer für Körperfettwaagen, Tischständer, Gewichtshalterung, Bodenhalterung für Badezimmerwaagen, Organizer-Regal",
+  "started_at": "2026-11-17T07:52:59.709926+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "Aufbewahrungsständer für Körperfettwaagen, Tischständer, Gewichtshalterung, Bodenhalterung für Badezimmerwaagen, Organizer-Regal",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/See17ec67490b4f09985a9aa23b1b8d12a.jpg",
+    "https://ae01.alicdn.com/kf/Sa42fcb00a6cd4ad18894a0d32eb54f73s.jpg",
+    "https://ae01.alicdn.com/kf/S6a4bff7fdf604a1c88649b90bcf9e8a5S.jpg",
+    "https://ae01.alicdn.com/kf/Sb6f9f9d3312b4d8886831af8075e8967q.jpg",
+    "https://ae01.alicdn.com/kf/Sa256422287f54c6aadef75376d65411d0.jpg",
+    "https://ae01.alicdn.com/kf/Sba763902a80a4a4f873bddeee073d9f00.jpg"
+  ],
+  "image_download_error": "HTTPError",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "freight_unavailable:AliExpressAPIError",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 0
+  },
+  "finished_at": "2026-11-17T07:53:01.173085+00:00",
+  "canonical_status": "blocked"
+}

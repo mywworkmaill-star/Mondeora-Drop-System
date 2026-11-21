@@ -1,0 +1,67 @@
+{
+  "dimensions": {
+    "found": false,
+    "length_cm": 40.0,
+    "width_cm": 7.0,
+    "height_cm": null,
+    "depth_cm": null,
+    "diameter_cm": null,
+    "text": "Produktbild (Maßdiagramm) zeigt explizit '40cm/15.75inch' als Gesamtlänge des Sitzspalt-Fuellstoff-Streifens und '7cm/2.76inch' als Breite am Griffende. Keine Hoehen-/Dickenangabe im Bildmaterial vorhanden, daher found=false trotz hoher Lesbarkeit der zwei gefundenen Masse.",
+    "confidence": 90
+  },
+  "weight": {
+    "found": false,
+    "product_weight_g": null,
+    "package_weight_g": null,
+    "text": "",
+    "confidence": 0
+  },
+  "material": {
+    "primary": "Kunststoff (vermutlich ABS/Silikon)",
+    "composition": [],
+    "confidence": 45,
+    "source": "vision (optische Einschaetzung der starren, matten schwarzen Oberflaeche, nicht sicher verifizierbar)"
+  },
+  "color": {
+    "found": true,
+    "main": "Schwarz",
+    "options": ["Schwarz", "Braun"],
+    "confidence": 80,
+    "source": "vision"
+  },
+  "capacity": {
+    "found": true,
+    "volume_liter": null,
+    "item_count": 2,
+    "load_capacity_kg": null,
+    "text": "Titel und Produktbild-Badge '2PCS' bestaetigen Lieferumfang von 2 Stueck.",
+    "confidence": 95
+  },
+  "features": [
+    "2er Set (2 Stueck)",
+    "Fuellt die Luecke zwischen Autositz und Mittelkonsole",
+    "Aussparung/Schlitz fuer Sitzgurtschnalle integriert",
+    "Einfache Installation ohne Werkzeug (Einklemmen in den Sitzspalt)",
+    "Universell passend fuer die meisten Fahrzeugsitze"
+  ],
+  "brand": {
+    "name": "No-Name",
+    "confidence": 80
+  },
+  "model": {
+    "number": "",
+    "confidence": 0
+  },
+  "certifications": [],
+  "technical": {
+    "temperature_min_c": null,
+    "temperature_max_c": null,
+    "power_watt": null,
+    "voltage": null
+  },
+  "assembly": {
+    "required": "Nein",
+    "tools_needed": "Nein",
+    "time_minutes": null
+  }
+}

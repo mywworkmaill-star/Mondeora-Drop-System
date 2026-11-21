@@ -1,0 +1,501 @@
+{
+  "product_id": "1005005759411405",
+  "index": 2,
+  "checked_at": "2026-11-17T07:57:10.209172+00:00",
+  "ready_for_publication": false,
+  "remote_mutations_performed": false,
+  "errors": [],
+  "quote_count": 5,
+  "title": "Multifunktionaler Wand-Organizer für Fernbedienungen und Mobiltelefone",
+  "title_issues": [
+    "too few keywords (7 < 8 words)"
+  ],
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "sku_rows": [
+    {
+      "sku_id": "12000049355816384",
+      "cost": 2.25,
+      "stock": 26,
+      "aspects": {
+        "Farbe": "B Weiß"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S53999fce998440e6869e30cca881cc35l.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005005759411405",
+        "sku_id": "12000049355816384",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:12.328523+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 22.99,
+      "provisional_model_net_eur": 15.3
+    },
+    {
+      "sku_id": "12000034251365165",
+      "cost": 1.55,
+      "stock": 41,
+      "aspects": {
+        "Farbe": "WEISS"
+      },
+      "verified": false,
+      "image": "https://ae01.alicdn.com/kf/S08350eae054e4349a1abab1572f0dc3cW.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005005759411405",
+        "sku_id": "12000034251365165",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:12.928858+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 21.99,
+      "provisional_model_net_eur": 15.13
+    },
+    {
+      "sku_id": "12000034251365164",
+      "cost": 2.89,
+      "stock": 30,
+      "aspects": {
+        "Farbe": "schwarz"
+      },
+      "verified": false,
+      "image": "https://ae01.alicdn.com/kf/Sa7ff6e695d07492e9c09332818e7a780x.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005005759411405",
+        "sku_id": "12000034251365164",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:13.498801+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 23.99,
+      "provisional_model_net_eur": 15.52
+    },
+    {
+      "sku_id": "12000048617470509",
+      "cost": 3.75,
+      "stock": 18,
+      "aspects": {
+        "Farbe": "2 Stück Weiß"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sfac904f804264cdd831ad46afcbbc9ecf.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005005759411405",
+        "sku_id": "12000048617470509",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:14.120648+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 24.99,
+      "provisional_model_net_eur": 15.53
+    },
+    {
+      "sku_id": "12000049355816383",
+      "cost": 2.59,
+      "stock": 39,
+      "aspects": {
+        "Farbe": "B Schwarz"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S9b252748c68044b7aac83f6b5b1c97412.jpg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005005759411405",
+        "sku_id": "12000049355816383",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:57:14.623773+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 23.99,
+      "provisional_model_net_eur": 15.82
+    },
+    {
+      "sku_id": "12000048617470510",
+      "cost": 4.39,
+      "stock": 57,
+      "aspects": {
+        "Farbe": "2 Stück Schwarz"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sea0d62066e8d4cf5a7e1e7021d3d077bT.jpg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "AliExpressAPIError"
+    }
+  ],
+  "category": {
+    "category_id": "159897",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Boxen",
+    "confidence": 0.67,
+    "needs_review": false,
+    "queries_used": 3,
+    "alternatives": [
+      [
+        "61312",
+        "TV, Video & Audio > TV- & Heim-Audio-Zubehör > Fernbedienungen",
+        1
+      ],
+      [
+        "36024",
+        "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Wand-, Türgarderoben & Haken",
+        0
+      ],
+      [
+        "4678",
+        "Business & Industrie > Elektronik & Messtechnik > Mess- & Prüftechnik > Messgeräte & Detektoren > Sonstige Messgeräte",
+        0
+      ]
+    ],
+    "source": "auto"
+  },
+  "supported_shared_aspects": {
+    "Material": [
+      "Kunststoff"
+    ],
+    "Breite": [
+      "9,7 cm"
+    ],
+    "Hoehe": [
+      "8,6 cm"
+    ],
+    "Höhe": [
+      "8,6 cm"
+    ],
+    "Laenge": [
+      "3,6 cm"
+    ],
+    "Länge": [
+      "3,6 cm"
+    ],
+    "Produktart": [
+      "Wandhalter"
+    ]
+  },
+  "human_review_aspect_names": [
+    "Breite",
+    "Hoehe",
+    "Höhe",
+    "Laenge",
+    "Länge",
+    "Produktart"
+  ],
+  "missing_required_aspects": [],
+  "required_aspects": [
+    {
+      "name": "Breite",
+      "values": [
+        "15 cm",
+        "20 cm",
+        "31 cm",
+        "36 cm",
+        "41 cm",
+        "46 cm",
+        "56 cm",
+        "61 cm"
+      ],
+      "mode": "FREE_TEXT"
+    },
+    {
+      "name": "Höhe",
+      "values": [
+        "15 cm",
+        "20 cm",
+        "31 cm"
+      ],
+      "mode": "FREE_TEXT"
+    },
+    {
+      "name": "Länge",
+      "values": [
+        "15 cm",
+        "20 cm",
+        "25 cm",
+        "31 cm",
+        "46 cm"
+      ],
+      "mode": "FREE_TEXT"
+    },
+    {
+      "name": "Produktart",
+      "values": [
+        "Abfallpresse",
+        "Abfallsackhalter",
+        "Abfallsackhalter hängend",
+        "Akkordeonmappe",
+        "Anzugbügel",
+        "Apothekerglas",
+        "Armlehnen-Organizer",
+        "Aufbewahrungsbox",
+        "Aufbewahrungseinheit",
+        "Aufbewahrungskorb",
+        "Aufbewahrungstasche",
+        "Auslagekorb",
+        "Badezimmerkorb",
+        "Badezimmerorganisator",
+        "Batterie Aufbewahrungsbox",
+        "Behälter",
+        "Bett-Seiten-Taschen-Organizer",
+        "Bettwäschentasche",
+        "Blumenkorb",
+        "Briefablage",
+        "Briefaufbewahrung",
+        "Briefhalter",
+        "Brotkorb",
+        "Buchschachtel",
+        "Buchständer",
+        "Cubby Lagerung",
+        "Cubby-Organizer",
+        "Cubby-Verbindungselement",
+        "Deckelverschluss",
+        "Deckenaufbewahrung",
+        "Deko-Eimer",
+        "Dekorative Aufbewahrungsbox",
+        "Dekorative Box",
+        "Dekorative Dose",
+        "Dekorativer Korb",
+        "Dekoratives Glas",
+        "Dom/Glasglocke",
+        "Dose",
+        "Duftend",
+        "Duftfrei",
+        "Eierkorb",
+        "Einbau-Mülleimer",
+        "Einmachglas",
+        "Erntekorb",
+        "Ersatzdeckel",
+        "Erste-Hilfe-Kasten",
+        "Fernbedienungshalter",
+        "Füllhorn",
+        "Garderobe",
+        "Garderobenständer",
+        "Gemüsekorb",
+        "Gepäckaufbewahrung",
+        "Geschenkkorb",
+        "Geschenkpapierrollen Aufbewahrung",
+        "Glas",
+        "Gürtel- & Krawattenhalter",
+        "Haken",
+        "Halterungen",
+        "Hängeaufbewahrung",
+        "Hängekorb",
+        "Hängeschuhregal",
+        "Herkömmlicher Kleiderbügel",
+        "Herrendiener",
+        "Hosen",
+        "Hosenbügel",
+        "Hosenbügel offen",
+        "Hutschachtel",
+        "Hygiene-Abfallbehälter",
+        "Kabeltasche",
+        "Kanister",
+        "Kappen- & Huthalter",
+        "Keksdose",
+        "Kiste",
+        "Kiste/Koffer/Truhe",
+        "Klammerbügel",
+        "Kleiderbezug",
+        "Kleiderbügel Abdeckung",
+        "Kleiderbügel Auto",
+        "Kleiderständer",
+        "Kleiderstange",
+        "Koffer",
+        "Komposteimer",
+        "Korb",
+        "Korbset",
+        "Korbständer",
+        "Kordelzugbeutel",
+        "Kosmetikeimer",
+        "Matratzenaufbewahrung",
+        "Mobiler Schrank",
+        "Mottenkugeln",
+        "Mülleimer Aufkleber",
+        "Mülleimer mit Druckdeckel",
+        "Mülleimer mit Klappdeckel",
+        "Mülleimer mit Rädern",
+        "Mülleimer mit Schwingdeckel",
+        "Mülleimer mit Sensor",
+        "Müllpresssäcke",
+        "Müllsackständer",
+        "Mülltonne",
+        "Mülltrennung",
+        "Mülltüte",
+        "Netzaufbewahrungsbeutel",
+        "Netzbeutel",
+        "Obstkorb",
+        "Osterkorb",
+        "Papierkorb",
+        "Pflanzenständer",
+        "Picknickkorb",
+        "Plastiktütenspender",
+        "Platzsparbeutel",
+        "Recyclingbeutel",
+        "Rednerpult",
+        "Regalfachteiler",
+        "Regal für den begehbaren Kleiderschrank",
+        "Regalsystem",
+        "Rezeptschachtel",
+        "Schachtel-Set",
+        "Schatztruhe",
+        "Schirmeimer",
+        "Schirmständer",
+        "Schlüssel- & Brief-Kombiablage",
+        "Schlüsselablage",
+        "Schlüsselhaken",
+        "Schlüsselkasten",
+        "Schmuckdose",
+        "Schmuckschatulle",
+        "Schublade",
+        "Schubladenbox",
+        "Schubladen-Organizer",
+        "Schuh-Aufbewahrungsbox",
+        "Schuhbank",
+        "Schuhbox",
+        "Schuhbügel",
+        "Schuh-Cubby",
+        "Schuhregal",
+        "Schuhschrank",
+        "Schuhspanner",
+        "Schuhtasche",
+        "Schuhtasche für Reise & Sport",
+        "Souvenirschachtel",
+        "Sparbüchse",
+        "Spardose",
+        "Spieluhr",
+        "Spielzeugaufbewahrungsbeutel",
+        "Spielzeugkiste",
+        "Spielzeugtasche",
+        "Stiefel-Aufbewahrung",
+        "Stoffeinlagen",
+        "Süßigkeitenglas",
+        "Taschenhalter",
+        "Taschen-Organizer",
+        "Taschentuchschachtel",
+        "Teedose",
+        "Tischmülleimer",
+        "Tragetasche",
+        "Treppenkorb",
+        "Treteimer",
+        "Truhe",
+        "Truhenbank",
+        "Unterbett-Aufbewahrung",
+        "Unterbett Aufbewahrungstasche",
+        "Unterbettkommode",
+        "Vakuum-Aufbewahrungsbeutel",
+        "Wandtasche",
+        "Wäschekorb",
+        "Weihnachtsbaum Aufbewahrungstasche",
+        "Wertstofftonne",
+        "Wiederverwendbare Einkaufstasche",
+        "Würfel Aufbewahrungsbox",
+        "Zusammenklappbarer Mülleimer"
+      ],
+      "mode": "FREE_TEXT"
+    }
+  ],
+  "optional_unknown_aspects": [
+    "Marke",
+    "Besonderheiten",
+    "Farbe",
+    "Anzahl der Teile",
+    "Montage",
+    "Montage erforderlich",
+    "Kapazität",
+    "Gewicht",
+    "Herstellernummer",
+    "Modell",
+    "Tiefe",
+    "Herstellungsmethode",
+    "Herstellungsstil",
+    "Größe",
+    "Anzahl der Fächer",
+    "Anzahl pro Packung",
+    "Form",
+    "Thema",
+    "Stil",
+    "Finish",
+    "Ursprungsland",
+    "Muster",
+    "Herkunft",
+    "Personalisieren",
+    "Anzahl der Einheiten",
+    "Maßeinheit",
+    "Original/Reproduktion",
+    "Anleitung für Personalisierung",
+    "Handgefertigt",
+    "Produktlinie"
+  ],
+  "draft_file": "product_draft.html",
+  "finished_at": "2026-11-17T07:57:16.642507+00:00"
+}

@@ -1,0 +1,62 @@
+Database'deki 36 Aktif eBay Listing ID'leri
+================================================
+
+eBay Item IDs (database'de kayıtlı):
+860133996385
+860134884632
+860134886090
+860138341251
+860138343669
+860138344632
+860138544077
+860138544587
+860139499815
+860139500259
+860139537428
+860139545709
+860143527490
+860143527923
+860143553444
+860143553992
+860143554598
+860143554963
+860144073378
+860144073710
+860144074087
+860144075649
+860144076373
+860144076965
+860149072346
+860149294468
+860149298194
+860149306006
+860149500520
+860149586942
+860156166184
+860157779397
+860157781114
+860157781556
+860157783516
+860157878957
+
+TOPLAM: 36 listing
+
+================================================
+GÖREV:
+================================================
+1. eBay Seller Hub'ı aç: https://www.ebay.de/sh/lst/active
+2. Tüm 52 listing'i gör (scroll yap gerekirse)
+3. Her listing'in eBay Item ID'sini yukarıdaki liste ile karşılaştır
+4. Yukarıdaki listede OLMAYAN ID'leri not al
+5. O ID'lerin listing'lerini eBay'den SİL
+
+VEYA:
+
+CSV Export yap ve bana gönder, ben karşılaştırma yapayım.
+
+================================================
+BEKLENEN SONUÇ:
+================================================
+- 52 - 36 = 16 listing silinecek
+- Database ile eBay senkronize olacak
+- Artık sadece tracked listing'ler kalacak

@@ -1,0 +1,60 @@
+{
+  "index": 33,
+  "product_id": "1005008464837668",
+  "db_title": "1 Stück transparenter Acryl-Schreibtisch-Organizer mit Schleifenakzent, langlebiger Stifthalter und Aufbewahrungskorb für Bürobedarf, Stifte und Zubehör",
+  "started_at": "2026-11-17T07:53:12.089853+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "1 Stück transparenter Acryl-Schreibtisch-Organizer mit Schleifenakzent, langlebiger Stifthalter und Aufbewahrungskorb für Bürobedarf, Stifte und Zubehör",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/S19bd9c9e01784f2093fd5e0f160ebf0fi.jpeg",
+    "https://ae01.alicdn.com/kf/S69c5c7cc58c842beb3e56c47c165c61ec.jpg",
+    "https://ae01.alicdn.com/kf/S75cece4ea4e449999fc659f6ce78281bL.jpg",
+    "https://ae01.alicdn.com/kf/S5dca687774534c8f9073d1ebba14b9c9o.jpg",
+    "https://ae01.alicdn.com/kf/Sb42d80c731454e199103e4d952d0bdb6V.jpg",
+    "https://ae01.alicdn.com/kf/Sc51becb7810c493abb093b3dfe17d556M.jpg"
+  ],
+  "main_image_dimensions": [
+    800,
+    800
+  ],
+  "main_image_file": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\products\\1005008464837668\\main.jpg",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:category_aspects_incomplete",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 7
+  },
+  "finished_at": "2026-11-17T07:53:16.455030+00:00",
+  "canonical_status": "blocked"
+}

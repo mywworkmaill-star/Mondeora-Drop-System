@@ -1,0 +1,7 @@
+50 URUN HAZIRLIK PAKETI
+
+Gercek net hazir sayisi: 0/50. Islem 50 farkli urune uygulanmistir. Teknik taslaklar, kaynak cevaplari, SKU bazli kargo ongoruleri ve acik engeller urun klasorlerindedir. Tam pipeline icerigi ile kaynak taslagi farklidir. Hicbir eBay ilani olusturulmadi, belge onayi veya risk onayi uretilmedi.
+
+Supplier agreement, uygulanabilir GPSR/uretici/AB sorumlusu, gorsel haklari, sevk yeri ve gercek maliyet/talep kanitlari tamamlanmadan bu dosyalar yayina hazir sayilmaz. Kargo, fiyat ve stok zamanla degisir; yayin oncesi yeniden dogrulama zorunludur.
+
+Dosyalar: 50_urun_hazirlik_raporu.xlsx, 50_urun_onizleme.html, verified_summary.json ve products/<urun_id>/...

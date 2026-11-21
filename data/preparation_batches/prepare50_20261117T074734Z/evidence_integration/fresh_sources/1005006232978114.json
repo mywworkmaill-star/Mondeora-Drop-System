@@ -1,0 +1,347 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:193#70x80cm",
+        "offer_sale_price": "3.29",
+        "sku_id": "12000036392302214",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "9.97",
+        "offer_bulk_sale_price": "3.29",
+        "sku_available_stock": 34,
+        "id": "14:193#70x80cm",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "schwarz",
+              "sku_image": "https://ae01.alicdn.com/kf/S445c3d68a2a641f39ded3fde247c46deU.jpeg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "70x80cm",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:173#90x100cm",
+        "offer_sale_price": "4.29",
+        "sku_id": "12000036392302215",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "13.00",
+        "offer_bulk_sale_price": "4.29",
+        "sku_available_stock": 36,
+        "id": "14:173#90x100cm",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Blau",
+              "sku_image": "https://ae01.alicdn.com/kf/S989976b780744e2699326a26e6db68279.jpeg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "90x100cm",
+              "property_value_id": 173,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:1202#40x50cm",
+        "offer_sale_price": "2.35",
+        "sku_id": "12000036392302212",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "8.10",
+        "offer_bulk_sale_price": "2.35",
+        "sku_available_stock": 68,
+        "id": "14:1202#40x50cm",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Khaki",
+              "sku_image": "https://ae01.alicdn.com/kf/S989976b780744e2699326a26e6db68279.jpeg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "40x50cm",
+              "property_value_id": 1202,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:366#50x60cm",
+        "offer_sale_price": "2.95",
+        "sku_id": "12000040828481022",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "8.68",
+        "offer_bulk_sale_price": "2.95",
+        "sku_available_stock": 25,
+        "id": "14:366#50x60cm",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Gelb",
+              "sku_image": "https://ae01.alicdn.com/kf/Sc545b00b800148df957a6e9bda652ffde.jpeg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "50x60cm",
+              "property_value_id": 366,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:175#60x70cm",
+        "offer_sale_price": "3.19",
+        "sku_id": "12000036392302213",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "9.67",
+        "offer_bulk_sale_price": "3.19",
+        "sku_available_stock": 64,
+        "id": "14:175#60x70cm",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Grün",
+              "sku_image": "https://ae01.alicdn.com/kf/S989976b780744e2699326a26e6db68279.jpeg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "60x70cm",
+              "property_value_id": 175,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:350686#4pcs 40x50cm",
+        "offer_sale_price": "5.69",
+        "sku_id": "12000044166771837",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "16.26",
+        "offer_bulk_sale_price": "5.69",
+        "sku_available_stock": 21,
+        "id": "14:350686#4pcs 40x50cm",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Braun",
+              "sku_image": "https://ae01.alicdn.com/kf/S10d10d43070e4544ba605f8cada66a31F.jpeg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "4pcs 40x50cm",
+              "property_value_id": 350686,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:94#30x40cm",
+        "offer_sale_price": "1.99",
+        "sku_id": "12000036392302211",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "6.86",
+        "offer_bulk_sale_price": "1.99",
+        "sku_available_stock": 171,
+        "id": "14:94#30x40cm",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "grau",
+              "sku_image": "https://ae01.alicdn.com/kf/S989976b780744e2699326a26e6db68279.jpeg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "30x40cm",
+              "property_value_id": 94,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:350853#4pcs 30x40cm",
+        "offer_sale_price": "4.99",
+        "sku_id": "12000044166771838",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "14.26",
+        "offer_bulk_sale_price": "4.99",
+        "sku_available_stock": 31,
+        "id": "14:350853#4pcs 30x40cm",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Silber",
+              "sku_image": "https://ae01.alicdn.com/kf/S05370fb3e49049a78a939fbb579ca6343.jpeg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "4pcs 30x40cm",
+              "property_value_id": 350853,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:496#80x90cm",
+        "offer_sale_price": "4.29",
+        "sku_id": "12000041869284551",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "12.26",
+        "offer_bulk_sale_price": "4.29",
+        "sku_available_stock": 7,
+        "id": "14:496#80x90cm",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Lila",
+              "sku_image": "https://ae01.alicdn.com/kf/Sdc213e47747f400fac2e3631e021b4adS.jpeg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "80x90cm",
+              "property_value_id": 496,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:10#50x70cm",
+        "offer_sale_price": "3.39",
+        "sku_id": "12000040180394640",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "9.97",
+        "offer_bulk_sale_price": "3.39",
+        "sku_available_stock": 38,
+        "id": "14:10#50x70cm",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Rot",
+              "sku_image": "https://ae01.alicdn.com/kf/Sbabe42663c784935aed9874183b3529d5.jpeg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "50x70cm",
+              "property_value_id": 10,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:29#100x120cm",
+        "offer_sale_price": "5.79",
+        "sku_id": "12000036392302216",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "17.55",
+        "offer_bulk_sale_price": "5.79",
+        "sku_available_stock": 37,
+        "id": "14:29#100x120cm",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "WEISS",
+              "sku_image": "https://ae01.alicdn.com/kf/S989976b780744e2699326a26e6db68279.jpeg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "100x120cm",
+              "property_value_id": 29,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "image_urls": "https://ae01.alicdn.com/kf/S989976b780744e2699326a26e6db68279.jpeg;https://ae01.alicdn.com/kf/S2bfed171d1a94178bc4c5311ce192e23G.jpeg;https://ae01.alicdn.com/kf/Saf43864289cb4d34a45474dbc29c3315Y.jpeg;https://ae01.alicdn.com/kf/S60a75943c5214ef38e964608e4cf88b3l.jpeg;https://ae01.alicdn.com/kf/S08a0e52bd38e48f4a1faeea3f83b6ed4a.jpeg;https://ae01.alicdn.com/kf/Sa4bb314bb6b24395b32ff36d8f2e716aS.jpeg"
+  },
+  "package_info_dto": {
+    "package_width": 8,
+    "package_height": 3,
+    "package_length": 23,
+    "gross_weight": "0.100",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005006232978114,
+    "sub_product_id": "{\"US\":3256806046663362}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"text\",\"data\":{\"content\":\"Merkmale:\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Brandneu und von hoher Qualität.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Hergestellt aus hochwertigem Material für den dauerhaften Einsatz.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Es wird Ihnen helfen, bis zu 75 % Stauraum zu sparen.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Sie können wertvoller Raum in Ihren Schränken, Dachboden, Garage oder Keller sparen.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Sie sind ideal für Bettdecken und Decken, Kissen, Pullover, Jacken, saisonale Kleidung und alle anderen sperrigen Gegenstände.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Spezifikationen:\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Material: PET+PE\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Farbe: Transparent\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Größe: 30 x 40 cm, 40 x 50 cm, 50 x 60 cm, 60 x 70 cm, 70 x 80 cm, 80 x 90 cm, 90 x 100 cm, 100 x 120 cm, 50 x 70 cm\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Dicke: 7-Draht\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Paketliste:\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"1/4 Stück x Vakuumbeutel\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"(Bitte beachten Sie, wenn die Menge im Attribut nicht angegeben ist, es standardmäßig an ein Produkt.Bitte kaufen Sie die gewünschte Menge entsprechend Ihren Bedürfnissen)\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Hinweis:\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Bitte beziehen Sie sich auf die Messung.Winziger Messfehler ist im Normalbereich zulässig.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Es könnte einen kleinen Farbunterschied aufgrund von der Monitor, Kamera oder anderen Faktoren sein. Bitte beziehen Sie sich auf den physischen Artikel.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S989976b780744e2699326a26e6db68279.jpeg?has_lang=1&ver=1\",\"style\":{\"width\":1001,\"height\":1001}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S445c3d68a2a641f39ded3fde247c46deU.jpeg\",\"style\":{\"width\":1001,\"height\":1001}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Sace4dae8c445496ebbcd481a95508ce9Z.jpeg\",\"style\":{\"width\":1001,\"height\":1001}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S5b53e9a1c7a5404a9feff68cba74fa37N.jpeg\",\"style\":{\"width\":1001,\"height\":1001}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S7fc2c70aeb9641cb9453eda540e9ebdcw.jpeg?has_lang=1&ver=1\",\"style\":{\"width\":1001,\"height\":1001}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S2bfed171d1a94178bc4c5311ce192e23G.jpeg\",\"style\":{\"width\":1001,\"height\":1001}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/Saf43864289cb4d34a45474dbc29c3315Y.jpeg\",\"style\":{\"width\":1001,\"height\":1001}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae01.alicdn.com/kf/S4e1eff87276040fb9dd61cf00c59740ew.jpeg?has_lang=1&ver=1\",\"style\":{\"width\":1001,\"height\":1001}}}]}",
+    "subject": "Vakuum-Aufbewahrungsbeutel mit Ventil, zusammenklappbar, komprimiert, platzsparend, zur Aufbewahrung von Kleidung, große Größe für Handtuch, Stoff, Decke",
+    "evaluation_count": "3716",
+    "sales_count": "5000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.7",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 201239407,
+    "product_id": 1005006232978114,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"> <p><strong><span style=\"font-size:20px;font-family:&quot;times new roman&quot;\" id=\"tl_1\">Features:</span></strong></p> <p><span style=\"font-size:20px;font-family:&quot;times new roman&quot;\" id=\"tl_2\">Ganz neu und von hoher Qualit&auml;t.</span></p> <p><span style=\"font-size:20px;font-family:&quot;times new roman&quot;\" id=\"tl_3\">Hergestellt aus hochwertigem Material f&uuml;r dauerhaften Gebrauch.</span></p> <p><span style=\"font-size:20px;font-family:&quot;times new roman&quot;\" id=\"tl_4\">Es hilft Ihnen, bis zu 75 % Speicherplatz zu sparen.</span></p> <p><span style=\"font-size:20px;font-family:&quot;times new roman&quot;\" id=\"tl_5\">Sie k&ouml;nnen wertvollen Platz in Ihren Schr&auml;nken, Dachboden, Garage oder Keller sparen.</span></p> <p><span style=\"font-size:20px;font-family:&quot;times new roman&quot;\" id=\"tl_6\">Sie eignen sich ideal f&uuml;r Bettdecken und Decken, Kissen, Pullover, Jacken, saisonale Kleidung und alle anderen sperrigen Gegenst&auml;nde.</span></p>  <p><strong><span style=\"font-size:20px;font-family:&quot;times new roman&quot;\" id=\"tl_7\">Spezifikationen:</span></strong></p> <p><span style=\"font-size:20px;font-family:&quot;times new roman&quot;\" id=\"tl_8\">Material: PET + PE</span></p> <p><span style=\"font-size:20px;font-family:&quot;times new roman&quot;\" id=\"tl_9\">Farbe: Transparent</span></p> <p id=\"tl_10\"><span style=\"font-size:20px;font-family:&quot;times new roman&quot;\">Gr&ouml;&szlig;e: 30 x 40 cm, 40 x 50 cm, 50 x 60 cm, 60 x 70 cm, 80 x 90 cm, 90 x 100 cm, 100 x 120 cm</span>50x70cm</p> <p><span style=\"font-size:20px;font-family:&quot;times new roman&quot;\" id=\"tl_11\">Dicke: 7 Draht</span></p>  <p><strong><span style=\"font-size:20px;font-family:&quot;times new roman&quot;\" id=\"tl_12\">Paketliste:</span></strong></p> <p><span style=\"font-size:20px;font-family:&quot;times new roman&quot;\" id=\"tl_13\">1/4 St&uuml;ck x Vakuumbeutel</span></p> <p><span style=\"font-size:20px;font-family:&quot;times new roman&quot;\" id=\"tl_14\">(Bitte beachten Sie, dass, wenn die Menge nicht im Attribut angegeben ist, standardm&auml;&szlig;ig ein Produkt verwendet wird.Bitte kaufen Sie die gew&uuml;nschte Menge entsprechend Ihren Bed&uuml;rfnissen)</span></p>  <p><strong><span style=\"font-size:20px;font-family:&quot;times new roman&quot;\" id=\"tl_15\">Hinweis:</span></strong></p> <p><span style=\"font-size:20px;font-family:&quot;times new roman&quot;\" id=\"tl_16\">Bitte beachten Sie die Messung.Im Normalbereich sind geringf&uuml;gige Messfehler zul&auml;ssig.</span></p> <p><span style=\"font-size:20px;font-family:&quot;times new roman&quot;\" id=\"tl_17\">Aufgrund des Monitors, der Kamera oder anderer Faktoren kann es zu geringf&uuml;gigen Farbunterschieden kommen. Bitte beziehen Sie sich auf das physische Produkt.</span></p> <div> \n <img src=\"https://ae01.alicdn.com/kf/S989976b780744e2699326a26e6db68279.jpeg\" slate-data-type=\"image\" /> \n <img src=\"https://ae01.alicdn.com/kf/S445c3d68a2a641f39ded3fde247c46deU.jpeg\" slate-data-type=\"image\" /> \n <img src=\"https://ae01.alicdn.com/kf/Sace4dae8c445496ebbcd481a95508ce9Z.jpeg\" slate-data-type=\"image\" /> \n <img src=\"https://ae01.alicdn.com/kf/S5b53e9a1c7a5404a9feff68cba74fa37N.jpeg\" slate-data-type=\"image\" /> \n <img src=\"https://ae01.alicdn.com/kf/S7fc2c70aeb9641cb9453eda540e9ebdcw.jpeg\" slate-data-type=\"image\" /> \n <img src=\"https://ae01.alicdn.com/kf/S2bfed171d1a94178bc4c5311ce192e23G.jpeg\" slate-data-type=\"image\" /> \n <img src=\"https://ae01.alicdn.com/kf/Saf43864289cb4d34a45474dbc29c3315Y.jpeg\" slate-data-type=\"image\" /> \n <img src=\"https://ae01.alicdn.com/kf/S4e1eff87276040fb9dd61cf00c59740ew.jpeg\" slate-data-type=\"image\" /> \n</div> <p><br /></p></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "B6-701, 2nd Floor, Building 15, Jiangcheng No.1 Cultural and Creative Park, No. 47 Gutian 4th Road, Qiaokou District, Wuhan",
+    "phone": "19926823513",
+    "country_name": "China",
+    "email": "moonlightshai@163.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 19538478878,
+        "attr_name": "Markenname",
+        "attr_value": "LEENKEA"
+      },
+      {
+        "attr_name_id": 43,
+        "attr_value_id": 3138,
+        "attr_name": "Funktion",
+        "attr_value": "Wiederverwendbar"
+      },
+      {
+        "attr_name_id": 217,
+        "attr_value_id": 23399620951,
+        "attr_name": "Merkmal",
+        "attr_value": "Andere"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1103238181,
+    "shipping_speed_rating": "4.8",
+    "communication_rating": "4.7",
+    "store_name": "Shop1103238181 Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.7"
+  }
+}

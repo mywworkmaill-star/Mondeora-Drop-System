@@ -1,0 +1,441 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:350850#DarkBlue",
+        "offer_sale_price": "3.35",
+        "sku_id": "12000047502451627",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "6.70",
+        "offer_bulk_sale_price": "3.35",
+        "sku_available_stock": 29,
+        "id": "14:350850#DarkBlue",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Gold",
+              "sku_image": "https://ae01.alicdn.com/kf/S72eb5dd342fc473f83b0b01b2ce80427e.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "DarkBlue",
+              "property_value_id": 350850,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:1052#pink",
+        "offer_sale_price": "2.15",
+        "sku_id": "12000047502451626",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "4.30",
+        "offer_bulk_sale_price": "2.15",
+        "sku_available_stock": 100,
+        "id": "14:1052#pink",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Rosa",
+              "sku_image": "https://ae01.alicdn.com/kf/S4e55ffd048c74855940709a2bc42b04dZ.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "pink",
+              "property_value_id": 1052,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:200002130#RoseRed",
+        "offer_sale_price": "3.79",
+        "sku_id": "12000047502451625",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "7.58",
+        "offer_bulk_sale_price": "3.79",
+        "sku_available_stock": 15,
+        "id": "14:200002130#RoseRed",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Elfenbein",
+              "sku_image": "https://ae01.alicdn.com/kf/S3baa94e154634ca88455fc40e17ea705X.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "RoseRed",
+              "property_value_id": 200002130,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:691#grey",
+        "offer_sale_price": "3.45",
+        "sku_id": "12000047502451624",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "6.90",
+        "offer_bulk_sale_price": "3.45",
+        "sku_available_stock": 82,
+        "id": "14:691#grey",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Grau",
+              "sku_image": "https://ae01.alicdn.com/kf/Sedb8afe2af5d4728b3ada1a9730a50eaS.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "grey",
+              "property_value_id": 691,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:175#green",
+        "offer_sale_price": "3.29",
+        "sku_id": "12000047502451631",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "6.58",
+        "offer_bulk_sale_price": "3.29",
+        "sku_available_stock": 17,
+        "id": "14:175#green",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Grün",
+              "sku_image": "https://ae01.alicdn.com/kf/S4378769707cb43ef84c00682d0c4e7ed4.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "green",
+              "property_value_id": 175,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:173#SapphireBlue",
+        "offer_sale_price": "3.49",
+        "sku_id": "12000047502451630",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "6.98",
+        "offer_bulk_sale_price": "3.49",
+        "sku_available_stock": 40,
+        "id": "14:173#SapphireBlue",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Blau",
+              "sku_image": "https://ae01.alicdn.com/kf/Sb7b2113c8e8c4bb19f2943a824f58c9bw.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "SapphireBlue",
+              "property_value_id": 173,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:200004891#OrangeRed",
+        "offer_sale_price": "3.59",
+        "sku_id": "12000047502451629",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "7.18",
+        "offer_bulk_sale_price": "3.59",
+        "sku_available_stock": 14,
+        "id": "14:200004891#OrangeRed",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Lavendel",
+              "sku_image": "https://ae01.alicdn.com/kf/S9481289618d24557844be01fa62129car.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "OrangeRed",
+              "property_value_id": 200004891,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:200002984#WineRed",
+        "offer_sale_price": "3.59",
+        "sku_id": "12000047502451628",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "7.18",
+        "offer_bulk_sale_price": "3.59",
+        "sku_available_stock": 23,
+        "id": "14:200002984#WineRed",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Burgunderrot",
+              "sku_image": "https://ae01.alicdn.com/kf/S445c7087014747038126e8fa216bcfc1h.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "WineRed",
+              "property_value_id": 200002984,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:193#black",
+        "offer_sale_price": "3.25",
+        "sku_id": "12000047502451619",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "6.50",
+        "offer_bulk_sale_price": "3.25",
+        "sku_available_stock": 34,
+        "id": "14:193#black",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "schwarz",
+              "sku_image": "https://ae01.alicdn.com/kf/S8bfe617cbead49ecbd132e9ecc347655p.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "black",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:1254#SkyBlue",
+        "offer_sale_price": "3.85",
+        "sku_id": "12000047502451623",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "7.70",
+        "offer_bulk_sale_price": "3.85",
+        "sku_available_stock": 10,
+        "id": "14:1254#SkyBlue",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "HIMMELBLAU",
+              "sku_image": "https://ae01.alicdn.com/kf/S8f1068001c6c4a41a2f0eca3f643bff36.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "SkyBlue",
+              "property_value_id": 1254,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:200005100#coffee",
+        "offer_sale_price": "3.55",
+        "sku_id": "12000047502451622",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "7.10",
+        "offer_bulk_sale_price": "3.55",
+        "sku_available_stock": 19,
+        "id": "14:200005100#coffee",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Kaffee",
+              "sku_image": "https://ae01.alicdn.com/kf/S7c66b054883c4ec09d8c86e5974ad278H.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "coffee",
+              "property_value_id": 200005100,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:10#red",
+        "offer_sale_price": "3.29",
+        "sku_id": "12000047502451621",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "6.58",
+        "offer_bulk_sale_price": "3.29",
+        "sku_available_stock": 21,
+        "id": "14:10#red",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Rot",
+              "sku_image": "https://ae01.alicdn.com/kf/S2d50d7807faa4818943ffc10d4de8a84x.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "red",
+              "property_value_id": 10,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      },
+      {
+        "sku_attr": "14:496#purple",
+        "offer_sale_price": "3.79",
+        "sku_id": "12000047502451620",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "7.58",
+        "offer_bulk_sale_price": "3.79",
+        "sku_available_stock": 26,
+        "id": "14:496#purple",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "Lila",
+              "sku_image": "https://ae01.alicdn.com/kf/Sfea417a9adc94d40b3c0efbef7c42fdaB.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "purple",
+              "property_value_id": 496,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "image_urls": "https://ae01.alicdn.com/kf/S4f24c5a4d8b34639bec0d4bb9381792fw.jpg;https://ae01.alicdn.com/kf/S40b1fc4622124946a5d05d2f81873e0cZ.jpg;https://ae01.alicdn.com/kf/S37df7011d3d94449a11072bfac4eb18cf.jpg;https://ae01.alicdn.com/kf/S96dd6fdaaef540de806809d5d340b28aS.jpg;https://ae01.alicdn.com/kf/S0288606de28b4735aed6880653fec195J.jpg;https://ae01.alicdn.com/kf/S269b633dba994d11b6c526c87878d3abM.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 8,
+    "package_height": 3,
+    "package_length": 17,
+    "gross_weight": "0.053",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005008995117677,
+    "sub_product_id": "{\"US\":3256808808802925}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S4f24c5a4d8b34639bec0d4bb9381792fw.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S1f2aeb73720b48aaac9ea131dff69ab4i.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S269b633dba994d11b6c526c87878d3abM.jpg\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S0288606de28b4735aed6880653fec195J.jpg\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S96dd6fdaaef540de806809d5d340b28aS.jpg\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S40b1fc4622124946a5d05d2f81873e0cZ.jpg\",\"style\":{\"width\":1200,\"height\":1200}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S0288606de28b4735aed6880653fec195J.jpg\",\"style\":{\"width\":1200,\"height\":1200}}}]}",
+    "subject": "Multifunktionale, zweifach gefaltete Aufbewahrungstasche, Doppelreißverschluss, großes Fassungsvermögen, Aufbewahrungsarrangement, Make-up-Toilettenartikel, große Klassifizierungstasche",
+    "evaluation_count": "3021",
+    "sales_count": "5000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.6",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 152407,
+    "product_id": 1005008995117677,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S4f24c5a4d8b34639bec0d4bb9381792fw.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S1f2aeb73720b48aaac9ea131dff69ab4i.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S269b633dba994d11b6c526c87878d3abM.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S0288606de28b4735aed6880653fec195J.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S96dd6fdaaef540de806809d5d340b28aS.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S40b1fc4622124946a5d05d2f81873e0cZ.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S0288606de28b4735aed6880653fec195J.jpg\" slate-data-type=\"image\"/></p></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "4th Floor, Building 2, No. 66-1, Wuxi North Street, Ersanli Street, Yiwu City, Zhejiang Province (self-declaration)",
+    "phone": "13665830433",
+    "country_name": "China",
+    "email": "379285022@qq.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 20205,
+        "attr_value_id": 48,
+        "attr_name": "Hauptmaterial",
+        "attr_value": "POLYESTER"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 266081643,
+        "attr_value_id": 100015203,
+        "attr_name": "CN",
+        "attr_value": "Zhejiang"
+      },
+      {
+        "attr_name_id": 100004113,
+        "attr_value_id": 23399582356,
+        "attr_name": "Sport",
+        "attr_value": "Andere"
+      },
+      {
+        "attr_name_id": 200000195,
+        "attr_value_id": -1,
+        "attr_name": "Artikelgewicht",
+        "attr_value": "70g"
+      },
+      {
+        "attr_name_id": 200000329,
+        "attr_value_id": 200001248,
+        "attr_name": "Mustertyp",
+        "attr_value": "Fest"
+      },
+      {
+        "attr_name_id": 200001158,
+        "attr_value_id": 63,
+        "attr_name": "Futtermaterial",
+        "attr_value": "Nylon"
+      },
+      {
+        "attr_name_id": 43,
+        "attr_value_id": 1983116866,
+        "attr_name": "Funktion",
+        "attr_value": "Faltbar und erweiterbar"
+      },
+      {
+        "attr_name_id": 200000137,
+        "attr_value_id": 200001972,
+        "attr_name": "Artikeltyp",
+        "attr_value": "Kosmetikkoffer"
+      },
+      {
+        "attr_name_id": 200005985,
+        "attr_value_id": 200660004,
+        "attr_name": "Herkunftsort",
+        "attr_value": "China (Festland)"
+      },
+      {
+        "attr_name_id": 324,
+        "attr_value_id": 200661056,
+        "attr_name": "Form",
+        "attr_value": "Kissen"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1102693333,
+    "shipping_speed_rating": "4.7",
+    "communication_rating": "4.7",
+    "store_name": "Shengsu Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.6"
+  }
+}

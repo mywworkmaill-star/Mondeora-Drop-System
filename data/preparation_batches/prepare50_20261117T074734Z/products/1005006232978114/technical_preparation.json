@@ -1,0 +1,602 @@
+{
+  "product_id": "1005006232978114",
+  "index": 37,
+  "checked_at": "2026-11-17T07:58:04.499921+00:00",
+  "ready_for_publication": false,
+  "remote_mutations_performed": false,
+  "errors": [],
+  "quote_count": 8,
+  "title": "Vakuum-Aufbewahrungsbeutel mit Ventil, zusammenklappbar, komprimiert",
+  "title_issues": [
+    "too few keywords (6 < 8 words)"
+  ],
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "sku_rows": [
+    {
+      "sku_id": "12000036392302214",
+      "cost": 3.29,
+      "stock": 34,
+      "aspects": {
+        "Farbe": "70x80cm"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S445c3d68a2a641f39ded3fde247c46deU.jpeg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006232978114",
+        "sku_id": "12000036392302214",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:06.285774+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 23.99,
+      "provisional_model_net_eur": 15.12
+    },
+    {
+      "sku_id": "12000036392302215",
+      "cost": 4.29,
+      "stock": 35,
+      "aspects": {
+        "Farbe": "90x100cm"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S989976b780744e2699326a26e6db68279.jpeg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006232978114",
+        "sku_id": "12000036392302215",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:06.890726+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 25.99,
+      "provisional_model_net_eur": 15.85
+    },
+    {
+      "sku_id": "12000036392302212",
+      "cost": 2.35,
+      "stock": 70,
+      "aspects": {
+        "Farbe": "40x50cm"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S989976b780744e2699326a26e6db68279.jpeg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006232978114",
+        "sku_id": "12000036392302212",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:07.450988+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 22.99,
+      "provisional_model_net_eur": 15.2
+    },
+    {
+      "sku_id": "12000040828481022",
+      "cost": 2.95,
+      "stock": 25,
+      "aspects": {
+        "Farbe": "50x60cm"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sc545b00b800148df957a6e9bda652ffde.jpeg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006232978114",
+        "sku_id": "12000040828481022",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:08.013032+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 23.99,
+      "provisional_model_net_eur": 15.46
+    },
+    {
+      "sku_id": "12000036392302213",
+      "cost": 3.19,
+      "stock": 64,
+      "aspects": {
+        "Farbe": "60x70cm"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S989976b780744e2699326a26e6db68279.jpeg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006232978114",
+        "sku_id": "12000036392302213",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:08.547651+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 23.99,
+      "provisional_model_net_eur": 15.22
+    },
+    {
+      "sku_id": "12000044166771837",
+      "cost": 5.69,
+      "stock": 21,
+      "aspects": {
+        "Farbe": "4 Stück 40x50cm"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S10d10d43070e4544ba605f8cada66a31F.jpeg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006232978114",
+        "sku_id": "12000044166771837",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:09.081805+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 26.99,
+      "provisional_model_net_eur": 15.32
+    },
+    {
+      "sku_id": "12000036392302211",
+      "cost": 1.99,
+      "stock": 171,
+      "aspects": {
+        "Farbe": "30x40cm"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S989976b780744e2699326a26e6db68279.jpeg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "AliExpressAPIError"
+    },
+    {
+      "sku_id": "12000044166771838",
+      "cost": 4.99,
+      "stock": 31,
+      "aspects": {
+        "Farbe": "4 Stück 30x40cm"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S05370fb3e49049a78a939fbb579ca6343.jpeg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006232978114",
+        "sku_id": "12000044166771838",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:10.148515+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 25.99,
+      "provisional_model_net_eur": 15.15
+    },
+    {
+      "sku_id": "12000041869284551",
+      "cost": 4.29,
+      "stock": 7,
+      "aspects": {
+        "Farbe": "80x90cm"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sdc213e47747f400fac2e3631e021b4adS.jpeg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "AliExpressAPIError"
+    },
+    {
+      "sku_id": "12000040180394640",
+      "cost": 3.39,
+      "stock": 38,
+      "aspects": {
+        "Farbe": "50x70cm"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/Sbabe42663c784935aed9874183b3529d5.jpeg",
+      "price_basis": "supplier_cost_only_no_final_checkout_or_profit_approval",
+      "quote_error": "AliExpressAPIError"
+    },
+    {
+      "sku_id": "12000036392302216",
+      "cost": 5.79,
+      "stock": 37,
+      "aspects": {
+        "Farbe": "100x120cm"
+      },
+      "verified": true,
+      "image": "https://ae01.alicdn.com/kf/S989976b780744e2699326a26e6db68279.jpeg",
+      "price_basis": "current_supplier_quote_fee_model_forecast_not_final_checkout",
+      "shipping_quote": {
+        "product_id": "1005006232978114",
+        "sku_id": "12000036392302216",
+        "quantity": 1,
+        "ship_to_country": "DE",
+        "currency": "EUR",
+        "cost": 1.99,
+        "service_name": "CAINIAO_FULFILLMENT_STD",
+        "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+        "delivery_estimate": {
+          "min_days": 1,
+          "max_days": 9
+        },
+        "quoted_at": "2026-11-17T07:58:11.519589+00:00",
+        "geographic_scope": "country",
+        "city": null,
+        "province": null,
+        "is_estimate": true,
+        "transaction_ready": false
+      },
+      "provisional_sale_price_eur": 26.99,
+      "provisional_model_net_eur": 15.22
+    }
+  ],
+  "category": {
+    "category_id": "43504",
+    "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Aufbewahrungsbeutel & -taschen",
+    "confidence": 0.67,
+    "needs_review": false,
+    "queries_used": 3,
+    "alternatives": [
+      [
+        "20660",
+        "Möbel & Wohnen > Kochen & Genießen > Gedeckter Tisch > Tischsets",
+        1
+      ],
+      [
+        "20621",
+        "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Sonstige",
+        0
+      ],
+      [
+        "184148",
+        "Business & Industrie > Hydraulik, Pneumatik & Pumpen > Ventile & Verteiler > Sonstige",
+        0
+      ]
+    ],
+    "source": "auto"
+  },
+  "supported_shared_aspects": {
+    "Produktart": [
+      "Vakuum-Aufbewahrungsbeutel"
+    ],
+    "Besonderheiten": [
+      "Platzsparend"
+    ]
+  },
+  "human_review_aspect_names": [],
+  "missing_required_aspects": [
+    "Breite",
+    "Höhe",
+    "Länge"
+  ],
+  "required_aspects": [
+    {
+      "name": "Breite",
+      "values": [
+        "15 cm",
+        "20 cm",
+        "31 cm",
+        "36 cm",
+        "41 cm",
+        "46 cm",
+        "56 cm",
+        "61 cm"
+      ],
+      "mode": "FREE_TEXT"
+    },
+    {
+      "name": "Höhe",
+      "values": [
+        "15 cm",
+        "20 cm",
+        "31 cm"
+      ],
+      "mode": "FREE_TEXT"
+    },
+    {
+      "name": "Länge",
+      "values": [
+        "15 cm",
+        "20 cm",
+        "25 cm",
+        "31 cm",
+        "46 cm"
+      ],
+      "mode": "FREE_TEXT"
+    },
+    {
+      "name": "Produktart",
+      "values": [
+        "Abfallpresse",
+        "Abfallsackhalter",
+        "Abfallsackhalter hängend",
+        "Akkordeonmappe",
+        "Anzugbügel",
+        "Apothekerglas",
+        "Armlehnen-Organizer",
+        "Aufbewahrungsbox",
+        "Aufbewahrungseinheit",
+        "Aufbewahrungskorb",
+        "Aufbewahrungstasche",
+        "Auslagekorb",
+        "Badezimmerkorb",
+        "Badezimmerorganisator",
+        "Batterie Aufbewahrungsbox",
+        "Behälter",
+        "Bett-Seiten-Taschen-Organizer",
+        "Bettwäschentasche",
+        "Blumenkorb",
+        "Briefablage",
+        "Briefaufbewahrung",
+        "Briefhalter",
+        "Brotkorb",
+        "Buchschachtel",
+        "Buchständer",
+        "Cubby Lagerung",
+        "Cubby-Organizer",
+        "Cubby-Verbindungselement",
+        "Deckelverschluss",
+        "Deckenaufbewahrung",
+        "Deko-Eimer",
+        "Dekorative Aufbewahrungsbox",
+        "Dekorative Box",
+        "Dekorative Dose",
+        "Dekorativer Korb",
+        "Dekoratives Glas",
+        "Dom/Glasglocke",
+        "Dose",
+        "Duftend",
+        "Duftfrei",
+        "Eierkorb",
+        "Einbau-Mülleimer",
+        "Einmachglas",
+        "Erntekorb",
+        "Ersatzdeckel",
+        "Erste-Hilfe-Kasten",
+        "Fernbedienungshalter",
+        "Füllhorn",
+        "Garderobe",
+        "Garderobenständer",
+        "Gemüsekorb",
+        "Gepäckaufbewahrung",
+        "Geschenkkorb",
+        "Geschenkpapierrollen Aufbewahrung",
+        "Glas",
+        "Gürtel- & Krawattenhalter",
+        "Haken",
+        "Halterungen",
+        "Hängeaufbewahrung",
+        "Hängekorb",
+        "Hängeschuhregal",
+        "Herkömmlicher Kleiderbügel",
+        "Herrendiener",
+        "Hosen",
+        "Hosenbügel",
+        "Hosenbügel offen",
+        "Hutschachtel",
+        "Hygiene-Abfallbehälter",
+        "Kabeltasche",
+        "Kanister",
+        "Kappen- & Huthalter",
+        "Keksdose",
+        "Kiste",
+        "Kiste/Koffer/Truhe",
+        "Klammerbügel",
+        "Kleiderbezug",
+        "Kleiderbügel Abdeckung",
+        "Kleiderbügel Auto",
+        "Kleiderständer",
+        "Kleiderstange",
+        "Koffer",
+        "Komposteimer",
+        "Korb",
+        "Korbset",
+        "Korbständer",
+        "Kordelzugbeutel",
+        "Kosmetikeimer",
+        "Matratzenaufbewahrung",
+        "Mobiler Schrank",
+        "Mottenkugeln",
+        "Mülleimer Aufkleber",
+        "Mülleimer mit Druckdeckel",
+        "Mülleimer mit Klappdeckel",
+        "Mülleimer mit Rädern",
+        "Mülleimer mit Schwingdeckel",
+        "Mülleimer mit Sensor",
+        "Müllpresssäcke",
+        "Müllsackständer",
+        "Mülltonne",
+        "Mülltrennung",
+        "Mülltüte",
+        "Netzaufbewahrungsbeutel",
+        "Netzbeutel",
+        "Obstkorb",
+        "Osterkorb",
+        "Papierkorb",
+        "Pflanzenständer",
+        "Picknickkorb",
+        "Plastiktütenspender",
+        "Platzsparbeutel",
+        "Recyclingbeutel",
+        "Rednerpult",
+        "Regalfachteiler",
+        "Regal für den begehbaren Kleiderschrank",
+        "Regalsystem",
+        "Rezeptschachtel",
+        "Schachtel-Set",
+        "Schatztruhe",
+        "Schirmeimer",
+        "Schirmständer",
+        "Schlüssel- & Brief-Kombiablage",
+        "Schlüsselablage",
+        "Schlüsselhaken",
+        "Schlüsselkasten",
+        "Schmuckdose",
+        "Schmuckschatulle",
+        "Schublade",
+        "Schubladenbox",
+        "Schubladen-Organizer",
+        "Schuh-Aufbewahrungsbox",
+        "Schuhbank",
+        "Schuhbox",
+        "Schuhbügel",
+        "Schuh-Cubby",
+        "Schuhregal",
+        "Schuhschrank",
+        "Schuhspanner",
+        "Schuhtasche",
+        "Schuhtasche für Reise & Sport",
+        "Souvenirschachtel",
+        "Sparbüchse",
+        "Spardose",
+        "Spieluhr",
+        "Spielzeugaufbewahrungsbeutel",
+        "Spielzeugkiste",
+        "Spielzeugtasche",
+        "Stiefel-Aufbewahrung",
+        "Stoffeinlagen",
+        "Süßigkeitenglas",
+        "Taschenhalter",
+        "Taschen-Organizer",
+        "Taschentuchschachtel",
+        "Teedose",
+        "Tischmülleimer",
+        "Tragetasche",
+        "Treppenkorb",
+        "Treteimer",
+        "Truhe",
+        "Truhenbank",
+        "Unterbett-Aufbewahrung",
+        "Unterbett Aufbewahrungstasche",
+        "Unterbettkommode",
+        "Vakuum-Aufbewahrungsbeutel",
+        "Wandtasche",
+        "Wäschekorb",
+        "Weihnachtsbaum Aufbewahrungstasche",
+        "Wertstofftonne",
+        "Wiederverwendbare Einkaufstasche",
+        "Würfel Aufbewahrungsbox",
+        "Zusammenklappbarer Mülleimer"
+      ],
+      "mode": "FREE_TEXT"
+    }
+  ],
+  "optional_unknown_aspects": [
+    "Marke",
+    "Material",
+    "Modell",
+    "Anzahl der Teile",
+    "Gewicht",
+    "Herstellernummer",
+    "Kapazität",
+    "Tiefe",
+    "Herstellungsmethode",
+    "Herstellungsstil",
+    "Anzahl der Fächer",
+    "Anzahl pro Packung",
+    "Größe",
+    "Farbe",
+    "Thema",
+    "Form",
+    "Ursprungsland",
+    "Muster",
+    "Personalisieren",
+    "Anzahl der Einheiten",
+    "Maßeinheit",
+    "Original/Reproduktion",
+    "Anleitung für Personalisierung",
+    "Handgefertigt",
+    "Herkunft",
+    "Produktlinie"
+  ],
+  "draft_file": "product_draft.html",
+  "finished_at": "2026-11-17T07:58:13.393507+00:00"
+}

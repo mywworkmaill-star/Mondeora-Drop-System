@@ -1,0 +1,17 @@
+EBAY SYNC RESULTS
+================================================================================
+
+eBay: 52 | Database: 44 | Match: 44
+Ghost: 8 | Missing: 0
+
+GHOST LISTINGS (DELETE FROM EBAY):
+--------------------------------------------------------------------------------
+860134884632 | Antistressball Squishy Seifenoptik Drückbar Fidget Spielzeug
+860138341251 | Küchen-Kabelaufwickler, Haushalts-Kabelorganizer ohne Spuren
+860138344632 | 1/7-teiliges Werkzeugteile-Aufbewahrungsbox-Set, Werkzeug-Or
+860139499815 | 4-Fach-Fernbedienungs-Organizer, kreatives Desktop-Aufbewahr
+860139500259 | Quadratischer Kabelbinder-Organizer, fluoreszierender Kabelb
+860154956940 | Robuste, extra große, faltbare Aufbewahrungstasche mit Reißv
+860156291620 | Toocki Kabel-Organizer, Kabelmanagement, zerreißbar, Organiz
+860157782806 | Quadratischer Kabelbinder-Organizer, fluoreszierender Kabelb
+

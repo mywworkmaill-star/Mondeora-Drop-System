@@ -1,0 +1,117 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:193#50pcs",
+        "offer_sale_price": "2.59",
+        "sku_id": "12000057429512669",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "5.76",
+        "offer_bulk_sale_price": "2.59",
+        "sku_available_stock": 63,
+        "id": "14:193#50pcs",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "schwarz",
+              "sku_image": "https://ae01.alicdn.com/kf/S7ac32b114b2c454588e3f7f66bbfe952w.jpg",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "50pcs",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "image_urls": "https://ae01.alicdn.com/kf/S12df99f4ce884af791e137e937feaa9d9.jpg;https://ae01.alicdn.com/kf/S773c3ef869354e7ab5c691a60fd0b4d5X.jpg;https://ae01.alicdn.com/kf/S757ad51d3f864f7ebffde68e82fd1f60D.jpg;https://ae01.alicdn.com/kf/S50c5f94f343542f4b79b7f2fd57f258b2.jpg;https://ae01.alicdn.com/kf/S2ba6d4f9cca849dabf21a722941e060fM.jpg"
+  },
+  "package_info_dto": {
+    "package_width": 6,
+    "package_height": 2,
+    "package_length": 15,
+    "gross_weight": "0.035",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005012066024130,
+    "sub_product_id": "{\"US\":3256811879709378}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"text\",\"data\":{\"content\":\"• Aus strapazierfähigem Nylonmaterial: Diese Kabelbinder sind aus robustem Nylon gefertigt und so konzipiert, dass sie sich leicht lösen lassen, was einen schnellen und unkomplizierten Zugriff auf Ihre Kabel ermöglicht. \\n • Vielseitig einsetzbar: Diese Kabelbinder eignen sich hervorragend zum Ordnen von Mauskabeln, Kopfhörerkabeln und anderen Kabeln und sind eine vielseitige Lösung, um Ihre Kabel übersichtlich zu halten und sie jederzeit einsatzbereit zu haben. \\n • 12 mm Breite: Mit einer Breite von 12 mm bieten diese Kabelbinder die perfekte Balance zwischen Festigkeit und Unauffälligkeit und halten Ihre Kabel sicher, ohne unnötig Volumen hinzuzufügen. \\n • Ursprung im chinesischen Festland: Diese Krawatten stammen aus dem chinesischen Festland und spiegeln die hohe Qualität der Handwerkskunst und die Zuverlässigkeit wider, für die die Region bekannt ist. \\n • Wiederverwendbare Schlaufenbänder: Das wiederverwendbare Schlaufen-Design ermöglicht ein einfaches Anbringen und Abnehmen, wodurch diese Bänder eine praktische Ergänzung für Ihr Zuhause oder Büro darstellen. \\n Polyester \\n Größe: 150 mm * 12 mm \\n 1. \\n Kabelorganisator und -verwaltung: Diese Kabelbinder können alle Arten von \\n Kabel ordentlich. Wenn Sie Kabelbinder für Kabel und Leitungen benötigen, ist dieser Kabelbinder ideal. \\n ist die perfekte Wahl. \\n 2. Wiederverwendbar und langlebig: Diese Kabelbündel bestehen aus Stoffmaterialien und sind mit Zubehör ausgestattet, wodurch sie wiederverwendbar und langlebig sind. \\n 3. \\n Spezielles Design: Diese Kabelbinder sind speziell dafür konzipiert, dass sie sich leicht \\n Erstellen Sie Slots und Fas\",\"style\":{\"fontSize\":13,\"fontWeight\":\"normal\",\"align\":\"left\",\"color\":\"#434649\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sb8527bed090e4a68a2725329d6f81ffcA.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S12dbb0ac03a4401b85dcbfef7ca4bcc9m.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S61fe7a97d8bf468c9a7d077f91dc2629Z.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S065d8529862346c29345f4ebf993f0c1n.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sfa847dccc2274cd88fb07a781ba6aea4w.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S456269dff91b4a7fb146c170c92ec2d5w.jpg\",\"style\":{\"width\":800,\"height\":800}}}]}",
+    "subject": "50 Stück Kabelorganisator Kabelmanagement Kabelaufwickler Klebeband-Schutz für Drahtbinder Telefonzubehör Kabelorganisator",
+    "evaluation_count": "1122",
+    "sales_count": "5000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.9",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 200001603,
+    "product_id": 1005012066024130,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\">\n <div class=\"detail-desc-decorate-richtext\">\n  <div>\n   <p style=\"font-family:&quot;Open Sans&quot;, sans-serif;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\"><span style=\"background-color:rgb(255, 255, 255)\"><strong id=\"tl_1\">• Aus strapazierf&auml;higem Nylonmaterial: Diese Kabelbinder sind aus robustem Nylon gefertigt und so konzipiert, dass sie sich leicht l&ouml;sen lassen, was einen schnellen und unkomplizierten Zugriff auf Ihre Kabel erm&ouml;glicht. <br /> <br /> <br /> <br /> • Vielseitig einsetzbar: Diese Kabelbinder eignen sich hervorragend zum Ordnen von Mauskabeln, Kopfh&ouml;rerkabeln und anderen Kabeln und sind eine vielseitige L&ouml;sung, um Ihre Kabel &uuml;bersichtlich zu halten und sie jederzeit einsatzbereit zu haben. <br /> <br /> <br /> • 12 mm Breite: Mit einer Breite von 12 mm bieten diese Kabelbinder die perfekte Balance zwischen Festigkeit und Unauff&auml;lligkeit und halten Ihre Kabel sicher, ohne unn&ouml;tig Volumen hinzuzuf&uuml;gen. <br /> <br /> <br /> <br /> • Ursprung im chinesischen Festland: Diese Krawatten stammen aus dem chinesischen Festland und spiegeln die hohe Qualit&auml;t der Handwerkskunst und die Zuverl&auml;ssigkeit wider, f&uuml;r die die Region bekannt ist. <br /> <br /> <br /> <br /> • Wiederverwendbare Schlaufenb&auml;nder: Das wiederverwendbare Schlaufen-Design erm&ouml;glicht ein einfaches Anbringen und Abnehmen, wodurch diese B&auml;nder eine praktische Erg&auml;nzung f&uuml;r Ihr Zuhause oder B&uuml;ro darstellen. <br /> <br /> <br /> <br /> Polyester <br /> Gr&ouml;&szlig;e: 150 mm * 12 mm <br /> <br /> 1. <br /> Kabelorganisator und -verwaltung: Diese Kabelbinder k&ouml;nnen alle Arten von <br /> Kabel ordentlich.Wenn Sie Kabelbinder f&uuml;r Kabel und Leitungen ben&ouml;tigen, ist dieser Kabelbinder ideal. <br /> ist die perfekte Wahl. <br /> <br /> 2.Wiederverwendbar und langlebig: Diese Kabelb&uuml;ndel bestehen aus Stoffmaterialien und sind mit Zubeh&ouml;r ausgestattet, wodurch sie wiederverwendbar und langlebig sind. <br /> <br /> 3. <br /> Spezielles Design: Diese Kabelbinder sind speziell daf&uuml;r konzipiert, dass sie sich leicht <br /> Erstellen Sie Slots und Fas</strong></span></p>\n   <p style=\"margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;display:block;width:100%\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sb8527bed090e4a68a2725329d6f81ffcA.jpg\" slate-data-type=\"image\" /><img style=\"width:800px;height:800px\" width=\"800px\" height=\"800px\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S12dbb0ac03a4401b85dcbfef7ca4bcc9m.jpg\" slate-data-type=\"image\" /><img style=\"width:800px;height:800px\" width=\"800px\" height=\"800px\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S61fe7a97d8bf468c9a7d077f91dc2629Z.jpg\" slate-data-type=\"image\" /><img style=\"width:800px;height:800px\" width=\"800px\" height=\"800px\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/S065d8529862346c29345f4ebf993f0c1n.jpg\" slate-data-type=\"image\" /><img style=\"width:800px;height:800px\" width=\"800px\" height=\"800px\" src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sfa847dccc2274cd88fb07a781ba6aea4w.jpg\" slate-data-type=\"image\" /><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S456269dff91b4a7fb146c170c92ec2d5w.jpg\" slate-data-type=\"image\" /></p>\n   <br />\n  </div>\n  <p><br /></p>\n </div>\n</div>\n<br /></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "Fourth floor, no. 458, no. 458, beiyuan street, yiwu city, jinhua city, zhejiang province",
+    "phone": "13541192511",
+    "country_name": "China",
+    "email": "fengxing202466@163.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 10,
+        "attr_value_id": 63,
+        "attr_name": "Material",
+        "attr_value": "Nylon"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": 3,
+        "attr_value_id": -1,
+        "attr_name": "Modellnummer",
+        "attr_value": "RBZ-ZY089"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1104164746,
+    "shipping_speed_rating": "4.8",
+    "communication_rating": "4.7",
+    "store_name": "FX Trade Market Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.7"
+  }
+}

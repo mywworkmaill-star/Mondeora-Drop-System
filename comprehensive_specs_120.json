@@ -1,0 +1,67 @@
+{
+  "dimensions": {
+    "found": false,
+    "length_cm": 45.0,
+    "width_cm": 2.5,
+    "height_cm": null,
+    "depth_cm": null,
+    "diameter_cm": 14.3,
+    "text": "Produktbild 'PRODUCT SIZE' Infografik zeigt explizit '17.7 inch/45 cm' als Riemenlaenge (deckt sich exakt mit Produkttitel '45 cm'), '1 inch/2.5 cm' als Riemenbreite, sowie 'Max wrapping 5.64inch diameter' (~14.3cm) fuer den maximalen Wickeldurchmesser. Keine separate Hoehen-/Dickenangabe fuer den Hauptriemen vorhanden (nur Karabiner-Teilmasse 0.8cm/2.3cm), daher found=false da nicht alle drei Hauptmasse (L/B/H) vorliegen.",
+    "confidence": 95
+  },
+  "weight": {
+    "found": false,
+    "product_weight_g": null,
+    "package_weight_g": null,
+    "text": "",
+    "confidence": 0
+  },
+  "material": {
+    "primary": "Nylon-Gurtband mit Kunststoffschnalle",
+    "composition": ["Nylon", "Kunststoff (Schnalle/Karabiner)"],
+    "confidence": 75,
+    "source": "vision"
+  },
+  "color": {
+    "found": true,
+    "main": "Schwarz",
+    "options": [],
+    "confidence": 95,
+    "source": "vision + title"
+  },
+  "capacity": {
+    "found": false,
+    "volume_liter": null,
+    "item_count": null,
+    "load_capacity_kg": null,
+    "text": "",
+    "confidence": 0
+  },
+  "features": [
+    "3-Achsen-Schnalle (verstellbar)",
+    "Integrierter Karabinerhaken zum Aufhaengen",
+    "Maximaler Wickeldurchmesser ca. 14,3 cm (5.64 inch)",
+    "Wetterfest, geeignet fuer Innen- und Aussenbereich",
+    "Verstellbare Laenge per Steckschnalle"
+  ],
+  "brand": {
+    "name": "No-Name",
+    "confidence": 80
+  },
+  "model": {
+    "number": "",
+    "confidence": 0
+  },
+  "certifications": [],
+  "technical": {
+    "temperature_min_c": null,
+    "temperature_max_c": null,
+    "power_watt": null,
+    "voltage": null
+  },
+  "assembly": {
+    "required": "Nein",
+    "tools_needed": "Nein",
+    "time_minutes": null
+  }
+}

@@ -1,0 +1,22 @@
+{"timestamp": "2026-11-14T04:11:32.399502", "fix_type": "description", "product_id": "Test Title", "action": "fix", "result": "error", "details": {"error": "'str' object has no attribute '_request'"}}
+{"timestamp": "2026-11-14T12:44:55.960432", "fix_type": "description", "product_id": "12345", "action": "check", "result": "no_issues", "details": {}}
+{"timestamp": "2026-11-14T12:44:55.976619", "fix_type": "description", "product_id": "12345", "action": "fix", "result": "success", "details": {"old_length": 0, "new_length": 2894, "problems_fixed": []}}
+{"timestamp": "2026-11-14T12:44:55.989476", "fix_type": "description", "product_id": "12345", "action": "update_api", "result": "failed", "details": {"sku": "TEST-SKU-001", "error": "verified_prepared_revision_required"}}
+{"timestamp": "2026-11-14T12:54:41.078794", "fix_type": "description", "product_id": "12345", "action": "check", "result": "no_issues", "details": {}}
+{"timestamp": "2026-11-14T12:54:41.091145", "fix_type": "description", "product_id": "12345", "action": "fix", "result": "success", "details": {"old_length": 0, "new_length": 2894, "problems_fixed": []}}
+{"timestamp": "2026-11-14T12:54:41.098533", "fix_type": "description", "product_id": "12345", "action": "update_api", "result": "failed", "details": {"sku": "TEST-SKU-001", "error": "verified_prepared_revision_required"}}
+{"timestamp": "2026-11-14T13:47:13.984934", "fix_type": "description", "product_id": "12345", "action": "check", "result": "no_issues", "details": {}}
+{"timestamp": "2026-11-14T13:47:13.998303", "fix_type": "description", "product_id": "12345", "action": "fix", "result": "success", "details": {"old_length": 0, "new_length": 2894, "problems_fixed": []}}
+{"timestamp": "2026-11-14T13:47:14.006156", "fix_type": "description", "product_id": "12345", "action": "update_api", "result": "failed", "details": {"sku": "TEST-SKU-001", "error": "verified_prepared_revision_required"}}
+{"timestamp": "2026-11-14T14:03:56.705508", "fix_type": "description", "product_id": "12345", "action": "check", "result": "no_issues", "details": {}}
+{"timestamp": "2026-11-14T14:03:56.717837", "fix_type": "description", "product_id": "12345", "action": "fix", "result": "success", "details": {"old_length": 0, "new_length": 2894, "problems_fixed": []}}
+{"timestamp": "2026-11-14T14:03:56.722834", "fix_type": "description", "product_id": "12345", "action": "update_api", "result": "failed", "details": {"sku": "TEST-SKU-001", "error": "verified_prepared_revision_required"}}
+{"timestamp": "2026-11-14T14:17:24.456003", "fix_type": "description", "product_id": "12345", "action": "check", "result": "no_issues", "details": {}}
+{"timestamp": "2026-11-14T14:17:24.464902", "fix_type": "description", "product_id": "12345", "action": "fix", "result": "success", "details": {"old_length": 0, "new_length": 2894, "problems_fixed": []}}
+{"timestamp": "2026-11-14T14:17:24.469972", "fix_type": "description", "product_id": "12345", "action": "update_api", "result": "failed", "details": {"sku": "TEST-SKU-001", "error": "verified_prepared_revision_required"}}
+{"timestamp": "2026-11-14T14:23:15.167878", "fix_type": "description", "product_id": "12345", "action": "check", "result": "no_issues", "details": {}}
+{"timestamp": "2026-11-14T14:23:15.177889", "fix_type": "description", "product_id": "12345", "action": "fix", "result": "success", "details": {"old_length": 0, "new_length": 2894, "problems_fixed": []}}
+{"timestamp": "2026-11-14T14:23:15.183398", "fix_type": "description", "product_id": "12345", "action": "update_api", "result": "failed", "details": {"sku": "TEST-SKU-001", "error": "verified_prepared_revision_required"}}
+{"timestamp": "2026-11-14T14:40:48.890574", "fix_type": "description", "product_id": "12345", "action": "check", "result": "no_issues", "details": {}}
+{"timestamp": "2026-11-14T14:40:48.898387", "fix_type": "description", "product_id": "12345", "action": "fix", "result": "success", "details": {"old_length": 0, "new_length": 2894, "problems_fixed": []}}
+{"timestamp": "2026-11-14T14:40:48.901865", "fix_type": "description", "product_id": "12345", "action": "update_api", "result": "failed", "details": {"sku": "TEST-SKU-001", "error": "verified_prepared_revision_required"}}

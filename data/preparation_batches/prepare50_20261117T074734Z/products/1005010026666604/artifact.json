@@ -1,0 +1,2028 @@
+{
+  "st": {
+    "gates": {
+      "block": [],
+      "review": [],
+      "acknowledged": [],
+      "info": {},
+      "demand": {
+        "listings_found": 2,
+        "median": 29.2,
+        "p25": null,
+        "min": 27.99,
+        "max": 30.4,
+        "our_price": 25.99,
+        "price_vs_median": 0.89
+      },
+      "demand_review": [],
+      "images_dropped": 1,
+      "quality": {
+        "description": {
+          "length": 627,
+          "has_html": true,
+          "has_lists": false,
+          "has_table": true
+        },
+        "variants": [
+          {
+            "sku_id": "12000050874494413",
+            "images": {
+              "total": 5,
+              "valid": 5,
+              "dropped": 0,
+              "ideal": 8
+            },
+            "aspects": {
+              "count": 2,
+              "min_required": 10
+            }
+          }
+        ],
+        "warnings": [],
+        "category": {
+          "confidence": 1.0,
+          "needs_review": false,
+          "category_id": "36024"
+        }
+      }
+    },
+    "res": {
+      "ae_item_sku_info_dtos": {
+        "ae_item_sku_info_d_t_o": [
+          {
+            "sku_attr": "14:29#Cream",
+            "offer_sale_price": "4.39",
+            "sku_id": "12000050874494413",
+            "price_include_tax": true,
+            "currency_code": "EUR",
+            "sku_price": "9.34",
+            "offer_bulk_sale_price": "4.39",
+            "sku_available_stock": 18,
+            "id": "14:29#Cream",
+            "ae_sku_property_dtos": {
+              "ae_sku_property_d_t_o": [
+                {
+                  "sku_property_value": "WEISS",
+                  "sku_image": "https://ae01.alicdn.com/kf/S09da60cde0c24aa4a4aa362300b27c83m.jpg",
+                  "sku_property_name": "Farbe",
+                  "property_value_definition_name": "Cream",
+                  "property_value_id": 29,
+                  "sku_property_id": 14
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ae_multimedia_info_dto": {
+        "image_urls": "https://ae01.alicdn.com/kf/S6f786a4b012e45baa758def0a9ac8580f.jpg;https://ae01.alicdn.com/kf/S6ed16f7916cf46039b89f360b4476e95z.jpg;https://ae01.alicdn.com/kf/S09da60cde0c24aa4a4aa362300b27c83m.jpg;https://ae01.alicdn.com/kf/S51d5b30d566042389e5fd18326abcb85N.jpg;https://ae01.alicdn.com/kf/S7671737fbffd47848fb108749a6d037dj.jpg;https://ae01.alicdn.com/kf/S61a4f40b89b94705b3619bdabae0c983c.jpg"
+      },
+      "package_info_dto": {
+        "package_width": 27,
+        "package_height": 5,
+        "package_length": 32,
+        "gross_weight": "0.097",
+        "package_type": false,
+        "product_unit": 100000015
+      },
+      "logistics_info_dto": {
+        "delivery_time": 7,
+        "ship_to_country": "DE"
+      },
+      "product_id_converter_result": {
+        "main_product_id": 1005010026666604,
+        "sub_product_id": "{\"US\":3256809840351852}"
+      },
+      "ae_item_base_info_dto": {
+        "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S6f786a4b012e45baa758def0a9ac8580f.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S09da60cde0c24aa4a4aa362300b27c83m.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S51d5b30d566042389e5fd18326abcb85N.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S8bc7ad6f0a5544fc8435c0cfb045624aT.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S61a4f40b89b94705b3619bdabae0c983c.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S6ed16f7916cf46039b89f360b4476e95z.jpg\",\"style\":{\"width\":800,\"height\":800}}}]}",
+        "subject": "1 Stück neuer Hutablage im Instagram-Stil mit Haken zum Aufhängen, passend für 8 hohe Kappen für Wohnheim, Schrank, Wandmontage, Baseball",
+        "evaluation_count": "1538",
+        "sales_count": "10000+",
+        "product_status_type": "onSelling",
+        "avg_evaluation_rating": "4.5",
+        "separated_listing": false,
+        "currency_code": "CNY",
+        "sl_product": false,
+        "category_id": 202200604,
+        "product_id": 1005010026666604,
+        "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S6f786a4b012e45baa758def0a9ac8580f.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S09da60cde0c24aa4a4aa362300b27c83m.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S51d5b30d566042389e5fd18326abcb85N.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S8bc7ad6f0a5544fc8435c0cfb045624aT.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S61a4f40b89b94705b3619bdabae0c983c.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S6ed16f7916cf46039b89f360b4476e95z.jpg\" slate-data-type=\"image\"/><br/></p></div></div>\r\n"
+      },
+      "manufacturer_info": {
+        "address": "588 Chunhua Road, Beiyuan Street, Yiwu City, Jinhua City, Zhejiang Province",
+        "phone": "15967953364",
+        "country_name": "China",
+        "email": "15967953364@163.com",
+        "phone_prefix": "86"
+      },
+      "has_whole_sale": false,
+      "ae_item_properties": {
+        "ae_item_property": [
+          {
+            "attr_name_id": 2,
+            "attr_value_id": 201512802,
+            "attr_name": "Markenname",
+            "attr_value": "NONE"
+          },
+          {
+            "attr_name_id": 10,
+            "attr_value_id": 888,
+            "attr_name": "Material",
+            "attr_value": "Eisen"
+          },
+          {
+            "attr_name_id": 400000603,
+            "attr_value_id": 23399591357,
+            "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+            "attr_value": "Keine"
+          },
+          {
+            "attr_name_id": 219,
+            "attr_value_id": 9441741844,
+            "attr_name": "Ursprung",
+            "attr_value": "CN (Herkunft)"
+          },
+          {
+            "attr_name_id": -1,
+            "attr_name": "Choice",
+            "attr_value": "yes"
+          }
+        ]
+      },
+      "ae_store_info": {
+        "store_id": 1104682116,
+        "shipping_speed_rating": "4.6",
+        "communication_rating": "4.6",
+        "store_name": "Shop1104682116 Store",
+        "store_country_code": "CN",
+        "item_as_described_rating": "4.4"
+      }
+    },
+    "title": "neuer Hutablage im Instagram-Stil mit Haken zum Aufhängen, passend für 8 hohe",
+    "cat": {
+      "category_id": "36024",
+      "path": "Möbel & Wohnen > Klein- & Hängeaufbewahrung > Wand-, Türgarderoben & Haken",
+      "confidence": 1.0,
+      "needs_review": false,
+      "source": "override",
+      "level": "medium",
+      "note": "wall-mounted hat rack with hooks (title literally 'Hutablage... zum Aufhaengen... Wandmontage'); auto-resolve picked this same category but only 0.25 confidence. Real picklist Produktart value 'Garderoben- und Hutablage' is an exact title match, confirming the category fit."
+    },
+    "shared": {
+      "Material": [
+        "Eisen"
+      ],
+      "Produktart": [
+        "Garderoben- und Hutablage"
+      ]
+    },
+    "plan": {
+      "is_variation": false,
+      "variants": [
+        {
+          "sku_id": "12000050874494413",
+          "aspects": {},
+          "image": "https://ae01.alicdn.com/kf/S09da60cde0c24aa4a4aa362300b27c83m.jpg",
+          "cost": 4.39,
+          "verified": true,
+          "has_color": false,
+          "human_override": false,
+          "stock": 18,
+          "price": 25.99,
+          "net": 15.75,
+          "sku": "AE-1005010026666604-12000050874494413",
+          "qty": 5
+        }
+      ],
+      "dropped": [],
+      "specifications": [],
+      "flags": []
+    },
+    "desc": "<div style=\"font-family:Arial,sans-serif;\"><div style=\"background:#1a5276;color:#fff;font-size:11px;font-weight:bold;padding:3px 8px;border-radius:3px;display:inline-block;\">Seite 1 - Allgemeine Beschreibung</div><h2 style=\"margin:6px 0 10px;font-size:20px;\">neuer Hutablage im Instagram-Stil mit Haken zum Aufhängen, passend für 8 hohe</h2><table style=\"width:100%;margin:0 0 12px;\"><tr><td style=\"padding:4px;text-align:center;\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S6f786a4b012e45baa758def0a9ac8580f.jpg\" alt=\"Produktfoto\" style=\"max-width:150px;width:100%;border-radius:6px;border:1px solid #d6dbdf;\"></td><td style=\"padding:4px;text-align:center;\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S09da60cde0c24aa4a4aa362300b27c83m.jpg\" alt=\"Produktfoto\" style=\"max-width:150px;width:100%;border-radius:6px;border:1px solid #d6dbdf;\"></td></tr></table><div style=\"background:#fff;border:1px solid #1a5276;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><p style=\"font-size:13px;margin:0;\"><b>Versand &amp; Rückgabe</b><br>Neu, Versand aus dem Ausland, Lieferzeit ca. 7-15 Werktage. Rückgabe gemäß Angebotsbedingungen.</p></div><hr style=\"border:none;border-top:2px dashed #d6dbdf;margin:16px 0;\"><div style=\"background:#1a5276;color:#fff;font-size:11px;font-weight:bold;padding:3px 8px;border-radius:3px;display:inline-block;\">Seite 2 - Wichtige Produktinformationen</div><h2 style=\"margin:6px 0 10px;font-size:20px;\">Spezifikation</h2><div style=\"background:#fff;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><table style=\"width:100%;border-collapse:collapse;font-size:13px;\"><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Material</td><td style=\"padding:5px 8px;\">Eisen</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Ursprung</td><td style=\"padding:5px 8px;\">CN (Herkunft)</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Choice</td><td style=\"padding:5px 8px;\">yes</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;\">Verpackung</td><td style=\"padding:5px 8px;\">ca. 32 x 27 x 5 cm, ca. 0.097 kg</td></tr></table></div><div style=\"background:#fff;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><h3 style=\"margin:0 0 6px;font-size:15px;color:#1a5276;\">Paket beinhaltet</h3><p style=\"font-size:13px;margin:0;\">1x neuer Hutablage im Instagram-Stil mit Haken zum Aufhängen, passend für 8 hohe</p></div><div style=\"background:#f4f6f7;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><h3 style=\"margin:0 0 6px;font-size:15px;color:#1a5276;\">Hinweis</h3><p style=\"font-size:12px;margin:0;color:#666;\">Bitte beachten Sie, dass es aufgrund manueller Messung und unterschiedlicher Monitoreinstellungen zu geringfügigen Abweichungen bei Farbe und Maßen kommen kann.</p></div></div>",
+    "imgs": [
+      "https://ae01.alicdn.com/kf/S6f786a4b012e45baa758def0a9ac8580f.jpg",
+      "https://ae01.alicdn.com/kf/S09da60cde0c24aa4a4aa362300b27c83m.jpg",
+      "https://ae01.alicdn.com/kf/S51d5b30d566042389e5fd18326abcb85N.jpg",
+      "https://ae01.alicdn.com/kf/S7671737fbffd47848fb108749a6d037dj.jpg",
+      "https://ae01.alicdn.com/kf/S61a4f40b89b94705b3619bdabae0c983c.jpg"
+    ],
+    "aspect_metadata": [
+      {
+        "name": "Produktart",
+        "required": true,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Aufbewahrungshaken",
+          "Aufhängestreifen",
+          "Bademantelhaken",
+          "Besenhalter",
+          "Bilderhaken",
+          "Deckenhaken",
+          "Dekorativer Wandhaken",
+          "Garderobe",
+          "Garderobenbank & -paneele",
+          "Garderobenhaken",
+          "Garderoben-Set",
+          "Garderobenständer",
+          "Garderoben- und Hutablage",
+          "Gleithaken",
+          "Hakenleiste",
+          "Hakenleiste",
+          "Handtuchhaken",
+          "Handtuchhalter",
+          "Klammerbügel",
+          "Kleiderlüfter",
+          "Kleiderschiene",
+          "Kleiderstangenhalterung",
+          "Krawattenhalter",
+          "Magnethaken",
+          "Saugnapfgarderobe",
+          "Schirmständer",
+          "Schlüsselhaken",
+          "Schraubhaken",
+          "Selbstklebend",
+          "S-Haken",
+          "Stecktafel",
+          "Taschenhaken",
+          "Tassenhaken",
+          "Trockenmauer-Haken",
+          "Türgarderobe",
+          "Türhaken",
+          "Werkzeughalter",
+          "Werkzeugständer",
+          "Wischmopp-Haken",
+          "Wischmopp-Halter",
+          "Zackenaufhänger",
+          "Zeitungsständer"
+        ]
+      },
+      {
+        "name": "Material",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": true,
+        "values": [
+          "100% Baumwolle",
+          "100% Polyester",
+          "Acryl",
+          "Ägyptische Baumwolle",
+          "Ahorn",
+          "Aluminium",
+          "Bambus",
+          "Baumwolle",
+          "Beton",
+          "Birke",
+          "Bronze",
+          "Buche",
+          "Chiffon",
+          "Chrom",
+          "Edelstahl",
+          "Eibe",
+          "Eiche",
+          "Eisen",
+          "Erle",
+          "Esche",
+          "Faserplatte",
+          "Gelcote",
+          "Gemischtes Material",
+          "Gewebe",
+          "Glas",
+          "Gummi",
+          "Gummibaum",
+          "Gusseisen",
+          "Hartzinn",
+          "Holz",
+          "Holz & Gewebe",
+          "Holzfurnier",
+          "Karton",
+          "Kastanie",
+          "Keramik",
+          "Kiefer",
+          "Kirsche",
+          "Korbgeflecht",
+          "Kunststoff",
+          "Kupfer",
+          "Leder",
+          "Mahagoni",
+          "Marmor",
+          "Maschendraht",
+          "Massivholz",
+          "MDF/Spanplatte",
+          "Messing",
+          "Metall",
+          "Metall & Gewebe",
+          "Mikrofaser",
+          "Nickel",
+          "Nylon",
+          "Palisander",
+          "Pelz",
+          "Polybaumwolle",
+          "Polyester",
+          "Polypropylen",
+          "Porzellan",
+          "Rattan",
+          "Sackleinen",
+          "Schmiedeeisen",
+          "Seegras",
+          "Segeltuch",
+          "Silber",
+          "Sisal/Seegras",
+          "Spanplatte",
+          "Stahl",
+          "Stein",
+          "Stroh",
+          "Synthetik",
+          "Teak",
+          "Textilleder",
+          "Velours",
+          "Verbundwerkstoff",
+          "Walnuss",
+          "Zeder"
+        ]
+      },
+      {
+        "name": "Marke",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Markenlos",
+          "10 Strawberry Street",
+          "1881 Rogers",
+          "1888 Mills",
+          "3M",
+          "4D CONCEPTS",
+          "4walls",
+          "AbsorbaStone",
+          "Accent Plus",
+          "Access Able",
+          "Access Lighting",
+          "ACCO",
+          "Accoutrements",
+          "Acctim",
+          "Accubrush",
+          "Accuride",
+          "Accuspray",
+          "ACE",
+          "ACHLA Designs",
+          "Acme",
+          "ACME Furniture",
+          "ACUDOR",
+          "AcuRite",
+          "Adagio",
+          "Adam",
+          "Adams",
+          "ADDIS",
+          "Adelphi",
+          "ADEMCO",
+          "Adesso",
+          "Admetior",
+          "Admiral",
+          "ADT",
+          "Advance",
+          "Advanced Graphics",
+          "Advantus",
+          "AEG",
+          "AE Light",
+          "AeroBed",
+          "aerolatte",
+          "AeroPress",
+          "Aerus",
+          "AFC",
+          "Afina",
+          "AFK",
+          "AFLighting",
+          "Aftershock",
+          "AFTRON",
+          "AGA",
+          "Agraria",
+          "Agri-Fab",
+          "Aico",
+          "Aimbry",
+          "AirCloud",
+          "Air Couture",
+          "Aireloom",
+          "AireRyder",
+          "Airfree",
+          "Air King",
+          "Airlessco",
+          "Air Locker",
+          "AirLuxe",
+          "Airpura",
+          "Airsprung",
+          "Air Wick",
+          "Akasa",
+          "Akro-Mils",
+          "Aladdin",
+          "Alan Symonds",
+          "Alba",
+          "Alemite",
+          "Alera",
+          "Alessi",
+          "ALEX",
+          "Alexander Kalifano",
+          "Alexander Taron",
+          "Alexandria",
+          "Alex Clark",
+          "Alex Products",
+          "Alfa",
+          "Alfresco",
+          "Alfresco Home",
+          "Algoma",
+          "AllBrass",
+          "All-Clad",
+          "Allegro",
+          "Allen",
+          "Allen + Roth",
+          "AllerAir",
+          "Allergy Sentry",
+          "Allied Brass",
+          "Allied Precision",
+          "Allis-Chalmers",
+          "Alloc Domestic",
+          "All Star",
+          "Allstate Floral & Craft",
+          "All Things Cedar",
+          "ALLURE",
+          "ALNO",
+          "Aloha",
+          "Alora Ambiance",
+          "Alpaca Warehouse",
+          "Alpha",
+          "Alpha Packaging",
+          "Alpine",
+          "Alsons",
+          "Altro",
+          "Alunovo",
+          "ALVI",
+          "Amadeus",
+          "Amaircare",
+          "Amana",
+          "Amana Tool",
+          "Amarr",
+          "AmazonBasics",
+          "Ambience",
+          "Ambria",
+          "AMCO",
+          "Amco Houseworks",
+          "Amcor",
+          "Amefa",
+          "Amerelle",
+          "American Aldes",
+          "American Atelier",
+          "American Bath Factory",
+          "American Chateau",
+          "American Classics",
+          "American Expedition",
+          "American Fluorescent",
+          "American Heritage",
+          "American Living",
+          "American Mills",
+          "American Olean",
+          "American Originals",
+          "American Outdoor Grill",
+          "American Safety Razor",
+          "American Specialties",
+          "American Standard",
+          "American Turbine",
+          "American Weigh Scales",
+          "American Woodmark",
+          "AmeriColor",
+          "Ameriwood",
+          "Amerock",
+          "AmerTac",
+          "AMES",
+          "AMETEK",
+          "Amethyst",
+          "AMF",
+          "AMIA",
+          "Amica",
+          "Ampro",
+          "Amscan",
+          "AMSEC",
+          "Amston",
+          "Amstyle",
+          "Amtech",
+          "Amtico",
+          "Amway",
+          "Amy Butler",
+          "Anchor Hocking",
+          "Ancient Wisdom",
+          "Andersen",
+          "Anderson Teak",
+          "Andrew James",
+          "Angels at Heart",
+          "Anglepoise",
+          "Aniba",
+          "Anika",
+          "Animo Jr.",
+          "Anna French",
+          "Anna Griffin",
+          "Anne At Home",
+          "Anniversary House",
+          "Anolon",
+          "ANSMANN",
+          "Anthony California",
+          "Anthropologie",
+          "Antica Farmacista",
+          "Antik-Sieger",
+          "Antique Drapery Rod Co.",
+          "Anvil",
+          "AnyWears Biscuits",
+          "APC",
+          "Apex",
+          "Apilco",
+          "Apollo",
+          "Appletree",
+          "Applica",
+          "Aprilaire",
+          "AQ-FURNITURE",
+          "Aqua",
+          "Aquabot",
+          "Aqua Glass",
+          "Aqua Leisure",
+          "Aqualog",
+          "Aqua Mix",
+          "Aquatic",
+          "Aqua Vac",
+          "AquaWizard",
+          "AQUIESSE",
+          "AR Blue Clean",
+          "ARCABOA",
+          "Archers",
+          "Archipelago",
+          "Architectural Mailboxes",
+          "Arcoroc",
+          "Arctic Zone",
+          "Arden",
+          "Ardex",
+          "Ardisam",
+          "Argos",
+          "Ariens",
+          "Ariete",
+          "Arister",
+          "Ariston",
+          "Arius",
+          "Arlington",
+          "Arm & Hammer",
+          "Armstrong",
+          "Arnold",
+          "AROMA",
+          "Aroma Coffee",
+          "Aromaglow",
+          "Aromatique",
+          "Arrow",
+          "Artcraft",
+          "Art Effects",
+          "Arte Italica",
+          "Artemide",
+          "ArtGlass",
+          "Arthur Price",
+          "Arthur Wood",
+          "Articulate Gallery",
+          "Artimals",
+          "Artiss",
+          "Artland",
+          "Artscape",
+          "Arus",
+          "Arya",
+          "Ascaso",
+          "Asda",
+          "Ashleigh & Burwood",
+          "Ashley Brooke",
+          "Ashley Furniture",
+          "Ashley Housewares",
+          "Ashley Norton",
+          "Ashley Wilde",
+          "Ashton Sutton",
+          "Asia Direct",
+          "ASKO",
+          "Aspects",
+          "Associated Weavers",
+          "Astra",
+          "Astro",
+          "Astro Lighting",
+          "ATAG",
+          "Ateco",
+          "Ateliers 28",
+          "ATG",
+          "Athalon",
+          "Atlantic",
+          "Atlantis",
+          "Atlas Homewares",
+          "Atticks Inc",
+          "Atwood",
+          "Aubecq",
+          "Aubusson",
+          "Auerhahn",
+          "Aura Cacia",
+          "Aurora",
+          "Aussie",
+          "Austin Air",
+          "Authentic Models",
+          "Autobin",
+          "Auto Expressions",
+          "Avanity",
+          "Avantage",
+          "Avanti",
+          "Aveeno",
+          "AVENT",
+          "Ave Six",
+          "AVM",
+          "Avon",
+          "AWT",
+          "Axminster",
+          "Ayisha Shades",
+          "Aynsley",
+          "AYP",
+          "B.J.M",
+          "B.lux",
+          "b.p.c.",
+          "B&Q",
+          "Babco",
+          "Baby Best",
+          "Baby Boum",
+          "Baby Cubes",
+          "Baby Dan",
+          "Baby Plus",
+          "Baccarat"
+        ]
+      },
+      {
+        "name": "Anzahl der Haken",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "1",
+          "1-6",
+          "2",
+          "7-10",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "11-16",
+          "17-20",
+          "Mehr als 20",
+          "Mehr als 5"
+        ]
+      },
+      {
+        "name": "Montage",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": true,
+        "values": [
+          "Freistehend",
+          "Hängend",
+          "Über der Tür",
+          "Wandmontage"
+        ]
+      },
+      {
+        "name": "Breite",
+        "required": false,
+        "variation_ok": true,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": []
+      },
+      {
+        "name": "Abteilung",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": true,
+        "values": [
+          "Unisex Baby & Kleinkind",
+          "Jungen",
+          "Kinder",
+          "Mädchen",
+          "Jugendliche",
+          "Erwachsene"
+        ]
+      },
+      {
+        "name": "Haken-Stil",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Ast",
+          "Hufeisen",
+          "Hundeschwanz",
+          "Traditional"
+        ]
+      },
+      {
+        "name": "Länge",
+        "required": false,
+        "variation_ok": true,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "15 cm",
+          "20 cm",
+          "25 cm",
+          "31 cm"
+        ]
+      },
+      {
+        "name": "Gewicht",
+        "required": false,
+        "variation_ok": true,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "5 kg",
+          "1 kg",
+          "6 kg",
+          "2 kg",
+          "7 kg",
+          "3 kg",
+          "8 kg",
+          "4 kg",
+          "9 kg",
+          "10 kg",
+          "11 kg"
+        ]
+      },
+      {
+        "name": "Herstellernummer",
+        "required": false,
+        "variation_ok": true,
+        "mode": "FREE_TEXT",
+        "multi": true,
+        "values": []
+      },
+      {
+        "name": "Höhe",
+        "required": false,
+        "variation_ok": true,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": []
+      },
+      {
+        "name": "Modell",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Command 17004",
+          "Command 17006CLR",
+          "Command 17067CLR",
+          "Command 17082",
+          "Command 17083",
+          "Command 17091CLR",
+          "Everbilt 14939",
+          "Everbilt 15558",
+          "Everbilt 15718",
+          "Everbilt 20387",
+          "Everbilt 20796",
+          "IKEA 104.444.45",
+          "IKEA 402.426.53",
+          "IKEA 503.471.31",
+          "IKEA 602.917.08",
+          "IKEA 804.769.37",
+          "Liberty 137246",
+          "Liberty B28275Z-SN-C",
+          "Liberty B38538-CZ-SP",
+          "Liberty R30799-PWN-U",
+          "Mammut"
+        ]
+      },
+      {
+        "name": "Farbe",
+        "required": false,
+        "variation_ok": true,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Beige",
+          "Blau",
+          "Braun",
+          "Gelb",
+          "Gold",
+          "Grau",
+          "Grün",
+          "Lila",
+          "Mehrfarbig",
+          "Orange",
+          "Rosa",
+          "Rot",
+          "Schwarz",
+          "Silber",
+          "Transparent",
+          "Weiß"
+        ]
+      },
+      {
+        "name": "Stil",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Antik",
+          "Art déco",
+          "Barock/Rokoko",
+          "Bauernhaus",
+          "Bauhaus",
+          "Bohemien",
+          "Britischer Kolonialstil",
+          "Französischer Stil",
+          "Geflochten",
+          "Glatt",
+          "Gotisch",
+          "Jugendstil",
+          "Kasachisch",
+          "Kelim",
+          "Kolonialstil",
+          "Kurdisch",
+          "Landhaus",
+          "Marokkanisch",
+          "Mediterran",
+          "Modern",
+          "Orientalisch",
+          "Pop Art",
+          "Queen-Anne-Stil",
+          "Renaissance",
+          "Romantik",
+          "Shabby",
+          "Skandinavisch",
+          "Spaß & Kurioses",
+          "Tierfellmuster",
+          "Traditionell",
+          "Urig",
+          "Viktorianisch",
+          "Vintage/Retro",
+          "Western",
+          "Zeichentrick",
+          "Zeitgenössisch"
+        ]
+      },
+      {
+        "name": "Besonderheiten",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": true,
+        "values": [
+          "Drehbar",
+          "Einfache Installation",
+          "Erweiterbar",
+          "Faltbar/Zusammenklappbar",
+          "Freistehend",
+          "Hängend",
+          "Inklusive Abdeckung",
+          "Mit Bank",
+          "Mit Einlegeboden",
+          "Mit Rollen",
+          "Mit Schirmständer",
+          "Mit Sitzbank",
+          "Schwerlast",
+          "Tragbar",
+          "Verlängerbar",
+          "Verstellbar"
+        ]
+      },
+      {
+        "name": "Thema",
+        "required": false,
+        "variation_ok": true,
+        "mode": "FREE_TEXT",
+        "multi": true,
+        "values": [
+          "Astronomie",
+          "Bagger",
+          "Bauer",
+          "Bauernhaus",
+          "Baum",
+          "Blumen",
+          "Clowns & Zirkus",
+          "Comic-Helden",
+          "Cowboys & wilder Westen",
+          "Cupcakes",
+          "Dinosaurier",
+          "Engel & Putten",
+          "Essen/Küche",
+          "Fahrzeuge",
+          "Fußball",
+          "Garten",
+          "Hexerei & Zauberei",
+          "Hirschkopf",
+          "His & Hers",
+          "Hunde & Welpen",
+          "Industrie",
+          "Karikatur",
+          "Katzen & Kätzchen",
+          "Märchen",
+          "Maritim",
+          "Militär",
+          "Modisch",
+          "Monster",
+          "Musik",
+          "Neuheit",
+          "Pferde",
+          "Piraten",
+          "Prinzessinnen/Feen",
+          "Raumschiffe & Weltraum",
+          "Religion",
+          "Rettungsdienste",
+          "Ritter & Mittelalter",
+          "Roboter",
+          "Safari",
+          "Schmetterlinge",
+          "Spaß & Kurioses",
+          "Sport",
+          "Sterne",
+          "Strand",
+          "Straßen & Straßenkarten",
+          "Superhelden",
+          "Tiere",
+          "TV, Filme & Musik",
+          "TV & Stars",
+          "Uni & College",
+          "Unterwasserwelt",
+          "Urlaub",
+          "Urwald",
+          "Vampire",
+          "Videospiele",
+          "Wald",
+          "Weihnachten",
+          "Wrestling",
+          "Zahlen & Buchstaben"
+        ]
+      },
+      {
+        "name": "Finish",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "Anilin",
+          "Antikes Messing",
+          "Bedruckt",
+          "Bemalt",
+          "Bereift",
+          "Edelplatin",
+          "Eierschale",
+          "Farbwechselnd",
+          "Gebürstet",
+          "Gebürstetes Gold",
+          "Gebürstetes Messing",
+          "Gekalkt",
+          "Gelackt",
+          "Genarbt",
+          "Geölt",
+          "Glänzend",
+          "Glatt",
+          "Halbmatt",
+          "Hochglänzend",
+          "Hochglanzpoliert",
+          "Holzeffekt",
+          "Irisierend",
+          "Lasiert",
+          "Matt",
+          "Metallisch",
+          "Moiré",
+          "Pergament",
+          "Poliert",
+          "Polierter Chrom",
+          "Pulverbeschichtung",
+          "Rohe Oberfläche",
+          "Satin",
+          "Scheinend",
+          "Seidenmatt",
+          "Semianilin",
+          "Strukturiert",
+          "Unbemalt",
+          "Unlackiert",
+          "Unlasiert",
+          "Unpoliert",
+          "UV-Öl",
+          "Vinylbeschichtet",
+          "Wachsbeschichtet"
+        ]
+      },
+      {
+        "name": "Ursprungsland",
+        "required": false,
+        "variation_ok": false,
+        "mode": "SELECTION_ONLY",
+        "multi": false,
+        "values": [
+          "Afghanistan",
+          "Ägypten",
+          "Albanien",
+          "Algerien",
+          "Andorra",
+          "Angola",
+          "Anguilla",
+          "Antigua und Barbuda",
+          "Äquatorialguinea",
+          "Argentinien",
+          "Armenien",
+          "Aruba",
+          "Aserbaidschan",
+          "Äthiopien",
+          "Australien",
+          "Bahamas",
+          "Bahrain",
+          "Bangladesch",
+          "Barbados",
+          "Belarus",
+          "Belgien",
+          "Belize",
+          "Benin",
+          "Bermuda",
+          "Bhutan",
+          "Bolivien",
+          "Bosnien und Herzegowina",
+          "Botsuana",
+          "Brasilien",
+          "Britische Jungferninseln",
+          "Britisches Territorium im Indischen Ozean",
+          "Brunei Darussalam",
+          "Bulgarien",
+          "Burkina Faso",
+          "Burundi",
+          "Chile",
+          "China",
+          "Cookinseln",
+          "Costa Rica",
+          "Côte d'Ivoire",
+          "Curaçao",
+          "Dänemark",
+          "Deutschland",
+          "Dominica",
+          "Dominikanische Republik",
+          "Dschibuti",
+          "Ecuador",
+          "El Salvador",
+          "Eritrea",
+          "Estland",
+          "Eswatini",
+          "Falklandinseln",
+          "Färöer-Inseln",
+          "Fidschi",
+          "Finnland",
+          "Frankreich",
+          "Französische Südgebiete und Antarktisgebiete",
+          "Französisch-Guayana",
+          "Französisch-Polynesien, einschließlich Tahiti",
+          "Gabun",
+          "Gambia",
+          "Gazastreifen",
+          "Georgien",
+          "Ghana",
+          "Gibraltar",
+          "Grenada",
+          "Griechenland",
+          "Grönland",
+          "Guadeloupe",
+          "Guam",
+          "Guatemala",
+          "Guernsey",
+          "Guinea",
+          "Guinea-Bissau",
+          "Guyana",
+          "Haiti",
+          "Heard und McDonaldinseln",
+          "Honduras",
+          "Hongkong",
+          "Indien",
+          "Indonesien",
+          "Irak",
+          "Iran, Islamische Republik",
+          "Irland",
+          "Island",
+          "Israel",
+          "Italien",
+          "Jamaika",
+          "Japan",
+          "Jemen",
+          "Jersey",
+          "Jordanien",
+          "Jungferninseln",
+          "Kaimaninseln",
+          "Kambodscha",
+          "Kamerun",
+          "Kanada",
+          "Kanarische Inseln",
+          "Kap Verde",
+          "Kasachstan",
+          "Katar",
+          "Kenia",
+          "Kirgisistan",
+          "Kiribati",
+          "Kokosinseln (Keelinginseln)",
+          "Kolumbien",
+          "Komoren",
+          "Kongo, Demokratische Republik",
+          "Kongo, Republik",
+          "Kosovo",
+          "Kroatien",
+          "Kuba",
+          "Kuwait",
+          "Laos, Demokratische Volksrepublik",
+          "Lesotho",
+          "Lettland",
+          "Libanon",
+          "Liberia",
+          "Libyen",
+          "Liechtenstein",
+          "Litauen",
+          "Luxemburg",
+          "Macau",
+          "Madagaskar",
+          "Madeira",
+          "Malawi",
+          "Malaysia",
+          "Malediven",
+          "Mali",
+          "Malta",
+          "Marokko",
+          "Marshallinseln",
+          "Martinique",
+          "Mauretanien",
+          "Mauritius",
+          "Mayotte",
+          "Mexiko",
+          "Mikronesien, Föderierte Staaten von",
+          "Moldau, Republik",
+          "Monaco",
+          "Mongolei",
+          "Montenegro",
+          "Montserrat",
+          "Mosambik",
+          "Myanmar /Birma",
+          "Namibia",
+          "Nauru",
+          "Nepal",
+          "Neukaledonien",
+          "Neuseeland",
+          "Nicaragua",
+          "Niederlande",
+          "Niger",
+          "Nigeria",
+          "Niue",
+          "Nordkorea (Demokratische Volksrepublik Korea)",
+          "Nördliche Marianen",
+          "Nordmazedonien",
+          "Norfolkinsel",
+          "Norwegen",
+          "Oman",
+          "Österreich",
+          "Pakistan",
+          "Palau",
+          "Panama",
+          "Papua-Neuguinea",
+          "Paraguay",
+          "Peru",
+          "Philippinen",
+          "Polen",
+          "Portugal",
+          "Puerto Rico",
+          "Réunion",
+          "Ruanda",
+          "Rumänien",
+          "Russische Föderation",
+          "Saint Barthélemy",
+          "Saint-Martin",
+          "Saint-Pierre und Miquelon",
+          "Salomonen",
+          "Sambia",
+          "Samoa",
+          "San Marino",
+          "São Tomé und Príncipe",
+          "Saudi-Arabien",
+          "Schweden",
+          "Schweiz",
+          "Senegal",
+          "Serbien",
+          "Seychellen",
+          "Sierra Leone",
+          "Simbabwe",
+          "Singapur",
+          "Sint Eustatius",
+          "Sint Maarten",
+          "Slowakei",
+          "Slowenien",
+          "Somalia",
+          "Spanien",
+          "Sri Lanka",
+          "St. Helena",
+          "St. Kitts und Nevis",
+          "St. Lucia",
+          "St. Vincent und die Grenadinen",
+          "Südafrika",
+          "Sudan",
+          "Südgeorgien und die Südlichen Sandwichinseln",
+          "Südkorea (Republik Korea)",
+          "Surinam",
+          "Svalbard und Jan Mayen",
+          "Syrien",
+          "Tadschikistan",
+          "Taiwan",
+          "Tansania, Vereinigte Republik",
+          "Thailand",
+          "Togo",
+          "Tokelau",
+          "Tonga",
+          "Trinidad und Tobago",
+          "Tristan da Cunha",
+          "Tschad",
+          "Tschechische Republik",
+          "Tunesien",
+          "Türkei",
+          "Turkmenistan",
+          "Turks- und Caicosinseln",
+          "Tuvalu",
+          "Uganda",
+          "Ukraine",
+          "Ungarn",
+          "Uruguay",
+          "USA",
+          "Usbekistan",
+          "Vanuatu",
+          "Vatikanstadt",
+          "Venezuela",
+          "Vereinigte Arabische Emirate",
+          "Vereinigtes Königreich",
+          "Vietnam",
+          "Wallis und Futuna",
+          "Weihnachtsinseln",
+          "Westjordanland",
+          "Zentralafrikanische Republik",
+          "Zypern"
+        ]
+      },
+      {
+        "name": "Original/Reproduktion",
+        "required": false,
+        "variation_ok": false,
+        "mode": "SELECTION_ONLY",
+        "multi": false,
+        "values": [
+          "Original",
+          "Reproduktion"
+        ]
+      },
+      {
+        "name": "Personalisieren",
+        "required": false,
+        "variation_ok": false,
+        "mode": "SELECTION_ONLY",
+        "multi": false,
+        "values": [
+          "Ja",
+          "Nein"
+        ]
+      },
+      {
+        "name": "Anzahl der Einheiten",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": []
+      },
+      {
+        "name": "Anzahl pro Packung",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": [
+          "1-20",
+          "21-40",
+          "41-60",
+          "61-100",
+          "Mehr als 100"
+        ]
+      },
+      {
+        "name": "Maßeinheit",
+        "required": false,
+        "variation_ok": false,
+        "mode": "SELECTION_ONLY",
+        "multi": false,
+        "values": [
+          "10ml",
+          "100ml",
+          "10g",
+          "100g",
+          "kg",
+          "L",
+          "m",
+          "m²",
+          "m³",
+          "Einheit"
+        ]
+      },
+      {
+        "name": "Personalisiert",
+        "required": false,
+        "variation_ok": false,
+        "mode": "SELECTION_ONLY",
+        "multi": false,
+        "values": [
+          "Ja",
+          "Nein"
+        ]
+      },
+      {
+        "name": "Pflegeanleitung",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": true,
+        "values": [
+          "Mit trockenem Tuch reinigen",
+          "Mit Wachs reinigen",
+          "Pflegeleicht",
+          "Reinigung mit Warmwasser"
+        ]
+      },
+      {
+        "name": "Anleitung für Personalisierung",
+        "required": false,
+        "variation_ok": false,
+        "mode": "FREE_TEXT",
+        "multi": false,
+        "values": []
+      }
+    ],
+    "aspect_provenance": {
+      "Produktart": {
+        "source": "verified_human_review"
+      }
+    },
+    "competitor_research": {
+      "status": "suggestions_only",
+      "query": "Stück neuer Hutablage",
+      "category_id": "36024",
+      "source": "ebay_buy_browse",
+      "product_facts_verified": false,
+      "candidates": [
+        {
+          "item_id": "v1|198789796767|497687332274",
+          "seller": "teufelsshop",
+          "title": "Mumusuki Hutablage für die Hutaufbewahrung, 3 Stück, Hut-Organizer, Acryl",
+          "category_ids": [
+            "36024"
+          ],
+          "source": "https://www.ebay.de/itm/198789796767?var=497687332274&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2FNMS9TmHE8hJQLWxO6C%2FPKJ%2FFC8yAHEEdHWZDulUbjnqbqI6d6LygDFVnrTvOlZ9Wak7SE6uM26sfVN0X6bV3vxffdkEKEZlu7AFc38oV8oWdokW6DSQ9O9XItcl9d1YHzNIWQF3L3JatCI%2Fv8HQIEE7eKWJ8SQE4gag6y18Uvs82uiTiWPB2g1EkEsFI0DG4%3D",
+          "aspects": {
+            "Farbe": "Schwarz",
+            "Produktart": "Garderobenständer",
+            "Material": "Acryl",
+            "Marke": "Mumusuki",
+            "Anzahl der Haken": "3",
+            "Herstellernummer": "Mumusukivqrpgsu2fx-11",
+            "Stil": "Minimalist",
+            "Ursprungsland": "China"
+          },
+          "evidence_type": "competitor_not_supplier"
+        },
+        {
+          "item_id": "v1|820100293191|0",
+          "seller": "regionalherz",
+          "title": "Hutablage Haken 12 Stück Schwarz Wand Tür Kappenaufhänger ohne Bohren Organizer",
+          "category_ids": [
+            "36024"
+          ],
+          "source": "https://www.ebay.de/itm/820100293191?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9r%2F7JrPdUx7SoTwdoJK8R3G1GMCGQnvYy7QQNKHc6abuLctsZSuRmLy5g7VxDNkncXYsDzZll2Z3U2eA%2Fmjs%2F1n0TEw3lMDbdqZC9gpvNoA2ed%2B2iDfwpsvl6%2FFfFaMUi7gs2sZI9NCJxlgPpjP%2F9SVJ15aFJ%2Fs%2BOV%2F%2B3LOWutO0FYdxkZTwVq6RpCcgEwZYI%3D",
+          "aspects": {
+            "Material": "Kunststoff",
+            "Marke": "Markenlos",
+            "Anzahl der Haken": "12",
+            "Breite": "4,2 cm",
+            "Haken-Stil": "Modern",
+            "Länge": "5,5 cm",
+            "Gewicht": "3 Kilogramm",
+            "Höhe": "3,2 cm",
+            "Modell": "Hat Rack",
+            "Farbe": "Schwarz",
+            "Stil": "Modern",
+            "Ursprungsland": "China",
+            "Montage": "Wandmontage",
+            "Produktart": "Hutablage",
+            "Anzahl pro Packung": "12 Stück",
+            "Original/Reproduktion": "Original",
+            "EAN": "0746198933385"
+          },
+          "evidence_type": "competitor_not_supplier"
+        },
+        {
+          "item_id": "v1|115239944529|0",
+          "seller": "decorplanet2015",
+          "title": "Neuer Türschlüsselhalter Messing Wandhaken Kamel Hutablage Handtuch - 1 Stück",
+          "category_ids": [
+            "36024"
+          ],
+          "source": "https://www.ebay.de/itm/115239944529?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9dcEP2HlNJXgw6H47FcaFQto%2FfVFcMtuEVL2kAp75oezJJpc1NHS%2F3rJnT5neRTrmHlXLgn2%2B3H4xbm2Q1w%2FXMYm9f5EQX96wyvS782wm%2Bnav3EeQyGc9D41698l8Vju5nUb%2BM57vYgd521kmjeqgqFF1B2rpIW%2BDvjjF6rFRoIPv8XFjgRwb9XzWxAle6MQU%3D",
+          "aspects": {
+            "Haken-Stil": "Traditional",
+            "Material": "Messing",
+            "Montage": "Hängend, Wandmontage",
+            "Produktart": "dekorativ wand haken",
+            "Farbe": "Mehrfarbig",
+            "Marke": "IS",
+            "Land Der Herkunft": "Indien"
+          },
+          "evidence_type": "competitor_not_supplier"
+        },
+        {
+          "item_id": "v1|306865258202|0",
+          "seller": "thomas6mueller",
+          "title": "2 Stück Hutablage für Baseballkappen, Wandmontage, Huthalter, -aufhänger, Metall",
+          "category_ids": [
+            "36024"
+          ],
+          "source": "https://www.ebay.de/itm/306865258202?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2BmIYr4bmb5siPnsRqJl82AGnOcFdhDjFszG2XHz4OlzKsNm5FfMvvDFFPHYCH%2Fb37%2Fo6LSk67wrVy61XI6z5uCf235yVJ93l%2FF5R78wELGzsd2sD9HECICnHoVoQkMUlT2DpCr1vRsieU3K%2Fhg4i63dRO%2FCcQfGBVIjE%2BkzDHSgGUWMFzhu%2FhHVyFo6sWcs14%3D",
+          "aspects": {
+            "Stil": "Modern",
+            "Themen": "Huthalter",
+            "Material": "Metall weiß lackiert",
+            "Funktionen": "Einfache Installation",
+            "Länge": "15 cm",
+            "Gewicht": "28 g",
+            "Wäschegröße": "Länge 15cm",
+            "Höhe": "3,2 cm",
+            "Breite": "2 cm",
+            "Anzahl der Haken": "2",
+            "Farbe": "Weiß",
+            "Marke": "Markenlos",
+            "Type": "Dekorative Wandhaken",
+            "Montage": "Wandmontage",
+            "Finish": "Metallisch",
+            "Ursprungsland": "China"
+          },
+          "evidence_type": "competitor_not_supplier"
+        }
+      ],
+      "suggestions": {
+        "Ursprungsland": {
+          "value": "China",
+          "agreeing": 3,
+          "sample": 4,
+          "item_ids": [
+            "v1|198789796767|497687332274",
+            "v1|820100293191|0",
+            "v1|306865258202|0"
+          ],
+          "evidence_type": "competitor_suggestion_only"
+        }
+      },
+      "errors": [],
+      "skipped": [
+        {
+          "item_id": "v1|366812152539|0",
+          "code": "product_type_mismatch"
+        },
+        {
+          "item_id": "v1|920052987871|0",
+          "code": "product_type_mismatch"
+        },
+        {
+          "item_id": "v1|137922164976|0",
+          "code": "product_type_mismatch"
+        },
+        {
+          "item_id": "v1|115522269482|0",
+          "code": "duplicate_seller"
+        },
+        {
+          "item_id": "v1|115239944499|0",
+          "code": "duplicate_seller"
+        },
+        {
+          "item_id": "v1|336839481646|0",
+          "code": "product_type_mismatch"
+        }
+      ],
+      "own_listing_exclusion": {
+        "provided_count": 0,
+        "applied": false,
+        "complete": false,
+        "limitation": "authoritative_own_listing_inventory_not_available"
+      },
+      "completeness": {
+        "requested": 10,
+        "detail_attempts": 8,
+        "successful_independent": 4,
+        "minimum_independent": 3,
+        "sufficient_sample": true,
+        "search_complete": false
+      }
+    }
+  },
+  "shipping_quotes": {
+    "12000050874494413": {
+      "product_id": "1005010026666604",
+      "sku_id": "12000050874494413",
+      "quantity": 1,
+      "ship_to_country": "DE",
+      "currency": "EUR",
+      "cost": 1.99,
+      "service_name": "CAINIAO_FULFILLMENT_STD",
+      "logistics_service_name": "CAINIAO_FULFILLMENT_STD",
+      "delivery_estimate": {
+        "min_days": 1,
+        "max_days": 9
+      },
+      "quoted_at": "2026-11-17T07:51:34.121002+00:00",
+      "geographic_scope": "country",
+      "city": null,
+      "province": null,
+      "is_estimate": true,
+      "transaction_ready": false
+    }
+  },
+  "publication_context": {
+    "fulfillmentPolicyId": "263035514017",
+    "paymentPolicyId": "263035507017",
+    "returnPolicyId": "263035512017",
+    "merchantLocationKey": "default-warehouse"
+  },
+  "observed_at": "2026-11-17T07:51:31.874849+00:00",
+  "config_fingerprint": "c7a9b2157d0097adbce0703f4d81ac3cd15755cca056e5c20d8aa0a042fd7d54",
+  "source_fingerprint": "d0af85f41ec8c88029cdfe06668d8b5dc2a9fbd9687299ac5523a8f7572a2a29",
+  "document_evidence": {
+    "basis": "authenticated_scoped_document_review",
+    "accepted_requirements": [],
+    "satisfied_blockers": [],
+    "missing_blockers": [
+      "supplier_product_compliance_unverified",
+      "supplier_agreement_missing",
+      "manufacturer_eu_responsible_person_missing",
+      "image_rights_unverified",
+      "dispatch_origin_unverified"
+    ],
+    "errors": {
+      "supplier_product_compliance": "missing_invalid_stale_or_scope_mismatched_review",
+      "supplier_agreement": "missing_invalid_stale_or_scope_mismatched_review",
+      "manufacturer_eu_responsible_person": "missing_invalid_stale_or_scope_mismatched_review",
+      "image_rights": "missing_invalid_stale_or_scope_mismatched_review",
+      "dispatch_origin": "missing_invalid_stale_or_scope_mismatched_review"
+    },
+    "review_fingerprint": null,
+    "valid_until": null
+  },
+  "quality_contract": {
+    "version": "1",
+    "blockers": [],
+    "warnings": [
+      "optional_aspect_unknown:Marke",
+      "optional_aspect_unknown:Anzahl der Haken",
+      "optional_aspect_unknown:Montage",
+      "optional_aspect_unknown:Breite",
+      "optional_aspect_unknown:Abteilung",
+      "optional_aspect_unknown:Haken-Stil",
+      "optional_aspect_unknown:Länge",
+      "optional_aspect_unknown:Gewicht",
+      "optional_aspect_unknown:Herstellernummer",
+      "optional_aspect_unknown:Höhe",
+      "optional_aspect_unknown:Modell",
+      "optional_aspect_unknown:Farbe",
+      "optional_aspect_unknown:Stil",
+      "optional_aspect_unknown:Besonderheiten",
+      "optional_aspect_unknown:Thema",
+      "optional_aspect_unknown:Finish",
+      "optional_aspect_unknown:Ursprungsland",
+      "optional_aspect_unknown:Original/Reproduktion",
+      "optional_aspect_unknown:Personalisieren",
+      "optional_aspect_unknown:Anzahl der Einheiten",
+      "optional_aspect_unknown:Anzahl pro Packung",
+      "optional_aspect_unknown:Maßeinheit",
+      "optional_aspect_unknown:Personalisiert",
+      "optional_aspect_unknown:Pflegeanleitung",
+      "optional_aspect_unknown:Anleitung für Personalisierung"
+    ],
+    "coverage": {
+      "metadata_available": true,
+      "supplier_source_available": true,
+      "supplier_sku_source_available": true,
+      "aspects": [
+        {
+          "name": "Produktart",
+          "required": true,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "supported"
+            }
+          ]
+        },
+        {
+          "name": "Material",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "supported"
+            }
+          ]
+        },
+        {
+          "name": "Marke",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Anzahl der Haken",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Montage",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Breite",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Abteilung",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Haken-Stil",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Länge",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Gewicht",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Herstellernummer",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Höhe",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Modell",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Farbe",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Stil",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Besonderheiten",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Thema",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Finish",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Ursprungsland",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Original/Reproduktion",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Personalisieren",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Anzahl der Einheiten",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Anzahl pro Packung",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Maßeinheit",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Personalisiert",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Pflegeanleitung",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        },
+        {
+          "name": "Anleitung für Personalisierung",
+          "required": false,
+          "in_category_metadata": true,
+          "variants": [
+            {
+              "sku_id": "12000050874494413",
+              "status": "missing"
+            }
+          ]
+        }
+      ],
+      "unknown_required": [],
+      "unknown_optional": [
+        "Marke",
+        "Anzahl der Haken",
+        "Montage",
+        "Breite",
+        "Abteilung",
+        "Haken-Stil",
+        "Länge",
+        "Gewicht",
+        "Herstellernummer",
+        "Höhe",
+        "Modell",
+        "Farbe",
+        "Stil",
+        "Besonderheiten",
+        "Thema",
+        "Finish",
+        "Ursprungsland",
+        "Original/Reproduktion",
+        "Personalisieren",
+        "Anzahl der Einheiten",
+        "Anzahl pro Packung",
+        "Maßeinheit",
+        "Personalisiert",
+        "Pflegeanleitung",
+        "Anleitung für Personalisierung"
+      ],
+      "sku_identity": [
+        {
+          "sku_id": "12000050874494413",
+          "mapping_format_valid": true,
+          "supplier_exact_match": true
+        }
+      ]
+    }
+  },
+  "payloads": {
+    "items": [
+      {
+        "sku": "AE-1005010026666604-12000050874494413",
+        "body": {
+          "product": {
+            "title": "neuer Hutablage im Instagram-Stil mit Haken zum Aufhängen, passend für 8 hohe",
+            "description": "<div style=\"font-family:Arial,sans-serif;\"><div style=\"background:#1a5276;color:#fff;font-size:11px;font-weight:bold;padding:3px 8px;border-radius:3px;display:inline-block;\">Seite 1 - Allgemeine Beschreibung</div><h2 style=\"margin:6px 0 10px;font-size:20px;\">neuer Hutablage im Instagram-Stil mit Haken zum Aufhängen, passend für 8 hohe</h2><table style=\"width:100%;margin:0 0 12px;\"><tr><td style=\"padding:4px;text-align:center;\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S6f786a4b012e45baa758def0a9ac8580f.jpg\" alt=\"Produktfoto\" style=\"max-width:150px;width:100%;border-radius:6px;border:1px solid #d6dbdf;\"></td><td style=\"padding:4px;text-align:center;\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S09da60cde0c24aa4a4aa362300b27c83m.jpg\" alt=\"Produktfoto\" style=\"max-width:150px;width:100%;border-radius:6px;border:1px solid #d6dbdf;\"></td></tr></table><div style=\"background:#fff;border:1px solid #1a5276;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><p style=\"font-size:13px;margin:0;\"><b>Versand &amp; Rückgabe</b><br>Neu, Versand aus dem Ausland, Lieferzeit ca. 7-15 Werktage. Rückgabe gemäß Angebotsbedingungen.</p></div><hr style=\"border:none;border-top:2px dashed #d6dbdf;margin:16px 0;\"><div style=\"background:#1a5276;color:#fff;font-size:11px;font-weight:bold;padding:3px 8px;border-radius:3px;display:inline-block;\">Seite 2 - Wichtige Produktinformationen</div><h2 style=\"margin:6px 0 10px;font-size:20px;\">Spezifikation</h2><div style=\"background:#fff;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><table style=\"width:100%;border-collapse:collapse;font-size:13px;\"><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Material</td><td style=\"padding:5px 8px;\">Eisen</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Ursprung</td><td style=\"padding:5px 8px;\">CN (Herkunft)</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Choice</td><td style=\"padding:5px 8px;\">yes</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;\">Verpackung</td><td style=\"padding:5px 8px;\">ca. 32 x 27 x 5 cm, ca. 0.097 kg</td></tr></table></div><div style=\"background:#fff;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><h3 style=\"margin:0 0 6px;font-size:15px;color:#1a5276;\">Paket beinhaltet</h3><p style=\"font-size:13px;margin:0;\">1x neuer Hutablage im Instagram-Stil mit Haken zum Aufhängen, passend für 8 hohe</p></div><div style=\"background:#f4f6f7;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><h3 style=\"margin:0 0 6px;font-size:15px;color:#1a5276;\">Hinweis</h3><p style=\"font-size:12px;margin:0;color:#666;\">Bitte beachten Sie, dass es aufgrund manueller Messung und unterschiedlicher Monitoreinstellungen zu geringfügigen Abweichungen bei Farbe und Maßen kommen kann.</p></div></div>",
+            "imageUrls": [
+              "https://ae01.alicdn.com/kf/S09da60cde0c24aa4a4aa362300b27c83m.jpg",
+              "https://ae01.alicdn.com/kf/S6f786a4b012e45baa758def0a9ac8580f.jpg",
+              "https://ae01.alicdn.com/kf/S51d5b30d566042389e5fd18326abcb85N.jpg",
+              "https://ae01.alicdn.com/kf/S7671737fbffd47848fb108749a6d037dj.jpg",
+              "https://ae01.alicdn.com/kf/S61a4f40b89b94705b3619bdabae0c983c.jpg"
+            ],
+            "aspects": {
+              "Material": [
+                "Eisen"
+              ],
+              "Produktart": [
+                "Garderoben- und Hutablage"
+              ]
+            }
+          },
+          "condition": "NEW",
+          "availability": {
+            "shipToLocationAvailability": {
+              "quantity": 5
+            }
+          }
+        }
+      }
+    ],
+    "offers": [
+      {
+        "sku": "AE-1005010026666604-12000050874494413",
+        "body": {
+          "sku": "AE-1005010026666604-12000050874494413",
+          "marketplaceId": "EBAY_DE",
+          "format": "FIXED_PRICE",
+          "availableQuantity": 5,
+          "categoryId": "36024",
+          "merchantLocationKey": "default-warehouse",
+          "listingPolicies": {
+            "fulfillmentPolicyId": "263035514017",
+            "paymentPolicyId": "263035507017",
+            "returnPolicyId": "263035512017"
+          },
+          "listingDescription": "<div style=\"font-family:Arial,sans-serif;\"><div style=\"background:#1a5276;color:#fff;font-size:11px;font-weight:bold;padding:3px 8px;border-radius:3px;display:inline-block;\">Seite 1 - Allgemeine Beschreibung</div><h2 style=\"margin:6px 0 10px;font-size:20px;\">neuer Hutablage im Instagram-Stil mit Haken zum Aufhängen, passend für 8 hohe</h2><table style=\"width:100%;margin:0 0 12px;\"><tr><td style=\"padding:4px;text-align:center;\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S6f786a4b012e45baa758def0a9ac8580f.jpg\" alt=\"Produktfoto\" style=\"max-width:150px;width:100%;border-radius:6px;border:1px solid #d6dbdf;\"></td><td style=\"padding:4px;text-align:center;\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S09da60cde0c24aa4a4aa362300b27c83m.jpg\" alt=\"Produktfoto\" style=\"max-width:150px;width:100%;border-radius:6px;border:1px solid #d6dbdf;\"></td></tr></table><div style=\"background:#fff;border:1px solid #1a5276;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><p style=\"font-size:13px;margin:0;\"><b>Versand &amp; Rückgabe</b><br>Neu, Versand aus dem Ausland, Lieferzeit ca. 7-15 Werktage. Rückgabe gemäß Angebotsbedingungen.</p></div><hr style=\"border:none;border-top:2px dashed #d6dbdf;margin:16px 0;\"><div style=\"background:#1a5276;color:#fff;font-size:11px;font-weight:bold;padding:3px 8px;border-radius:3px;display:inline-block;\">Seite 2 - Wichtige Produktinformationen</div><h2 style=\"margin:6px 0 10px;font-size:20px;\">Spezifikation</h2><div style=\"background:#fff;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><table style=\"width:100%;border-collapse:collapse;font-size:13px;\"><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Material</td><td style=\"padding:5px 8px;\">Eisen</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Ursprung</td><td style=\"padding:5px 8px;\">CN (Herkunft)</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;width:38%;\">Choice</td><td style=\"padding:5px 8px;\">yes</td></tr><tr><td style=\"padding:5px 8px;background:#f4f6f7;font-weight:bold;\">Verpackung</td><td style=\"padding:5px 8px;\">ca. 32 x 27 x 5 cm, ca. 0.097 kg</td></tr></table></div><div style=\"background:#fff;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><h3 style=\"margin:0 0 6px;font-size:15px;color:#1a5276;\">Paket beinhaltet</h3><p style=\"font-size:13px;margin:0;\">1x neuer Hutablage im Instagram-Stil mit Haken zum Aufhängen, passend für 8 hohe</p></div><div style=\"background:#f4f6f7;border:1px solid #d6dbdf;border-radius:6px;padding:12px 14px;margin:0 0 12px;\"><h3 style=\"margin:0 0 6px;font-size:15px;color:#1a5276;\">Hinweis</h3><p style=\"font-size:12px;margin:0;color:#666;\">Bitte beachten Sie, dass es aufgrund manueller Messung und unterschiedlicher Monitoreinstellungen zu geringfügigen Abweichungen bei Farbe und Maßen kommen kann.</p></div></div>",
+          "pricingSummary": {
+            "price": {
+              "value": "25.99",
+              "currency": "EUR"
+            }
+          }
+        }
+      }
+    ],
+    "group": null
+  }
+}

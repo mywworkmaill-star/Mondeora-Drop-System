@@ -1,0 +1,56 @@
+{
+  "index": 8,
+  "product_id": "1005008119002572",
+  "db_title": "1 Stück Aufbewahrungsregal für Haartrockner, nicht perforierte Wandhalterung für Badezimmer, Aufbewahrung von Luftkanälen im Badezimmer",
+  "started_at": "2026-11-17T07:52:44.218501+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "1 Stück Aufbewahrungsregal für Haartrockner, nicht perforierte Wandhalterung für Badezimmer, Aufbewahrung von Luftkanälen im Badezimmer",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/Sd334f17157e6430981a88b509874e7efr.jpg",
+    "https://ae01.alicdn.com/kf/S5b2f09b88f2b41989a3a401192036174v.jpg",
+    "https://ae01.alicdn.com/kf/Se892abe087684c778cd776d6e7960ac8g.jpg",
+    "https://ae01.alicdn.com/kf/Scd4dd5b5464c4e3d8c259d053f595f25m.jpg",
+    "https://ae01.alicdn.com/kf/S2888f73d3f934d05a58dfcc3e89ce97bs.jpg",
+    "https://ae01.alicdn.com/kf/Sf5abc4b28ffa4ed99031917c05dda1166.jpg"
+  ],
+  "image_download_error": "HTTPError",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:category_aspects_incomplete",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 1
+  },
+  "finished_at": "2026-11-17T07:52:46.326100+00:00",
+  "canonical_status": "blocked"
+}

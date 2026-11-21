@@ -1,0 +1,105 @@
+{
+  "ae_item_sku_info_dtos": {
+    "ae_item_sku_info_d_t_o": [
+      {
+        "sku_attr": "14:200003699#Two sets",
+        "offer_sale_price": "2.15",
+        "sku_id": "12000058216979848",
+        "price_include_tax": true,
+        "currency_code": "EUR",
+        "sku_price": "4.78",
+        "offer_bulk_sale_price": "2.15",
+        "sku_available_stock": 190,
+        "id": "14:200003699#Two sets",
+        "ae_sku_property_dtos": {
+          "ae_sku_property_d_t_o": [
+            {
+              "sku_property_value": "mehrfarbig",
+              "sku_image": "https://ae01.alicdn.com/kf/Sfc8a678bbef341fb84ef2eb6758fb468D.png",
+              "sku_property_name": "Farbe",
+              "property_value_definition_name": "Two sets",
+              "property_value_id": 200003699,
+              "sku_property_id": 14
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ae_multimedia_info_dto": {
+    "image_urls": "https://ae01.alicdn.com/kf/S345663dac023428b8ca4c7b00720ee5cJ.png;https://ae01.alicdn.com/kf/Sd3e9b467b22a4f95824aea15ea9eb5a8S.png;https://ae01.alicdn.com/kf/S49d66d53bb6846408c33bdcb8db746aai.png;https://ae01.alicdn.com/kf/S4212b21f3cd24fd99c327f8708edc51fa.png;https://ae01.alicdn.com/kf/S0ca266253f074431a72a1de5fa46ecbfZ.png;https://ae01.alicdn.com/kf/Sc35bff7b2c4e4f54890218d74cd13810p.png"
+  },
+  "package_info_dto": {
+    "package_width": 7,
+    "package_height": 2,
+    "package_length": 8,
+    "gross_weight": "0.030",
+    "package_type": false,
+    "product_unit": 100000015
+  },
+  "logistics_info_dto": {
+    "delivery_time": 7,
+    "ship_to_country": "DE"
+  },
+  "product_id_converter_result": {
+    "main_product_id": 1005012382436424,
+    "sub_product_id": "{\"US\":3256812196121672}"
+  },
+  "ae_item_base_info_dto": {
+    "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sceb0c9cc9625488ba856d8224e926b28Z.png\",\"style\":{\"width\":1300,\"height\":1300}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sfb692f6e44834b01b002e97bcf65ad1c4.png\",\"style\":{\"width\":1300,\"height\":1300}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sfc8a678bbef341fb84ef2eb6758fb468D.png\",\"style\":{\"width\":1024,\"height\":1024}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S17a659c9e83e4200b48fd70d9414870ch.png\",\"style\":{\"width\":1300,\"height\":1300}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S4b08d0f9edc24c6fa1b9e91c4e90f391S.png\",\"style\":{\"width\":1300,\"height\":1300}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sd3e9b467b22a4f95824aea15ea9eb5a8S.png\",\"style\":{\"width\":1300,\"height\":1300}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S49d66d53bb6846408c33bdcb8db746aai.png\",\"style\":{\"width\":1300,\"height\":1300}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sc35bff7b2c4e4f54890218d74cd13810p.png\",\"style\":{\"width\":1300,\"height\":1300}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S0ca266253f074431a72a1de5fa46ecbfZ.png\",\"style\":{\"width\":1300,\"height\":1300}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S345663dac023428b8ca4c7b00720ee5cJ.png\",\"style\":{\"width\":1300,\"height\":1300}}}]}",
+    "subject": "2 Sätze modularer Kabel- und Datenkabel-Organizer, modulares DIY-Design, geeignet für den Desktop-/Heimgebrauch, Desktop-Organisation",
+    "evaluation_count": "635",
+    "sales_count": "5000+",
+    "product_status_type": "onSelling",
+    "avg_evaluation_rating": "4.7",
+    "separated_listing": false,
+    "currency_code": "CNY",
+    "sl_product": false,
+    "category_id": 201334803,
+    "product_id": 1005012382436424,
+    "detail": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sceb0c9cc9625488ba856d8224e926b28Z.png\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sfb692f6e44834b01b002e97bcf65ad1c4.png\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sfc8a678bbef341fb84ef2eb6758fb468D.png\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S17a659c9e83e4200b48fd70d9414870ch.png\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S4b08d0f9edc24c6fa1b9e91c4e90f391S.png\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sd3e9b467b22a4f95824aea15ea9eb5a8S.png\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S49d66d53bb6846408c33bdcb8db746aai.png\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sc35bff7b2c4e4f54890218d74cd13810p.png\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S0ca266253f074431a72a1de5fa46ecbfZ.png\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S345663dac023428b8ca4c7b00720ee5cJ.png\" slate-data-type=\"image\"/></p></div></div>\r\n"
+  },
+  "manufacturer_info": {
+    "address": "CN Zhejiang Province, Jinhua City, Yiwu City, Beiyuan Street, Xingfu Community, Shencun 2nd District, Room 404, Building 55, 330782",
+    "phone": "17337056758",
+    "country_name": "China",
+    "email": "3789521919@qq.com",
+    "phone_prefix": "86"
+  },
+  "has_whole_sale": false,
+  "ae_item_properties": {
+    "ae_item_property": [
+      {
+        "attr_name_id": 2,
+        "attr_value_id": 201512802,
+        "attr_name": "Markenname",
+        "attr_value": "NONE"
+      },
+      {
+        "attr_name_id": 219,
+        "attr_value_id": 9441741844,
+        "attr_name": "Ursprung",
+        "attr_value": "CN (Herkunft)"
+      },
+      {
+        "attr_name_id": 400000603,
+        "attr_value_id": 23399591357,
+        "attr_name": "Hochbetriebenes Chemikalienunternehmen",
+        "attr_value": "Keine"
+      },
+      {
+        "attr_name_id": -1,
+        "attr_name": "Choice",
+        "attr_value": "yes"
+      }
+    ]
+  },
+  "ae_store_info": {
+    "store_id": 1103879246,
+    "shipping_speed_rating": "4.7",
+    "communication_rating": "4.7",
+    "store_name": "Romantic Craft Workshop Store",
+    "store_country_code": "CN",
+    "item_as_described_rating": "4.6"
+  }
+}

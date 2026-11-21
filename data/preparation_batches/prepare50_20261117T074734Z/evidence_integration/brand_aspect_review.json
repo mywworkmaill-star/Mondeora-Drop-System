@@ -1,0 +1,2177 @@
+{
+  "batch": "prepare50_20261117T074734Z",
+  "mode": "read_only",
+  "summary": {
+    "reviewed_products": 50,
+    "unique_product_ids": 50,
+    "supplier_evidenced_aspect_fields": 143,
+    "required_Marke_initially_missing": 19,
+    "required_Marke_resolvable_from_supplier": 2,
+    "resolved_required_Marke": {
+      "1005006963247455": [
+        "SUITU"
+      ],
+      "1005007070511540": [
+        "Opansten"
+      ]
+    },
+    "initial_missing_Marke_still_unresolved": 17,
+    "additional_invalid_existing_Marke": {
+      "product_id": "1005012382436424",
+      "draft_value": "Markenlos",
+      "supplier_value": "NONE"
+    },
+    "required_Marke_unresolved_after_evidence_review": 18,
+    "required_Hersteller_missing": 4,
+    "required_Hersteller_resolvable": 0,
+    "explicit_supplier_Markenlos_declarations_found": 0,
+    "files_created": [],
+    "files_modified": [],
+    "external_mutations": false
+  },
+  "interpretation": {
+    "aspects": "Kanıtlı hedef alan önerileridir; tam ilan payload'ı veya yayın onayı değildir. Mevcut ilgisiz alanlar korunmalıdır.",
+    "aspects_confidence": "verified",
+    "remaining_required_confidence": "unresolved",
+    "review_confidence": "unresolved",
+    "verified_scope": "Tedarikçi metni veya açıkça eşleşen SKU kanıtı. Kategori uygunluğu, bütün SKU kapsamı, hukuki uygunluk ve tedarik yetkisi ayrıca değerlendirilmelidir.",
+    "brand_raw_evidence": "Her ürünün brand_raw değeri, aynı ürünün supplier_source.json dosyasındaki P0 pointer'ının literal alıntısıdır.",
+    "brand_sentinels": {
+      "NONE": "unresolved; açık Markenlos beyanı sayılmadı",
+      "NoEnName_Null": "unresolved; gerçek marka veya açık markasızlık beyanı sayılmadı",
+      "other": "unresolved; üretici veya marka kimliği sayılmadı"
+    },
+    "evidence_format": "Alan -> [[JSON pointer aliası, literalquote], ...]. Aliaslar aşağıda tam JSON pointer'a açılır.",
+    "remaining_required_basis": "Mevcut technical_preparation.json eksikleri, önerilen alanlar çıkarılarak listelendi; 13 numaradaki kanıtsız Markenlos ayrıca bloke edildi.",
+    "excluded": [
+      "Rakiplerden ürün gerçeği kopyalama",
+      "Mağaza adını üretici sayma",
+      "MONDEORA veya generic marka/üretici uydurma",
+      "Paket ölçülerini ürün ölçüsü sayma",
+      "Sertifika, GPSR, görsel hakkı veya tedarik belgesi onayı",
+      "Yanlış kategori için uyumluluk değeri uydurma"
+    ]
+  },
+  "sources": {
+    "base_directory": "C:/Users/Administrator/Desktop/Mondeora-Drop-System/data/preparation_batches/prepare50_20261117T074734Z",
+    "supplier_file": "products/{product_id}/supplier_source.json",
+    "technical_file": "products/{product_id}/technical_preparation.json",
+    "pointer_aliases": {
+      "T": "/ae_item_base_info_dto/subject",
+      "D": "/ae_item_base_info_dto/detail",
+      "P0": "/ae_item_properties/ae_item_property/0/attr_value",
+      "P1": "/ae_item_properties/ae_item_property/1/attr_value",
+      "P2": "/ae_item_properties/ae_item_property/2/attr_value",
+      "P3": "/ae_item_properties/ae_item_property/3/attr_value",
+      "P4": "/ae_item_properties/ae_item_property/4/attr_value",
+      "P5": "/ae_item_properties/ae_item_property/5/attr_value",
+      "P6": "/ae_item_properties/ae_item_property/6/attr_value",
+      "P7": "/ae_item_properties/ae_item_property/7/attr_value",
+      "P8": "/ae_item_properties/ae_item_property/8/attr_value",
+      "P9": "/ae_item_properties/ae_item_property/9/attr_value",
+      "P11": "/ae_item_properties/ae_item_property/11/attr_value",
+      "P17": "/ae_item_properties/ae_item_property/17/attr_value",
+      "P19": "/ae_item_properties/ae_item_property/19/attr_value",
+      "S26": "/ae_item_sku_info_dtos/ae_item_sku_info_d_t_o/0/ae_sku_property_dtos/ae_sku_property_d_t_o/0/property_value_definition_name",
+      "S34": "/ae_item_sku_info_dtos/ae_item_sku_info_d_t_o/0/ae_sku_property_dtos/ae_sku_property_d_t_o/0/sku_property_value"
+    }
+  },
+  "manufacturer_review": {
+    "confidence": "unresolved",
+    "pointer": "/manufacturer_info",
+    "manufacturer_name_found_in_products": 0,
+    "observed_keys_in_all_50": [
+      "address",
+      "phone",
+      "country_name",
+      "email",
+      "phone_prefix"
+    ],
+    "missing_name_literalquote": null,
+    "required_affected_product_ids": [
+      "1005005385299054",
+      "1005011848504195",
+      "1005009800425890",
+      "1005012052613902"
+    ],
+    "Besper_note": "1005005385299054 için ham Markenname ve gerçek ana fotoğraf Besper markasını doğruluyor. Bu, gerçek üretici şirket adını kanıtlamıyor. Hersteller=Besper önerilmedi; HE26 da doğrulanmış Herstellernummer sayılmadı."
+  },
+  "products": [
+    {
+      "index": 1,
+      "product_id": "1005010026666604",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P3",
+            "CN (Herkunft)"
+          ]
+        ]
+      },
+      "remaining_required": []
+    },
+    {
+      "index": 2,
+      "product_id": "1005005759411405",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Montage": [
+          "Wandmontage"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P2",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Montage": [
+          [
+            "T",
+            "Wand-Organizer"
+          ]
+        ]
+      },
+      "remaining_required": []
+    },
+    {
+      "index": 3,
+      "product_id": "1005010496570687",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Unterbett Aufbewahrungstasche"
+        ],
+        "Besonderheiten": [
+          "Faltbar",
+          "Mit Sichtfenster"
+        ],
+        "Form": [
+          "Rechteck"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P5",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "T",
+            "Bettwäsche unter dem Bett"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "P2",
+            "faltbar"
+          ],
+          [
+            "T",
+            "durchsichtiges Fenster"
+          ]
+        ],
+        "Form": [
+          [
+            "P8",
+            "rectangle"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Breite",
+        "Höhe",
+        "Länge"
+      ]
+    },
+    {
+      "index": 4,
+      "product_id": "1005007907908369",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Montage": [
+          "Selbstklebend"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P3",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Montage": [
+          [
+            "T",
+            "Klebstoff"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Höhe",
+        "Länge",
+        "Breite"
+      ]
+    },
+    {
+      "index": 5,
+      "product_id": "1005008833344507",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Kleiderbügel"
+        ],
+        "Anzahl der Haken": [
+          "12"
+        ],
+        "Besonderheiten": [
+          "Drehbar",
+          "Wiederverwendbar"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P2",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "T",
+            "Drehbarer Kleiderbügel"
+          ]
+        ],
+        "Anzahl der Haken": [
+          [
+            "T",
+            "12 Haken"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "T",
+            "Drehbarer Kleiderbügel"
+          ],
+          [
+            "P4",
+            "Wiederverwendbar"
+          ]
+        ]
+      },
+      "remaining_required": []
+    },
+    {
+      "index": 6,
+      "product_id": "1005012066024130",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Besonderheiten": [
+          "Wiederverwendbar"
+        ],
+        "Breite": [
+          "12 mm"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P2",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "D",
+            "Wiederverwendbare"
+          ]
+        ],
+        "Breite": [
+          [
+            "D",
+            "12 mm"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Marke"
+      ]
+    },
+    {
+      "index": 7,
+      "product_id": "1005007584828356",
+      "brand_raw": "SHENGMEIYU",
+      "brand_confidence": "verified",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Marke": [
+          "SHENGMEIYU"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P4",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Marke": [
+          [
+            "P0",
+            "SHENGMEIYU"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Produktart"
+      ]
+    },
+    {
+      "index": 8,
+      "product_id": "1005008119002572",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Haartrocknerhalter"
+        ],
+        "Montage": [
+          "Wandmontage"
+        ],
+        "Zimmer": [
+          "Badezimmer"
+        ],
+        "Besonderheiten": [
+          "Wiederverwendbar"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P4",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "T",
+            "Aufbewahrungsregal für Haartrockner"
+          ]
+        ],
+        "Montage": [
+          [
+            "T",
+            "Wandhalterung"
+          ]
+        ],
+        "Zimmer": [
+          [
+            "T",
+            "Badezimmer"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "P5",
+            "Wiederverwendbar"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Marke"
+      ]
+    },
+    {
+      "index": 9,
+      "product_id": "1005010796812930",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Besonderheiten": [
+          "Faltbar"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P2",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "P3",
+            "faltbar"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Breite",
+        "Höhe",
+        "Länge"
+      ]
+    },
+    {
+      "index": 10,
+      "product_id": "1005007659052613",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Anzahl der Fächer": [
+          "4"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P6",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Anzahl der Fächer": [
+          [
+            "T",
+            "4 Fächern"
+          ]
+        ]
+      },
+      "remaining_required": []
+    },
+    {
+      "index": 11,
+      "product_id": "1005007238983224",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Wandhalter"
+        ],
+        "Montage": [
+          "Wandmontage"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P1",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "P6",
+            "Wandhalter"
+          ]
+        ],
+        "Montage": [
+          [
+            "T",
+            "Wand Montiert"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Breite",
+        "Höhe",
+        "Länge"
+      ]
+    },
+    {
+      "index": 12,
+      "product_id": "1005007705527057",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Besonderheiten": [
+          "Langlebig",
+          "Stapelbar"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P1",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "P4",
+            "Stapelbar"
+          ],
+          [
+            "T",
+            "langlebig"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Breite",
+        "Höhe",
+        "Länge"
+      ]
+    },
+    {
+      "index": 13,
+      "product_id": "1005012382436424",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P1",
+            "CN (Herkunft)"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Marke"
+      ]
+    },
+    {
+      "index": 14,
+      "product_id": "1005012032555747",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Aufbewahrungstasche"
+        ],
+        "Besonderheiten": [
+          "Faltbar",
+          "Staubdicht",
+          "Mit Griff"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P2",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "D",
+            "Aufbewahrungstasche"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "D",
+            "faltbare Aufbewahrungstasche"
+          ],
+          [
+            "D",
+            "staubdicht"
+          ],
+          [
+            "D",
+            "Mit einem Griff"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Breite",
+        "Höhe",
+        "Länge"
+      ]
+    },
+    {
+      "index": 15,
+      "product_id": "1005010795524159",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Fernbedienungshalter"
+        ],
+        "Besonderheiten": [
+          "Wiederverwendbar"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P1",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "T",
+            "Fernbedienungshalter"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "P4",
+            "Wiederverwendbar"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Höhe",
+        "Länge",
+        "Breite"
+      ]
+    },
+    {
+      "index": 16,
+      "product_id": "1005005385299054",
+      "brand_raw": "Besper",
+      "brand_confidence": "verified",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P2",
+            "CN (Herkunft)"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Hersteller"
+      ]
+    },
+    {
+      "index": 17,
+      "product_id": "1005010141016715",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P2",
+            "CN (Herkunft)"
+          ]
+        ]
+      },
+      "remaining_required": []
+    },
+    {
+      "index": 18,
+      "product_id": "1005008387790553",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Besonderheiten": [
+          "Drehbar"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P2",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "T",
+            "Rotierender Stifthalter"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Breite",
+        "Höhe",
+        "Länge"
+      ]
+    },
+    {
+      "index": 19,
+      "product_id": "1005008290283020",
+      "brand_raw": "NoEnName_Null",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Stifthalter"
+        ],
+        "Farbe": [
+          "Schwarz"
+        ],
+        "Anzahl der Fächer": [
+          "3"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P2",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "P6",
+            "Stift Halter"
+          ]
+        ],
+        "Farbe": [
+          [
+            "T",
+            "Schwarz"
+          ]
+        ],
+        "Anzahl der Fächer": [
+          [
+            "T",
+            "3 Fächer"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Breite",
+        "Höhe",
+        "Länge"
+      ]
+    },
+    {
+      "index": 20,
+      "product_id": "1005011848504195",
+      "brand_raw": "other",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Kofferraum-Fixierhalter"
+        ],
+        "Einbauposition": [
+          "Kofferraum"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P3",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "D",
+            "Fixierrahmen"
+          ]
+        ],
+        "Einbauposition": [
+          [
+            "T",
+            "Kofferraum-Organizer"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Hersteller",
+        "Herstellernummer"
+      ]
+    },
+    {
+      "index": 21,
+      "product_id": "1005011904255432",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Besonderheiten": [
+          "Bohrfreie Montage"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P1",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "D",
+            "Kein Bohren"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Marke",
+        "Markenkompatibilität",
+        "Modellkompatibilität",
+        "Produktart"
+      ]
+    },
+    {
+      "index": 22,
+      "product_id": "1005012774230299",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P7",
+            "CN (Herkunft)"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Marke",
+        "Produktart",
+        "Modellkompatibilität"
+      ]
+    },
+    {
+      "index": 23,
+      "product_id": "1005009992738407",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Gewicht": [
+          "34 g"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P3",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Gewicht": [
+          [
+            "P6",
+            "34g"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Marke"
+      ]
+    },
+    {
+      "index": 24,
+      "product_id": "1005006116459385",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Vorratsdose"
+        ],
+        "Besonderheiten": [
+          "Wiederverwendbar",
+          "Stapelbar"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P4",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "T",
+            "Getreide Lagerung"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "P2",
+            "Wiederverwendbar"
+          ],
+          [
+            "D",
+            "stapelbar"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Höhe"
+      ]
+    },
+    {
+      "index": 25,
+      "product_id": "1005006830218955",
+      "brand_raw": "SMI Fine",
+      "brand_confidence": "verified",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Marke": [
+          "SMI Fine"
+        ],
+        "Material": [
+          "Polypropylen (PP)"
+        ],
+        "Modell": [
+          "PS-01"
+        ],
+        "Besonderheiten": [
+          "Tragbar"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P3",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Marke": [
+          [
+            "P0",
+            "SMI Fine"
+          ]
+        ],
+        "Material": [
+          [
+            "D",
+            "PP-Kunststoff"
+          ]
+        ],
+        "Modell": [
+          [
+            "P19",
+            "PS-01"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "P17",
+            "tragbar"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Breite",
+        "Höhe",
+        "Länge"
+      ]
+    },
+    {
+      "index": 26,
+      "product_id": "1005010471370917",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Farbe": [
+          "Gelb"
+        ],
+        "Installationsart": [
+          "Freistehend"
+        ],
+        "Zimmer": [
+          "Badezimmer"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P1",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Farbe": [
+          [
+            "S26",
+            "Yellow-1PCS"
+          ]
+        ],
+        "Installationsart": [
+          [
+            "T",
+            "freistehender"
+          ]
+        ],
+        "Zimmer": [
+          [
+            "T",
+            "Badezimmer-Organizer"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Marke"
+      ]
+    },
+    {
+      "index": 27,
+      "product_id": "1005005921446741",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Aufbewahrungsregal"
+        ],
+        "Material": [
+          "Polypropylen (PP)"
+        ],
+        "Farbe": [
+          "Weiß"
+        ],
+        "Form": [
+          "Rechteckig"
+        ],
+        "Montage": [
+          "Freistehend"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P7",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "T",
+            "Lagerung Rack"
+          ]
+        ],
+        "Material": [
+          [
+            "P9",
+            "PP-Plastik"
+          ]
+        ],
+        "Farbe": [
+          [
+            "T",
+            "Weiß"
+          ]
+        ],
+        "Form": [
+          [
+            "T",
+            "Rechteckige"
+          ]
+        ],
+        "Montage": [
+          [
+            "P11",
+            "Stehender Typ"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Breite",
+        "Höhe",
+        "Länge"
+      ]
+    },
+    {
+      "index": 28,
+      "product_id": "1005010262367908",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P1",
+            "CN (Herkunft)"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Marke",
+        "Produktart"
+      ]
+    },
+    {
+      "index": 29,
+      "product_id": "1005007547820639",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Reisetasche"
+        ],
+        "Besonderheiten": [
+          "Faltbar",
+          "Wasserabweisend"
+        ],
+        "Form": [
+          "Rechteckig"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P1",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "T",
+            "Reisetasche"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "T",
+            "Faltbare"
+          ],
+          [
+            "D",
+            "wasserabweisendem"
+          ]
+        ],
+        "Form": [
+          [
+            "P3",
+            "Rechteckig"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Breite",
+        "Höhe",
+        "Länge"
+      ]
+    },
+    {
+      "index": 30,
+      "product_id": "1005004970036864",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Plastiktütenspender"
+        ],
+        "Besonderheiten": [
+          "Wiederverwendbar"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P4",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "T",
+            "Taschen Spender"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "P6",
+            "Wiederverwendbar"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Breite",
+        "Höhe",
+        "Länge"
+      ]
+    },
+    {
+      "index": 31,
+      "product_id": "1005011558522906",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Schlüsselorganizer"
+        ],
+        "Besonderheiten": [
+          "Faltbar"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P2",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "T",
+            "Schlüsselorganizer"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "P5",
+            "faltbar"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Marke"
+      ]
+    },
+    {
+      "index": 32,
+      "product_id": "1005009723070135",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Montage": [
+          "Unterbau"
+        ],
+        "Besonderheiten": [
+          "Wiederverwendbar"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P2",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Montage": [
+          [
+            "T",
+            "Unter Schrank"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "P3",
+            "Wiederverwendbar"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Produktart"
+      ]
+    },
+    {
+      "index": 33,
+      "product_id": "1005008464837668",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Material": [
+          "Acryl"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P2",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Material": [
+          [
+            "T",
+            "Acryl-Schreibtisch-Organizer"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Marke"
+      ]
+    },
+    {
+      "index": 34,
+      "product_id": "1005011918498017",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Schuhtasche"
+        ],
+        "Sportart/Aktivität": [
+          "Golf"
+        ],
+        "Besonderheiten": [
+          "Atmungsaktiv",
+          "Leicht",
+          "Staubdicht"
+        ],
+        "Farbe": [
+          "Schwarz"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P4",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "T",
+            "Golf-Schuhtasche"
+          ]
+        ],
+        "Sportart/Aktivität": [
+          [
+            "T",
+            "Golf-Schuhtasche"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "T",
+            "atmungsaktive, leichte Golf-Handtasche, staubdichte"
+          ]
+        ],
+        "Farbe": [
+          [
+            "S34",
+            "schwarz"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Marke"
+      ]
+    },
+    {
+      "index": 35,
+      "product_id": "1005012706422328",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Einkaufstüte"
+        ],
+        "Farbe": [
+          "Schwarz"
+        ],
+        "Besonderheiten": [
+          "Faltbar"
+        ],
+        "Personalisieren": [
+          "Nein"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P1",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "T",
+            "Supermarkt-Einkaufstüten"
+          ]
+        ],
+        "Farbe": [
+          [
+            "T",
+            "schwarze"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "P5",
+            "Ja"
+          ]
+        ],
+        "Personalisieren": [
+          [
+            "P6",
+            "Nein"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Höhe",
+        "Länge",
+        "Breite"
+      ]
+    },
+    {
+      "index": 36,
+      "product_id": "1005006963247455",
+      "brand_raw": "SUITU",
+      "brand_confidence": "verified",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Marke": [
+          "SUITU"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P3",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Marke": [
+          [
+            "P0",
+            "SUITU"
+          ]
+        ]
+      },
+      "remaining_required": []
+    },
+    {
+      "index": 37,
+      "product_id": "1005006232978114",
+      "brand_raw": "LEENKEA",
+      "brand_confidence": "verified",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Marke": [
+          "LEENKEA"
+        ],
+        "Material": [
+          "PET + PE"
+        ],
+        "Farbe": [
+          "Transparent"
+        ],
+        "Besonderheiten": [
+          "Platzsparend",
+          "Faltbar",
+          "Wiederverwendbar"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P3",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Marke": [
+          [
+            "P0",
+            "LEENKEA"
+          ]
+        ],
+        "Material": [
+          [
+            "D",
+            "Material: PET + PE"
+          ]
+        ],
+        "Farbe": [
+          [
+            "D",
+            "Farbe: Transparent"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "T",
+            "zusammenklappbar, komprimiert, platzsparend"
+          ],
+          [
+            "P1",
+            "Wiederverwendbar"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Breite",
+        "Höhe",
+        "Länge"
+      ]
+    },
+    {
+      "index": 38,
+      "product_id": "1005009313031651",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Eierhalter"
+        ],
+        "Anzahl der Etagen": [
+          "3"
+        ],
+        "Stil": [
+          "Modern"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P6",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "T",
+            "Roll-Eier-Aufbewahrungsbehälter"
+          ]
+        ],
+        "Anzahl der Etagen": [
+          [
+            "T",
+            "3-stufiger"
+          ]
+        ],
+        "Stil": [
+          [
+            "P8",
+            "Modern"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Höhe",
+        "Länge",
+        "Breite"
+      ]
+    },
+    {
+      "index": 39,
+      "product_id": "1005008684706431",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Waschbeckenhaken"
+        ],
+        "Montage": [
+          "Selbstklebend"
+        ],
+        "Besonderheiten": [
+          "Bohrfreie Montage"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P1",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "T",
+            "Waschbecken Haken"
+          ]
+        ],
+        "Montage": [
+          [
+            "D",
+            "Haushaltsklebedesign"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "D",
+            "Kein Bohren"
+          ]
+        ]
+      },
+      "remaining_required": []
+    },
+    {
+      "index": 40,
+      "product_id": "1005007070511540",
+      "brand_raw": "Opansten",
+      "brand_confidence": "verified",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Marke": [
+          "Opansten"
+        ],
+        "Produktart": [
+          "Klettkabelverbinder"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P3",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Marke": [
+          [
+            "P0",
+            "Opansten"
+          ]
+        ],
+        "Produktart": [
+          [
+            "T",
+            "Klettverschluss, Kabelbinder"
+          ]
+        ]
+      },
+      "remaining_required": []
+    },
+    {
+      "index": 41,
+      "product_id": "1005007164564054",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Besonderheiten": [
+          "Verstellbar",
+          "Wiederverwendbar",
+          "Selbstklebend"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P4",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "T",
+            "wiederverwendbarer Kabel-Organizer, Kabel-Seil-Halter, selbstklebend, verstellbar"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Marke"
+      ]
+    },
+    {
+      "index": 42,
+      "product_id": "1005008223937342",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Besonderheiten": [
+          "Verstellbar",
+          "Wiederverwendbar"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P2",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "D",
+            "Flexible and Adjustable"
+          ],
+          [
+            "D",
+            "Durable and Reusable"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Marke"
+      ]
+    },
+    {
+      "index": 43,
+      "product_id": "1005006943431670",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Kabelbinder"
+        ],
+        "Besonderheiten": [
+          "Lösbar",
+          "Wiederverwendbar"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P2",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "P4",
+            "Cable Ties"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "T",
+            "Lösbare Kabel Organizer"
+          ],
+          [
+            "T",
+            "Wiederverwendbare"
+          ]
+        ]
+      },
+      "remaining_required": []
+    },
+    {
+      "index": 44,
+      "product_id": "1005008995117677",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Gewicht": [
+          "70 g"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P3",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Gewicht": [
+          [
+            "P6",
+            "70g"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Marke",
+        "Markenkompatibilität",
+        "Modellkompatibilität",
+        "Produktart"
+      ]
+    },
+    {
+      "index": 45,
+      "product_id": "1005007203879191",
+      "brand_raw": "NoEnName_Null",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Zahnbürstenhalter"
+        ],
+        "Besonderheiten": [
+          "Wiederverwendbar"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P2",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "D",
+            "Tooth brush holder"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "P4",
+            "Wiederverwendbar"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Marke",
+        "Farbe"
+      ]
+    },
+    {
+      "index": 46,
+      "product_id": "1005009800425890",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Sitzspalt-Organizer"
+        ],
+        "Einbauposition": [
+          "Zwischen Sitz und Mittelkonsole"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P3",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "P2",
+            "Aufbewahrungsbox/Tasche für Sitzspalte"
+          ]
+        ],
+        "Einbauposition": [
+          [
+            "T",
+            "Zwischen Sitze Konsole"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Hersteller"
+      ]
+    },
+    {
+      "index": 47,
+      "product_id": "1005012052613902",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Regenschirmhalter"
+        ],
+        "Einbauposition": [
+          "Kofferraum"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P2",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "P3",
+            "Regenschirmregal"
+          ]
+        ],
+        "Einbauposition": [
+          [
+            "T",
+            "Kofferraumaufhänger"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Hersteller"
+      ]
+    },
+    {
+      "index": 48,
+      "product_id": "1005012703904261",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Gurtbreite": [
+          "ca. 2,5 cm"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P2",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Gurtbreite": [
+          [
+            "D",
+            "Breite von ca. 2,5 cm"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Marke",
+        "Produktart"
+      ]
+    },
+    {
+      "index": 49,
+      "product_id": "1005008997918604",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Kabelhalter"
+        ],
+        "Besonderheiten": [
+          "Selbstklebend",
+          "Wiederverwendbar"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P1",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "T",
+            "Draht Organizer"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "T",
+            "Selbst-klebe"
+          ],
+          [
+            "P3",
+            "Wiederverwendbar"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Marke"
+      ]
+    },
+    {
+      "index": 50,
+      "product_id": "1005008222543759",
+      "brand_raw": "NONE",
+      "brand_confidence": "unresolved",
+      "aspects": {
+        "Ursprungsland": [
+          "China"
+        ],
+        "Produktart": [
+          "Kabelclip"
+        ],
+        "Besonderheiten": [
+          "Selbstklebend"
+        ]
+      },
+      "evidence": {
+        "Ursprungsland": [
+          [
+            "P3",
+            "CN (Herkunft)"
+          ]
+        ],
+        "Produktart": [
+          [
+            "P4",
+            "Kabelclip"
+          ]
+        ],
+        "Besonderheiten": [
+          [
+            "T",
+            "Klebe Haken"
+          ]
+        ]
+      },
+      "remaining_required": [
+        "Marke"
+      ]
+    }
+  ],
+  "unresolved_reviews_by_index": {
+    "1": "Montage: başlık Wandmontage derken ana fotoğraf dolap çubuğuna asılan düzenleyici gösteriyor; ortak montaj doldurulmadı.",
+    "6": "Material: ham Nylon, açıklamada Polyester. Länge: 150 mm * 12 mm ifadesinde uzunluk ekseni ayrıca etiketlenmedi.",
+    "7": "Kategori: kompakt katlanır anahtar tutucu, duvar askısı değil.",
+    "9": "Açıklamada 42 cm (L), 18,5 cm (B), 49,2 cm (H) ürün ölçüleri var; A/C SKUlarının aynı ölçü kapsamı doğrulanmadan ortak alanlara alınmadı.",
+    "10": "Ana fotoğraf tel/çubuk kenarlı ve şeffaf panelli görünüyor; malzeme yazısı yok. Kunststoff iddiasını metal diye değiştirmek için kanıt yok; önceki kimlik/malzeme şüphesi kesin çözülmedi.",
+    "11": "Material=andere gerçek malzeme belirtmiyor.",
+    "13": "Taslak Marke=Markenlos; ham Markenname=NONE. Kanıtsız mevcut değer nedeniyle Marke ayrıca unresolved sayıldı.",
+    "15": "Kategori: masaüstü kumanda tutucu için mutfak tutucu kategorisi yeniden değerlendirilmeli.",
+    "18": "Kategori saklama çantası, ürün sert kalemlik. 15,5 x 10 cm eksenleri ve Style2/Style3 SKU kapsamı belirsiz.",
+    "20": "Herstellernummer yok. Ham ABS / açıklama PP çelişkisi var. Otomobil bagaj braketi motosiklet kategorisinde.",
+    "21": "Diş fırçası tutucu süpürge yedek parçası değil; Markenkompatibilität ve Modellkompatibilität uydurulamaz.",
+    "22": "Banyo tartısı standı oyun konsolu yedek parçası değil; uyumluluk alanları doldurulamaz.",
+    "23": "Hauptmaterial POLYESTER, açıklama Produktmaterial Vliesstoff, başlık Pelz; malzeme çözülmedi.",
+    "24": "Ham Acryl / Japanischer Stil; açıklamada PP + TRP + PET / moderner Stil. Malzeme, stil, kapasite ve adet tüm SKUlara tek değer olarak uygulanamaz.",
+    "25": "Ham ölçüler 0; gerçek ürün ölçüsü sayılmadı. 7 farklı bölmeli SKU var.",
+    "26": "Genel SKU renk değeri Hellgrau, özel tanım Yellow-1PCS. Tam SKU 12000052521264051 görseli açıldı ve sarı yıldız biçimli ürün doğrulandı; Gelb önerisi özel tanım ve bu görsele dayanıyor.",
+    "28": "Bağcık kilidi akupunktur kalemi değil; yanlış kategoriye uygun Produktart uydurulmadı.",
+    "29": "Seyahat çantası için kutu kategorisi yeniden değerlendirilmeli. Ürün ölçüleri, farklı inç ifadeleri ve havayolu örnekleri ayrıştırılmadan ortak ölçü doldurulmadı.",
+    "30": "Ham POLYESTER / açıklama Nylon. Başlık ve açıklama grau; SKU etiketleri Gelb/Schwarz. Ortak renk veya malzeme önerilmedi.",
+    "33": "Masaüstü kalemlik makyaj çantası değil; kategori yeniden değerlendirilmeli.",
+    "35": "Plastik alışveriş poşeti mutfak tutucusu değil. Geschenkbox adlı SKU ölçü ekseni ürün ölçüsü olarak kullanılmadı.",
+    "36": "SUITU marka kanıtı var fakat mevcut kategori kamp şapkası. Çöp kutusu ile yalnız poşet içeren SKUlar aynı ürün türü sayılmamalı.",
+    "38": "Başlık 24 Eier, gerçek SKU Größe etiketi 28 To 30 Eggs; Kapazität unresolved.",
+    "39": "Ham ABS ve Metal; başlık/açıklama Edelstahl. A/B modelleriyle malzeme kapsamı çözülmedi.",
+    "40": "Başlıktaki 5 m bütün SKUlara uygulanamaz; 1m, 3M ve 5 m varyantları var. 3M burada otomatik marka yorumu yapılacak bir kanıt değil.",
+    "41": "43 ile çok benzer ana fotoğraf var; ayrı fiziksel ürün veya paket/SKU farkı çözülmeden birleştirilmemeli. Ham kablosuz işlev alanı elektronik özellik olarak aktarılmadı.",
+    "42": "size: 7.5 x 1 cm ifadesinde eksen adları açık değil; Breite/Länge otomatik doldurulmadı. Paket adetleri varyanta özgü.",
+    "43": "41 ile muhtemel tekrar incelemesi açık; kesin tekrar veya bağımsız farklı ürün kararı verilmedi.",
+    "44": "Fotoğraf çok cepli çanta içi organizer gösteriyor; iki uzun kenarda fermuar dişleri seçiliyor. Fermuar yok denemez. Katlama/genişleme ve tam model eşleşmesi doğrulanmadı; süpürge parçası kategorisi yanlış.",
+    "45": "Birçok model/set SKU var; tek ortak Farbe yok. Ham Size 19.6*6cm, açıklama 19*6*6xm; birim, eksen ve model kapsamı çözülmedi.",
+    "47": "Mevcut Produktart=Universell ürün türü kanıtı değil; öneri Regenschirmhalter. Genel araç uyumluluğu onaylanmadı.",
+    "48": "Ham PP-Plastik / açıklama Nylon und Metall. 45 cm açıklamada Umfang; Riemenlänge yapılmadı. Kablo depolama kayışı gitar askısı değil; ana görsel okunamadı.",
+    "49": "Ham Kunststoff / açıklama Silikon-Gummi. <5 mm kablo uygunluğu ürün çapı sayılmadı.",
+    "50": "Länge adlı SKU eksenindeki 10/20/50 Stück değerleri uzunluk değil paket miktarı; ortak uzunluğa aktarılmadı."
+  },
+  "verification": {
+    "selected_count_and_unique_ids_checked": true,
+    "supplier_product_ids_matched": true,
+    "aspect_values_checked_as_list_of_strings": true,
+    "proposal_literal_quotes_checked_against_json_pointers": true,
+    "supplier_and_technical_files_read_for_all_50": true,
+    "contact_sheets_inspected": 5,
+    "main_image_unavailable_indices": [
+      6,
+      13,
+      22,
+      48
+    ],
+    "all_SKU_images_verified": false,
+    "publication_or_document_approval": false,
+    "production_changes_applied": false
+  }
+}

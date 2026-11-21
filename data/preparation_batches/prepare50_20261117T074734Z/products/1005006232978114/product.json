@@ -1,0 +1,60 @@
+{
+  "index": 37,
+  "product_id": "1005006232978114",
+  "db_title": "Vakuum-Aufbewahrungsbeutel mit Ventil, zusammenklappbar, komprimiert, platzsparend, zur Aufbewahrung von Kleidung, große Größe für Handtuch, Stoff, Decke",
+  "started_at": "2026-11-17T07:53:18.183041+00:00",
+  "publication_performed": false,
+  "remote_mutations_performed": false,
+  "image_review_status": "pending",
+  "supplier_title": "Vakuum-Aufbewahrungsbeutel mit Ventil, zusammenklappbar, komprimiert, platzsparend, zur Aufbewahrung von Kleidung, große Größe für Handtuch, Stoff, Decke",
+  "supplier_status": "onSelling",
+  "current_source_risk": {
+    "block": [],
+    "review": [],
+    "acknowledged": [],
+    "info": {}
+  },
+  "supplier_images": [
+    "https://ae01.alicdn.com/kf/S989976b780744e2699326a26e6db68279.jpeg",
+    "https://ae01.alicdn.com/kf/S2bfed171d1a94178bc4c5311ce192e23G.jpeg",
+    "https://ae01.alicdn.com/kf/Saf43864289cb4d34a45474dbc29c3315Y.jpeg",
+    "https://ae01.alicdn.com/kf/S60a75943c5214ef38e964608e4cf88b3l.jpeg",
+    "https://ae01.alicdn.com/kf/S08a0e52bd38e48f4a1faeea3f83b6ed4a.jpeg",
+    "https://ae01.alicdn.com/kf/Sa4bb314bb6b24395b32ff36d8f2e716aS.jpeg"
+  ],
+  "main_image_dimensions": [
+    1001,
+    1001
+  ],
+  "main_image_file": "C:\\Users\\Administrator\\Desktop\\Mondeora-Drop-System\\data\\preparation_batches\\prepare50_20261117T074734Z\\products\\1005006232978114\\main.jpg",
+  "blockers": [
+    "readiness_not_ready_for_live",
+    "readiness_supplier_agreement",
+    "supplier_product_compliance_unverified",
+    "supplier_agreement_missing",
+    "manufacturer_eu_responsible_person_missing",
+    "image_rights_unverified",
+    "dispatch_origin_unverified",
+    "demand_unverified",
+    "complete_cost_profit_unverified",
+    "content_gate_failed:ValueError:category_aspects_incomplete",
+    "full_content_plan_missing"
+  ],
+  "source_checked": true,
+  "has_full_content": false,
+  "has_compiled_payloads": false,
+  "content_contract_passed": false,
+  "fully_ready": false,
+  "status": "blocked_source_only",
+  "final_title": null,
+  "category": null,
+  "variant_count": 0,
+  "shipping_quotes_count": 0,
+  "document_evidence": null,
+  "api_calls": {
+    "aliexpress": 2,
+    "ebay": 7
+  },
+  "finished_at": "2026-11-17T07:53:23.304077+00:00",
+  "canonical_status": "blocked"
+}

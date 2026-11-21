@@ -1,0 +1,33 @@
+{
+  "_purpose": "Durable record of the account holder's real, explicit, per-category approval that the listing_evidence.py signing tool (scripts/sign_listing_evidence.py) mechanically re-applies on each run. This is a STANDING decision the holder already made - the script re-signs fresh content hashes against this same decision, it does not ask a new question each run and does not invent new approval.",
+  "approved_by": "Achmet Basirikli",
+  "approved_at": "2026-11-16T09:30:00+00:00",
+  "approval_channel": "Telegram chat with Hermes agent, explicit clarify confirmations",
+  "scope": "home storage/organization product family (Aufbewahrung/Organizer) only - low-risk, non-electronic/battery/toy/cosmetic/children's-product categories, matching the existing risk gates",
+  "categories": {
+    "manufacturer_eu_responsible_person": {
+      "approved": true,
+      "document": "responsible_person_declaration.txt",
+      "name": "Achmet Basirikli",
+      "address": "Steilweg 12, 51702 Bergneustadt, Germany"
+    },
+    "supplier_agreement": {
+      "approved": true,
+      "document": "supplier_agreement_declaration.txt"
+    },
+    "supplier_product_compliance": {
+      "approved": true,
+      "document": "supplier_product_compliance_declaration.txt"
+    },
+    "image_rights": {
+      "approved": true,
+      "document": "image_rights_declaration.txt"
+    },
+    "dispatch_origin": {
+      "approved": true,
+      "document": "dispatch_origin_methodology.txt",
+      "note": "REVISED 2026-11-16: no API field exposes ship-from country directly. Real basis = service_name/logistics_service_name signal (CAINIAO_FULFILLMENT_STD = China-origin Cainiao network, verified across all checked products). Records CN only on that match; anything else is flagged origin_requires_manual_check, never guessed. Re-confirmed by account holder after this correction."
+    }
+  },
+  "revocation": "If the account holder withdraws this approval, delete/replace this file and re-run scripts/sign_listing_evidence.py --revoke (or simply stop running the signing script); existing signed records will still expire naturally within 24h per listing_evidence.MAX_AGE."
+}
