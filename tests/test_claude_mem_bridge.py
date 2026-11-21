@@ -143,7 +143,7 @@ def test_client_saves_with_replay_key_and_requires_exact_readback():
 def test_sync_checkpoints_only_after_readback_and_continues_bad_input(tmp_path):
     bridge = load_bridge()
     (tmp_path / 'src').mkdir()
-    (tmp_path / 'src/jobs.py').write_text("JOBS = {'health_check': None, 'orders_poll': None}")
+    (tmp_path / 'src/jobs_impl.py').write_text("JOBS = {'health_check': None, 'orders_poll': None}")
     jobs = tmp_path / 'data/jobs'
     jobs.mkdir(parents=True)
     good = {'job': 'health_check', 'status': 'ok', 'at': '2026-11-15 21:00:00',

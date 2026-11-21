@@ -140,7 +140,10 @@ def atomic_json(path, value):
 
 def registered_jobs(root):
     """Read the registry as syntax only; never import the live automation engine."""
-    tree = ast.parse((root / 'src/jobs.py').read_text(encoding='utf-8-sig'))
+    # 2026-11-21: src/jobs.py was renamed to src/jobs_impl.py (it was being
+    # shadowed by the src/jobs/ package -- see src/jobs/__init__.py's own
+    # comment for the full root-cause). Read the real file at its new path.
+    tree = ast.parse((root / 'src/jobs_impl.py').read_text(encoding='utf-8-sig'))
     for node in tree.body:
         if (isinstance(node, ast.Assign) and any(isinstance(t, ast.Name) and t.id == 'JOBS' for t in node.targets)
                 and isinstance(node.value, ast.Dict)):
