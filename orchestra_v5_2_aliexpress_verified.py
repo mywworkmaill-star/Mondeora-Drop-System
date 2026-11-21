@@ -1263,8 +1263,23 @@ Bestellen Sie jetzt und profitieren Sie von unserer schnellen Lieferung!
             # today — all had a leftover offer from an earlier attempt). Check
             # for an existing offer first and reuse its offerId instead of
             # erroring out forever on every retry.
-            existing = ebay._request('GET', '/sell/inventory/v1/offer', params={'sku': sku})
-            existing_offers = existing.get('offers', [])
+            # 🚨 FIX (2026-11-21, live-verified on product 21): eBay's own
+            # documented behavior for this GET is HTTP 404 (errorId 25713,
+            # "Diese Sonderaktion ist nicht verfügbar") when NO offer exists
+            # yet for the SKU — that is the NORMAL/common case for a brand
+            # new product, not an error. The reuse-check added earlier today
+            # was only exercised against 3 products that already HAD a
+            # leftover offer (200 response) and never against a fresh
+            # product, so this 404-as-exception bug silently killed every
+            # new publish today. 404 here must mean "no offer, create one",
+            # not abort.
+            existing_offers = []
+            try:
+                existing = ebay._request('GET', '/sell/inventory/v1/offer', params={'sku': sku})
+                existing_offers = existing.get('offers', [])
+            except Exception as lookup_error:
+                if '404' not in str(lookup_error):
+                    raise
             if existing_offers:
                 offer_id = existing_offers[0]['offerId']
                 self.log_step(f'ℹ️  Mevcut offer yeniden kullanılıyor: {offer_id}')
