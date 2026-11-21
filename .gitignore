@@ -120,3 +120,4 @@ data/product_images/
 # Scratch parallel-work / loop-fix run data
 data/parallel_work/
 data/_tmp*
+data/.ebay_signing_key.json
