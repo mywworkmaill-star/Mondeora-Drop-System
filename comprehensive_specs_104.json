@@ -1,0 +1,61 @@
+{
+  "dimensions": {
+    "found": true,
+    "length_cm": 24.0,
+    "width_cm": 13.0,
+    "height_cm": 33.0,
+    "depth_cm": null,
+    "diameter_cm": null,
+    "text": "Product image 2 (dimension overlay diagram): height 33cm/12.99in, length 24cm/9.45in, depth/width 13cm/5.12in - verified via live vision_analyze on 2026-11-21",
+    "confidence": 95
+  },
+  "weight": {
+    "found": false,
+    "product_weight_g": null,
+    "package_weight_g": null,
+    "text": "",
+    "confidence": 0
+  },
+  "material": {
+    "primary": "Kunststoff",
+    "composition": [],
+    "confidence": 70,
+    "source": "title fallback"
+  },
+  "color": {
+    "found": false,
+    "main": "Mehrfarbig",
+    "options": [],
+    "confidence": 65,
+    "source": "title fallback"
+  },
+  "capacity": {
+    "found": false,
+    "volume_liter": null,
+    "item_count": null,
+    "load_capacity_kg": null,
+    "text": "",
+    "confidence": 0
+  },
+  "features": [],
+  "brand": {
+    "name": "No-Name",
+    "confidence": 80
+  },
+  "model": {
+    "number": "",
+    "confidence": 0
+  },
+  "certifications": [],
+  "technical": {
+    "temperature_min_c": null,
+    "temperature_max_c": null,
+    "power_watt": null,
+    "voltage": null
+  },
+  "assembly": {
+    "required": "Unknown",
+    "tools_needed": "Unknown",
+    "time_minutes": null
+  }
+}

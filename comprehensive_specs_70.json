@@ -1,0 +1,61 @@
+{
+  "dimensions": {
+    "found": true,
+    "length_cm": 35.0,
+    "width_cm": 25.0,
+    "height_cm": 22.0,
+    "depth_cm": null,
+    "diameter_cm": null,
+    "text": "Image 3 (S963c610e13a74998af42ed447fa3ab89N.jpg) shows a clear dimension overlay diagram on the fabric storage box: 35cm/13.78in (length) x 25cm/9.84in (width) x 22cm/8.66in (height).",
+    "confidence": 95
+  },
+  "weight": {
+    "found": false,
+    "product_weight_g": null,
+    "package_weight_g": null,
+    "text": "",
+    "confidence": 0
+  },
+  "material": {
+    "primary": "Kunststoff",
+    "composition": [],
+    "confidence": 70,
+    "source": "title fallback"
+  },
+  "color": {
+    "found": false,
+    "main": "Mehrfarbig",
+    "options": [],
+    "confidence": 65,
+    "source": "title fallback"
+  },
+  "capacity": {
+    "found": false,
+    "volume_liter": null,
+    "item_count": null,
+    "load_capacity_kg": null,
+    "text": "",
+    "confidence": 0
+  },
+  "features": [],
+  "brand": {
+    "name": "No-Name",
+    "confidence": 80
+  },
+  "model": {
+    "number": "",
+    "confidence": 0
+  },
+  "certifications": [],
+  "technical": {
+    "temperature_min_c": null,
+    "temperature_max_c": null,
+    "power_watt": null,
+    "voltage": null
+  },
+  "assembly": {
+    "required": "Unknown",
+    "tools_needed": "Unknown",
+    "time_minutes": null
+  }
+}

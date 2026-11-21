@@ -1200,6 +1200,16 @@ Bestellen Sie jetzt und profitieren Sie von unserer schnellen Lieferung!
             # itself (confirmed live: €16 item + €21.53 "shipping"). Always
             # send real dimensions (when verified) + a conservative weight
             # estimate so eBay prices international shipping realistically.
+            # 🚨 CRITICAL FIX (2026-11-21, live-verified): this account/marketplace
+            # REJECTS packageType='MAILING_BOX' outright (eBay error 25101,
+            # "<ShippingPackage> ungültig") regardless of real-world box size —
+            # confirmed by testing live: switching the SAME inventory item from
+            # MAILING_BOX to PACKAGE_THICK_ENVELOPE turned a hard HTTP 400 into a
+            # successful publish (listingId 860164630679) with a 33cm-tall item,
+            # proving PACKAGE_THICK_ENVELOPE is accepted at ANY height here — the
+            # old height<3-else-MAILING_BOX branch was never a safe fallback, it
+            # was the actual cause of every "run() returned None" publish failure
+            # for tall/boxy products. Always use PACKAGE_THICK_ENVELOPE.
             dims = specs.get('dimensions', {})
             if dims.get('found') and dims.get('length_cm') and dims.get('width_cm') and dims.get('height_cm'):
                 weight_g = self._estimate_package_weight_g(dims['length_cm'], dims['width_cm'], dims['height_cm'])
@@ -1208,14 +1218,14 @@ Bestellen Sie jetzt und profitieren Sie von unserer schnellen Lieferung!
                         'length': dims['length_cm'], 'width': dims['width_cm'],
                         'height': dims['height_cm'], 'unit': 'CENTIMETER'
                     },
-                    'packageType': 'PACKAGE_THICK_ENVELOPE' if dims['height_cm'] < 3 else 'MAILING_BOX',
+                    'packageType': 'PACKAGE_THICK_ENVELOPE',
                     'weight': {'value': weight_g, 'unit': 'GRAM'}
                 }
             else:
                 # No verified dims (category doesn't mandate them) — still send a
                 # small conservative generic estimate rather than nothing at all.
                 inventory_item['packageWeightAndSize'] = {
-                    'packageType': 'MAILING_BOX',
+                    'packageType': 'PACKAGE_THICK_ENVELOPE',
                     'weight': {'value': 300, 'unit': 'GRAM'}
                 }
             
@@ -1246,9 +1256,22 @@ Bestellen Sie jetzt und profitieren Sie von unserer schnellen Lieferung!
                 }
             }
             
-            response2 = ebay._request('POST', '/sell/inventory/v1/offer', json=offer_data)
-            offer_id = response2.get('offerId')
-            self.log_step(f'✅ Offer: {offer_id}')
+            # 🚨 CRITICAL FIX (2026-11-21, live-verified): blindly POSTing a new
+            # offer 400s with errorId 25002 ("Preisangebot-Entität existiert
+            # bereits") whenever a prior failed/interrupted run already created
+            # an UNPUBLISHED offer for this SKU (confirmed live for 3 products
+            # today — all had a leftover offer from an earlier attempt). Check
+            # for an existing offer first and reuse its offerId instead of
+            # erroring out forever on every retry.
+            existing = ebay._request('GET', '/sell/inventory/v1/offer', params={'sku': sku})
+            existing_offers = existing.get('offers', [])
+            if existing_offers:
+                offer_id = existing_offers[0]['offerId']
+                self.log_step(f'ℹ️  Mevcut offer yeniden kullanılıyor: {offer_id}')
+            else:
+                response2 = ebay._request('POST', '/sell/inventory/v1/offer', json=offer_data)
+                offer_id = response2.get('offerId')
+                self.log_step(f'✅ Offer: {offer_id}')
             
             response3 = ebay._request('POST', f'/sell/inventory/v1/offer/{offer_id}/publish')
             listing_id = response3.get('listingId')

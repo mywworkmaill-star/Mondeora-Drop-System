@@ -328,6 +328,18 @@ class ProductResearcher:
             'source_cost_eur': selected.get('sale_price'), 'real_sku_stock': selected.get('warehouse_count'),
             'variant_selection_rule': 'Known EUR price and real positive stock; lowest price, then highest stock',
             'shipping_quote': quote, 'shipping_cost_eur': shipping,
+            # 2026-11-21 (user-directed): surface whether the quoted freight
+            # service looks EU-warehouse-backed (Cainiao's own EU fulfillment
+            # network, confirmed live to give realistic ~5-11 day buyer-facing
+            # delivery, vs plain China cross-border services that can run up
+            # to 18 days) as an INFORMATIONAL preference signal, not a hard
+            # blocker -- we don't yet have enough confirmed real-delivery data
+            # to safely auto-reject cross-border-only candidates, so this is
+            # for human/agent review preference until that evidence exists.
+            'fulfillment_speed_hint': (
+                'eu_fulfillment_likely' if isinstance(quote, dict) and 'FULFILLMENT' in str(quote.get('service_name') or '').upper()
+                else 'cross_border_only' if isinstance(quote, dict) and quote.get('service_name')
+                else 'unknown'),
             'price_floor_eur': floor, 'finance': finance, 'category_suggestion': category, 'market': market,
             'category_status': dict(getattr(self, 'category_status', {'status': 'not_requested'})),
             'risk_flags': risk, 'blockers': blockers, 'missing_evidence': missing,
@@ -453,6 +465,14 @@ class ProductResearcher:
                     rotation.remember(item, tag['concept_query'])
                 except Exception as error:
                     errors.append({'stage': 'detail_or_evaluation', 'product_id': pid, 'error_type': type(error).__name__})
+            # 2026-11-21 (user-directed): among otherwise-equal candidates,
+            # surface EU-fulfillment-likely ones FIRST so a human/agent
+            # reviewing data/product_research.json naturally sees the
+            # faster-delivery options before the cross-border-only ones --
+            # a soft ranking preference, not a hard filter (see
+            # fulfillment_speed_hint's own comment for why it isn't a blocker yet).
+            _hint_rank = {'eu_fulfillment_likely': 0, 'unknown': 1, 'cross_border_only': 2}
+            candidates.sort(key=lambda c: _hint_rank.get(c.get('fulfillment_speed_hint'), 1))
             eligible = [c for c in candidates if not c['shortlist_status'].startswith('rejected')]
             new_count = sum(c['product_id'] not in rotation.seen for c in eligible)
             outcome = ('new_eligible_candidates' if new_count else 'hold_pending_external_evidence' if eligible
