@@ -24,9 +24,17 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'src'))
 
 BASIS_CAMPAIGN_ID = '169024806017'
-DEFAULT_BID = 20.0
+# 2026-11-21 (user-directed "trafik patlamasi" push): raised from 20/35 to
+# 60/65 after confirming live that eBay's real bidPercentage ceiling is at
+# least 100% (our old 35 cap was self-imposed, not an eBay limit) and that
+# COST_PER_SALE means zero cost unless an item actually sells. At ~3x markup,
+# breakeven is ~67% bid -- MAX_BID stays a few points under that so automated
+# escalation on weak-view listings never crosses into a guaranteed per-sale
+# loss on its own; going above 65% (up to the real ~100% ceiling) is a
+# deliberate, explicit user decision, not something this script does alone.
+DEFAULT_BID = 60.0
 BID_STEP = 5.0
-MAX_BID = 35.0
+MAX_BID = 65.0
 LOW_VIEW_THRESHOLD = 2  # views in last 7 days considered "weak"
 
 
