@@ -809,19 +809,27 @@ class AliExpressAPIClient:
             sku_id, external_order_id, ds=False)
 
     def create_ds_order(self, product_id, quantity, buyer_email, shipping_address,
-                        sku_id=None, external_order_id=None):
-        """DS create adapter, explicitly requesting no payment, Germany/EUR only.
+                        sku_id=None, external_order_id=None, try_to_pay=False):
+        """DS create adapter, Germany/EUR only.
 
+        try_to_pay=False (default): stages the order, never spends money -
+        the original safe behaviour, unchanged for any existing caller.
+        try_to_pay=True: explicit opt-in requesting AliExpress attempt
+        immediate payment via whatever payment method is on file for this
+        account. There is no app-side override of price/stock/freight here -
+        _create_order_impl already re-verifies all of that live via
+        get_product_details() right before building the request; this flag
+        only controls the ds_extend_request.payment.try_to_pay wire value.
         Caller must reserve its durable order-line ledger and scoped approval
         before calling, just as for create_order. This method is not scheduled
         and does not enable any live/purchase flags or bypass final freight checks.
         out_order_id is correlation, not proof of provider-side idempotency.
         """
         return self._create_order_impl(product_id, quantity, buyer_email, shipping_address,
-            sku_id, external_order_id, ds=True)
+            sku_id, external_order_id, ds=True, try_to_pay=try_to_pay)
 
     def _create_order_impl(self, product_id, quantity, buyer_email, shipping_address,
-                           sku_id, external_order_id, ds):
+                           sku_id, external_order_id, ds, try_to_pay=False):
         self._reload()
         failure = {'success':False, 'order_id':None}
         from src.runtime import writes_allowed
@@ -830,7 +838,14 @@ class AliExpressAPIClient:
         if any((self.config.get(flag) or '').lower() != 'true' for flag in
                ('AUTOMATION_LIVE_WRITES', 'ALLOW_ORDER_PURCHASES', 'SUPPLIER_AGREEMENT_CONFIRMED')):
             return dict(failure, error='AliExpress purchases disabled: live-write, purchase and supplier agreement flags must be true')
-        required = ('address', 'city', 'country', 'full_name', 'mobile_no', 'province', 'zip', 'phone_country')
+        # contact_person is a SEPARATE required field from full_name in AliExpress's
+        # official logistics_address schema - omitting it fails live with
+        # error_code=B_DROPSHIPPER_DELIVERY_ADDRESS_VALIDATE_FAIL /
+        # error_msg="Bitte geben Sie einen Kontaktnamen ein." (confirmed live
+        # 2026-11-21). Both fields are required even though they're normally
+        # the same person's name for a direct-to-buyer dropship shipment.
+        required = ('address', 'city', 'country', 'full_name', 'contact_person',
+                    'mobile_no', 'province', 'zip', 'phone_country')
         if not isinstance(shipping_address, dict) or any(not shipping_address.get(k) for k in required):
             return dict(failure, error='Structured AliExpress logistics address is required')
         if shipping_address['country'] != 'DE':
@@ -854,14 +869,30 @@ class AliExpressAPIClient:
                 return dict(failure, error='Verified EUR SKU price unavailable')
             if not product.get('product_title') or not product.get('product_main_image_url'):
                 return dict(failure, error='Product title/image unavailable')
-            if self._number(product.get('shipping_cost')) is None or not product.get('logistics_service_name'):
+            # get_product_details() deliberately never populates shipping_cost
+            # (hardcoded None) - freight is a separate call. Fetch the real
+            # quote now; it is the current best EUR estimate from AliExpress's
+            # own freight.query, same data a human would see, just read via
+            # API instead of a browser. It is labelled an "estimate" (not
+            # postal-code-exact) by that method's own docstring - acceptable
+            # here because the automation gate (this function) only fires
+            # after _vetted()+_finance_plan() checks elsewhere; this call site
+            # is the explicit low-value/manual-opt-in path.
+            try:
+                freight = self.get_shipping_quote(product_id, sku['sku_id'], quantity,
+                                                   ship_to_country=shipping_address['country'])
+            except (AliExpressCapabilityError, AliExpressAPIError) as freight_error:
+                return dict(failure, error=f'Freight quote unavailable: {freight_error}')
+            shipping_cost = self._number(freight.get('cost'))
+            logistics_service_name = freight.get('logistics_service_name')
+            if shipping_cost is None or not logistics_service_name:
                 return dict(failure, error='Verified freight quote unavailable; purchase blocked pending supported shipping schema')
             # Official documented placeorder schema (apiId=35446). Never call
             # order.afterpay. order_memo is correlation only, NOT idempotency.
             body = {'logistics_address':{k:shipping_address[k] for k in required},
                     'product_items':[{'product_id':int(product_id), 'product_count':quantity,
                                       'sku_attr':sku['sku_attr'],
-                                      'logistics_service_name':product['logistics_service_name'],
+                                      'logistics_service_name':logistics_service_name,
                                       'order_memo':str(external_order_id)}]}
             if shipping_address.get('address2'):
                 body['logistics_address']['address2'] = shipping_address['address2']
@@ -871,7 +902,8 @@ class AliExpressAPIClient:
                 body['out_order_id'] = str(external_order_id)
                 params['param_place_order_request4_open_api_d_t_o'] = json.dumps(body, separators=(',', ':'))
                 params['ds_extend_request'] = json.dumps({'payment': {
-                    'try_to_pay': 'false', 'pay_currency': 'EUR'}}, separators=(',', ':'))
+                    'try_to_pay': 'true' if try_to_pay else 'false',
+                    'pay_currency': 'EUR'}}, separators=(',', ':'))
                 method = 'aliexpress.ds.order.create'
             result = self._request(method, params).get('result')
             orders = result.get('order_list') if isinstance(result, dict) else None
@@ -882,7 +914,12 @@ class AliExpressAPIClient:
             if not isinstance(result, dict) or not accepted or not isinstance(orders, list) or len(orders) != 1:
                 return dict(failure, error='Order outcome unknown: reconcile before retrying', uncertain=True)
             order_id = self._product_id(orders[0])
-            return {'success':True, 'order_id':order_id, 'paid':False}
+            # Confirmed only: AliExpress accepted the create request. Whether
+            # try_to_pay actually cleared payment is NOT visible in this
+            # response - never claim 'paid' without an independent order-status
+            # check. Callers needing real payment confirmation must call
+            # get_order_status(order_id) (or equivalent) afterwards.
+            return {'success':True, 'order_id':order_id, 'payment_requested':try_to_pay, 'paid':None}
         except AliExpressAPIError as exc:
             # Writes are never retried automatically: a timeout may mean created.
             return dict(failure, error=str(exc), uncertain=True)

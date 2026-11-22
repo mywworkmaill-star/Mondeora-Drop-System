@@ -589,6 +589,7 @@ class AutamationEngine:
             raise ValueError('Supplier requires an explicit ship-to province; do not fabricate it')
         return dict(address, address=address['addressLine1'], address2=address.get('addressLine2'),
                     city=address['city'], country=address['countryCode'], full_name=address['fullName'],
+                    contact_person=address['fullName'],
                     mobile_no=phone[3:], province=province, zip=address['postalCode'], phone_country='49')
 
     @staticmethod
