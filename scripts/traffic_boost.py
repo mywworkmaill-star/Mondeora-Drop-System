@@ -23,6 +23,8 @@ from datetime import datetime, timedelta
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'src'))
 
+from src.velocity_guard import pace  # throttle bulk writes - see src/velocity_guard.py
+
 BASIS_CAMPAIGN_ID = '169024806017'
 # 2026-11-21 (user-directed "trafik patlamasi" push): raised from 20/35 to
 # 60/65 after confirming live that eBay's real bidPercentage ceiling is at
@@ -92,6 +94,7 @@ def main():
         if not ad:
             # Not promoted at all -> add to BASIS at default bid
             try:
+                pace('ad_bid_update')  # velocity guard - see src/velocity_guard.py
                 ebay._request('POST', f'/sell/marketing/v1/ad_campaign/{BASIS_CAMPAIGN_ID}/ad', json={
                     'listingId': listing_id, 'bidPercentage': str(DEFAULT_BID)
                 })
@@ -104,6 +107,7 @@ def main():
         if views <= LOW_VIEW_THRESHOLD and ad['bid'] < MAX_BID:
             new_bid = min(ad['bid'] + BID_STEP, MAX_BID)
             try:
+                pace('ad_bid_update')  # velocity guard - see src/velocity_guard.py
                 ebay._request(
                     'POST',
                     f"/sell/marketing/v1/ad_campaign/{ad['campaign_id']}/ad/{ad['ad_id']}/update_bid",

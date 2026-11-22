@@ -8,6 +8,7 @@ import stat
 import tempfile
 import threading
 import time
+import traceback
 from datetime import datetime, timedelta, timezone
 from decimal import Decimal, InvalidOperation
 from urllib.parse import quote
@@ -484,7 +485,33 @@ class eBayAPIClient:
         self._fail('Listing not found among Inventory-managed offers; legacy listings require explicit migration')
 
     def end_listing(self, ebay_item_id, reason='OutOfStock'):
-        """Withdraw the matched offer. Inventory withdraw has no reason parameter."""
+        """Withdraw the matched offer. Inventory withdraw has no reason parameter.
+
+        AUDIT TRAIL (added 2026-11-22, after a same-day incident where 33
+        listings ended in a single ~25s window with ZERO trace in sync_logs/
+        audit_log/job_executions/automation_runs -- impossible to determine
+        afterwards whether it was our own code or eBay's own risk system that
+        did it. Root cause turned out to be eBay itself (account restriction
+        email), but the missing trail cost real investigation time and could
+        have hidden a real self-inflicted bug just as easily. Every call here
+        now writes to data/end_listing_audit.log (plain append, survives even
+        if the DB is locked/unavailable) BEFORE attempting the live call, and
+        again with the outcome after - so a crash mid-call still leaves the
+        'attempted' line as forensic evidence.
+        """
+        import datetime as _dt
+        log_path = Path(__file__).resolve().parents[2] / 'data' / 'end_listing_audit.log'
+        caller = traceback.extract_stack()[-2]
+        caller_info = f'{Path(caller.filename).name}:{caller.lineno}'
+        def _log(line):
+            try:
+                log_path.parent.mkdir(parents=True, exist_ok=True)
+                with open(log_path, 'a', encoding='utf-8') as f:
+                    f.write(line + '\n')
+            except OSError:
+                pass  # audit logging must never itself break end_listing
+        ts = _dt.datetime.utcnow().isoformat()
+        _log(f'{ts} ATTEMPT item={ebay_item_id} reason={reason} caller={caller_info}')
         self._require_live()
         self._identifier(ebay_item_id, 'ebay_item_id')
         try:
@@ -494,8 +521,10 @@ class eBayAPIClient:
             result = self._request('POST', self.inventory_path + '/offer/' + quote(offer['offerId'], safe='') + '/withdraw')
             if result.get('listingId') != ebay_item_id:
                 self._fail('eBay withdraw response did not confirm the requested listing')
+            _log(f'{ts} SUCCESS item={ebay_item_id} offerId={offer.get("offerId")} sku={sku}')
             return True
-        except EBayAPIError:
+        except EBayAPIError as exc:
+            _log(f'{ts} FAILED item={ebay_item_id} error={type(exc).__name__}: {exc}')
             return False
 
     def create_inventory_item_group(self, group_key, group_data):
